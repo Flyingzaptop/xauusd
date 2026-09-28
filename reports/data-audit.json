@@ -1,0 +1,214 @@
+{
+  "generated_at_utc": "2026-09-28T19:32:25.767348+00:00",
+  "input": {
+    "path": "data/M1/xauusd_m1.parquet",
+    "bytes": 46110894,
+    "sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+    "parquet_rows": 3505124,
+    "parquet_row_groups": 4,
+    "parquet_created_by": "parquet-cpp-arrow version 23.0.1",
+    "schema": "timestamp: timestamp[ms, tz=UTC]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64",
+    "embedded_metadata_claims": {
+      "source": "cTrader Open API",
+      "symbol": "XAUUSD",
+      "symbol_id": "41",
+      "timeframe": "M1",
+      "timestamp_semantics": "UTC candle open time",
+      "volume_type": "tick volume",
+      "price_digits": "2",
+      "environment": "demo",
+      "downloaded_at_utc": "2026-09-04T13:21:11.858374+00:00"
+    }
+  },
+  "software": {
+    "python": "3.14.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "pyarrow": "23.0.1",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "psutil": "7.2.2"
+  },
+  "compute_resources": {
+    "logical_cpu_count": 16,
+    "physical_memory_bytes": 42569789440,
+    "torch_cuda_available": true,
+    "cuda_device_0": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "cuda_device_0_total_memory_bytes": 6441926656
+  },
+  "observations": {
+    "rows_read": 3505124,
+    "null_counts": {
+      "timestamp": 0,
+      "open": 0,
+      "high": 0,
+      "low": 0,
+      "close": 0,
+      "volume": 0
+    },
+    "first_row_timestamp": "2016-09-04T22:00:00+00:00",
+    "last_row_timestamp": "2026-09-04T13:08:00+00:00",
+    "minimum_timestamp": "2016-09-04T22:00:00+00:00",
+    "maximum_timestamp": "2026-09-04T13:08:00+00:00",
+    "rows_by_utc_year": {
+      "2016": 112478,
+      "2017": 347174,
+      "2018": 347520,
+      "2019": 349435,
+      "2020": 355483,
+      "2021": 354340,
+      "2022": 351421,
+      "2023": 347923,
+      "2024": 350535,
+      "2025": 349790,
+      "2026": 239025
+    },
+    "rows_by_utc_weekday_monday_zero": {
+      "0": 693036,
+      "1": 708448,
+      "2": 706292,
+      "3": 705565,
+      "4": 641486,
+      "6": 50297
+    },
+    "weekend_utc_rows": 50297,
+    "duplicate_timestamp_rows": 0,
+    "duplicate_timestamp_groups": 0,
+    "duplicate_examples": [],
+    "descending_adjacent_pairs": 0,
+    "equal_adjacent_pairs": 0,
+    "non_minute_aligned_timestamps": 0,
+    "positive_non_integer_minute_intervals": 0,
+    "adjacent_interval_minutes_top": [
+      {
+        "minutes": 1,
+        "count": 3498577
+      },
+      {
+        "minutes": 2,
+        "count": 3178
+      },
+      {
+        "minutes": 61,
+        "count": 949
+      },
+      {
+        "minutes": 3,
+        "count": 416
+      },
+      {
+        "minutes": 62,
+        "count": 358
+      },
+      {
+        "minutes": 63,
+        "count": 257
+      },
+      {
+        "minutes": 2941,
+        "count": 222
+      },
+      {
+        "minutes": 122,
+        "count": 219
+      },
+      {
+        "minutes": 121,
+        "count": 196
+      },
+      {
+        "minutes": 4,
+        "count": 151
+      },
+      {
+        "minutes": 2943,
+        "count": 77
+      },
+      {
+        "minutes": 5,
+        "count": 68
+      }
+    ],
+    "gaps_over_one_minute": 6546,
+    "missing_minute_slots_between_adjacent_rows": 1753225,
+    "largest_gaps": [
+      {
+        "after_row_index_zero_based": 1968237,
+        "from": "2022-04-14T20:59:00+00:00",
+        "to": "2022-04-18T12:42:00+00:00",
+        "elapsed_minutes": 5263
+      },
+      {
+        "after_row_index_zero_based": 2212575,
+        "from": "2022-12-23T20:59:00+00:00",
+        "to": "2022-12-26T23:01:00+00:00",
+        "elapsed_minutes": 4442
+      },
+      {
+        "after_row_index_zero_based": 2217850,
+        "from": "2022-12-30T20:59:00+00:00",
+        "to": "2023-01-02T23:01:00+00:00",
+        "elapsed_minutes": 4442
+      },
+      {
+        "after_row_index_zero_based": 2560497,
+        "from": "2023-12-22T20:59:00+00:00",
+        "to": "2023-12-25T23:01:00+00:00",
+        "elapsed_minutes": 4442
+      },
+      {
+        "after_row_index_zero_based": 2565773,
+        "from": "2023-12-29T20:59:00+00:00",
+        "to": "2024-01-01T23:01:00+00:00",
+        "elapsed_minutes": 4442
+      },
+      {
+        "after_row_index_zero_based": 107226,
+        "from": "2016-12-23T20:59:00+00:00",
+        "to": "2016-12-26T23:00:00+00:00",
+        "elapsed_minutes": 4441
+      },
+      {
+        "after_row_index_zero_based": 112477,
+        "from": "2016-12-30T20:59:00+00:00",
+        "to": "2017-01-02T23:00:00+00:00",
+        "elapsed_minutes": 4441
+      },
+      {
+        "after_row_index_zero_based": 454402,
+        "from": "2017-12-22T20:59:00+00:00",
+        "to": "2017-12-25T23:00:00+00:00",
+        "elapsed_minutes": 4441
+      },
+      {
+        "after_row_index_zero_based": 459651,
+        "from": "2017-12-29T20:59:00+00:00",
+        "to": "2018-01-01T23:00:00+00:00",
+        "elapsed_minutes": 4441
+      },
+      {
+        "after_row_index_zero_based": 2308486,
+        "from": "2023-04-06T20:59:00+00:00",
+        "to": "2023-04-09T22:04:00+00:00",
+        "elapsed_minutes": 4385
+      }
+    ],
+    "nonfinite_price_rows": 0,
+    "nonpositive_price_rows": 0,
+    "ohlc_envelope_violations": 0,
+    "ohlc_envelope_examples": [],
+    "zero_volume_rows": 0,
+    "negative_volume_rows": 0,
+    "volume_min": 1,
+    "volume_max": 961,
+    "price_min": 1122.87,
+    "price_max": 5595.82
+  },
+  "interpretation_limits": [
+    "Parquet metadata declares the source, instrument, timestamp semantics and volume type; this audit cannot independently authenticate those claims.",
+    "UTC weekend gaps may be normal market closures. Missing minute slots are counts between stored rows, not independently confirmed missing provider data.",
+    "Prior model tuning or data exposure is unknown. Any later chronological test interval is only nominally held out until that history is established."
+  ]
+}
