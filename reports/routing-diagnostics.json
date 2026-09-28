@@ -1,0 +1,41 @@
+{
+  "scope": "Post-evaluation descriptive diagnostics; train windows only; no tuning",
+  "thresholds": [
+    0.00023180482060070062,
+    0.00046360964120140125,
+    0.0009272192824028025
+  ],
+  "windows": 4096,
+  "observations": 262144,
+  "active_fraction": [
+    0.9127082824707031,
+    0.8289947509765625,
+    0.7013626098632812
+  ],
+  "closure_count": [
+    15629,
+    14558,
+    12579
+  ],
+  "open_at_final_readout_fraction": [
+    0.919189453125,
+    0.859130859375,
+    0.74560546875
+  ],
+  "transfers": [
+    {
+      "child_scale": 0,
+      "parent_scale": 1,
+      "child_closures": 15629,
+      "accepted_by_active_parent": 11446,
+      "discarded_by_idle_parent": 4183
+    },
+    {
+      "child_scale": 1,
+      "parent_scale": 2,
+      "child_closures": 14558,
+      "accepted_by_active_parent": 9476,
+      "discarded_by_idle_parent": 5082
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "code_commit": "a8d7f4c88e92dd3171c4173d01562d52e5d5a682",
+  "local_root": "C:\\Users\\r3d_flzp\\Desktop\\xauusd",
+  "retrieval": "Owner local workspace, or regenerate using docs/reproduction.md",
+  "artifacts": [
+    {
+      "path": "artifacts/crossing-memory-v1/A-17.pt",
+      "bytes": 11505,
+      "sha256": "24e9a04e9d299950217bdb80fa0dc746620c920a4eb0d0a9b47bb8d70a517101"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/A-29.pt",
+      "bytes": 11505,
+      "sha256": "45433bf5c607b1eef8ec93500a2a5138d4d1a987ee79e3c8bda1e0e3d6f6744d"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/A-43.pt",
+      "bytes": 11505,
+      "sha256": "dfcb11dbd73d32fd18b13850814fa4257ad7a10b9aff538b21ec46a421ca4036"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/B-17.pt",
+      "bytes": 16689,
+      "sha256": "17ee165c8a973618c7138ec55b381376ec99a08bef4ca8d535f6bf69e501bde4"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/B-29.pt",
+      "bytes": 16689,
+      "sha256": "61c8d52e30c0ee8c0711c84242c0fc45f93b67841ac76f6fe34f2df49b8f3011"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/B-43.pt",
+      "bytes": 16689,
+      "sha256": "7871c73a73ba10f9f7c81e4b7ec10a9ab5c193119ae9c20cdd99d89daf7c4ed1"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C-17.pt",
+      "bytes": 45945,
+      "sha256": "297bea7d5343cacfed14e0405718c0cdf2a0b2cf4d7633a09e6a7c87cd2a5fe8"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C-29.pt",
+      "bytes": 45945,
+      "sha256": "4bc0c806adc02821605a51405a43c8a1d7b992517863b4dffe0c8fb35d4a9436"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C-43.pt",
+      "bytes": 45945,
+      "sha256": "9866f886d51e2856b79d087183a52ac1030c31be934b9ce87708a12abb0e3397"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_open-17.pt",
+      "bytes": 47433,
+      "sha256": "6a08a8b3534478a5a443501d56ead85af90303cadbcf53cefec4b14ecb8f6c6b"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_open-29.pt",
+      "bytes": 47433,
+      "sha256": "7364468c09d03fab74f19bc368aab29e35df711e35c83b1eb0ffc9ce288f9ca4"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_open-43.pt",
+      "bytes": 47433,
+      "sha256": "4b89d786d9e5e3d262311c22f1d09a55e85aab51a396d50f0f1cc72ad9fcfc91"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_transfer-17.pt",
+      "bytes": 47601,
+      "sha256": "75de9a8ae1ac8a1f84ba65e840104cb31da3c4aedee4378db8dcef819ac8c60c"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_transfer-29.pt",
+      "bytes": 47601,
+      "sha256": "c1d707afa4ad1cfd3342b3c3122fa185ebb3a49dd626af17caf36b3c46d4ed40"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/C_no_transfer-43.pt",
+      "bytes": 47601,
+      "sha256": "b8c4417b83688b601e7f479e0e1bb36cf0d1a53875641bd5fb00726427537089"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/fit.json",
+      "bytes": 18066,
+      "sha256": "aaf495a0f0ab29fdf3bf4e35d44c38bf1b286651953932d41539630b1c48c5ac"
+    },
+    {
+      "path": "artifacts/crossing-memory-v1/test_predictions.npz",
+      "bytes": 216693,
+      "sha256": "a2b33e067ce55efe7a0bb749331414a5979dc8882c9cdfdc8d339e3f5b369e7a"
+    }
+  ]
+}

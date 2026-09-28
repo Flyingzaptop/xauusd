@@ -1,6 +1,15 @@
 # XAUUSD
 
-Research workspace for XAUUSD market data. Initialized on 2026-09-28; awaiting the first plan from Astra.
+Research workspace for XAUUSD market data. The first bounded Crossing Memory experiment is implemented on branch `crossing-memory-v1` for review by Astra.
+
+## Crossing Memory v1
+
+- [Acceptance report](reports/crossing-memory-v1.md): full results, negative findings and limitations.
+- [Frozen experiment protocol](docs/experiment-protocol.md) and [operator specification](docs/operator.md).
+- [M1 audit](docs/data-audit.md), [reproduction commands](docs/reproduction.md) and [synthetic protocol](docs/synthetic.md).
+- Machine-readable [market metrics](reports/market_metrics.json), [CSV](reports/market_metrics.csv), [synthetic metrics](reports/synthetic_metrics.json), and [local artifact manifest](reports/artifact-manifest.json).
+
+Run checks with `python -m pytest -q`. This stage uses only M1; predictive scores are not a claim of trading profitability. The initial file inventory below describes the workspace at bootstrap.
 
 ## Local data
 
