@@ -1,0 +1,273 @@
+{
+  "kind": "throwaway_synthetic_preflight_not_market_training",
+  "config_sha256": "1d81163949fe2b9634910d62e525efcfbce8cc71d1ac2f07feca493af5784f9b",
+  "source_sha256": {
+    "stream_models_v3": "56874654684d59d8d095902cb222b2b55e4fac77650db49cfd1d157ce4f9be36",
+    "crossing_memory_v2": "f90f4c92b626eeff9eed95d3c814d62aa5588501e3e870911dd41a9059a53b01",
+    "preflight_script": "414c06eb4c38743145e54625d66befcf4f47f439c138c4631dc5f96f58a84cce"
+  },
+  "versions": {
+    "python": "3.14.3",
+    "numpy": "2.4.3",
+    "torch": "2.10.0+cu128",
+    "torch_threads": 1
+  },
+  "synthetic_input": {
+    "log_close_step_std": 0.65,
+    "thresholds": [
+      6,
+      3,
+      1
+    ],
+    "metadata_signed_log1p_channels": [
+      2,
+      5
+    ],
+    "metadata_log1p_channels": [
+      3
+    ],
+    "metadata_center": [
+      0,
+      2,
+      0,
+      0.8,
+      0.3,
+      0
+    ],
+    "metadata_scale": [
+      1,
+      1.5,
+      1.5,
+      1,
+      1,
+      0.8
+    ],
+    "metadata_clip": 8.0,
+    "labels": "independent Bernoulli(0.5)"
+  },
+  "matched_widths": {
+    "a": 51,
+    "b": 35,
+    "c": 16,
+    "a_parameters": 8773,
+    "b_parameters": 8541,
+    "c_parameters": 8657
+  },
+  "benchmark": {
+    "a": {
+      "parameters": 8773,
+      "warmup_chunks": 2,
+      "measured_chunks": 5,
+      "batch_size": 16,
+      "chunk_length": 128,
+      "seconds_per_chunk": [
+        0.058537199976854026,
+        0.07395340001676232,
+        0.06558400008361787,
+        0.07882719999179244,
+        0.11430519993882626
+      ],
+      "mean_seconds_per_chunk": 0.07824140000157058,
+      "median_seconds_per_chunk": 0.07395340001676232,
+      "observations_per_second": 26175.40074639372,
+      "eval_forward_only_seconds_per_chunk": [
+        0.020467999973334372,
+        0.02400510001461953,
+        0.02157540002372116,
+        0.02561250003054738,
+        0.02557440008968115
+      ],
+      "eval_forward_only_median_seconds_per_chunk": 0.02400510001461953,
+      "preclip_gradient_norm_range": [
+        0.011238238774240017,
+        0.04219352453947067
+      ],
+      "state_nonzero_on_all_chunk_boundaries": true
+    },
+    "b": {
+      "parameters": 8541,
+      "warmup_chunks": 2,
+      "measured_chunks": 5,
+      "batch_size": 16,
+      "chunk_length": 128,
+      "seconds_per_chunk": [
+        0.11825109994970262,
+        0.11764419998507947,
+        0.11061269999481738,
+        0.10086680005770177,
+        0.08381390001159161
+      ],
+      "mean_seconds_per_chunk": 0.10623773999977856,
+      "median_seconds_per_chunk": 0.11061269999481738,
+      "observations_per_second": 19277.518516529708,
+      "eval_forward_only_seconds_per_chunk": [
+        0.03871449991129339,
+        0.04825019999407232,
+        0.04590889997780323,
+        0.04809830000158399,
+        0.04929480003193021
+      ],
+      "eval_forward_only_median_seconds_per_chunk": 0.04809830000158399,
+      "preclip_gradient_norm_range": [
+        0.02403055503964424,
+        0.08855853229761124
+      ],
+      "state_nonzero_on_all_chunk_boundaries": true
+    },
+    "c": {
+      "parameters": 8657,
+      "warmup_chunks": 2,
+      "measured_chunks": 5,
+      "batch_size": 16,
+      "chunk_length": 128,
+      "seconds_per_chunk": [
+        0.8685679000336677,
+        0.8068749000085518,
+        0.7331684000091627,
+        0.6134338999399915,
+        0.63042449997738
+      ],
+      "mean_seconds_per_chunk": 0.7304939199937508,
+      "median_seconds_per_chunk": 0.7331684000091627,
+      "observations_per_second": 2803.582540450878,
+      "eval_forward_only_seconds_per_chunk": [
+        0.2280340000288561,
+        0.25206229998730123,
+        0.23232219996862113,
+        0.2663460000185296,
+        0.24968180002178997
+      ],
+      "eval_forward_only_median_seconds_per_chunk": 0.24968180002178997,
+      "preclip_gradient_norm_range": [
+        0.07858947664499283,
+        0.35633328557014465
+      ],
+      "state_nonzero_on_all_chunk_boundaries": true
+    },
+    "no_transfer": {
+      "parameters": 8657,
+      "warmup_chunks": 2,
+      "measured_chunks": 5,
+      "batch_size": 16,
+      "chunk_length": 128,
+      "seconds_per_chunk": [
+        0.7334908999036998,
+        0.7524036000249907,
+        0.6827793000265956,
+        0.6346588999731466,
+        0.5871977000497282
+      ],
+      "mean_seconds_per_chunk": 0.6781060799956322,
+      "median_seconds_per_chunk": 0.6827793000265956,
+      "observations_per_second": 3020.1764302322604,
+      "eval_forward_only_seconds_per_chunk": [
+        0.19477579998783767,
+        0.2101255999878049,
+        0.18896870000753552,
+        0.18711560009978712,
+        0.19204530003480613
+      ],
+      "eval_forward_only_median_seconds_per_chunk": 0.19204530003480613,
+      "preclip_gradient_norm_range": [
+        0.17240332067012787,
+        0.2569391131401062
+      ],
+      "state_nonzero_on_all_chunk_boundaries": true
+    },
+    "no_open": {
+      "parameters": 8657,
+      "warmup_chunks": 2,
+      "measured_chunks": 5,
+      "batch_size": 16,
+      "chunk_length": 128,
+      "seconds_per_chunk": [
+        0.7239858000539243,
+        0.889286500052549,
+        0.815673099947162,
+        0.7348351998953149,
+        0.6947303999913856
+      ],
+      "mean_seconds_per_chunk": 0.7717021999880671,
+      "median_seconds_per_chunk": 0.7348351998953149,
+      "observations_per_second": 2653.8734761047313,
+      "eval_forward_only_seconds_per_chunk": [
+        0.23759679996874183,
+        0.1928368000080809,
+        0.18328679993283004,
+        0.184733200003393,
+        0.1907257999991998
+      ],
+      "eval_forward_only_median_seconds_per_chunk": 0.1907257999991998,
+      "preclip_gradient_norm_range": [
+        0.0753680020570755,
+        0.2021903693675995
+      ],
+      "state_nonzero_on_all_chunk_boundaries": true
+    }
+  },
+  "long_stability": {
+    "variant": "c",
+    "ticks": 16384,
+    "batch_size": 1,
+    "chunk_length": 128,
+    "chunks": 128,
+    "real_gap_resets": 0,
+    "first_tick_reset_only": true,
+    "optimizer_steps": 0,
+    "weights_fixed": true,
+    "carried_nonzero_boundaries": 127,
+    "max_abs_gru_hidden": 0.9999537467956543,
+    "max_abs_tree_hidden": 0.9997551441192627,
+    "log10_1p_max_abs_hidden": 0.3010199517921316,
+    "preclip_gradient_norm_range": [
+      0.027194609865546227,
+      0.8208193778991699
+    ],
+    "all_states_and_gradients_finite": true,
+    "mean_seconds_per_chunk": 0.539089401563615,
+    "total_seconds": 69.00344340014271
+  },
+  "real_train_input_stability": {
+    "source": "prepared train cache only",
+    "cache_train_sha256": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c",
+    "rows": 16384,
+    "first_timestamp_utc_seconds": 1704150060,
+    "last_timestamp_utc_seconds": 1705571400,
+    "actual_reset_count": 17,
+    "dummy_labels": "independent Bernoulli(0.5); stored train labels unused",
+    "optimizer_steps": 0,
+    "weights_fixed": true,
+    "chunks": 128,
+    "carried_nonzero_boundaries": 127,
+    "max_abs_gru_hidden": 0.9889364242553711,
+    "max_abs_tree_hidden": 0.955162763595581,
+    "log10_1p_max_abs_hidden": 0.2986209012559828,
+    "preclip_gradient_norm_range": [
+      0.015011494979262352,
+      0.6664544343948364
+    ],
+    "all_states_and_gradients_finite": true,
+    "mean_seconds_per_chunk": 0.5360033617225781,
+    "total_seconds": 68.60843030049
+  },
+  "train_packer": {
+    "train_rows": 522437,
+    "train_valid_labels": 491102,
+    "train_segments": 462,
+    "train_chunks_per_epoch": 294,
+    "epochs": 4,
+    "seeds": 3,
+    "models": 5,
+    "total_expected_optimizer_updates": 17640
+  },
+  "rough_serial_train_seconds_by_variant_from_synthetic_timing": {
+    "a": 276.03565920554104,
+    "b": 374.8067467192188,
+    "c": 2577.1825497379527,
+    "no_transfer": 2392.3582502245904,
+    "no_open": 2722.565361557901
+  },
+  "rough_serial_train_seconds_all_variants": 8342.948567445204,
+  "wall_seconds": 161.20985560002737,
+  "limitation": "Synthetic routing and fixed-scale normalization measure throughput and numeric stability only. Timing may include contention from other local work; no market accuracy is measured."
+}

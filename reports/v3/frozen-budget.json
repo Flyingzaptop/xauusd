@@ -1,0 +1,227 @@
+{
+  "generated_utc": "2026-09-29T15:09:31.500334+00:00",
+  "status": "frozen_before_market_fitting",
+  "configuration": {
+    "batch_size": 16,
+    "chunk_length": 128,
+    "epochs": 4,
+    "seeds": [
+      7,
+      19,
+      43
+    ],
+    "models": [
+      "a",
+      "b",
+      "c",
+      "no_transfer",
+      "no_open"
+    ]
+  },
+  "matched_widths": {
+    "a": 51,
+    "b": 35,
+    "c": 16,
+    "a_parameters": 8773,
+    "b_parameters": 8541,
+    "c_parameters": 8657
+  },
+  "model_parameters": {
+    "a": 8773,
+    "b": 8541,
+    "c": 8657,
+    "no_transfer": 8657,
+    "no_open": 8657
+  },
+  "splits": {
+    "train": {
+      "rows": 522437,
+      "segments": 462,
+      "supervised_rows": 491102,
+      "unsupervised_input_rows": 31335,
+      "total_chunks": 294,
+      "chunks_with_valid_labels": 294,
+      "chunks_without_valid_labels": 0,
+      "optimizer_updates_per_epoch": 294,
+      "padded_slots": 79675,
+      "lane_observation_counts": [
+        31107,
+        32576,
+        33656,
+        37600,
+        35255,
+        33104,
+        35876,
+        34168,
+        29519,
+        33750,
+        32588,
+        29334,
+        26365,
+        32039,
+        32884,
+        32616
+      ],
+      "exactly_once_coverage_verified": true,
+      "valid_labels_exactly_once_verified": true,
+      "cache_sha256": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c"
+    },
+    "validation": {
+      "rows": 177888,
+      "segments": 165,
+      "supervised_rows": 167691,
+      "unsupervised_input_rows": 10197,
+      "total_chunks": 108,
+      "chunks_with_valid_labels": 108,
+      "chunks_without_valid_labels": 0,
+      "optimizer_updates_per_epoch": 108,
+      "padded_slots": 43296,
+      "lane_observation_counts": [
+        8105,
+        10977,
+        11769,
+        12632,
+        13729,
+        12350,
+        12140,
+        12407,
+        10886,
+        10246,
+        11205,
+        12342,
+        10970,
+        9499,
+        9487,
+        9144
+      ],
+      "exactly_once_coverage_verified": true,
+      "valid_labels_exactly_once_verified": true,
+      "cache_sha256": "26ec7ff2f72eeba04cbb4742feb808f885bba5ef0895f956973b2271d1234c64"
+    },
+    "evaluation": {
+      "rows": 234102,
+      "segments": 188,
+      "supervised_rows": 221343,
+      "unsupervised_input_rows": 12759,
+      "total_chunks": 119,
+      "chunks_with_valid_labels": 119,
+      "chunks_without_valid_labels": 0,
+      "optimizer_updates_per_epoch": 119,
+      "padded_slots": 9610,
+      "lane_observation_counts": [
+        15094,
+        14862,
+        15102,
+        15098,
+        14947,
+        15102,
+        15098,
+        14862,
+        15096,
+        15093,
+        15154,
+        13750,
+        13777,
+        13777,
+        13720,
+        13570
+      ],
+      "exactly_once_coverage_verified": true,
+      "valid_labels_exactly_once_verified": true,
+      "cache_sha256": "fa491f0e14a16976a64c610030166e33c7fed3e21ad35d0fe46e32466e90ea43"
+    }
+  },
+  "volume": {
+    "epochs_per_fit": 4,
+    "seeds": [
+      7,
+      19,
+      43
+    ],
+    "models": [
+      "a",
+      "b",
+      "c",
+      "no_transfer",
+      "no_open"
+    ],
+    "fits": 15,
+    "optimizer_updates_per_fit": 1176,
+    "total_optimizer_updates": 17640,
+    "training_chunks_processed_per_fit": 1176,
+    "total_training_chunks_processed": 17640,
+    "raw_training_observation_visits": 31346220,
+    "supervised_label_visits": 29466120,
+    "validation_forward_chunks_per_fit": 432,
+    "total_validation_forward_chunks": 6480,
+    "evaluation_forward_chunks_per_fit": 119,
+    "total_evaluation_forward_chunks": 1785
+  },
+  "runtime_estimate": {
+    "method": "measured synthetic training and separate forward-only chunk rates; legacy proxy key names retained",
+    "limitation": "Cache/metric/checkpoint overhead and concurrent load vary; estimates are planning proxies, not guaranteed upper bounds or deadlines.",
+    "by_model": {
+      "a": {
+        "median_measured_training_seconds_per_chunk": 0.07395340001676232,
+        "median_measured_forward_seconds_per_chunk": 0.02400510001461953,
+        "estimated_training_seconds": 260.90759525913745,
+        "validation_forward_seconds_at_training_chunk_rate": 31.11060961894691,
+        "evaluation_forward_seconds_at_training_chunk_rate": 8.569820705219172,
+        "estimated_total_seconds_at_training_chunk_rate": 300.58802558330353
+      },
+      "b": {
+        "median_measured_training_seconds_per_chunk": 0.11061269999481738,
+        "median_measured_forward_seconds_per_chunk": 0.04809830000158399,
+        "estimated_training_seconds": 390.2416055817157,
+        "validation_forward_seconds_at_training_chunk_rate": 62.335396802052855,
+        "evaluation_forward_seconds_at_training_chunk_rate": 17.171093100565486,
+        "estimated_total_seconds_at_training_chunk_rate": 469.74809548433404
+      },
+      "c": {
+        "median_measured_training_seconds_per_chunk": 0.7331684000091627,
+        "median_measured_forward_seconds_per_chunk": 0.24968180002178997,
+        "estimated_training_seconds": 2586.618115232326,
+        "validation_forward_seconds_at_training_chunk_rate": 323.5876128282398,
+        "evaluation_forward_seconds_at_training_chunk_rate": 89.13640260777902,
+        "estimated_total_seconds_at_training_chunk_rate": 2999.342130668345
+      },
+      "no_transfer": {
+        "median_measured_training_seconds_per_chunk": 0.6827793000265956,
+        "median_measured_forward_seconds_per_chunk": 0.19204530003480613,
+        "estimated_training_seconds": 2408.8453704938293,
+        "validation_forward_seconds_at_training_chunk_rate": 248.89070884510875,
+        "evaluation_forward_seconds_at_training_chunk_rate": 68.56017211242579,
+        "estimated_total_seconds_at_training_chunk_rate": 2726.296251451364
+      },
+      "no_open": {
+        "median_measured_training_seconds_per_chunk": 0.7348351998953149,
+        "median_measured_forward_seconds_per_chunk": 0.1907257999991998,
+        "estimated_training_seconds": 2592.498585230671,
+        "validation_forward_seconds_at_training_chunk_rate": 247.18063679896295,
+        "evaluation_forward_seconds_at_training_chunk_rate": 68.08911059971433,
+        "estimated_total_seconds_at_training_chunk_rate": 2907.768332629348
+      }
+    },
+    "training_seconds": 8239.11127179768,
+    "validation_forward_seconds_proxy": 913.1049648933113,
+    "evaluation_forward_seconds_proxy": 251.5265991257038,
+    "sum_seconds_proxy": 9403.742835816694,
+    "sum_hours_proxy": 2.6121507877268595,
+    "sum_plus_20_percent_overhead_seconds": 11284.491402980033,
+    "sum_plus_20_percent_overhead_hours": 3.1345809452722313
+  },
+  "provenance": {
+    "git_commit_at_freeze": "e4559e62748b919a02c841dc5d3804e9c391b4ea",
+    "config_sha256": "1d81163949fe2b9634910d62e525efcfbce8cc71d1ac2f07feca493af5784f9b",
+    "prepared_data_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+    "data_preflight_sha256": "787d9e848fbf7583b143168b59d8b5f2e337f396fd9082aa5ac2e338a9765304",
+    "speed_preflight_sha256": "b1fe6c9584ed4a2341d29196f7e0340e88f346b60d008ec2f3db6fc9e949b03e",
+    "source_sha256": {
+      "src\\stream_batch_v3.py": "bde4477417fc72cd9a06be0f8db23c33deaf19170d0b3faaa84bdf1b42c47e74",
+      "src\\stream_models_v3.py": "56874654684d59d8d095902cb222b2b55e4fac77650db49cfd1d157ce4f9be36",
+      "src\\crossing_memory_v2.py": "f90f4c92b626eeff9eed95d3c814d62aa5588501e3e870911dd41a9059a53b01",
+      "scripts\\run_market_v3.py": "907720ff53631e2b3979ee62f9737cbd99fc492bdcd130df626d9bfb9596e333",
+      "scripts\\freeze_market_v3_budget.py": "d6235edb65498b127854b6c465f7b318672d7c9face58c4efb1b82c93d878add"
+    }
+  }
+}
