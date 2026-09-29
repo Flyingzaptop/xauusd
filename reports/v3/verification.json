@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "scope": "exposed exploratory evaluation; not independent confirmation",
+  "frozen_source_commit": "2c4da15e33bcd2c8527fae68230f325bc953499f",
+  "config_sha256": "1d81163949fe2b9634910d62e525efcfbce8cc71d1ac2f07feca493af5784f9b",
+  "fit_count": 15,
+  "optimizer_updates_verified": 17640,
+  "supervised_train_rows_per_epoch_per_fit": 491102,
+  "fit_records": [
+    {
+      "model": "a",
+      "seed": 7,
+      "best_epoch": 1,
+      "checkpoint_sha256": "425100d0c5c5c6d1da32be9fdeafc33a3b5c48a2b495e49f3ef08a743d0ccbf3"
+    },
+    {
+      "model": "a",
+      "seed": 19,
+      "best_epoch": 1,
+      "checkpoint_sha256": "55a27c07d0b3a892ab635d8beefc195149938021ecc156eebb590b40675dc630"
+    },
+    {
+      "model": "a",
+      "seed": 43,
+      "best_epoch": 2,
+      "checkpoint_sha256": "88fdf17866ea4e072fd138cd05eeb996c68080ff2d414ea4c4fea98a5634b093"
+    },
+    {
+      "model": "b",
+      "seed": 7,
+      "best_epoch": 4,
+      "checkpoint_sha256": "dbd77299a70847c13ee75e67d52cb6605c02802d0351047faa7a3efad6f15e7d"
+    },
+    {
+      "model": "b",
+      "seed": 19,
+      "best_epoch": 4,
+      "checkpoint_sha256": "86e52ddba69bd1487a93004f46405ad025145295a59737f18bb59246d5f76f2d"
+    },
+    {
+      "model": "b",
+      "seed": 43,
+      "best_epoch": 4,
+      "checkpoint_sha256": "b031d486729a988db2690e42f9c9cbed29560165cc173c1c9cf916c05e36aec7"
+    },
+    {
+      "model": "c",
+      "seed": 7,
+      "best_epoch": 4,
+      "checkpoint_sha256": "ffe00209dd6778f9efd7c504a631e593e92a3e526d4fdfd17aaa0829ea9372b7"
+    },
+    {
+      "model": "c",
+      "seed": 19,
+      "best_epoch": 4,
+      "checkpoint_sha256": "5b609b3c6d815561f283ed45d5f4f7504e73121e3a4ab0ef65390621eaf7592a"
+    },
+    {
+      "model": "c",
+      "seed": 43,
+      "best_epoch": 4,
+      "checkpoint_sha256": "0f8da53b1005b81ce544f5ef57961404dd6714a7c93182d2c715845b3ad1d9c4"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 7,
+      "best_epoch": 4,
+      "checkpoint_sha256": "ecd6dd004c587455c6b3a862fb53cefb6c6f6c8e87f5f90822a75df6e0a0cd5e"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 19,
+      "best_epoch": 4,
+      "checkpoint_sha256": "fa4a3a4d2227ecc3eb2ba174e4ddea7358108d4287b7f53084e2231cb091ce3b"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 43,
+      "best_epoch": 4,
+      "checkpoint_sha256": "2d4435eef45f99ab0cf3216633428cebcc3ae0b356e6ac37a32621be28588932"
+    },
+    {
+      "model": "no_open",
+      "seed": 7,
+      "best_epoch": 4,
+      "checkpoint_sha256": "c5ff1af072db447f11447c0811cb565d222b634c33c240700f10f1bcd5fb6484"
+    },
+    {
+      "model": "no_open",
+      "seed": 19,
+      "best_epoch": 4,
+      "checkpoint_sha256": "f906bfc379a3e6162b47b619135f48b7f69c629b80aef170461f410fa58e167a"
+    },
+    {
+      "model": "no_open",
+      "seed": 43,
+      "best_epoch": 4,
+      "checkpoint_sha256": "79f0a7dc7a9742941add6bc740d06ae4b2fffb836ada845be525ff4d9a28d548"
+    }
+  ],
+  "evaluation": {
+    "prediction_npz_sha256": "2bba085e4080ffa88d53b7b84786953953df6a61efd88c7078a890bd17080b1b",
+    "rows": 221343,
+    "sorted_unique_timestamps": true,
+    "model_probability_arrays": 15,
+    "months": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08"
+    ],
+    "month_counts": {
+      "2026-01": 27226,
+      "2026-02": 25924,
+      "2026-03": 28033,
+      "2026-04": 27376,
+      "2026-05": 27227,
+      "2026-06": 28444,
+      "2026-07": 29692,
+      "2026-08": 27421
+    },
+    "metric_rows_recomputed": 144,
+    "calibration_counts_recomputed": true,
+    "paired_weekly_contrasts_recomputed": 10,
+    "constant_train_probability": 0.5091243982315063
+  },
+  "protected_v1_v2": {
+    "base_commit": "e4559e62748b919a02c841dc5d3804e9c391b4ea",
+    "tracked_diff_empty": true,
+    "working_diff_empty": true,
+    "manifests": [
+      {
+        "path": "reports/artifact-manifest.json",
+        "sha256": "b975f9add110da67447dd73a04e058385e19148559824446a75354493b4407d2",
+        "artifacts_verified": 17
+      },
+      {
+        "path": "reports/v2/artifact-manifest.json",
+        "sha256": "6a49ca8c06ee1208154a529b14c614b3cebb4f16e14420f72665cdf63c5594f9",
+        "artifacts_verified": 54
+      }
+    ]
+  },
+  "verifier_sha256": "19cc28413b410ba86d0328e908fec68b3a7e7db0b2c55ea6d6ee706391a37359"
+}

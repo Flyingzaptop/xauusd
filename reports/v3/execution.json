@@ -1,0 +1,82 @@
+{
+  "workers": 5,
+  "process_threads": 1,
+  "wall_seconds": 1786.5768303871155,
+  "completed": [
+    {
+      "model": "no_transfer",
+      "seed": 19,
+      "log": "artifacts\\market-v3\\logs\\no_transfer-19.log"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 7,
+      "log": "artifacts\\market-v3\\logs\\no_transfer-7.log"
+    },
+    {
+      "model": "c",
+      "seed": 19,
+      "log": "artifacts\\market-v3\\logs\\c-19.log"
+    },
+    {
+      "model": "c",
+      "seed": 43,
+      "log": "artifacts\\market-v3\\logs\\c-43.log"
+    },
+    {
+      "model": "c",
+      "seed": 7,
+      "log": "artifacts\\market-v3\\logs\\c-7.log"
+    },
+    {
+      "model": "a",
+      "seed": 7,
+      "log": "artifacts\\market-v3\\logs\\a-7.log"
+    },
+    {
+      "model": "a",
+      "seed": 19,
+      "log": "artifacts\\market-v3\\logs\\a-19.log"
+    },
+    {
+      "model": "a",
+      "seed": 43,
+      "log": "artifacts\\market-v3\\logs\\a-43.log"
+    },
+    {
+      "model": "b",
+      "seed": 7,
+      "log": "artifacts\\market-v3\\logs\\b-7.log"
+    },
+    {
+      "model": "b",
+      "seed": 19,
+      "log": "artifacts\\market-v3\\logs\\b-19.log"
+    },
+    {
+      "model": "b",
+      "seed": 43,
+      "log": "artifacts\\market-v3\\logs\\b-43.log"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 43,
+      "log": "artifacts\\market-v3\\logs\\no_transfer-43.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 7,
+      "log": "artifacts\\market-v3\\logs\\no_open-7.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 19,
+      "log": "artifacts\\market-v3\\logs\\no_open-19.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 43,
+      "log": "artifacts\\market-v3\\logs\\no_open-43.log"
+    }
+  ]
+}
