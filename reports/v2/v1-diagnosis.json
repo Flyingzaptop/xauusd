@@ -1,0 +1,93 @@
+{
+  "generated_utc": "2026-09-29T06:10:31.255249+00:00",
+  "git_commit": "f2bc339f47b0d7d2022d880168982823f25ed954",
+  "v1_generator_sha256": "197f3eb688b4514f29e9ddd0d71f372c83fe7e14a66d2e1d3c8124dcd652196c",
+  "diagnostic_sha256": "1ca06a8f9406aaed6d8a08db388a6f321c06f88de7828b6b29173ea98619b0ff",
+  "method": "independent integer-log-increment parser; exact derivation enumeration",
+  "sampled": {
+    "seed_count": 20,
+    "paths_per_seed": 200,
+    "paths": 4000,
+    "full": {
+      "label_1_only": 2022,
+      "label_0_only": 1978
+    },
+    "open": {
+      "label_1_only": 2022,
+      "label_0_only": 1978
+    },
+    "maximum_rounding_error_steps": 2.2035877677240023e-05,
+    "examples": []
+  },
+  "original_run": {
+    "datasets": [
+      {
+        "seed": 7,
+        "split": "train",
+        "paths": 320,
+        "sha256": "f92e7f5e0afb3742d724b54cecc915464a4365ff70cbfc3d02eee692bada2ee2",
+        "unique_correct_decodes": 320
+      },
+      {
+        "seed": 7,
+        "split": "test",
+        "paths": 160,
+        "sha256": "a0a6184069fb5362504aeab50c09a91dd284ca8553a5332a8c52711317f22a3a",
+        "unique_correct_decodes": 160
+      },
+      {
+        "seed": 19,
+        "split": "train",
+        "paths": 320,
+        "sha256": "7731c9a72b769501b9bad3ce040c874370e199f4318de7eb41b0941824298db1",
+        "unique_correct_decodes": 320
+      },
+      {
+        "seed": 19,
+        "split": "test",
+        "paths": 160,
+        "sha256": "309fd4e586bc4f7b827d55488a3d64d59cc7518c2469472eef0051121d066c69",
+        "unique_correct_decodes": 160
+      },
+      {
+        "seed": 43,
+        "split": "train",
+        "paths": 320,
+        "sha256": "5aed8a8c65161e5419f360efdf1b45585d5d7aa6e60a63749e8ebb559f316f0e",
+        "unique_correct_decodes": 320
+      },
+      {
+        "seed": 43,
+        "split": "test",
+        "paths": 160,
+        "sha256": "82b612158078da390944dae0a66de7955110d0025949677e7917f84d8e4bc4b7",
+        "unique_correct_decodes": 160
+      }
+    ],
+    "total_paths": 1440,
+    "total_unique_correct_decodes": 1440
+  },
+  "exhaustive": {
+    "derivations": 1081344,
+    "expected_derivations": 1081344,
+    "weighted_expected_mass": 967458816,
+    "full": {
+      "distinct_paths": 1081344,
+      "ambiguous_label_paths": 0,
+      "weighted_label_0_mass": 483729408,
+      "weighted_label_1_mass": 483729408,
+      "weighted_total_mass": 967458816,
+      "bayes_error": 0.0,
+      "bayes_accuracy": 1.0
+    },
+    "open_prefix": {
+      "distinct_paths": 327696,
+      "ambiguous_label_paths": 0,
+      "weighted_label_0_mass": 483729408,
+      "weighted_label_1_mass": 483729408,
+      "weighted_total_mass": 967458816,
+      "bayes_error": 0.0,
+      "bayes_accuracy": 1.0
+    }
+  }
+}

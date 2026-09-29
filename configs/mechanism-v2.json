@@ -1,0 +1,24 @@
+{
+  "seeds": [7, 19, 43],
+  "thresholds": [6, 3, 1],
+  "train_size": 128,
+  "validation_size": 64,
+  "test_size": 128,
+  "hidden_dim": 16,
+  "head_dim": 32,
+  "epochs": 80,
+  "tiny_epochs": 300,
+  "tiny_size": 16,
+  "batch_size": 128,
+  "learning_rate": 0.003,
+  "gradient_clip": 5.0,
+  "threads": 1,
+  "tasks": {
+    "tiny_hard": ["v1", "tree", "gru"],
+    "easy_closed": ["tree", "gru"],
+    "medium_closed": ["tree", "gru"],
+    "hard_closed": ["v1", "tree", "no_transfer", "no_open", "gru"],
+    "hard_open": ["tree", "no_transfer", "no_open", "gru"],
+    "random_hard": ["tree", "gru"]
+  }
+}

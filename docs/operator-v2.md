@@ -55,3 +55,35 @@ All learnable paths (observation, merge, readout and classifier) receive gradien
 `0, 6, 9, 10` stopped here: all E1/E2/E3 remain open. A following chunk beginning with 9 continues the same E3 and closes it; there is no reinitialization or end-of-chunk flush.
 
 These traces and invariants are normative and precede v2 implementation. Subsequent experimental protocols must separately test recoverable labels, tiny-set memorization, independent increasing complexity, closed versus open endpoints, all seeds and matched-budget GRU comparisons. Negative results must be localized rather than followed by market expansion.
+
+## Implementation contract (added after normative specification)
+
+`src/crossing_memory_v2.py` exports `TemporalEventRouter(thresholds)` for a
+single stream, `route_windows_v2(log_prices[N,T], thresholds)` for independent
+windows, and `TreeCrossingMemory(input_dim, hidden_dim, depths, transfer=True,
+read_open=True)`. Thresholds are strictly decreasing, coarse to fine; the
+tensor depth count is one more than the threshold count. Router `step(z)` returns
+one tick, `process(z_chunk)` returns stacked ticks without flushing, and
+`state_dict`/`load_state_dict` carry bounded router state across chunks.
+Neural `step(x_t, routing_t, state)` and `forward(x, routing, state=None)` both
+return `(output, new_state)`; the state tensor has shape `[B,D,H]`. Neural
+`forward` returns `[B,T,D*H]` outputs and never detaches an incoming state.
+
+The six metadata channels, in exact order, are: (0) direction; (1) `log1p(age)`
+in observed closes; (2) raw signed displacement from the node origin divided
+by that depth's threshold; (3) maximum direction-aligned excursion divided by
+threshold (root uses maximum absolute excursion); (4) `log1p(internal retreats)`;
+and (5) latest signed observed log-close move divided by threshold. Root uses
+the coarsest threshold for normalization. Closed nodes retain their current
+metadata for the closing tick, while `active` describes the post-closure chain.
+The router also emits birth/closure masks, observer depth, live IDs and parent
+IDs, terminal IDs/parent IDs, and integer closure reasons (`1` natural, `2`
+ancestor finalization, `0` none). The output dictionary is a trace; normal
+persistent state stores only active nodes and accounting counters. Optional
+terminal debug records are disabled by default.
+
+The numeric comparison tolerance is `1e-10 * min(thresholds)` in log-close
+units. It applies symmetrically to births, natural closures and retreat checks.
+It is smaller than every positive threshold, so an unchanged close cannot open
+an event even for very small threshold values. This implementation detail
+refines the pre-implementation requirement for a symmetric absolute tolerance.
