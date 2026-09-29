@@ -1,0 +1,32 @@
+{
+  "tiny_hard": {
+    "v1": 1.0,
+    "tree": 1.0,
+    "gru": 1.0
+  },
+  "easy_closed": {
+    "tree": 1.0,
+    "gru": 1.0
+  },
+  "medium_closed": {
+    "tree": 1.0,
+    "gru": 0.9947076638539633
+  },
+  "hard_closed": {
+    "v1": 0.9921875,
+    "tree": 1.0,
+    "no_transfer": 0.4891437490781148,
+    "no_open": 1.0,
+    "gru": 0.9177388350168864
+  },
+  "hard_open": {
+    "tree": 1.0,
+    "no_transfer": 1.0,
+    "no_open": 0.5,
+    "gru": 1.0
+  },
+  "random_hard": {
+    "tree": 0.49381359418233234,
+    "gru": 0.5261292854944865
+  }
+}

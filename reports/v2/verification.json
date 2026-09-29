@@ -1,0 +1,29 @@
+{
+  "training_commit": "104022f5cabe9dda532380604a6d86ea584c1080",
+  "source_and_checkpoint_provenance_verified": true,
+  "completed_fits": 54,
+  "optimizer_updates": 6300,
+  "all_recorded_metrics_and_gradients_finite": true,
+  "full_tree_observe_merge_readout_parameters_changed": true,
+  "unit_tests_passed": 37,
+  "unit_test_command": "python -m pytest -q",
+  "v1_protected_files_unchanged": [
+    "src/crossing_memory.py",
+    "scripts/run_experiment.py",
+    "scripts/synthetic_checks.py",
+    "configs/experiment.json",
+    "reports/market_metrics.json",
+    "reports/market_metrics.csv",
+    "reports/synthetic_metrics.json",
+    "reports/crossing-memory-v1.md",
+    "docs/operator.md",
+    "docs/experiment-protocol.md"
+  ],
+  "v1_local_artifacts_unchanged": 17,
+  "market_training_run": false,
+  "plot_version": "3.10.8",
+  "plot_files": 12,
+  "per_seed_csv_rows": 54,
+  "aggregate_csv_rows": 18,
+  "execution_note": "Sequential all-task launcher intentionally stopped after nine completed tiny fits; five independent --task processes completed remaining fits. No training source or configuration changed."
+}
