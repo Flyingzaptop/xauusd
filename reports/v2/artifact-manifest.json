@@ -1,0 +1,276 @@
+{
+  "training_commit": "104022f5cabe9dda532380604a6d86ea584c1080",
+  "local_root": "C:\\Users\\r3d_flzp\\Desktop\\xauusd",
+  "artifacts": [
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-gru-19.pt",
+      "bytes": 120677,
+      "sha256": "9d8ae5a3ae616aa59d54b76b8fdc04ac7738e1995797a3f14b8c58f77d9df505"
+    },
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-gru-43.pt",
+      "bytes": 120677,
+      "sha256": "32b538feb20cc598e498af49a6d1f7a19b62772bdb7bf7d7da50083bc2b3a237"
+    },
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-gru-7.pt",
+      "bytes": 120655,
+      "sha256": "4da99397d8c2d3af8e707b108d7c35e2d678039158fbff78f0691489bb41bcd1"
+    },
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-tree-19.pt",
+      "bytes": 141691,
+      "sha256": "0b360d13fe9d74bd5dff224cb53de8a7db5ee33663f1481c817e3e444a648bc3"
+    },
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-tree-43.pt",
+      "bytes": 141691,
+      "sha256": "3033402c6d0c7a6afd21818d3dcef036a8f0adcb2b36a02c0c0b17fcc5cbec16"
+    },
+    {
+      "path": "artifacts/mechanism-v2/easy_closed-tree-7.pt",
+      "bytes": 141605,
+      "sha256": "f278d50e2486ec74a592dd35dfd4470145af35cf224733ea177ff84855b69919"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-gru-19.pt",
+      "bytes": 120677,
+      "sha256": "16b1e09dcdaaec3d058590d54739f9072b0f6836b486d5046a62a6e87de0690d"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-gru-43.pt",
+      "bytes": 120677,
+      "sha256": "18969faed6931e5b5a0e36124cfc4c8d5b0ced844a3230d7d0341e1f55dc3d6d"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-gru-7.pt",
+      "bytes": 120655,
+      "sha256": "9533288d8625cf86475bf15748d8282ae7332c475a2bdcb9302f31d7d4ac3ccb"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_open-19.pt",
+      "bytes": 142013,
+      "sha256": "3a4c8094d01e388c51a1c78b9e07ec31d056471bf12e98d28948d60dfb3e40d1"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_open-43.pt",
+      "bytes": 142013,
+      "sha256": "40ae4bdfe3169c6ebe1c1615c945c8b5c1d2ce01a50a38e1d5a36913377fd439"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_open-7.pt",
+      "bytes": 141863,
+      "sha256": "00f45434ccc37c249ad9b9c6c7aeeb0dd564d5c03126bb75b74026b03ec7b45e"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_transfer-19.pt",
+      "bytes": 142357,
+      "sha256": "027e2c8abeb9b8763e1a2af8071f4fb25f8ff5fd536361eb0015f3b5e78f620b"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_transfer-43.pt",
+      "bytes": 142357,
+      "sha256": "d24187c6f92e3a247354f978eb2e2c0a28023290bfc925e15d57cba51408e5ae"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-no_transfer-7.pt",
+      "bytes": 142271,
+      "sha256": "090a733b3fb587174666215a1ca22728bb79e20b18b1f03a3b876e98ea2b2098"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-tree-19.pt",
+      "bytes": 141691,
+      "sha256": "d5a17bbaadfa2b43e6b39863d1ce21bdb362836445713059c428d00e78a37617"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-tree-43.pt",
+      "bytes": 141691,
+      "sha256": "a4132de13423d7c96435d8c5f37e1ef3f19d75e09303a51a3504ce0e8fb8e582"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-tree-7.pt",
+      "bytes": 141605,
+      "sha256": "3ba80701094edbe60d274c70b6e90d0029a1a3b7e485c89c1d1214fe366aef0a"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-v1-19.pt",
+      "bytes": 91451,
+      "sha256": "6e9816eedc76a74958527f1caf685100348aea20582f83ccebd2147ffbb59705"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-v1-43.pt",
+      "bytes": 91451,
+      "sha256": "f07e4f5b067d8d1db5f76c951cb0c1026a3c0cb4c2d51cffc1bd3bde5d0754a8"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_closed-v1-7.pt",
+      "bytes": 91377,
+      "sha256": "66152aedeeb3f70d4337ede7798c5a71d781df82cf0794fce545e2befea6b579"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-gru-19.pt",
+      "bytes": 120633,
+      "sha256": "90545e9f2ca634d4a98368bbb89c7c76eb354dc5ef020d0b53137655ec6c8539"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-gru-43.pt",
+      "bytes": 120633,
+      "sha256": "622e375cee5160eaeb12da3fc0cfcfe30b2c56ea345319e30257dc9d19d5dca4"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-gru-7.pt",
+      "bytes": 120611,
+      "sha256": "ac2d994393d325adc46af2a43eb003496eec53d9ba9291c96c6a7f7965410a6b"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_open-19.pt",
+      "bytes": 141777,
+      "sha256": "efe1fce435e87d9a90c02c37b031a5e6c7de46bd146d24adbcd72a1344897590"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_open-43.pt",
+      "bytes": 141777,
+      "sha256": "886b870a9fd50163c186293e8f64e15110ca91a285f4b901d60ab9ca5db53b7a"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_open-7.pt",
+      "bytes": 141691,
+      "sha256": "d08bf08ab7cb5d9ceeb703c5a54f1cbc40906b464802492a4d1b562777f1190f"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_transfer-19.pt",
+      "bytes": 142185,
+      "sha256": "c6e8986e363a12cf65ab46bda1329eb497cd4482d799b1d508a1c92a3840ed6e"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_transfer-43.pt",
+      "bytes": 142185,
+      "sha256": "0174583cf476d442396b587b93b7e5e838e4703e35dca09078716480a0476bb6"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-no_transfer-7.pt",
+      "bytes": 142099,
+      "sha256": "d07f186b58948f4516363d8c087b2f8bcc2028067b113e8de2b53c870e16b897"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-tree-19.pt",
+      "bytes": 141519,
+      "sha256": "7cbc2ace70d9d903da5deaeba5f8316fb74cf3ec675043873ffa0d64908693d7"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-tree-43.pt",
+      "bytes": 141519,
+      "sha256": "4e49914bd5742b0d012ae8fe8b71ec30f847f8bb945b37d461d04841c4df54f0"
+    },
+    {
+      "path": "artifacts/mechanism-v2/hard_open-tree-7.pt",
+      "bytes": 141433,
+      "sha256": "43b8abaea81da79683cc4a6de271fceafb5afed7542f28ddc47fed1731594c92"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-gru-19.pt",
+      "bytes": 120721,
+      "sha256": "f10b82b66ed7802041fc1d3929f5a1e6ef93b9bed3c766180b0fb6a24447f5d4"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-gru-43.pt",
+      "bytes": 120721,
+      "sha256": "d0b7500e1baafb16e131ef605ecc5a89a01f84637751979515585eeafde19121"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-gru-7.pt",
+      "bytes": 120699,
+      "sha256": "107952623118f3435adaebeb5a51f4ab1a7d7b9b60cf4837c35879c6243eaeaa"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-tree-19.pt",
+      "bytes": 141863,
+      "sha256": "f21eabc81f101ff3bc52dde09c417977de32d700932997ed04ddf476051f5429"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-tree-43.pt",
+      "bytes": 141863,
+      "sha256": "d50398e99e75d32797bbf859a9ddf2aaba4a9bfe07649a15efc2cd6f9a33d0e0"
+    },
+    {
+      "path": "artifacts/mechanism-v2/medium_closed-tree-7.pt",
+      "bytes": 141777,
+      "sha256": "008c59386d3b1b7b739cf7b56b069a70b2b042d9dd5fbad746df79f9fab472e7"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-gru-19.pt",
+      "bytes": 120677,
+      "sha256": "e928f0087b4ac691c90da9019fc305b6661204057e7fbf52dd9d970b62e2a0f8"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-gru-43.pt",
+      "bytes": 120677,
+      "sha256": "9dd78a665b6debfee2041d27cc91a8f70cb189c52b3122a4335f54ce69a5d015"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-gru-7.pt",
+      "bytes": 120655,
+      "sha256": "697a72acedde79519a69aa62c27ebcaeec3de97f96ee4e41057f416e0f11d6dd"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-tree-19.pt",
+      "bytes": 141691,
+      "sha256": "f792f3bd55618dfa2ec058cd2ec930bfb76efe3f2c4044a5efe8e8e1dda60a3f"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-tree-43.pt",
+      "bytes": 141691,
+      "sha256": "9ce831f9c373305becaa817247c68aae2e291698e9b940830afc28b996637e80"
+    },
+    {
+      "path": "artifacts/mechanism-v2/random_hard-tree-7.pt",
+      "bytes": 141605,
+      "sha256": "8388dc572ad921b0e3cab9176e23b048f2b53d5488bbda82930676a3a588ead1"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-gru-19.pt",
+      "bytes": 120633,
+      "sha256": "1e0f09412c8616bb175a7121618f2c08a597a3677bf246141a91d21af107d1a4"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-gru-43.pt",
+      "bytes": 120633,
+      "sha256": "f50ccc5f8de9004c2ecd77c9d19281b22d3a71ae111d6e60e238ddc215188c16"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-gru-7.pt",
+      "bytes": 120611,
+      "sha256": "cadae701e941be94070dde4d417da8eb5a450c99192ec5668369af60f43289e3"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-tree-19.pt",
+      "bytes": 141519,
+      "sha256": "1e7f32feafa35de18a073f32050b70a5a888105ea171631a24fc72a221719e04"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-tree-43.pt",
+      "bytes": 141519,
+      "sha256": "88cc2b69dbd0c204db1be57b24b373a3ca3b62d96c306b7b11a4c24732efc35b"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-tree-7.pt",
+      "bytes": 141433,
+      "sha256": "a5906af3778e4ae786b1e2acc89cee6467f091ae6ddebd6c7fbec6e8d64571fb"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-v1-19.pt",
+      "bytes": 91303,
+      "sha256": "0afd33efa70eca33092bda130fdf01d7f4fd0b0cb4e8f5b0a3321a712a6654e1"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-v1-43.pt",
+      "bytes": 91303,
+      "sha256": "06ec7008e52fa512a0f8cb62626f525d72dce7043cb251a0d8e70b3f5315be17"
+    },
+    {
+      "path": "artifacts/mechanism-v2/tiny_hard-v1-7.pt",
+      "bytes": 91229,
+      "sha256": "85ed7bed898de988b74a4b9342bd2f2d4d375a0aff7d7557009a073a17f5bac3"
+    }
+  ]
+}

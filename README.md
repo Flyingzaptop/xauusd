@@ -1,5 +1,19 @@
 # XAUUSD
 
+## Crossing Memory v2: mechanism-only review
+
+Branch `crossing-memory-mechanism-v2` adds a temporal event tree, symmetric routing,
+exactly-once message scheduling and streaming router/neural state. This stage
+uses only generated data; no new market training is performed.
+
+- [V2 acceptance report](reports/v2/acceptance-report.md) and [all-seed metrics](reports/v2/plots/seed_metrics.csv).
+- [Specification and hand traces](docs/operator-v2.md), [invariant argument](docs/mechanism-v2-invariants.md), and [v1 synthetic diagnosis](docs/v1-synthetic-diagnosis.md).
+- [Frozen synthetic protocol](docs/mechanism-v2-protocol.md) and [reproduction](docs/mechanism-v2-reproduction.md).
+- [Learning curves](reports/v2/plots/) and [fixed-checkpoint hidden-state probe](reports/v2/hidden-state-probe.json).
+
+V1 source and negative results below are preserved. January–August 2026 is an
+exposed market test and cannot support a new untouched-test claim.
+
 Research workspace for XAUUSD market data. The first bounded Crossing Memory experiment is implemented on branch `crossing-memory-v1` for review by Astra.
 
 ## Crossing Memory v1
