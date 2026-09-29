@@ -1,5 +1,18 @@
 # XAUUSD
 
+## Streaming M1 research v3
+
+Branch `crossing-memory-market-v3` compares A/B/C and two ablations on full
+continuous M1 segments, with shared state/reset policy and matched parameter
+budgets. The January–August 2026 evaluation is explicitly exposed research.
+
+- [Full v3 report](reports/v3/acceptance-report.md), [metrics](reports/v3/metrics.csv), and [all-seed curves](reports/v3/plots/).
+- [Pretraining protocol](docs/market-v3-protocol.md), [exact budget](docs/market-v3-budget.md), and [reproduction](docs/market-v3-reproduction.md).
+- [Independent result verification](reports/v3/verification.json).
+
+V1/v2 results below remain preserved; this stage makes no independent-confirmation
+or trading-profit claim.
+
 ## Crossing Memory v2: mechanism-only review
 
 Branch `crossing-memory-mechanism-v2` adds a temporal event tree, symmetric routing,

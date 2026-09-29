@@ -1,0 +1,181 @@
+{
+  "training_commit": "2c4da15e33bcd2c8527fae68230f325bc953499f",
+  "local_root": "C:\\Users\\r3d_flzp\\Desktop\\xauusd",
+  "artifacts": [
+    {
+      "path": "artifacts/market-v3/a-19-best.pt",
+      "bytes": 37933,
+      "sha256": "55a27c07d0b3a892ab635d8beefc195149938021ecc156eebb590b40675dc630"
+    },
+    {
+      "path": "artifacts/market-v3/a-19-validation.npz",
+      "bytes": 606819,
+      "sha256": "8c3c0652b78bfb355cc7ed14bcef36abe3896275a3b18abb977af13f7b5da691"
+    },
+    {
+      "path": "artifacts/market-v3/a-43-best.pt",
+      "bytes": 37933,
+      "sha256": "88fdf17866ea4e072fd138cd05eeb996c68080ff2d414ea4c4fea98a5634b093"
+    },
+    {
+      "path": "artifacts/market-v3/a-43-validation.npz",
+      "bytes": 609221,
+      "sha256": "351f24ff8c4b498023496ae872055796f8b1c20de39266947694ff2932a46bdc"
+    },
+    {
+      "path": "artifacts/market-v3/a-7-best.pt",
+      "bytes": 37921,
+      "sha256": "425100d0c5c5c6d1da32be9fdeafc33a3b5c48a2b495e49f3ef08a743d0ccbf3"
+    },
+    {
+      "path": "artifacts/market-v3/a-7-validation.npz",
+      "bytes": 606191,
+      "sha256": "8ea1693054a3270d2712a90b19e0a8709760973f5f6874e9d7138bc1a44616c3"
+    },
+    {
+      "path": "artifacts/market-v3/audit.json",
+      "bytes": 8747,
+      "sha256": "787d9e848fbf7583b143168b59d8b5f2e337f396fd9082aa5ac2e338a9765304"
+    },
+    {
+      "path": "artifacts/market-v3/b-19-best.pt",
+      "bytes": 36973,
+      "sha256": "86e52ddba69bd1487a93004f46405ad025145295a59737f18bb59246d5f76f2d"
+    },
+    {
+      "path": "artifacts/market-v3/b-19-validation.npz",
+      "bytes": 628650,
+      "sha256": "ea3105f695fe2037064b56d29c230b6c9edd08d639f829167b8d2f1058a3be7e"
+    },
+    {
+      "path": "artifacts/market-v3/b-43-best.pt",
+      "bytes": 36973,
+      "sha256": "b031d486729a988db2690e42f9c9cbed29560165cc173c1c9cf916c05e36aec7"
+    },
+    {
+      "path": "artifacts/market-v3/b-43-validation.npz",
+      "bytes": 630515,
+      "sha256": "2b5d849a3f08f6686a56fc21f166f32cc67708494c2f9e7333275c4c85ac3312"
+    },
+    {
+      "path": "artifacts/market-v3/b-7-best.pt",
+      "bytes": 36961,
+      "sha256": "dbd77299a70847c13ee75e67d52cb6605c02802d0351047faa7a3efad6f15e7d"
+    },
+    {
+      "path": "artifacts/market-v3/b-7-validation.npz",
+      "bytes": 629107,
+      "sha256": "4a110752a77aaf02c2d1c7edcb4d31451bd32d8594714659762e1ac719882c29"
+    },
+    {
+      "path": "artifacts/market-v3/c-19-best.pt",
+      "bytes": 47685,
+      "sha256": "5b609b3c6d815561f283ed45d5f4f7504e73121e3a4ab0ef65390621eaf7592a"
+    },
+    {
+      "path": "artifacts/market-v3/c-19-validation.npz",
+      "bytes": 627779,
+      "sha256": "7238148aa036b9de4c44bfbb65f545d24bba2d68e77f6593242b5e9700248374"
+    },
+    {
+      "path": "artifacts/market-v3/c-43-best.pt",
+      "bytes": 47685,
+      "sha256": "0f8da53b1005b81ce544f5ef57961404dd6714a7c93182d2c715845b3ad1d9c4"
+    },
+    {
+      "path": "artifacts/market-v3/c-43-validation.npz",
+      "bytes": 624573,
+      "sha256": "dcbd16618a769cdcc596f5b45a5960041fc641a8b488c0b67d85ffa4045588ec"
+    },
+    {
+      "path": "artifacts/market-v3/c-7-best.pt",
+      "bytes": 47637,
+      "sha256": "ffe00209dd6778f9efd7c504a631e593e92a3e526d4fdfd17aaa0829ea9372b7"
+    },
+    {
+      "path": "artifacts/market-v3/c-7-validation.npz",
+      "bytes": 628101,
+      "sha256": "c509b544112c7eb82a7b070192d4fa162982dbc218419acf9dfe66c30657c71d"
+    },
+    {
+      "path": "artifacts/market-v3/evaluation-predictions.npz",
+      "bytes": 12743870,
+      "sha256": "2bba085e4080ffa88d53b7b84786953953df6a61efd88c7078a890bd17080b1b"
+    },
+    {
+      "path": "artifacts/market-v3/evaluation.npz",
+      "bytes": 16546336,
+      "sha256": "fa491f0e14a16976a64c610030166e33c7fed3e21ad35d0fe46e32466e90ea43"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-19-best.pt",
+      "bytes": 47973,
+      "sha256": "f906bfc379a3e6162b47b619135f48b7f69c629b80aef170461f410fa58e167a"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-19-validation.npz",
+      "bytes": 627182,
+      "sha256": "57cd3a1ae1f130f527e0c45a402972ab7b2cfb05753def48d4ee1d38f32b2d9a"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-43-best.pt",
+      "bytes": 47973,
+      "sha256": "79f0a7dc7a9742941add6bc740d06ae4b2fffb836ada845be525ff4d9a28d548"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-43-validation.npz",
+      "bytes": 625091,
+      "sha256": "c6ea4a8b42d35354c3144eb20bf4154defce9cf707360f660700685d493aabb6"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-7-best.pt",
+      "bytes": 47925,
+      "sha256": "c5ff1af072db447f11447c0811cb565d222b634c33c240700f10f1bcd5fb6484"
+    },
+    {
+      "path": "artifacts/market-v3/no_open-7-validation.npz",
+      "bytes": 627754,
+      "sha256": "66470ca9025481dbbf93e7a5a274419bd84edd8bf4a6844632255136247b6f46"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-19-best.pt",
+      "bytes": 48165,
+      "sha256": "fa4a3a4d2227ecc3eb2ba174e4ddea7358108d4287b7f53084e2231cb091ce3b"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-19-validation.npz",
+      "bytes": 627566,
+      "sha256": "a0429561e1cf96b4621173414c18a2855a200d61debef8055e24fa22a1b8da1b"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-43-best.pt",
+      "bytes": 48165,
+      "sha256": "2d4435eef45f99ab0cf3216633428cebcc3ae0b356e6ac37a32621be28588932"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-43-validation.npz",
+      "bytes": 624576,
+      "sha256": "56d027be6523ecbba5e3c5aace758b5420ecc72ad2733a235841c96d37970606"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-7-best.pt",
+      "bytes": 48117,
+      "sha256": "ecd6dd004c587455c6b3a862fb53cefb6c6f6c8e87f5f90822a75df6e0a0cd5e"
+    },
+    {
+      "path": "artifacts/market-v3/no_transfer-7-validation.npz",
+      "bytes": 627897,
+      "sha256": "cd2c1cf1a62b60cdcd0ad7258bf75aa1e7914ccf0618e8b957e648e96b4f65e1"
+    },
+    {
+      "path": "artifacts/market-v3/train.npz",
+      "bytes": 33629200,
+      "sha256": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c"
+    },
+    {
+      "path": "artifacts/market-v3/validation.npz",
+      "bytes": 12046438,
+      "sha256": "26ec7ff2f72eeba04cbb4742feb808f885bba5ef0895f956973b2271d1234c64"
+    }
+  ]
+}

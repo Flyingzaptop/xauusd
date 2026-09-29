@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-09-29T15:47:40.080850+00:00",
+  "fit_count": 15,
+  "seed_metric_rows": 15,
+  "evaluation_status": "exposed exploratory research, not independent confirmation",
+  "provenance": {
+    "code_commit": "2c4da15e33bcd2c8527fae68230f325bc953499f",
+    "source_sha256": {
+      "src/crossing_memory_v2.py": "f90f4c92b626eeff9eed95d3c814d62aa5588501e3e870911dd41a9059a53b01",
+      "src/market_data_v3.py": "b397ba2d5b7ba4f48e3513f79408036af5261f63fb513ffbb4086161feef69a7",
+      "src/stream_batch_v3.py": "bde4477417fc72cd9a06be0f8db23c33deaf19170d0b3faaa84bdf1b42c47e74",
+      "src/stream_models_v3.py": "56874654684d59d8d095902cb222b2b55e4fac77650db49cfd1d157ce4f9be36",
+      "scripts/run_market_v3.py": "907720ff53631e2b3979ee62f9737cbd99fc492bdcd130df626d9bfb9596e333"
+    },
+    "config_sha256": "1d81163949fe2b9634910d62e525efcfbce8cc71d1ac2f07feca493af5784f9b",
+    "data_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+    "cache_sha256": {
+      "train": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c",
+      "validation": "26ec7ff2f72eeba04cbb4742feb808f885bba5ef0895f956973b2271d1234c64",
+      "evaluation": "fa491f0e14a16976a64c610030166e33c7fed3e21ad35d0fe46e32466e90ea43"
+    },
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.4.3"
+  },
+  "evaluation_report_sha256": "3040661920bd514beab86db08bbd1ffe7c70e8e780839e7e480459b911c75daa",
+  "plot_script_sha256": "ded09d844b43e666347e9f8f6e99cf6dc24fbeaa459f51183c76ca53861c9531",
+  "rolling_updates": 50,
+  "files": [
+    "epoch_train_validation_loss.png",
+    "epoch_train_validation_loss.svg",
+    "evaluation_calibration.png",
+    "evaluation_calibration.svg",
+    "evaluation_monthly.png",
+    "evaluation_monthly.svg",
+    "evaluation_paired_contrasts.png",
+    "evaluation_paired_contrasts.svg",
+    "manifest.json",
+    "seed_metrics.csv",
+    "training_batch_loss.png",
+    "training_batch_loss.svg"
+  ]
+}
