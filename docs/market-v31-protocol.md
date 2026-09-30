@@ -73,6 +73,10 @@ ftol1e-12 and gtol1e-8. There is no upper bound on a or b, no temperature/model
 search and no evaluation-informed retry. Publish solver status, objective and
 gradient diagnostics and flag lower-bound slopes as near-constant calibration.
 Numerical nonconvergence must be reported rather than hidden.
+If the solver reports failure but its projected gradient infinity norm is at
+most1e-6, retain it with the distinct `projected_gradient_converged` status;
+otherwise stop and report the numerical failure. This fixed acceptance check
+does not change the objective, fit another calibrator or inspect evaluation.
 
 Same-epoch short/full selections represent the same neural checkpoint and may
 reuse identical inference/calibration, but both identities remain in tables.
