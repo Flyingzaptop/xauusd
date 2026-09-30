@@ -1,0 +1,34 @@
+{
+  "calibrators_sha256": "ee8ff9a92705787231e49ce06b9046b77352d575910bd8c031e88df389a25121",
+  "entry_count": 30,
+  "provenance": {
+    "code_commit": "8c45bbf0cafc8397384dde87bd8c84aceedb7d62",
+    "config_sha256": "cab89fd80671f73e70e7dc660c71a6de4837391d6b132151b5ad0f1efb5169b6",
+    "source_sha256": {
+      "src/crossing_memory_v2.py": "f90f4c92b626eeff9eed95d3c814d62aa5588501e3e870911dd41a9059a53b01",
+      "src/market_data_v3.py": "b397ba2d5b7ba4f48e3513f79408036af5261f63fb513ffbb4086161feef69a7",
+      "src/stream_models_v3.py": "56874654684d59d8d095902cb222b2b55e4fac77650db49cfd1d157ce4f9be36",
+      "src/stream_batch_v3.py": "bde4477417fc72cd9a06be0f8db23c33deaf19170d0b3faaa84bdf1b42c47e74",
+      "scripts/run_market_v3.py": "907720ff53631e2b3979ee62f9737cbd99fc492bdcd130df626d9bfb9596e333",
+      "src/market_data_v31.py": "9b10b2f6407de8db7207b2341d368b7751d0a0eba1a37f8c7e1c1a4754d89bfa",
+      "src/training_control_v31.py": "a1db3bf15d75193d20c2ce71f27a9b0ab54f950d5249c4a39e5415d95c6455a9",
+      "src/calibration_v31.py": "2c2c60619462c2e9f9694df6c8b722384c9e6b20d8c5fb5f605633bae295145a",
+      "src/inference_v31.py": "de61227cff7f0505fe391b431ae7e03314c7aec1859f05ac3445ebed7fde010e",
+      "src/provenance_v31.py": "bc6d4cfc78881e60a64c1d4cc2660df99ae9b5ec6c23aa78a790c0e6c987f23e",
+      "scripts/fit_market_v31.py": "7a5e0dcc6d51e87d86d1c0988be7156d4fd5fbccb8d6ff40db77fc79a79e1656",
+      "scripts/score_market_v31.py": "c41d79654cca0cf23e2caa9fc8f9999012f34faa553202eac04d650dfdaaff63"
+    },
+    "data_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+    "cache_sha256": {
+      "train": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c",
+      "selection": "20df9781f6c210dbcd272c06753214b9acf5a9175884775065949a66f74b7320",
+      "calibration": "5da2ffff520aca00158ea7142cfec1a905a5aae336b6048fb6ab686a2f2c0c7b",
+      "evaluation": "fa491f0e14a16976a64c610030166e33c7fed3e21ad35d0fe46e32466e90ea43"
+    },
+    "preprocessing_audit_sha256": "330681564cf2f9a48924e5c7382f1c4c0fd0e1e72b2538e1374fee1a02c2801c",
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.4.3"
+  },
+  "complete": true
+}

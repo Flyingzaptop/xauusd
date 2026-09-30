@@ -1,5 +1,18 @@
 # XAUUSD
 
+## V3.1: training adequacy and separate calibration
+
+Branch `crossing-memory-market-v3-1` preserves v3 architectures and examines
+longer training with selection-only stopping plus separate positive-affine
+calibration. The main criterion is C versus A on exposed research evaluation.
+
+- [Complete v3.1 report](reports/v31/acceptance-report.md), [all variants](reports/v31/metrics.csv), and [all-seed curves](reports/v31/plots/).
+- [Preregistered protocol](docs/market-v31-protocol.md), [budget](docs/market-v31-budget.md), and [reproduction](docs/market-v31-reproduction.md).
+- [Independent verification](reports/v31/verification.json).
+
+The iteration ends negatively: full calibrated C still loses to A. No automatic
+search expansion follows, and prior results below remain preserved.
+
 ## Streaming M1 research v3
 
 Branch `crossing-memory-market-v3` compares A/B/C and two ablations on full
