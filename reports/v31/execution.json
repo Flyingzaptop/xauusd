@@ -1,0 +1,98 @@
+{
+  "workers": 9,
+  "resumed": false,
+  "wall_seconds": 3044.410888195038,
+  "jobs": [
+    {
+      "model": "c",
+      "seed": 19,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\c-19.log"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 43,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_transfer-43.log"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 19,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_transfer-19.log"
+    },
+    {
+      "model": "no_transfer",
+      "seed": 7,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_transfer-7.log"
+    },
+    {
+      "model": "c",
+      "seed": 43,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\c-43.log"
+    },
+    {
+      "model": "c",
+      "seed": 7,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\c-7.log"
+    },
+    {
+      "model": "a",
+      "seed": 7,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\a-7.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 43,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_open-43.log"
+    },
+    {
+      "model": "a",
+      "seed": 19,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\a-19.log"
+    },
+    {
+      "model": "a",
+      "seed": 43,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\a-43.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 7,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_open-7.log"
+    },
+    {
+      "model": "b",
+      "seed": 19,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\b-19.log"
+    },
+    {
+      "model": "b",
+      "seed": 7,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\b-7.log"
+    },
+    {
+      "model": "b",
+      "seed": 43,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\b-43.log"
+    },
+    {
+      "model": "no_open",
+      "seed": 19,
+      "returncode": 0,
+      "log": "artifacts\\market-v31\\logs\\no_open-19.log"
+    }
+  ],
+  "complete": true
+}

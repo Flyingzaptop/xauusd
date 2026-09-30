@@ -1,0 +1,25 @@
+{
+  "status": "prefit_population_and_update_bounds_only",
+  "note": "No code hash is frozen here. Counts come from the prepared v3.1 masks and deterministic PackedStream with 16 lanes of 128 observations. No class or evaluation-outcome statistics were inspected.",
+  "batch_size": 16,
+  "chunk_length": 128,
+  "splits": {
+    "train": {"rows": 522437, "segments": 462, "supervised_rows": 491102, "chunks": 294, "chunks_with_valid_labels": 294, "padded_slots": 79675},
+    "selection": {"rows": 90583, "segments": 70, "supervised_rows": 85536, "chunks": 54, "chunks_with_valid_labels": 54, "padded_slots": 20009},
+    "calibration": {"rows": 87305, "segments": 96, "supervised_rows": 82081, "chunks": 54, "chunks_with_valid_labels": 54, "padded_slots": 23287},
+    "evaluation": {"rows": 234102, "segments": 188, "supervised_rows": 221343, "chunks": 119, "chunks_with_valid_labels": 119, "padded_slots": 9610}
+  },
+  "fit_budget": {
+    "models": 5,
+    "seeds": 3,
+    "fits": 15,
+    "minimum_epochs_per_fit": 9,
+    "maximum_epochs_per_fit": 20,
+    "optimizer_updates_per_epoch_per_fit": 294,
+    "supervised_label_visits_per_epoch_per_fit": 491102,
+    "optimizer_updates_per_fit_min_max": [2646, 5880],
+    "supervised_label_visits_per_fit_min_max": [4419918, 9822040],
+    "optimizer_updates_all_fits_min_max": [39690, 88200],
+    "supervised_label_visits_all_fits_min_max": [66298770, 147330600]
+  }
+}

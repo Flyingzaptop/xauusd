@@ -1,0 +1,2967 @@
+{
+  "provenance": {
+    "code_commit": "8c45bbf0cafc8397384dde87bd8c84aceedb7d62",
+    "config_sha256": "cab89fd80671f73e70e7dc660c71a6de4837391d6b132151b5ad0f1efb5169b6",
+    "source_sha256": {
+      "src/crossing_memory_v2.py": "f90f4c92b626eeff9eed95d3c814d62aa5588501e3e870911dd41a9059a53b01",
+      "src/market_data_v3.py": "b397ba2d5b7ba4f48e3513f79408036af5261f63fb513ffbb4086161feef69a7",
+      "src/stream_models_v3.py": "56874654684d59d8d095902cb222b2b55e4fac77650db49cfd1d157ce4f9be36",
+      "src/stream_batch_v3.py": "bde4477417fc72cd9a06be0f8db23c33deaf19170d0b3faaa84bdf1b42c47e74",
+      "scripts/run_market_v3.py": "907720ff53631e2b3979ee62f9737cbd99fc492bdcd130df626d9bfb9596e333",
+      "src/market_data_v31.py": "9b10b2f6407de8db7207b2341d368b7751d0a0eba1a37f8c7e1c1a4754d89bfa",
+      "src/training_control_v31.py": "a1db3bf15d75193d20c2ce71f27a9b0ab54f950d5249c4a39e5415d95c6455a9",
+      "src/calibration_v31.py": "2c2c60619462c2e9f9694df6c8b722384c9e6b20d8c5fb5f605633bae295145a",
+      "src/inference_v31.py": "de61227cff7f0505fe391b431ae7e03314c7aec1859f05ac3445ebed7fde010e",
+      "src/provenance_v31.py": "bc6d4cfc78881e60a64c1d4cc2660df99ae9b5ec6c23aa78a790c0e6c987f23e",
+      "scripts/fit_market_v31.py": "7a5e0dcc6d51e87d86d1c0988be7156d4fd5fbccb8d6ff40db77fc79a79e1656",
+      "scripts/score_market_v31.py": "c41d79654cca0cf23e2caa9fc8f9999012f34faa553202eac04d650dfdaaff63"
+    },
+    "data_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+    "cache_sha256": {
+      "train": "58650707d3360c010f70cf3a6cdcc688ecba975253875237a58dbce2dbb6417c",
+      "selection": "20df9781f6c210dbcd272c06753214b9acf5a9175884775065949a66f74b7320",
+      "calibration": "5da2ffff520aca00158ea7142cfec1a905a5aae336b6048fb6ab686a2f2c0c7b",
+      "evaluation": "fa491f0e14a16976a64c610030166e33c7fed3e21ad35d0fe46e32466e90ea43"
+    },
+    "preprocessing_audit_sha256": "330681564cf2f9a48924e5c7382f1c4c0fd0e1e72b2538e1374fee1a02c2801c",
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.4.3"
+  },
+  "config": {
+    "data": "data/M1/xauusd_m1.parquet",
+    "source_cache": "artifacts/market-v3",
+    "output": "artifacts/market-v31",
+    "train_start": "2024-01-01",
+    "selection_start": "2025-07-01",
+    "calibration_start": "2025-10-01",
+    "evaluation_start": "2026-01-01",
+    "end": "2026-09-01",
+    "horizon": 10,
+    "warmup": 64,
+    "threshold_multipliers": [
+      8,
+      4,
+      2
+    ],
+    "feature_clip": 10.0,
+    "metadata_clip": 8.0,
+    "batch_size": 16,
+    "chunk_length": 128,
+    "min_epochs": 4,
+    "max_epochs": 20,
+    "patience": 5,
+    "min_delta": 1e-05,
+    "learning_rate": 0.001,
+    "gradient_clip": 1.0,
+    "memory_hidden": 8,
+    "c_gru_hidden": 16,
+    "seeds": [
+      7,
+      19,
+      43
+    ],
+    "models": [
+      "a",
+      "b",
+      "c",
+      "no_transfer",
+      "no_open"
+    ],
+    "threads": 1,
+    "calibration": {
+      "method": "positive_affine_logit",
+      "a_min": 1e-06,
+      "maxiter": 1000,
+      "ftol": 1e-12,
+      "gtol": 1e-08
+    },
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20260930
+  },
+  "complete": true,
+  "entries": [
+    {
+      "model": "a",
+      "seed": 7,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-7/short-best.pt",
+        "sha256": "b2002c8a4d0ea2d9d0c264f2a4b593d449a2630c8ededf48465498728736e3d4",
+        "epoch": 1,
+        "selection_log_loss": 0.6929298244531876
+      },
+      "model_weights_sha256": "3486536893b480cd50338cf97470ab816bb22865e0c9f9830b08ad373d47a46e",
+      "parameters": {
+        "a": 0.7067936019643628,
+        "b": 0.044893372255631954,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6921074211433952,
+        "calibrated_log_loss": 0.691876935705219,
+        "gradient": [
+          -9.814849908780496e-10,
+          -1.0829982902882575e-08
+        ],
+        "projected_gradient_inf_norm": 1.0829982902882575e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.7014366034594268,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6921074211433952,
+        "auc": 0.5202549916339853,
+        "brier": 0.24947931488333072,
+        "ece": 0.008658739150607818,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 27503,
+            "predicted": 0.4869491761714939,
+            "observed": 0.49943642511725994
+          },
+          {
+            "bin": 5,
+            "count": 54318,
+            "predicted": 0.5220124787086272,
+            "observed": 0.5283699694392282
+          },
+          {
+            "bin": 6,
+            "count": 260,
+            "predicted": 0.6113653036955876,
+            "observed": 0.5269230769230769
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.691876935705219,
+        "auc": 0.5202549916339853,
+        "brier": 0.2493650459552925,
+        "ece": 0.00042270241996031317,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8782,
+            "predicted": 0.4927508937917365,
+            "observed": 0.4911181963106354
+          },
+          {
+            "bin": 5,
+            "count": 73271,
+            "predicted": 0.5217432768334771,
+            "observed": 0.5219800466760383
+          },
+          {
+            "bin": 6,
+            "count": 28,
+            "predicted": 0.6074687471226552,
+            "observed": 0.5
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-7-short_best-calibration-logits.npz",
+      "logits_sha256": "f6306a25d93ab952d1fb48a9b309d7aaaf1860eba24f422fc679017b426b6c91",
+      "reused_same_weights": false
+    },
+    {
+      "model": "a",
+      "seed": 7,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-7/full-best.pt",
+        "sha256": "42d1abf586a97f45898436f94abcb8be5f334533a502255cee9e3fd70668e310",
+        "epoch": 1,
+        "selection_log_loss": 0.6929298244531876
+      },
+      "model_weights_sha256": "3486536893b480cd50338cf97470ab816bb22865e0c9f9830b08ad373d47a46e",
+      "parameters": {
+        "a": 0.7067936019643628,
+        "b": 0.044893372255631954,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6921074211433952,
+        "calibrated_log_loss": 0.691876935705219,
+        "gradient": [
+          -9.814849908780496e-10,
+          -1.0829982902882575e-08
+        ],
+        "projected_gradient_inf_norm": 1.0829982902882575e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.7014366034594268,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6921074211433952,
+        "auc": 0.5202549916339853,
+        "brier": 0.24947931488333072,
+        "ece": 0.008658739150607818,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 27503,
+            "predicted": 0.4869491761714939,
+            "observed": 0.49943642511725994
+          },
+          {
+            "bin": 5,
+            "count": 54318,
+            "predicted": 0.5220124787086272,
+            "observed": 0.5283699694392282
+          },
+          {
+            "bin": 6,
+            "count": 260,
+            "predicted": 0.6113653036955876,
+            "observed": 0.5269230769230769
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.691876935705219,
+        "auc": 0.5202549916339853,
+        "brier": 0.2493650459552925,
+        "ece": 0.00042270241996031317,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8782,
+            "predicted": 0.4927508937917365,
+            "observed": 0.4911181963106354
+          },
+          {
+            "bin": 5,
+            "count": 73271,
+            "predicted": 0.5217432768334771,
+            "observed": 0.5219800466760383
+          },
+          {
+            "bin": 6,
+            "count": 28,
+            "predicted": 0.6074687471226552,
+            "observed": 0.5
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-7-full_best-calibration-logits.npz",
+      "logits_sha256": "f6306a25d93ab952d1fb48a9b309d7aaaf1860eba24f422fc679017b426b6c91",
+      "reused_same_weights": true
+    },
+    {
+      "model": "a",
+      "seed": 19,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-19/short-best.pt",
+        "sha256": "b50b824c000c48bbf2c94678f6d94442fe8013843ccd96d6576000aa5e09ac17",
+        "epoch": 1,
+        "selection_log_loss": 0.6929778450972013
+      },
+      "model_weights_sha256": "0df55297698b50abb741e67ef09400e4b12c6f17d388d363644e8d9fa47aaa4d",
+      "parameters": {
+        "a": 0.7059152450323741,
+        "b": 0.045158456244954834,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6921096395806287,
+        "calibrated_log_loss": 0.6918754358438866,
+        "gradient": [
+          -9.33322912845162e-10,
+          -1.0380814055121909e-08
+        ],
+        "projected_gradient_inf_norm": 1.0380814055121909e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.6721989378132589,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6921096395806287,
+        "auc": 0.5203555945514794,
+        "brier": 0.24948019219445874,
+        "ece": 0.008976629474484391,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 27864,
+            "predicted": 0.4870645124682456,
+            "observed": 0.49978466838931956
+          },
+          {
+            "bin": 5,
+            "count": 53861,
+            "predicted": 0.521885416113386,
+            "observed": 0.5283971704944208
+          },
+          {
+            "bin": 6,
+            "count": 356,
+            "predicted": 0.614176114026499,
+            "observed": 0.5252808988764045
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6918754358438866,
+        "auc": 0.5203555945514794,
+        "brier": 0.24936422173536815,
+        "ece": 0.00044418169434937827,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8882,
+            "predicted": 0.4933057803421431,
+            "observed": 0.4926818284170232
+          },
+          {
+            "bin": 5,
+            "count": 73137,
+            "predicted": 0.5216753508503118,
+            "observed": 0.5219246072439394
+          },
+          {
+            "bin": 6,
+            "count": 62,
+            "predicted": 0.6078559966811906,
+            "observed": 0.4032258064516129
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-19-short_best-calibration-logits.npz",
+      "logits_sha256": "abeea2be28bb1cbd677a309a0ad73e7ee9c43f8a08f56cc016ffabb59d988fee",
+      "reused_same_weights": false
+    },
+    {
+      "model": "a",
+      "seed": 19,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-19/full-best.pt",
+        "sha256": "07b8af978a5588a08694e8c1c708d3c05a073f5978d35899efe40bb830d539d3",
+        "epoch": 1,
+        "selection_log_loss": 0.6929778450972013
+      },
+      "model_weights_sha256": "0df55297698b50abb741e67ef09400e4b12c6f17d388d363644e8d9fa47aaa4d",
+      "parameters": {
+        "a": 0.7059152450323741,
+        "b": 0.045158456244954834,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6921096395806287,
+        "calibrated_log_loss": 0.6918754358438866,
+        "gradient": [
+          -9.33322912845162e-10,
+          -1.0380814055121909e-08
+        ],
+        "projected_gradient_inf_norm": 1.0380814055121909e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.6721989378132589,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6921096395806287,
+        "auc": 0.5203555945514794,
+        "brier": 0.24948019219445874,
+        "ece": 0.008976629474484391,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 27864,
+            "predicted": 0.4870645124682456,
+            "observed": 0.49978466838931956
+          },
+          {
+            "bin": 5,
+            "count": 53861,
+            "predicted": 0.521885416113386,
+            "observed": 0.5283971704944208
+          },
+          {
+            "bin": 6,
+            "count": 356,
+            "predicted": 0.614176114026499,
+            "observed": 0.5252808988764045
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6918754358438866,
+        "auc": 0.5203555945514794,
+        "brier": 0.24936422173536815,
+        "ece": 0.00044418169434937827,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8882,
+            "predicted": 0.4933057803421431,
+            "observed": 0.4926818284170232
+          },
+          {
+            "bin": 5,
+            "count": 73137,
+            "predicted": 0.5216753508503118,
+            "observed": 0.5219246072439394
+          },
+          {
+            "bin": 6,
+            "count": 62,
+            "predicted": 0.6078559966811906,
+            "observed": 0.4032258064516129
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-19-full_best-calibration-logits.npz",
+      "logits_sha256": "abeea2be28bb1cbd677a309a0ad73e7ee9c43f8a08f56cc016ffabb59d988fee",
+      "reused_same_weights": true
+    },
+    {
+      "model": "a",
+      "seed": 43,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-43/short-best.pt",
+        "sha256": "15abd3f8ff4ac522a5c3c8e969ff4c49adda61922f1fbb5581c1289203a95e86",
+        "epoch": 2,
+        "selection_log_loss": 0.6930653681723934
+      },
+      "model_weights_sha256": "0af789479e62d3f0e7e21aecc16adb90844579d467fc1f63d64fb09bbef851c2",
+      "parameters": {
+        "a": 0.6664654683125338,
+        "b": 0.049907306322030776,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6922221518363725,
+        "calibrated_log_loss": 0.6919122123196113,
+        "gradient": [
+          -1.1641269285192402e-09,
+          -1.3352277979043634e-08
+        ],
+        "projected_gradient_inf_norm": 1.3352277979043634e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.6287751206405726,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6922221518363725,
+        "auc": 0.5196254694492666,
+        "brier": 0.24953644691619056,
+        "ece": 0.010060663796604271,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 30120,
+            "predicted": 0.4860645741958476,
+            "observed": 0.5026228419654715
+          },
+          {
+            "bin": 5,
+            "count": 51673,
+            "predicted": 0.5222739134827771,
+            "observed": 0.5280514001509492
+          },
+          {
+            "bin": 6,
+            "count": 288,
+            "predicted": 0.6128967057762001,
+            "observed": 0.5138888888888888
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6919122123196113,
+        "auc": 0.5196254694492666,
+        "brier": 0.24938268786926532,
+        "ece": 6.263592531343982e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8646,
+            "predicted": 0.49366723722029543,
+            "observed": 0.4938699976867916
+          },
+          {
+            "bin": 5,
+            "count": 73411,
+            "predicted": 0.5215864367644677,
+            "observed": 0.5215975807440302
+          },
+          {
+            "bin": 6,
+            "count": 24,
+            "predicted": 0.6070859045277387,
+            "observed": 0.5
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-43-short_best-calibration-logits.npz",
+      "logits_sha256": "250339b98451e47a3dff0978ee5a07142d1ad720d1302eb96dee7947980a4389",
+      "reused_same_weights": false
+    },
+    {
+      "model": "a",
+      "seed": 43,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/a-43/full-best.pt",
+        "sha256": "c13cab08985b551655360c747929ee17b33710cb38f05361836fc4f936b62ab2",
+        "epoch": 2,
+        "selection_log_loss": 0.6930653681723934
+      },
+      "model_weights_sha256": "0af789479e62d3f0e7e21aecc16adb90844579d467fc1f63d64fb09bbef851c2",
+      "parameters": {
+        "a": 0.6664654683125338,
+        "b": 0.049907306322030776,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6922221518363725,
+        "calibrated_log_loss": 0.6919122123196113,
+        "gradient": [
+          -1.1641269285192402e-09,
+          -1.3352277979043634e-08
+        ],
+        "projected_gradient_inf_norm": 1.3352277979043634e-08,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.6287751206405726,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6922221518363725,
+        "auc": 0.5196254694492666,
+        "brier": 0.24953644691619056,
+        "ece": 0.010060663796604271,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 30120,
+            "predicted": 0.4860645741958476,
+            "observed": 0.5026228419654715
+          },
+          {
+            "bin": 5,
+            "count": 51673,
+            "predicted": 0.5222739134827771,
+            "observed": 0.5280514001509492
+          },
+          {
+            "bin": 6,
+            "count": 288,
+            "predicted": 0.6128967057762001,
+            "observed": 0.5138888888888888
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6919122123196113,
+        "auc": 0.5196254694492666,
+        "brier": 0.24938268786926532,
+        "ece": 6.263592531343982e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 8646,
+            "predicted": 0.49366723722029543,
+            "observed": 0.4938699976867916
+          },
+          {
+            "bin": 5,
+            "count": 73411,
+            "predicted": 0.5215864367644677,
+            "observed": 0.5215975807440302
+          },
+          {
+            "bin": 6,
+            "count": 24,
+            "predicted": 0.6070859045277387,
+            "observed": 0.5
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/a-43-full_best-calibration-logits.npz",
+      "logits_sha256": "250339b98451e47a3dff0978ee5a07142d1ad720d1302eb96dee7947980a4389",
+      "reused_same_weights": true
+    },
+    {
+      "model": "b",
+      "seed": 7,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-7/short-best.pt",
+        "sha256": "a90fe1808d1cea641a887ad62c66ca34f9f78ef6b8647acb59978aa5f2b91918",
+        "epoch": 4,
+        "selection_log_loss": 0.6956863937830247
+      },
+      "model_weights_sha256": "09adde17aeb224e9af53160db01d9bd81f327999b9d8380a62e5f38eff29dfb9",
+      "parameters": {
+        "a": 0.21618917642532728,
+        "b": 0.05196808259943034,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6942944284339911,
+        "calibrated_log_loss": 0.6923065967736879,
+        "gradient": [
+          -2.3100015118142678e-10,
+          -2.0403447660024826e-09
+        ],
+        "projected_gradient_inf_norm": 2.0403447660024826e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2481073506820101,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6942944284339911,
+        "auc": 0.509879491401248,
+        "brier": 0.25056019549865505,
+        "ece": 0.022770977093484374,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 21627,
+            "predicted": 0.47713680011730547,
+            "observed": 0.5061728395061729
+          },
+          {
+            "bin": 5,
+            "count": 58086,
+            "predicted": 0.5408288131345721,
+            "observed": 0.5224494714733326
+          },
+          {
+            "bin": 6,
+            "count": 2368,
+            "predicted": 0.6133951466269008,
+            "observed": 0.5401182432432432
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923065967736879,
+        "auc": 0.509879491401248,
+        "brier": 0.24957992560260367,
+        "ece": 3.6440450327712305e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 380,
+            "predicted": 0.49869574200408956,
+            "observed": 0.5026315789473684
+          },
+          {
+            "bin": 5,
+            "count": 81701,
+            "predicted": 0.5187634845419873,
+            "observed": 0.5187451805975447
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-7-short_best-calibration-logits.npz",
+      "logits_sha256": "0a7b626fc7c550eb46a7e1c5dedf3a5124dec68bf108396e309c8d11ef4878fd",
+      "reused_same_weights": false
+    },
+    {
+      "model": "b",
+      "seed": 7,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-7/full-best.pt",
+        "sha256": "41ebdf0b48c89119fa759ddb3338d840f60ab044f7bbe212c0a8ce61473f919e",
+        "epoch": 9,
+        "selection_log_loss": 0.6953450564290123
+      },
+      "model_weights_sha256": "0f4720072a841b71e93acf3edd3351df3979faf66f582ffcbf08f4de0783c16d",
+      "parameters": {
+        "a": 0.2734594956471541,
+        "b": 0.05127148141730735,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6936738885931272,
+        "calibrated_log_loss": 0.6922491829050086,
+        "gradient": [
+          -1.4672918974288585e-11,
+          -2.8143703726680925e-10
+        ],
+        "projected_gradient_inf_norm": 2.8143703726680925e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.30729952992878706,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6936738885931272,
+        "auc": 0.5112545863102609,
+        "brier": 0.250256413350024,
+        "ece": 0.018741612938299065,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 24852,
+            "predicted": 0.47950312234381215,
+            "observed": 0.5060759697408659
+          },
+          {
+            "bin": 5,
+            "count": 55764,
+            "predicted": 0.5375758128780932,
+            "observed": 0.5229180116204003
+          },
+          {
+            "bin": 6,
+            "count": 1465,
+            "predicted": 0.6119892824184027,
+            "observed": 0.5706484641638225
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922491829050086,
+        "auc": 0.5112545863102609,
+        "brier": 0.24955133258158263,
+        "ece": 0.0007269281924492849,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1443,
+            "predicted": 0.4976898766233328,
+            "observed": 0.5183645183645184
+          },
+          {
+            "bin": 5,
+            "count": 80638,
+            "predicted": 0.5190460265003087,
+            "observed": 0.5186760584339889
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-7-full_best-calibration-logits.npz",
+      "logits_sha256": "bd1847208d6be357e00944d9ee3d1161661e036ac9fd5a8cd1c4c44abcbd43be",
+      "reused_same_weights": false
+    },
+    {
+      "model": "b",
+      "seed": 19,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-19/short-best.pt",
+        "sha256": "4b34ca94cf143d030ae489a883f8fe26fffb4f17ef44983fef1fac647f75be44",
+        "epoch": 4,
+        "selection_log_loss": 0.6952324657798294
+      },
+      "model_weights_sha256": "743c5f3f602c8a88aeba0f85bf13cd5384bf29ad521c7dcad3cd105dc399dd4d",
+      "parameters": {
+        "a": 0.2520911360581094,
+        "b": 0.049304520530854934,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6940175149102582,
+        "calibrated_log_loss": 0.6922584566113908,
+        "gradient": [
+          -2.9342297592200976e-10,
+          -2.63778022923762e-09
+        ],
+        "projected_gradient_inf_norm": 2.63778022923762e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.27482245574549335,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6940175149102582,
+        "auc": 0.5115063351356608,
+        "brier": 0.2504226092057628,
+        "ece": 0.02123703531519809,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 22196,
+            "predicted": 0.4777473058033158,
+            "observed": 0.5052261668769148
+          },
+          {
+            "bin": 5,
+            "count": 57533,
+            "predicted": 0.5396498835146828,
+            "observed": 0.5228477569394956
+          },
+          {
+            "bin": 6,
+            "count": 2352,
+            "predicted": 0.6141834808958019,
+            "observed": 0.5433673469387755
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922584566113908,
+        "auc": 0.5115063351356608,
+        "brier": 0.24955589431443365,
+        "ece": 0.00042065340396103335,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1481,
+            "predicted": 0.49813373782506115,
+            "observed": 0.5097906819716408
+          },
+          {
+            "bin": 5,
+            "count": 80600,
+            "predicted": 0.5190479369450303,
+            "observed": 0.518833746898263
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-19-short_best-calibration-logits.npz",
+      "logits_sha256": "96c223d8165a68b8b652cb41b3b59850036d25d55844ce21312b3ffdf0079fa5",
+      "reused_same_weights": false
+    },
+    {
+      "model": "b",
+      "seed": 19,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-19/full-best.pt",
+        "sha256": "e9681b368d6f9fe55820ab782a35d4194c417d25ae68169ef101517b77aa3ade",
+        "epoch": 8,
+        "selection_log_loss": 0.6947655723846982
+      },
+      "model_weights_sha256": "edb9685eb54afe850d76becda9eceedb3cb51da02448cbce411b3259c8318e22",
+      "parameters": {
+        "a": 0.3221721023010571,
+        "b": 0.047931659467052884,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6933377494714364,
+        "calibrated_log_loss": 0.692191621699464,
+        "gradient": [
+          1.2254257506200457e-11,
+          1.7786023625500192e-10
+        ],
+        "projected_gradient_inf_norm": 1.7786023625500192e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.3396702177845061,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6933377494714364,
+        "auc": 0.513010055391555,
+        "brier": 0.2500893863059167,
+        "ece": 0.01632923173123946,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 24437,
+            "predicted": 0.4806431488205247,
+            "observed": 0.504685517862258
+          },
+          {
+            "bin": 5,
+            "count": 56282,
+            "predicted": 0.5358451912136089,
+            "observed": 0.5234177889911517
+          },
+          {
+            "bin": 6,
+            "count": 1362,
+            "predicted": 0.6125970966040336,
+            "observed": 0.5734214390602056
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.692191621699464,
+        "auc": 0.513010055391555,
+        "brier": 0.24952261650812785,
+        "ece": 0.0014669854502203598,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 2924,
+            "predicted": 0.4971936357488722,
+            "observed": 0.5177838577291382
+          },
+          {
+            "bin": 5,
+            "count": 79157,
+            "predicted": 0.5194639238938974,
+            "observed": 0.5187033364073929
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-19-full_best-calibration-logits.npz",
+      "logits_sha256": "a0458d41ebb57bf4f4302922d7baadab06cf0bba3608378c9c9cde96b7a03652",
+      "reused_same_weights": false
+    },
+    {
+      "model": "b",
+      "seed": 43,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-43/short-best.pt",
+        "sha256": "883e4c6cce9d99fcf8f4843196c2c51b478be2b29e1d2db9aa7456ebf04767e3",
+        "epoch": 4,
+        "selection_log_loss": 0.6958454207786626
+      },
+      "model_weights_sha256": "d13b29dc4a005a4ad9d54ff3500074cee669b9a61b70d63997a49218153a410e",
+      "parameters": {
+        "a": 0.21540215314170202,
+        "b": 0.050770943551512154,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6945178799407984,
+        "calibrated_log_loss": 0.6922935650429575,
+        "gradient": [
+          -1.8455653924980997e-10,
+          -1.485063515079783e-09
+        ],
+        "projected_gradient_inf_norm": 1.485063515079783e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.263457360646501,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6945178799407984,
+        "auc": 0.5104261728327558,
+        "brier": 0.2506675647253786,
+        "ece": 0.024394717700676746,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 21698,
+            "predicted": 0.47687498716618437,
+            "observed": 0.5061295971978984
+          },
+          {
+            "bin": 5,
+            "count": 57058,
+            "predicted": 0.5417118857194875,
+            "observed": 0.5222755792351642
+          },
+          {
+            "bin": 6,
+            "count": 3324,
+            "predicted": 0.6162118926830321,
+            "observed": 0.5385078219013237
+          },
+          {
+            "bin": 7,
+            "count": 1,
+            "predicted": 0.7088115397987966,
+            "observed": 1.0
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922935650429575,
+        "auc": 0.5104261728327558,
+        "brier": 0.2495734209304353,
+        "ece": 0.00039074506740418305,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 409,
+            "predicted": 0.4986884257052536,
+            "observed": 0.5378973105134475
+          },
+          {
+            "bin": 5,
+            "count": 81672,
+            "predicted": 0.5187706473698581,
+            "observed": 0.518574297188755
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-43-short_best-calibration-logits.npz",
+      "logits_sha256": "11dedbd0d88cdd91d06852571c14cd4b05b29dfc14015ea8dcd688e129545b61",
+      "reused_same_weights": false
+    },
+    {
+      "model": "b",
+      "seed": 43,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/b-43/full-best.pt",
+        "sha256": "3d1bb07829fcba4e8277eb578a53f4a40470888a0685ee4829368dfc114c5762",
+        "epoch": 10,
+        "selection_log_loss": 0.695135406476385
+      },
+      "model_weights_sha256": "5f1827e2f11b87623012c1108308d03137633dc382d127f1aec23bba17a83d06",
+      "parameters": {
+        "a": 0.28725711272275567,
+        "b": 0.05340859374338938,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 5,
+        "function_evaluations": 7,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6935897592150753,
+        "calibrated_log_loss": 0.6922275142805276,
+        "gradient": [
+          9.650984265139222e-11,
+          -5.453938776568141e-10
+        ],
+        "projected_gradient_inf_norm": 5.453938776568141e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.35464484266883645,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6935897592150753,
+        "auc": 0.5119209996698142,
+        "brier": 0.2502149099408182,
+        "ece": 0.018624327412352842,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 27042,
+            "predicted": 0.4788734193113785,
+            "observed": 0.5074698616966201
+          },
+          {
+            "bin": 5,
+            "count": 53508,
+            "predicted": 0.5356749156856445,
+            "observed": 0.5230619720415639
+          },
+          {
+            "bin": 6,
+            "count": 1530,
+            "predicted": 0.6151724810273866,
+            "observed": 0.5627450980392157
+          },
+          {
+            "bin": 7,
+            "count": 1,
+            "predicted": 0.7088611277369996,
+            "observed": 1.0
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922275142805276,
+        "auc": 0.5119209996698142,
+        "brier": 0.24954055124235483,
+        "ece": 0.0013643536435788445,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1730,
+            "predicted": 0.4976914577499803,
+            "observed": 0.5300578034682081
+          },
+          {
+            "bin": 5,
+            "count": 80351,
+            "predicted": 0.5191222726951259,
+            "observed": 0.518425408520118
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/b-43-full_best-calibration-logits.npz",
+      "logits_sha256": "146ddce79aa2eb99fe3c2472198db6ae41adcdeaf5b21ef8c170eae65c2b8c88",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 7,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-7/short-best.pt",
+        "sha256": "6a18a1ca282f7ddc2cee74abf74c8e6635c4147bab1dbe2478d206299fe2fe5d",
+        "epoch": 4,
+        "selection_log_loss": 0.6959656488958567
+      },
+      "model_weights_sha256": "1b3f2bcf0d5aba5ae78b7e09aa1a185594108b1638fc6c3bfdb7834242918b4c",
+      "parameters": {
+        "a": 0.22702128031863197,
+        "b": 0.055131433221219585,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6940026873595538,
+        "calibrated_log_loss": 0.6923042275444083,
+        "gradient": [
+          1.6952944362181836e-11,
+          2.2601946847251613e-10
+        ],
+        "projected_gradient_inf_norm": 2.2601946847251613e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.23482589730116463,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6940026873595538,
+        "auc": 0.5095728540963654,
+        "brier": 0.25042048666826056,
+        "ece": 0.023397710312321292,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 4,
+            "predicted": 0.3909133879172084,
+            "observed": 0.0
+          },
+          {
+            "bin": 4,
+            "count": 26268,
+            "predicted": 0.47860739814403785,
+            "observed": 0.5108116339272119
+          },
+          {
+            "bin": 5,
+            "count": 55180,
+            "predicted": 0.5408825108910305,
+            "observed": 0.5215295396882929
+          },
+          {
+            "bin": 6,
+            "count": 629,
+            "predicted": 0.6074817012313193,
+            "observed": 0.5993640699523053
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923042275444083,
+        "auc": 0.5095728540963654,
+        "brier": 0.24957875122729825,
+        "ece": 0.00016928158980871762,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 472,
+            "predicted": 0.49799281396060613,
+            "observed": 0.5127118644067796
+          },
+          {
+            "bin": 5,
+            "count": 81609,
+            "predicted": 0.5187901752302135,
+            "observed": 0.518705044786727
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-7-short_best-calibration-logits.npz",
+      "logits_sha256": "e351110d83351268098d0c889b98533f7d8f84e7f3a8a6897cc09d5bd4960e30",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 7,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-7/full-best.pt",
+        "sha256": "0c81cbefb84b4c65c28a055fdda5539bb5d7293900cc36529da4743f2a2ebd49",
+        "epoch": 5,
+        "selection_log_loss": 0.6959084624408176
+      },
+      "model_weights_sha256": "28dc96dae0bad2ebc3f782dda26a5b29a6605bd04ccb5f8edc431a570357c9fa",
+      "parameters": {
+        "a": 0.2363206715768067,
+        "b": 0.056183097324350145,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 7,
+        "function_evaluations": 8,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6939062295615059,
+        "calibrated_log_loss": 0.6922952194229778,
+        "gradient": [
+          3.3340784709779913e-11,
+          -3.3756302245784033e-09
+        ],
+        "projected_gradient_inf_norm": 3.3756302245784033e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.24184795738199694,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6939062295615059,
+        "auc": 0.5098495022352556,
+        "brier": 0.2503734299683454,
+        "ece": 0.02292217934292325,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 5,
+            "predicted": 0.39108883368617675,
+            "observed": 0.0
+          },
+          {
+            "bin": 4,
+            "count": 27711,
+            "predicted": 0.47836545801441344,
+            "observed": 0.510880155894771
+          },
+          {
+            "bin": 5,
+            "count": 53875,
+            "predicted": 0.539884230240552,
+            "observed": 0.5218190255220417
+          },
+          {
+            "bin": 6,
+            "count": 490,
+            "predicted": 0.6076688544781134,
+            "observed": 0.6183673469387755
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922952194229778,
+        "auc": 0.5098495022352556,
+        "brier": 0.24957426570128388,
+        "ece": 0.0002900526110835704,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 613,
+            "predicted": 0.49770955510159265,
+            "observed": 0.5171288743882545
+          },
+          {
+            "bin": 5,
+            "count": 81468,
+            "predicted": 0.5188282978058578,
+            "observed": 0.5186821819610153
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-7-full_best-calibration-logits.npz",
+      "logits_sha256": "eef3079d920b8c8a4654301f8545d40f65120aaf49b2ee624ef24e5ef36de3f8",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 19,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-19/short-best.pt",
+        "sha256": "b0407aca15646ca08e3e9b65c214387e1bec3fd99222f80731f368b50f306314",
+        "epoch": 4,
+        "selection_log_loss": 0.69637228179688
+      },
+      "model_weights_sha256": "ce6bdee724b3f67d9d86f9d46f9acc561c28c36ea2a5df99e05cb1b95bd22018",
+      "parameters": {
+        "a": 0.19148638603964638,
+        "b": 0.05740991306748937,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6942727742157379,
+        "calibrated_log_loss": 0.6923428242310818,
+        "gradient": [
+          2.2430842900190464e-11,
+          1.1446879952025643e-10
+        ],
+        "projected_gradient_inf_norm": 1.1446879952025643e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.20216663940395233,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6942727742157379,
+        "auc": 0.5094165068598049,
+        "brier": 0.2505495977249419,
+        "ece": 0.021238331703162274,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 25139,
+            "predicted": 0.4782963712651156,
+            "observed": 0.5067822904650146
+          },
+          {
+            "bin": 5,
+            "count": 55418,
+            "predicted": 0.5400465507771514,
+            "observed": 0.5240896459634053
+          },
+          {
+            "bin": 6,
+            "count": 1524,
+            "predicted": 0.6114542196803321,
+            "observed": 0.5177165354330708
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923428242310818,
+        "auc": 0.5094165068598049,
+        "brier": 0.24959795664711337,
+        "ece": 8.529456681646694e-07,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 34,
+            "predicted": 0.4989705700341801,
+            "observed": 0.5
+          },
+          {
+            "bin": 5,
+            "count": 82047,
+            "predicted": 0.5186787452315691,
+            "observed": 0.518678318524748
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-19-short_best-calibration-logits.npz",
+      "logits_sha256": "d83c93e0996427a0f5cbd6bc2ea9f18c8bf7b3b852d855fa95e4990e6ad15e7e",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 19,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-19/full-best.pt",
+        "sha256": "386e38f350e97a712551ed1e9fa4f0c3748f1ec4a281f9dd6385b7ad80436337",
+        "epoch": 5,
+        "selection_log_loss": 0.6963626956266606
+      },
+      "model_weights_sha256": "26df5521922a95a559a173fc997de8fbf36aea1ea9bbeff5a91fe646e604edcb",
+      "parameters": {
+        "a": 0.19836248446576316,
+        "b": 0.05813508367929345,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6942090725043916,
+        "calibrated_log_loss": 0.6923352446807958,
+        "gradient": [
+          -4.3890589490639627e-13,
+          -3.4240806943962913e-12
+        ],
+        "projected_gradient_inf_norm": 3.4240806943962913e-12,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2078090081608927,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6942090725043916,
+        "auc": 0.5097143895708205,
+        "brier": 0.25051906723064576,
+        "ece": 0.021034518387816524,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 26263,
+            "predicted": 0.47756291472941415,
+            "observed": 0.5071393214788866
+          },
+          {
+            "bin": 5,
+            "count": 54532,
+            "predicted": 0.5394649999043594,
+            "observed": 0.5241509572361183
+          },
+          {
+            "bin": 6,
+            "count": 1286,
+            "predicted": 0.6109360486348742,
+            "observed": 0.5217729393468118
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923352446807958,
+        "auc": 0.5097143895708205,
+        "brier": 0.24959417679354284,
+        "ece": 5.11371690194791e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 82,
+            "predicted": 0.4987964009064948,
+            "observed": 0.524390243902439
+          },
+          {
+            "bin": 5,
+            "count": 81999,
+            "predicted": 0.5186904559182992,
+            "observed": 0.5186648617666069
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-19-full_best-calibration-logits.npz",
+      "logits_sha256": "650832a975daf444791eab43a2aeeff2e69708904dcfba3cdebfebe9e8f88fd9",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 43,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-43/short-best.pt",
+        "sha256": "fbc463af2577fd175498b9f1bea577e426af2256e515f8b21f8705983d8e4b73",
+        "epoch": 4,
+        "selection_log_loss": 0.6950166319363991
+      },
+      "model_weights_sha256": "ad8685ce7831e90b98358e06a7160fa53c72b1ad142d1c34f082a41386e04d48",
+      "parameters": {
+        "a": 0.24624045496435742,
+        "b": 0.055091037140662893,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "function_evaluations": 9,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6934716396244267,
+        "calibrated_log_loss": 0.692327684992069,
+        "gradient": [
+          -7.71576270953092e-11,
+          -9.243302294491034e-09
+        ],
+        "projected_gradient_inf_norm": 9.243302294491034e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.24867959400203576,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6934716396244267,
+        "auc": 0.5092011239336075,
+        "brier": 0.2501576595578894,
+        "ece": 0.015736266009387843,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 23347,
+            "predicted": 0.48196662375315047,
+            "observed": 0.5075598577975757
+          },
+          {
+            "bin": 5,
+            "count": 58281,
+            "predicted": 0.5343045198171589,
+            "observed": 0.5227947358487328
+          },
+          {
+            "bin": 6,
+            "count": 453,
+            "predicted": 0.6121887320475233,
+            "observed": 0.5607064017660044
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.692327684992069,
+        "auc": 0.5092011239336075,
+        "brier": 0.2495904637078275,
+        "ece": 0.0004916591233415125,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 160,
+            "predicted": 0.4988855274922351,
+            "observed": 0.625
+          },
+          {
+            "bin": 5,
+            "count": 81921,
+            "predicted": 0.5187092144493078,
+            "observed": 0.5184629093883131
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-43-short_best-calibration-logits.npz",
+      "logits_sha256": "31772adaa9de728755182e0561d700f2d39cf4b97130b843d720aa98f02e5630",
+      "reused_same_weights": false
+    },
+    {
+      "model": "c",
+      "seed": 43,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/c-43/full-best.pt",
+        "sha256": "82752d259285c04150ba0afaa9d98b16d8481b5db778fdf24ce18063793e3da6",
+        "epoch": 5,
+        "selection_log_loss": 0.6950065274745545
+      },
+      "model_weights_sha256": "24c4b2c2d22884bb443e9140313c81f8d10162f6b0e7dc6147e4731e613ef45c",
+      "parameters": {
+        "a": 0.24890864407710184,
+        "b": 0.05587095221550435,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 5,
+        "function_evaluations": 7,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6934285328189361,
+        "calibrated_log_loss": 0.6923287149866859,
+        "gradient": [
+          1.7376130915496415e-10,
+          6.73793799611513e-10
+        ],
+        "projected_gradient_inf_norm": 6.73793799611513e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.24326489831744816,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6934285328189361,
+        "auc": 0.5090849339745238,
+        "brier": 0.2501368838833695,
+        "ece": 0.015125863564758502,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 24000,
+            "predicted": 0.4819147900901477,
+            "observed": 0.5074583333333333
+          },
+          {
+            "bin": 5,
+            "count": 57739,
+            "predicted": 0.5336665362736751,
+            "observed": 0.5231472661459325
+          },
+          {
+            "bin": 6,
+            "count": 342,
+            "predicted": 0.6114878114525126,
+            "observed": 0.5497076023391813
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923287149866859,
+        "auc": 0.5090849339745238,
+        "brier": 0.24959098364115884,
+        "ece": 0.00036986082299445927,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 152,
+            "predicted": 0.498820753596907,
+            "observed": 0.5986842105263158
+          },
+          {
+            "bin": 5,
+            "count": 81929,
+            "predicted": 0.518707408863271,
+            "observed": 0.518522135019346
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/c-43-full_best-calibration-logits.npz",
+      "logits_sha256": "cbce27e983d51d652275dd49b663335ef1b7040aeab92db0f0e4e9d9ac9b36ca",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 7,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-7/short-best.pt",
+        "sha256": "a446ce78355b6291472c7bbe6ddb64e6892cdf432cebc0c147c1d03d10abbe66",
+        "epoch": 4,
+        "selection_log_loss": 0.6959352488635302
+      },
+      "model_weights_sha256": "668a0ce3d118e5fbbdf59bba73b610d2fd0862ea0554f827b81d48a0aa2ff856",
+      "parameters": {
+        "a": 0.23505711183139613,
+        "b": 0.05452576797320409,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6939372070840532,
+        "calibrated_log_loss": 0.6922957447259621,
+        "gradient": [
+          1.59873555139314e-11,
+          2.1335058108976785e-10
+        ],
+        "projected_gradient_inf_norm": 2.1335058108976785e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.24334114663266715,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6939372070840532,
+        "auc": 0.5098257604901361,
+        "brier": 0.2503881926777696,
+        "ece": 0.023395146524669102,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 4,
+            "predicted": 0.3897845813999653,
+            "observed": 0.0
+          },
+          {
+            "bin": 4,
+            "count": 26165,
+            "predicted": 0.47867267459272544,
+            "observed": 0.511140836995987
+          },
+          {
+            "bin": 5,
+            "count": 55306,
+            "predicted": 0.5406306320929387,
+            "observed": 0.5213720030376451
+          },
+          {
+            "bin": 6,
+            "count": 606,
+            "predicted": 0.6074103560269911,
+            "observed": 0.6006600660066007
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922957447259621,
+        "auc": 0.5098257604901361,
+        "brier": 0.24957452254655535,
+        "ece": 0.00012958088120748075,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 624,
+            "predicted": 0.49788773173207573,
+            "observed": 0.5064102564102564
+          },
+          {
+            "bin": 5,
+            "count": 81457,
+            "predicted": 0.5188297883903312,
+            "observed": 0.5187645015161374
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-7-short_best-calibration-logits.npz",
+      "logits_sha256": "9f5717207b538149d00325ee29324b777b24cf6fced8ebde386a43b0271bc9f1",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 7,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-7/full-best.pt",
+        "sha256": "ab5d2f3c714f8180c4bc66160d3483b9da4829e46e55c687841d08a0c524f25c",
+        "epoch": 5,
+        "selection_log_loss": 0.6958984205915907
+      },
+      "model_weights_sha256": "e163102f37c01224dfe2b3b90a250ec3d3fddd4d4a765de0ed4ae9a49ee03736",
+      "parameters": {
+        "a": 0.24387666691309198,
+        "b": 0.05564227989486169,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 7,
+        "function_evaluations": 8,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6938453968348864,
+        "calibrated_log_loss": 0.6922873818998349,
+        "gradient": [
+          1.0966069716823639e-11,
+          -1.1949588048542654e-09
+        ],
+        "projected_gradient_inf_norm": 1.1949588048542654e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.25002399651906154,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6938453968348864,
+        "auc": 0.5100851250690257,
+        "brier": 0.25034339841197006,
+        "ece": 0.022401186582645644,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 5,
+            "predicted": 0.3901562348525327,
+            "observed": 0.0
+          },
+          {
+            "bin": 4,
+            "count": 27559,
+            "predicted": 0.47842856859204486,
+            "observed": 0.5104321637214703
+          },
+          {
+            "bin": 5,
+            "count": 54061,
+            "predicted": 0.5396464174870746,
+            "observed": 0.5220769131166645
+          },
+          {
+            "bin": 6,
+            "count": 456,
+            "predicted": 0.6075680684752284,
+            "observed": 0.618421052631579
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922873818998349,
+        "auc": 0.5100851250690257,
+        "brier": 0.24957035919860024,
+        "ece": 0.00016648603762188763,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 762,
+            "predicted": 0.49759485660271885,
+            "observed": 0.5065616797900262
+          },
+          {
+            "bin": 5,
+            "count": 81319,
+            "predicted": 0.5188680704532189,
+            "observed": 0.5187840480084605
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-7-full_best-calibration-logits.npz",
+      "logits_sha256": "8bc66f6b900a3e75b1408f41e10709ba824536a9e5ae5502c44b8d67dd1c0902",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 19,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-19/short-best.pt",
+        "sha256": "fc3b1b9fdc23dac61b220d80b69e556e120d9ddffe2f4cd435ff5bf3f6833c18",
+        "epoch": 4,
+        "selection_log_loss": 0.6963085854805102
+      },
+      "model_weights_sha256": "0f25b65f1d991d5a9479278a2770efc382fad6918e6c3dfdb78a79306c889068",
+      "parameters": {
+        "a": 0.1880465090246601,
+        "b": 0.057761880127450024,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6942698279150975,
+        "calibrated_log_loss": 0.6923479007889377,
+        "gradient": [
+          2.4993485771766204e-11,
+          1.2911483731441195e-10
+        ],
+        "projected_gradient_inf_norm": 1.2911483731441195e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.19636922805093784,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6942698279150975,
+        "auc": 0.5091856772033355,
+        "brier": 0.25054828213055724,
+        "ece": 0.020394704940437467,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 25103,
+            "predicted": 0.47852175375870365,
+            "observed": 0.5057562841094689
+          },
+          {
+            "bin": 5,
+            "count": 55502,
+            "predicted": 0.5398917636132803,
+            "observed": 0.5244495693848871
+          },
+          {
+            "bin": 6,
+            "count": 1476,
+            "predicted": 0.6112985750382837,
+            "observed": 0.5210027100271003
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923479007889377,
+        "auc": 0.5091856772033355,
+        "brier": 0.2496004896203158,
+        "ece": 4.815235934823819e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 20,
+            "predicted": 0.4988101101385222,
+            "observed": 0.4
+          },
+          {
+            "bin": 5,
+            "count": 82061,
+            "predicted": 0.518675422044517,
+            "observed": 0.5186995040274918
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-19-short_best-calibration-logits.npz",
+      "logits_sha256": "ac6cad7bcaf8c7b613575258a18aff45a2f05fb86652c6da558e92911f2c7a57",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 19,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-19/full-best.pt",
+        "sha256": "9d7f91f61fb0278e2f7ed944e1d836859ae50b8fe9a0f94667748ce6ed59fba7",
+        "epoch": 5,
+        "selection_log_loss": 0.6962976936454917
+      },
+      "model_weights_sha256": "d5c7d0a9bec0091bb0bf3795c5a922381e166ba35a8e2e5787d02b9b0a6548bc",
+      "parameters": {
+        "a": 0.19337800402471336,
+        "b": 0.058599510786602825,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6942142825366526,
+        "calibrated_log_loss": 0.692342361427426,
+        "gradient": [
+          9.27571171785171e-12,
+          7.058265277206445e-11
+        ],
+        "projected_gradient_inf_norm": 7.058265277206445e-11,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.20089346149645587,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6942142825366526,
+        "auc": 0.5093871247186232,
+        "brier": 0.2505218492660873,
+        "ece": 0.020075653447561317,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 26288,
+            "predicted": 0.4778265313542915,
+            "observed": 0.5059723067559343
+          },
+          {
+            "bin": 5,
+            "count": 54582,
+            "predicted": 0.5393729875549758,
+            "observed": 0.5247334286028361
+          },
+          {
+            "bin": 6,
+            "count": 1211,
+            "predicted": 0.6109637986335326,
+            "observed": 0.5210569777043765
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.692342361427426,
+        "auc": 0.5093871247186232,
+        "brier": 0.24959772817512305,
+        "ece": 3.797846812939701e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 51,
+            "predicted": 0.4988499524604363,
+            "observed": 0.5294117647058824
+          },
+          {
+            "bin": 5,
+            "count": 82030,
+            "predicted": 0.5186829045253933,
+            "observed": 0.5186639034499574
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-19-full_best-calibration-logits.npz",
+      "logits_sha256": "5d0fc9d88cd8c81768f8afd8da8fe5f2a52a092a7b55a0109a9b13781c659c6a",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 43,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-43/short-best.pt",
+        "sha256": "8fd661d823fd4fc896c9b81c62b8779501d49c839249e4827ec46269e657fccd",
+        "epoch": 4,
+        "selection_log_loss": 0.6950266602352753
+      },
+      "model_weights_sha256": "2544ca2d71912d805e8f6cd9c2ad19c87070609921faeff32f7c4453cdd0c930",
+      "parameters": {
+        "a": 0.25477284843824033,
+        "b": 0.054631925035838344,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "function_evaluations": 9,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6934410182600262,
+        "calibrated_log_loss": 0.6923184527884471,
+        "gradient": [
+          5.7141059805470055e-11,
+          2.0205572146216637e-09
+        ],
+        "projected_gradient_inf_norm": 2.0205572146216637e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2581440768426513,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6934410182600262,
+        "auc": 0.5095165806371604,
+        "brier": 0.2501424034332896,
+        "ece": 0.01575998842462678,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 23697,
+            "predicted": 0.48198718659692297,
+            "observed": 0.5076169979322277
+          },
+          {
+            "bin": 5,
+            "count": 57922,
+            "predicted": 0.5342954841646758,
+            "observed": 0.5228065329235869
+          },
+          {
+            "bin": 6,
+            "count": 462,
+            "predicted": 0.6120842789669408,
+            "observed": 0.5670995670995671
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923184527884471,
+        "auc": 0.5095165806371604,
+        "brier": 0.2495858544612847,
+        "ece": 0.000604162954470977,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 233,
+            "predicted": 0.4987336188485542,
+            "observed": 0.6051502145922747
+          },
+          {
+            "bin": 5,
+            "count": 81848,
+            "predicted": 0.5187273388800905,
+            "observed": 0.5184243964421855
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-43-short_best-calibration-logits.npz",
+      "logits_sha256": "6d7bb6248ffedf11a92d4b1699657516aafeb0ff003ca67e0bdcde03da540de1",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_transfer",
+      "seed": 43,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_transfer-43/full-best.pt",
+        "sha256": "caa26feb86208bdf92f170657a6779fdaa9347308551cb13b189f804927f0773",
+        "epoch": 5,
+        "selection_log_loss": 0.695013249626766
+      },
+      "model_weights_sha256": "c77b0aa57a0c9f6243c860d36b3ab5cc7a4dacba03a6fc1f27bd0c13e7d8e56b",
+      "parameters": {
+        "a": 0.2618807080952614,
+        "b": 0.055225305690335395,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 5,
+        "function_evaluations": 7,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.693382735097319,
+        "calibrated_log_loss": 0.6923150476787642,
+        "gradient": [
+          4.979510280068721e-12,
+          -1.8695363166298037e-10
+        ],
+        "projected_gradient_inf_norm": 1.8695363166298037e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2558717338250929,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.693382735097319,
+        "auc": 0.5095344340632539,
+        "brier": 0.25011408172753374,
+        "ece": 0.015006506160387581,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 24454,
+            "predicted": 0.48191453614789287,
+            "observed": 0.5073198658706142
+          },
+          {
+            "bin": 5,
+            "count": 57283,
+            "predicted": 0.5336147152817439,
+            "observed": 0.5233140722378367
+          },
+          {
+            "bin": 6,
+            "count": 344,
+            "predicted": 0.6117307082186325,
+            "observed": 0.5523255813953488
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923150476787642,
+        "auc": 0.5095344340632539,
+        "brier": 0.24958416181591273,
+        "ece": 0.0006299720025956901,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 255,
+            "predicted": 0.49861029943058616,
+            "observed": 0.6
+          },
+          {
+            "bin": 5,
+            "count": 81826,
+            "predicted": 0.5187330965499946,
+            "observed": 0.5184171290298927
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_transfer-43-full_best-calibration-logits.npz",
+      "logits_sha256": "c5e366bf5703df8ba3f739c14d18b647ebefa2a6120c69ba245b729f192900d0",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 7,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-7/short-best.pt",
+        "sha256": "6a2000dbf67f55b127f7197bf60fcf6ffab73f25f1e3f4802a06950ae6b36f9a",
+        "epoch": 4,
+        "selection_log_loss": 0.6955304574865407
+      },
+      "model_weights_sha256": "6afffa5397168dfe914ce3b8b7874d3ef814867578843bcbc343a9ece0ae7a3e",
+      "parameters": {
+        "a": 0.2348922427458257,
+        "b": 0.05548676888285207,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6938851721216257,
+        "calibrated_log_loss": 0.692300578696296,
+        "gradient": [
+          1.746557007225359e-11,
+          1.2557948116598178e-10
+        ],
+        "projected_gradient_inf_norm": 1.2557948116598178e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2518475285513758,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6938851721216257,
+        "auc": 0.5098382496837568,
+        "brier": 0.2503624299598718,
+        "ece": 0.020581078536841043,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 4,
+            "predicted": 0.3887888392083525,
+            "observed": 0.0
+          },
+          {
+            "bin": 4,
+            "count": 25733,
+            "predicted": 0.47752435061741727,
+            "observed": 0.5076361092760269
+          },
+          {
+            "bin": 5,
+            "count": 55780,
+            "predicted": 0.5392613607423673,
+            "observed": 0.5231444962352098
+          },
+          {
+            "bin": 6,
+            "count": 564,
+            "predicted": 0.6079712132169633,
+            "observed": 0.5833333333333334
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.692300578696296,
+        "auc": 0.5098382496837568,
+        "brier": 0.24957691887154843,
+        "ece": 0.00018633595010309164,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 603,
+            "predicted": 0.4980973210508089,
+            "observed": 0.5107794361525705
+          },
+          {
+            "bin": 5,
+            "count": 81478,
+            "predicted": 0.5188228396096376,
+            "observed": 0.5187289820565061
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-7-short_best-calibration-logits.npz",
+      "logits_sha256": "f0222960920a074fc0c19438ad9e4e814982314e053efe29efb003f16d1e5068",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 7,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-7/full-best.pt",
+        "sha256": "0435ef9fe05312af56c966f2db361abff60b66cfd5eb958bf9fd8a1adc1beabe",
+        "epoch": 7,
+        "selection_log_loss": 0.6954082217487221
+      },
+      "model_weights_sha256": "4fbfd78f025d18ac2d29833918494fa463f999e0bfb63832d31af57b3e565f08",
+      "parameters": {
+        "a": 0.255536138286215,
+        "b": 0.0575156849849295,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "function_evaluations": 9,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6937586743047424,
+        "calibrated_log_loss": 0.6922753779587307,
+        "gradient": [
+          -4.602681496075396e-11,
+          -4.3298189319955227e-10
+        ],
+        "projected_gradient_inf_norm": 4.3298189319955227e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2947524874695453,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6937586743047424,
+        "auc": 0.5104401254853104,
+        "brier": 0.250301053085097,
+        "ece": 0.019595930559896862,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 9,
+            "predicted": 0.39318335683868644,
+            "observed": 0.1111111111111111
+          },
+          {
+            "bin": 4,
+            "count": 28393,
+            "predicted": 0.47666259076735923,
+            "observed": 0.5075898989187476
+          },
+          {
+            "bin": 5,
+            "count": 53235,
+            "predicted": 0.5373951247790536,
+            "observed": 0.5238095238095238
+          },
+          {
+            "bin": 6,
+            "count": 444,
+            "predicted": 0.6090846889187875,
+            "observed": 0.6193693693693694
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922753779587307,
+        "auc": 0.5104401254853104,
+        "brier": 0.24956437771548473,
+        "ece": 0.00043766110777479684,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1202,
+            "predicted": 0.49753589978084356,
+            "observed": 0.5124792013311148
+          },
+          {
+            "bin": 5,
+            "count": 80879,
+            "predicted": 0.5189846785064582,
+            "observed": 0.5187625959767059
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-7-full_best-calibration-logits.npz",
+      "logits_sha256": "705d6cd28bd43ccb5560f15cbdab15f52c2c220683f1180bab626034160a5dea",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 19,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-19/short-best.pt",
+        "sha256": "93379d4c3c38f59f72de0f0b50d6b17de0c415fcc7eac8cec4d293fc56c6f2a8",
+        "epoch": 4,
+        "selection_log_loss": 0.6956877808172512
+      },
+      "model_weights_sha256": "bec07cdba787a1bf297f1fbdebd1f1ab023f0a0f2babb7bbf87903e6e80312b8",
+      "parameters": {
+        "a": 0.22716252293858713,
+        "b": 0.05606139470034851,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "function_evaluations": 10,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.693903639167094,
+        "calibrated_log_loss": 0.6923124079761319,
+        "gradient": [
+          5.035220787486128e-13,
+          4.007504658972527e-12
+        ],
+        "projected_gradient_inf_norm": 4.007504658972527e-12,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.22540813241032923,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.693903639167094,
+        "auc": 0.5103018897049784,
+        "brier": 0.250368456463657,
+        "ece": 0.017503079551286986,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 25444,
+            "predicted": 0.47848662643436096,
+            "observed": 0.503890897657601
+          },
+          {
+            "bin": 5,
+            "count": 55501,
+            "predicted": 0.5378036612929441,
+            "observed": 0.5251797264914145
+          },
+          {
+            "bin": 6,
+            "count": 1136,
+            "predicted": 0.6106012237899433,
+            "observed": 0.5316901408450704
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6923124079761319,
+        "auc": 0.5103018897049784,
+        "brier": 0.24958276110119454,
+        "ece": 6.638758114425383e-05,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 163,
+            "predicted": 0.49862221251854727,
+            "observed": 0.5153374233128835
+          },
+          {
+            "bin": 5,
+            "count": 81918,
+            "predicted": 0.5187104736405725,
+            "observed": 0.518677213799165
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-19-short_best-calibration-logits.npz",
+      "logits_sha256": "cbfce58e0ca7426ca9906ba512123dc43888107b4a4672abe17053f0a7a6d9ec",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 19,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-19/full-best.pt",
+        "sha256": "65f5381181459d8277f5f83c638476a9aad175ccfa079f5b50ad2f560b361126",
+        "epoch": 10,
+        "selection_log_loss": 0.6954442820318193
+      },
+      "model_weights_sha256": "780ae95be10080bbcb022feb1fa23ae69669720d68375f54bb9421006c0d33e4",
+      "parameters": {
+        "a": 0.34056356862467346,
+        "b": 0.05481042901598393,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6933746951397634,
+        "calibrated_log_loss": 0.6921237807841415,
+        "gradient": [
+          -3.190628433666638e-11,
+          -2.7784170400876953e-09
+        ],
+        "projected_gradient_inf_norm": 2.7784170400876953e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.3916346780469851,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6933746951397634,
+        "auc": 0.5154036074315638,
+        "brier": 0.25010728557449574,
+        "ece": 0.014832942946113913,
+        "calibration": [
+          {
+            "bin": 3,
+            "count": 34,
+            "predicted": 0.3935526776943983,
+            "observed": 0.6176470588235294
+          },
+          {
+            "bin": 4,
+            "count": 29960,
+            "predicted": 0.4759660599017183,
+            "observed": 0.5016688918558078
+          },
+          {
+            "bin": 5,
+            "count": 51124,
+            "predicted": 0.5354130446230454,
+            "observed": 0.5280298881151709
+          },
+          {
+            "bin": 6,
+            "count": 963,
+            "predicted": 0.6120147895622964,
+            "observed": 0.5472481827622014
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6921237807841415,
+        "auc": 0.5154036074315638,
+        "brier": 0.24948867264032604,
+        "ece": 0.0011430349295155273,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 5286,
+            "predicted": 0.4952873932931509,
+            "observed": 0.5041619371925842
+          },
+          {
+            "bin": 5,
+            "count": 76795,
+            "predicted": 0.5202801043166503,
+            "observed": 0.5196692493000846
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-19-full_best-calibration-logits.npz",
+      "logits_sha256": "dfac2f405c25656f5f26b645c1270c4ffea67c07c4cf38f5e5c371db888a9150",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 43,
+      "choice": "short_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-43/short-best.pt",
+        "sha256": "c7e2420b48e4dcb823ad602fc71e13b1ab5f2599c784d24d368f4e86d33cb939",
+        "epoch": 4,
+        "selection_log_loss": 0.694974488313227
+      },
+      "model_weights_sha256": "da94f59d0e1ba8d990498acd75d937bf6f940d18190e36aa42c3374a10fc5937",
+      "parameters": {
+        "a": 0.2773880457037441,
+        "b": 0.05144017416753374,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 10,
+        "function_evaluations": 11,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.6934206235869621,
+        "calibrated_log_loss": 0.6922831065684217,
+        "gradient": [
+          1.8123129951157175e-10,
+          1.273661059499806e-09
+        ],
+        "projected_gradient_inf_norm": 1.273661059499806e-09,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.293048099768433,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.6934206235869621,
+        "auc": 0.5108030656791024,
+        "brier": 0.2501310454750556,
+        "ece": 0.01609425924932244,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 22338,
+            "predicted": 0.4805560576027533,
+            "observed": 0.5060435132957293
+          },
+          {
+            "bin": 5,
+            "count": 58946,
+            "predicted": 0.5349522251884322,
+            "observed": 0.5230210701319852
+          },
+          {
+            "bin": 6,
+            "count": 797,
+            "predicted": 0.6115435912379047,
+            "observed": 0.5508155583437893
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922831065684217,
+        "auc": 0.5108030656791024,
+        "brier": 0.24956820512904263,
+        "ece": 0.0007908747562245205,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1067,
+            "predicted": 0.4981650954440972,
+            "observed": 0.528584817244611
+          },
+          {
+            "bin": 5,
+            "count": 81014,
+            "predicted": 0.5189406515874357,
+            "observed": 0.5185400054311601
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-43-short_best-calibration-logits.npz",
+      "logits_sha256": "4efbdb4cb890f9294956b04f023cf9dba45455ec3304d70e497b225d41fbc522",
+      "reused_same_weights": false
+    },
+    {
+      "model": "no_open",
+      "seed": 43,
+      "choice": "full_best",
+      "checkpoint": {
+        "path": "artifacts/market-v31/checkpoints/no_open-43/full-best.pt",
+        "sha256": "606f30755d142409e9af8032b6ef2af6a23a1f1f17e226979292459bd112ccb2",
+        "epoch": 5,
+        "selection_log_loss": 0.6949277877976283
+      },
+      "model_weights_sha256": "e56c026fe21032771222e5e62561e7f2723fa96a1d6cad37234b6c028eeb8bcd",
+      "parameters": {
+        "a": 0.29219967376288697,
+        "b": 0.051758545505161145,
+        "status": "optimizer_converged",
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "function_evaluations": 9,
+        "n": 82081,
+        "positive_count": 42573,
+        "negative_count": 39508,
+        "initial_log_loss": 0.693307176370605,
+        "calibrated_log_loss": 0.6922733369150263,
+        "gradient": [
+          -2.400109306850043e-11,
+          -8.585826700874703e-10
+        ],
+        "projected_gradient_inf_norm": 8.585826700874703e-10,
+        "slope_lower_bound": 1e-06,
+        "slope_at_lower_boundary": false,
+        "calibrated_logit_dynamic_range": 0.2961103042302935,
+        "nearly_constant_prediction": false,
+        "optimizer": {
+          "method": "L-BFGS-B",
+          "maxiter": 1000,
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "regularization": null
+        }
+      },
+      "raw": {
+        "n": 82081,
+        "log_loss": 0.693307176370605,
+        "auc": 0.511105122057279,
+        "brier": 0.25007549682242625,
+        "ece": 0.01605580263372188,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 23053,
+            "predicted": 0.48067250002931244,
+            "observed": 0.5076562703335792
+          },
+          {
+            "bin": 5,
+            "count": 58425,
+            "predicted": 0.5339769913419706,
+            "observed": 0.5227727856225931
+          },
+          {
+            "bin": 6,
+            "count": 603,
+            "predicted": 0.6106364179098389,
+            "observed": 0.5422885572139303
+          }
+        ]
+      },
+      "calibrated": {
+        "n": 82081,
+        "log_loss": 0.6922733369150263,
+        "auc": 0.511105122057279,
+        "brier": 0.2495633372357155,
+        "ece": 0.0007090985854820998,
+        "calibration": [
+          {
+            "bin": 4,
+            "count": 1305,
+            "predicted": 0.4980062867937603,
+            "observed": 0.5203065134099617
+          },
+          {
+            "bin": 5,
+            "count": 80776,
+            "predicted": 0.51900442860826,
+            "observed": 0.5186441517282361
+          }
+        ]
+      },
+      "logits_path": "artifacts/market-v31/no_open-43-full_best-calibration-logits.npz",
+      "logits_sha256": "f31b5812959225dde918b9abfd9021b31e8c21eb00b27b5b4f7d1f182eeaa2c7",
+      "reused_same_weights": false
+    }
+  ],
+  "phase": "calibration only; evaluation not loaded",
+  "wall_seconds": 180.6450732999947
+}
