@@ -1,0 +1,7 @@
+{
+  "benchmark_chunks": 40,
+  "targets": 17431,
+  "seconds": 3.538135528564453,
+  "discarded_model": true,
+  "targets_per_second": 4926.606078052746
+}

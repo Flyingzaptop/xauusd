@@ -1,17 +1,29 @@
-# XAUUSD
+# XAUUSD angular sequence research
 
-Research workspace for XAUUSD market data. Initialized on 2026-09-28; awaiting the first plan from Astra.
+Progress snapshot: 2026-10-09. Source code, experiment protocols, metrics, plots, compact results are preserved in this repository. The **complete M1 parquet is included**; raw MBO/L2 datasets and MBO event caches are excluded.
 
-## Local data
+- [Full progress and limitations](docs/progress-20261009.md)
+- [M1 dataset](data/M1/README.md)
+- [Latest causal M1 + asynchronous MBO protocol](experiments/angular_mbo/README.md)
+- [Latest pipeline state](reports/angular_mbo_causal_20261008/pipeline.json) and [verification](reports/angular_mbo_causal_20261008/verification.json)
+- [Controlled reconstruction report](reports/angular_reconstruction_v2_20261008/results.html) and [metrics](reports/angular_reconstruction_v2_20261008/metrics.csv)
+- [Bidirectional infilling](experiments/angular_infill/README.md) and [five reconstruction examples](reports/angular_infill_512_20261008/examples_checkpoint_12/index.html)
+- [Full chronological angular training](experiments/angular_walkforward/README.md)
+- [Initial angular TCN](experiments/angular_tcn/README.md)
+- [Distillation protocol](experiments/angular_distillation/protocol.md)
+- [Publication inventory](reports/github_publication_20261009.json)
 
-- `data/M1/xauusd_m1.parquet`: minute data; schema and coverage not yet verified.
-- `data/L2/l2_consolidated.parquet`: consolidated depth data. Its manifest declares 411,785,189 rows, covering 2026-03-23 through 2026-07-24 UTC. Source files currently live under `data/L2/cache/`; the manifest refers to older paths without `cache/`.
-- `data/MBO/`: ten monthly compressed Databento DBN files. Metadata identifies GLBX.MDP3, MBO schema, GC.FUT (gold futures), spanning October 2025 through July 2026. These are futures data, not spot XAUUSD.
+The MBO experiment is stopped by the user in this snapshot; do not resume automatically. Smoke metrics and partial training curves do not establish held-out accuracy. Completed reconstruction experiments still produced overly smooth paths and did not establish an advantage over the strong interpolation baseline. Historical evaluation periods have been researched; these results are not a trading-profit claim.
 
-The initial inspection found 29 files totaling 30,321,871,720 bytes. Raw data and provider download manifests remain local and are excluded from Git. `docs/data-inventory.csv` records file paths and sizes without uploading their contents. No application code or tests existed at initialization. Data content, integrity and completeness have not yet been validated.
+## Reproduce
 
-## Coordination
+Use Python with the dependencies in `requirements.txt`. CUDA Torch may require the matching CUDA wheel index. Each experiment's README/protocol contains its commands and data split.
 
-Follow Astra's assigned plan in order and execute authorized work automatically. Publish progress, validation evidence, blockers and completion reports in GitHub, with durable reports under `reports/`. Await the first assignment before starting research or implementation.
+```powershell
+python -m pytest experiments/angular_mbo/test_causality.py -q
+python -u experiments/angular_mbo/pipeline.py
+```
 
-When delegation is needed, use only GPT-6 SOL for complex subtasks and GPT-6 LUNA for the simplest subtasks. Enable verbose development logging and keep logs out of Git.
+The second command requires local Databento MBO archives under `data/MBO/`, which are intentionally absent from Git. M1-only experiments can use the committed `data/M1/xauusd_m1.parquet`. Checkpoint weights and `.npz` array dumps remain local and are excluded from Git; inference scripts using them require independently trained/local artifacts.
+
+[Legacy workspace README](docs/legacy-workspace-readme.md) is retained as historical text; it contains references to earlier branches/reports that were not present in this local research checkout.

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "start_utc": "2026-10-08 07:34:03.157953+00:00",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.10.0+cu128",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "script_sha256": "cdb568bf56f3bfb54ac768dc951ee152dcca525d63e9ad025b6907be8f83b0c0",
+  "protocol_sha256": "72b3f7e55d02c7c5328ad6a5566b5d1fd286ce7383bd194f80c0a77de538a43c",
+  "parameter_count": 641872,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "end_utc": "2026-10-08 07:56:38.301946+00:00",
+  "elapsed_seconds": 1355.144347190857,
+  "metrics_rows": 2184,
+  "comparison_rows": 120,
+  "report_sha256": "84117d571c889f10e2f9f3a3e8be1653b080bb3777b9090f1af92a582c27e2f4",
+  "metrics_sha256": "074f4a494eae7d26358e56bc6a16217a391dd7747ff28e639a1c7dd09988f8be"
+}

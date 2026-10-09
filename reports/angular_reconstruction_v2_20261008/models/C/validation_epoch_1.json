@@ -1,0 +1,27 @@
+[
+  {
+    "gap": 1,
+    "price_HCL_mse_bps2": 3.896576875364469,
+    "ratio_to_linear_bridge": 0.8440735643691997
+  },
+  {
+    "gap": 5,
+    "price_HCL_mse_bps2": 10.456400292895214,
+    "ratio_to_linear_bridge": 0.9022364803454493
+  },
+  {
+    "gap": 10,
+    "price_HCL_mse_bps2": 19.644802675048194,
+    "ratio_to_linear_bridge": 0.9498062133821702
+  },
+  {
+    "gap": 20,
+    "price_HCL_mse_bps2": 36.31727735770208,
+    "ratio_to_linear_bridge": 0.9725670760461683
+  },
+  {
+    "gap": 40,
+    "price_HCL_mse_bps2": 78.76767546781646,
+    "ratio_to_linear_bridge": 0.9863526361648467
+  }
+]

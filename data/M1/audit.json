@@ -1,0 +1,15 @@
+{
+  "rows": 3505124,
+  "bytes": 46110894,
+  "sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "start_utc": "2016-09-04T22:00:00Z",
+  "end_utc": "2026-09-04T13:08:00Z",
+  "schema": {
+    "timestamp": "UTC milliseconds",
+    "open": "float64",
+    "high": "float64",
+    "low": "float64",
+    "close": "float64",
+    "volume": "int64"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "snapshot_hashes_verified": 361,
+  "m1_rows": 3505124,
+  "m1_bytes": 46110894,
+  "raw_mbo_or_cache_paths": [],
+  "checkpoint_files": 0,
+  "npz_files": 0,
+  "total_snapshot_bytes": 54557049,
+  "training_status": "stopped_by_user"
+}

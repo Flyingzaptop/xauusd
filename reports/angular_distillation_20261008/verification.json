@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "prediction_metric_checks": 336,
+  "max_relative_metric_discrepancy": 3.872096349631005e-08,
+  "source_code_protocol_hashes_match": true,
+  "all_split_supports_and_minute_continuity_checked": true,
+  "lambda_selection_matches_validation": true,
+  "best_checkpoints_match_training_curves": true,
+  "all_predictions_finite": true,
+  "verifier_sha256": "8327d39455a5ffeea57e3885e80d960e4652ce16c242f674e92059800dee286f"
+}

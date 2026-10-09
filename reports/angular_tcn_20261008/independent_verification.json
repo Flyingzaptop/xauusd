@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "source_code_protocol_and_metric_hashes_match": true,
+  "full_window_split_and_continuity_checks": true,
+  "independently_recomputed_metrics": 216,
+  "max_relative_metric_error": 3.0978518556001655e-07,
+  "best_checkpoints_match_validation": true,
+  "matched_batch_past_only_inference_max_angle_difference": 0.0,
+  "standalone_tf32_single_batch_max_difference_degrees": 0.007512867450714111,
+  "precision_cause": "Identical input; TF32 batch-size rounding. Discrepancy disappears in IEEE FP32; see precision_diagnosis.json.",
+  "verifier_sha256": "1cfe303c14af13d1480095ebaaa019b1abc97e143766a9e4ff543b80a8dee08b"
+}

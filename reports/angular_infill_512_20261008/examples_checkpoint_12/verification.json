@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "images": 5,
+  "display_context_each_side": 30,
+  "checkpoint_epoch": 12,
+  "source_and_model_hashes_verified": true,
+  "hidden_data_erased_before_feature_generation": true,
+  "actual_context_identical_in_both_panels": true,
+  "no_ohlc_projection": true,
+  "example_selection_precedes_inference": true,
+  "blinded_local_inputs_match_original_global_masked_inputs": true,
+  "max_input_difference": 0.0,
+  "renderer_sha256": "9a4e54d39b7c6fa07adf3c85ed899181f82cf823c16b0cf15e5fa922b34b15fc"
+}

@@ -1,0 +1,12 @@
+{
+  "epoch": 13,
+  "epochs": 30,
+  "stage_max": 40,
+  "hidden_targets_seen": 435383,
+  "hidden_targets_per_epoch": 517095,
+  "spans_done": 22384,
+  "spans_per_epoch": 26561,
+  "loss": 0.2786438012895799,
+  "lr": 0.0001,
+  "seconds": 150.48831605911255
+}

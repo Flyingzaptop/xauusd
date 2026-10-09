@@ -1,0 +1,6 @@
+{
+  "status": "stopped_by_user",
+  "stage": "training",
+  "stopped_utc": "2026-10-09T06:29:41.330736+00:00",
+  "reason": "User explicitly stopped training; do not resume automatically"
+}

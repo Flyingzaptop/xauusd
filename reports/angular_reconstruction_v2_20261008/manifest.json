@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-08 15:28:56.924701+00:00",
+  "epochs_per_variant": 4,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "source_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "initial_checkpoint_sha256": "164b1eed2da87faded3e9a6095aa039b16815d31b2dd43cf0c510f3410cfef44",
+  "code_sha256": "c0fc3b02cb9ed735061082ef4f4cd7502bcc7d4e803766ca67a60b907d79ebcf",
+  "core_sha256": "81143270ddd73d5230f47b75409f879060ee90bd8eb374973f2ee4eb5ac70c23",
+  "protocol_sha256": "5d20ddcec2bc3efc3a46310bbe945d0412946740b5de6f84836a913763ab86ef",
+  "no_sampling": true,
+  "lr": 0.0001,
+  "dropout": 0.25,
+  "weight_decay": 0.01,
+  "phase": "complete",
+  "finished_utc": "2026-10-08 15:48:26.573296+00:00",
+  "elapsed_seconds": 1170.0926532745361,
+  "total_training_targets": 6205140,
+  "metrics_sha256": "10a37e26dc263d9a40d012d3aacd272b2103dacc21c2ff1d65cb0a36558f3086",
+  "report_sha256": "922724712cfb56a9b0038c3f3b777a28964796daa8ad80b2836f0f7886581c19",
+  "verification": {
+    "status": "passed",
+    "independent_metric_checks": 90,
+    "max_relative_difference": 3.3416223532198885e-16,
+    "all_training_epochs_full": true,
+    "all_test_origins_verified": true,
+    "validation_only_selection_verified": true,
+    "utc_multiscale_aggregation_independently_verified": true,
+    "code_sha256": "31a3f8cfd7aae047428b30640cc26dcf2cbf5f03204d989e03ed118a4e9f82f5",
+    "standalone_reconstruction_smoke": "passed:20 hidden candles, selected variantC epoch4"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "launched_utc": "2026-10-09T06:26:41.0199152Z",
+  "note": "Restarts training from prepared data; no epoch checkpoint was completed in the interrupted launch.",
+  "command": "python -u experiments/angular_mbo/pipeline.py --from-stage training",
+  "pid": 17372
+}

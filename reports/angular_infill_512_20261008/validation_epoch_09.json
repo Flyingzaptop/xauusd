@@ -1,0 +1,71 @@
+{
+  "epoch": 9,
+  "cap": 20,
+  "metrics": [
+    {
+      "gap": 1,
+      "angle": 0.10224483113006054,
+      "price_HCL": 4.1333032571126855,
+      "price_Close": 4.845575052184735,
+      "angle_ratio": 0.36455129677960446,
+      "price_HCL_ratio": 0.5265551278921972,
+      "price_Close_ratio": 0.4731709703277816
+    },
+    {
+      "gap": 2,
+      "angle": 0.20058061416678852,
+      "price_HCL": 9.249390743636715,
+      "price_Close": 11.662085181769424,
+      "angle_ratio": 0.5914418066502559,
+      "price_HCL_ratio": 0.6569380557173623,
+      "price_Close_ratio": 0.6627246219274542
+    },
+    {
+      "gap": 3,
+      "angle": 0.25441587711202934,
+      "price_HCL": 13.407939080212868,
+      "price_Close": 16.313617673806693,
+      "angle_ratio": 0.72101236005,
+      "price_HCL_ratio": 0.6863788353071691,
+      "price_Close_ratio": 0.7080728103893612
+    },
+    {
+      "gap": 4,
+      "angle": 0.2844887778524096,
+      "price_HCL": 16.877773507886076,
+      "price_Close": 19.31676493997934,
+      "angle_ratio": 0.7824288792225291,
+      "price_HCL_ratio": 0.6989923031823728,
+      "price_Close_ratio": 0.7033972858155094
+    },
+    {
+      "gap": 5,
+      "angle": 0.3083620843430189,
+      "price_HCL": 20.45879311920013,
+      "price_Close": 23.22475043065841,
+      "angle_ratio": 0.8396726781784389,
+      "price_HCL_ratio": 0.7127944575151505,
+      "price_Close_ratio": 0.7289980486986002
+    },
+    {
+      "gap": 10,
+      "angle": 0.33924170263371173,
+      "price_HCL": 37.34263082471785,
+      "price_Close": 40.06194276892557,
+      "angle_ratio": 0.9137945426866451,
+      "price_HCL_ratio": 0.7020162903136733,
+      "price_Close_ratio": 0.7090336785517766
+    },
+    {
+      "gap": 20,
+      "angle": 0.35688156772537266,
+      "price_HCL": 66.5114447489159,
+      "price_Close": 68.35077834606037,
+      "angle_ratio": 0.9528861301632339,
+      "price_HCL_ratio": 0.6903064033137695,
+      "price_Close_ratio": 0.6875393267114468
+    }
+  ],
+  "passed": true,
+  "advance": true
+}

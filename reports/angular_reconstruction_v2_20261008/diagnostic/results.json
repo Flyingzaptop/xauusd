@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "memorization_not_generalization": true,
+  "results": [
+    {
+      "kind": "A",
+      "final": {
+        "kind": "A",
+        "step": 600,
+        "seconds": 22.984506607055664,
+        "angle_rmse_degrees": 0.06632310963011111,
+        "price_mae_bps": 0.039186191326185324,
+        "price_mse_bps2": 0.026435202022524917,
+        "close_total_variation_ratio": 0.9996668019031811,
+        "total": 0.012930557150388754,
+        "angle": 5.430561569145354e-07,
+        "path": 0.01407654665774019,
+        "shape": 0.05484979084825336,
+        "multiscale": 0.01125130651667685,
+        "invalid": 0.05601535386607543
+      },
+      "best_price_mae_bps": 0.039186191326185324
+    },
+    {
+      "kind": "B",
+      "final": {
+        "kind": "B",
+        "step": 1200,
+        "seconds": 52.85892868041992,
+        "angle_rmse_degrees": 3.997531190614012,
+        "price_mae_bps": 0.12677340244698795,
+        "price_mse_bps2": 0.032189831586591375,
+        "close_total_variation_ratio": 0.9607686049741934,
+        "total": 0.013292890857675287,
+        "angle": 0.001972871064189121,
+        "path": 0.017140843707090125,
+        "shape": 0.03907096678529001,
+        "multiscale": 0.0215305336230545,
+        "invalid": 0.019493176517583657
+      },
+      "best_price_mae_bps": 0.11217769840638225
+    }
+  ]
+}

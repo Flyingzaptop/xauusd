@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 17,
+    "best_epoch": 10,
+    "epochs": 15,
+    "val_mse": 0.20742577733596168
+  },
+  {
+    "seed": 29,
+    "best_epoch": 7,
+    "epochs": 12,
+    "val_mse": 0.2076444961130619
+  },
+  {
+    "seed": 43,
+    "best_epoch": 11,
+    "epochs": 16,
+    "val_mse": 0.20745221603910127
+  }
+]

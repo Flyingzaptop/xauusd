@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-08 09:24:40.926173+00:00",
+  "source_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "script_sha256": "c961aa2a5224b2c837eb3611d1a12f638ef13f9592c07708c062f09007f67587",
+  "protocol_sha256": "aa63058c93a36b5dad5d6aefc579e4e65abcee1f1b4a604802eeb11ed306d479",
+  "epochs": 30,
+  "parameters": 91267,
+  "initial_lr": 0.0001,
+  "dropout": 0.25,
+  "weight_decay": 0.01,
+  "train_origins": 2557079,
+  "targets": [
+    "H",
+    "C",
+    "L"
+  ],
+  "torch": "2.10.0+cu128",
+  "device": "cuda",
+  "finished_utc": "2026-10-08 10:14:44.610075+00:00",
+  "elapsed_seconds": 3007.972368955612,
+  "total_training_presentations": 76712370,
+  "optimizer_updates": 82890,
+  "final_checkpoint_sha256": "eaef4c0a1528d026d81467cd95f76663095fd30c6fca57ba55a670a1213c4bc1",
+  "metrics_sha256": "c708a2753d81b55c525bbcc5f50751c5a4eb36fe7ff80ffac1cc83037a3e3bc4"
+}

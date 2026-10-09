@@ -1,0 +1,22 @@
+{
+  "rows": 3505124,
+  "start": "2016-09-04 22:00:00+00:00",
+  "end": "2026-09-04 13:08:00+00:00",
+  "source_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "invalid_rows": 0,
+  "duplicates": 0,
+  "nonminute_transitions": 6546,
+  "eligible_counts": {
+    "train": 2535093,
+    "val": 319693,
+    "test": 214463,
+    "tail": 4467
+  },
+  "sample_counts": {
+    "train": 100000,
+    "val": 12000,
+    "test": 42893,
+    "tail": 894
+  },
+  "exposure": "Jan-Aug 2026 already exposed in earlier research per existing README; September exposure otherwise unknown."
+}

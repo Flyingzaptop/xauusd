@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_metric_checks": 90,
+  "max_relative_difference": 3.3416223532198885e-16,
+  "all_training_epochs_full": true,
+  "all_test_origins_verified": true,
+  "validation_only_selection_verified": true,
+  "utc_multiscale_aggregation_independently_verified": true,
+  "code_sha256": "31a3f8cfd7aae047428b30640cc26dcf2cbf5f03204d989e03ed118a4e9f82f5",
+  "standalone_reconstruction_smoke": "passed:20 hidden candles, selected variantC epoch4"
+}

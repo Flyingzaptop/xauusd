@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "A",
+    "best_epoch": 4,
+    "validation_ratio_to_bridge": 1.6199045897987034,
+    "epochs": 4
+  },
+  {
+    "kind": "B",
+    "best_epoch": 4,
+    "validation_ratio_to_bridge": 1.1634372958495294,
+    "epochs": 4
+  },
+  {
+    "kind": "C",
+    "best_epoch": 4,
+    "validation_ratio_to_bridge": 0.9113127369054077,
+    "epochs": 4
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "epoch": 5,
+  "cap": 10,
+  "metrics": [
+    {
+      "gap": 1,
+      "angle": 0.09568402505621672,
+      "price_HCL": 3.408693538196198,
+      "price_Close": 3.862156356590176,
+      "angle_ratio": 0.341158912678575,
+      "price_HCL_ratio": 0.4342447070297973,
+      "price_Close_ratio": 0.3771400197343827
+    },
+    {
+      "gap": 2,
+      "angle": 0.19396039922400266,
+      "price_HCL": 8.515890857962049,
+      "price_Close": 10.859163976040072,
+      "angle_ratio": 0.5719211171636913,
+      "price_HCL_ratio": 0.6048412201397834,
+      "price_Close_ratio": 0.6170967908654463
+    },
+    {
+      "gap": 3,
+      "angle": 0.24686994598918105,
+      "price_HCL": 12.451903915414919,
+      "price_Close": 15.349964304958513,
+      "angle_ratio": 0.6996272575578948,
+      "price_HCL_ratio": 0.6374375103950414,
+      "price_Close_ratio": 0.6662466034274883
+    },
+    {
+      "gap": 4,
+      "angle": 0.28033913786889136,
+      "price_HCL": 15.880533697519583,
+      "price_Close": 18.21058648273724,
+      "angle_ratio": 0.7710161332225249,
+      "price_HCL_ratio": 0.6576916570072404,
+      "price_Close_ratio": 0.6631170977576579
+    },
+    {
+      "gap": 5,
+      "angle": 0.30520776683598166,
+      "price_HCL": 19.145235224949054,
+      "price_Close": 21.824255989773594,
+      "angle_ratio": 0.8310834437574754,
+      "price_HCL_ratio": 0.667029451671832,
+      "price_Close_ratio": 0.6850381483471834
+    },
+    {
+      "gap": 10,
+      "angle": 0.3395069947174792,
+      "price_HCL": 35.59461897616431,
+      "price_Close": 37.51470527603995,
+      "angle_ratio": 0.9145091436819903,
+      "price_HCL_ratio": 0.6691548457329225,
+      "price_Close_ratio": 0.6639515620867059
+    }
+  ],
+  "passed": true,
+  "advance": false
+}

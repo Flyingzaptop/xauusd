@@ -1,0 +1,7 @@
+{
+  "teacher_hidden_mutation_max_abs_diff": 0.0,
+  "student_future_mutation_max_abs_diff": 0.0,
+  "teacher_right_mutation_diff": 47.12785720825195,
+  "unsafe_visible_lag_feature_change": 28.233399808602528,
+  "unsafe_hidden_logprice_recovery_error": 0.0
+}

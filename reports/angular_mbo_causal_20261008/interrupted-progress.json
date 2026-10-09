@@ -1,0 +1,10 @@
+{
+  "stage": "training",
+  "variant": "m1",
+  "epoch": 1,
+  "seen": 18510,
+  "total": 132366,
+  "last_target_utc": "2025-11-04T17:31:00",
+  "loss": 0.4839439668459692,
+  "elapsed_seconds": 30.012478828430176
+}

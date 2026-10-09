@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "independent_prediction_metric_checks": 72,
+  "max_angular_mse_difference": 8.673617379884035e-17,
+  "source_target_formula_rechecked": true,
+  "finite_predictions": true
+}

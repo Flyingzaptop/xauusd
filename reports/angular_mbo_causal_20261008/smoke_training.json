@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "m1",
+    "epochs": 1,
+    "best_epoch": 1,
+    "best_validation_mse_bps2": 6.782494414093539,
+    "train_samples_per_epoch": 132366,
+    "parameters": 119619
+  },
+  {
+    "variant": "gc",
+    "epochs": 1,
+    "best_epoch": 1,
+    "best_validation_mse_bps2": 6.781364003505777,
+    "train_samples_per_epoch": 132366,
+    "parameters": 122595
+  },
+  {
+    "variant": "mbo",
+    "epochs": 1,
+    "best_epoch": 1,
+    "best_validation_mse_bps2": 6.781213719625128,
+    "train_samples_per_epoch": 132366,
+    "parameters": 152836
+  }
+]

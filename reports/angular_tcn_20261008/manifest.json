@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-08 08:28:25.823303+00:00",
+  "script_sha256": "618e0a19063a363bc0d3dfd6067aa539cd151b7ab2836ea7ebf3e635021e971a",
+  "protocol_sha256": "8e394196bde09790b8e66c46ea7580e78104f384df8ac9c62c7288238a5c37f1",
+  "source_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "torch": "2.10.0+cu128",
+  "numpy": "2.4.3",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "device": "cuda",
+  "parameters": 39332,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "elapsed_seconds": 831.098153591156,
+  "finished_utc": "2026-10-08 08:42:14.930532+00:00",
+  "metrics_sha256": "1211fc0ae74bea413c0eec2cc90c2ccca4c11f3fae6c26a8d3e0e24605e38abe",
+  "verification": {
+    "status": "passed",
+    "independent_prediction_metric_checks": 72,
+    "max_angular_mse_difference": 8.673617379884035e-17,
+    "source_target_formula_rechecked": true,
+    "finite_predictions": true
+  },
+  "delivery_report_sha256": "20bb932fc434318c024fdb60bf7ef2614b1bc3b09c36c4468a4fbe0e78e43b31",
+  "independent_verification": {
+    "status": "passed",
+    "source_code_protocol_and_metric_hashes_match": true,
+    "full_window_split_and_continuity_checks": true,
+    "independently_recomputed_metrics": 216,
+    "max_relative_metric_error": 3.0978518556001655e-07,
+    "best_checkpoints_match_validation": true,
+    "matched_batch_past_only_inference_max_angle_difference": 0.0,
+    "standalone_tf32_single_batch_max_difference_degrees": 0.007512867450714111,
+    "precision_cause": "Identical input; TF32 batch-size rounding. Discrepancy disappears in IEEE FP32; see precision_diagnosis.json.",
+    "verifier_sha256": "1cfe303c14af13d1480095ebaaa019b1abc97e143766a9e4ff543b80a8dee08b"
+  },
+  "inference_script_sha256": "f7672a50361c8af3fa3343d4b74953cff207aa2806e6d65c749ba647ab1db8dd"
+}

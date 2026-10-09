@@ -1,0 +1,20 @@
+{
+  "source_sha256": "a9dd281e0100047d56732540168af6e971ef23d858043e3e64991849a2fa6539",
+  "rows": 3505124,
+  "start": "2016-09-04 22:00:00+00:00",
+  "end": "2026-09-04 13:08:00+00:00",
+  "invalid_rows": 0,
+  "eligible": {
+    "train": 2352129,
+    "val": 301640,
+    "test": 202659,
+    "tail": 4191
+  },
+  "samples": {
+    "train": 100000,
+    "val": 12000,
+    "test": 40532,
+    "tail": 839
+  },
+  "exposure": "2026 including September is research-exposed; no untouched-test claim"
+}

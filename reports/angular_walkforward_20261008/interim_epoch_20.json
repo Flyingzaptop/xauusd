@@ -1,0 +1,174 @@
+{
+  "checkpoint_epoch": 20,
+  "examples": 40532,
+  "first_target": "2026-01-02 02:04:00+00:00",
+  "last_target": "2026-08-31 20:55:00+00:00",
+  "evaluation": "User-requested interim diagnostic on exactly the previous TCN research-evaluation origins. No training changes.",
+  "comparability": "H/C/L only; angles converted to the new common S0. Price errors use identical targets and units. Previous ensemble has3 models; new checkpoint is one model.",
+  "zero_close_mse_bps2": 27.262107763080245,
+  "metrics": [
+    {
+      "model": "previous_ensemble",
+      "channel": "H",
+      "angle_mse": 0.2766729052652175,
+      "angle_mae_degrees": 39.51732597251136,
+      "price_mse_bps2": 16.18346663390369,
+      "price_mae_bps": 2.336746095683957,
+      "direction_accuracy": 0.7206141329960066
+    },
+    {
+      "model": "previous_ensemble",
+      "channel": "C",
+      "angle_mse": 0.47975677133817846,
+      "angle_mae_degrees": 57.8265231324667,
+      "price_mse_bps2": 27.263781236450296,
+      "price_mae_bps": 3.2284348209728893,
+      "direction_accuracy": 0.5097398579243088
+    },
+    {
+      "model": "previous_ensemble",
+      "channel": "L",
+      "angle_mse": 0.28325777696614035,
+      "angle_mae_degrees": 39.89170264375587,
+      "price_mse_bps2": 17.905374616450022,
+      "price_mae_bps": 2.4257649305171007,
+      "direction_accuracy": 0.7182347836866245
+    },
+    {
+      "model": "previous_seed17",
+      "channel": "H",
+      "angle_mse": 0.2779019201416912,
+      "angle_mae_degrees": 39.7465398295102,
+      "price_mse_bps2": 16.19758524053851,
+      "price_mae_bps": 2.343020586846895,
+      "direction_accuracy": 0.7202420815040802
+    },
+    {
+      "model": "previous_seed17",
+      "channel": "C",
+      "angle_mse": 0.479884228875327,
+      "angle_mae_degrees": 57.82934496444655,
+      "price_mse_bps2": 27.264012551126,
+      "price_mae_bps": 3.228483511194338,
+      "direction_accuracy": 0.5088240390089355
+    },
+    {
+      "model": "previous_seed17",
+      "channel": "L",
+      "angle_mse": 0.2846107429766382,
+      "angle_mae_degrees": 40.10257920521589,
+      "price_mse_bps2": 17.943255096362364,
+      "price_mae_bps": 2.4323090250062744,
+      "direction_accuracy": 0.7196727407958349
+    },
+    {
+      "model": "new_epoch20",
+      "channel": "H",
+      "angle_mse": 0.2699019001354129,
+      "angle_mae_degrees": 38.556302869644504,
+      "price_mse_bps2": 15.703050452860674,
+      "price_mae_bps": 2.3042253726690505,
+      "direction_accuracy": 0.725971674479748
+    },
+    {
+      "model": "new_epoch20",
+      "channel": "C",
+      "angle_mse": 0.4793347883430153,
+      "angle_mae_degrees": 57.8112603789693,
+      "price_mse_bps2": 27.26157900166233,
+      "price_mae_bps": 3.228176032281031,
+      "direction_accuracy": 0.5110517066409247
+    },
+    {
+      "model": "new_epoch20",
+      "channel": "L",
+      "angle_mse": 0.27670624507017233,
+      "angle_mae_degrees": 38.777826593044836,
+      "price_mse_bps2": 17.407059293896967,
+      "price_mae_bps": 2.380582361750624,
+      "direction_accuracy": 0.7245568364943598
+    }
+  ],
+  "comparisons": [
+    {
+      "baseline": "previous_ensemble",
+      "metric": "angle_HCL",
+      "new": 0.3419809778495335,
+      "old": 0.3465624845231788,
+      "improvement_pct": 1.3219857538673834,
+      "delta": -0.004581506673645279,
+      "ci_low": -0.0050997750246906115,
+      "ci_high": -0.004101880053490329
+    },
+    {
+      "baseline": "previous_ensemble",
+      "metric": "price_HCL",
+      "new": 20.123896249473326,
+      "old": 20.450874162268,
+      "improvement_pct": 1.5988456542261327,
+      "delta": -0.326977912794677,
+      "ci_low": -0.38698887631842804,
+      "ci_high": -0.2750096690134333
+    },
+    {
+      "baseline": "previous_ensemble",
+      "metric": "price_Close",
+      "new": 27.26157900166233,
+      "old": 27.263781236450296,
+      "improvement_pct": 0.008077510484929561,
+      "delta": -0.002202234787962531,
+      "ci_low": -0.008840701448728453,
+      "ci_high": 0.004523192248474154
+    },
+    {
+      "baseline": "previous_ensemble",
+      "metric": "angle_Close",
+      "new": 0.4793347883430153,
+      "old": 0.47975677133817846,
+      "improvement_pct": 0.08795769447634517,
+      "delta": -0.00042198299516321296,
+      "ci_low": -0.0008686913418011065,
+      "ci_high": 4.672678642740836e-05
+    },
+    {
+      "baseline": "previous_seed17",
+      "metric": "angle_HCL",
+      "new": 0.3419809778495335,
+      "old": 0.34746563066455216,
+      "improvement_pct": 1.5784734750682716,
+      "delta": -0.0054846528150186424,
+      "ci_low": -0.0060903643649906,
+      "ci_high": -0.004936395244686956
+    },
+    {
+      "baseline": "previous_seed17",
+      "metric": "price_HCL",
+      "new": 20.123896249473326,
+      "old": 20.46828429600896,
+      "improvement_pct": 1.6825447680672554,
+      "delta": -0.3443880465356304,
+      "ci_low": -0.39700652693706645,
+      "ci_high": -0.2988980388741863
+    },
+    {
+      "baseline": "previous_seed17",
+      "metric": "price_Close",
+      "new": 27.26157900166233,
+      "old": 27.264012551126,
+      "improvement_pct": 0.008925866869763516,
+      "delta": -0.0024335494636691223,
+      "ci_low": -0.00968476833099582,
+      "ci_high": 0.004789617192451736
+    },
+    {
+      "baseline": "previous_seed17",
+      "metric": "angle_Close",
+      "new": 0.4793347883430153,
+      "old": 0.479884228875327,
+      "improvement_pct": 0.1144943924494897,
+      "delta": -0.0005494405323117242,
+      "ci_low": -0.0010953151201343666,
+      "ci_high": 4.161504534654107e-05
+    }
+  ]
+}

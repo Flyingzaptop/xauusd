@@ -1,0 +1,24 @@
+[
+  {
+    "epoch": 1,
+    "train_samples": 48,
+    "train_loss": 0.3496439456939697,
+    "validation": {
+      "samples": 32,
+      "angular_mse": 0.2186336404521505,
+      "price_mse_bps2": 6.781364003505777,
+      "price_mae_usd": 0.7723203018005051,
+      "close_mse_bps2": 8.009361312133557,
+      "close_movement_ratio": 0.0007671470309631914,
+      "close_direction_accuracy": 0.46875,
+      "invalid_candle_fraction": 0.0625,
+      "per_channel_mse_bps2": {
+        "H": 7.460445367727682,
+        "C": 8.009361312133557,
+        "L": 4.8742853306560905
+      }
+    },
+    "seconds": 0.07979917526245117,
+    "learning_rate": 0.0001
+  }
+]

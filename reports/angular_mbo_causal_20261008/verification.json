@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "samples": 167552,
+  "split_counts": {
+    "train": 132366,
+    "validation": 17598,
+    "test": 17588
+  },
+  "event_count_quantiles": [
+    129.0,
+    2048.0,
+    2048.0,
+    2048.0,
+    2048.0
+  ],
+  "source_code_sha256": {
+    "config.py": "eaee61427dcf9cf089c9b7cdcc38f96709f2d27064623b207f4dd551f18fb560",
+    "model.py": "5dfa7f666f10e23728fcb6ff3dd35900810f8cfa34da27b5793c6cf350f9e643",
+    "pipeline.py": "3a6a960c72f143d323a1006ab8cce7d78e9b47000c5656b84b7b55b0e0ee91bd",
+    "prepare.py": "74ae87046b42da4313b83f74900346948bcfe09ef3042e7f8d94bec95b78a913",
+    "report.py": "bba64112a687e235373f1b22e2d8cb3213d61bf5b79952e69d8f93a6618b4c9e",
+    "test_causality.py": "4e735dd9b271b9233ee4b64f0f40b965d0309a7aca4348c661e1639e7b7582f4",
+    "train.py": "0107f76162dd812418ac7b0d080d1710edd1bf4960f3d4d184fd55104a3645f7",
+    "verify.py": "e81ce1e7ed92dfb5f5eb6331a769964997ee53771d4f4699fdb4998a66cde64c"
+  },
+  "independent_source_check": {
+    "date": "2025-10-02",
+    "target_index": 1827,
+    "exact_raw_records": 2048,
+    "gc_control_independently_resampled": true
+  },
+  "checks": [
+    "strict MBO cutoff for every event",
+    "age limit",
+    "padding and ordering",
+    "snapshot exclusion",
+    "contract selection from previous day",
+    "M1 continuous past support",
+    "unique chronological coverage"
+  ]
+}

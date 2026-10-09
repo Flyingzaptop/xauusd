@@ -1,0 +1,12 @@
+{
+  "epoch": 30,
+  "epochs": 30,
+  "targets_seen": 2557079,
+  "targets_per_epoch": 2557079,
+  "chunks_done": 2763,
+  "chunks_per_epoch": 2763,
+  "last_training_year": 2025,
+  "angular_mse": 0.21808650201143695,
+  "lr": 5e-05,
+  "epoch_seconds": 95.52579665184021
+}

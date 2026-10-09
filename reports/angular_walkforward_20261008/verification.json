@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "all_train_origins_once_per_epoch": true,
+  "epochs": 30,
+  "metric_checks": 20,
+  "holdout_origins_scored": 303659,
+  "open_not_trained": true,
+  "holdout_used_for_training_or_selection": false
+}

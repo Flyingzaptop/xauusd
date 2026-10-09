@@ -1,0 +1,28 @@
+{
+  "angular/17": {
+    "A": {
+      "val_score": 2.139115020751953,
+      "best_epoch": 2
+    },
+    "A_long": {
+      "val_score": 2.139115020751953,
+      "best_epoch": 2
+    },
+    "T": {
+      "val_score": 1.2631005249023437,
+      "best_epoch": 6
+    },
+    "B": {
+      "val_score": 2.138801086425781,
+      "best_epoch": 2
+    },
+    "C25": {
+      "val_score": 2.1418353576660154,
+      "best_epoch": 2
+    },
+    "C75": {
+      "val_score": 2.1521770629882813,
+      "best_epoch": 2
+    }
+  }
+}
