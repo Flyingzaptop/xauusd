@@ -14,7 +14,7 @@ for s in BTCUSDT ETHUSDT; do
   $P -W ignore prep.py $s $(ls $D/$s-*.zip | sort) $O/$s-final.npz | tail -1 | cut -c1-90
 done
 echo CONVERTED
-$C status -s $S >/dev/null 2>&1 || timeout 900 $C new -s $S --gpu A100 2>&1 | tail -1
+for k in 1 2 3 4 5; do $C status -s $S >/dev/null 2>&1 && break; timeout 900 $C new -s $S --gpu A100 2>&1 | tail -1; sleep 30; done
 echo 'import os;[os.makedirs(d,exist_ok=True) for d in ("/content/seq/.parts","/content/data/.parts","/content/outB")];print("dirs")' | timeout 120 $C exec -s $S 2>&1 | tail -1
 ./colab_put.sh $S /content/seq model.py data.py train.py
 # skip data files already uploaded with the right size
