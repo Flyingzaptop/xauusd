@@ -8,3 +8,11 @@ C2 Order flow: features = returns 1/5/15/60/240/1440 min, realized vol 60/240, t
    time of day; ridge → forward return over 15/60 min, entry Open[t+2]; top-5% |pred| non-overlapping trades.
 C3 Funding: at each funding time, z = funding / trailing-90-day std; |z|>2 → trade the next 8 h / 24 h, direction from past years.
 C4 Shock bars: |1-min return| ≥ 5σ (trailing 1-day σ) AND volume ≥ 5× trailing median → next 5/15/60 min, direction from past years.
+
+# Part D — positioning data (declared before running, 17.10.2026)
+Data: daily `metrics` (5-min): sum_open_interest, count/sum toptrader long-short ratios, count_long_short_ratio, sum_taker_long_short_vol_ratio,
+2020-09..2026-09. A 5-min metrics row is used only from create_time + 5 min (conservative availability); entry at the next 1m Open.
+D1 OI/price quadrants over the last 15 / 60 min: |Δprice| and |ΔOI| each beyond their trailing-30-day 90th percentile →
+   4 classes (price↑OI↑, price↑OI↓, price↓OI↑, price↓OI↓; price↓OI↓ ≈ long liquidation, price↑OI↓ ≈ short squeeze) → next 1 h / 4 h.
+D2 Long/short ratios (accounts, top traders positions) and taker long/short volume ratio: z vs trailing 30 days, |z|>2 → next 1 h / 4 h.
+Direction per class from past years (walk-forward 2021..2026), non-overlapping trades, same cost scenarios and candidate rule.
