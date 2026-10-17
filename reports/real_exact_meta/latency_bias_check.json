@@ -1,0 +1,65 @@
+{
+ "2018": {
+  "long_share": 0.491701244813278,
+  "gross_bp": -0.30645622470760653,
+  "always_long_same_times_bp": -0.8572574235067631,
+  "perm_p_value": 0.729,
+  "mean_sides_same_times_bp": 0.013872455606170842
+ },
+ "2019": {
+  "long_share": 0.8438661710037175,
+  "gross_bp": 0.3004578646323383,
+  "always_long_same_times_bp": 0.12090163289935704,
+  "perm_p_value": 0.2605,
+  "mean_sides_same_times_bp": 0.08761130839036727
+ },
+ "2020": {
+  "long_share": 0.8094083414161009,
+  "gross_bp": 0.1420187034532652,
+  "always_long_same_times_bp": -0.42192861691061295,
+  "perm_p_value": 0.148,
+  "mean_sides_same_times_bp": -0.2597376221041762
+ },
+ "2021": {
+  "long_share": 0.465564738292011,
+  "gross_bp": -0.15393145964881672,
+  "always_long_same_times_bp": -0.9052999899558479,
+  "perm_p_value": 0.6255,
+  "mean_sides_same_times_bp": 0.06734080945718497
+ },
+ "2022": {
+  "long_share": 0.4434561626429479,
+  "gross_bp": -0.04337139247448821,
+  "always_long_same_times_bp": 0.7381094500492931,
+  "perm_p_value": 0.4795,
+  "mean_sides_same_times_bp": -0.0814118429396924
+ },
+ "2023": {
+  "long_share": 0.47665847665847666,
+  "gross_bp": 0.6523237045053207,
+  "always_long_same_times_bp": 0.682428589973231,
+  "perm_p_value": 0.204,
+  "mean_sides_same_times_bp": -0.04474731887750281
+ },
+ "2024": {
+  "long_share": 0.5037878787878788,
+  "gross_bp": -0.6444524583893401,
+  "always_long_same_times_bp": 0.03651754474974319,
+  "perm_p_value": 0.807,
+  "mean_sides_same_times_bp": -0.002193109633767951
+ },
+ "2025": {
+  "long_share": 0.4227027027027027,
+  "gross_bp": 1.399590465071038,
+  "always_long_same_times_bp": -0.6639838029652028,
+  "perm_p_value": 0.025,
+  "mean_sides_same_times_bp": 0.11221415653570256
+ },
+ "2026": {
+  "long_share": 0.3115161557580779,
+  "gross_bp": 1.4381637275666228,
+  "always_long_same_times_bp": -0.2777945368730492,
+  "perm_p_value": 0.0605,
+  "mean_sides_same_times_bp": 0.0886902750315428
+ }
+}
