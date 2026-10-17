@@ -1,0 +1,236 @@
+{
+ "2018": {
+  "0.9": {
+   "trades": 1064,
+   "gross_bp_per_trade": -0.26483707611021917,
+   "net_usd_per_day_cost0.1": -0.553527126900936,
+   "net_usd_per_day_cost0.25": -1.1721317780637266,
+   "net_usd_per_day_cost0.4": -1.7907364292265175,
+   "hit": 0.5093984962406015
+  },
+  "0.95": {
+   "trades": 481,
+   "gross_bp_per_trade": -0.07984489722955747,
+   "net_usd_per_day_cost0.1": -0.20205425933476162,
+   "net_usd_per_day_cost0.25": -0.4817054221254593,
+   "net_usd_per_day_cost0.4": -0.7613565849161569,
+   "hit": 0.4968814968814969
+  },
+  "0.99": {
+   "trades": 66,
+   "gross_bp_per_trade": -0.5794676808696805,
+   "net_usd_per_day_cost0.1": -0.04205426493691038,
+   "net_usd_per_day_cost0.25": -0.08042635796016619,
+   "net_usd_per_day_cost0.4": -0.11879845098342202,
+   "hit": 0.5303030303030303
+  }
+ },
+ "2019": {
+  "0.9": {
+   "trades": 1397,
+   "gross_bp_per_trade": 0.5450464786005685,
+   "net_usd_per_day_cost0.1": -0.13527131250840918,
+   "net_usd_per_day_cost0.25": -0.9474806148339905,
+   "net_usd_per_day_cost0.4": -1.7596899171595721,
+   "hit": 0.5547602004294918
+  },
+  "0.95": {
+   "trades": 807,
+   "gross_bp_per_trade": 0.7704667388894301,
+   "net_usd_per_day_cost0.1": 0.014302330353918279,
+   "net_usd_per_day_cost0.25": -0.45488371615770967,
+   "net_usd_per_day_cost0.4": -0.9240697626693378,
+   "hit": 0.5762081784386617
+  },
+  "0.99": {
+   "trades": 221,
+   "gross_bp_per_trade": 1.2099453695961253,
+   "net_usd_per_day_cost0.1": 0.06372093135236018,
+   "net_usd_per_day_cost0.25": -0.06476744074066307,
+   "net_usd_per_day_cost0.4": -0.1932558128336864,
+   "hit": 0.5520361990950227
+  }
+ },
+ "2020": {
+  "0.9": {
+   "trades": 3080,
+   "gross_bp_per_trade": 0.5530107114826898,
+   "net_usd_per_day_cost0.1": -0.025366797992771885,
+   "net_usd_per_day_cost0.25": -1.8091505817765556,
+   "net_usd_per_day_cost0.4": -3.59293436556034,
+   "hit": 0.5292207792207793
+  },
+  "0.95": {
+   "trades": 2082,
+   "gross_bp_per_trade": 0.6652495233390362,
+   "net_usd_per_day_cost0.1": 0.08768339049335226,
+   "net_usd_per_day_cost0.25": -1.1181081152981538,
+   "net_usd_per_day_cost0.4": -2.3238996210896596,
+   "hit": 0.5249759846301633
+  },
+  "0.99": {
+   "trades": 749,
+   "gross_bp_per_trade": 1.6147072931953044,
+   "net_usd_per_day_cost0.1": 0.49019304701134053,
+   "net_usd_per_day_cost0.25": 0.05640926322755666,
+   "net_usd_per_day_cost0.4": -0.3773745205562272,
+   "hit": 0.5514018691588785
+  }
+ },
+ "2021": {
+  "0.9": {
+   "trades": 1395,
+   "gross_bp_per_trade": 1.074461754120379,
+   "net_usd_per_day_cost0.1": 0.49755810342733653,
+   "net_usd_per_day_cost0.25": -0.3134884082005703,
+   "net_usd_per_day_cost0.4": -1.1245349198284775,
+   "hit": 0.5297491039426523
+  },
+  "0.95": {
+   "trades": 721,
+   "gross_bp_per_trade": 0.8889084967233024,
+   "net_usd_per_day_cost0.1": 0.16833331434319332,
+   "net_usd_per_day_cost0.25": -0.25085273216843446,
+   "net_usd_per_day_cost0.4": -0.6700387786800626,
+   "hit": 0.5256588072122053
+  },
+  "0.99": {
+   "trades": 144,
+   "gross_bp_per_trade": 2.4480605128014252,
+   "net_usd_per_day_cost0.1": 0.18841085180747744,
+   "net_usd_per_day_cost0.25": 0.10468992157491927,
+   "net_usd_per_day_cost0.4": 0.02096899134236109,
+   "hit": 0.5069444444444444
+  }
+ },
+ "2022": {
+  "0.9": {
+   "trades": 1551,
+   "gross_bp_per_trade": 0.4196043199325745,
+   "net_usd_per_day_cost0.1": -0.12674418151769198,
+   "net_usd_per_day_cost0.25": -1.0284883675642038,
+   "net_usd_per_day_cost0.4": -1.9302325536107157,
+   "hit": 0.5312701482914249
+  },
+  "0.95": {
+   "trades": 791,
+   "gross_bp_per_trade": 0.5695352704839972,
+   "net_usd_per_day_cost0.1": 0.02065892246633146,
+   "net_usd_per_day_cost0.25": -0.43922479846390117,
+   "net_usd_per_day_cost0.4": -0.8991085193941337,
+   "hit": 0.5322376738305942
+  },
+  "0.99": {
+   "trades": 140,
+   "gross_bp_per_trade": 0.8143795209803751,
+   "net_usd_per_day_cost0.1": 0.02375969467742722,
+   "net_usd_per_day_cost0.25": -0.05763565415978214,
+   "net_usd_per_day_cost0.4": -0.1390310029969915,
+   "hit": 0.5571428571428572
+  }
+ },
+ "2023": {
+  "0.9": {
+   "trades": 900,
+   "gross_bp_per_trade": 0.47604907137238317,
+   "net_usd_per_day_cost0.1": -0.042840479617702674,
+   "net_usd_per_day_cost0.25": -0.5681323084114771,
+   "net_usd_per_day_cost0.4": -1.0934241372052513,
+   "hit": 0.5344444444444445
+  },
+  "0.95": {
+   "trades": 407,
+   "gross_bp_per_trade": 0.26090038230949303,
+   "net_usd_per_day_cost0.1": -0.08206225203646224,
+   "net_usd_per_day_cost0.25": -0.31961089016875793,
+   "net_usd_per_day_cost0.4": -0.5571595283010538,
+   "hit": 0.5184275184275184
+  },
+  "0.99": {
+   "trades": 67,
+   "gross_bp_per_trade": -0.6155135075547802,
+   "net_usd_per_day_cost0.1": -0.058054474195034164,
+   "net_usd_per_day_cost0.25": -0.09715953256079292,
+   "net_usd_per_day_cost0.4": -0.13626459092655172,
+   "hit": 0.582089552238806
+  }
+ },
+ "2024": {
+  "0.9": {
+   "trades": 1121,
+   "gross_bp_per_trade": 0.043120003146693495,
+   "net_usd_per_day_cost0.1": -0.37694978994574135,
+   "net_usd_per_day_cost0.25": -1.0261775891735407,
+   "net_usd_per_day_cost0.4": -1.67540538840134,
+   "hit": 0.5263157894736842
+  },
+  "0.95": {
+   "trades": 528,
+   "gross_bp_per_trade": 0.38689385305130575,
+   "net_usd_per_day_cost0.1": -0.001544400979312882,
+   "net_usd_per_day_cost0.25": -0.3073359067708189,
+   "net_usd_per_day_cost0.4": -0.6131274125623246,
+   "hit": 0.5265151515151515
+  },
+  "0.99": {
+   "trades": 90,
+   "gross_bp_per_trade": 3.1446742567751143,
+   "net_usd_per_day_cost0.1": 0.2403088795139661,
+   "net_usd_per_day_cost0.25": 0.18818532739041394,
+   "net_usd_per_day_cost0.4": 0.13606177526686178,
+   "hit": 0.5888888888888889
+  }
+ },
+ "2025": {
+  "0.9": {
+   "trades": 1673,
+   "gross_bp_per_trade": 0.31423442070837226,
+   "net_usd_per_day_cost0.1": 0.38616277486328804,
+   "net_usd_per_day_cost0.25": -0.5865116437413634,
+   "net_usd_per_day_cost0.4": -1.5591860623460148,
+   "hit": 0.5164375373580394
+  },
+  "0.95": {
+   "trades": 927,
+   "gross_bp_per_trade": 1.4331653446437311,
+   "net_usd_per_day_cost0.1": 1.7479844749150206,
+   "net_usd_per_day_cost0.25": 1.2090309865429274,
+   "net_usd_per_day_cost0.4": 0.6700774981708336,
+   "hit": 0.5372168284789643
+  },
+  "0.99": {
+   "trades": 213,
+   "gross_bp_per_trade": 4.262565970210962,
+   "net_usd_per_day_cost0.1": 1.3390697302309054,
+   "net_usd_per_day_cost0.25": 1.2152325209285797,
+   "net_usd_per_day_cost0.4": 1.091395311626254,
+   "hit": 0.5915492957746479
+  }
+ },
+ "2026": {
+  "0.9": {
+   "trades": 1912,
+   "gross_bp_per_trade": 0.9722541996003148,
+   "net_usd_per_day_cost0.1": 4.160400119249761,
+   "net_usd_per_day_cost0.25": 2.5215429763926203,
+   "net_usd_per_day_cost0.4": 0.8826858335354765,
+   "hit": 0.5313807531380753
+  },
+  "0.95": {
+   "trades": 1189,
+   "gross_bp_per_trade": 1.1914878088583005,
+   "net_usd_per_day_cost0.1": 3.4842287841659365,
+   "net_usd_per_day_cost0.25": 2.465085927023081,
+   "net_usd_per_day_cost0.4": 1.4459430698802227,
+   "hit": 0.5458368376787216
+  },
+  "0.99": {
+   "trades": 353,
+   "gross_bp_per_trade": 1.3255500944579288,
+   "net_usd_per_day_cost0.1": 1.445371666707342,
+   "net_usd_per_day_cost0.25": 1.1428002381359135,
+   "net_usd_per_day_cost0.4": 0.8402288095644852,
+   "hit": 0.5410764872521246
+  }
+ }
+}
