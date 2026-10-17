@@ -38,3 +38,11 @@ Per bucket, signed-notional imbalance over the last W hours (W = 1, 4, 24) = Σ 
 Target: return from hour end + 1 min over the next 1 h / 4 h / 24 h. Statistic: Spearman correlation and top-vs-bottom-quintile spread,
 non-overlapping for the target horizon. A pattern counts only if the sign is the same in ≥ 7 of 9 months for both BTC and ETH
 and the pooled quintile spread exceeds 10 bp (≥ taker/taker costs).
+
+# Part G — account long/short ratio contrarian rule on altcoin perps (declared before running, 17.10.2026)
+Rule fixed from Part D on BTC/ETH, no refitting: z = log(count_long_short_ratio) vs trailing 30 days (8640 x 5 min, shifted),
+row usable from create_time + 5 min, entry at next 1m open; |z| > 2 -> position AGAINST sign(z) for h = 12 h and 24 h,
+non-overlapping per symbol. Universe (fixed now): SOL XRP DOGE BNB ADA AVAX LINK LTC DOT TRX BCH ETC NEAR APT ARB OP SUI FIL
+ATOM UNI AAVE INJ TIA SEI WLD 1000PEPE WIF ENA TON HBAR (USDT perps), 2023-01..2026-09.
+Costs per round trip 10 / 15 / 20 bp (alt spreads + taker fees). Primary question: is the pooled 2025-01..2026-09 mean net of
+15 bp > 0 with t > 2 (symbol-clustered: t of the per-symbol means), and positive in most symbols? 2023-24 reported for context.
