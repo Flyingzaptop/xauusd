@@ -80,10 +80,10 @@ def paired(a,b):
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--task',required=True);ap.add_argument('--K',type=int,default=10)
-    ap.add_argument('--n-inner',type=int,default=32);ap.add_argument('--cycles',type=int,default=150);ap.add_argument('--n-test',type=int,default=16);ap.add_argument('--out',default=None)
-    a=ap.parse_args();torch.set_num_threads(4);torch.backends.mha.set_fastpath_enabled(False);torch.manual_seed(20261017)
+    ap.add_argument('--n-inner',type=int,default=32);ap.add_argument('--cycles',type=int,default=150);ap.add_argument('--n-test',type=int,default=16);ap.add_argument('--seed',type=int,default=20261017);ap.add_argument('--out',default=None)
+    a=ap.parse_args();torch.set_num_threads(4);torch.backends.mha.set_fastpath_enabled(False);torch.manual_seed(a.seed)
     out=Path(a.out or Path(__file__).resolve().parents[2]/'reports/teacher_bench_v5'/a.task);out.mkdir(parents=True,exist_ok=True)
-    T=a.task;K=a.K;NI=a.n_inner;t0=time.time();rep={'task':T,'K':K,'n_inner':NI,'H':H,'N':N,'cost':COST}
+    T=a.task;K=a.K;NI=a.n_inner;t0=time.time();rep={'teacher_seed':a.seed,'task':T,'K':K,'n_inner':NI,'H':H,'N':N,'cost':COST}
     with sdpa_kernel(SDPBackend.MATH):
         # 1. tune inner LR for money on calibration seeds 10_000..10_007 (rms-normalized reward)
         grid=[.03,.1,.3,1.,3.];cal={}
