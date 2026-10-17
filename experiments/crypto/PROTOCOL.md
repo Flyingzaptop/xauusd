@@ -46,3 +46,11 @@ non-overlapping per symbol. Universe (fixed now): SOL XRP DOGE BNB ADA AVAX LINK
 ATOM UNI AAVE INJ TIA SEI WLD 1000PEPE WIF ENA TON HBAR (USDT perps), 2023-01..2026-09.
 Costs per round trip 10 / 15 / 20 bp (alt spreads + taker fees). Primary question: is the pooled 2025-01..2026-09 mean net of
 15 bp > 0 with t > 2 (symbol-clustered: t of the per-symbol means), and positive in most symbols? 2023-24 reported for context.
+
+# Part G2 — follow-ups to G (declared after seeing G's pooled numbers, before running these; 17.10.2026)
+(a) Time-clustered inference for the G rule: average all trades opened on the same UTC day, t over days.
+(b) Cross-sectional market-neutral version: every 12 h (00:00, 12:00 UTC) rank the 30 alts by the same z (latest metrics row
+available before the rebalance); long the 5 lowest z (crowd most short), short the 5 highest; equal weight; hold 12 h / 24 h
+(24 h: two overlapping books, each half capital). P&L per unit gross exposure. Costs: full turnover each rebalance at
+10 / 15 bp (taker) and 5 bp (maker entry+exit) per round trip. 2023-24 = context, 2025-01..2026-09 = test. Note: 2025-26
+was already seen for the G rule, so (b) is not fully independent of that look; treat as confirmatory only if both hold.
