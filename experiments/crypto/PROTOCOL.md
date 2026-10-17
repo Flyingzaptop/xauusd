@@ -30,3 +30,11 @@ E4 Bursts: number of taker orders per second ≥ p99.9 of the trailing day with 
 Reporting: mean signed bp, t clustered by minute, sign by week; a rule is a candidate only if it is positive after costs in September
 AND in every validation month with the same sign.
 Part E amendment (after first run, 17.10.2026): E2 strict definition gave ~2 events/week; added E2b = top-5% |flow| minutes where price did not move with the flow. Reported as an amendment.
+
+# Part F — flow by order size (declared before running, 17.10.2026)
+Months: 2026-01..2026-09 (local raw aggTrades), BTC and ETH. Taker orders as in Part E.
+Size buckets (notional): retail < $1k, small $1k–10k, mid $10k–100k, large $100k–1M, whale ≥ $1M.
+Per bucket, signed-notional imbalance over the last W hours (W = 1, 4, 24) = Σ side·notional / Σ notional, computed at each hour end.
+Target: return from hour end + 1 min over the next 1 h / 4 h / 24 h. Statistic: Spearman correlation and top-vs-bottom-quintile spread,
+non-overlapping for the target horizon. A pattern counts only if the sign is the same in ≥ 7 of 9 months for both BTC and ETH
+and the pooled quintile spread exceeds 10 bp (≥ taker/taker costs).
