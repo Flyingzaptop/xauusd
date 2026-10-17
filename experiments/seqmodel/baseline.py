@@ -2,7 +2,12 @@
 labels, vol-scaling and trade evaluation (val-chosen thresholds applied to test/final).
 usage: baseline.py --train ... --val ... [--test ...] [--final ...] --out result.json"""
 import argparse,json,os,numpy as np,torch,lightgbm as lgb
+import data as _data
 from data import Market,HZ
+_ld=Market._load
+def _load_noev(f):
+    d=_ld(f);d['ev']=np.zeros((1,6),np.float16);return d     # events not needed for the window-aggregate baseline
+Market._load=staticmethod(_load_noev)
 p=argparse.ArgumentParser();[p.add_argument(f'--{k}',nargs='+',default=[]) for k in ('train','val','test','final')]
 p.add_argument('--stride',type=int,default=30);p.add_argument('--eval_stride',type=int,default=60);p.add_argument('--out',required=True);a=p.parse_args()
 Lf,Lc=3600,1440;warm=Lf+Lc*60+121;HMAX=max(HZ)+2;W=[10,60,300,1800,3600]
@@ -16,9 +21,11 @@ def feats(M,stride):
         m=t['msum'];mr=((M.s0+g-Lf+1)//60-1-t['m0']).clamp(0,len(m)-1);mc=torch.cat([torch.zeros(1,6),m.cumsum(0)])
         for wm in (60,360,1440):X.append((mc[mr+1]-mc[(mr+1-wm).clamp(min=0)])[:,[1,3]])                  # flow and return over 1h/6h/24h before
         X.append(((M.s0+g)%86400/3600.).view(-1,1).double())
-    for i in range(0,len(g),4096):
-        b=M.batch(g[i:i+4096],Lf,Lc,1);Y.append(b['y']);V.append(b['vol'])
-    return torch.cat([x.double() for x in X],1).numpy(),torch.cat(Y).numpy(),torch.cat(V).numpy()
+    for t in M.t:                                         # labels/vol exactly as Market.batch, without touching events
+        p0=t['last'][g+1];Y.append(torch.stack([(t['last'][g+1+h]-p0)*1e4 for h in HZ],-1).float())
+        r=t['ssum'][:,3].double();c1=torch.cat([torch.zeros(1,dtype=torch.float64),r.cumsum(0)]);c2=torch.cat([torch.zeros(1,dtype=torch.float64),(r*r).cumsum(0)])
+        m1=(c1[g+1]-c1[g+1-Lf])/Lf;m2=(c2[g+1]-c2[g+1-Lf])/Lf;V.append(((m2-m1*m1).clamp(min=0)*Lf/(Lf-1)).sqrt().clamp(min=0.5).float())
+    return torch.cat([x.double() for x in X],1).numpy(),torch.stack(Y,1).numpy(),torch.stack(V,1).numpy()
 def ev(P,Y,stride,thr=None):
     res={}
     for si,sn in enumerate(['BTC','ETH']):
