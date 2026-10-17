@@ -8,3 +8,10 @@ P&L (bp of notional) = -(log return) + sum of funding rates over the holding (sh
 Inference: clustered by listing month (mean of monthly means, t over months). Report mean, median, share positive, worst
 trade (squeeze risk), by year. Context 2021-2023; test 2024-01..2026-08.
 Success: test mean net of 30 bp > 0 with month-clustered t > 2 and median > 0, raw and hedged.
+
+## Amendment H2 (declared after seeing H, before running): the log-return P&L in H overstated shorts; correct P&L is the
+simple short return -(P1/P0-1). H showed positive medians but huge squeeze tails. H2 adds a protective buy-stop:
+stop at +s above entry, s in {20%, 30%, 50%, 100%}, checked on daily highs; fill = max(stop, that day's open) * (1+2% slippage).
+Costs 30 bp, funding as in H. Same periods; also an equal-weight portfolio (each new listing gets 1 unit, P&L summed per
+calendar month) with monthly Sharpe and max drawdown. Success: 2024-26 mean net > 0, month-clustered t > 2 for some s
+that was ALSO positive in 2021-23 (choose s on 2021-23 only).
