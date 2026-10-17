@@ -25,7 +25,7 @@ def predict(M,stride):
     m.train();return torch.cat(P).numpy(),torch.cat(Y).numpy()
 def evaluate(M,stride,thr=None):
     """IC per symbol/horizon; trades = |pred| above thr (default: own 95% quantile; for test pass val thresholds), non-overlapping."""
-    P,Y=predict(M,stride);res={}
+    P,Y=predict(M,stride);res={};PRED[id(M)]=(P,Y)
     for si,sn in enumerate(['BTC','ETH']):
         for hi,h in enumerate(HZ):
             p_=P[:,si,hi];y_=Y[:,si,hi];ic=float(np.corrcoef(p_,y_)[0,1]);th=thr[f'{sn}_{h}s'] if thr else float(np.quantile(np.abs(p_),.95));sel=np.where(np.abs(p_)>th)[0]
@@ -37,6 +37,7 @@ def evaluate(M,stride,thr=None):
     return res
 def scaled(b):
     hs=torch.tensor(HZ,device=dev,dtype=torch.float32).sqrt();return (b['y']/(b['vol'].unsqueeze(-1)*hs)).clamp(-5,5)
+PRED={}
 opt=torch.optim.AdamW(m.parameters(),lr=a.lr,weight_decay=0.05);rng=np.random.default_rng(1);log=[];t0=time.time()
 def lr_at(st,tot):return a.lr*min(1,st/200)*0.5*(1+math.cos(math.pi*min(st,tot)/tot))
 for phase,steps in (('pretrain',a.pre_steps),('finetune',a.ft_steps)):
@@ -58,6 +59,7 @@ for phase,steps in (('pretrain',a.pre_steps),('finetune',a.ft_steps)):
     if phase=='pretrain':torch.save(m.state_dict(),a.out+'/pretrained.pt')
 m.load_state_dict(torch.load(a.out+'/best.pt'));final={'val':evaluate(VA,a.eval_stride)};th={k:v['thr'] for k,v in final['val'].items()}
 for nm,f_ in zip(a.test_names,TE):final[nm]=evaluate(f_,a.eval_stride,th)
+np.savez(a.out+'/preds.npz',**{f'{n}_{k}':x for n,M_ in zip(['val']+a.test_names,[VA]+TE) for k,x in zip('PY',PRED[id(M_)])})   # raw predictions for offline analysis
 json.dump({'args':vars(a),'log':log,'final':final},open(a.out+'/result.json','w'),indent=1)
 for k,v in final.items():
     print('FINAL',k);[print(f'  {kk}: ic {vv["ic"]:+.4f} top5 gross {vv["top5_gross_bp"]:+.2f} bp net@4 {vv["net4"]:+.2f} net@10 {vv["net10"]:+.2f} n {vv["n"]}') for kk,vv in v.items()]
