@@ -20,3 +20,9 @@ Report the same statistics; the claim "trend following works" requires all lookb
 ## Amendment M4 (declared before running): untouched history 2017-08..2019-12 on Binance SPOT daily klines (perps did not
 exist), BTCUSDT and ETHUSDT, same SMA rules {20,50,100,200}, same vol targeting, 10 bp costs, no funding (shorting assumed at
 spot price). Pass = SMA50 Sharpe > 0.5 on both and the BTC+ETH 50/50 combination beats buy-and-hold Sharpe.
+
+## Amendment M5 (declared before running): survivorship-free alt trend
+Universe each month = top 20 USDT perps by trailing-30-day quote volume at the month start, excluding BTC/ETH, from ALL symbols
+ever listed (delisted included), using Binance daily klines. Same SMA rules (20/50/100 ensemble and SMA50 alone), per-asset vol
+target, equal-risk basket, 10 bp costs, funding ignored (caveat). A coin that stops trading is closed at its last price.
+Periods 2021-2023 / 2024-2026-09. Pass = test Sharpe > 0.5 for the SMA50 rule.
