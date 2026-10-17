@@ -34,6 +34,6 @@ def table(unit_ms):
     summ=np.stack([np.log1p(cnt),np.sign(sn)*np.log1p(np.abs(sn)/1e3),np.log1p(tn/1e3),np.clip(ret,-100,100),np.clip(rng,0,200),np.log10(np.maximum(mx,1))-3],1).astype(np.float32)
     return int(u0),off.astype(np.int64),cnt.astype(np.int32),last,summ
 s0,s_off,s_cnt,s_last,s_sum=table(1000);m0,_,_,m_last,m_sum=table(60000)
-np.savez(out,sym=S,ev_ts=o_ts,ev=F,s0=s0,s_off=s_off,s_cnt=s_cnt,s_last=s_last,s_sum=s_sum,m0=m0,m_last=m_last,m_sum=m_sum)
+np.savez_compressed(out,sym=S,ev=F,s0=s0,s_cnt=s_cnt,s_last=s_last,s_sum=s_sum,m0=m0,m_last=m_last,m_sum=m_sum)
 print(f'{S}: aggTrades {len(ts)} -> events {N}; seconds {len(s_cnt)} (max events/s {s_cnt.max()}, p99 {int(np.quantile(s_cnt,.99))}); minutes {len(m_last)}; '
       f'event feature ranges {[ (float(F[:,j].min()),float(F[:,j].max())) for j in range(6)]}')

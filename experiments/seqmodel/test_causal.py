@@ -16,7 +16,7 @@ if len(sys.argv)>2:
     mk=Market([sys.argv[1]],[sys.argv[2]]);g=torch.tensor([30000,50000])
     x=mk.batch(g,120,30,32)
     for t in mk.t:                                           # corrupt everything after the anchors' last closed second
-        cut=int(t['off'][30001]);t['ev'][cut:]=7;t['ssum'][30001:]=9;t['msum'][30000//60:]=9
+        cut=int(t['off'][30001]);t['ev'][cut:]=7;t['ssum'][30001:]=9;t['msum'][(30000-120+1)//60:]=9
     y=mk.batch(torch.tensor([30000]),120,30,32)
     for k in ['ev','mask','ssum','msum']:assert torch.equal(x[k][:1],y[k]),k
     print('batch causal ok')
