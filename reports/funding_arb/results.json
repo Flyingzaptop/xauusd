@@ -1,0 +1,414 @@
+{
+ "AAVE": {
+  "2023-24": {
+   "net_ann_pct": 12.794074998648654,
+   "gross_ann_pct": 13.728641143741115,
+   "invested": 0.4466571834992888,
+   "net_when_invested_ann_pct": 29.690237974681533,
+   "mean_spread_bp8h": 0.9678104011379806
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.5655291978465682
+  }
+ },
+ "ADA": {
+  "2023-24": {
+   "net_ann_pct": 3.2693255735989504,
+   "gross_ann_pct": 4.03640088007881,
+   "invested": 0.14886164623467601,
+   "net_when_invested_ann_pct": 24.538645912058833,
+   "mean_spread_bp8h": 0.36357948073555235
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": -0.24196014872139918
+  }
+ },
+ "APT": {
+  "2023-24": {
+   "net_ann_pct": 6.240357203814432,
+   "gross_ann_pct": 7.293965451237112,
+   "invested": 0.28865979381443296,
+   "net_when_invested_ann_pct": 23.443380313214284,
+   "mean_spread_bp8h": -0.007650990378007287
+  },
+  "2025-26": {
+   "net_ann_pct": 1.1020528979475075,
+   "gross_ann_pct": 1.3968039073687728,
+   "invested": 0.07133243606998654,
+   "net_when_invested_ann_pct": 17.515571758018833,
+   "mean_spread_bp8h": 0.3201064286675618
+  }
+ },
+ "ARB": {
+  "2023-24": {
+   "net_ann_pct": 2.192104131225295,
+   "gross_ann_pct": 2.769179230039524,
+   "invested": 0.11791831357048749,
+   "net_when_invested_ann_pct": 21.036950118435744,
+   "mean_spread_bp8h": 0.27041982411067106
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.06928771870793983
+  }
+ },
+ "ATOM": {
+  "2023-24": {
+   "net_ann_pct": 7.81210948458498,
+   "gross_ann_pct": 8.533453358102767,
+   "invested": 0.2523056653491436,
+   "net_when_invested_ann_pct": 32.39238171697128,
+   "mean_spread_bp8h": 0.005349459815546838
+  },
+  "2025-26": {
+   "net_ann_pct": -0.033364023654104916,
+   "gross_ann_pct": 0.11401148105652764,
+   "invested": 0.014131897711978465,
+   "net_when_invested_ann_pct": 2.8533838500000015,
+   "mean_spread_bp8h": 0.3354796460296097
+  }
+ },
+ "AVAX": {
+  "2023-24": {
+   "net_ann_pct": 9.443650107114625,
+   "gross_ann_pct": 10.597800304743084,
+   "invested": 0.3129117259552042,
+   "net_when_invested_ann_pct": 32.024128131789475,
+   "mean_spread_bp8h": 0.14131923320158135
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.4056285632570665
+  }
+ },
+ "BCH": {
+  "2023-24": {
+   "net_ann_pct": 5.806102284432989,
+   "gross_ann_pct": 6.257648676185567,
+   "invested": 0.19518900343642612,
+   "net_when_invested_ann_pct": 30.9027423375,
+   "mean_spread_bp8h": -0.1555785869415806
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.5286743142664868
+  }
+ },
+ "BNB": {
+  "2023-24": {
+   "net_ann_pct": 2.1138037974308292,
+   "gross_ann_pct": 3.2679539950592873,
+   "invested": 0.17061923583662714,
+   "net_when_invested_ann_pct": 15.771251600386096,
+   "mean_spread_bp8h": 0.5349083471673253
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.3466090814266482
+  }
+ },
+ "BTC": {
+  "2023-24": {
+   "net_ann_pct": 1.5954333798418967,
+   "gross_ann_pct": 2.172508478656126,
+   "invested": 0.10737812911725955,
+   "net_when_invested_ann_pct": 17.545201660122693,
+   "mean_spread_bp8h": 0.836275270750988
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.2686319946164199
+  }
+ },
+ "DOGE": {
+  "2023-24": {
+   "net_ann_pct": 19.756161701482213,
+   "gross_ann_pct": 20.621774349703557,
+   "invested": 0.4769433465085639,
+   "net_when_invested_ann_pct": 42.32990809785912,
+   "mean_spread_bp8h": 1.2810693689064556
+  },
+  "2025-26": {
+   "net_ann_pct": -0.06290289397711983,
+   "gross_ann_pct": 0.08447261073351275,
+   "invested": 0.012113055181695828,
+   "net_when_invested_ann_pct": 0.8903499749999961,
+   "mean_spread_bp8h": 0.2455307422611035
+  }
+ },
+ "DOT": {
+  "2023-24": {
+   "net_ann_pct": 7.494068402633677,
+   "gross_ann_pct": 8.367971036312849,
+   "invested": 0.23623304070231443,
+   "net_when_invested_ann_pct": 33.57286388006756,
+   "mean_spread_bp8h": 0.5847459944134078
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.1253336191117096
+  }
+ },
+ "ENA": {
+  "2023-24": {
+   "net_ann_pct": 4.1841745452381005,
+   "gross_ann_pct": 5.922269783333338,
+   "invested": 0.2967032967032967,
+   "net_when_invested_ann_pct": 16.805921615432116,
+   "mean_spread_bp8h": 1.0185558119658134
+  },
+  "2025-26": {
+   "net_ann_pct": 0.7681671961096621,
+   "gross_ann_pct": 1.1684282927154064,
+   "invested": 0.07206266318537859,
+   "net_when_invested_ann_pct": 13.833624496739152,
+   "mean_spread_bp8h": 0.6387473785900799
+  }
+ },
+ "ETH": {
+  "2023-24": {
+   "net_ann_pct": 3.1812526164031625,
+   "gross_ann_pct": 3.7583277152173906,
+   "invested": 0.15744400527009222,
+   "net_when_invested_ann_pct": 22.038248835564854,
+   "mean_spread_bp8h": 0.9035989650856389
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.24755793270524803
+  }
+ },
+ "INJ": {
+  "2023-24": {
+   "net_ann_pct": 12.913026055632411,
+   "gross_ann_pct": 14.49998257737154,
+   "invested": 0.34057971014492755,
+   "net_when_invested_ann_pct": 40.24462969526113,
+   "mean_spread_bp8h": 0.46826567193676044
+  },
+  "2025-26": {
+   "net_ann_pct": 0.7999381240578732,
+   "gross_ann_pct": 1.0946891334791384,
+   "invested": 0.06123822341857335,
+   "net_when_invested_ann_pct": 15.469319256593403,
+   "mean_spread_bp8h": 0.5482421043068645
+  }
+ },
+ "LINK": {
+  "2023-24": {
+   "net_ann_pct": 11.185382411857708,
+   "gross_ann_pct": 11.906726285375496,
+   "invested": 0.3346508563899868,
+   "net_when_invested_ann_pct": 34.50179232519686,
+   "mean_spread_bp8h": 0.6956634729907779
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.4160830834454921
+  }
+ },
+ "LTC": {
+  "2023-24": {
+   "net_ann_pct": 2.8403342993083007,
+   "gross_ann_pct": 3.4174093981225293,
+   "invested": 0.14558629776021081,
+   "net_when_invested_ann_pct": 21.491526997058827,
+   "mean_spread_bp8h": 0.21341246837944652
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.3394361500672952
+  }
+ },
+ "NEAR": {
+  "2023-24": {
+   "net_ann_pct": 13.832815525156951,
+   "gross_ann_pct": 14.618465749372199,
+   "invested": 0.3488789237668161,
+   "net_when_invested_ann_pct": 40.77529385745501,
+   "mean_spread_bp8h": 1.8265439461883406
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.6237329993270516
+  }
+ },
+ "OP": {
+  "2023-24": {
+   "net_ann_pct": 5.922116372727272,
+   "gross_ann_pct": 7.364804119762845,
+   "invested": 0.2977602108036891,
+   "net_when_invested_ann_pct": 22.31144392433628,
+   "mean_spread_bp8h": 0.20948214031620563
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": -0.24825911440107695
+  }
+ },
+ "SEI": {
+  "2023-24": {
+   "net_ann_pct": 21.655640943538693,
+   "gross_ann_pct": 23.1364824161157,
+   "invested": 0.46431254695717505,
+   "net_when_invested_ann_pct": 48.234883650242715,
+   "mean_spread_bp8h": 1.6230949939894816
+  },
+  "2025-26": {
+   "net_ann_pct": 0.5055061752355318,
+   "gross_ann_pct": 0.6528816799461643,
+   "invested": 0.029609690444145357,
+   "net_when_invested_ann_pct": 19.560958554545454,
+   "mean_spread_bp8h": 0.707277016823688
+  }
+ },
+ "SOL": {
+  "2023-24": {
+   "net_ann_pct": 8.169312161264818,
+   "gross_ann_pct": 9.323462358893275,
+   "invested": 0.3465085638998682,
+   "net_when_invested_ann_pct": 25.241475020532317,
+   "mean_spread_bp8h": 1.0212954591567844
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.30487429475100913
+  }
+ },
+ "SUI": {
+  "2023-24": {
+   "net_ann_pct": 13.182372308992097,
+   "gross_ann_pct": 14.192253731916995,
+   "invested": 0.308300395256917,
+   "net_when_invested_ann_pct": 44.39602813044872,
+   "mean_spread_bp8h": -0.029534542160737556
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.2238177711978473
+  }
+ },
+ "TIA": {
+  "2023-24": {
+   "net_ann_pct": 19.046060384074966,
+   "gross_ann_pct": 20.242781695550377,
+   "invested": 0.5253708040593287,
+   "net_when_invested_ann_pct": 37.39153544130762,
+   "mean_spread_bp8h": 2.3768049250585515
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.2830048830287237
+  }
+ },
+ "TRX": {
+  "2023-24": {
+   "net_ann_pct": 2.540815195575221,
+   "gross_ann_pct": 3.348337319469027,
+   "invested": 0.1696165191740413,
+   "net_when_invested_ann_pct": 17.360197413913045,
+   "mean_spread_bp8h": -0.10025218879056087
+  },
+  "2025-26": {
+   "net_ann_pct": 0.4030474157806189,
+   "gross_ann_pct": 0.5504229204912515,
+   "invested": 0.034320323014804845,
+   "net_when_invested_ann_pct": 13.890754114705876,
+   "mean_spread_bp8h": 0.5503225363391652
+  }
+ },
+ "WLD": {
+  "2023-24": {
+   "net_ann_pct": 14.842233938256486,
+   "gross_ann_pct": 15.94670079704611,
+   "invested": 0.37896253602305474,
+   "net_when_invested_ann_pct": 40.622662939733836,
+   "mean_spread_bp8h": -0.11119235806916426
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.7186834751009414
+  }
+ },
+ "XRP": {
+  "2023-24": {
+   "net_ann_pct": 1.996796730201342,
+   "gross_ann_pct": 2.58471619328859,
+   "invested": 0.10805369127516778,
+   "net_when_invested_ann_pct": 21.200168496894406,
+   "mean_spread_bp8h": -0.14145548859060453
+  },
+  "2025-26": {
+   "net_ann_pct": 0.0,
+   "gross_ann_pct": 0.0,
+   "invested": 0.0,
+   "net_when_invested_ann_pct": 0.0,
+   "mean_spread_bp8h": 0.2923384064602961
+  }
+ },
+ "pooled|2023-24": {
+  "mean_coin_month_net_bp": 65.9701244153562,
+  "t_months": 4.09580618151827,
+  "ann_pct_per_coin": 7.916414929842744,
+  "months": 19
+ },
+ "pooled|2025-26": {
+  "mean_coin_month_net_bp": 0.9139820399999998,
+  "t_months": 2.0812089897409107,
+  "ann_pct_per_coin": 0.1096778448,
+  "months": 22
+ }
+}

@@ -9,7 +9,8 @@ for fn in sorted(glob.glob(f'{D}/hl_*.parquet')):
     if not len(h) or not len(b):continue
     h['t']=pd.to_datetime(h.time,unit='ms',utc=True);h['r']=h.fundingRate.astype(float)
     b['t']=pd.to_datetime(b.calc_time,unit='ms',utc=True);b['r']=b.last_funding_rate.astype(float)
-    b=b[b.t.dt.hour.isin([0,8,16])].drop_duplicates('t').set_index('t').r.sort_index()     # 8h settlements only (some coins switch to 4h)
+    b=b.drop_duplicates('t').set_index('t').r.sort_index()
+    b=b.resample('8h',closed='right',label='right').sum(min_count=1).dropna()   # sum all settlements in each 8 h window (some coins pay every 4 h)
     # HL hourly rates summed over the 8 h window ending at each Binance settlement time
     hs=h.set_index('t').r.sort_index().resample('1h').sum(min_count=1)
     h8=hs.rolling(8,min_periods=7).sum().reindex(b.index)
