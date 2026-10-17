@@ -25,3 +25,17 @@ A pattern is called a candidate only if walk-forward net PnL is positive in ≥ 
 net PnL ≥ 3.3 (≈ Bonferroni for ~100 tests). Drift results are additionally compared with the gold buy-and-hold drift over the
 same duration (bull market 2016–2026), so that "always long" in a window is not mistaken for timing.
 All windows/tests above are fixed; no new windows are added after seeing results without being reported as such.
+
+# Part 2 — event structure (declared before running, 17.10.2026, after the user clarified the question)
+Goal: recurring *structure* around daily events, not unconditional drift.
+Events: user session boundaries 00,07,09,12,16,20 UTC + DST-aware anchors (SGE 10:15/14:15 BJ, London open 08:00, LBMA 10:30/15:00,
+US 08:30/09:30/10:00 NY, COMEX settle 13:30 NY, WM/R 16:00 London, CME reopen 18:00 NY).
+A. Profile (descriptive): per-minute |return| and tick volume from −60 to +90 min vs the −60…−31 baseline: which events are real activity spikes.
+B. Conditional pre→post: z = pre-30-min return / its trailing 250-day std at the same event; bins (<−2, −2…−1, −1…1, 1…2, >2);
+   trade only |z|>1 and |z|>2, direction = sign of the past mean post-return in that bin (walk-forward); horizons +15/+30/+60.
+C. Ranges: (1) Asian range 00–07 UTC, first break 07–10 UTC → continuation/reversal over +30/+60/+120 min and to 16:00;
+   (2) "sweep": break then close back inside within 30 min → trade from re-entry; (3) opening-range (first 30 min) break after
+   London open 08:00 LDN and US 08:30 NY, held to 16:00 / 20:00 UTC; (4) previous-day high/low taken in London/NY → continuation/reversal.
+   Entry = Open of the bar after the signal bar (no same-bar fill). (5) Descriptive: time-of-day of daily high and low.
+D. Volatility (descriptive): corr(pre-60-min realized vol, post-60-min |return|).
+Same walk-forward (2018–2026), cost $0.25/oz, candidate = t≥3.3 and ≥7/9 positive years.
