@@ -1,0 +1,734 @@
+{
+  "direction_15": [
+    {
+      "method": "stft_8192",
+      "period": 40.554455445544555,
+      "feature": "cos",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": 0.03426629622466939,
+      "validation_corr": 0.001658908045325777,
+      "test_corr": 0.005521555356018025
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.187311178247734,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.030722089604136676,
+      "validation_corr": 0.02495166242038958,
+      "test_corr": 0.0068253098224382224
+    },
+    {
+      "method": "stft_8192",
+      "period": 390.0952380952381,
+      "feature": "cos",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": 0.02774097151280325,
+      "validation_corr": 0.013673078196092732,
+      "test_corr": -0.003589010110780809
+    },
+    {
+      "method": "stft_8192",
+      "period": 34.565400843881854,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.02685904922867838,
+      "validation_corr": 0.015781804658425297,
+      "test_corr": -0.017655589763565165
+    },
+    {
+      "method": "stft_8192",
+      "period": 7.62046511627907,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.025932287917673037,
+      "validation_corr": 0.009591689351682869,
+      "test_corr": 0.0025614713747220924
+    },
+    {
+      "method": "stft_8192",
+      "period": 5.834757834757835,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.02551654096257872,
+      "validation_corr": 0.015558331077881899,
+      "test_corr": -0.002548515795627151
+    },
+    {
+      "method": "stft_8192",
+      "period": 16.78688524590164,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.025354734884552834,
+      "validation_corr": 0.0076789056974466054,
+      "test_corr": -0.004406203392405639
+    },
+    {
+      "method": "stft_8192",
+      "period": 24.526946107784433,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": 0.024970224802648884,
+      "validation_corr": -0.009190390687826826,
+      "test_corr": -0.007861790477076046
+    },
+    {
+      "method": "wavelet_returns",
+      "period": 772.0725403665338,
+      "feature": "cos",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.02490982095514013,
+      "validation_corr": 0.014446145641240055,
+      "test_corr": -0.020348334817474823
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.564102564102564,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.024281095715976593,
+      "validation_corr": 0.016202473325573404,
+      "test_corr": 0.01031786987192336
+    },
+    {
+      "method": "stft_8192",
+      "period": 124.12121212121212,
+      "feature": "cos",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": 0.02419720475720733,
+      "validation_corr": 0.014543992065933518,
+      "test_corr": 0.030499171620064314
+    },
+    {
+      "method": "stft_8192",
+      "period": 4.902453620586475,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "direction",
+      "discovery_corr": -0.02361471148304683,
+      "validation_corr": 0.0012682819981076406,
+      "test_corr": 0.0076374260615205206
+    }
+  ],
+  "direction_60": [
+    {
+      "method": "stft_8192",
+      "period": 390.0952380952381,
+      "feature": "cos",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": 0.0688073507911052,
+      "validation_corr": 0.008271901274733536,
+      "test_corr": -0.00952694755230727
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.187311178247734,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.06324292090857708,
+      "validation_corr": 0.05017991593981983,
+      "test_corr": 0.008918162086673927
+    },
+    {
+      "method": "stft_8192",
+      "period": 34.565400843881854,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.057519061989423755,
+      "validation_corr": 0.03733313473973933,
+      "test_corr": -0.03314347179058752
+    },
+    {
+      "method": "wavelet_returns",
+      "period": 772.0725403665338,
+      "feature": "cos",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.05512350921633316,
+      "validation_corr": 0.029470637800232673,
+      "test_corr": -0.02428099433927001
+    },
+    {
+      "method": "stft_8192",
+      "period": 16.78688524590164,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.05140519185162514,
+      "validation_corr": 0.01615581995914858,
+      "test_corr": -0.014928205080979962
+    },
+    {
+      "method": "stft_8192",
+      "period": 24.526946107784433,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": 0.05064695252756484,
+      "validation_corr": -0.025879695204066844,
+      "test_corr": -0.004915914505654368
+    },
+    {
+      "method": "stft_8192",
+      "period": 5.897768178545716,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.05061830338319048,
+      "validation_corr": 0.01764085501015757,
+      "test_corr": 0.019930411235249412
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.26778882938026,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.05038656461846242,
+      "validation_corr": 0.013070779882738193,
+      "test_corr": -0.021562497487608818
+    },
+    {
+      "method": "stft_8192",
+      "period": 7.62046511627907,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.049260527313836615,
+      "validation_corr": 0.01972842277954598,
+      "test_corr": 0.0018367920999824323
+    },
+    {
+      "method": "stft_8192",
+      "period": 11.66951566951567,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.049043269831063246,
+      "validation_corr": -0.00967335999644878,
+      "test_corr": -0.013300030084924197
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.375097276264592,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.04900231087109532,
+      "validation_corr": 0.04497117038728948,
+      "test_corr": -1.1355492477035916e-05
+    },
+    {
+      "method": "stft_8192",
+      "period": 5.834757834757835,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "direction",
+      "discovery_corr": -0.04812163529884892,
+      "validation_corr": 0.03173474956658216,
+      "test_corr": -0.01139515043129856
+    }
+  ],
+  "direction_120": [
+    {
+      "method": "stft_8192",
+      "period": 34.565400843881854,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.08867527260293873,
+      "validation_corr": 0.05323757228157965,
+      "test_corr": -0.04365811170005664
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.187311178247734,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.08383435987503204,
+      "validation_corr": 0.06687195740747999,
+      "test_corr": 0.0006070874849120866
+    },
+    {
+      "method": "stft_8192",
+      "period": 24.526946107784433,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": 0.07892129433167136,
+      "validation_corr": -0.04756909752237827,
+      "test_corr": -0.01096655142091057
+    },
+    {
+      "method": "stft_8192",
+      "period": 4.7297921478060045,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07525541026788307,
+      "validation_corr": 0.052337014976612486,
+      "test_corr": 0.03861055478987149
+    },
+    {
+      "method": "stft_8192",
+      "period": 14.68100358422939,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07261488792168455,
+      "validation_corr": 0.024389354706301523,
+      "test_corr": 0.050658417152087576
+    },
+    {
+      "method": "stft_8192",
+      "period": 16.78688524590164,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07227909569294035,
+      "validation_corr": 0.026172435278561588,
+      "test_corr": -0.027293105381146977
+    },
+    {
+      "method": "stft_8192",
+      "period": 36.40888888888889,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07226299221564803,
+      "validation_corr": 0.008933640218430261,
+      "test_corr": 0.0011591371405819608
+    },
+    {
+      "method": "wavelet_returns",
+      "period": 772.0725403665338,
+      "feature": "cos",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07223457494350449,
+      "validation_corr": 0.050437865392246976,
+      "test_corr": 0.0022640933550057874
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.90725126475548,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": 0.07189737267654704,
+      "validation_corr": -0.0009396314815279948,
+      "test_corr": -0.023745910941815065
+    },
+    {
+      "method": "stft_8192",
+      "period": 11.66951566951567,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07140498486650212,
+      "validation_corr": -0.01549179117777404,
+      "test_corr": -0.030967236666495614
+    },
+    {
+      "method": "stft_8192",
+      "period": 6.26778882938026,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07124656379377997,
+      "validation_corr": 0.01782388013861193,
+      "test_corr": -0.04022736520121974
+    },
+    {
+      "method": "stft_8192",
+      "period": 5.897768178545716,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "direction",
+      "discovery_corr": -0.07102946651427061,
+      "validation_corr": 0.028299944690275376,
+      "test_corr": 0.025885106988182343
+    }
+  ],
+  "absolute_move_15": [
+    {
+      "method": "wavelet_logprice",
+      "period": 202.19092956316558,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.08148391486207666,
+      "validation_corr": -0.06637940240206348,
+      "test_corr": -0.06763551211522875
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 224.17951413870057,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.08056058375376503,
+      "validation_corr": -0.06685419838224989,
+      "test_corr": -0.06844665707448876
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 182.35908911964023,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.0803267114410748,
+      "validation_corr": -0.0661236317608036,
+      "test_corr": -0.0682223792228237
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 164.47244916669678,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07888366231791598,
+      "validation_corr": -0.06650534831392524,
+      "test_corr": -0.0702183090069103
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 248.55939219451238,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.0774362208509218,
+      "validation_corr": -0.06743916487319873,
+      "test_corr": -0.06821305279237994
+    },
+    {
+      "method": "stft_128",
+      "period": 6.7368421052631575,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07717293275662564,
+      "validation_corr": -0.07637535999922226,
+      "test_corr": -0.06756805851566484
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 148.34021526146236,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07635027736955698,
+      "validation_corr": -0.0670167407052111,
+      "test_corr": -0.07221324026060125
+    },
+    {
+      "method": "stft_128",
+      "period": 6.095238095238095,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07554832375885766,
+      "validation_corr": -0.05571525980970518,
+      "test_corr": -0.08008483651046924
+    },
+    {
+      "method": "stft_128",
+      "period": 4.7407407407407405,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.0751193601675259,
+      "validation_corr": -0.06580552013920547,
+      "test_corr": -0.08674528527081249
+    },
+    {
+      "method": "stft_128",
+      "period": 7.111111111111111,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07506054934568393,
+      "validation_corr": -0.07235626730774886,
+      "test_corr": -0.07884277846572142
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 275.59062069284727,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.0748690622771831,
+      "validation_corr": -0.06506429278099199,
+      "test_corr": -0.06464334753212204
+    },
+    {
+      "method": "stft_128",
+      "period": 14.222222222222221,
+      "feature": "energy",
+      "horizon": 15,
+      "target": "absolute_move",
+      "discovery_corr": -0.07423163055171313,
+      "validation_corr": -0.0785066864881973,
+      "test_corr": -0.06830856968140178
+    }
+  ],
+  "absolute_move_60": [
+    {
+      "method": "stft_128",
+      "period": 4.7407407407407405,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.12430511700998652,
+      "validation_corr": -0.1079176357752682,
+      "test_corr": -0.11518761420661681
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 148.34021526146236,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.12349404101264126,
+      "validation_corr": -0.11577629576812619,
+      "test_corr": -0.10658753505343814
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 133.7903069803174,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.1221450796629678,
+      "validation_corr": -0.1160850615239749,
+      "test_corr": -0.10790333267450161
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 164.47244916669678,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.1220571135748749,
+      "validation_corr": -0.1137851757302422,
+      "test_corr": -0.10237171108436964
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 182.35908911964023,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.12052330587193952,
+      "validation_corr": -0.11288759740661912,
+      "test_corr": -0.09693739285567647
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 202.19092956316558,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.11826112351554754,
+      "validation_corr": -0.11491224188995613,
+      "test_corr": -0.09342967973636114
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 120.66752235958089,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.11715383588901405,
+      "validation_corr": -0.11627375489585658,
+      "test_corr": -0.10775175669802516
+    },
+    {
+      "method": "stft_128",
+      "period": 32.0,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.11616159942293854,
+      "validation_corr": -0.09085616861066823,
+      "test_corr": -0.10002898537263401
+    },
+    {
+      "method": "stft_128",
+      "period": 16.0,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.11526315990436337,
+      "validation_corr": -0.08758114400471306,
+      "test_corr": -0.09609230906793464
+    },
+    {
+      "method": "stft_128",
+      "period": 64.0,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.11470733190349733,
+      "validation_corr": -0.12078043390647056,
+      "test_corr": -0.09692733856550585
+    },
+    {
+      "method": "stft_128",
+      "period": 14.222222222222221,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.1138969653131706,
+      "validation_corr": -0.11797732926802276,
+      "test_corr": -0.09334127089337674
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 224.17951413870057,
+      "feature": "energy",
+      "horizon": 60,
+      "target": "absolute_move",
+      "discovery_corr": -0.1129284925068025,
+      "validation_corr": -0.1178114216244231,
+      "test_corr": -0.09031848204287202
+    }
+  ],
+  "absolute_move_120": [
+    {
+      "method": "wavelet_logprice",
+      "period": 133.7903069803174,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.1732589326209058,
+      "validation_corr": -0.16313858495570283,
+      "test_corr": -0.14419776821178698
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 148.34021526146236,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.17183802371155932,
+      "validation_corr": -0.16650214909644434,
+      "test_corr": -0.13895789806617667
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 120.66752235958089,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.17023054388239212,
+      "validation_corr": -0.15688714129879924,
+      "test_corr": -0.1468536932349806
+    },
+    {
+      "method": "stft_128",
+      "period": 32.0,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16924660490857368,
+      "validation_corr": -0.13755689455768152,
+      "test_corr": -0.1453186344167529
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 164.47244916669678,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16827202550247516,
+      "validation_corr": -0.1656647618235225,
+      "test_corr": -0.13149652607342685
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 108.83188237651672,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16497475974943562,
+      "validation_corr": -0.15114116459885665,
+      "test_corr": -0.1478885031064529
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 182.35908911964023,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16363327347620146,
+      "validation_corr": -0.16217865941332624,
+      "test_corr": -0.12471091596554841
+    },
+    {
+      "method": "stft_128",
+      "period": 5.818181818181818,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16208066811472763,
+      "validation_corr": -0.16428675229642395,
+      "test_corr": -0.10705110875859586
+    },
+    {
+      "method": "wavelet_logprice",
+      "period": 98.15713781145291,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16096968669601894,
+      "validation_corr": -0.14749222284948663,
+      "test_corr": -0.14454161815414793
+    },
+    {
+      "method": "stft_128",
+      "period": 4.7407407407407405,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.1609310266859652,
+      "validation_corr": -0.1437152546252575,
+      "test_corr": -0.14474073805309837
+    },
+    {
+      "method": "stft_128",
+      "period": 42.666666666666664,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16074279633636912,
+      "validation_corr": -0.15140350876853023,
+      "test_corr": -0.12618439570882942
+    },
+    {
+      "method": "stft_128",
+      "period": 64.0,
+      "feature": "energy",
+      "horizon": 120,
+      "target": "absolute_move",
+      "discovery_corr": -0.16015664426248297,
+      "validation_corr": -0.1624987290995203,
+      "test_corr": -0.13600935232069108
+    }
+  ]
+}

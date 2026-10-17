@@ -1,0 +1,70 @@
+{"stage": "normalization_pre_2021", "elapsed_seconds": 0.04, "total_candles": 354340}
+{"stage": "wavelet_returns", "elapsed_seconds": 5.7, "total_candles": 354340}
+{"stage": "wavelet_returns", "elapsed_seconds": 6.46, "total_candles": 354340, "scales_completed": 25}
+{"stage": "wavelet_returns", "elapsed_seconds": 7.1, "total_candles": 354340, "scales_completed": 50}
+{"stage": "wavelet_returns", "elapsed_seconds": 7.8, "total_candles": 354340, "scales_completed": 75}
+{"stage": "wavelet_logprice", "elapsed_seconds": 7.8, "total_candles": 354340}
+{"stage": "wavelet_logprice", "elapsed_seconds": 8.59, "total_candles": 354340, "scales_completed": 25}
+{"stage": "wavelet_logprice", "elapsed_seconds": 9.3, "total_candles": 354340, "scales_completed": 50}
+{"stage": "wavelet_logprice", "elapsed_seconds": 9.97, "total_candles": 354340, "scales_completed": 75}
+{"stage": "write_month", "elapsed_seconds": 9.97, "total_candles": 354340, "month": "2021-01", "completed_candles": 0, "month_candles": 27421}
+{"stage": "write_month", "elapsed_seconds": 20.92, "total_candles": 354340, "month": "2021-01", "completed_candles": 8192, "month_candles": 27421}
+{"stage": "write_month", "elapsed_seconds": 33.23, "total_candles": 354340, "month": "2021-01", "completed_candles": 16384, "month_candles": 27421}
+{"stage": "write_month", "elapsed_seconds": 45.65, "total_candles": 354340, "month": "2021-01", "completed_candles": 24576, "month_candles": 27421}
+{"stage": "month_complete", "elapsed_seconds": 53.32, "total_candles": 354340, "month": "2021-01", "completed_candles": 27421, "file_bytes": 1769538130}
+{"stage": "write_month", "elapsed_seconds": 53.32, "total_candles": 354340, "month": "2021-02", "completed_candles": 27421, "month_candles": 27359}
+{"stage": "write_month", "elapsed_seconds": 64.22, "total_candles": 354340, "month": "2021-02", "completed_candles": 35613, "month_candles": 27359}
+{"stage": "write_month", "elapsed_seconds": 76.45, "total_candles": 354340, "month": "2021-02", "completed_candles": 43805, "month_candles": 27359}
+{"stage": "write_month", "elapsed_seconds": 89.43, "total_candles": 354340, "month": "2021-02", "completed_candles": 51997, "month_candles": 27359}
+{"stage": "month_complete", "elapsed_seconds": 97.15, "total_candles": 354340, "month": "2021-02", "completed_candles": 54780, "file_bytes": 1765500699}
+{"stage": "write_month", "elapsed_seconds": 97.15, "total_candles": 354340, "month": "2021-03", "completed_candles": 54780, "month_candles": 31737}
+{"stage": "write_month", "elapsed_seconds": 108.29, "total_candles": 354340, "month": "2021-03", "completed_candles": 62972, "month_candles": 31737}
+{"stage": "write_month", "elapsed_seconds": 120.45, "total_candles": 354340, "month": "2021-03", "completed_candles": 71164, "month_candles": 31737}
+{"stage": "write_month", "elapsed_seconds": 133.28, "total_candles": 354340, "month": "2021-03", "completed_candles": 79356, "month_candles": 31737}
+{"stage": "month_complete", "elapsed_seconds": 148.49, "total_candles": 354340, "month": "2021-03", "completed_candles": 86517, "file_bytes": 2048113104}
+{"stage": "write_month", "elapsed_seconds": 148.49, "total_candles": 354340, "month": "2021-04", "completed_candles": 86517, "month_candles": 28852}
+{"stage": "write_month", "elapsed_seconds": 159.25, "total_candles": 354340, "month": "2021-04", "completed_candles": 94709, "month_candles": 28852}
+{"stage": "write_month", "elapsed_seconds": 172.12, "total_candles": 354340, "month": "2021-04", "completed_candles": 102901, "month_candles": 28852}
+{"stage": "write_month", "elapsed_seconds": 185.02, "total_candles": 354340, "month": "2021-04", "completed_candles": 111093, "month_candles": 28852}
+{"stage": "month_complete", "elapsed_seconds": 195.46, "total_candles": 354340, "month": "2021-04", "completed_candles": 115369, "file_bytes": 1862306156}
+{"stage": "write_month", "elapsed_seconds": 195.46, "total_candles": 354340, "month": "2021-05", "completed_candles": 115369, "month_candles": 28860}
+{"stage": "write_month", "elapsed_seconds": 206.45, "total_candles": 354340, "month": "2021-05", "completed_candles": 123561, "month_candles": 28860}
+{"stage": "write_month", "elapsed_seconds": 218.38, "total_candles": 354340, "month": "2021-05", "completed_candles": 131753, "month_candles": 28860}
+{"stage": "write_month", "elapsed_seconds": 230.8, "total_candles": 354340, "month": "2021-05", "completed_candles": 139945, "month_candles": 28860}
+{"stage": "month_complete", "elapsed_seconds": 241.23, "total_candles": 354340, "month": "2021-05", "completed_candles": 144229, "file_bytes": 1862020543}
+{"stage": "write_month", "elapsed_seconds": 241.23, "total_candles": 354340, "month": "2021-06", "completed_candles": 144229, "month_candles": 30352}
+{"stage": "write_month", "elapsed_seconds": 252.44, "total_candles": 354340, "month": "2021-06", "completed_candles": 152421, "month_candles": 30352}
+{"stage": "write_month", "elapsed_seconds": 264.77, "total_candles": 354340, "month": "2021-06", "completed_candles": 160613, "month_candles": 30352}
+{"stage": "write_month", "elapsed_seconds": 277.37, "total_candles": 354340, "month": "2021-06", "completed_candles": 168805, "month_candles": 30352}
+{"stage": "month_complete", "elapsed_seconds": 289.98, "total_candles": 354340, "month": "2021-06", "completed_candles": 174581, "file_bytes": 1958814928}
+{"stage": "write_month", "elapsed_seconds": 289.98, "total_candles": 354340, "month": "2021-07", "completed_candles": 174581, "month_candles": 29992}
+{"stage": "write_month", "elapsed_seconds": 301.13, "total_candles": 354340, "month": "2021-07", "completed_candles": 182773, "month_candles": 29992}
+{"stage": "write_month", "elapsed_seconds": 313.53, "total_candles": 354340, "month": "2021-07", "completed_candles": 190965, "month_candles": 29992}
+{"stage": "write_month", "elapsed_seconds": 326.3, "total_candles": 354340, "month": "2021-07", "completed_candles": 199157, "month_candles": 29992}
+{"stage": "month_complete", "elapsed_seconds": 338.04, "total_candles": 354340, "month": "2021-07", "completed_candles": 204573, "file_bytes": 1935567931}
+{"stage": "write_month", "elapsed_seconds": 338.04, "total_candles": 354340, "month": "2021-08", "completed_candles": 204573, "month_candles": 30460}
+{"stage": "write_month", "elapsed_seconds": 348.79, "total_candles": 354340, "month": "2021-08", "completed_candles": 212765, "month_candles": 30460}
+{"stage": "write_month", "elapsed_seconds": 361.86, "total_candles": 354340, "month": "2021-08", "completed_candles": 220957, "month_candles": 30460}
+{"stage": "write_month", "elapsed_seconds": 374.72, "total_candles": 354340, "month": "2021-08", "completed_candles": 229149, "month_candles": 30460}
+{"stage": "month_complete", "elapsed_seconds": 387.36, "total_candles": 354340, "month": "2021-08", "completed_candles": 235033, "file_bytes": 1965020538}
+{"stage": "write_month", "elapsed_seconds": 387.36, "total_candles": 354340, "month": "2021-09", "completed_candles": 235033, "month_candles": 30108}
+{"stage": "write_month", "elapsed_seconds": 397.98, "total_candles": 354340, "month": "2021-09", "completed_candles": 243225, "month_candles": 30108}
+{"stage": "write_month", "elapsed_seconds": 410.19, "total_candles": 354340, "month": "2021-09", "completed_candles": 251417, "month_candles": 30108}
+{"stage": "write_month", "elapsed_seconds": 422.79, "total_candles": 354340, "month": "2021-09", "completed_candles": 259609, "month_candles": 30108}
+{"stage": "month_complete", "elapsed_seconds": 434.89, "total_candles": 354340, "month": "2021-09", "completed_candles": 265141, "file_bytes": 1942430040}
+{"stage": "write_month", "elapsed_seconds": 434.89, "total_candles": 354340, "month": "2021-10", "completed_candles": 265141, "month_candles": 28951}
+{"stage": "write_month", "elapsed_seconds": 445.81, "total_candles": 354340, "month": "2021-10", "completed_candles": 273333, "month_candles": 28951}
+{"stage": "write_month", "elapsed_seconds": 458.1, "total_candles": 354340, "month": "2021-10", "completed_candles": 281525, "month_candles": 28951}
+{"stage": "write_month", "elapsed_seconds": 470.64, "total_candles": 354340, "month": "2021-10", "completed_candles": 289717, "month_candles": 28951}
+{"stage": "month_complete", "elapsed_seconds": 481.06, "total_candles": 354340, "month": "2021-10", "completed_candles": 294092, "file_bytes": 1868227274}
+{"stage": "write_month", "elapsed_seconds": 481.06, "total_candles": 354340, "month": "2021-11", "completed_candles": 294092, "month_candles": 29955}
+{"stage": "write_month", "elapsed_seconds": 491.75, "total_candles": 354340, "month": "2021-11", "completed_candles": 302284, "month_candles": 29955}
+{"stage": "write_month", "elapsed_seconds": 503.73, "total_candles": 354340, "month": "2021-11", "completed_candles": 310476, "month_candles": 29955}
+{"stage": "write_month", "elapsed_seconds": 515.97, "total_candles": 354340, "month": "2021-11", "completed_candles": 318668, "month_candles": 29955}
+{"stage": "month_complete", "elapsed_seconds": 527.18, "total_candles": 354340, "month": "2021-11", "completed_candles": 324047, "file_bytes": 1932848401}
+{"stage": "write_month", "elapsed_seconds": 527.18, "total_candles": 354340, "month": "2021-12", "completed_candles": 324047, "month_candles": 30293}
+{"stage": "write_month", "elapsed_seconds": 538.02, "total_candles": 354340, "month": "2021-12", "completed_candles": 332239, "month_candles": 30293}
+{"stage": "write_month", "elapsed_seconds": 550.48, "total_candles": 354340, "month": "2021-12", "completed_candles": 340431, "month_candles": 30293}
+{"stage": "write_month", "elapsed_seconds": 562.97, "total_candles": 354340, "month": "2021-12", "completed_candles": 348623, "month_candles": 30293}
+{"stage": "month_complete", "elapsed_seconds": 576.14, "total_candles": 354340, "month": "2021-12", "completed_candles": 354340, "file_bytes": 1954864620}
+{"stage": "calculation_complete", "elapsed_seconds": 576.14, "total_candles": 354340, "completed_candles": 354340, "total_hdf5_bytes": 22865252364}

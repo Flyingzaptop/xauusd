@@ -1,0 +1,27 @@
+{
+  "code_hashes": {
+    "environment.py": "2776018dfe2a6088128387510ac8c2f06201e200043dda9103fb26715f4158e0",
+    "learning.py": "8b366598115dc9052a314ca2956e1b2b155407d1f7a3c17bf98a41c83d6ba352",
+    "model.py": "f4c951c8d412c8bb7d5ac9e80265fd18ded3405fff2ba52a84c897feaab97dd6",
+    "synthetic.py": "ac0b81931cc4e3c6372570d26a95bea2402023983490b4a25c1cf6f0348f18d2",
+    "real_data.py": "8a7b0466c26536ddc0eae427e0078104093237dc43e9f90a9385fcc7697002de",
+    "meta_gradient.py": "b9610c467733662485994f24fa9375eebfa02192ca92eaceed567597c5b2a9a0",
+    "test_environment.py": "78cb19f8704abc6c6f9a229a1071bc25e613078584c641357dcafef3101223b9",
+    "test_learning.py": "9b4342fe766d1127710cddb01d930af32d5427ae2a7c03b1ba872d14efddc707",
+    "test_meta_gradient.py": "56742737213a4fba48a3e9bbe0fb257166998314b4593b4a7169aca8806ea241"
+  },
+  "complete": true,
+  "passed": true,
+  "tests": 16,
+  "command": "python -m unittest discover -s experiments/sequential_teacher_v4 -p test_*.py -v",
+  "coverage": [
+    "execution transition and blocking",
+    "no zero-duration or overnight extension",
+    "missing exit cannot alter past legal actions",
+    "mark-to-market drawdown",
+    "duration-aware discount/GAE",
+    "actual actor and teacher gradients",
+    "RNG independence",
+    "real-panel observation excludes current bar"
+  ]
+}

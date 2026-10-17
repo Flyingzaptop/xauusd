@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "raw_target_checks": 90,
+  "vector_input_checks": 1080,
+  "completed_past_only_context": true,
+  "no_absolute_prices_in_model_inputs": true,
+  "log_coordinate_translation_invariance": true,
+  "angles_not_added_directly": true,
+  "anchor_free_target_vector_oracle": true,
+  "float32_vector_oracle_max_dollar_error": 6.421878197215847e-05,
+  "stage": 1
+}

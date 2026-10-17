@@ -1,0 +1,221 @@
+{
+  "seed": 20261012,
+  "selected_month": "2021-06",
+  "candidate_month_count": 118,
+  "train_period": [
+    "2021-06-01T00:00",
+    "2021-07-01T00:00"
+  ],
+  "test_period": [
+    "2021-07-01T00:00",
+    "2021-07-08T00:00"
+  ],
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "source_columns": [
+    "High",
+    "Open",
+    "Close",
+    "Low"
+  ],
+  "harmonic_counts": [
+    10,
+    50,
+    100,
+    500,
+    1000
+  ],
+  "selection": "largest TRAIN Fourier energy; DC additional",
+  "preprocessing": "raw Close; mean offset only; no detrending or clipping",
+  "missing_minutes": "removed entirely; consecutive real candles; no filling",
+  "removed_gaps_between_observed_candles": 39,
+  "removed_calendar_minutes": 16271,
+  "gpu_used": false,
+  "checks": {
+    "synthetic_three_harmonic_max_error_usd": 2.2737367544323206e-13,
+    "candle_clock_10_direct_cosine_max_error_usd": 6.821210263296962e-13,
+    "candle_clock_50_direct_cosine_max_error_usd": 4.547473508864641e-13,
+    "candle_clock_100_direct_cosine_max_error_usd": 6.821210263296962e-13,
+    "candle_clock_500_direct_cosine_max_error_usd": 2.2737367544323206e-12,
+    "candle_clock_1000_direct_cosine_max_error_usd": 2.5011104298755527e-12,
+    "candle_clock_future_mutation_forecast_unchanged": true,
+    "candle_clock_continuation_equals_first_period": true,
+    "candle_clock_affine_normalization_max_difference_usd": 4.547473508864641e-13,
+    "candle_clock_training_grid_mse_nonincreasing": true,
+    "full_fft_train_max_error_usd": 0.0
+  },
+  "candle_clock": {
+    "train_candles": 30352,
+    "test_candles": 6657,
+    "train_observed": 30352,
+    "test_observed": 6657,
+    "available_nonconstant_harmonics": 15176,
+    "train_std_usd": 54.49640933567229,
+    "models": {
+      "persistence": {
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 22.138636022232433,
+          "rmse_usd": 24.989147503562297,
+          "mape_percent": 1.2323939391706469,
+          "max_abs_error_usd": 46.69000000000028,
+          "mae_divided_by_train_std": 0.4062402696271021
+        }
+      },
+      "10": {
+        "train": {
+          "scored_observed_candles": 30352,
+          "mae_usd": 6.681700465637051,
+          "rmse_usd": 11.002737097184166,
+          "mape_percent": 0.3647418083999199,
+          "max_abs_error_usd": 76.00100315802979,
+          "mae_divided_by_train_std": 0.12260808642420666
+        },
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 99.38894828039827,
+          "rmse_usd": 101.90867415668991,
+          "mape_percent": 5.557408471903701,
+          "max_abs_error_usd": 140.84896156556283,
+          "mae_divided_by_train_std": 1.8237705840069025
+        },
+        "retained_energy_fraction": 0.9592370416600807,
+        "minute_change_train": {
+          "pairs": 30321,
+          "mae_usd": 0.2791726582478956,
+          "actual_mean_abs_change_usd": 0.2779644470828809,
+          "prediction_mean_abs_change_usd": 0.01843882155375442
+        },
+        "minute_change_test": {
+          "pairs": 6648,
+          "mae_usd": 0.2682588768760982,
+          "actual_mean_abs_change_usd": 0.2661281588447715,
+          "prediction_mean_abs_change_usd": 0.024406292184971045
+        }
+      },
+      "50": {
+        "train": {
+          "scored_observed_candles": 30352,
+          "mae_usd": 2.4261560835280895,
+          "rmse_usd": 4.6637433594704065,
+          "mape_percent": 0.13217488420680126,
+          "max_abs_error_usd": 71.78544530805266,
+          "mae_divided_by_train_std": 0.044519558501260284
+        },
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 101.84598061493949,
+          "rmse_usd": 104.41101265744146,
+          "mape_percent": 5.6960717336097515,
+          "max_abs_error_usd": 144.29928537257342,
+          "mae_divided_by_train_std": 1.8688567165520222
+        },
+        "retained_energy_fraction": 0.9926762500074017,
+        "minute_change_train": {
+          "pairs": 30321,
+          "mae_usd": 0.28184670847951565,
+          "actual_mean_abs_change_usd": 0.2779644470828809,
+          "prediction_mean_abs_change_usd": 0.03480206670065465
+        },
+        "minute_change_test": {
+          "pairs": 6648,
+          "mae_usd": 0.2739108263615362,
+          "actual_mean_abs_change_usd": 0.2661281588447715,
+          "prediction_mean_abs_change_usd": 0.038613112713503955
+        }
+      },
+      "100": {
+        "train": {
+          "scored_observed_candles": 30352,
+          "mae_usd": 1.622741437359376,
+          "rmse_usd": 3.3300911148226726,
+          "mape_percent": 0.08867638310121444,
+          "max_abs_error_usd": 69.64013836456002,
+          "mae_divided_by_train_std": 0.02977703406776859
+        },
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 102.10530079815419,
+          "rmse_usd": 104.72910933798958,
+          "mape_percent": 5.71079264374644,
+          "max_abs_error_usd": 148.38752715712667,
+          "mae_divided_by_train_std": 1.8736151985580094
+        },
+        "retained_energy_fraction": 0.9962659815793236,
+        "minute_change_train": {
+          "pairs": 30321,
+          "mae_usd": 0.2828430419004069,
+          "actual_mean_abs_change_usd": 0.2779644470828809,
+          "prediction_mean_abs_change_usd": 0.043038255910257034
+        },
+        "minute_change_test": {
+          "pairs": 6648,
+          "mae_usd": 0.27844100167977615,
+          "actual_mean_abs_change_usd": 0.2661281588447715,
+          "prediction_mean_abs_change_usd": 0.04922314832507317
+        }
+      },
+      "500": {
+        "train": {
+          "scored_observed_candles": 30352,
+          "mae_usd": 0.6611844186473061,
+          "rmse_usd": 1.5156395203928883,
+          "mape_percent": 0.036067188386316076,
+          "max_abs_error_usd": 68.40792364155982,
+          "mae_divided_by_train_std": 0.012132623538088916
+        },
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 102.36910327780457,
+          "rmse_usd": 105.00060316144652,
+          "mape_percent": 5.725698913878984,
+          "max_abs_error_usd": 147.43135619320537,
+          "mae_divided_by_train_std": 1.8784559299541914
+        },
+        "retained_energy_fraction": 0.999226507574401,
+        "minute_change_train": {
+          "pairs": 30321,
+          "mae_usd": 0.28566029905583706,
+          "actual_mean_abs_change_usd": 0.2779644470828809,
+          "prediction_mean_abs_change_usd": 0.08566959089670818
+        },
+        "minute_change_test": {
+          "pairs": 6648,
+          "mae_usd": 0.29339419188340643,
+          "actual_mean_abs_change_usd": 0.2661281588447715,
+          "prediction_mean_abs_change_usd": 0.08814945790266034
+        }
+      },
+      "1000": {
+        "train": {
+          "scored_observed_candles": 30352,
+          "mae_usd": 0.46430952157588445,
+          "rmse_usd": 1.0711708488509777,
+          "mape_percent": 0.025335378395680404,
+          "max_abs_error_usd": 65.35391584449007,
+          "mae_divided_by_train_std": 0.008520002092540736
+        },
+        "test": {
+          "scored_observed_candles": 6657,
+          "mae_usd": 102.40066441182859,
+          "rmse_usd": 105.03268369544607,
+          "mape_percent": 5.727483233111313,
+          "max_abs_error_usd": 146.0430221783954,
+          "mae_divided_by_train_std": 1.8790350714867943
+        },
+        "retained_energy_fraction": 0.9996136492910296,
+        "minute_change_train": {
+          "pairs": 30321,
+          "mae_usd": 0.286221610784366,
+          "actual_mean_abs_change_usd": 0.2779644470828809,
+          "prediction_mean_abs_change_usd": 0.12183851887035498
+        },
+        "minute_change_test": {
+          "pairs": 6648,
+          "mae_usd": 0.30486685295111005,
+          "actual_mean_abs_change_usd": 0.2661281588447715,
+          "prediction_mean_abs_change_usd": 0.11977362718519996
+        }
+      }
+    }
+  }
+}

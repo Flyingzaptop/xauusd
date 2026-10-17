@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 42, in <module>
+    if failures>=12:raise RuntimeError('Twelve consecutive runtime or archive failures')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Twelve consecutive runtime or archive failures

@@ -1,0 +1,14 @@
+{
+  "cycles": 96,
+  "combined_examples": 786432,
+  "combined_pass_fraction": 0.35482019685764093,
+  "student_counts": [
+    262144,
+    262144,
+    262144
+  ],
+  "stop_reason": "max_cycles",
+  "best_cycle": 80,
+  "best_dev_utility": 0.7250379895493043,
+  "elapsed_seconds": 8130.413933369001
+}

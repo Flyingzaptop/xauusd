@@ -23,3 +23,21 @@ node_modules/
 *.log
 /logs/
 /artifacts/
+
+# Research handoff: exclude large generated data and secrets.
+*.h5
+*.npy
+*.f16
+*.zip
+*.tar
+*.tar.gz
+*.joblib
+application_default_credentials.json
+*credentials*.json
+# Small controlled artifacts intentionally published for reproducibility.
+!/reports/sequential_teacher_v4_20261016/*.pt
+!/reports/sequential_teacher_v4_20261016/meta_gradient_*/*.pt
+!/reports/v2_entry_timing_audit_20261016/*.npz
+!/reports/causal_spectral_year_2021_20261012/input_context.npz
+!/reports/causal_spectral_year_2021_20261012/normalization.npz
+!/reports/meta_reward_transformer_v2_foreground_20261015/remote/results/*test.npz

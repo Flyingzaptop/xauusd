@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "trials": 8,
+  "total_epochs": 101,
+  "full_train_examples_per_epoch": 26045,
+  "paired_initial_trunks": true,
+  "stage_selections_recomputed": true,
+  "source_data_hashes": true,
+  "ensemble_metrics_recomputed": true,
+  "quantile_and_range_ordering": true,
+  "baseline_recomputed": true
+}

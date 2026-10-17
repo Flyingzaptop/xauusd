@@ -1,0 +1,152 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "files": [
+    {
+      "path": "reports/m1_entry_evaluator_20261015/checks.json",
+      "bytes": 217,
+      "sha256": "85c6e98e81f10c944ee4ae5eafdef15895ab2fd9a84daf2e3df0e0760b6c7de9"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/REPORT_RU.md",
+      "bytes": 9040,
+      "sha256": "811fc8a569b1ce0cc61dc7e9ff8a86268d692d4aff6ca131d5ddaea75e22fa76"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/status.json",
+      "bytes": 67,
+      "sha256": "7fa3861b1bd89901ef94eace27667ea76f2388f37d8d523a7d63ede770fb1935"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/opportunity_sensitivity.csv",
+      "bytes": 1655,
+      "sha256": "c76de86f7df9b54abaaaebf2252746dcd4bff63b2a2c38a8898d76f699b7b3fa"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/manifest.json",
+      "bytes": 2883,
+      "sha256": "f76edc5766b290e8961c45cbd6fbee5b3f43fe5ad42866421cec74d2139f78e0"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/examples.csv",
+      "bytes": 13279,
+      "sha256": "7c3a840abba2ccea528b96ce3cad7525b0205c5430538e479aea993c60c97ec9"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/pareto_representatives.csv",
+      "bytes": 1041,
+      "sha256": "2fbf5a6d0600e3490b1c7450bdfd8a62a7c58bd2b9f3f1e926d9223a9cbee6cd"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/schema.json",
+      "bytes": 1814,
+      "sha256": "e1aa482e6d23a9003f16bb3d4a8708d1960c6e7de17e254714d640062d1f2db0"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/summary.json",
+      "bytes": 10260,
+      "sha256": "16658c272cdcad14a7028931647b1da3ce2c35247eafa1fc351dc7f27ba8cbbe"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/daily_coverage.csv",
+      "bytes": 122812,
+      "sha256": "095868d07f223ebd46422ae2df7833a2767e167943bff9aa97f6ee4ed771c9ec"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/daily_opportunity_grid.csv",
+      "bytes": 940887,
+      "sha256": "2fb32371a97df06e68db173fd0f7aa79d34afb8d2ecd4b8d6116516c03d53209"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2017.parquet",
+      "bytes": 24521165,
+      "sha256": "73570a809dde53a1fde256283ff1b15e4712a51a5583cd5cc5a4e10dad86d985"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2026.parquet",
+      "bytes": 23997342,
+      "sha256": "10c1d32c116ac141eedb39aaa0e7399fdd96e69ad35fa8c2fec8c062091a0673"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2018.parquet",
+      "bytes": 24330337,
+      "sha256": "34a6304a664eaaa08c5a27f8526c96159c09d921bf8668bf06e750a3fec6f39d"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2020.parquet",
+      "bytes": 29009649,
+      "sha256": "d0274608e130afe059a3a659eaeca986bc80f8a86f54e967a8c4a3cde86ecb31"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2021.parquet",
+      "bytes": 27962276,
+      "sha256": "ffd04205fd8182f6674554f18df3238f573d813c9f9e095fde11775a1abfab31"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2019.parquet",
+      "bytes": 25215361,
+      "sha256": "0ed4a29898e84c66f4edb83e768174170f8cd3ba5fe8b493e393ddee94706eb4"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2016.parquet",
+      "bytes": 8175515,
+      "sha256": "75940a0ee43b1bd38275396b3309dcc3406e3515db45a1ef9248421a16ac4916"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2024.parquet",
+      "bytes": 29067553,
+      "sha256": "6fc76a2b0382e0ef0c05236e5c917ec034ecf85bf1d71717f20c35a36378ad61"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2022.parquet",
+      "bytes": 28083730,
+      "sha256": "3903823649fbb4666535dbafd3a5f6adf6e6a69c22b098037f52737e8fc8ff78"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2023.parquet",
+      "bytes": 27368994,
+      "sha256": "a293abf40393be3c3171bdcde186d904455db6452749b20ce26609d5a4e8081a"
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2025.parquet",
+      "bytes": 31582749,
+      "sha256": "46c84fc6abbff777a2286074297a5adb765a83bd4e6a9aab3f7affb706a23c44"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/evaluate_at.py",
+      "bytes": 691,
+      "sha256": "35912a5acccb016abad6065714865cd8bd3f106ad5bd92840570e09dcba894bd"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/analyze.py",
+      "bytes": 4789,
+      "sha256": "a446d32588e3ca739795cd04da20b35a29ca51ae2a964aa7532fe14360855535"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/run.py",
+      "bytes": 2719,
+      "sha256": "7f93dc810a176f4c72f99da7c09e8f2a78701821ae9d470298023f3c029150aa"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/checks.py",
+      "bytes": 1581,
+      "sha256": "b3cad5c11f9787b25ba91bdaf7dcfc73cff777523f848d89f708c6b0d922dd53"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/report.py",
+      "bytes": 10754,
+      "sha256": "70ed48d4ddb1cc20dcc78a61ddea7eb9d418f11bd844a8d506d5b24de089ad1d"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/core.py",
+      "bytes": 2899,
+      "sha256": "8368b69c3e8d558d6b90d201995aeadb0e1ead485ed17b1d94084645077fb857"
+    },
+    {
+      "path": "experiments/m1_entry_evaluator/README.md",
+      "bytes": 4860,
+      "sha256": "0fcb7b75f31d887144cb358a1d6e399bbb6fdeec7ca3ed1d98ba9b2f71330e12"
+    }
+  ]
+}

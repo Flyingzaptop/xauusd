@@ -1,0 +1,97 @@
+{
+  "purpose": "Label feasibility only; no model, no parameter search, no edge claim.",
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "available_npz_keys": [
+    "log_prices",
+    "timestamp",
+    "train_start",
+    "train_scale",
+    "val_start",
+    "val_scale",
+    "test_start",
+    "test_scale"
+  ],
+  "volume_or_bid_ask_available_in_this_npz": false,
+  "period": [
+    "2024-01-01",
+    "2024-02-01"
+  ],
+  "period_previously_used_for_research": true,
+  "timezone_provenance": "Stored timestamp epoch alignment only; feed/session timezone unverified.",
+  "origin_interval_minutes": 5,
+  "horizon_minutes": 120,
+  "risk": "Simple mean of 14 completed M5 true ranges, fixed at entry.",
+  "tp_r": 2,
+  "sl_r": 1,
+  "entry": "Next M1 Open after known history; hypothetical fill, no cost/latency/spread model.",
+  "candidates": 5779,
+  "eligible": 4891,
+  "skipped": {
+    "missing_history_or_future": 888,
+    "future_crosses_month": 0,
+    "zero_risk": 0
+  },
+  "risk_dollars_q10_q50_q90": [
+    0.6828571428566518,
+    1.064285714285526,
+    2.0814285714284813
+  ],
+  "outcomes": {
+    "long": {
+      "tp": 1500,
+      "sl": 3249,
+      "timeout": 136,
+      "ambiguous": 6
+    },
+    "short": {
+      "tp": 1639,
+      "sl": 3065,
+      "timeout": 181,
+      "ambiguous": 6
+    }
+  },
+  "outcome_fractions": {
+    "long": {
+      "tp": 0.30668574933551424,
+      "sl": 0.6642813330607238,
+      "timeout": 0.027806174606419955,
+      "ambiguous": 0.0012267429973420569
+    },
+    "short": {
+      "tp": 0.3351052954406052,
+      "sl": 0.6266612144755673,
+      "timeout": 0.03700674708648538,
+      "ambiguous": 0.0012267429973420569
+    }
+  },
+  "joint_long_short_outcomes": {
+    "sl/sl": 1438,
+    "tp/sl": 1500,
+    "sl/tp": 1639,
+    "timeout/sl": 124,
+    "sl/timeout": 169,
+    "ambiguous/sl": 3,
+    "timeout/timeout": 12,
+    "ambiguous/ambiguous": 3,
+    "sl/ambiguous": 3
+  },
+  "timeout_mean_gross_r": {
+    "long": 0.3657997307253689,
+    "short": 0.5895684824751201
+  },
+  "checks": {
+    "synthetic_first_touch_cases": 9,
+    "chronological_unique_timestamps": true,
+    "valid_ohlc": true,
+    "complete_past_and_future_minutes": true,
+    "risk_unchanged_by_future_mutation": true
+  },
+  "limitations": [
+    "Overlapping windows are not independent trades.",
+    "Unknown spread, fees, latency and intraminute order.",
+    "Ambiguous first-touch bars explicitly retained; not silently discarded or called losses.",
+    "No intraday-session-close restriction until feed timezone/calendar is verified.",
+    "No compression filter or engineered features audited here.",
+    "TP/SL frequencies are neither a prediction score nor a profitable strategy."
+  ]
+}

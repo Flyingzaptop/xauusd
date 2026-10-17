@@ -1,0 +1,2 @@
+{"passed": true, "checks": ["continuous bounded teacher scores", "actor shape", "past-only model inputs and outputs", "exact entry offset", "dropout replay likelihood"]}
+

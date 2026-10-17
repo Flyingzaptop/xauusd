@@ -1,0 +1,80 @@
+{
+  "day": "2021-06-16",
+  "day_candles": 1380,
+  "history_candles_before_day": 15176,
+  "gaps_within_day": 1,
+  "source_sha256": "fb0ac04d41ab7121bbbab3f68f9f15f272f70af7428faf6917ed47de3e35182f",
+  "step": 1,
+  "gpu_used": false,
+  "causal_wavelet": "one-sided complex Morlet; explicit DC correction; L2 normalized",
+  "stft_windows": [
+    128,
+    512
+  ],
+  "normalizer_cutoff": "2021-06-16T00:00",
+  "checks": {
+    "points_tested": [
+      {
+        "day_candle": 0,
+        "prefix_wave_max_error": 2.6945789820192467e-15,
+        "future_mutation_wave_max_error": 5.174169177711643e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 3.3306690738754696e-15
+      },
+      {
+        "day_candle": 1,
+        "prefix_wave_max_error": 2.861383123522437e-15,
+        "future_mutation_wave_max_error": 5.660744094328769e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 2.0471501066083613e-15
+      },
+      {
+        "day_candle": 460,
+        "prefix_wave_max_error": 2.585443414770321e-15,
+        "future_mutation_wave_max_error": 4.3956599653945525e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 1.7317788858280388e-15
+      },
+      {
+        "day_candle": 690,
+        "prefix_wave_max_error": 3.58724037616909e-15,
+        "future_mutation_wave_max_error": 4.15118568726738e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 1.6782945342419288e-15
+      },
+      {
+        "day_candle": 1079,
+        "prefix_wave_max_error": 4.148135544450461e-15,
+        "future_mutation_wave_max_error": 4.1191398844369543e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 2.7465400791133423e-15
+      },
+      {
+        "day_candle": 1080,
+        "prefix_wave_max_error": 7.755684626330685e-15,
+        "future_mutation_wave_max_error": 7.030340360620521e-13,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 8.379058453350832e-15
+      },
+      {
+        "day_candle": 1378,
+        "prefix_wave_max_error": 2.1096063413561365e-15,
+        "future_mutation_wave_max_error": 8.241654460365056e-14,
+        "stft_max_error": 0.0,
+        "independent_direct_sum_max_error": 1.897149936107019e-15
+      }
+    ],
+    "synthetic_period64_nominal_peak": 64.95085426668929,
+    "kernel_dc_max_abs": 2.4661482487031923e-15,
+    "every_day_candle_computed": true,
+    "step_observed_candles": 1,
+    "normalizer_fitted_strictly_before_day": true,
+    "kernels_have_no_future_lags": true
+  },
+  "max_check_error": 7.030340360620521e-13,
+  "largest_change": {
+    "day_index": 1080,
+    "timestamp": "2021-06-16T18:00",
+    "usd": -11.999999999999318
+  }
+}

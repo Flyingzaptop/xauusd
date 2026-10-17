@@ -1,0 +1,140 @@
+[
+  {
+    "file": "EURUSD_1.parquet",
+    "rows": 3680615,
+    "row_groups": 263,
+    "schema": "timestamp: timestamp[ms, tz=UTC]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64\n-- schema metadata --\nsource: 'cTrader Open API'\nbroker: 'Spotware'\nenvironment: 'demo'\nsymbol: 'EURUSD'\nsymbol_id: '1'\ntimeframe: 'M1'\nprice_digits: '5'\ntimestamp_semantics: 'UTC candle open time'\nvolume_type: 'tick volume'\nrequested_start_inclusive_utc: '2016-09-04T22:00:00+00:00'\nrequested_end_exclusive_utc: '2026-09-04T13:09:00+00:00'\ndownloaded_at_utc: '2026-10-14T21:31:21.164000+00:00'",
+    "sample": [
+      {
+        "timestamp": "2016-09-04 22:00:00+00:00",
+        "open": 1.11539,
+        "high": 1.11548,
+        "low": 1.11529,
+        "close": 1.1154,
+        "volume": 39
+      },
+      {
+        "timestamp": "2016-09-04 22:01:00+00:00",
+        "open": 1.11539,
+        "high": 1.11556,
+        "low": 1.11533,
+        "close": 1.11554,
+        "volume": 40
+      },
+      {
+        "timestamp": "2016-09-04 22:02:00+00:00",
+        "open": 1.11556,
+        "high": 1.11565,
+        "low": 1.11555,
+        "close": 1.11564,
+        "volume": 14
+      }
+    ],
+    "metadata": {
+      "b'source'": "b'cTrader Open API'",
+      "b'broker'": "b'Spotware'",
+      "b'environment'": "b'demo'",
+      "b'symbol'": "b'EURUSD'",
+      "b'symbol_id'": "b'1'",
+      "b'timeframe'": "b'M1'",
+      "b'price_digits'": "b'5'",
+      "b'timestamp_semantics'": "b'UTC candle open time'",
+      "b'volume_type'": "b'tick volume'",
+      "b'requested_start_inclusive_utc'": "b'2016-09-04T22:00:00+00:00'",
+      "b'requested_end_exclusive_utc'": "b'2026-09-04T13:09:00+00:00'",
+      "b'downloaded_at_utc'": "b'2026-10-14T21:31:21.164000+00:00'"
+    }
+  },
+  {
+    "file": "APPLE_21508.parquet",
+    "rows": 631493,
+    "row_groups": 46,
+    "schema": "timestamp: timestamp[ms, tz=UTC]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64\n-- schema metadata --\nsource: 'cTrader Open API'\nbroker: 'Spotware'\nenvironment: 'demo'\nsymbol: 'APPLE'\nsymbol_id: '21508'\ntimeframe: 'M1'\nprice_digits: '2'\ntimestamp_semantics: 'UTC candle open time'\nvolume_type: 'tick volume'\nrequested_start_inclusive_utc: '2016-09-04T22:00:00+00:00'\nrequested_end_exclusive_utc: '2026-09-04T13:09:00+00:00'\ndownloaded_at_utc: '2026-10-14T20:12:04.071000+00:00'",
+    "sample": [
+      {
+        "timestamp": "2016-09-06 13:30:00+00:00",
+        "open": 107.87,
+        "high": 107.93,
+        "low": 107.74,
+        "close": 107.74,
+        "volume": 37
+      },
+      {
+        "timestamp": "2016-09-06 13:31:00+00:00",
+        "open": 107.73,
+        "high": 107.91,
+        "low": 107.73,
+        "close": 107.79,
+        "volume": 36
+      },
+      {
+        "timestamp": "2016-09-06 13:32:00+00:00",
+        "open": 107.77,
+        "high": 107.91,
+        "low": 107.74,
+        "close": 107.87,
+        "volume": 27
+      }
+    ],
+    "metadata": {
+      "b'source'": "b'cTrader Open API'",
+      "b'broker'": "b'Spotware'",
+      "b'environment'": "b'demo'",
+      "b'symbol'": "b'APPLE'",
+      "b'symbol_id'": "b'21508'",
+      "b'timeframe'": "b'M1'",
+      "b'price_digits'": "b'2'",
+      "b'timestamp_semantics'": "b'UTC candle open time'",
+      "b'volume_type'": "b'tick volume'",
+      "b'requested_start_inclusive_utc'": "b'2016-09-04T22:00:00+00:00'",
+      "b'requested_end_exclusive_utc'": "b'2026-09-04T13:09:00+00:00'",
+      "b'downloaded_at_utc'": "b'2026-10-14T20:12:04.071000+00:00'"
+    }
+  },
+  {
+    "file": "XAUUSD_41.parquet",
+    "rows": 3505124,
+    "row_groups": 251,
+    "schema": "timestamp: timestamp[ms, tz=UTC]\nopen: double\nhigh: double\nlow: double\nclose: double\nvolume: int64\n-- schema metadata --\nsource: 'cTrader Open API'\nbroker: 'Spotware'\nenvironment: 'demo'\nsymbol: 'XAUUSD'\nsymbol_id: '41'\ntimeframe: 'M1'\nprice_digits: '2'\ntimestamp_semantics: 'UTC candle open time'\nvolume_type: 'tick volume'\nrequested_start_inclusive_utc: '2016-09-04T22:00:00+00:00'\nrequested_end_exclusive_utc: '2026-09-04T13:09:00+00:00'\ndownloaded_at_utc: '2026-10-14T20:03:13.746000+00:00'",
+    "sample": [
+      {
+        "timestamp": "2016-09-04 22:00:00+00:00",
+        "open": 1324.06,
+        "high": 1324.43,
+        "low": 1324.06,
+        "close": 1324.43,
+        "volume": 15
+      },
+      {
+        "timestamp": "2016-09-04 22:01:00+00:00",
+        "open": 1324.39,
+        "high": 1324.71,
+        "low": 1324.39,
+        "close": 1324.66,
+        "volume": 18
+      },
+      {
+        "timestamp": "2016-09-04 22:02:00+00:00",
+        "open": 1324.65,
+        "high": 1325.03,
+        "low": 1324.65,
+        "close": 1324.98,
+        "volume": 10
+      }
+    ],
+    "metadata": {
+      "b'source'": "b'cTrader Open API'",
+      "b'broker'": "b'Spotware'",
+      "b'environment'": "b'demo'",
+      "b'symbol'": "b'XAUUSD'",
+      "b'symbol_id'": "b'41'",
+      "b'timeframe'": "b'M1'",
+      "b'price_digits'": "b'2'",
+      "b'timestamp_semantics'": "b'UTC candle open time'",
+      "b'volume_type'": "b'tick volume'",
+      "b'requested_start_inclusive_utc'": "b'2016-09-04T22:00:00+00:00'",
+      "b'requested_end_exclusive_utc'": "b'2026-09-04T13:09:00+00:00'",
+      "b'downloaded_at_utc'": "b'2026-10-14T20:03:13.746000+00:00'"
+    }
+  }
+]

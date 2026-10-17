@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "independent_raw_target_checks": 90,
+  "completed_aggregation_checks": 540,
+  "split_target_purging": true,
+  "as_of_input_availability": true,
+  "past_only_scale_recomputed": true,
+  "all_four_stage_targets_recomputed": true
+}

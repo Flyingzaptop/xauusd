@@ -1,0 +1,442 @@
+[
+  {
+    "cycle": 1,
+    "outer_expected_profit": -0.16934171319007874,
+    "teacher_grad_norm": 0.4661249816417694
+  },
+  {
+    "cycle": 2,
+    "outer_expected_profit": -0.13239943981170654,
+    "teacher_grad_norm": 0.6024513840675354
+  },
+  {
+    "cycle": 3,
+    "outer_expected_profit": -0.12217133492231369,
+    "teacher_grad_norm": 0.24421276152133942
+  },
+  {
+    "cycle": 4,
+    "outer_expected_profit": -0.004201585426926613,
+    "teacher_grad_norm": 0.4114811420440674
+  },
+  {
+    "cycle": 5,
+    "outer_expected_profit": 0.08132094144821167,
+    "teacher_grad_norm": 0.5733586549758911
+  },
+  {
+    "cycle": 6,
+    "outer_expected_profit": -0.048764199018478394,
+    "teacher_grad_norm": 0.17585228383541107
+  },
+  {
+    "cycle": 7,
+    "outer_expected_profit": 0.12885169684886932,
+    "teacher_grad_norm": 0.3432110548019409
+  },
+  {
+    "cycle": 8,
+    "outer_expected_profit": 0.2630302906036377,
+    "teacher_grad_norm": 0.4606839716434479,
+    "selection_profit": [
+      -0.09048502147197723,
+      -0.7248203158378601
+    ]
+  },
+  {
+    "cycle": 9,
+    "outer_expected_profit": -0.003329336643218994,
+    "teacher_grad_norm": 0.09787724167108536
+  },
+  {
+    "cycle": 10,
+    "outer_expected_profit": 0.23071981966495514,
+    "teacher_grad_norm": 0.2597353756427765
+  },
+  {
+    "cycle": 11,
+    "outer_expected_profit": 0.39219701290130615,
+    "teacher_grad_norm": 0.3226652145385742
+  },
+  {
+    "cycle": 12,
+    "outer_expected_profit": 0.018614262342453003,
+    "teacher_grad_norm": 0.05831608548760414
+  },
+  {
+    "cycle": 13,
+    "outer_expected_profit": 0.29901838302612305,
+    "teacher_grad_norm": 0.17707954347133636
+  },
+  {
+    "cycle": 14,
+    "outer_expected_profit": 0.47259435057640076,
+    "teacher_grad_norm": 0.21496769785881042
+  },
+  {
+    "cycle": 15,
+    "outer_expected_profit": 0.03029230237007141,
+    "teacher_grad_norm": 0.04227662459015846
+  },
+  {
+    "cycle": 16,
+    "outer_expected_profit": 0.34008726477622986,
+    "teacher_grad_norm": 0.11482435464859009,
+    "selection_profit": [
+      -0.08864794671535492,
+      -1.1027721166610718
+    ]
+  },
+  {
+    "cycle": 17,
+    "outer_expected_profit": 0.5205664038658142,
+    "teacher_grad_norm": 0.14617130160331726
+  },
+  {
+    "cycle": 18,
+    "outer_expected_profit": 0.0386795699596405,
+    "teacher_grad_norm": 0.0352337546646595
+  },
+  {
+    "cycle": 19,
+    "outer_expected_profit": 0.363774836063385,
+    "teacher_grad_norm": 0.07446430623531342
+  },
+  {
+    "cycle": 20,
+    "outer_expected_profit": 0.5498563647270203,
+    "teacher_grad_norm": 0.10449491441249847
+  },
+  {
+    "cycle": 21,
+    "outer_expected_profit": 0.04547347128391266,
+    "teacher_grad_norm": 0.03146778419613838
+  },
+  {
+    "cycle": 22,
+    "outer_expected_profit": 0.3775128126144409,
+    "teacher_grad_norm": 0.049546629190444946
+  },
+  {
+    "cycle": 23,
+    "outer_expected_profit": 0.5686742067337036,
+    "teacher_grad_norm": 0.07909461110830307
+  },
+  {
+    "cycle": 24,
+    "outer_expected_profit": 0.05092215538024902,
+    "teacher_grad_norm": 0.028511038050055504,
+    "selection_profit": [
+      -0.09486597776412964,
+      -1.241606593132019
+    ]
+  },
+  {
+    "cycle": 25,
+    "outer_expected_profit": 0.38570499420166016,
+    "teacher_grad_norm": 0.03431794047355652
+  },
+  {
+    "cycle": 26,
+    "outer_expected_profit": 0.5815328359603882,
+    "teacher_grad_norm": 0.06333556771278381
+  },
+  {
+    "cycle": 27,
+    "outer_expected_profit": 0.055168598890304565,
+    "teacher_grad_norm": 0.025918593630194664
+  },
+  {
+    "cycle": 28,
+    "outer_expected_profit": 0.39080923795700073,
+    "teacher_grad_norm": 0.025147536769509315
+  },
+  {
+    "cycle": 29,
+    "outer_expected_profit": 0.5909467935562134,
+    "teacher_grad_norm": 0.05343777313828468
+  },
+  {
+    "cycle": 30,
+    "outer_expected_profit": 0.058410048484802246,
+    "teacher_grad_norm": 0.023738527670502663
+  },
+  {
+    "cycle": 31,
+    "outer_expected_profit": 0.39420998096466064,
+    "teacher_grad_norm": 0.0198765117675066
+  },
+  {
+    "cycle": 32,
+    "outer_expected_profit": 0.5983833074569702,
+    "teacher_grad_norm": 0.04723634570837021,
+    "selection_profit": [
+      -0.09813958406448364,
+      -1.2945584058761597
+    ]
+  },
+  {
+    "cycle": 33,
+    "outer_expected_profit": 0.06084698438644409,
+    "teacher_grad_norm": 0.02199537493288517
+  },
+  {
+    "cycle": 34,
+    "outer_expected_profit": 0.39671167731285095,
+    "teacher_grad_norm": 0.017155824229121208
+  },
+  {
+    "cycle": 35,
+    "outer_expected_profit": 0.6047550439834595,
+    "teacher_grad_norm": 0.04348260909318924
+  },
+  {
+    "cycle": 36,
+    "outer_expected_profit": 0.06264692544937134,
+    "teacher_grad_norm": 0.02065110020339489
+  },
+  {
+    "cycle": 37,
+    "outer_expected_profit": 0.39880576729774475,
+    "teacher_grad_norm": 0.01608632691204548
+  },
+  {
+    "cycle": 38,
+    "outer_expected_profit": 0.610686182975769,
+    "teacher_grad_norm": 0.041469983756542206
+  },
+  {
+    "cycle": 39,
+    "outer_expected_profit": 0.06393386423587799,
+    "teacher_grad_norm": 0.01964501477777958
+  },
+  {
+    "cycle": 40,
+    "outer_expected_profit": 0.4008218050003052,
+    "teacher_grad_norm": 0.01608862914144993,
+    "selection_profit": [
+      -0.09938842803239822,
+      -1.3135614395141602
+    ]
+  },
+  {
+    "cycle": 41,
+    "outer_expected_profit": 0.6166656017303467,
+    "teacher_grad_norm": 0.040831975638866425
+  },
+  {
+    "cycle": 42,
+    "outer_expected_profit": 0.06479223072528839,
+    "teacher_grad_norm": 0.018921444192528725
+  },
+  {
+    "cycle": 43,
+    "outer_expected_profit": 0.4030190110206604,
+    "teacher_grad_norm": 0.016850873827934265
+  },
+  {
+    "cycle": 44,
+    "outer_expected_profit": 0.6231542825698853,
+    "teacher_grad_norm": 0.04143724590539932
+  },
+  {
+    "cycle": 45,
+    "outer_expected_profit": 0.06526952981948853,
+    "teacher_grad_norm": 0.018441546708345413
+  },
+  {
+    "cycle": 46,
+    "outer_expected_profit": 0.405656099319458,
+    "teacher_grad_norm": 0.0182738546282053
+  },
+  {
+    "cycle": 47,
+    "outer_expected_profit": 0.6306742429733276,
+    "teacher_grad_norm": 0.04334267973899841
+  },
+  {
+    "cycle": 48,
+    "outer_expected_profit": 0.06538185477256775,
+    "teacher_grad_norm": 0.018187912181019783,
+    "selection_profit": [
+      -0.09905494749546051,
+      -1.3119006156921387
+    ]
+  },
+  {
+    "cycle": 49,
+    "outer_expected_profit": 0.40905189514160156,
+    "teacher_grad_norm": 0.020421653985977173
+  },
+  {
+    "cycle": 50,
+    "outer_expected_profit": 0.6399012804031372,
+    "teacher_grad_norm": 0.04677577689290047
+  },
+  {
+    "cycle": 51,
+    "outer_expected_profit": 0.06511598825454712,
+    "teacher_grad_norm": 0.018169669434428215
+  },
+  {
+    "cycle": 52,
+    "outer_expected_profit": 0.41365742683410645,
+    "teacher_grad_norm": 0.023488691076636314
+  },
+  {
+    "cycle": 53,
+    "outer_expected_profit": 0.6517651677131653,
+    "teacher_grad_norm": 0.052105437964200974
+  },
+  {
+    "cycle": 54,
+    "outer_expected_profit": 0.06444409489631653,
+    "teacher_grad_norm": 0.01844092831015587
+  },
+  {
+    "cycle": 55,
+    "outer_expected_profit": 0.4201328754425049,
+    "teacher_grad_norm": 0.027751488611102104
+  },
+  {
+    "cycle": 56,
+    "outer_expected_profit": 0.6675266027450562,
+    "teacher_grad_norm": 0.05971430614590645,
+    "selection_profit": [
+      -0.09646808356046677,
+      -1.2841179370880127
+    ]
+  },
+  {
+    "cycle": 57,
+    "outer_expected_profit": 0.06337855756282806,
+    "teacher_grad_norm": 0.01920645497739315
+  },
+  {
+    "cycle": 58,
+    "outer_expected_profit": 0.42939627170562744,
+    "teacher_grad_norm": 0.03339538723230362
+  },
+  {
+    "cycle": 59,
+    "outer_expected_profit": 0.6886892318725586,
+    "teacher_grad_norm": 0.06957706809043884
+  },
+  {
+    "cycle": 60,
+    "outer_expected_profit": 0.06216186285018921,
+    "teacher_grad_norm": 0.02144535258412361
+  },
+  {
+    "cycle": 61,
+    "outer_expected_profit": 0.4424220323562622,
+    "teacher_grad_norm": 0.039814241230487823
+  },
+  {
+    "cycle": 62,
+    "outer_expected_profit": 0.7162998914718628,
+    "teacher_grad_norm": 0.08021839708089828
+  },
+  {
+    "cycle": 63,
+    "outer_expected_profit": 0.06187862157821655,
+    "teacher_grad_norm": 0.02972504496574402
+  },
+  {
+    "cycle": 64,
+    "outer_expected_profit": 0.45866119861602783,
+    "teacher_grad_norm": 0.04352894052863121,
+    "selection_profit": [
+      -0.0898362472653389,
+      -1.1958346366882324
+    ]
+  },
+  {
+    "cycle": 65,
+    "outer_expected_profit": 0.7484053373336792,
+    "teacher_grad_norm": 0.08773438632488251
+  },
+  {
+    "cycle": 66,
+    "outer_expected_profit": 0.06606027483940125,
+    "teacher_grad_norm": 0.05718790739774704
+  },
+  {
+    "cycle": 67,
+    "outer_expected_profit": 0.46722885966300964,
+    "teacher_grad_norm": 0.08283910155296326
+  },
+  {
+    "cycle": 68,
+    "outer_expected_profit": 0.7753056883811951,
+    "teacher_grad_norm": 0.09591478109359741
+  },
+  {
+    "cycle": 69,
+    "outer_expected_profit": 0.08037574589252472,
+    "teacher_grad_norm": 0.11217095702886581
+  },
+  {
+    "cycle": 70,
+    "outer_expected_profit": 0.44946467876434326,
+    "teacher_grad_norm": 0.2532598674297333
+  },
+  {
+    "cycle": 71,
+    "outer_expected_profit": 0.7935183048248291,
+    "teacher_grad_norm": 0.10298863798379898
+  },
+  {
+    "cycle": 72,
+    "outer_expected_profit": 0.09856587648391724,
+    "teacher_grad_norm": 0.15889042615890503,
+    "selection_profit": [
+      -0.07469338923692703,
+      -1.1061878204345703
+    ]
+  },
+  {
+    "cycle": 73,
+    "outer_expected_profit": 0.47269898653030396,
+    "teacher_grad_norm": 0.18686866760253906
+  },
+  {
+    "cycle": 74,
+    "outer_expected_profit": 0.8089072704315186,
+    "teacher_grad_norm": 0.08725901693105698
+  },
+  {
+    "cycle": 75,
+    "outer_expected_profit": 0.11897460371255875,
+    "teacher_grad_norm": 0.2020985335111618
+  },
+  {
+    "cycle": 76,
+    "outer_expected_profit": 0.4967535734176636,
+    "teacher_grad_norm": 0.08269505202770233
+  },
+  {
+    "cycle": 77,
+    "outer_expected_profit": 0.8167023658752441,
+    "teacher_grad_norm": 0.08988680690526962
+  },
+  {
+    "cycle": 78,
+    "outer_expected_profit": 0.16150254011154175,
+    "teacher_grad_norm": 0.3055841028690338
+  },
+  {
+    "cycle": 79,
+    "outer_expected_profit": 0.5088742971420288,
+    "teacher_grad_norm": 0.06902609020471573
+  },
+  {
+    "cycle": 80,
+    "outer_expected_profit": 0.8277493715286255,
+    "teacher_grad_norm": 0.08997248858213425,
+    "selection_profit": [
+      -0.003737710416316986,
+      -1.001543641090393
+    ]
+  }
+]

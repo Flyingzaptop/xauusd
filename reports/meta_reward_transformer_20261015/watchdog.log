@@ -1,0 +1,562 @@
+{"prepare_status.json": {"phase": "features", "done": 212, "total": 222, "symbol": "VERIZON_21536.parquet", "seconds": 1199.8, "available_RAM_GB": 160.9}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "features", "done": 222, "total": 222, "symbol": "XTIUSD_10092.parquet", "seconds": 1257.7, "available_RAM_GB": 160.8}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "loading_dataset", "seconds": 0.0, "allocated_GB": 0.0}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycles": 271, "cache_GB": 62.152377408, "seconds": 59.5, "allocated_GB": 62.45}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 1, "planned_cycles": 271, "examples": 8192, "external_gain": 9.57499984651804, "teacher_gradient": 0.9191468358039856, "best_dev": -9.2091667096441, "seconds": 138.3, "allocated_GB": 62.61}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 1, "planned_cycles": 271, "examples": 8192, "external_gain": 9.57499984651804, "teacher_gradient": 0.9191468358039856, "best_dev": -9.2091667096441, "seconds": 138.3, "allocated_GB": 62.61}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 2, "planned_cycles": 271, "examples": 16384, "external_gain": -5.650000214576721, "teacher_gradient": 0.8291379809379578, "best_dev": -9.2091667096441, "seconds": 202.1, "allocated_GB": 62.67}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 3, "planned_cycles": 271, "examples": 24576, "external_gain": 1.0699998941272497, "teacher_gradient": 0.11086496710777283, "best_dev": -9.2091667096441, "seconds": 265.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 4, "planned_cycles": 271, "examples": 32768, "external_gain": 25.98499944806099, "teacher_gradient": 1.7947287559509277, "best_dev": -9.2091667096441, "seconds": 331.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 5, "planned_cycles": 271, "examples": 40960, "external_gain": 7.764999993145466, "teacher_gradient": 0.40432414412498474, "best_dev": -9.2091667096441, "seconds": 397.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 5, "planned_cycles": 271, "examples": 40960, "external_gain": 7.764999993145466, "teacher_gradient": 0.40432414412498474, "best_dev": -9.2091667096441, "seconds": 397.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 6, "planned_cycles": 271, "examples": 49152, "external_gain": -4.074999630451202, "teacher_gradient": 0.7195665240287781, "best_dev": -9.2091667096441, "seconds": 462.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 7, "planned_cycles": 271, "examples": 57344, "external_gain": -4.930000024847686, "teacher_gradient": 0.4951806664466858, "best_dev": -9.2091667096441, "seconds": 528.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 8, "planned_cycles": 271, "examples": 65536, "external_gain": 4.739999806508422, "teacher_gradient": 0.26309311389923096, "best_dev": -0.04249982380618652, "seconds": 605.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 8, "planned_cycles": 271, "examples": 65536, "external_gain": 4.739999806508422, "teacher_gradient": 0.26309311389923096, "best_dev": -0.04249982380618652, "seconds": 605.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 11, "planned_cycles": 271, "examples": 90112, "external_gain": 13.974999986588955, "teacher_gradient": 1.34694242477417, "best_dev": -0.04249982380618652, "seconds": 801.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 12, "planned_cycles": 271, "examples": 98304, "external_gain": 11.03999975323677, "teacher_gradient": 0.7767156958580017, "best_dev": -0.04249982380618652, "seconds": 867.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 15, "planned_cycles": 271, "examples": 122880, "external_gain": -1.5249998271465302, "teacher_gradient": 0.2259162962436676, "best_dev": -0.04249982380618652, "seconds": 1062.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 15, "planned_cycles": 271, "examples": 122880, "external_gain": -1.5249998271465302, "teacher_gradient": 0.2259162962436676, "best_dev": -0.04249982380618652, "seconds": 1062.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 16, "planned_cycles": 271, "examples": 131072, "external_gain": 5.065000131726265, "teacher_gradient": 0.46597790718078613, "best_dev": -0.04249982380618652, "seconds": 1141.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 18, "planned_cycles": 271, "examples": 147456, "external_gain": 1.1149998679757118, "teacher_gradient": 0.043211884796619415, "best_dev": -0.04249982380618652, "seconds": 1273.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 19, "planned_cycles": 271, "examples": 155648, "external_gain": 1.0699999630451202, "teacher_gradient": 0.0195622481405735, "best_dev": -0.04249982380618652, "seconds": 1336.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 20, "planned_cycles": 271, "examples": 163840, "external_gain": -2.7149999663233757, "teacher_gradient": 0.37764960527420044, "best_dev": -0.04249982380618652, "seconds": 1402.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 21, "planned_cycles": 271, "examples": 172032, "external_gain": 2.404999975115061, "teacher_gradient": 0.16026154160499573, "best_dev": -0.04249982380618652, "seconds": 1467.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 21, "planned_cycles": 271, "examples": 172032, "external_gain": 2.404999975115061, "teacher_gradient": 0.16026154160499573, "best_dev": -0.04249982380618652, "seconds": 1467.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 22, "planned_cycles": 271, "examples": 180224, "external_gain": -5.084999796003103, "teacher_gradient": 0.6788613200187683, "best_dev": -0.04249982380618652, "seconds": 1533.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 23, "planned_cycles": 271, "examples": 188416, "external_gain": -1.074999992735684, "teacher_gradient": 0.21919746696949005, "best_dev": -0.04249982380618652, "seconds": 1599.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 24, "planned_cycles": 271, "examples": 196608, "external_gain": -3.4100000858306885, "teacher_gradient": 0.19823050498962402, "best_dev": 1.7575000875319045, "seconds": 1678.1, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 25, "planned_cycles": 271, "examples": 204800, "external_gain": 4.570000164210796, "teacher_gradient": 0.5941327214241028, "best_dev": 1.7575000875319045, "seconds": 1741.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 26, "planned_cycles": 271, "examples": 212992, "external_gain": 4.990000009536743, "teacher_gradient": 0.4468243718147278, "best_dev": 1.7575000875319045, "seconds": 1807.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 27, "planned_cycles": 271, "examples": 221184, "external_gain": 0.0, "teacher_gradient": 0.07363132387399673, "best_dev": 1.7575000875319045, "seconds": 1873.1, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 28, "planned_cycles": 271, "examples": 229376, "external_gain": -1.865000031888485, "teacher_gradient": 0.32034796476364136, "best_dev": 1.7575000875319045, "seconds": 1938.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 29, "planned_cycles": 271, "examples": 237568, "external_gain": 1.0099999904632568, "teacher_gradient": 0.06337355822324753, "best_dev": 1.7575000875319045, "seconds": 2004.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 31, "planned_cycles": 271, "examples": 253952, "external_gain": 4.155000105500221, "teacher_gradient": 0.4177617132663727, "best_dev": 1.7575000875319045, "seconds": 2135.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 32, "planned_cycles": 271, "examples": 262144, "external_gain": 0.0, "teacher_gradient": 0.18011844158172607, "best_dev": 1.7575000875319045, "seconds": 2210.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 33, "planned_cycles": 271, "examples": 270336, "external_gain": 4.67000013589859, "teacher_gradient": 0.20935338735580444, "best_dev": 1.7575000875319045, "seconds": 2276.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 34, "planned_cycles": 271, "examples": 278528, "external_gain": 0.9150001704692841, "teacher_gradient": 0.04007439315319061, "best_dev": 1.7575000875319045, "seconds": 2341.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 35, "planned_cycles": 271, "examples": 286720, "external_gain": 7.004999935626984, "teacher_gradient": 0.43129780888557434, "best_dev": 1.7575000875319045, "seconds": 2407.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 37, "planned_cycles": 271, "examples": 303104, "external_gain": -0.5150000900030136, "teacher_gradient": 0.09321427345275879, "best_dev": 1.7575000875319045, "seconds": 2539.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 39, "planned_cycles": 271, "examples": 319488, "external_gain": 0.0, "teacher_gradient": 0.08983231335878372, "best_dev": 1.7575000875319045, "seconds": 2667.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 40, "planned_cycles": 271, "examples": 327680, "external_gain": -1.875, "teacher_gradient": 0.23669575154781342, "best_dev": 1.7575000875319045, "seconds": 2743.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 41, "planned_cycles": 271, "examples": 335872, "external_gain": 1.8050000071525574, "teacher_gradient": 0.12858489155769348, "best_dev": 1.7575000875319045, "seconds": 2809.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 42, "planned_cycles": 271, "examples": 344064, "external_gain": 7.734999895095825, "teacher_gradient": 0.6582762598991394, "best_dev": 1.7575000875319045, "seconds": 2875.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 42, "planned_cycles": 271, "examples": 344064, "external_gain": 7.734999895095825, "teacher_gradient": 0.6582762598991394, "best_dev": 1.7575000875319045, "seconds": 2875.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 43, "planned_cycles": 271, "examples": 352256, "external_gain": 0.15000000596046448, "teacher_gradient": 0.08914010971784592, "best_dev": 1.7575000875319045, "seconds": 2939.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 46, "planned_cycles": 271, "examples": 376832, "external_gain": -7.279999904334545, "teacher_gradient": 0.9603917002677917, "best_dev": 1.7575000875319045, "seconds": 3134.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 47, "planned_cycles": 271, "examples": 385024, "external_gain": -18.939999520778656, "teacher_gradient": 1.5604493618011475, "best_dev": 1.7575000875319045, "seconds": 3198.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 47, "planned_cycles": 271, "examples": 385024, "external_gain": -18.939999520778656, "teacher_gradient": 1.5604493618011475, "best_dev": 1.7575000875319045, "seconds": 3198.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 48, "planned_cycles": 271, "examples": 393216, "external_gain": 0.0, "teacher_gradient": 0.09812098741531372, "best_dev": 1.7575000875319045, "seconds": 3275.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 49, "planned_cycles": 271, "examples": 401408, "external_gain": -2.6200001053512096, "teacher_gradient": 0.06860215961933136, "best_dev": 1.7575000875319045, "seconds": 3338.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 50, "planned_cycles": 271, "examples": 409600, "external_gain": 1.4950000047683716, "teacher_gradient": 0.29393115639686584, "best_dev": 1.7575000875319045, "seconds": 3404.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 50, "planned_cycles": 271, "examples": 409600, "external_gain": 1.4950000047683716, "teacher_gradient": 0.29393115639686584, "best_dev": 1.7575000875319045, "seconds": 3404.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 51, "planned_cycles": 271, "examples": 417792, "external_gain": 0.0, "teacher_gradient": 0.21521885693073273, "best_dev": 1.7575000875319045, "seconds": 3468.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 52, "planned_cycles": 271, "examples": 425984, "external_gain": 12.669999703764915, "teacher_gradient": 1.455392837524414, "best_dev": 1.7575000875319045, "seconds": 3533.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 57, "planned_cycles": 271, "examples": 466944, "external_gain": 0.0, "teacher_gradient": 0.2308817207813263, "best_dev": 1.7575000875319045, "seconds": 3870.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 59, "planned_cycles": 271, "examples": 483328, "external_gain": 0.0, "teacher_gradient": 0.14602325856685638, "best_dev": 1.7575000875319045, "seconds": 3998.1, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 60, "planned_cycles": 271, "examples": 491520, "external_gain": 0.0, "teacher_gradient": 0.12713724374771118, "best_dev": 1.7575000875319045, "seconds": 4061.8, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 61, "planned_cycles": 271, "examples": 499712, "external_gain": 0.0, "teacher_gradient": 0.13924384117126465, "best_dev": 1.7575000875319045, "seconds": 4127.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 61, "planned_cycles": 271, "examples": 499712, "external_gain": 0.0, "teacher_gradient": 0.13924384117126465, "best_dev": 1.7575000875319045, "seconds": 4127.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 62, "planned_cycles": 271, "examples": 507904, "external_gain": 0.0, "teacher_gradient": 0.21695086359977722, "best_dev": 1.7575000875319045, "seconds": 4191.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 63, "planned_cycles": 271, "examples": 516096, "external_gain": -0.9649999737739563, "teacher_gradient": 0.18655334413051605, "best_dev": 1.7575000875319045, "seconds": 4257.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 64, "planned_cycles": 271, "examples": 524288, "external_gain": 0.0, "teacher_gradient": 0.08211614191532135, "best_dev": 1.7575000875319045, "seconds": 4336.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 65, "planned_cycles": 271, "examples": 532480, "external_gain": -0.875, "teacher_gradient": 0.13074898719787598, "best_dev": 1.7575000875319045, "seconds": 4401.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 66, "planned_cycles": 271, "examples": 540672, "external_gain": -0.6800000071525574, "teacher_gradient": 0.22657404839992523, "best_dev": 1.7575000875319045, "seconds": 4467.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 66, "planned_cycles": 271, "examples": 540672, "external_gain": -0.6800000071525574, "teacher_gradient": 0.22657404839992523, "best_dev": 1.7575000875319045, "seconds": 4467.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 67, "planned_cycles": 271, "examples": 548864, "external_gain": 0.02500009536743164, "teacher_gradient": 0.11399451643228531, "best_dev": 1.7575000875319045, "seconds": 4532.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 68, "planned_cycles": 271, "examples": 557056, "external_gain": 3.584999918937683, "teacher_gradient": 0.18562021851539612, "best_dev": 1.7575000875319045, "seconds": 4598.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 69, "planned_cycles": 271, "examples": 565248, "external_gain": 1.5250000953674316, "teacher_gradient": 0.08711907267570496, "best_dev": 1.7575000875319045, "seconds": 4662.6, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 70, "planned_cycles": 271, "examples": 573440, "external_gain": 0.0, "teacher_gradient": 0.06640318036079407, "best_dev": 1.7575000875319045, "seconds": 4726.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 71, "planned_cycles": 271, "examples": 581632, "external_gain": 12.93499943614006, "teacher_gradient": 1.0763381719589233, "best_dev": 1.7575000875319045, "seconds": 4790.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 71, "planned_cycles": 271, "examples": 581632, "external_gain": 12.93499943614006, "teacher_gradient": 1.0763381719589233, "best_dev": 1.7575000875319045, "seconds": 4790.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 72, "planned_cycles": 271, "examples": 589824, "external_gain": 0.0, "teacher_gradient": 0.3358452022075653, "best_dev": 1.7575000875319045, "seconds": 4869.1, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 73, "planned_cycles": 271, "examples": 598016, "external_gain": 5.28000020980835, "teacher_gradient": 0.1942872256040573, "best_dev": 1.7575000875319045, "seconds": 4934.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 74, "planned_cycles": 271, "examples": 606208, "external_gain": 3.7749996185302734, "teacher_gradient": 0.10923314094543457, "best_dev": 1.7575000875319045, "seconds": 4998.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 75, "planned_cycles": 271, "examples": 614400, "external_gain": -0.6899999976158142, "teacher_gradient": 0.4316186308860779, "best_dev": 1.7575000875319045, "seconds": 5062.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 78, "planned_cycles": 271, "examples": 638976, "external_gain": 5.039999961853027, "teacher_gradient": 0.3264005184173584, "best_dev": 1.7575000875319045, "seconds": 5256.9, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 80, "planned_cycles": 271, "examples": 655360, "external_gain": 0.0, "teacher_gradient": 0.14157329499721527, "best_dev": 1.7575000875319045, "seconds": 5401.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 83, "planned_cycles": 271, "examples": 679936, "external_gain": 2.119999885559082, "teacher_gradient": 0.08482865989208221, "best_dev": 1.7575000875319045, "seconds": 5596.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 83, "planned_cycles": 271, "examples": 679936, "external_gain": 2.119999885559082, "teacher_gradient": 0.08482865989208221, "best_dev": 1.7575000875319045, "seconds": 5596.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 84, "planned_cycles": 271, "examples": 688128, "external_gain": -0.42500001192092896, "teacher_gradient": 0.132027268409729, "best_dev": 1.7575000875319045, "seconds": 5660.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 85, "planned_cycles": 271, "examples": 696320, "external_gain": 0.5200000107288361, "teacher_gradient": 0.09196537733078003, "best_dev": 1.7575000875319045, "seconds": 5726.0, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 86, "planned_cycles": 271, "examples": 704512, "external_gain": 0.0, "teacher_gradient": 0.12345226854085922, "best_dev": 1.7575000875319045, "seconds": 5791.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 87, "planned_cycles": 271, "examples": 712704, "external_gain": 0.0, "teacher_gradient": 0.0707782655954361, "best_dev": 1.7575000875319045, "seconds": 5857.4, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 88, "planned_cycles": 271, "examples": 720896, "external_gain": 0.0, "teacher_gradient": 0.09847057610750198, "best_dev": 1.7575000875319045, "seconds": 5934.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 88, "planned_cycles": 271, "examples": 720896, "external_gain": 0.0, "teacher_gradient": 0.09847057610750198, "best_dev": 1.7575000875319045, "seconds": 5934.3, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 89, "planned_cycles": 271, "examples": 729088, "external_gain": 1.7749999463558197, "teacher_gradient": 0.11691847443580627, "best_dev": 1.7575000875319045, "seconds": 5999.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 90, "planned_cycles": 271, "examples": 737280, "external_gain": 0.0, "teacher_gradient": 0.06662353128194809, "best_dev": 1.7575000875319045, "seconds": 6063.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 9, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError:  **kwargs)                            │
+│   785 │   │                                                                  │
+│   786 │   │   # Total elapsed time of the request (approximately)            │
+│   787 │   │   elapsed = preferred_clock() - start                            │
+│                                                                              │
+│ /workspace/colab-tools/lib/python3.12/site-packages/requests/adapters.py:742 │
+│ in send                                                                      │
+│                                                                              │
+│   739 │   │   │   │   # This branch is for urllib3 versions earlier than     │
+│       v1.22                                                                  │
+│   740 │   │   │   │   raise SSLError(e, request=request)                     │
+│   741 │   │   │   elif isinstance(e, ReadTimeoutError):                      │
+│ ❱ 742 │   │   │   │   raise ReadTimeout(e, request=request)                  │
+│   743 │   │   │   elif isinstance(e, _InvalidHeader):                        │
+│   744 │   │   │   │   raise InvalidHeader(e, request=request)                │
+│   745 │   │   │   else:                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ReadTimeout: 
+HTTPSConnectionPool(host='8080-gpu-a100-hm-kkb-ass1c2-vqpftuy6nu1i-c.asia-southe
+ast1-2.prod.colab.dev', port=443): Read timed out. (read timeout=10)
+
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 92, "planned_cycles": 271, "examples": 753664, "external_gain": 0.0, "teacher_gradient": 0.05824311077594757, "best_dev": 1.7575000875319045, "seconds": 6194.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 93, "planned_cycles": 271, "examples": 761856, "external_gain": 0.0, "teacher_gradient": 0.04919108748435974, "best_dev": 1.7575000875319045, "seconds": 6258.5, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 94, "planned_cycles": 271, "examples": 770048, "external_gain": 0.0, "teacher_gradient": 0.04731825366616249, "best_dev": 1.7575000875319045, "seconds": 6324.2, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "meta_training", "cycle": 95, "planned_cycles": 271, "examples": 778240, "external_gain": 0.0, "teacher_gradient": 0.058399662375450134, "best_dev": 1.7575000875319045, "seconds": 6389.7, "allocated_GB": 62.74}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 100, "target_steps": 1024, "examples": 25856, "loss": -0.059460341930389404, "entropy": 0.0616556815803051, "seconds": 6572.3, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 200, "target_steps": 1024, "examples": 51456, "loss": -0.003834927687421441, "entropy": 0.03221482038497925, "seconds": 6675.0, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 300, "target_steps": 1024, "examples": 77056, "loss": -0.0036285778041929007, "entropy": 0.019707653671503067, "seconds": 6777.8, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 300, "target_steps": 1024, "examples": 77056, "loss": -0.0036285778041929007, "entropy": 0.019707653671503067, "seconds": 6777.8, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 400, "target_steps": 1024, "examples": 102656, "loss": 0.001262794598005712, "entropy": 0.011192193254828453, "seconds": 6880.7, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 400, "target_steps": 1024, "examples": 102656, "loss": 0.001262794598005712, "entropy": 0.011192193254828453, "seconds": 6880.7, "allocated_GB": 62.63}, "train_source_sha256": "9ca5ebf01d05bfc3d1ef865b2310141c75c5b7cf52188f2ad7a296134aa9a767"}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 14, in <module>
+    s=run(['exec','-s','meta-reward','-f',str(B/'read_status.py'),'--timeout','30'],timeout=90);line=next(v for v in s.splitlines() if v.startswith('META_STATUS '));d=json.loads(line[len('META_STATUS '):]);(P/'live_status.json').write_text(json.dumps(d,indent=2));log.write(json.dumps(d)+'\n')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 8, in run
+    q=subprocess.run([CLI]+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/workspace/colab-tools/bin/colab', 'exec', '-s', 'meta-reward', '-f', '/workspace/xauusd/experiments/meta_reward_transformer/read_status.py', '--timeout', '30']' timed out after 90 seconds
+
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 700, "target_steps": 1024, "examples": 179456, "loss": 0.000220762740354985, "entropy": 0.005523092579096556, "seconds": 7189.1, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 800, "target_steps": 1024, "examples": 205056, "loss": 0.00010864301293622702, "entropy": 0.004724737256765366, "seconds": 7292.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 900, "target_steps": 1024, "examples": 230656, "loss": 0.0002610838564578444, "entropy": 0.004266862757503986, "seconds": 7394.8, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "fresh_student", "mode": "learned_teacher", "step": 1000, "target_steps": 1024, "examples": 256256, "loss": 0.00010461277997819707, "entropy": 0.003544742474332452, "seconds": 7497.6, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "dev", "rows": 350356, "seconds": 7521.4, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "dev", "rows": 350356, "seconds": 7521.4, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "dev", "rows": 350356, "seconds": 7521.4, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "dev", "rows": 350356, "seconds": 7521.4, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "dev", "rows": 350356, "seconds": 7521.4, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+{"prepare_status.json": {"phase": "complete", "rows": 3505124, "bytes": 74701202688, "seconds": 1259.2, "available_RAM_GB": 167.9}, "training_status.json": {"phase": "final_evaluation", "mode": "learned_teacher", "split": "test", "rows": 588515, "seconds": 7775.0, "allocated_GB": 62.63}}
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 42, in <module>
+    if failures>=12:raise RuntimeError('Twelve consecutive runtime or archive failures')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Twelve consecutive runtime or archive failures
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 17, in <module>
+    dest=P/('monitor_'+name);run(['download','-s','meta-reward','/content/meta_reward/'+name,str(dest)],timeout=45);d[name]=json.loads(dest.read_text())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 42, in <module>
+    if failures>=12:raise RuntimeError('Twelve consecutive runtime or archive failures')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Twelve consecutive runtime or archive failures
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 48, in <module>
+    try:run(['stop','-s','meta-reward'])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/xauusd/experiments/meta_reward_transformer/watchdog.py", line 10, in run
+    if q.returncode:raise RuntimeError(q.stdout[-1500:]+q.stderr[-1500:])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [colab] Stopping session 'meta-reward'...
+ self._issue_request(url, schema=GetUnassignRequest)     │
+│   260 │   │   headers = {COLAB_XSRF_TOKEN_HEADER["key"]: resp.token}         │
+│   261 │   │   return self._issue_request(                                    │
+│   262 │   │   │   url, method="POST", headers=headers, schema=BaseModel      │
+│                                                                              │
+│ /workspace/colab-tools/lib/python3.12/site-packages/colab_cli/client.py:229  │
+│ in _issue_request                                                            │
+│                                                                              │
+│   226 │   │   self.logger.debug(f"Response Headers: {response.headers}")     │
+│   227 │   │   self.logger.debug(f"Response Body: {response.text}")           │
+│   228 │   │   if not response.ok:                                            │
+│ ❱ 229 │   │   │   raise ColabRequestError(                                   │
+│   230 │   │   │   │   f"Failed to issue request {method} {endpoint}:         │
+│       {response.reason}",                                                    │
+│   231 │   │   │   │   request=response.request,                              │
+│   232 │   │   │   │   response=response,                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ColabRequestError: Failed to issue request GET 
+https://colab.research.google.com/tun/m/unassign/gpu-a100-hm-kkb-ass1c2-vqpftuy6
+nu1i: Not Found
+

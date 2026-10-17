@@ -1,0 +1,48 @@
+{
+  "snapshot_date": "2026-10-16",
+  "handoff_publication_date": "2026-10-17",
+  "source_dataset": {
+    "folder_url": "https://drive.google.com/drive/folders/1BHeZ-romQ4oIZ970lxZCEYDKpyZ8QFMd",
+    "manifest": "experiments/meta_reward_transformer_v3/drive_manifest.json",
+    "instruments": 222,
+    "rows": 384509621,
+    "parquet_GB_approx": 5.42,
+    "format": "cTrader/Spotware demo M1, UTC candle-open timestamps, tick volume"
+  },
+  "v2_teacher_backup": {
+    "folder_url": "https://drive.google.com/drive/folders/1J5z1MDoS08ueTiGcg06rPeqWNrCtWio5",
+    "file_url": "https://drive.google.com/file/d/17V1lXJW0JItNDE01TGH8VsC0fCC9ucTu/view",
+    "filename": "XAUUSD_teacher_v2_best_cycle80_complete.zip",
+    "bytes": 67744620,
+    "sha256": "1c45e2a05fb6684594139407f3255a0b9533dc124a152c005266171d2b1d9e82",
+    "checkpoint_sha256": "5371038e6b8a4dc8613b1a3ce0898d45df4d6254c4ad249f83b5d3ede22b9ed4",
+    "verification": "Drive metadata size matched; local package manifest/self-test passed. SHA256 is local, not a Drive readback.",
+    "quality_status": "All-LONG bias; timing advantage not established. NOT approved for live trading."
+  },
+  "v3": {
+    "status": "Stopped by user. Do not resume automatically.",
+    "weights_recovery": "Not included in Git; no confirmed Drive backup. Do not assume availability.",
+    "latest_results": "reports/meta_reward_transformer_v3_20261016/fresh_results_at_stop.json"
+  },
+  "v4": {
+    "code": "experiments/sequential_teacher_v4",
+    "results": "reports/sequential_teacher_v4_20261016",
+    "teacher_transfer": "REINFORCE failed; exact meta-gradient passes direction/wait, fails cross_market.",
+    "real_pilot_launched": false,
+    "gpu_launched": false,
+    "unit_tests": 16
+  },
+  "large_feature_cache": {
+    "approx_GB": 74.7,
+    "available": false,
+    "recovery": "Regenerate from all 222 raw files and original feature/preparation code."
+  },
+  "spectral_year": {
+    "year": 2021,
+    "rows": 354340,
+    "components": 2356,
+    "hdf5_bytes_approx": 22865250000,
+    "in_git": false,
+    "recovery": "Regenerate via experiments/spectral_year from included input_context.npz and normalization.npz; see original protocol."
+  }
+}

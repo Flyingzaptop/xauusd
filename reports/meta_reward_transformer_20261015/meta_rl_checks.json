@@ -1,0 +1,1 @@
+{"passed": true, "first50_mean_independent_return_gain": 0.011454476714134217, "last100_mean_independent_return_gain": 0.20205464020371436, "teacher_gradient_norm_last": 0.0005356256733648479, "outer_updates": 600, "student_updates_per_outer": 3, "note": "Toy test of feedback direction, not evidence about market predictability."}

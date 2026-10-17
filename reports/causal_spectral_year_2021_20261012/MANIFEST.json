@@ -1,0 +1,141 @@
+{
+  "files": {
+    "experiments/spectral_year/README.md": {
+      "bytes": 2978,
+      "sha256": "75c8e997a724f6aa01d38d6b1a9d0aec0a54a9a94a279c78526ebfaebfe1ec9f"
+    },
+    "experiments/spectral_year/core.py": {
+      "bytes": 1455,
+      "sha256": "416a2117463b7892dcdaaf7f03a9c6035cad0dd80d026392ce21bb672e3ecd40"
+    },
+    "experiments/spectral_year/dataset.py": {
+      "bytes": 2668,
+      "sha256": "8a3457f9938d6d90ad061177cfde97103f6f545cc04c4c7c45f8c44a648fef2b"
+    },
+    "experiments/spectral_year/finalize.py": {
+      "bytes": 5833,
+      "sha256": "def95476e1b1b1b5fc6b98458b85c4b1834dd94bf8f44bfaf355502bc8794f1e"
+    },
+    "experiments/spectral_year/prepare.py": {
+      "bytes": 8882,
+      "sha256": "ca19ad6a49c64c787c904f9e19b294b7f3e112835ba02f2dc4951679236fbb0a"
+    },
+    "experiments/spectral_year/requirements.txt": {
+      "bytes": 40,
+      "sha256": "0c732edf798c542047da1eff67e96069c7d3d1f31fe69478f5f04b7805dfd8f9"
+    },
+    "experiments/spectral_year/verify.py": {
+      "bytes": 7697,
+      "sha256": "6eda9141808bbc93ae1fc62253db740db93e7e5fda347b348ff36f8e07b50dc4"
+    },
+    "reports/causal_spectral_year_2021_20261012/INDEX.md": {
+      "bytes": 4683,
+      "sha256": "89fdf6e611494b315d636f99d259f3e65c41236d6d484833104c6f12bf29c9c2"
+    },
+    "reports/causal_spectral_year_2021_20261012/READY.json": {
+      "bytes": 249,
+      "sha256": "0ca9d556816a798092499aa7c661f61489dfff404cfc9282b6056c385132dd22"
+    },
+    "reports/causal_spectral_year_2021_20261012/SCHEMA.md": {
+      "bytes": 8706,
+      "sha256": "a7ab5621ff205e00c7829dc8598617872f52ca80e5058b1a30f435593072f07c"
+    },
+    "reports/causal_spectral_year_2021_20261012/dataset.json": {
+      "bytes": 6478,
+      "sha256": "c7127e5baab5c9eed679c1bed3998d47d7313f131837e21cdf1d78bde974789f"
+    },
+    "reports/causal_spectral_year_2021_20261012/days.csv": {
+      "bytes": 21523,
+      "sha256": "31c2056d1f80a719f546710ce924c10c82859d92af617efd8a2122edcd672eeb"
+    },
+    "reports/causal_spectral_year_2021_20261012/input_context.npz": {
+      "bytes": 2744986,
+      "sha256": "5be7e88da185bcc758dcfd31948718c6a884eaed13af05dc554c553c6b7d661c"
+    },
+    "reports/causal_spectral_year_2021_20261012/input_provenance.json": {
+      "bytes": 333,
+      "sha256": "14ca822bf8fae02bd748220ebd19bdba611eac46b9c683da2363c5856c6ffb0a"
+    },
+    "reports/causal_spectral_year_2021_20261012/normalization.npz": {
+      "bytes": 20142,
+      "sha256": "630a6982b5c8905c087c563c43beadba930dcde908b69c043fe56df156034274"
+    },
+    "reports/causal_spectral_year_2021_20261012/preparation.log": {
+      "bytes": 10032,
+      "sha256": "b4e276132957c91574b0b06e86ad60d29edf6ce564c8cbf9ae4f18ff460a8284"
+    },
+    "reports/causal_spectral_year_2021_20261012/protocol.json": {
+      "bytes": 2625,
+      "sha256": "4e159f4dd11b7faf1593094ffa0787d3865658fde5eae9e8b256b34d5f19107a"
+    },
+    "reports/causal_spectral_year_2021_20261012/runtime_benchmark.json": {
+      "bytes": 223,
+      "sha256": "e7ffd5d38d3bbbb58f7d7b69cf0e3966844989ae4b1fec106dda6dfce3c373b3"
+    },
+    "reports/causal_spectral_year_2021_20261012/status.json": {
+      "bytes": 160,
+      "sha256": "1de46a327223406192343bbebff2ab0fb0cc4465ff655482c89c08a63207f980"
+    },
+    "reports/causal_spectral_year_2021_20261012/unit_checks.json": {
+      "bytes": 339,
+      "sha256": "261973fbeb7fac71e58d4ab8bea5ea7296013fa17717a1f1d52fabf2779a255b"
+    },
+    "reports/causal_spectral_year_2021_20261012/verification.json": {
+      "bytes": 1310,
+      "sha256": "f92f295e250552bffab181c99f4601b4e997a24ab767c94650db22bb8db1b3e3"
+    },
+    "reports/causal_spectral_year_2021_20261012/verification.log": {
+      "bytes": 1943,
+      "sha256": "ae296348655113b3e2c45ceff4b2ee66b847d346eeb672c8fa449ee97c23cc7b"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-01.h5": {
+      "bytes": 1769538130,
+      "sha256": "1c79decf1dc57aff2d139296ace2012ddb2b163081c3cdf72fb0791381a857ca"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-02.h5": {
+      "bytes": 1765500699,
+      "sha256": "7200a0dd4981858e42d80ce3172c1a59b22db9180e6290def8806ae6f5d8c0c8"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-03.h5": {
+      "bytes": 2048113104,
+      "sha256": "a78788e00dfa5cb5911fe26d1ef29895e781ead63ea15dc3dec7d2ecde80d90b"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-04.h5": {
+      "bytes": 1862306156,
+      "sha256": "eab72d0c4b896bc8b3c7f087919841c49803935534f0da6ff9841e6a1429333c"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-05.h5": {
+      "bytes": 1862020543,
+      "sha256": "ae9f32d5df837f8752efdf438370d26a55122cc21a758c96eeb43f3e7dac0f50"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-06.h5": {
+      "bytes": 1958814928,
+      "sha256": "662e1a5892a1377572a82c6340688f1cb529640bc15e1b56ab3b73fe8d5457d8"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-07.h5": {
+      "bytes": 1935567931,
+      "sha256": "b84764663d6487fc050abfbbf10354ddeb6930615c71b834e964d6cf4ba245f6"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-08.h5": {
+      "bytes": 1965020538,
+      "sha256": "2841b488caf343156e46eba517083528b54ffcc499dd931cde89b4053e8f32f7"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-09.h5": {
+      "bytes": 1942430040,
+      "sha256": "764050c68b9b67b8878249a2145db8772b6268c0d553c9b121be4833a19d4c4b"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-10.h5": {
+      "bytes": 1868227274,
+      "sha256": "21e4a08e04ac86a945c5c35911fe5b3d619ccde2c2d22388fdc76151573cf0f6"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-11.h5": {
+      "bytes": 1932848401,
+      "sha256": "581ca984943f681af9d11bde84b4a5960e8d399937b98e39efceaf2230338fb4"
+    },
+    "reports/causal_spectral_year_2021_20261012/months/2021-12.h5": {
+      "bytes": 1954864620,
+      "sha256": "085f1251ed22cb0f9aade326b7ed5fae8d3cc9eeafc98a134bb77184269848f8"
+    }
+  },
+  "hdf5_hashes_full_read_after_write": true
+}

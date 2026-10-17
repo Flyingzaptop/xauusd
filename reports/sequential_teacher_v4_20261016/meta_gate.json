@@ -1,0 +1,48 @@
+{
+  "code_hashes": {
+    "environment.py": "2776018dfe2a6088128387510ac8c2f06201e200043dda9103fb26715f4158e0",
+    "learning.py": "8b366598115dc9052a314ca2956e1b2b155407d1f7a3c17bf98a41c83d6ba352",
+    "model.py": "f4c951c8d412c8bb7d5ac9e80265fd18ded3405fff2ba52a84c897feaab97dd6",
+    "synthetic.py": "ac0b81931cc4e3c6372570d26a95bea2402023983490b4a25c1cf6f0348f18d2",
+    "meta.py": "192690cf7c097de63c64264ab8946ca46e3c00d02de292d10daf1c7b7eca9d10"
+  },
+  "complete": true,
+  "passed": false,
+  "seed_order": [
+    201,
+    202,
+    203
+  ],
+  "results": {
+    "learned": [
+      0.0119005178415581,
+      -0.0014334578374729512,
+      -0.053938098467374795
+    ],
+    "initial": [
+      0.1326850839212188,
+      -0.4478834735928046,
+      0.13071131087327112
+    ],
+    "constant": [
+      0.24286142947348188,
+      -0.17333166740665346,
+      0.24242879474245196
+    ],
+    "shuffled": [
+      0.005801488929256415,
+      -0.06282080329648082,
+      -0.053938098467374795
+    ],
+    "money": [
+      1.7442565021186183,
+      1.1139223406706176,
+      1.2704706916674917
+    ]
+  },
+  "selection_score": -0.17405971349820065,
+  "cycles": 24,
+  "inner_updates": 16,
+  "elapsed": 357.9896812438965,
+  "meaning": "Small synthetic teacher-transfer gate; not evidence of trading profitability."
+}

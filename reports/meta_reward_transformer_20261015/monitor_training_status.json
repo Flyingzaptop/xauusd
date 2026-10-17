@@ -1,0 +1,8 @@
+{
+  "phase": "final_evaluation",
+  "mode": "learned_teacher",
+  "split": "test",
+  "rows": 588515,
+  "seconds": 7775.0,
+  "allocated_GB": 62.63
+}

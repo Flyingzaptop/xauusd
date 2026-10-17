@@ -1,0 +1,952 @@
+[
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.01367922406643629,
+    "val_trades": 4246,
+    "val_mean_gross": -0.0001413094677419209,
+    "validation_daily_score_cost025": -16.59361444347311
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.022588446736335754,
+    "val_trades": 2403,
+    "val_mean_gross": -6.24219725150673e-05,
+    "validation_daily_score_cost025": -13.326896613230689
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.026916105300188065,
+    "val_trades": 1533,
+    "val_mean_gross": 0.03105675146772321,
+    "validation_daily_score_cost025": -10.058445891694888
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.03032037243247032,
+    "val_trades": 939,
+    "val_mean_gross": -0.02359957401490085,
+    "validation_daily_score_cost025": -9.787435302588037
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.014119358733296394,
+    "val_trades": 4653,
+    "val_mean_gross": 0.016795615731779463,
+    "validation_daily_score_cost025": -17.464457008008523
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.026046693325042725,
+    "val_trades": 2659,
+    "val_mean_gross": -0.006479879654008094,
+    "validation_daily_score_cost025": -13.269487427056493
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.03272494301199913,
+    "val_trades": 1664,
+    "val_mean_gross": 0.031237980769222993,
+    "validation_daily_score_cost025": -7.577310526697185
+  },
+  {
+    "model": "price_only",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.03830593079328537,
+    "val_trades": 988,
+    "val_mean_gross": 0.05470647773280222,
+    "validation_daily_score_cost025": -4.439518274927154
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.02706233039498329,
+    "val_trades": 1171,
+    "val_mean_gross": 0.05519214346711172,
+    "validation_daily_score_cost025": -4.032748673890334
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.03719668090343475,
+    "val_trades": 768,
+    "val_mean_gross": -0.002122395833292027,
+    "validation_daily_score_cost025": -4.157005272555117
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.04220721498131752,
+    "val_trades": 560,
+    "val_mean_gross": 0.1362321428571635,
+    "validation_daily_score_cost025": -1.7152139859241797
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.04618201032280922,
+    "val_trades": 373,
+    "val_mean_gross": 0.07796246648794704,
+    "validation_daily_score_cost025": -2.1579247541025635
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.013770990073680878,
+    "val_trades": 1328,
+    "val_mean_gross": 0.07915662650602967,
+    "validation_daily_score_cost025": -3.8843835650224534
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.025746572762727737,
+    "val_trades": 939,
+    "val_mean_gross": 0.14044728434508727,
+    "validation_daily_score_cost025": -1.8662183500294556
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.03262777999043465,
+    "val_trades": 639,
+    "val_mean_gross": 0.09546165884192238,
+    "validation_daily_score_cost025": -2.298433567861509
+  },
+  {
+    "model": "price_only",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.03810416907072067,
+    "val_trades": 422,
+    "val_mean_gross": 0.1191469194312968,
+    "validation_daily_score_cost025": -1.418903047433859
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.029544636607170105,
+    "val_trades": 560,
+    "val_mean_gross": -0.031160714285739948,
+    "validation_daily_score_cost025": -2.9711585537879723
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.039807770401239395,
+    "val_trades": 366,
+    "val_mean_gross": 0.010191256830616674,
+    "validation_daily_score_cost025": -1.9345728428906246
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.044647157192230225,
+    "val_trades": 244,
+    "val_mean_gross": -0.06663934426226989,
+    "validation_daily_score_cost025": -1.9400935864795692
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.048480916768312454,
+    "val_trades": 161,
+    "val_mean_gross": -0.27198757763968356,
+    "validation_daily_score_cost025": -2.8432093503260063
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.012989422306418419,
+    "val_trades": 650,
+    "val_mean_gross": 0.061615384615386994,
+    "validation_daily_score_cost025": -1.8674617712095496
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.02373749017715454,
+    "val_trades": 471,
+    "val_mean_gross": 0.004331210191039278,
+    "validation_daily_score_cost025": -1.9897815722835661
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.029607823118567467,
+    "val_trades": 328,
+    "val_mean_gross": -0.17432926829271778,
+    "validation_daily_score_cost025": -2.9276395902287584
+  },
+  {
+    "model": "price_only",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.0343884602189064,
+    "val_trades": 217,
+    "val_mean_gross": 0.16907834101381572,
+    "validation_daily_score_cost025": -0.42351338086241336
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.01737942360341549,
+    "val_trades": 4033,
+    "val_mean_gross": 0.009449541284409564,
+    "validation_daily_score_cost025": -17.452100311814487
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.031078742817044258,
+    "val_trades": 1994,
+    "val_mean_gross": 0.039448345035103645,
+    "validation_daily_score_cost025": -9.857676231511096
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.03863336890935898,
+    "val_trades": 1151,
+    "val_mean_gross": 0.015091225021721728,
+    "validation_daily_score_cost025": -7.997738243145051
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.04490644857287407,
+    "val_trades": 652,
+    "val_mean_gross": -0.06096625766870887,
+    "validation_daily_score_cost025": -9.797525833475794
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.01593853533267975,
+    "val_trades": 4577,
+    "val_mean_gross": 0.0238059864540069,
+    "validation_daily_score_cost025": -18.39314573658752
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.030025916174054146,
+    "val_trades": 2504,
+    "val_mean_gross": 0.010303514376989885,
+    "validation_daily_score_cost025": -12.372371371923647
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.03816750645637512,
+    "val_trades": 1476,
+    "val_mean_gross": -0.030596205962063375,
+    "validation_daily_score_cost025": -10.034253237539135
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.04532381147146225,
+    "val_trades": 858,
+    "val_mean_gross": 0.06428904428906108,
+    "validation_daily_score_cost025": -4.805026646437108
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.03141685202717781,
+    "val_trades": 1028,
+    "val_mean_gross": 0.05163424124515292,
+    "validation_daily_score_cost025": -4.093470121562625
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.0535455197095871,
+    "val_trades": 540,
+    "val_mean_gross": -0.06235185185189999,
+    "validation_daily_score_cost025": -5.387977967477806
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.06578289717435837,
+    "val_trades": 309,
+    "val_mean_gross": -0.22038834951454367,
+    "validation_daily_score_cost025": -5.173803033454437
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.07540611177682877,
+    "val_trades": 196,
+    "val_mean_gross": 0.11066326530619465,
+    "validation_daily_score_cost025": -1.2187139584900277
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.020476654171943665,
+    "val_trades": 1267,
+    "val_mean_gross": 0.08764009471192417,
+    "validation_daily_score_cost025": -3.6141161994910513
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.03920873627066612,
+    "val_trades": 728,
+    "val_mean_gross": 0.050151098901094204,
+    "validation_daily_score_cost025": -3.459096843434285
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.05001095309853554,
+    "val_trades": 451,
+    "val_mean_gross": -0.0008203991130238201,
+    "validation_daily_score_cost025": -3.507451524645184
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.05926896259188652,
+    "val_trades": 263,
+    "val_mean_gross": 0.1946007604562809,
+    "validation_daily_score_cost025": -0.5407271715348186
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.03805410861968994,
+    "val_trades": 503,
+    "val_mean_gross": -0.08781312127236594,
+    "validation_daily_score_cost025": -3.7813450970336224
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.06538181751966476,
+    "val_trades": 262,
+    "val_mean_gross": -0.1468702290076024,
+    "validation_daily_score_cost025": -3.096565910053629
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.07994132488965988,
+    "val_trades": 160,
+    "val_mean_gross": 0.05443749999997891,
+    "validation_daily_score_cost025": -1.1370222378773946
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.0922015979886055,
+    "val_trades": 92,
+    "val_mean_gross": -0.4794565217391121,
+    "validation_daily_score_cost025": -3.9780017479495267
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.024484815075993538,
+    "val_trades": 590,
+    "val_mean_gross": -0.12332203389834168,
+    "validation_daily_score_cost025": -4.078530321538609
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.043833088129758835,
+    "val_trades": 354,
+    "val_mean_gross": 0.1601129943502621,
+    "validation_daily_score_cost025": -0.7642538047453151
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.05549861118197441,
+    "val_trades": 215,
+    "val_mean_gross": 0.0561860465116392,
+    "validation_daily_score_cost025": -1.3224303318651314
+  },
+  {
+    "model": "price_plus_stft",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.0647415816783905,
+    "val_trades": 126,
+    "val_mean_gross": 0.2110317460317165,
+    "validation_daily_score_cost025": -0.19854047848211145
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.024213485419750214,
+    "val_trades": 4514,
+    "val_mean_gross": 0.0054009747452462824,
+    "validation_daily_score_cost025": -18.023809563340606
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.04550394043326378,
+    "val_trades": 2289,
+    "val_mean_gross": -0.014115334207097268,
+    "validation_daily_score_cost025": -14.596217658323534
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.057497020810842514,
+    "val_trades": 1313,
+    "val_mean_gross": -0.056618431073832916,
+    "validation_daily_score_cost025": -12.300649568158018
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.06718754023313522,
+    "val_trades": 743,
+    "val_mean_gross": -0.02028263795421898,
+    "validation_daily_score_cost025": -8.813768838394644
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.03040269762277603,
+    "val_trades": 4673,
+    "val_mean_gross": 0.021076396319282292,
+    "validation_daily_score_cost025": -16.922297981910567
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.05615406855940819,
+    "val_trades": 2608,
+    "val_mean_gross": 0.020306748466259076,
+    "validation_daily_score_cost025": -11.593808241979607
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.07064174115657806,
+    "val_trades": 1533,
+    "val_mean_gross": 0.03966731898237246,
+    "validation_daily_score_cost025": -7.706695909358004
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.08227081596851349,
+    "val_trades": 931,
+    "val_mean_gross": 0.04876476906553863,
+    "validation_daily_score_cost025": -6.0130244947461495
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.040528517216444016,
+    "val_trades": 1096,
+    "val_mean_gross": -0.0767883211678922,
+    "validation_daily_score_cost025": -7.108941917337056
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.07734031975269318,
+    "val_trades": 549,
+    "val_mean_gross": 0.06227686703099987,
+    "validation_daily_score_cost025": -2.586550012880834
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.09614493697881699,
+    "val_trades": 324,
+    "val_mean_gross": -0.00462962962964156,
+    "validation_daily_score_cost025": -2.2869339275732443
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.11117950826883316,
+    "val_trades": 186,
+    "val_mean_gross": -0.2105913978494554,
+    "validation_daily_score_cost025": -3.61750279821219
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.03343180567026138,
+    "val_trades": 1272,
+    "val_mean_gross": 0.053797169811294704,
+    "validation_daily_score_cost025": -4.696355253261203
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.061800386756658554,
+    "val_trades": 775,
+    "val_mean_gross": 0.025716129032246998,
+    "validation_daily_score_cost025": -3.6441992757312462
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.07831494510173798,
+    "val_trades": 478,
+    "val_mean_gross": 0.005669456066948537,
+    "validation_daily_score_cost025": -2.8500133736986863
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.09214717894792557,
+    "val_trades": 286,
+    "val_mean_gross": -0.025839160839123822,
+    "validation_daily_score_cost025": -2.549658517849925
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.052877239882946014,
+    "val_trades": 517,
+    "val_mean_gross": -0.28495164410059465,
+    "validation_daily_score_cost025": -5.139637104665141
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.09971160441637039,
+    "val_trades": 271,
+    "val_mean_gross": -0.38726937269370865,
+    "validation_daily_score_cost025": -4.232991888683718
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.12400902807712555,
+    "val_trades": 154,
+    "val_mean_gross": -0.28675324675317493,
+    "validation_daily_score_cost025": -2.423316678556426
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.1423274576663971,
+    "val_trades": 95,
+    "val_mean_gross": -0.01821052631594045,
+    "validation_daily_score_cost025": -0.8927969132293679
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.037930842489004135,
+    "val_trades": 594,
+    "val_mean_gross": -0.07015151515150647,
+    "validation_daily_score_cost025": -3.4355981340011117
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.06887973099946976,
+    "val_trades": 323,
+    "val_mean_gross": -0.42582043343652465,
+    "validation_daily_score_cost025": -4.884788243968305
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.08513147383928299,
+    "val_trades": 202,
+    "val_mean_gross": -0.48455445544546294,
+    "validation_daily_score_cost025": -4.096109630283822
+  },
+  {
+    "model": "price_plus_wavelets",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.09763647615909576,
+    "val_trades": 124,
+    "val_mean_gross": -0.08088709677421534,
+    "validation_daily_score_cost025": -1.3933436053202777
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.02646583691239357,
+    "val_trades": 4433,
+    "val_mean_gross": 0.0012880667719366709,
+    "validation_daily_score_cost025": -18.207105916660126
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.05008680373430252,
+    "val_trades": 2194,
+    "val_mean_gross": -0.017493163172275672,
+    "validation_daily_score_cost025": -13.752392619037277
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.06367243826389313,
+    "val_trades": 1240,
+    "val_mean_gross": -0.013475806451597896,
+    "validation_daily_score_cost025": -10.152020040447665
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.07474176585674286,
+    "val_trades": 698,
+    "val_mean_gross": -0.05458452722062112,
+    "validation_daily_score_cost025": -10.649486314442228
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.03141250088810921,
+    "val_trades": 4655,
+    "val_mean_gross": 0.0019398496240689855,
+    "validation_daily_score_cost025": -18.63591989235303
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.05822223052382469,
+    "val_trades": 2540,
+    "val_mean_gross": -0.03746062992125522,
+    "validation_daily_score_cost025": -12.74528322394793
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.07351028174161911,
+    "val_trades": 1490,
+    "val_mean_gross": 0.04716107382548885,
+    "validation_daily_score_cost025": -7.710323403022029
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 15,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.08636771887540817,
+    "val_trades": 878,
+    "val_mean_gross": 0.048872437357620195,
+    "validation_daily_score_cost025": -5.853680305623227
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.044562190771102905,
+    "val_trades": 1094,
+    "val_mean_gross": -0.05687385740405314,
+    "validation_daily_score_cost025": -6.959932679645153
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.08513186126947403,
+    "val_trades": 538,
+    "val_mean_gross": -0.031486988847568106,
+    "validation_daily_score_cost025": -3.4769605995146495
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.10739263892173767,
+    "val_trades": 304,
+    "val_mean_gross": -0.0733223684210368,
+    "validation_daily_score_cost025": -3.2370553873801353
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "return",
+    "quantile": 0.95,
+    "threshold": 0.12638404965400696,
+    "val_trades": 171,
+    "val_mean_gross": -0.26894736842101147,
+    "validation_daily_score_cost025": -4.449604911964352
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.036623694002628326,
+    "val_trades": 1262,
+    "val_mean_gross": -0.028240887480198183,
+    "validation_daily_score_cost025": -6.951421620234318
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.06823739409446716,
+    "val_trades": 746,
+    "val_mean_gross": 0.08898123324397864,
+    "validation_daily_score_cost025": -2.3839827562155285
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.08715371787548065,
+    "val_trades": 441,
+    "val_mean_gross": 0.007936507936513092,
+    "validation_daily_score_cost025": -3.0226479188343687
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 60,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.10298195481300354,
+    "val_trades": 260,
+    "val_mean_gross": -0.07707692307692118,
+    "validation_daily_score_cost025": -3.0992953887192165
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.5,
+    "threshold": 0.06066439300775528,
+    "val_trades": 509,
+    "val_mean_gross": -0.06119842829077398,
+    "validation_daily_score_cost025": -3.0318938969412277
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.8,
+    "threshold": 0.11228179931640625,
+    "val_trades": 259,
+    "val_mean_gross": -0.5665250965251106,
+    "validation_daily_score_cost025": -5.723059131680391
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "return",
+    "quantile": 0.9,
+    "threshold": 0.14024773240089417,
+    "val_trades": 138,
+    "val_mean_gross": -0.3698550724637975,
+    "validation_daily_score_cost025": -2.926869597013228
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.5,
+    "threshold": 0.043526507914066315,
+    "val_trades": 589,
+    "val_mean_gross": 0.03921901528015806,
+    "validation_daily_score_cost025": -2.2797253877804455
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.8,
+    "threshold": 0.07909626513719559,
+    "val_trades": 299,
+    "val_mean_gross": -0.2848829431437825,
+    "validation_daily_score_cost025": -4.005068839037937
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.9,
+    "threshold": 0.09796866029500961,
+    "val_trades": 190,
+    "val_mean_gross": -0.5208947368420803,
+    "validation_daily_score_cost025": -4.20949859183269
+  },
+  {
+    "model": "price_plus_all",
+    "horizon": 120,
+    "kind": "sign",
+    "quantile": 0.95,
+    "threshold": 0.11311270296573639,
+    "val_trades": 113,
+    "val_mean_gross": -0.13106194690264433,
+    "validation_daily_score_cost025": -1.5323806897736059
+  }
+]

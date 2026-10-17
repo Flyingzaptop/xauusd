@@ -1,0 +1,612 @@
+{"phase": "loading_dataset", "seconds": 0.0, "allocated_GB": 0.0}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 54.8, "allocated_GB": 63.77}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 60.6, "allocated_GB": 63.77}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 98.8, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 104.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "dev_cycle_001", "done": 0, "total": 25940, "seconds": 135.5, "allocated_GB": 63.92}
+{"phase": "evaluation", "label": "dev_cycle_001", "done": 8192, "total": 25940, "seconds": 141.3, "allocated_GB": 63.92}
+{"phase": "evaluation", "label": "dev_cycle_001", "done": 16384, "total": 25940, "seconds": 147.2, "allocated_GB": 63.92}
+{"phase": "evaluation", "label": "dev_cycle_001", "done": 24576, "total": 25940, "seconds": 153.1, "allocated_GB": 63.92}
+{"phase": "meta_training", "cycle": 1, "examples": 8192, "best_dev_utility": -6.980626850503275, "entropy": 1.0927354916930199, "entropy_alpha": 0.04574645576873561, "seconds": 154.6, "allocated_GB": 62.61}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 154.8, "allocated_GB": 63.92}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 160.6, "allocated_GB": 63.92}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 198.7, "allocated_GB": 63.98}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 204.6, "allocated_GB": 63.98}
+{"phase": "meta_training", "cycle": 2, "examples": 16384, "best_dev_utility": -6.980626850503275, "entropy": 1.0930589362978935, "entropy_alpha": 0.04574654860060873, "seconds": 236.3, "allocated_GB": 62.67}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 236.5, "allocated_GB": 63.98}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 242.4, "allocated_GB": 63.98}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 280.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 286.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 3, "examples": 24576, "best_dev_utility": -6.980626850503275, "entropy": 1.093765813857317, "entropy_alpha": 0.04574657149775191, "seconds": 318.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 318.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 324.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 361.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 367.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 4, "examples": 32768, "best_dev_utility": -6.980626850503275, "entropy": 0.9969017114490271, "entropy_alpha": 0.03871655392763389, "seconds": 399.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 399.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 405.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 443.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 449.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 5, "examples": 40960, "best_dev_utility": -6.980626850503275, "entropy": 0.8659907765686512, "entropy_alpha": 0.03921889774976735, "seconds": 481.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 481.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 487.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 524.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 530.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 6, "examples": 49152, "best_dev_utility": -6.980626850503275, "entropy": 0.778125605545938, "entropy_alpha": 0.039634521747952914, "seconds": 562.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 562.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 568.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 606.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 611.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 7, "examples": 57344, "best_dev_utility": -6.980626850503275, "entropy": 0.3601138535887003, "entropy_alpha": 0.03703672558356219, "seconds": 643.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 643.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 649.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 687.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 693.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_008", "done": 0, "total": 25940, "seconds": 725.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_008", "done": 8192, "total": 25940, "seconds": 731.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_008", "done": 16384, "total": 25940, "seconds": 736.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_008", "done": 24576, "total": 25940, "seconds": 742.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 8, "examples": 65536, "best_dev_utility": -2.7720879604219464, "entropy": 0.25221229530870914, "entropy_alpha": 0.039358792686522155, "seconds": 744.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 744.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 750.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 788.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 794.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 9, "examples": 73728, "best_dev_utility": -2.7720879604219464, "entropy": 0.21113925706595182, "entropy_alpha": 0.04100380749738553, "seconds": 826.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 826.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 832.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 870.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 876.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 10, "examples": 81920, "best_dev_utility": -2.7720879604219464, "entropy": 0.1028199871070683, "entropy_alpha": 0.041657501675770064, "seconds": 907.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 907.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 913.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 950.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 956.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 11, "examples": 90112, "best_dev_utility": -2.7720879604219464, "entropy": 0.049307609791867435, "entropy_alpha": 0.045383210643878236, "seconds": 987.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 987.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 993.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 1031.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 1037.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 12, "examples": 98304, "best_dev_utility": -2.7720879604219464, "entropy": 0.0490973733831197, "entropy_alpha": 0.04722738522955995, "seconds": 1069.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 1069.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 1075.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 1112.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 1118.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 13, "examples": 106496, "best_dev_utility": -2.7720879604219464, "entropy": 0.0793365896679461, "entropy_alpha": 0.04815254444671363, "seconds": 1150.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 1150.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 1156.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 1194.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 1200.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 14, "examples": 114688, "best_dev_utility": -2.7720879604219464, "entropy": 0.05320944415871054, "entropy_alpha": 0.05320584838453022, "seconds": 1232.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 1232.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 1238.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 1276.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 1282.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 15, "examples": 122880, "best_dev_utility": -2.7720879604219464, "entropy": 0.0291565841762349, "entropy_alpha": 0.05568799961191146, "seconds": 1313.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1314.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1319.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1357.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1363.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_016", "done": 0, "total": 25940, "seconds": 1395.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_016", "done": 8192, "total": 25940, "seconds": 1401.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_016", "done": 16384, "total": 25940, "seconds": 1406.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_016", "done": 24576, "total": 25940, "seconds": 1412.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 16, "examples": 131072, "best_dev_utility": -2.7720879604219464, "entropy": 0.0380091400584206, "entropy_alpha": 0.056481143414032584, "seconds": 1414.3, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 1414.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 1420.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 1458.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 1463.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 17, "examples": 139264, "best_dev_utility": -2.7720879604219464, "entropy": 0.03797550802119076, "entropy_alpha": 0.06252378285109952, "seconds": 1495.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 1495.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 1501.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 1538.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 1544.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 18, "examples": 147456, "best_dev_utility": -2.7720879604219464, "entropy": 0.033711134165059775, "entropy_alpha": 0.06570830548395849, "seconds": 1575.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 1576.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 1581.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 1619.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 1625.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 19, "examples": 155648, "best_dev_utility": -2.7720879604219464, "entropy": 0.048110700561665, "entropy_alpha": 0.06648961704445025, "seconds": 1655.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 1656.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 1661.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 1700.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 1705.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 20, "examples": 163840, "best_dev_utility": -2.7720879604219464, "entropy": 0.02356498857261613, "entropy_alpha": 0.0738179680743547, "seconds": 1737.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 1738.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 1743.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 1781.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 1787.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 21, "examples": 172032, "best_dev_utility": -2.7720879604219464, "entropy": 0.03290077525889501, "entropy_alpha": 0.07752886723764973, "seconds": 1818.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1819.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1824.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1863.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1868.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 22, "examples": 180224, "best_dev_utility": -2.7720879604219464, "entropy": 0.06317457172553986, "entropy_alpha": 0.07773305054784639, "seconds": 1900.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1901.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1906.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1945.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1950.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 23, "examples": 188416, "best_dev_utility": -2.7720879604219464, "entropy": 0.018703377339988947, "entropy_alpha": 0.08746651986199344, "seconds": 1982.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 1982.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 1988.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 2027.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 2032.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_024", "done": 0, "total": 25940, "seconds": 2064.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_024", "done": 8192, "total": 25940, "seconds": 2070.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_024", "done": 16384, "total": 25940, "seconds": 2075.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_024", "done": 24576, "total": 25940, "seconds": 2081.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 24, "examples": 196608, "best_dev_utility": -2.0602488515141673, "entropy": 0.04772898287046701, "entropy_alpha": 0.09124123877057885, "seconds": 2083.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 2083.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 2089.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 2127.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 2133.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 25, "examples": 204800, "best_dev_utility": -2.0602488515141673, "entropy": 0.03663685970241204, "entropy_alpha": 0.09123741688705092, "seconds": 2165.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 2165.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 2171.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 2209.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 2215.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 26, "examples": 212992, "best_dev_utility": -2.0602488515141673, "entropy": 0.05205066967755556, "entropy_alpha": 0.10331224637634573, "seconds": 2247.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13421, "seconds": 2247.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13421, "seconds": 2253.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13421, "seconds": 2291.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13421, "seconds": 2297.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 27, "examples": 221184, "best_dev_utility": -2.0602488515141673, "entropy": 0.03612793539650738, "entropy_alpha": 0.10732446836411484, "seconds": 2328.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 2329.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 2335.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 2373.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 2379.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 28, "examples": 229376, "best_dev_utility": -2.0602488515141673, "entropy": 0.029465208703186363, "entropy_alpha": 0.10770538964224421, "seconds": 2410.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 2411.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 2417.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 2455.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 2460.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 29, "examples": 237568, "best_dev_utility": -2.0602488515141673, "entropy": 0.06459209823515266, "entropy_alpha": 0.12046233166677991, "seconds": 2492.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 2492.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 2498.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 2536.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 2542.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 30, "examples": 245760, "best_dev_utility": -2.0602488515141673, "entropy": 0.041304830578155816, "entropy_alpha": 0.12635025529764496, "seconds": 2574.4, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 2574.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 2580.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 2618.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 2624.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 31, "examples": 253952, "best_dev_utility": -2.0602488515141673, "entropy": 0.0428191440878436, "entropy_alpha": 0.12689071734557295, "seconds": 2656.3, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 2656.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 2662.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 2699.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 2705.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_032", "done": 0, "total": 25940, "seconds": 2735.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_032", "done": 8192, "total": 25940, "seconds": 2741.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_032", "done": 16384, "total": 25940, "seconds": 2747.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_032", "done": 24576, "total": 25940, "seconds": 2753.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 32, "examples": 262144, "best_dev_utility": -0.6393206389134328, "entropy": 0.07930889213457704, "entropy_alpha": 0.14039432392293055, "seconds": 2755.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 2755.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 2761.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 2799.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 2805.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 33, "examples": 270336, "best_dev_utility": -0.6393206389134328, "entropy": 0.0325251764152199, "entropy_alpha": 0.14891686507993399, "seconds": 2837.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 2837.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 2843.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 2881.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 2887.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 34, "examples": 278528, "best_dev_utility": -0.6393206389134328, "entropy": 0.03616617125226185, "entropy_alpha": 0.14942602017357842, "seconds": 2919.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 2919.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 2925.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 2963.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 2969.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 35, "examples": 286720, "best_dev_utility": -0.6393206389134328, "entropy": 0.20202891412191093, "entropy_alpha": 0.16157178346309892, "seconds": 3001.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 3001.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 3007.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 3045.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 3051.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 36, "examples": 294912, "best_dev_utility": -0.6393206389134328, "entropy": 0.1645662144292146, "entropy_alpha": 0.1745608044890063, "seconds": 3082.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 3082.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 3088.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 3127.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 3132.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 37, "examples": 303104, "best_dev_utility": -0.6393206389134328, "entropy": 0.03396987006999552, "entropy_alpha": 0.17612703884652378, "seconds": 3164.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 3165.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 3170.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 3208.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 3214.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 38, "examples": 311296, "best_dev_utility": -0.6393206389134328, "entropy": 0.7803188320249319, "entropy_alpha": 0.1623839272402348, "seconds": 3246.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13787, "seconds": 3246.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13787, "seconds": 3252.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13787, "seconds": 3290.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13787, "seconds": 3296.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 39, "examples": 319488, "best_dev_utility": -0.6393206389134328, "entropy": 0.8471369743347168, "entropy_alpha": 0.17279672441691868, "seconds": 3328.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 3328.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 3334.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 3372.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 3378.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_040", "done": 0, "total": 25940, "seconds": 3409.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_040", "done": 8192, "total": 25940, "seconds": 3415.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_040", "done": 16384, "total": 25940, "seconds": 3421.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_040", "done": 24576, "total": 25940, "seconds": 3427.5, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 40, "examples": 327680, "best_dev_utility": -0.6393206389134328, "entropy": 0.2521022317232564, "entropy_alpha": 0.20530668358600854, "seconds": 3429.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 3429.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 3435.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 3472.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 3478.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 41, "examples": 335872, "best_dev_utility": -0.6393206389134328, "entropy": 0.7449120562523603, "entropy_alpha": 0.15174020273549374, "seconds": 3509.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 3509.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 3515.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 3553.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 3559.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 42, "examples": 344064, "best_dev_utility": -0.6393206389134328, "entropy": 0.8215557225048542, "entropy_alpha": 0.15847519109702482, "seconds": 3591.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 3591.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 3597.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 3635.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 3641.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 43, "examples": 352256, "best_dev_utility": -0.6393206389134328, "entropy": 0.9040916468948126, "entropy_alpha": 0.19739751123761545, "seconds": 3672.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 3673.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 3678.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 3717.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 3723.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 44, "examples": 360448, "best_dev_utility": -0.6393206389134328, "entropy": 0.7590046040713787, "entropy_alpha": 0.1421836812393243, "seconds": 3754.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 3755.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 3761.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 3798.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 3804.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 45, "examples": 368640, "best_dev_utility": -0.6393206389134328, "entropy": 0.7994751092046499, "entropy_alpha": 0.14567485055074703, "seconds": 3836.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 3836.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 3842.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13783, "seconds": 3880.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13783, "seconds": 3886.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 46, "examples": 376832, "best_dev_utility": -0.6393206389134328, "entropy": 0.8780807666480541, "entropy_alpha": 0.17669027017366032, "seconds": 3918.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 3918.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 3924.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 3962.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 3968.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 47, "examples": 385024, "best_dev_utility": -0.6393206389134328, "entropy": 0.7448286190629005, "entropy_alpha": 0.13318691061663845, "seconds": 4000.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 4000.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 4006.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 4044.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 4050.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_048", "done": 0, "total": 25940, "seconds": 4081.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_048", "done": 8192, "total": 25940, "seconds": 4087.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_048", "done": 16384, "total": 25940, "seconds": 4092.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_048", "done": 24576, "total": 25940, "seconds": 4098.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 48, "examples": 393216, "best_dev_utility": -0.6393206389134328, "entropy": 0.8070391044020653, "entropy_alpha": 0.13441736378920432, "seconds": 4100.4, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 4100.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 4106.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 4144.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 4149.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 49, "examples": 401408, "best_dev_utility": -0.6393206389134328, "entropy": 0.8353524506092072, "entropy_alpha": 0.16085001862309997, "seconds": 4181.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 4181.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 4187.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 4225.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 4231.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 50, "examples": 409600, "best_dev_utility": -0.6393206389134328, "entropy": 0.7211282607167959, "entropy_alpha": 0.12564598296962484, "seconds": 4263.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 4263.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 4269.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 4307.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 4313.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 51, "examples": 417792, "best_dev_utility": -0.6393206389134328, "entropy": 0.7906578090041876, "entropy_alpha": 0.12388794151948646, "seconds": 4345.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 4345.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 4351.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 4389.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 4395.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 52, "examples": 425984, "best_dev_utility": -0.6393206389134328, "entropy": 0.8161600902676582, "entropy_alpha": 0.14734422608552963, "seconds": 4426.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 4427.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 4433.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 4471.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 4477.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 53, "examples": 434176, "best_dev_utility": -0.6393206389134328, "entropy": 0.7077105976641178, "entropy_alpha": 0.11899386099022957, "seconds": 4508.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 4509.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 4514.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13634, "seconds": 4553.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13634, "seconds": 4558.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 54, "examples": 442368, "best_dev_utility": -0.6393206389134328, "entropy": 0.7596785295754671, "entropy_alpha": 0.1153096017338438, "seconds": 4590.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 4590.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 4596.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 4634.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 4640.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 55, "examples": 450560, "best_dev_utility": -0.6393206389134328, "entropy": 0.8656837604939938, "entropy_alpha": 0.13428201001922435, "seconds": 4672.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 4673.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 4678.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 4717.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 4722.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_056", "done": 0, "total": 25940, "seconds": 4754.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_056", "done": 8192, "total": 25940, "seconds": 4760.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_056", "done": 16384, "total": 25940, "seconds": 4766.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_056", "done": 24576, "total": 25940, "seconds": 4771.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 56, "examples": 458752, "best_dev_utility": -0.25445934187844393, "entropy": 0.7350610084831715, "entropy_alpha": 0.11283465231447565, "seconds": 4773.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 4774.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 4779.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 4817.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 4823.5, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 57, "examples": 466944, "best_dev_utility": -0.25445934187844393, "entropy": 0.758986184373498, "entropy_alpha": 0.10795785997549684, "seconds": 4854.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 4855.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 4861.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 4899.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 4904.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 58, "examples": 475136, "best_dev_utility": -0.25445934187844393, "entropy": 0.8500975389033556, "entropy_alpha": 0.12113364447763464, "seconds": 4936.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 4937.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 4943.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 4981.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 4987.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 59, "examples": 483328, "best_dev_utility": -0.25445934187844393, "entropy": 0.7414726447314024, "entropy_alpha": 0.10611503332921576, "seconds": 5019.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5019.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5025.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5063.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5069.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 60, "examples": 491520, "best_dev_utility": -0.25445934187844393, "entropy": 0.7352464124560356, "entropy_alpha": 0.10117210796237838, "seconds": 5100.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 5101.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 5107.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 5144.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 5150.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 61, "examples": 499712, "best_dev_utility": -0.25445934187844393, "entropy": 0.8068029787391424, "entropy_alpha": 0.11098433807899138, "seconds": 5182.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 5182.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 5188.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 5225.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 5231.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 62, "examples": 507904, "best_dev_utility": -0.25445934187844393, "entropy": 0.7266186326742172, "entropy_alpha": 0.10003355591362463, "seconds": 5262.2, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 5262.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 5268.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 5306.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 5312.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 63, "examples": 516096, "best_dev_utility": -0.25445934187844393, "entropy": 0.7433725371956825, "entropy_alpha": 0.09530393450456835, "seconds": 5344.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 5344.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 5350.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 5388.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 5394.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_064", "done": 0, "total": 25940, "seconds": 5425.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_064", "done": 8192, "total": 25940, "seconds": 5431.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_064", "done": 16384, "total": 25940, "seconds": 5437.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_064", "done": 24576, "total": 25940, "seconds": 5443.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 64, "examples": 524288, "best_dev_utility": -0.25445934187844393, "entropy": 0.7845638748258352, "entropy_alpha": 0.1025944789045743, "seconds": 5444.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5444.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5450.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5488.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5494.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 65, "examples": 532480, "best_dev_utility": -0.25445934187844393, "entropy": 0.7361424677073956, "entropy_alpha": 0.09438969612861653, "seconds": 5526.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 5526.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 5532.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 5570.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 5576.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 66, "examples": 540672, "best_dev_utility": -0.25445934187844393, "entropy": 0.7134338691830635, "entropy_alpha": 0.0901313136704734, "seconds": 5608.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 5608.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 5614.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13620, "seconds": 5652.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13620, "seconds": 5658.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 67, "examples": 548864, "best_dev_utility": -0.25445934187844393, "entropy": 0.76665267534554, "entropy_alpha": 0.09539917359511718, "seconds": 5690.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13421, "seconds": 5690.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13421, "seconds": 5696.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13421, "seconds": 5734.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13421, "seconds": 5740.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 68, "examples": 557056, "best_dev_utility": -0.25445934187844393, "entropy": 0.7280960381031036, "entropy_alpha": 0.08898665222004956, "seconds": 5772.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 5772.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 5778.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 5815.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 5821.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 69, "examples": 565248, "best_dev_utility": -0.25445934187844393, "entropy": 0.7163706701248884, "entropy_alpha": 0.08528198194853803, "seconds": 5853.3, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 5853.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 5859.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 5897.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 5903.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 70, "examples": 573440, "best_dev_utility": -0.25445934187844393, "entropy": 0.7666457947343588, "entropy_alpha": 0.08900059305155045, "seconds": 5935.3, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5935.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5941.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13779, "seconds": 5979.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13779, "seconds": 5985.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 71, "examples": 581632, "best_dev_utility": -0.25445934187844393, "entropy": 0.7240340206772089, "entropy_alpha": 0.08427167798550303, "seconds": 6017.4, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 6017.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 6023.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 6060.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 6066.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_072", "done": 0, "total": 25940, "seconds": 6096.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_072", "done": 8192, "total": 25940, "seconds": 6102.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_072", "done": 16384, "total": 25940, "seconds": 6108.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_072", "done": 24576, "total": 25940, "seconds": 6114.5, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 72, "examples": 589824, "best_dev_utility": 0.46709645130497485, "entropy": 0.719025669619441, "entropy_alpha": 0.08107696257925369, "seconds": 6116.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 6116.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 6122.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13777, "seconds": 6160.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13777, "seconds": 6166.5, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 73, "examples": 598016, "best_dev_utility": 0.46709645130497485, "entropy": 0.738037571310997, "entropy_alpha": 0.08339598998825115, "seconds": 6198.4, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 6198.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 6204.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 6242.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 6248.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 74, "examples": 606208, "best_dev_utility": 0.46709645130497485, "entropy": 0.7407877892255783, "entropy_alpha": 0.07933540345371959, "seconds": 6280.1, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 6280.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 6286.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 6324.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 6330.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 75, "examples": 614400, "best_dev_utility": 0.46709645130497485, "entropy": 0.6951015237718821, "entropy_alpha": 0.07656609102036248, "seconds": 6361.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 6362.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 6368.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 6406.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 6412.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 76, "examples": 622592, "best_dev_utility": 0.46709645130497485, "entropy": 0.6851138807833195, "entropy_alpha": 0.07891871334236844, "seconds": 6444.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 6444.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 6450.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13781, "seconds": 6488.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13781, "seconds": 6494.1, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 77, "examples": 630784, "best_dev_utility": 0.46709645130497485, "entropy": 0.6324110142886639, "entropy_alpha": 0.07594344231215, "seconds": 6526.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 6526.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 6532.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13628, "seconds": 6570.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13628, "seconds": 6576.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 78, "examples": 638976, "best_dev_utility": 0.46709645130497485, "entropy": 0.5628733141347766, "entropy_alpha": 0.07452850756214466, "seconds": 6607.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 6608.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 6613.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13098, "seconds": 6651.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13098, "seconds": 6657.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 79, "examples": 647168, "best_dev_utility": 0.46709645130497485, "entropy": 0.5616883616894484, "entropy_alpha": 0.07732864037671293, "seconds": 6688.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 6689.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 6694.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13189, "seconds": 6732.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13189, "seconds": 6738.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_080", "done": 0, "total": 25940, "seconds": 6769.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_080", "done": 8192, "total": 25940, "seconds": 6775.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_080", "done": 16384, "total": 25940, "seconds": 6781.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_080", "done": 24576, "total": 25940, "seconds": 6787.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 80, "examples": 655360, "best_dev_utility": 0.7250379895493043, "entropy": 0.5988637777045369, "entropy_alpha": 0.07391022066129503, "seconds": 6788.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 6789.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 6795.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13780, "seconds": 6833.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13780, "seconds": 6839.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 81, "examples": 663552, "best_dev_utility": 0.7250379895493043, "entropy": 0.37337090354412794, "entropy_alpha": 0.07713640162781474, "seconds": 6870.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 6871.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 6877.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 6914.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 6920.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 82, "examples": 671744, "best_dev_utility": 0.7250379895493043, "entropy": 0.4478910192847252, "entropy_alpha": 0.07811220532095361, "seconds": 6952.0, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 6952.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 6958.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 6996.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 7002.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 83, "examples": 679936, "best_dev_utility": 0.7250379895493043, "entropy": 0.3007823368534446, "entropy_alpha": 0.0763071891928247, "seconds": 7033.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 7033.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 7039.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 7078.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 7083.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 84, "examples": 688128, "best_dev_utility": 0.7250379895493043, "entropy": 0.47713094111531973, "entropy_alpha": 0.07996685903899234, "seconds": 7115.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 7116.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 7121.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13548, "seconds": 7159.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13548, "seconds": 7165.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 85, "examples": 696320, "best_dev_utility": 0.7250379895493043, "entropy": 0.17208960838615894, "entropy_alpha": 0.08444230004172903, "seconds": 7197.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 7197.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 7203.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12401, "seconds": 7240.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12401, "seconds": 7246.7, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 86, "examples": 704512, "best_dev_utility": 0.7250379895493043, "entropy": 0.08732313581276685, "entropy_alpha": 0.086041514215274, "seconds": 7277.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 7277.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 7283.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 7321.3, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 7327.2, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 87, "examples": 712704, "best_dev_utility": 0.7250379895493043, "entropy": 0.3786284988746047, "entropy_alpha": 0.08307921923725972, "seconds": 7358.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 7358.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 7364.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13171, "seconds": 7402.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13171, "seconds": 7408.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_088", "done": 0, "total": 25940, "seconds": 7439.2, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_088", "done": 8192, "total": 25940, "seconds": 7445.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_088", "done": 16384, "total": 25940, "seconds": 7451.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_088", "done": 24576, "total": 25940, "seconds": 7456.9, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 88, "examples": 720896, "best_dev_utility": 0.7250379895493043, "entropy": 0.020648934470955282, "entropy_alpha": 0.09833097360022774, "seconds": 7458.5, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 7458.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 7464.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 7502.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 7508.6, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 89, "examples": 729088, "best_dev_utility": 0.7250379895493043, "entropy": 0.033759675396140665, "entropy_alpha": 0.10099377815873292, "seconds": 7540.6, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13187, "seconds": 7540.7, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13187, "seconds": 7546.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13187, "seconds": 7584.4, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13187, "seconds": 7590.3, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 90, "examples": 737280, "best_dev_utility": 0.7250379895493043, "entropy": 0.19024374708533287, "entropy_alpha": 0.09059937737844109, "seconds": 7621.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 7622.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 7627.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13788, "seconds": 7665.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13788, "seconds": 7671.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 91, "examples": 745472, "best_dev_utility": 0.7250379895493043, "entropy": 0.013935811526607722, "entropy_alpha": 0.11664499890440005, "seconds": 7703.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 7704.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 7709.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13100, "seconds": 7747.5, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13100, "seconds": 7753.4, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 92, "examples": 753664, "best_dev_utility": 0.7250379895493043, "entropy": 0.04782232362776995, "entropy_alpha": 0.11895875467222909, "seconds": 7784.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13787, "seconds": 7785.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13787, "seconds": 7790.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13787, "seconds": 7829.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13787, "seconds": 7835.0, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 93, "examples": 761856, "best_dev_utility": 0.7250379895493043, "entropy": 0.2588647212833166, "entropy_alpha": 0.1009029780219737, "seconds": 7866.9, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 7867.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 7873.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 12966, "seconds": 7910.6, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 12966, "seconds": 7916.5, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 94, "examples": 770048, "best_dev_utility": 0.7250379895493043, "entropy": 0.016487814660649747, "entropy_alpha": 0.13840384748628617, "seconds": 7947.8, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 7948.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 7953.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13636, "seconds": 7992.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13636, "seconds": 7997.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 95, "examples": 778240, "best_dev_utility": 0.7250379895493043, "entropy": 0.0737626125337556, "entropy_alpha": 0.13888772234350139, "seconds": 8029.7, "allocated_GB": 62.74}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 8029.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 8035.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 0, "total": 13782, "seconds": 8073.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "meta", "done": 8192, "total": 13782, "seconds": 8079.8, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_096", "done": 0, "total": 25940, "seconds": 8111.1, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_096", "done": 8192, "total": 25940, "seconds": 8117.0, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_096", "done": 16384, "total": 25940, "seconds": 8122.9, "allocated_GB": 64.05}
+{"phase": "evaluation", "label": "dev_cycle_096", "done": 24576, "total": 25940, "seconds": 8128.8, "allocated_GB": 64.05}
+{"phase": "meta_training", "cycle": 96, "examples": 786432, "best_dev_utility": 0.7250379895493043, "entropy": 0.17413591779768467, "entropy_alpha": 0.11216090711000137, "seconds": 8130.4, "allocated_GB": 62.74}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 0, "total_steps": 768, "seconds": 8131.9, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 64, "total_steps": 768, "seconds": 8197.4, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 128, "total_steps": 768, "seconds": 8262.8, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 192, "total_steps": 768, "seconds": 8328.2, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 256, "total_steps": 768, "seconds": 8393.6, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 320, "total_steps": 768, "seconds": 8458.9, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 384, "total_steps": 768, "seconds": 8524.3, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 448, "total_steps": 768, "seconds": 8589.6, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 512, "total_steps": 768, "seconds": 8655.0, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 576, "total_steps": 768, "seconds": 8720.4, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 640, "total_steps": 768, "seconds": 8785.7, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "learned_teacher", "step": 704, "total_steps": 768, "seconds": 8851.1, "allocated_GB": 62.54}
+{"phase": "evaluation", "label": "learned_teacher_dev", "done": 0, "total": 25940, "seconds": 8915.8, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_dev", "done": 8192, "total": 25940, "seconds": 8921.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_dev", "done": 16384, "total": 25940, "seconds": 8927.6, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_dev", "done": 24576, "total": 25940, "seconds": 8933.5, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 0, "total": 79913, "seconds": 8935.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 8192, "total": 79913, "seconds": 8960.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 16384, "total": 79913, "seconds": 8985.4, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 24576, "total": 79913, "seconds": 9010.6, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 32768, "total": 79913, "seconds": 9035.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 40960, "total": 79913, "seconds": 9061.0, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 49152, "total": 79913, "seconds": 9086.1, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 57344, "total": 79913, "seconds": 9111.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 65536, "total": 79913, "seconds": 9136.4, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "learned_teacher_test", "done": 73728, "total": 79913, "seconds": 9161.8, "allocated_GB": 63.85}
+{"phase": "fresh_student", "mode": "direct_money", "step": 0, "total_steps": 768, "seconds": 9181.3, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 64, "total_steps": 768, "seconds": 9236.0, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 128, "total_steps": 768, "seconds": 9290.7, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 192, "total_steps": 768, "seconds": 9345.5, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 256, "total_steps": 768, "seconds": 9400.2, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 320, "total_steps": 768, "seconds": 9454.9, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 384, "total_steps": 768, "seconds": 9509.6, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 448, "total_steps": 768, "seconds": 9564.4, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 512, "total_steps": 768, "seconds": 9619.1, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 576, "total_steps": 768, "seconds": 9673.8, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 640, "total_steps": 768, "seconds": 9728.6, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "direct_money", "step": 704, "total_steps": 768, "seconds": 9783.3, "allocated_GB": 62.54}
+{"phase": "evaluation", "label": "direct_money_dev", "done": 0, "total": 25940, "seconds": 9837.5, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_dev", "done": 8192, "total": 25940, "seconds": 9843.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_dev", "done": 16384, "total": 25940, "seconds": 9849.2, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_dev", "done": 24576, "total": 25940, "seconds": 9855.1, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 0, "total": 79913, "seconds": 9856.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 8192, "total": 79913, "seconds": 9881.8, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 16384, "total": 79913, "seconds": 9906.9, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 24576, "total": 79913, "seconds": 9932.0, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 32768, "total": 79913, "seconds": 9957.1, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 40960, "total": 79913, "seconds": 9982.2, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 49152, "total": 79913, "seconds": 10007.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 57344, "total": 79913, "seconds": 10032.4, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 65536, "total": 79913, "seconds": 10057.5, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "direct_money_test", "done": 73728, "total": 79913, "seconds": 10082.6, "allocated_GB": 63.85}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 0, "total_steps": 768, "seconds": 10102.1, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 64, "total_steps": 768, "seconds": 10167.5, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 128, "total_steps": 768, "seconds": 10232.8, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 192, "total_steps": 768, "seconds": 10298.2, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 256, "total_steps": 768, "seconds": 10363.5, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 320, "total_steps": 768, "seconds": 10428.9, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 384, "total_steps": 768, "seconds": 10494.2, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 448, "total_steps": 768, "seconds": 10559.5, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 512, "total_steps": 768, "seconds": 10624.9, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 576, "total_steps": 768, "seconds": 10690.2, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 640, "total_steps": 768, "seconds": 10755.5, "allocated_GB": 62.54}
+{"phase": "fresh_student", "mode": "untrained_teacher", "step": 704, "total_steps": 768, "seconds": 10820.8, "allocated_GB": 62.54}
+{"phase": "evaluation", "label": "untrained_teacher_dev", "done": 0, "total": 25940, "seconds": 10885.5, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_dev", "done": 8192, "total": 25940, "seconds": 10891.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_dev", "done": 16384, "total": 25940, "seconds": 10897.2, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_dev", "done": 24576, "total": 25940, "seconds": 10903.1, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 0, "total": 79913, "seconds": 10904.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 8192, "total": 79913, "seconds": 10929.8, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 16384, "total": 79913, "seconds": 10954.9, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 24576, "total": 79913, "seconds": 10979.9, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 32768, "total": 79913, "seconds": 11005.0, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 40960, "total": 79913, "seconds": 11030.3, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 49152, "total": 79913, "seconds": 11055.6, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 57344, "total": 79913, "seconds": 11080.7, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 65536, "total": 79913, "seconds": 11105.8, "allocated_GB": 63.85}
+{"phase": "evaluation", "label": "untrained_teacher_test", "done": 73728, "total": 79913, "seconds": 11130.9, "allocated_GB": 63.85}
+{"phase": "complete", "seconds": 11149.2, "allocated_GB": 62.45}

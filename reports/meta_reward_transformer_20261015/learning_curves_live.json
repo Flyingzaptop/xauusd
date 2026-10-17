@@ -1,0 +1,3069 @@
+[
+  {
+    "cycle": 1,
+    "student": 0,
+    "examples": 8192,
+    "student_examples": [
+      8192,
+      0,
+      0
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -9.56999983638525,
+      "trades": 25,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9000
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.005000010132789612,
+      "trades": 25,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9000
+    },
+    "teacher_external_reward": 9.57499984651804,
+    "teacher_advantage": 9.57499984651804,
+    "teacher_gradient_norm": 0.9191468358039856,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.1299372314242646,
+    "student_entropy": 1.0921608358621597,
+    "seconds": 125.9288868640001,
+    "development": {
+      "mean_net_dollars_per_day": -9.2091667096441,
+      "trades": 147,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 2,
+    "student": 1,
+    "examples": 16384,
+    "student_examples": [
+      8192,
+      8192,
+      0
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 7.725000113248825,
+      "trades": 14,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9001
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 2.074999898672104,
+      "trades": 14,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9001
+    },
+    "teacher_external_reward": -5.650000214576721,
+    "teacher_advantage": -6.607500199228525,
+    "teacher_gradient_norm": 0.8291379809379578,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.12030481081455946,
+    "student_entropy": 1.0921944081783295,
+    "seconds": 202.06255573299995
+  },
+  {
+    "cycle": 3,
+    "student": 2,
+    "examples": 24576,
+    "student_examples": [
+      8192,
+      8192,
+      8192
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -4.714999958872795,
+      "trades": 12,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9002
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -3.6450000647455454,
+      "trades": 12,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9002
+    },
+    "teacher_external_reward": 1.0699998941272497,
+    "teacher_advantage": 0.7732499293982983,
+    "teacher_gradient_norm": 0.11086496710777283,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.1357563950587064,
+    "student_entropy": 1.093241397291422,
+    "seconds": 265.8233242629999
+  },
+  {
+    "cycle": 4,
+    "student": 0,
+    "examples": 32768,
+    "student_examples": [
+      16384,
+      8192,
+      8192
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.1150010786950588,
+      "trades": 23,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9003
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 27.100000526756048,
+      "trades": 23,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9003
+    },
+    "teacher_external_reward": 25.98499944806099,
+    "teacher_advantage": 25.610924490392208,
+    "teacher_gradient_norm": 1.7947287559509277,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.06558122541173361,
+    "student_entropy": 1.0211683437228203,
+    "seconds": 331.448231286
+  },
+  {
+    "cycle": 5,
+    "student": 1,
+    "examples": 40960,
+    "student_examples": [
+      16384,
+      16384,
+      8192
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.3900002986192703,
+      "trades": 26,
+      "days": 2,
+      "rows": 2693,
+      "seed": 9004
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 7.3749996945261955,
+      "trades": 22,
+      "days": 2,
+      "rows": 2693,
+      "seed": 9004
+    },
+    "teacher_external_reward": 7.764999993145466,
+    "teacher_advantage": 4.829832586437464,
+    "teacher_gradient_norm": 0.40432414412498474,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.053784981690114364,
+    "student_entropy": 0.8431123048067093,
+    "seconds": 397.1635810549999
+  },
+  {
+    "cycle": 6,
+    "student": 2,
+    "examples": 49152,
+    "student_examples": [
+      16384,
+      16384,
+      16384
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -4.555000111460686,
+      "trades": 26,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9005
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -8.629999741911888,
+      "trades": 21,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9005
+    },
+    "teacher_external_reward": -4.074999630451202,
+    "teacher_advantage": -7.493150295802951,
+    "teacher_gradient_norm": 0.7195665240287781,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0669699961290462,
+    "student_entropy": 0.7813677592203021,
+    "seconds": 462.795950576
+  },
+  {
+    "cycle": 7,
+    "student": 0,
+    "examples": 57344,
+    "student_examples": [
+      24576,
+      16384,
+      16384
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 10.044999840669334,
+      "trades": 23,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9006
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 5.114999815821648,
+      "trades": 20,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9006
+    },
+    "teacher_external_reward": -4.930000024847686,
+    "teacher_advantage": -7.59883566061914,
+    "teacher_gradient_norm": 0.4951806664466858,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.06576850378041854,
+    "student_entropy": 0.43133821431547403,
+    "seconds": 528.4302522759999
+  },
+  {
+    "cycle": 8,
+    "student": 1,
+    "examples": 65536,
+    "student_examples": [
+      24576,
+      24576,
+      16384
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -3.169999897480011,
+      "trades": 12,
+      "days": 2,
+      "rows": 1288,
+      "seed": 9007
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.569999909028411,
+      "trades": 8,
+      "days": 2,
+      "rows": 1288,
+      "seed": 9007
+    },
+    "teacher_external_reward": 4.739999806508422,
+    "teacher_advantage": 2.831047736798882,
+    "teacher_gradient_norm": 0.26309311389923096,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0914810755639337,
+    "student_entropy": 0.25374795496463776,
+    "seconds": 592.1371128709998,
+    "development": {
+      "mean_net_dollars_per_day": -0.04249982380618652,
+      "trades": 95,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 9,
+    "student": 2,
+    "examples": 73728,
+    "student_examples": [
+      24576,
+      24576,
+      24576
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -9.889999343082309,
+      "trades": 20,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9008
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -15.510000802576542,
+      "trades": 18,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9008
+    },
+    "teacher_external_reward": -5.620001459494233,
+    "teacher_advantage": -7.812058302883662,
+    "teacher_gradient_norm": 0.9000598788261414,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.047460139699978754,
+    "student_entropy": 0.2511269999668002,
+    "seconds": 670.7182389190002
+  },
+  {
+    "cycle": 10,
+    "student": 0,
+    "examples": 81920,
+    "student_examples": [
+      32768,
+      24576,
+      24576
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 7.709999818354845,
+      "trades": 20,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9009
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -10.965000074356794,
+      "trades": 20,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9009
+    },
+    "teacher_external_reward": -18.67499989271164,
+    "teacher_advantage": -20.085850905812702,
+    "teacher_gradient_norm": 1.5085550546646118,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.01802418589068111,
+    "student_entropy": 0.14527518022805452,
+    "seconds": 736.4494812859998
+  },
+  {
+    "cycle": 11,
+    "student": 1,
+    "examples": 90112,
+    "student_examples": [
+      32768,
+      32768,
+      24576
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.9200000241398811,
+      "trades": 14,
+      "days": 2,
+      "rows": 2386,
+      "seed": 9010
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 12.054999962449074,
+      "trades": 14,
+      "days": 2,
+      "rows": 2386,
+      "seed": 9010
+    },
+    "teacher_external_reward": 13.974999986588955,
+    "teacher_advantage": 14.572734064069163,
+    "teacher_gradient_norm": 1.34694242477417,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007746702729491517,
+    "student_entropy": 0.08460281370207667,
+    "seconds": 801.6763520959998
+  },
+  {
+    "cycle": 12,
+    "student": 2,
+    "examples": 98304,
+    "student_examples": [
+      32768,
+      32768,
+      32768
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -5.815000012516975,
+      "trades": 19,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9011
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 5.224999740719795,
+      "trades": 14,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9011
+    },
+    "teacher_external_reward": 11.03999975323677,
+    "teacher_advantage": 10.180460424310063,
+    "teacher_gradient_norm": 0.7767156958580017,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.06113961346272845,
+    "student_entropy": 0.10511775384657085,
+    "seconds": 867.4023591199998
+  },
+  {
+    "cycle": 13,
+    "student": 0,
+    "examples": 106496,
+    "student_examples": [
+      40960,
+      32768,
+      32768
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 5.495000213384628,
+      "trades": 11,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9012
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.6000001579523087,
+      "trades": 9,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9012
+    },
+    "teacher_external_reward": -3.8950000554323196,
+    "teacher_advantage": -5.772585426790034,
+    "teacher_gradient_norm": 0.4380550980567932,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.05435002192098182,
+    "student_entropy": 0.13101068721152842,
+    "seconds": 931.3175801130001
+  },
+  {
+    "cycle": 14,
+    "student": 1,
+    "examples": 114688,
+    "student_examples": [
+      40960,
+      40960,
+      32768
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -7.809999942779541,
+      "trades": 15,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9013
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -5.544999748468399,
+      "trades": 12,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9013
+    },
+    "teacher_external_reward": 2.265000194311142,
+    "teacher_advantage": 0.9646733656324311,
+    "teacher_gradient_norm": 0.1176421195268631,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01033112833101768,
+    "student_entropy": 0.0718719526194036,
+    "seconds": 997.041180749
+  },
+  {
+    "cycle": 15,
+    "student": 2,
+    "examples": 122880,
+    "student_examples": [
+      40960,
+      40960,
+      40960
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.9250002279877663,
+      "trades": 15,
+      "days": 2,
+      "rows": 2696,
+      "seed": 9014
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -3.4500000551342964,
+      "trades": 12,
+      "days": 2,
+      "rows": 2696,
+      "seed": 9014
+    },
+    "teacher_external_reward": -1.5249998271465302,
+    "teacher_advantage": -2.9217939923884844,
+    "teacher_gradient_norm": 0.2259162962436676,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0034296809881197987,
+    "student_entropy": 0.06111779366619885,
+    "seconds": 1062.7627322399999
+  },
+  {
+    "cycle": 16,
+    "student": 0,
+    "examples": 131072,
+    "student_examples": [
+      49152,
+      40960,
+      40960
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.5149999111890793,
+      "trades": 13,
+      "days": 2,
+      "rows": 2755,
+      "seed": 9015
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 5.580000042915344,
+      "trades": 11,
+      "days": 2,
+      "rows": 2755,
+      "seed": 9015
+    },
+    "teacher_external_reward": 5.065000131726265,
+    "teacher_advantage": 3.9603853657231594,
+    "teacher_gradient_norm": 0.46597790718078613,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.04699436448572669,
+    "student_entropy": 0.07230809738393873,
+    "seconds": 1128.5616713589998,
+    "development": {
+      "mean_net_dollars_per_day": -1.9383333104973037,
+      "trades": 69,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 17,
+    "student": 1,
+    "examples": 139264,
+    "student_examples": [
+      49152,
+      49152,
+      40960
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -8.214999854564667,
+      "trades": 13,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9016
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -14.339999824762344,
+      "trades": 12,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9016
+    },
+    "teacher_external_reward": -6.124999970197678,
+    "teacher_advantage": -7.625653272773099,
+    "teacher_gradient_norm": 1.0679659843444824,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.023211401950902655,
+    "student_entropy": 0.04979325435124338,
+    "seconds": 1207.213871029
+  },
+  {
+    "cycle": 18,
+    "student": 2,
+    "examples": 147456,
+    "student_examples": [
+      49152,
+      49152,
+      49152
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.8849999401718378,
+      "trades": 13,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9017
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.770000072196126,
+      "trades": 10,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9017
+    },
+    "teacher_external_reward": 1.1149998679757118,
+    "teacher_advantage": 0.3769118926776003,
+    "teacher_gradient_norm": 0.043211884796619415,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.008448263572063297,
+    "student_entropy": 0.060465730843134224,
+    "seconds": 1272.959179977
+  },
+  {
+    "cycle": 19,
+    "student": 0,
+    "examples": 155648,
+    "student_examples": [
+      57344,
+      49152,
+      49152
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 4.235000178217888,
+      "trades": 8,
+      "days": 2,
+      "rows": 1433,
+      "seed": 9018
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 5.305000141263008,
+      "trades": 8,
+      "days": 2,
+      "rows": 1433,
+      "seed": 9018
+    },
+    "teacher_external_reward": 1.0699999630451202,
+    "teacher_advantage": 0.29422079847924865,
+    "teacher_gradient_norm": 0.0195622481405735,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.015731023817352252,
+    "student_entropy": 0.06104563595727086,
+    "seconds": 1336.826663061
+  },
+  {
+    "cycle": 20,
+    "student": 1,
+    "examples": 163840,
+    "student_examples": [
+      57344,
+      57344,
+      49152
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 6.770000010728836,
+      "trades": 10,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9019
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 4.05500004440546,
+      "trades": 7,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9019
+    },
+    "teacher_external_reward": -2.7149999663233757,
+    "teacher_advantage": -3.5202012107371723,
+    "teacher_gradient_norm": 0.37764960527420044,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.04996686896629399,
+    "student_entropy": 0.028584012063220143,
+    "seconds": 1402.422555487
+  },
+  {
+    "cycle": 21,
+    "student": 2,
+    "examples": 172032,
+    "student_examples": [
+      57344,
+      57344,
+      57344
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -2.165000008419156,
+      "trades": 9,
+      "days": 2,
+      "rows": 2576,
+      "seed": 9020
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.23999996669590473,
+      "trades": 7,
+      "days": 2,
+      "rows": 2576,
+      "seed": 9020
+    },
+    "teacher_external_reward": 2.404999975115061,
+    "teacher_advantage": 1.9518188517749815,
+    "teacher_gradient_norm": 0.16026154160499573,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.022681090345940902,
+    "student_entropy": 0.04813186265528202,
+    "seconds": 1467.9369186459999
+  },
+  {
+    "cycle": 22,
+    "student": 0,
+    "examples": 180224,
+    "student_examples": [
+      65536,
+      57344,
+      57344
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 11.259999876841903,
+      "trades": 12,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9021
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 6.1750000808387995,
+      "trades": 15,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9021
+    },
+    "teacher_external_reward": -5.084999796003103,
+    "teacher_advantage": -5.733362804520681,
+    "teacher_gradient_norm": 0.6788613200187683,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007789088107529096,
+    "student_entropy": 0.0999443104956299,
+    "seconds": 1533.460670503
+  },
+  {
+    "cycle": 23,
+    "student": 1,
+    "examples": 188416,
+    "student_examples": [
+      65536,
+      65536,
+      57344
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 2.2350001940503716,
+      "trades": 10,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9022
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.1600002013146877,
+      "trades": 11,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9022
+    },
+    "teacher_external_reward": -1.074999992735684,
+    "teacher_advantage": -1.1500267208011932,
+    "teacher_gradient_norm": 0.21919746696949005,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.022905973839442595,
+    "student_entropy": 0.02114106429507956,
+    "seconds": 1599.2347157079998
+  },
+  {
+    "cycle": 24,
+    "student": 2,
+    "examples": 196608,
+    "student_examples": [
+      65536,
+      65536,
+      65536
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.324999950826168,
+      "trades": 11,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9023
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -4.7350000366568565,
+      "trades": 11,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9023
+    },
+    "teacher_external_reward": -3.4100000858306885,
+    "teacher_advantage": -3.3700241418160783,
+    "teacher_gradient_norm": 0.19823050498962402,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0062478035852109315,
+    "student_entropy": 0.04549814108759165,
+    "seconds": 1665.012648035,
+    "development": {
+      "mean_net_dollars_per_day": 1.7575000875319045,
+      "trades": 55,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 25,
+    "student": 0,
+    "examples": 204800,
+    "student_examples": [
+      73728,
+      65536,
+      65536
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -8.755000125616789,
+      "trades": 9,
+      "days": 2,
+      "rows": 1435,
+      "seed": 9024
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -4.1849999614059925,
+      "trades": 7,
+      "days": 2,
+      "rows": 1435,
+      "seed": 9024
+    },
+    "teacher_external_reward": 4.570000164210796,
+    "teacher_advantage": 4.946978522407014,
+    "teacher_gradient_norm": 0.5941327214241028,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.029536231711972505,
+    "student_entropy": 0.0824904718901962,
+    "seconds": 1741.9269734610002
+  },
+  {
+    "cycle": 26,
+    "student": 1,
+    "examples": 212992,
+    "student_examples": [
+      73728,
+      73728,
+      65536
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.4399999380111694,
+      "trades": 6,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9025
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 3.5500000715255737,
+      "trades": 6,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9025
+    },
+    "teacher_external_reward": 4.990000009536743,
+    "teacher_advantage": 4.8722805154922595,
+    "teacher_gradient_norm": 0.4468243718147278,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.009749367451149737,
+    "student_entropy": 0.025013331905938685,
+    "seconds": 1807.3839950450001
+  },
+  {
+    "cycle": 27,
+    "student": 2,
+    "examples": 221184,
+    "student_examples": [
+      73728,
+      73728,
+      73728
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -4.059999942779541,
+      "trades": 6,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9026
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -4.059999942779541,
+      "trades": 6,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9026
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.6049475455937096,
+    "teacher_gradient_norm": 0.07363132387399673,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.01184053675387986,
+    "student_entropy": 0.04031912249047309,
+    "seconds": 1873.079338597
+  },
+  {
+    "cycle": 28,
+    "student": 0,
+    "examples": 229376,
+    "student_examples": [
+      81920,
+      73728,
+      73728
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 6.875000558793545,
+      "trades": 15,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9027
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 5.01000052690506,
+      "trades": 13,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9027
+    },
+    "teacher_external_reward": -1.865000031888485,
+    "teacher_advantage": -2.4094528229228236,
+    "teacher_gradient_norm": 0.32034796476364136,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.010069851563457632,
+    "student_entropy": 0.05680511682294309,
+    "seconds": 1938.6947380810002
+  },
+  {
+    "cycle": 29,
+    "student": 1,
+    "examples": 237568,
+    "student_examples": [
+      81920,
+      81920,
+      73728
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.800000011920929,
+      "trades": 5,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9028
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.8100000023841858,
+      "trades": 3,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9028
+    },
+    "teacher_external_reward": 1.0099999904632568,
+    "teacher_advantage": 0.7064924817212006,
+    "teacher_gradient_norm": 0.06337355822324753,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007533767035056371,
+    "student_entropy": 0.02086494001559913,
+    "seconds": 2004.3267374040001
+  },
+  {
+    "cycle": 30,
+    "student": 2,
+    "examples": 245760,
+    "student_examples": [
+      81920,
+      81920,
+      81920
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -2.6349999979138374,
+      "trades": 11,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9029
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.049999836832285,
+      "trades": 12,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9029
+    },
+    "teacher_external_reward": 3.6849998347461224,
+    "teacher_advantage": 3.310843077831946,
+    "teacher_gradient_norm": 0.3367449939250946,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.004391312642837875,
+    "student_entropy": 0.05205212498549372,
+    "seconds": 2069.950392027
+  },
+  {
+    "cycle": 31,
+    "student": 0,
+    "examples": 253952,
+    "student_examples": [
+      90112,
+      81920,
+      81920
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -6.934999997727573,
+      "trades": 9,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9030
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -2.7799998922273517,
+      "trades": 11,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9030
+    },
+    "teacher_external_reward": 4.155000105500221,
+    "teacher_advantage": 3.4497590408028502,
+    "teacher_gradient_norm": 0.4177617132663727,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.02918489587318618,
+    "student_entropy": 0.06832471292000264,
+    "seconds": 2135.576467083
+  },
+  {
+    "cycle": 32,
+    "student": 1,
+    "examples": 262144,
+    "student_examples": [
+      90112,
+      90112,
+      81920
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 178,
+      "seed": 9031
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 178,
+      "seed": 9031
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.0502169687776561,
+    "teacher_gradient_norm": 0.18011844158172607,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.019590921810959117,
+    "student_entropy": 0.01759028635569848,
+    "seconds": 2197.651906667,
+    "development": {
+      "mean_net_dollars_per_day": 1.2066666533549626,
+      "trades": 20,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 33,
+    "student": 2,
+    "examples": 270336,
+    "student_examples": [
+      90112,
+      90112,
+      90112
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.01500021480023861,
+      "trades": 14,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9032
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 4.6549999210983515,
+      "trades": 11,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9032
+    },
+    "teacher_external_reward": 4.67000013589859,
+    "teacher_advantage": 3.7248048639986995,
+    "teacher_gradient_norm": 0.20935338735580444,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.009437129349862516,
+    "student_entropy": 0.04955876630265266,
+    "seconds": 2276.30599903
+  },
+  {
+    "cycle": 34,
+    "student": 0,
+    "examples": 278528,
+    "student_examples": [
+      98304,
+      90112,
+      90112
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -3.9150001481175423,
+      "trades": 13,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9033
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -2.999999977648258,
+      "trades": 11,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9033
+    },
+    "teacher_external_reward": 0.9150001704692841,
+    "teacher_advantage": -0.4026755878304764,
+    "teacher_gradient_norm": 0.04007439315319061,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.003628300026321085,
+    "student_entropy": 0.04491861956194043,
+    "seconds": 2341.936410464
+  },
+  {
+    "cycle": 35,
+    "student": 1,
+    "examples": 286720,
+    "student_examples": [
+      98304,
+      98304,
+      90112
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -3.4600000083446503,
+      "trades": 5,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9034
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 3.5449999272823334,
+      "trades": 4,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9034
+    },
+    "teacher_external_reward": 7.004999935626984,
+    "teacher_advantage": 5.727591736110271,
+    "teacher_gradient_norm": 0.43129780888557434,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.014066730906051816,
+    "student_entropy": 0.010252556210616603,
+    "seconds": 2407.74096702
+  },
+  {
+    "cycle": 36,
+    "student": 2,
+    "examples": 294912,
+    "student_examples": [
+      98304,
+      98304,
+      98304
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 8.805000271648169,
+      "trades": 12,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9035
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.7249999344348907,
+      "trades": 7,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9035
+    },
+    "teacher_external_reward": -8.080000337213278,
+    "teacher_advantage": -9.930167710341017,
+    "teacher_gradient_norm": 1.1014430522918701,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.016889561645257345,
+    "student_entropy": 0.03693201649002731,
+    "seconds": 2473.479429811
+  },
+  {
+    "cycle": 37,
+    "student": 0,
+    "examples": 303104,
+    "student_examples": [
+      106496,
+      98304,
+      98304
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -20.840000063180923,
+      "trades": 6,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9036
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -21.355000153183937,
+      "trades": 6,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9036
+    },
+    "teacher_external_reward": -0.5150000900030136,
+    "teacher_advantage": -1.372150692096652,
+    "teacher_gradient_norm": 0.09321427345275879,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.034475896059120714,
+    "student_entropy": 0.036949714936781675,
+    "seconds": 2539.214933224
+  },
+  {
+    "cycle": 38,
+    "student": 1,
+    "examples": 311296,
+    "student_examples": [
+      106496,
+      106496,
+      98304
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2694,
+      "seed": 9037
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2694,
+      "seed": 9037
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.7199355328839732,
+    "teacher_gradient_norm": 0.04991152510046959,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.0004182470675004879,
+    "student_entropy": 0.009043999423738569,
+    "seconds": 2604.936850018
+  },
+  {
+    "cycle": 39,
+    "student": 2,
+    "examples": 319488,
+    "student_examples": [
+      106496,
+      106496,
+      106496
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.1299999952316284,
+      "trades": 1,
+      "days": 2,
+      "rows": 173,
+      "seed": 9038
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.1299999952316284,
+      "trades": 1,
+      "days": 2,
+      "rows": 173,
+      "seed": 9038
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.6479419795955759,
+    "teacher_gradient_norm": 0.08983231335878372,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01932592724733695,
+    "student_entropy": 0.02555730292806402,
+    "seconds": 2667.01303788
+  },
+  {
+    "cycle": 40,
+    "student": 0,
+    "examples": 327680,
+    "student_examples": [
+      114688,
+      106496,
+      106496
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 2.0850000008940697,
+      "trades": 4,
+      "days": 2,
+      "rows": 1343,
+      "seed": 9039
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.21000000089406967,
+      "trades": 5,
+      "days": 2,
+      "rows": 1343,
+      "seed": 9039
+    },
+    "teacher_external_reward": -1.875,
+    "teacher_advantage": -2.4581477816360184,
+    "teacher_gradient_norm": 0.23669575154781342,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.04040994770366524,
+    "student_entropy": 0.03201369132148102,
+    "seconds": 2730.8415283990003,
+    "development": {
+      "mean_net_dollars_per_day": -0.541666617927452,
+      "trades": 57,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 41,
+    "student": 1,
+    "examples": 335872,
+    "student_examples": [
+      114688,
+      114688,
+      106496
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.8050000071525574,
+      "trades": 2,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9040
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9040
+    },
+    "teacher_external_reward": 1.8050000071525574,
+    "teacher_advantage": 1.467667003680141,
+    "teacher_gradient_norm": 0.12858489155769348,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.022260044504946563,
+    "student_entropy": 0.008636486323666759,
+    "seconds": 2809.528642998
+  },
+  {
+    "cycle": 42,
+    "student": 2,
+    "examples": 344064,
+    "student_examples": [
+      114688,
+      114688,
+      114688
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -9.129999905824661,
+      "trades": 6,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9041
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.395000010728836,
+      "trades": 4,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9041
+    },
+    "teacher_external_reward": 7.734999895095825,
+    "teacher_advantage": 7.250900191255394,
+    "teacher_gradient_norm": 0.6582762598991394,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.012059222110110568,
+    "student_entropy": 0.01927445671753958,
+    "seconds": 2875.2742154270004
+  },
+  {
+    "cycle": 43,
+    "student": 0,
+    "examples": 352256,
+    "student_examples": [
+      122880,
+      114688,
+      114688
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.3350000530481339,
+      "trades": 5,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9042
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.1850000470876694,
+      "trades": 5,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9042
+    },
+    "teacher_external_reward": 0.15000000596046448,
+    "teacher_advantage": -1.0591897170055056,
+    "teacher_gradient_norm": 0.08914010971784592,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01986296925952047,
+    "student_entropy": 0.050905802636407316,
+    "seconds": 2939.0391764640003
+  },
+  {
+    "cycle": 44,
+    "student": 1,
+    "examples": 360448,
+    "student_examples": [
+      122880,
+      122880,
+      114688
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.07500000298023224,
+      "trades": 1,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9043
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.07500000298023224,
+      "trades": 1,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9043
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.1032707512654196,
+    "teacher_gradient_norm": 0.08858465403318405,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.011117825372821244,
+    "student_entropy": 0.006759970623534173,
+    "seconds": 3004.552181011
+  },
+  {
+    "cycle": 45,
+    "student": 2,
+    "examples": 368640,
+    "student_examples": [
+      122880,
+      122880,
+      122880
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.2949999570846558,
+      "trades": 2,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9044
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.2949999570846558,
+      "trades": 2,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9044
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.9929436761388777,
+    "teacher_gradient_norm": 0.16288375854492188,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.026573676546831848,
+    "student_entropy": 0.01536041108192876,
+    "seconds": 3068.509267197
+  },
+  {
+    "cycle": 46,
+    "student": 0,
+    "examples": 376832,
+    "student_examples": [
+      131072,
+      122880,
+      122880
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 8.154999777674675,
+      "trades": 11,
+      "days": 2,
+      "rows": 2754,
+      "seed": 9045
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.8749998733401299,
+      "trades": 6,
+      "days": 2,
+      "rows": 2754,
+      "seed": 9045
+    },
+    "teacher_external_reward": -7.279999904334545,
+    "teacher_advantage": -8.173649212859535,
+    "teacher_gradient_norm": 0.9603917002677917,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007884820786330238,
+    "student_entropy": 0.02755313745001331,
+    "seconds": 3134.293301622
+  },
+  {
+    "cycle": 47,
+    "student": 1,
+    "examples": 385024,
+    "student_examples": [
+      131072,
+      131072,
+      122880
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 7.774999737739563,
+      "trades": 2,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9046
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -11.164999783039093,
+      "trades": 5,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9046
+    },
+    "teacher_external_reward": -18.939999520778656,
+    "teacher_advantage": -19.01628390801769,
+    "teacher_gradient_norm": 1.5604493618011475,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.02203903988674938,
+    "student_entropy": 0.013398195442277938,
+    "seconds": 3198.255167422
+  },
+  {
+    "cycle": 48,
+    "student": 2,
+    "examples": 393216,
+    "student_examples": [
+      131072,
+      131072,
+      131072
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -2.940000057220459,
+      "trades": 1,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9047
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -2.940000057220459,
+      "trades": 1,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9047
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": 1.8253440035627329,
+    "teacher_gradient_norm": 0.09812098741531372,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0006032829669493367,
+    "student_entropy": 0.011327924556098878,
+    "seconds": 3262.2026085869998,
+    "development": {
+      "mean_net_dollars_per_day": 1.746666635076205,
+      "trades": 20,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 49,
+    "student": 0,
+    "examples": 401408,
+    "student_examples": [
+      139264,
+      131072,
+      131072
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.66500005684793,
+      "trades": 4,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9048
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.9550000485032797,
+      "trades": 4,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9048
+    },
+    "teacher_external_reward": -2.6200001053512096,
+    "teacher_advantage": -0.97719050214475,
+    "teacher_gradient_norm": 0.06860215961933136,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007081354746333091,
+    "student_entropy": 0.02730772760696709,
+    "seconds": 3338.909204192
+  },
+  {
+    "cycle": 50,
+    "student": 1,
+    "examples": 409600,
+    "student_examples": [
+      139264,
+      139264,
+      131072
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.6050000190734863,
+      "trades": 3,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9049
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 3.100000023841858,
+      "trades": 2,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9049
+    },
+    "teacher_external_reward": 1.4950000047683716,
+    "teacher_advantage": 3.235528658189306,
+    "teacher_gradient_norm": 0.29393115639686584,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01886592084201766,
+    "student_entropy": 0.019802606024313718,
+    "seconds": 3404.4236390809997
+  },
+  {
+    "cycle": 51,
+    "student": 2,
+    "examples": 417792,
+    "student_examples": [
+      139264,
+      139264,
+      139264
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.26499998569488525,
+      "trades": 1,
+      "days": 2,
+      "rows": 1495,
+      "seed": 9050
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.26499998569488525,
+      "trades": 1,
+      "days": 2,
+      "rows": 1495,
+      "seed": 9050
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": 1.4169757876020042,
+    "teacher_gradient_norm": 0.21521885693073273,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.001627719949283346,
+    "student_entropy": 0.011829076072899625,
+    "seconds": 3468.3283482499996
+  },
+  {
+    "cycle": 52,
+    "student": 0,
+    "examples": 425984,
+    "student_examples": [
+      147456,
+      139264,
+      139264
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -8.00999990105629,
+      "trades": 7,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9051
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 4.659999802708626,
+      "trades": 12,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9051
+    },
+    "teacher_external_reward": 12.669999703764915,
+    "teacher_advantage": 13.94527791260672,
+    "teacher_gradient_norm": 1.455392837524414,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.04154271123798026,
+    "student_entropy": 0.028315415605902672,
+    "seconds": 3533.810539062
+  },
+  {
+    "cycle": 53,
+    "student": 1,
+    "examples": 434176,
+    "student_examples": [
+      147456,
+      147456,
+      139264
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.9950000047683716,
+      "trades": 1,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9052
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.1649999916553497,
+      "trades": 2,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9052
+    },
+    "teacher_external_reward": 0.16999998688697815,
+    "teacher_advantage": 0.050750404468109966,
+    "teacher_gradient_norm": 0.006287561263889074,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.002592825193914905,
+    "student_entropy": 0.010746878280770034,
+    "seconds": 3597.501330773
+  },
+  {
+    "cycle": 54,
+    "student": 2,
+    "examples": 442368,
+    "student_examples": [
+      147456,
+      147456,
+      147456
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0650000125169754,
+      "trades": 3,
+      "days": 2,
+      "rows": 1428,
+      "seed": 9053
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0650000125169754,
+      "trades": 3,
+      "days": 2,
+      "rows": 1428,
+      "seed": 9053
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.12432462286567919,
+    "teacher_gradient_norm": 0.017934944480657578,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.005969253352304804,
+    "student_entropy": 0.011109600513009354,
+    "seconds": 3661.1474779859996
+  },
+  {
+    "cycle": 55,
+    "student": 0,
+    "examples": 450560,
+    "student_examples": [
+      155648,
+      147456,
+      147456
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -9.069999910891056,
+      "trades": 9,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9054
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.024999529123306274,
+      "trades": 6,
+      "days": 2,
+      "rows": 2757,
+      "seed": 9054
+    },
+    "teacher_external_reward": 9.04500038176775,
+    "teacher_advantage": 8.933108221188638,
+    "teacher_gradient_norm": 1.1403859853744507,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.05724643421217479,
+    "student_entropy": 0.034896412456873804,
+    "seconds": 3726.73220608
+  },
+  {
+    "cycle": 56,
+    "student": 1,
+    "examples": 458752,
+    "student_examples": [
+      155648,
+      155648,
+      147456
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -16.684999465942383,
+      "trades": 1,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9055
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9055
+    },
+    "teacher_external_reward": 16.684999465942383,
+    "teacher_advantage": 15.679796483244408,
+    "teacher_gradient_norm": 2.230457067489624,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.003543653979249939,
+    "student_entropy": 0.010248178179608658,
+    "seconds": 3792.232583699,
+    "development": {
+      "mean_net_dollars_per_day": 0.318333367506663,
+      "trades": 13,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 57,
+    "student": 2,
+    "examples": 466944,
+    "student_examples": [
+      155648,
+      155648,
+      155648
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.04000002145767212,
+      "trades": 2,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9056
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.04000002145767212,
+      "trades": 2,
+      "days": 2,
+      "rows": 2579,
+      "seed": 9056
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -2.5731826310224157,
+    "teacher_gradient_norm": 0.2308817207813263,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.005045302207236091,
+    "student_entropy": 0.013262730586575344,
+    "seconds": 3870.5734258770003
+  },
+  {
+    "cycle": 58,
+    "student": 0,
+    "examples": 475136,
+    "student_examples": [
+      163840,
+      155648,
+      155648
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.8550000488758087,
+      "trades": 2,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9057
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9057
+    },
+    "teacher_external_reward": 1.8550000488758087,
+    "teacher_advantage": -0.46086431904436553,
+    "teacher_gradient_norm": 0.04504942148923874,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.036730559796524176,
+    "student_entropy": 0.015719278599135578,
+    "seconds": 3934.382004044
+  },
+  {
+    "cycle": 59,
+    "student": 1,
+    "examples": 483328,
+    "student_examples": [
+      163840,
+      163840,
+      155648
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1319,
+      "seed": 9058
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1319,
+      "seed": 9058
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -2.2697779360157377,
+    "teacher_gradient_norm": 0.14602325856685638,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.006362005010487337,
+    "student_entropy": 0.009322272526333109,
+    "seconds": 3998.0477993400004
+  },
+  {
+    "cycle": 60,
+    "student": 2,
+    "examples": 491520,
+    "student_examples": [
+      163840,
+      163840,
+      163840
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.024999976158142,
+      "trades": 1,
+      "days": 2,
+      "rows": 1379,
+      "seed": 9059
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.024999976158142,
+      "trades": 1,
+      "days": 2,
+      "rows": 1379,
+      "seed": 9059
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -2.042800142414164,
+    "teacher_gradient_norm": 0.12713724374771118,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.011129075844110048,
+    "student_entropy": 0.009574640833307058,
+    "seconds": 4061.824939789
+  },
+  {
+    "cycle": 61,
+    "student": 0,
+    "examples": 499712,
+    "student_examples": [
+      172032,
+      163840,
+      163840
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9060
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9060
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.838520128172748,
+    "teacher_gradient_norm": 0.13924384117126465,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.012899365064185986,
+    "student_entropy": 0.010616972023854032,
+    "seconds": 4127.591051902
+  },
+  {
+    "cycle": 62,
+    "student": 1,
+    "examples": 507904,
+    "student_examples": [
+      172032,
+      172032,
+      163840
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.6000001430511475,
+      "trades": 2,
+      "days": 2,
+      "rows": 1377,
+      "seed": 9061
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.6000001430511475,
+      "trades": 2,
+      "days": 2,
+      "rows": 1377,
+      "seed": 9061
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.6546681153554732,
+    "teacher_gradient_norm": 0.21695086359977722,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.008230605581047712,
+    "student_entropy": 0.00872630171943456,
+    "seconds": 4191.40303874
+  },
+  {
+    "cycle": 63,
+    "student": 2,
+    "examples": 516096,
+    "student_examples": [
+      172032,
+      172032,
+      172032
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.5799998939037323,
+      "trades": 3,
+      "days": 2,
+      "rows": 2695,
+      "seed": 9062
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -2.5449998676776886,
+      "trades": 4,
+      "days": 2,
+      "rows": 2695,
+      "seed": 9062
+    },
+    "teacher_external_reward": -0.9649999737739563,
+    "teacher_advantage": -2.4542012775938824,
+    "teacher_gradient_norm": 0.18655334413051605,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.004746031493596092,
+    "student_entropy": 0.009477107785642147,
+    "seconds": 4257.170035833
+  },
+  {
+    "cycle": 64,
+    "student": 0,
+    "examples": 524288,
+    "student_examples": [
+      180224,
+      172032,
+      172032
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.7149999737739563,
+      "trades": 1,
+      "days": 2,
+      "rows": 2754,
+      "seed": 9063
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.7149999737739563,
+      "trades": 1,
+      "days": 2,
+      "rows": 2754,
+      "seed": 9063
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.2437811760605377,
+    "teacher_gradient_norm": 0.08211614191532135,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.0007844373385523795,
+    "student_entropy": 0.0121358732576482,
+    "seconds": 4323.0337350049995,
+    "development": {
+      "mean_net_dollars_per_day": 1.5258333434661229,
+      "trades": 18,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 65,
+    "student": 1,
+    "examples": 532480,
+    "student_examples": [
+      180224,
+      180224,
+      172032
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 2.2200000286102295,
+      "trades": 1,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9064
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.3450000286102295,
+      "trades": 2,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9064
+    },
+    "teacher_external_reward": -0.875,
+    "teacher_advantage": -1.994403058454484,
+    "teacher_gradient_norm": 0.13074898719787598,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.002047852790383331,
+    "student_entropy": 0.012198045529657975,
+    "seconds": 4401.5936946990005
+  },
+  {
+    "cycle": 66,
+    "student": 2,
+    "examples": 540672,
+    "student_examples": [
+      180224,
+      180224,
+      180224
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.2400000095367432,
+      "trades": 2,
+      "days": 2,
+      "rows": 2755,
+      "seed": 9065
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.5600000023841858,
+      "trades": 3,
+      "days": 2,
+      "rows": 2755,
+      "seed": 9065
+    },
+    "teacher_external_reward": -0.6800000071525574,
+    "teacher_advantage": -1.5999627597615929,
+    "teacher_gradient_norm": 0.22657404839992523,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.004634612138488592,
+    "student_entropy": 0.012372369092190638,
+    "seconds": 4467.320465797
+  },
+  {
+    "cycle": 67,
+    "student": 0,
+    "examples": 548864,
+    "student_examples": [
+      188416,
+      180224,
+      180224
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.39499993063509464,
+      "trades": 3,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9066
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.4200000260025263,
+      "trades": 2,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9066
+    },
+    "teacher_external_reward": 0.02500009536743164,
+    "teacher_advantage": -0.7349663812654447,
+    "teacher_gradient_norm": 0.11399451643228531,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0022249494973038964,
+    "student_entropy": 0.011129946768051013,
+    "seconds": 4532.914730789
+  },
+  {
+    "cycle": 68,
+    "student": 1,
+    "examples": 557056,
+    "student_examples": [
+      188416,
+      188416,
+      180224
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -2.4899999499320984,
+      "trades": 3,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9067
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.0949999690055847,
+      "trades": 5,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9067
+    },
+    "teacher_external_reward": 3.584999918937683,
+    "teacher_advantage": 2.8985300804313514,
+    "teacher_gradient_norm": 0.18562021851539612,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.009904350801662076,
+    "student_entropy": 0.013999085407704115,
+    "seconds": 4598.6861943330005
+  },
+  {
+    "cycle": 69,
+    "student": 2,
+    "examples": 565248,
+    "student_examples": [
+      188416,
+      188416,
+      188416
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -2.8100000619888306,
+      "trades": 3,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9068
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.284999966621399,
+      "trades": 2,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9068
+    },
+    "teacher_external_reward": 1.5250000953674316,
+    "teacher_advantage": 0.5486772488179646,
+    "teacher_gradient_norm": 0.08711907267570496,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.027211592408548313,
+    "student_entropy": 0.011699927446898073,
+    "seconds": 4662.552948953
+  },
+  {
+    "cycle": 70,
+    "student": 0,
+    "examples": 573440,
+    "student_examples": [
+      196608,
+      188416,
+      188416
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1496,
+      "seed": 9069
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1496,
+      "seed": 9069
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.0311905714312635,
+    "teacher_gradient_norm": 0.06640318036079407,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01288147336072143,
+    "student_entropy": 0.011551178526133299,
+    "seconds": 4726.503974597999
+  },
+  {
+    "cycle": 71,
+    "student": 1,
+    "examples": 581632,
+    "student_examples": [
+      196608,
+      196608,
+      188416
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.464999720454216,
+      "trades": 4,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9070
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 11.469999715685844,
+      "trades": 5,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9070
+    },
+    "teacher_external_reward": 12.93499943614006,
+    "teacher_advantage": 12.006927921851924,
+    "teacher_gradient_norm": 1.0763381719589233,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.013910606099670986,
+    "student_entropy": 0.036102576297707856,
+    "seconds": 4790.463282199
+  },
+  {
+    "cycle": 72,
+    "student": 2,
+    "examples": 589824,
+    "student_examples": [
+      196608,
+      196608,
+      196608
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.8949999809265137,
+      "trades": 1,
+      "days": 2,
+      "rows": 2696,
+      "seed": 9071
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.8949999809265137,
+      "trades": 1,
+      "days": 2,
+      "rows": 2696,
+      "seed": 9071
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -2.1287643064733297,
+    "teacher_gradient_norm": 0.3358452022075653,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.018493720906008093,
+    "student_entropy": 0.008828575344523415,
+    "seconds": 4856.145444442,
+    "development": {
+      "mean_net_dollars_per_day": 1.2050000031789143,
+      "trades": 17,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 73,
+    "student": 0,
+    "examples": 598016,
+    "student_examples": [
+      204800,
+      196608,
+      196608
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.5850001573562622,
+      "trades": 2,
+      "days": 2,
+      "rows": 2459,
+      "seed": 9072
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 3.6950000524520874,
+      "trades": 2,
+      "days": 2,
+      "rows": 2459,
+      "seed": 9072
+    },
+    "teacher_external_reward": 5.28000020980835,
+    "teacher_advantage": 3.364112333982353,
+    "teacher_gradient_norm": 0.1942872256040573,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.01751708200686153,
+    "student_entropy": 0.01059992637601681,
+    "seconds": 4934.349234047
+  },
+  {
+    "cycle": 74,
+    "student": 1,
+    "examples": 606208,
+    "student_examples": [
+      204800,
+      204800,
+      196608
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 3.575000122189522,
+      "trades": 4,
+      "days": 2,
+      "rows": 1379,
+      "seed": 9073
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 7.349999740719795,
+      "trades": 4,
+      "days": 2,
+      "rows": 1379,
+      "seed": 9073
+    },
+    "teacher_external_reward": 3.7749996185302734,
+    "teacher_advantage": 1.5227005093060413,
+    "teacher_gradient_norm": 0.10923314094543457,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.014074759698814887,
+    "student_entropy": 0.05104878649581224,
+    "seconds": 4998.042391423
+  },
+  {
+    "cycle": 75,
+    "student": 2,
+    "examples": 614400,
+    "student_examples": [
+      204800,
+      204800,
+      204800
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.4350000023841858,
+      "trades": 2,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9074
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -1.125,
+      "trades": 1,
+      "days": 2,
+      "rows": 1497,
+      "seed": 9074
+    },
+    "teacher_external_reward": -0.6899999976158142,
+    "teacher_advantage": -3.0945691577706507,
+    "teacher_gradient_norm": 0.4316186308860779,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01228004317408704,
+    "student_entropy": 0.013639995915582404,
+    "seconds": 5061.970631257
+  },
+  {
+    "cycle": 76,
+    "student": 0,
+    "examples": 622592,
+    "student_examples": [
+      212992,
+      204800,
+      204800
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -4.884999990463257,
+      "trades": 5,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9075
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -4.884999990463257,
+      "trades": 5,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9075
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -2.0951122443777717,
+    "teacher_gradient_norm": 0.13694123923778534,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.005925787835622032,
+    "student_entropy": 0.013399236340774223,
+    "seconds": 5127.510724039001
+  },
+  {
+    "cycle": 77,
+    "student": 1,
+    "examples": 630784,
+    "student_examples": [
+      212992,
+      212992,
+      204800
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 2.3150001168251038,
+      "trades": 4,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9076
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.8349999785423279,
+      "trades": 1,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9076
+    },
+    "teacher_external_reward": -3.1500000953674316,
+    "teacher_advantage": -5.0356011153074265,
+    "teacher_gradient_norm": 0.2913745641708374,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0146511139055292,
+    "student_entropy": 0.019394167931750417,
+    "seconds": 5191.316307493
+  },
+  {
+    "cycle": 78,
+    "student": 2,
+    "examples": 638976,
+    "student_examples": [
+      212992,
+      212992,
+      212992
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -3.224999964237213,
+      "trades": 4,
+      "days": 2,
+      "rows": 2606,
+      "seed": 9077
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.8149999976158142,
+      "trades": 3,
+      "days": 2,
+      "rows": 2606,
+      "seed": 9077
+    },
+    "teacher_external_reward": 5.039999961853027,
+    "teacher_advantage": 3.6579590534437756,
+    "teacher_gradient_norm": 0.3264005184173584,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.00968503077456262,
+    "student_entropy": 0.00815070745011326,
+    "seconds": 5256.891293156999
+  },
+  {
+    "cycle": 79,
+    "student": 0,
+    "examples": 647168,
+    "student_examples": [
+      221184,
+      212992,
+      212992
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.25,
+      "trades": 2,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9078
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 2.0350000858306885,
+      "trades": 1,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9078
+    },
+    "teacher_external_reward": 2.2850000858306885,
+    "teacher_advantage": 0.5371632720770589,
+    "teacher_gradient_norm": 0.0659305676817894,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.02241652253042048,
+    "student_entropy": 0.012478677061153576,
+    "seconds": 5322.611322829
+  },
+  {
+    "cycle": 80,
+    "student": 1,
+    "examples": 655360,
+    "student_examples": [
+      221184,
+      221184,
+      212992
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 2.6249999701976776,
+      "trades": 4,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9079
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 2.6249999701976776,
+      "trades": 4,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9079
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.8015531409613355,
+    "teacher_gradient_norm": 0.14157329499721527,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.00631031228658685,
+    "student_entropy": 0.011354913120158017,
+    "seconds": 5388.258753229,
+    "development": {
+      "mean_net_dollars_per_day": 0.27500001589457196,
+      "trades": 14,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 81,
+    "student": 2,
+    "examples": 663552,
+    "student_examples": [
+      221184,
+      221184,
+      221184
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.4100000411272049,
+      "trades": 3,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9080
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.4100000411272049,
+      "trades": 3,
+      "days": 2,
+      "rows": 2756,
+      "seed": 9080
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.6213978268652018,
+    "teacher_gradient_norm": 0.21941092610359192,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.002622116421662213,
+    "student_entropy": 0.006646414156421088,
+    "seconds": 5466.897602206
+  },
+  {
+    "cycle": 82,
+    "student": 0,
+    "examples": 671744,
+    "student_examples": [
+      229376,
+      221184,
+      221184
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.3499999940395355,
+      "trades": 1,
+      "days": 2,
+      "rows": 1435,
+      "seed": 9081
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.3499999940395355,
+      "trades": 1,
+      "days": 2,
+      "rows": 1435,
+      "seed": 9081
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.4592580441786818,
+    "teacher_gradient_norm": 0.09856998920440674,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.011599899279644887,
+    "student_entropy": 0.008267028504633345,
+    "seconds": 5530.668537863001
+  },
+  {
+    "cycle": 83,
+    "student": 1,
+    "examples": 679936,
+    "student_examples": [
+      229376,
+      229376,
+      221184
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.98499995470047,
+      "trades": 2,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9082
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.13499993085861206,
+      "trades": 2,
+      "days": 2,
+      "rows": 2758,
+      "seed": 9082
+    },
+    "teacher_external_reward": 2.119999885559082,
+    "teacher_advantage": 0.8066676457982684,
+    "teacher_gradient_norm": 0.08482865989208221,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.01959043884608036,
+    "student_entropy": 0.010753114940598607,
+    "seconds": 5596.429030314001
+  },
+  {
+    "cycle": 84,
+    "student": 2,
+    "examples": 688128,
+    "student_examples": [
+      229376,
+      229376,
+      229376
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9083
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.42500001192092896,
+      "trades": 1,
+      "days": 2,
+      "rows": 1437,
+      "seed": 9083
+    },
+    "teacher_external_reward": -0.42500001192092896,
+    "teacher_advantage": -1.8189990162615695,
+    "teacher_gradient_norm": 0.132027268409729,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.010929367452717997,
+    "student_entropy": 0.006734636932378635,
+    "seconds": 5660.308837891
+  },
+  {
+    "cycle": 85,
+    "student": 0,
+    "examples": 696320,
+    "student_examples": [
+      237568,
+      229376,
+      229376
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.5200000107288361,
+      "trades": 1,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9084
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2697,
+      "seed": 9084
+    },
+    "teacher_external_reward": 0.5200000107288361,
+    "teacher_advantage": -0.6920990919856476,
+    "teacher_gradient_norm": 0.09196537733078003,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.013806802191083989,
+    "student_entropy": 0.006114368647104129,
+    "seconds": 5726.016817156
+  },
+  {
+    "cycle": 86,
+    "student": 1,
+    "examples": 704512,
+    "student_examples": [
+      237568,
+      237568,
+      229376
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -4.040000036358833,
+      "trades": 2,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9085
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -4.040000036358833,
+      "trades": 2,
+      "days": 2,
+      "rows": 2698,
+      "seed": 9085
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.1428891935159189,
+    "teacher_gradient_norm": 0.12345226854085922,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.015275698415280203,
+    "student_entropy": 0.012158894998719916,
+    "seconds": 5791.721767876001
+  },
+  {
+    "cycle": 87,
+    "student": 2,
+    "examples": 712704,
+    "student_examples": [
+      237568,
+      237568,
+      237568
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9086
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9086
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -1.028600274164327,
+    "teacher_gradient_norm": 0.0707782655954361,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.014540203018668763,
+    "student_entropy": 0.008436145129962824,
+    "seconds": 5857.3550417080005
+  },
+  {
+    "cycle": 88,
+    "student": 0,
+    "examples": 720896,
+    "student_examples": [
+      245760,
+      237568,
+      237568
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9087
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1498,
+      "seed": 9087
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.9257402467478943,
+    "teacher_gradient_norm": 0.09847057610750198,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.0045874059674133605,
+    "student_entropy": 0.004559286797302775,
+    "seconds": 5921.342092561001,
+    "development": {
+      "mean_net_dollars_per_day": -0.5525000095367432,
+      "trades": 6,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  },
+  {
+    "cycle": 89,
+    "student": 1,
+    "examples": 729088,
+    "student_examples": [
+      245760,
+      245760,
+      237568
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.0149999558925629,
+      "trades": 3,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9088
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.7599999904632568,
+      "trades": 2,
+      "days": 2,
+      "rows": 2578,
+      "seed": 9088
+    },
+    "teacher_external_reward": 1.7749999463558197,
+    "teacher_advantage": 0.9418337242827147,
+    "teacher_gradient_norm": 0.11691847443580627,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.01735790850716512,
+    "student_entropy": 0.009222686814609915,
+    "seconds": 5999.732127611
+  },
+  {
+    "cycle": 90,
+    "student": 2,
+    "examples": 737280,
+    "student_examples": [
+      245760,
+      245760,
+      245760
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9089
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 1438,
+      "seed": 9089
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.9273495945013764,
+    "teacher_gradient_norm": 0.06662353128194809,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.006706684358050552,
+    "student_entropy": 0.005914941837545484,
+    "seconds": 6063.519875779
+  },
+  {
+    "cycle": 91,
+    "student": 0,
+    "examples": 745472,
+    "student_examples": [
+      253952,
+      245760,
+      245760
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.2200000286102295,
+      "trades": 2,
+      "days": 2,
+      "rows": 2605,
+      "seed": 9090
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.2200000286102295,
+      "trades": 2,
+      "days": 2,
+      "rows": 2605,
+      "seed": 9090
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.8346146350512388,
+    "teacher_gradient_norm": 0.08642584085464478,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.014048664040274161,
+    "student_entropy": 0.004209200233162846,
+    "seconds": 6129.078895142
+  },
+  {
+    "cycle": 92,
+    "student": 1,
+    "examples": 753664,
+    "student_examples": [
+      253952,
+      253952,
+      245760
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.05500000715255737,
+      "trades": 1,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9091
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.05500000715255737,
+      "trades": 1,
+      "days": 2,
+      "rows": 2636,
+      "seed": 9091
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.7511531715461149,
+    "teacher_gradient_norm": 0.05824311077594757,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": 0.015816195218576468,
+    "student_entropy": 0.007183442765381187,
+    "seconds": 6194.705979688
+  },
+  {
+    "cycle": 93,
+    "student": 2,
+    "examples": 761856,
+    "student_examples": [
+      253952,
+      253952,
+      253952
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 1.5499999523162842,
+      "trades": 2,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9092
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 1.5499999523162842,
+      "trades": 2,
+      "days": 2,
+      "rows": 1378,
+      "seed": 9092
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.6760378543915034,
+    "teacher_gradient_norm": 0.04919108748435974,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.007157158853260626,
+    "student_entropy": 0.0049816305545391515,
+    "seconds": 6258.524408593999
+  },
+  {
+    "cycle": 94,
+    "student": 0,
+    "examples": 770048,
+    "student_examples": [
+      262144,
+      253952,
+      253952
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9093
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2638,
+      "seed": 9093
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.6084340689523531,
+    "teacher_gradient_norm": 0.04731825366616249,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.008373774258416233,
+    "student_entropy": 0.0033612212719162926,
+    "seconds": 6324.171436514
+  },
+  {
+    "cycle": 95,
+    "student": 1,
+    "examples": 778240,
+    "student_examples": [
+      262144,
+      262144,
+      253952
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -0.6750001311302185,
+      "trades": 3,
+      "days": 2,
+      "rows": 2518,
+      "seed": 9094
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": -0.6750001311302185,
+      "trades": 3,
+      "days": 2,
+      "rows": 2518,
+      "seed": 9094
+    },
+    "teacher_external_reward": 0.0,
+    "teacher_advantage": -0.5475906620571178,
+    "teacher_gradient_norm": 0.058399662375450134,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.02094718743910562,
+    "student_entropy": 0.010475247167050838,
+    "seconds": 6389.6513760689995
+  },
+  {
+    "cycle": 96,
+    "student": 2,
+    "examples": 786432,
+    "student_examples": [
+      262144,
+      262144,
+      262144
+    ],
+    "meta_before": {
+      "mean_net_dollars_per_day": -1.5850000381469727,
+      "trades": 1,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9095
+    },
+    "meta_after": {
+      "mean_net_dollars_per_day": 0.0,
+      "trades": 0,
+      "days": 2,
+      "rows": 2637,
+      "seed": 9095
+    },
+    "teacher_external_reward": 1.5850000381469727,
+    "teacher_advantage": 1.0921684422955666,
+    "teacher_gradient_norm": 0.09769091755151749,
+    "teacher_likelihood_replay_max_error": 0.0,
+    "student_loss_mean": -0.015757983434923517,
+    "student_entropy": 0.0034223493421450257,
+    "seconds": 6455.291923367,
+    "development": {
+      "mean_net_dollars_per_day": -0.32583335041999817,
+      "trades": 3,
+      "days": 12,
+      "rows": 15926,
+      "seed": 2424
+    }
+  }
+]

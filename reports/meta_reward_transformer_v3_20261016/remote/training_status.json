@@ -1,0 +1,8 @@
+{
+  "phase": "fresh_student",
+  "mode": "learned_teacher_seed889",
+  "step": 384,
+  "total_steps": 768,
+  "seconds": 14430.3,
+  "allocated_GB": 62.54
+}

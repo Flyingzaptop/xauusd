@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 1,
+    "stage": 4,
+    "stage_epoch": 1,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.36056911565447797,
+    "train_probe": {
+      "objective": 0.360415443778038,
+      "primary": 0.27332543830076855
+    },
+    "validation": {
+      "objective": 0.40849088826768043,
+      "primary": 0.30715665799244224
+    },
+    "seconds": 2.687729835510254
+  },
+  {
+    "epoch": 2,
+    "stage": 4,
+    "stage_epoch": 2,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.3589946547037902,
+    "train_probe": {
+      "objective": 0.3535545617341995,
+      "primary": 0.27053293337424594
+    },
+    "validation": {
+      "objective": 0.3932218356456805,
+      "primary": 0.3022821080174194
+    },
+    "seconds": 2.691394567489624
+  },
+  {
+    "epoch": 3,
+    "stage": 4,
+    "stage_epoch": 3,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.3522082003024792,
+    "train_probe": {
+      "objective": 0.3570675601561864,
+      "primary": 0.27152224133412045
+    },
+    "validation": {
+      "objective": 0.3808979545942782,
+      "primary": 0.2975089677635308
+    },
+    "seconds": 2.6956946849823
+  },
+  {
+    "epoch": 4,
+    "stage": 4,
+    "stage_epoch": 4,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.3468554271505579,
+    "train_probe": {
+      "objective": 0.3524910608927409,
+      "primary": 0.26785588016112644
+    },
+    "validation": {
+      "objective": 0.38025998543732115,
+      "primary": 0.2987281233072281
+    },
+    "seconds": 2.668398380279541
+  },
+  {
+    "epoch": 5,
+    "stage": 4,
+    "stage_epoch": 5,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.34258583765566336,
+    "train_probe": {
+      "objective": 0.3560861150423686,
+      "primary": 0.26868203034003574
+    },
+    "validation": {
+      "objective": 0.37860536072356277,
+      "primary": 0.29725558139965574
+    },
+    "seconds": 2.695456027984619
+  },
+  {
+    "epoch": 6,
+    "stage": 4,
+    "stage_epoch": 6,
+    "lr": 0.0002,
+    "examples_seen": 26045,
+    "online_loss": 0.3396440119220648,
+    "train_probe": {
+      "objective": 0.3545207430919011,
+      "primary": 0.2673450882236163
+    },
+    "validation": {
+      "objective": 0.3768236550786333,
+      "primary": 0.29622602271343057
+    },
+    "seconds": 2.693283796310425
+  }
+]

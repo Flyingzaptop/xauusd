@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "predictions_finite": true,
+  "row_alignment": true,
+  "no_train_test_overlap": true
+}

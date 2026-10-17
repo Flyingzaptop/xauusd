@@ -1,0 +1,11 @@
+{
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "context_rows": 502499,
+  "context_from": "2020-08-01",
+  "output_year": 2021,
+  "normalization_period": [
+    "2020-12-01",
+    "2021-01-01"
+  ],
+  "input_context_sha256": "5be7e88da185bcc758dcfd31948718c6a884eaed13af05dc554c553c6b7d661c"
+}

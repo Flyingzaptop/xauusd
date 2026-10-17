@@ -1,0 +1,68 @@
+{
+  "files": {
+    "experiments/local_spectral/README.md": {
+      "bytes": 1269,
+      "sha256": "14e0f9c02b2044ab2fcefcaba9a773551be5a2135a0bb694b3ad786328d1b587"
+    },
+    "experiments/local_spectral/requirements.txt": {
+      "bytes": 65,
+      "sha256": "f0bbe511474564a9ca9ddb16ab3880755fa8830a8f65ad6d8132b830d9c207a1"
+    },
+    "experiments/local_spectral/review.py": {
+      "bytes": 8906,
+      "sha256": "f8d453a37da42e543752d99ff0413e55df77eee687e555499554a91fddf7e1c7"
+    },
+    "experiments/local_spectral/run.py": {
+      "bytes": 27418,
+      "sha256": "f9b745f9d92962a05731db336737caba49dfc0e54b96fe69a053a9b4e6ee58bb"
+    },
+    "reports/local_spectral_20261012/REPORT.md": {
+      "bytes": 11862,
+      "sha256": "c18274c50550d5e31adae418690a738eb1ea327616d33308751b5ae5135548a8"
+    },
+    "reports/local_spectral_20261012/checks.json": {
+      "bytes": 373,
+      "sha256": "a8c1743d7fd9fa644ce05f9074cb04529a5ce076d5eefffe4a4af6604662dd0b"
+    },
+    "reports/local_spectral_20261012/coefficients.npz": {
+      "bytes": 14250107,
+      "sha256": "e076105e7d14115ed16a1ff02c039da56f026f330fe7096eea86933477991b21"
+    },
+    "reports/local_spectral_20261012/controls.png": {
+      "bytes": 1268970,
+      "sha256": "33737c68937a43cbb9500147397fe70e87b73207ddbd6da9cb4e4bc6d31f2fcd"
+    },
+    "reports/local_spectral_20261012/diagnostics.png": {
+      "bytes": 119696,
+      "sha256": "f6e899c645f239d79c2d7536426fc584d27b8e749e63a44b67ee9d9f2aedfeb3"
+    },
+    "reports/local_spectral_20261012/event_detail.png": {
+      "bytes": 468665,
+      "sha256": "1d177c55c30a4b57fb0a8d099369dc08f5c6cb4541bc556fd0581145ecb5f418"
+    },
+    "reports/local_spectral_20261012/overview.png": {
+      "bytes": 1677276,
+      "sha256": "f57bf1341b310114e4b3b45f554e6ee490158d7312d25068f512b5a6e9daf3d4"
+    },
+    "reports/local_spectral_20261012/review.html": {
+      "bytes": 4058834,
+      "sha256": "6ee7b26d13bfa56c5ae150ae6f20336fcf7a41a223ce87d0390a0b6fc1987983"
+    },
+    "reports/local_spectral_20261012/summary.json": {
+      "bytes": 3525,
+      "sha256": "7151df305026333cfac3c020ab506736fbc1af02f3499f65e08eff6e31ab93b0"
+    },
+    "reports/local_spectral_20261012/wavelets.png": {
+      "bytes": 903735,
+      "sha256": "158a706ba580699a18a94fddd91543302cb2f87246283e00642304471388461a"
+    },
+    "reports/global_fourier_month_20261012/predictions.npz": {
+      "bytes": 1305476,
+      "sha256": "fb0ac04d41ab7121bbbab3f68f9f15f272f70af7428faf6917ed47de3e35182f"
+    },
+    "docs/research_constraints_20261012.md": {
+      "bytes": 3780,
+      "sha256": "60093f7515e790af90d7611d98877ca00a2befd1bd0632690f5c43be94585b21"
+    }
+  }
+}

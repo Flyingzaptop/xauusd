@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "predictions_finite": true,
+  "quantiles_ordered": true,
+  "event_probabilities_sum1": true,
+  "test_rows": 89079,
+  "no_abs_price_input": true,
+  "2021_only": true,
+  "final_trade_thresholds_use_only_development_selection_predictions": true,
+  "oct_dec_previously_inspected_in_prior_research": true
+}

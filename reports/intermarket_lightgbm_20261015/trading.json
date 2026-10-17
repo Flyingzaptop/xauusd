@@ -1,0 +1,64 @@
+{
+  "gold": {
+    "policy": {
+      "horizon": 120,
+      "j": 3,
+      "quantile": 0.95,
+      "threshold": 0.0836702436208725,
+      "validation_trades": 340,
+      "validation_gross_mean": 0.33617647058822514,
+      "validation_score": 0.02191414005994605
+    },
+    "test_trades": 198,
+    "expired_unfilled_orders": 0,
+    "gross_mean_dollars_per_ounce": 1.102020202020247,
+    "gross_total": 218.2000000000089,
+    "max_holding_minutes": 3019.0,
+    "trades_over_180_minutes": 2,
+    "gross_winrate": 0.5404040404040404,
+    "same_entries_always_long_net025": 0.6571717171717534,
+    "same_entries_always_short_net025": -1.1571717171717533,
+    "net_mean_at_cost": {
+      "0": 1.102020202020247,
+      "0.1": 1.0020202020202473,
+      "0.25": 0.8520202020202471,
+      "0.5": 0.6020202020202471,
+      "1": 0.10202020202024703
+    },
+    "net025_ci95_7day": [
+      -1.6222639944793438,
+      3.3936709774436697
+    ]
+  },
+  "all": {
+    "policy": {
+      "horizon": 120,
+      "j": 3,
+      "quantile": 0.8,
+      "threshold": 0.011926298029720783,
+      "validation_trades": 1055,
+      "validation_gross_mean": 0.21485308056872174,
+      "validation_score": -0.012948713562538908
+    },
+    "test_trades": 3593,
+    "expired_unfilled_orders": 0,
+    "gross_mean_dollars_per_ounce": -0.05499304202616468,
+    "gross_total": -197.5900000000097,
+    "max_holding_minutes": 4384.0,
+    "trades_over_180_minutes": 82,
+    "gross_winrate": 0.5154467019204008,
+    "same_entries_always_long_net025": -0.22854439187308792,
+    "same_entries_always_short_net025": -0.2714556081269121,
+    "net_mean_at_cost": {
+      "0": -0.05499304202616468,
+      "0.1": -0.15499304202616468,
+      "0.25": -0.3049930420261647,
+      "0.5": -0.5549930420261647,
+      "1": -1.0549930420261646
+    },
+    "net025_ci95_7day": [
+      -1.1301844671378163,
+      0.40908544834110555
+    ]
+  }
+}

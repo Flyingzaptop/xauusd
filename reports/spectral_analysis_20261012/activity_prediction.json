@@ -1,0 +1,83 @@
+{
+  "train_high_rv_threshold": 3.0649758017129534,
+  "train_large_move_threshold_usd": 5.2999999999999545,
+  "test": {
+    "price_only": {
+      "future_high_rv_auc": 0.9331545415931646,
+      "large_absolute_move_auc": 0.8169336837365464,
+      "low_forecast_future_rv": 1.1286470512827604,
+      "high_forecast_future_rv": 3.4035626317742445,
+      "high_low_ratio": 3.01561292160019,
+      "low_n": 15309,
+      "high_n": 15719,
+      "low_future_abs_move_usd": 1.1914161604285132,
+      "high_future_abs_move_usd": 3.49986767606081
+    },
+    "price_plus_stft": {
+      "future_high_rv_auc": 0.9370788605799883,
+      "large_absolute_move_auc": 0.8198217883780399,
+      "low_forecast_future_rv": 1.1168010059022861,
+      "high_forecast_future_rv": 3.4120406832069357,
+      "high_low_ratio": 3.0551912696839656,
+      "low_n": 13807,
+      "high_n": 15910,
+      "low_future_abs_move_usd": 1.2150669950025377,
+      "high_future_abs_move_usd": 3.5463299811439253
+    },
+    "price_plus_wavelets": {
+      "future_high_rv_auc": 0.9331182777286369,
+      "large_absolute_move_auc": 0.8141325455826275,
+      "low_forecast_future_rv": 1.1156541609960986,
+      "high_forecast_future_rv": 3.397222737268168,
+      "high_low_ratio": 3.045050030768494,
+      "low_n": 14706,
+      "high_n": 15631,
+      "low_future_abs_move_usd": 1.1671712226302267,
+      "high_future_abs_move_usd": 3.508171582112463
+    },
+    "price_plus_all": {
+      "future_high_rv_auc": 0.9328301222168757,
+      "large_absolute_move_auc": 0.8162270255050295,
+      "low_forecast_future_rv": 1.122148721365798,
+      "high_forecast_future_rv": 3.4153789758683364,
+      "high_low_ratio": 3.0436063516709133,
+      "low_n": 14412,
+      "high_n": 15362,
+      "low_future_abs_move_usd": 1.1845538440188805,
+      "high_future_abs_move_usd": 3.5616989975263555
+    },
+    "hgb_price_only": {
+      "future_high_rv_auc": 0.9435568968222852,
+      "large_absolute_move_auc": 0.8272811731226195,
+      "low_forecast_future_rv": 1.0551573304240707,
+      "high_forecast_future_rv": 3.3983124925440165,
+      "high_low_ratio": 3.220668988934783,
+      "low_n": 13502,
+      "high_n": 16021,
+      "low_future_abs_move_usd": 1.1135402162642578,
+      "high_future_abs_move_usd": 3.5177847824729938
+    },
+    "hgb_price_plus_spectral_dynamics": {
+      "future_high_rv_auc": 0.9452766875437341,
+      "large_absolute_move_auc": 0.8292757268074712,
+      "low_forecast_future_rv": 1.0602790503390347,
+      "high_forecast_future_rv": 3.4205348233130226,
+      "high_low_ratio": 3.226070365362093,
+      "low_n": 13077,
+      "high_n": 15936,
+      "low_future_abs_move_usd": 1.10509826412786,
+      "high_future_abs_move_usd": 3.529974899598383
+    },
+    "recent_vol60": {
+      "future_high_rv_auc": 0.8773467650176782,
+      "large_absolute_move_auc": 0.7526067314942869,
+      "low_forecast_future_rv": 1.1813949859388482,
+      "high_forecast_future_rv": 3.167802891177092,
+      "high_low_ratio": 2.681408782736331,
+      "low_n": 13789,
+      "high_n": 15959,
+      "low_future_abs_move_usd": 1.205431865980132,
+      "high_future_abs_move_usd": 3.2210946801177944
+    }
+  }
+}

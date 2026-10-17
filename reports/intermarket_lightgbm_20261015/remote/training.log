@@ -1,0 +1,35 @@
+{"phase": "model_begin", "kind": "gold", "features": 47, "seconds": 22.1, "ram_GB": 0.68}
+{"phase": "dataset", "rows": 501159, "features": 47, "reference": false, "seconds": 22.1, "ram_GB": 0.68}
+{"phase": "dataset", "rows": 68367, "features": 47, "reference": true, "seconds": 23.3, "ram_GB": 0.88}
+{"phase": "select_config", "kind": "gold", "config": 0, "seconds": 23.5, "ram_GB": 0.88}
+{"phase": "config_complete", "kind": "gold", "config": 0, "iteration": 5, "score": 1.462745247947271, "seconds_model": 0.7729824439998083, "seconds": 24.3, "ram_GB": 0.89}
+{"phase": "select_config", "kind": "gold", "config": 1, "seconds": 24.3, "ram_GB": 0.89}
+{"phase": "config_complete", "kind": "gold", "config": 1, "iteration": 2, "score": 1.4629942255802344, "seconds_model": 0.8588773480000782, "seconds": 25.2, "ram_GB": 0.89}
+{"phase": "select_horizon", "kind": "gold", "horizon": 15, "seconds": 25.2, "ram_GB": 0.89}
+{"phase": "select_horizon", "kind": "gold", "horizon": 30, "seconds": 26.1, "ram_GB": 0.89}
+{"phase": "select_horizon", "kind": "gold", "horizon": 60, "seconds": 27.0, "ram_GB": 0.89}
+{"phase": "select_horizon", "kind": "gold", "horizon": 120, "seconds": 27.9, "ram_GB": 0.89}
+{"phase": "dataset", "rows": 569526, "features": 47, "reference": false, "seconds": 29.3, "ram_GB": 0.89}
+{"phase": "final_fit", "kind": "gold", "horizon": 15, "rounds": 6, "seconds": 30.2, "ram_GB": 0.89}
+{"phase": "final_fit", "kind": "gold", "horizon": 30, "rounds": 7, "seconds": 30.7, "ram_GB": 0.89}
+{"phase": "final_fit", "kind": "gold", "horizon": 60, "rounds": 5, "seconds": 31.2, "ram_GB": 0.89}
+{"phase": "final_fit", "kind": "gold", "horizon": 120, "rounds": 23, "seconds": 31.6, "ram_GB": 0.89}
+{"phase": "model_complete", "kind": "gold", "seconds": 32.8, "ram_GB": 0.82}
+{"phase": "model_begin", "kind": "all", "features": 8666, "seconds": 32.8, "ram_GB": 0.82}
+{"phase": "dataset", "rows": 501159, "features": 8666, "reference": false, "seconds": 32.8, "ram_GB": 0.82}
+{"phase": "dataset", "rows": 68367, "features": 8666, "reference": true, "seconds": 395.0, "ram_GB": 30.1}
+{"phase": "select_config", "kind": "all", "config": 0, "seconds": 442.7, "ram_GB": 32.77}
+{"phase": "config_complete", "kind": "all", "config": 0, "iteration": 23, "score": 1.4607439385529022, "seconds_model": 120.21157660399967, "seconds": 562.9, "ram_GB": 32.96}
+{"phase": "select_config", "kind": "all", "config": 1, "seconds": 562.9, "ram_GB": 32.96}
+{"phase": "config_complete", "kind": "all", "config": 1, "iteration": 16, "score": 1.461609456430242, "seconds_model": 128.85243036300017, "seconds": 691.8, "ram_GB": 32.98}
+{"phase": "select_horizon", "kind": "all", "horizon": 15, "seconds": 691.8, "ram_GB": 32.98}
+{"phase": "select_horizon", "kind": "all", "horizon": 30, "seconds": 794.9, "ram_GB": 32.98}
+{"phase": "select_horizon", "kind": "all", "horizon": 60, "seconds": 883.7, "ram_GB": 32.98}
+{"phase": "select_horizon", "kind": "all", "horizon": 120, "seconds": 1028.4, "ram_GB": 32.98}
+{"phase": "dataset", "rows": 569526, "features": 8666, "reference": false, "seconds": 1119.0, "ram_GB": 30.97}
+{"phase": "final_fit", "kind": "all", "horizon": 15, "rounds": 7, "seconds": 1575.1, "ram_GB": 26.81}
+{"phase": "final_fit", "kind": "all", "horizon": 30, "rounds": 1, "seconds": 1649.9, "ram_GB": 31.06}
+{"phase": "final_fit", "kind": "all", "horizon": 60, "rounds": 23, "seconds": 1686.0, "ram_GB": 31.06}
+{"phase": "final_fit", "kind": "all", "horizon": 120, "rounds": 2, "seconds": 1783.4, "ram_GB": 31.06}
+{"phase": "model_complete", "kind": "all", "seconds": 1825.0, "ram_GB": 18.26}
+{"phase": "complete", "seconds": 1825.0, "ram_GB": 18.26}

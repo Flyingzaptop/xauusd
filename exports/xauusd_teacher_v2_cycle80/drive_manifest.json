@@ -1,0 +1,1556 @@
+[
+  {
+    "id": "1oS7GLrOq2_JDCw18QggA-3PKvrNtLzKS",
+    "name": "YUM__21822.parquet",
+    "size": 9643192,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1oS7GLrOq2_JDCw18QggA-3PKvrNtLzKS/view?usp=drivesdk"
+  },
+  {
+    "id": "1ZJW5BDGHQrLeDV9qdYwJXan4yPTfs6Yf",
+    "name": "XTIUSD_10092.parquet",
+    "size": 33491532,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ZJW5BDGHQrLeDV9qdYwJXan4yPTfs6Yf/view?usp=drivesdk"
+  },
+  {
+    "id": "1KRs57qBKRLrgl1w0GhQljLH939gbXOfP",
+    "name": "XPDUSD_22346.parquet",
+    "size": 41397509,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1KRs57qBKRLrgl1w0GhQljLH939gbXOfP/view?usp=drivesdk"
+  },
+  {
+    "id": "1-0jLWuhq1sbs6zA4p6hOX8-bRNk8Nxrc",
+    "name": "XCEL_ENERGY_21820.parquet",
+    "size": 9000996,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-0jLWuhq1sbs6zA4p6hOX8-bRNk8Nxrc/view?usp=drivesdk"
+  },
+  {
+    "id": "15nfXIl1DNDlG5Tjoqr3g4sJRmyaeSTXy",
+    "name": "XBRUSD_10091.parquet",
+    "size": 30920820,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/15nfXIl1DNDlG5Tjoqr3g4sJRmyaeSTXy/view?usp=drivesdk"
+  },
+  {
+    "id": "1hwoDeSXnr-eeat_8WpQoQdXZnVSNDxsr",
+    "name": "XAUEUR_22312.parquet",
+    "size": 50428812,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1hwoDeSXnr-eeat_8WpQoQdXZnVSNDxsr/view?usp=drivesdk"
+  },
+  {
+    "id": "1yP8buIF4L3u_pqo0PVkKrIBMmDkYm00g",
+    "name": "XAGUSD_42.parquet",
+    "size": 24747760,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1yP8buIF4L3u_pqo0PVkKrIBMmDkYm00g/view?usp=drivesdk"
+  },
+  {
+    "id": "1B3s8gIzchP5xAUAelMkOhymgxQzyReOf",
+    "name": "XAGEUR_22311.parquet",
+    "size": 21823608,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1B3s8gIzchP5xAUAelMkOhymgxQzyReOf/view?usp=drivesdk"
+  },
+  {
+    "id": "18SsKHaa4OTQvjOmFg2_pUJwn29cAD266",
+    "name": "WHARF_22247.parquet",
+    "size": 2072718,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/18SsKHaa4OTQvjOmFg2_pUJwn29cAD266/view?usp=drivesdk"
+  },
+  {
+    "id": "1xlH8zmZQr7_unTWupmNw6-pcsuuz2Ugr",
+    "name": "WALT_DISNEY_21537.parquet",
+    "size": 10216377,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1xlH8zmZQr7_unTWupmNw6-pcsuuz2Ugr/view?usp=drivesdk"
+  },
+  {
+    "id": "1DdN30W0Q2SHhHFiI5Hw3EFvAlxu7k2Hf",
+    "name": "VISA_21547.parquet",
+    "size": 10851869,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DdN30W0Q2SHhHFiI5Hw3EFvAlxu7k2Hf/view?usp=drivesdk"
+  },
+  {
+    "id": "1DRJcEoiTv6R7OBBSKPpk-e4m4WUiP5Lt",
+    "name": "VERIZON_21536.parquet",
+    "size": 8106858,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DRJcEoiTv6R7OBBSKPpk-e4m4WUiP5Lt/view?usp=drivesdk"
+  },
+  {
+    "id": "18RPvhQSFgAN8DtrQ4d49mv0yksePhPgm",
+    "name": "VENTAS_21991.parquet",
+    "size": 9305040,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/18RPvhQSFgAN8DtrQ4d49mv0yksePhPgm/view?usp=drivesdk"
+  },
+  {
+    "id": "1DfW-vw96Pgn0QVlld1HBUWM3M9kvy5xT",
+    "name": "USDZAR_52.parquet",
+    "size": 98705804,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DfW-vw96Pgn0QVlld1HBUWM3M9kvy5xT/view?usp=drivesdk"
+  },
+  {
+    "id": "1EKtYBfxn9V0XHRQW6EhbBbDIFa88K2-l",
+    "name": "USDTRY_49.parquet",
+    "size": 43296156,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1EKtYBfxn9V0XHRQW6EhbBbDIFa88K2-l/view?usp=drivesdk"
+  },
+  {
+    "id": "1AmJk4AKU5xAllBe6xvf_yNyi1KojoZGy",
+    "name": "USDSGD_73.parquet",
+    "size": 50707203,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1AmJk4AKU5xAllBe6xvf_yNyi1KojoZGy/view?usp=drivesdk"
+  },
+  {
+    "id": "18CGwFYEyrZi2PC6v7HWPJjluZl47d6Ph",
+    "name": "USDSEK_29.parquet",
+    "size": 53627044,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/18CGwFYEyrZi2PC6v7HWPJjluZl47d6Ph/view?usp=drivesdk"
+  },
+  {
+    "id": "1D4LSmwWiZhQHXHiAL5UzcBI6fgkJ-jyt",
+    "name": "USDPLN_65.parquet",
+    "size": 44944670,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1D4LSmwWiZhQHXHiAL5UzcBI6fgkJ-jyt/view?usp=drivesdk"
+  },
+  {
+    "id": "1xOlad9z1aylyIBr7hxZUKCG0j9ReWPug",
+    "name": "USDNOK_22.parquet",
+    "size": 54493858,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1xOlad9z1aylyIBr7hxZUKCG0j9ReWPug/view?usp=drivesdk"
+  },
+  {
+    "id": "1oE1ZYt4NEubTZBkGoBUmJKB6t8ptee_B",
+    "name": "USDMXN_24.parquet",
+    "size": 60220873,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1oE1ZYt4NEubTZBkGoBUmJKB6t8ptee_B/view?usp=drivesdk"
+  },
+  {
+    "id": "1_vl9DBGZN9-OvVdb2fyIQO58Jz8FsqD5",
+    "name": "USDJPY_4.parquet",
+    "size": 49264519,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1_vl9DBGZN9-OvVdb2fyIQO58Jz8FsqD5/view?usp=drivesdk"
+  },
+  {
+    "id": "1QHaNi0gYxgWSbEVJhCf3aq_7lZhwuXX4",
+    "name": "USDHUF_60.parquet",
+    "size": 55076827,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1QHaNi0gYxgWSbEVJhCf3aq_7lZhwuXX4/view?usp=drivesdk"
+  },
+  {
+    "id": "1-4O6R-8sxq_U4_bLBiYZ9jnol3MdAvXB",
+    "name": "USDDKK_69.parquet",
+    "size": 46968003,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-4O6R-8sxq_U4_bLBiYZ9jnol3MdAvXB/view?usp=drivesdk"
+  },
+  {
+    "id": "1rFBaAIm9emlxfIYPy1h8Q2gLM3IyY5hh",
+    "name": "USDCZK_72.parquet",
+    "size": 59076342,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1rFBaAIm9emlxfIYPy1h8Q2gLM3IyY5hh/view?usp=drivesdk"
+  },
+  {
+    "id": "13zIHg7Jq7--3kb9dDoneMi30N4u9Izlz",
+    "name": "USDCNH_46.parquet",
+    "size": 40622538,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/13zIHg7Jq7--3kb9dDoneMi30N4u9Izlz/view?usp=drivesdk"
+  },
+  {
+    "id": "1F_pdlG3IuFtebQjDO_5tVxZXUJzjXQ4C",
+    "name": "USDCHF_6.parquet",
+    "size": 53197060,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1F_pdlG3IuFtebQjDO_5tVxZXUJzjXQ4C/view?usp=drivesdk"
+  },
+  {
+    "id": "1y5b7IKtG5SFr2fPxL8ryLx-aTrknwWnl",
+    "name": "USDCAD_8.parquet",
+    "size": 56991015,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1y5b7IKtG5SFr2fPxL8ryLx-aTrknwWnl/view?usp=drivesdk"
+  },
+  {
+    "id": "1cXjUZ9KH-InJKdDlPwek5E555NB3fnfh",
+    "name": "US_TECH_100_21501.parquet",
+    "size": 36258642,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1cXjUZ9KH-InJKdDlPwek5E555NB3fnfh/view?usp=drivesdk"
+  },
+  {
+    "id": "1M6AbltDVeqehKsPmL-MpEwT9cKSMm9hF",
+    "name": "US_500_21499.parquet",
+    "size": 27092773,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1M6AbltDVeqehKsPmL-MpEwT9cKSMm9hF/view?usp=drivesdk"
+  },
+  {
+    "id": "1hhuc-LSZbArdSjU14BqqCyJJCiraN1SH",
+    "name": "US_30_21500.parquet",
+    "size": 34266340,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1hhuc-LSZbArdSjU14BqqCyJJCiraN1SH/view?usp=drivesdk"
+  },
+  {
+    "id": "1-jtZVmrgiJq2vuUUyy36wf13-gzbRxWZ",
+    "name": "UNION_PACIFIC_21549.parquet",
+    "size": 10869968,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-jtZVmrgiJq2vuUUyy36wf13-gzbRxWZ/view?usp=drivesdk"
+  },
+  {
+    "id": "1ZQHzBahA1oOHbxb4NHkNeacBR9b6YA57",
+    "name": "UK_100_21576.parquet",
+    "size": 28671241,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ZQHzBahA1oOHbxb4NHkNeacBR9b6YA57/view?usp=drivesdk"
+  },
+  {
+    "id": "1d6sN4pOa1EaUWkAKHV8z3zO3_eOrcr4-",
+    "name": "TRAVELERS_COMPANIES_21539.parquet",
+    "size": 10414560,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1d6sN4pOa1EaUWkAKHV8z3zO3_eOrcr4-/view?usp=drivesdk"
+  },
+  {
+    "id": "1naSkznH5xPWiUMWZLzvYr7pjRk_tl9hW",
+    "name": "TOTAL_21145.parquet",
+    "size": 12723900,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1naSkznH5xPWiUMWZLzvYr7pjRk_tl9hW/view?usp=drivesdk"
+  },
+  {
+    "id": "167msjwhmUgIisCDdXcffAnAqehG7lmbe",
+    "name": "TELEFONICA_21625.parquet",
+    "size": 12044187,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/167msjwhmUgIisCDdXcffAnAqehG7lmbe/view?usp=drivesdk"
+  },
+  {
+    "id": "10o3H4cKGec4oEYqFh46JaPzSkzIE0P7n",
+    "name": "TELEDYNE_TECHNOLOGIES_21808.parquet",
+    "size": 9629710,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10o3H4cKGec4oEYqFh46JaPzSkzIE0P7n/view?usp=drivesdk"
+  },
+  {
+    "id": "1Zo_VS_23vD0cRJj1pbkp9bEH45v9m3hR",
+    "name": "TARGA_RESOURCES_21806.parquet",
+    "size": 9850351,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Zo_VS_23vD0cRJj1pbkp9bEH45v9m3hR/view?usp=drivesdk"
+  },
+  {
+    "id": "1mMD2gz1JwklC39G32GbkpwO5s-naYVvR",
+    "name": "TAG_IMMOBILIEN_22043.parquet",
+    "size": 6746114,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1mMD2gz1JwklC39G32GbkpwO5s-naYVvR/view?usp=drivesdk"
+  },
+  {
+    "id": "1Clth2z5u9kV2kynqI0p6SFISC5NZqwU8",
+    "name": "SWITZERLAND_20_21506.parquet",
+    "size": 20869403,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Clth2z5u9kV2kynqI0p6SFISC5NZqwU8/view?usp=drivesdk"
+  },
+  {
+    "id": "1kG_T3e1ga2IggynDp_L9lqfMCfX9xz_C",
+    "name": "SWIRE_PACIFIC_22246.parquet",
+    "size": 3020275,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1kG_T3e1ga2IggynDp_L9lqfMCfX9xz_C/view?usp=drivesdk"
+  },
+  {
+    "id": "1ygt06NmpMtqbhWW_wM7pVLAL0W8IIRgV",
+    "name": "SUN_HUNG_KAI_22245.parquet",
+    "size": 1021372,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ygt06NmpMtqbhWW_wM7pVLAL0W8IIRgV/view?usp=drivesdk"
+  },
+  {
+    "id": "1R3dXulf7CbU1Yv7SXirx8-CQtiPCzAVL",
+    "name": "SPAIN_35_21504.parquet",
+    "size": 19838979,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1R3dXulf7CbU1Yv7SXirx8-CQtiPCzAVL/view?usp=drivesdk"
+  },
+  {
+    "id": "1NwLz80EmJeRFtdufctk9cfYNaJx0Avnn",
+    "name": "SM_ENERGY_21792.parquet",
+    "size": 9224040,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1NwLz80EmJeRFtdufctk9cfYNaJx0Avnn/view?usp=drivesdk"
+  },
+  {
+    "id": "1jGmiaoQYLpP_u2tEO2lZ0ZCsTJ6G8C76",
+    "name": "SINO_LAND_CO_22244.parquet",
+    "size": 1509099,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1jGmiaoQYLpP_u2tEO2lZ0ZCsTJ6G8C76/view?usp=drivesdk"
+  },
+  {
+    "id": "1crbJ3a1sMtTIGTT6-cDRnnIogsF1nobk",
+    "name": "SGDJPY_56.parquet",
+    "size": 46316549,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1crbJ3a1sMtTIGTT6-cDRnnIogsF1nobk/view?usp=drivesdk"
+  },
+  {
+    "id": "1PYWIKmGZOonT53JR0Q8-jdLBDA1IE-Kk",
+    "name": "SEKJPY_22340.parquet",
+    "size": 21287560,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1PYWIKmGZOonT53JR0Q8-jdLBDA1IE-Kk/view?usp=drivesdk"
+  },
+  {
+    "id": "1T3lhRWwpuhTDT3Rz_PwwdLL31NRmTIsh",
+    "name": "ROYAL_CARIBBEAN_CRUISES_21979.parquet",
+    "size": 11019286,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1T3lhRWwpuhTDT3Rz_PwwdLL31NRmTIsh/view?usp=drivesdk"
+  },
+  {
+    "id": "10ymuG5O1BB_4dEVilPAP_y7k4j2EBXRt",
+    "name": "ROLLINS_21977.parquet",
+    "size": 7991830,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10ymuG5O1BB_4dEVilPAP_y7k4j2EBXRt/view?usp=drivesdk"
+  },
+  {
+    "id": "1OAYprHDd5rFbP3eLj8kshb9uA9lyLo-k",
+    "name": "ROCKWELL_AUTOMATION_21787.parquet",
+    "size": 10999760,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1OAYprHDd5rFbP3eLj8kshb9uA9lyLo-k/view?usp=drivesdk"
+  },
+  {
+    "id": "1FYHWMWEqZ5Ip9UXSA7rS3065Sb28qs9u",
+    "name": "RALPH_LAUREN_21976.parquet",
+    "size": 10443379,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1FYHWMWEqZ5Ip9UXSA7rS3065Sb28qs9u/view?usp=drivesdk"
+  },
+  {
+    "id": "1v6QPfkseTz88EafkluODR5Ui83DsXpUA",
+    "name": "PHILIPS_66_21540.parquet",
+    "size": 10523314,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1v6QPfkseTz88EafkluODR5Ui83DsXpUA/view?usp=drivesdk"
+  },
+  {
+    "id": "17lLoh_EOB0r0VTZQsr1VUTZcrylWpuAp",
+    "name": "PHILIP_MORRIS_21781.parquet",
+    "size": 10155004,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17lLoh_EOB0r0VTZQsr1VUTZcrylWpuAp/view?usp=drivesdk"
+  },
+  {
+    "id": "1lC1c5CEDQmcIAhAQ44hmX3-ODlC5oqms",
+    "name": "PFIZER_21532.parquet",
+    "size": 7497725,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1lC1c5CEDQmcIAhAQ44hmX3-ODlC5oqms/view?usp=drivesdk"
+  },
+  {
+    "id": "1c_Js0HgqHUK-8FJxwL-K4vbAExgbDDs8",
+    "name": "PAYCOM_21779.parquet",
+    "size": 11100006,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1c_Js0HgqHUK-8FJxwL-K4vbAExgbDDs8/view?usp=drivesdk"
+  },
+  {
+    "id": "1AOayT8vl9zyFwd1tw9aOOG5vBPI2t-zg",
+    "name": "PARKER_HANNIFIN_21971.parquet",
+    "size": 11546293,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1AOayT8vl9zyFwd1tw9aOOG5vBPI2t-zg/view?usp=drivesdk"
+  },
+  {
+    "id": "1mNvY3P3ny8h76tJ9XzLDZK5po2JsDu5o",
+    "name": "PACKAGING_21775.parquet",
+    "size": 9655318,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1mNvY3P3ny8h76tJ9XzLDZK5po2JsDu5o/view?usp=drivesdk"
+  },
+  {
+    "id": "1iTE7_1tzuEYxlnSCLKBknhakW1DCb1rE",
+    "name": "ORACLE_21531.parquet",
+    "size": 9644654,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1iTE7_1tzuEYxlnSCLKBknhakW1DCb1rE/view?usp=drivesdk"
+  },
+  {
+    "id": "1LQgTtsiPZVD4MkV_27CL7zVrivnsvkOR",
+    "name": "OCCIDENTAL_PETROLEUM_21773.parquet",
+    "size": 9770284,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1LQgTtsiPZVD4MkV_27CL7zVrivnsvkOR/view?usp=drivesdk"
+  },
+  {
+    "id": "1M4_zejqqzPGuNgB6jE9azEHa6CjwxEym",
+    "name": "NZDUSD_12.parquet",
+    "size": 52950958,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1M4_zejqqzPGuNgB6jE9azEHa6CjwxEym/view?usp=drivesdk"
+  },
+  {
+    "id": "1vzq1Itf9w0p6Ezq4CLH5BQ-Vppu5_8_9",
+    "name": "NZDSGD_64.parquet",
+    "size": 29906530,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1vzq1Itf9w0p6Ezq4CLH5BQ-Vppu5_8_9/view?usp=drivesdk"
+  },
+  {
+    "id": "1-bKmcQQqBSYepIFiAbGMel7pqdEc-64Q",
+    "name": "NZDSEK_22339.parquet",
+    "size": 33790832,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-bKmcQQqBSYepIFiAbGMel7pqdEc-64Q/view?usp=drivesdk"
+  },
+  {
+    "id": "1-zTn-Dn5vCWH8273iQocPIY5FUB2RMip",
+    "name": "NZDJPY_70.parquet",
+    "size": 31424323,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-zTn-Dn5vCWH8273iQocPIY5FUB2RMip/view?usp=drivesdk"
+  },
+  {
+    "id": "1ikDYpYs00shysxw0p0TtXfbrG46UNZrC",
+    "name": "NZDCHF_50.parquet",
+    "size": 27205571,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ikDYpYs00shysxw0p0TtXfbrG46UNZrC/view?usp=drivesdk"
+  },
+  {
+    "id": "1XJRvmWvaSuX3XXT1V2G2xt-OZUhw3NYP",
+    "name": "NZDCAD_61.parquet",
+    "size": 30241640,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1XJRvmWvaSuX3XXT1V2G2xt-OZUhw3NYP/view?usp=drivesdk"
+  },
+  {
+    "id": "1DIzQQ8pNk9FeeLOBzh1-T2uLODAEQrHb",
+    "name": "NOKSEK_22338.parquet",
+    "size": 51983459,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DIzQQ8pNk9FeeLOBzh1-T2uLODAEQrHb/view?usp=drivesdk"
+  },
+  {
+    "id": "197HW_RHYNMnvVL_CifRx4T3F-SYzlymd",
+    "name": "NOKJPY_22337.parquet",
+    "size": 57146093,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/197HW_RHYNMnvVL_CifRx4T3F-SYzlymd/view?usp=drivesdk"
+  },
+  {
+    "id": "1OVPevywmebxqQ7z9mhXswqzbv_BeArjF",
+    "name": "NIPPON_YUSEN_22280.parquet",
+    "size": 7544696,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1OVPevywmebxqQ7z9mhXswqzbv_BeArjF/view?usp=drivesdk"
+  },
+  {
+    "id": "1Sa1xxEKR3MtathbUOU4spWi_TewMkk5U",
+    "name": "NIKE_21516.parquet",
+    "size": 10045038,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Sa1xxEKR3MtathbUOU4spWi_TewMkk5U/view?usp=drivesdk"
+  },
+  {
+    "id": "1r2SIRK2_rAAaVzfkz0SS5dTvTL26n45_",
+    "name": "NEW_YORK_TIMES_21769.parquet",
+    "size": 7021198,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1r2SIRK2_rAAaVzfkz0SS5dTvTL26n45_/view?usp=drivesdk"
+  },
+  {
+    "id": "1WGXtF4KeugRfMlTleDTcRA3-iWjXiGRg",
+    "name": "NEW_WORLD_DEV_21653.parquet",
+    "size": 2859736,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1WGXtF4KeugRfMlTleDTcRA3-iWjXiGRg/view?usp=drivesdk"
+  },
+  {
+    "id": "10TVNWIw43-ujDpdFecAPBwZifJHPrnui",
+    "name": "NETHERLANDS_25_21505.parquet",
+    "size": 19082554,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10TVNWIw43-ujDpdFecAPBwZifJHPrnui/view?usp=drivesdk"
+  },
+  {
+    "id": "1taGRD67-__zHJj-bwODb4zA8J3bNG7C-",
+    "name": "NAT.GAS_22344.parquet",
+    "size": 24273280,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1taGRD67-__zHJj-bwODb4zA8J3bNG7C-/view?usp=drivesdk"
+  },
+  {
+    "id": "1xnOPFFPSL2SxUxe47E6hQgi3JrqO-8BL",
+    "name": "MTR_22243.parquet",
+    "size": 2191732,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1xnOPFFPSL2SxUxe47E6hQgi3JrqO-8BL/view?usp=drivesdk"
+  },
+  {
+    "id": "1IAnctBjda8lnKJ-nNs7Y67UJj9jTODXX",
+    "name": "MSCI_TAIWAN_21702.parquet",
+    "size": 5863803,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1IAnctBjda8lnKJ-nNs7Y67UJj9jTODXX/view?usp=drivesdk"
+  },
+  {
+    "id": "1wpWDGdLvCUx0n7uAUIUwL7Qxv0gj8RhL",
+    "name": "MSCI_SOUTH_KOREA_21700.parquet",
+    "size": 7560159,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1wpWDGdLvCUx0n7uAUIUwL7Qxv0gj8RhL/view?usp=drivesdk"
+  },
+  {
+    "id": "10Y0rnlzZ4QVdnrZfnCP1OymBn59AMrbr",
+    "name": "MSCI_MALAYSIA_21696.parquet",
+    "size": 2573094,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10Y0rnlzZ4QVdnrZfnCP1OymBn59AMrbr/view?usp=drivesdk"
+  },
+  {
+    "id": "1TWcLdpW1b9nW48ojsz5NKJ4GWCBjzmjx",
+    "name": "MSCI_BRAZIL_21687.parquet",
+    "size": 7336344,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1TWcLdpW1b9nW48ojsz5NKJ4GWCBjzmjx/view?usp=drivesdk"
+  },
+  {
+    "id": "1Dq96c0h2WiRwNQHQFC1yRt2_HbQUqj5c",
+    "name": "MOTOROLA_21767.parquet",
+    "size": 10223799,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Dq96c0h2WiRwNQHQFC1yRt2_HbQUqj5c/view?usp=drivesdk"
+  },
+  {
+    "id": "156mBGMAjkOiN8HvereuLttaYVCdXGkUK",
+    "name": "MOSAIC_21766.parquet",
+    "size": 8813915,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/156mBGMAjkOiN8HvereuLttaYVCdXGkUK/view?usp=drivesdk"
+  },
+  {
+    "id": "1izMLFOaXAM5TUP_OQ1hbxFbk2Kq7awOu",
+    "name": "MOODYS_21765.parquet",
+    "size": 11105769,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1izMLFOaXAM5TUP_OQ1hbxFbk2Kq7awOu/view?usp=drivesdk"
+  },
+  {
+    "id": "1HhlkpnSuSU0FGg8PD1dFFf6DHezVOwCH",
+    "name": "MOHAWK_INDUSTRIES_21960.parquet",
+    "size": 10311708,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1HhlkpnSuSU0FGg8PD1dFFf6DHezVOwCH/view?usp=drivesdk"
+  },
+  {
+    "id": "1oYjNQurYqEWl5UCPOtNGZc_lwg7-WqZS",
+    "name": "MGM_21764.parquet",
+    "size": 8788094,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1oYjNQurYqEWl5UCPOtNGZc_lwg7-WqZS/view?usp=drivesdk"
+  },
+  {
+    "id": "10RZmvGrBb-dMRJ3VhBJkYDSC907NGlIp",
+    "name": "METLIFE_21763.parquet",
+    "size": 9462708,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10RZmvGrBb-dMRJ3VhBJkYDSC907NGlIp/view?usp=drivesdk"
+  },
+  {
+    "id": "16RYtiGN3h1UyaJ2ej-i-2a4_ybPdxiai",
+    "name": "MEDIASET_21626.parquet",
+    "size": 5612117,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/16RYtiGN3h1UyaJ2ej-i-2a4_ybPdxiai/view?usp=drivesdk"
+  },
+  {
+    "id": "1K6ykF-JbcPn5jmbckMc5qT099hHZ3k6F",
+    "name": "MC_DONALDS_21509.parquet",
+    "size": 10572658,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1K6ykF-JbcPn5jmbckMc5qT099hHZ3k6F/view?usp=drivesdk"
+  },
+  {
+    "id": "1-HfYB7ReSRj55P5CHwFoPd73Sl1GbnKm",
+    "name": "MASTERCARD_21510.parquet",
+    "size": 12186468,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-HfYB7ReSRj55P5CHwFoPd73Sl1GbnKm/view?usp=drivesdk"
+  },
+  {
+    "id": "1dB3ld_OmBv16ou9Gg9A1p0jjmCZyT216",
+    "name": "LOUISIANA-PACIFIC_21958.parquet",
+    "size": 8602782,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1dB3ld_OmBv16ou9Gg9A1p0jjmCZyT216/view?usp=drivesdk"
+  },
+  {
+    "id": "1R-mwnJ3p7yQ62e20Dqqtkmb6bKVuyL8I",
+    "name": "LOEWS_21957.parquet",
+    "size": 8461429,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1R-mwnJ3p7yQ62e20Dqqtkmb6bKVuyL8I/view?usp=drivesdk"
+  },
+  {
+    "id": "1NRJ5uBLaPu4HMzlCZUpgTEu5M-055XP1",
+    "name": "LINK_REIT_22242.parquet",
+    "size": 3488717,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1NRJ5uBLaPu4HMzlCZUpgTEu5M-055XP1/view?usp=drivesdk"
+  },
+  {
+    "id": "1X3qS4lXVXUFremhHE4rYb8ApLRACcDIc",
+    "name": "LINDT_21565.parquet",
+    "size": 3263254,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1X3qS4lXVXUFremhHE4rYb8ApLRACcDIc/view?usp=drivesdk"
+  },
+  {
+    "id": "1dA2v3wgWKggHJbavFgLJZNo-c5XDynry",
+    "name": "LENNOX_21955.parquet",
+    "size": 10670856,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1dA2v3wgWKggHJbavFgLJZNo-c5XDynry/view?usp=drivesdk"
+  },
+  {
+    "id": "1M3CNaExm0uL6v5IRmYMcdcqOw2AcpeR_",
+    "name": "LAGARDERE_22018.parquet",
+    "size": 3281650,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1M3CNaExm0uL6v5IRmYMcdcqOw2AcpeR_/view?usp=drivesdk"
+  },
+  {
+    "id": "1alG74JrlcmK429RK7p_V49OYCVXWEdNS",
+    "name": "KUNLUN_ENERGY_21649.parquet",
+    "size": 2184567,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1alG74JrlcmK429RK7p_V49OYCVXWEdNS/view?usp=drivesdk"
+  },
+  {
+    "id": "1M1IdiuNPy6dXMo1aMv8Db7s0JJ7cfE3P",
+    "name": "KIRBY_21756.parquet",
+    "size": 7871451,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1M1IdiuNPy6dXMo1aMv8Db7s0JJ7cfE3P/view?usp=drivesdk"
+  },
+  {
+    "id": "1HkWlnvoILp1GPjZqkGAliKQWWEfDtFDS",
+    "name": "KINDER_MORGAN_21755.parquet",
+    "size": 5814133,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1HkWlnvoILp1GPjZqkGAliKQWWEfDtFDS/view?usp=drivesdk"
+  },
+  {
+    "id": "1E2fMEIzP5crus0v8bCmkqL3rZlh278Um",
+    "name": "KIMCO_REALTY_21954.parquet",
+    "size": 6295361,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1E2fMEIzP5crus0v8bCmkqL3rZlh278Um/view?usp=drivesdk"
+  },
+  {
+    "id": "1KXEUJr9Inhr-k0F-e_EfyKDQ9hpGF2Du",
+    "name": "JAPAN_225_21507.parquet",
+    "size": 11967349,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1KXEUJr9Inhr-k0F-e_EfyKDQ9hpGF2Du/view?usp=drivesdk"
+  },
+  {
+    "id": "1zK-mSfUVys1aheW3T-ctV1wf3fV_rO4W",
+    "name": "ITALY_40_21644.parquet",
+    "size": 13644621,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1zK-mSfUVys1aheW3T-ctV1wf3fV_rO4W/view?usp=drivesdk"
+  },
+  {
+    "id": "1vBp_2tBNgMOFU9w7h0e4aDPAMs01Fdr8",
+    "name": "IRON_MOUNTAIN_21951.parquet",
+    "size": 8730935,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1vBp_2tBNgMOFU9w7h0e4aDPAMs01Fdr8/view?usp=drivesdk"
+  },
+  {
+    "id": "1a2FMTcfwBlNaz_YMaSaJ45ox_NuI9trm",
+    "name": "INVESCO_21949.parquet",
+    "size": 7260091,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1a2FMTcfwBlNaz_YMaSaJ45ox_NuI9trm/view?usp=drivesdk"
+  },
+  {
+    "id": "1dv0JA6y2D2rIjsWXR0ixf61UE7RLXge_",
+    "name": "INFINEON_21833.parquet",
+    "size": 11998361,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1dv0JA6y2D2rIjsWXR0ixf61UE7RLXge_/view?usp=drivesdk"
+  },
+  {
+    "id": "1XWpn8RJSueTz5GZV-f4Z_vkBUMwOnxBu",
+    "name": "IBOXX_USD_HIGH_YIELD_22385.parquet",
+    "size": 3869991,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1XWpn8RJSueTz5GZV-f4Z_vkBUMwOnxBu/view?usp=drivesdk"
+  },
+  {
+    "id": "1NLL7vVSRHNwuHJ7xQTzDF1W9qvM90sNt",
+    "name": "IBM_21543.parquet",
+    "size": 10847095,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1NLL7vVSRHNwuHJ7xQTzDF1W9qvM90sNt/view?usp=drivesdk"
+  },
+  {
+    "id": "1azTJm_74ud-mqgcFnxLfGI9vVYjWHaiN",
+    "name": "HYATT_21747.parquet",
+    "size": 9180079,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1azTJm_74ud-mqgcFnxLfGI9vVYjWHaiN/view?usp=drivesdk"
+  },
+  {
+    "id": "1_IvRI_VrEESZTgEM6uvKM4D_elzkz29e",
+    "name": "HP_21525.parquet",
+    "size": 7193578,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1_IvRI_VrEESZTgEM6uvKM4D_elzkz29e/view?usp=drivesdk"
+  },
+  {
+    "id": "1L03pLFbqTZ0UF_DCx8lcnYTbZ7XsbIJy",
+    "name": "HONG_KONG_50_21497.parquet",
+    "size": 20767351,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1L03pLFbqTZ0UF_DCx8lcnYTbZ7XsbIJy/view?usp=drivesdk"
+  },
+  {
+    "id": "1LHg-zM2ZAJdSaVcyEi_WD2xrCCjOu_Nh",
+    "name": "HONG_KONG___CHINA_GAS_22239.parquet",
+    "size": 1224968,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1LHg-zM2ZAJdSaVcyEi_WD2xrCCjOu_Nh/view?usp=drivesdk"
+  },
+  {
+    "id": "1HPfyFg6jP039hstDYkXCPDyD22MY2xwZ",
+    "name": "HOME_DEPOT_21526.parquet",
+    "size": 11632892,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1HPfyFg6jP039hstDYkXCPDyD22MY2xwZ/view?usp=drivesdk"
+  },
+  {
+    "id": "1KoXpTv7w111Map7aHT0nSQoxlOfQtGmO",
+    "name": "HILTON_21746.parquet",
+    "size": 10152362,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1KoXpTv7w111Map7aHT0nSQoxlOfQtGmO/view?usp=drivesdk"
+  },
+  {
+    "id": "1ivvX8XNvzp2huB9uOrIyqiMT9ygKt8i_",
+    "name": "HANG_LUNG_PROPERTIES_22238.parquet",
+    "size": 1591725,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ivvX8XNvzp2huB9uOrIyqiMT9ygKt8i_/view?usp=drivesdk"
+  },
+  {
+    "id": "1WyTAjfHgaZ9vpIakP7fy1-nu0zlon5x6",
+    "name": "GRIFOLS_22055.parquet",
+    "size": 9738980,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1WyTAjfHgaZ9vpIakP7fy1-nu0zlon5x6/view?usp=drivesdk"
+  },
+  {
+    "id": "1lFYTFtib0J7JA7fnaODy8Mp7JJ8Qeaka",
+    "name": "GRACO_21941.parquet",
+    "size": 8550882,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1lFYTFtib0J7JA7fnaODy8Mp7JJ8Qeaka/view?usp=drivesdk"
+  },
+  {
+    "id": "13ZO2C7iyMpEg6YdMl_3b4KxdUJS6-DoM",
+    "name": "GOLDMAN_SACHS_21524.parquet",
+    "size": 12154571,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/13ZO2C7iyMpEg6YdMl_3b4KxdUJS6-DoM/view?usp=drivesdk"
+  },
+  {
+    "id": "1k9BPethb7YgAQYxhJMCJL_wscQdVT7fi",
+    "name": "GLOBAL_PAYMENTS_20210.parquet",
+    "size": 10341098,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1k9BPethb7YgAQYxhJMCJL_wscQdVT7fi/view?usp=drivesdk"
+  },
+  {
+    "id": "1LGxaUv_Q4aIN_lXbwilICjFpogvltkHj",
+    "name": "GERMANY_40_21502.parquet",
+    "size": 32757031,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1LGxaUv_Q4aIN_lXbwilICjFpogvltkHj/view?usp=drivesdk"
+  },
+  {
+    "id": "1JPKOqIZEnxcRkaShlupbcMUXxj2I1WHQ",
+    "name": "GENERAL_MOTORS_21522.parquet",
+    "size": 8915896,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1JPKOqIZEnxcRkaShlupbcMUXxj2I1WHQ/view?usp=drivesdk"
+  },
+  {
+    "id": "1Pbs_n1Fa9kVkCOiD5R7NzvNygaQaOq0A",
+    "name": "GENERAC_HOLDINGS_20589.parquet",
+    "size": 10391811,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Pbs_n1Fa9kVkCOiD5R7NzvNygaQaOq0A/view?usp=drivesdk"
+  },
+  {
+    "id": "186_J1jiZeJBi8s8uZFsy4wFX9qKbY5g-",
+    "name": "GBPZAR_48.parquet",
+    "size": 62280525,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/186_J1jiZeJBi8s8uZFsy4wFX9qKbY5g-/view?usp=drivesdk"
+  },
+  {
+    "id": "1YvMPJrKnA7GqDlj8qj67Snv8yw8e5vCX",
+    "name": "GBPUSD_2.parquet",
+    "size": 61055527,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1YvMPJrKnA7GqDlj8qj67Snv8yw8e5vCX/view?usp=drivesdk"
+  },
+  {
+    "id": "1R9Bi-SSet5ahymgKhe-37VrQ8KxIzNIA",
+    "name": "GBPTRY_22335.parquet",
+    "size": 102160937,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1R9Bi-SSet5ahymgKhe-37VrQ8KxIzNIA/view?usp=drivesdk"
+  },
+  {
+    "id": "1pZJzPwVDk8qmw-cZSZJn-NgYCImh3OIv",
+    "name": "GBPSGD_74.parquet",
+    "size": 34758596,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1pZJzPwVDk8qmw-cZSZJn-NgYCImh3OIv/view?usp=drivesdk"
+  },
+  {
+    "id": "1tKrGCJ57oo9SVpttLKtQppQ58JVX7Bri",
+    "name": "GBPSEK_10093.parquet",
+    "size": 52957625,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1tKrGCJ57oo9SVpttLKtQppQ58JVX7Bri/view?usp=drivesdk"
+  },
+  {
+    "id": "1nkGKxPEiRvpBSijgEoDRVn-So8MGkKjL",
+    "name": "GBPNZD_25.parquet",
+    "size": 39239708,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1nkGKxPEiRvpBSijgEoDRVn-So8MGkKjL/view?usp=drivesdk"
+  },
+  {
+    "id": "1bP41YNmP2I4JEJkwbs5ItZqul5vkbxc6",
+    "name": "GBPNOK_59.parquet",
+    "size": 54472838,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1bP41YNmP2I4JEJkwbs5ItZqul5vkbxc6/view?usp=drivesdk"
+  },
+  {
+    "id": "17Tu_-l9nwnPCVfj9Av69ijQcBGPqNmaj",
+    "name": "GBPJPY_7.parquet",
+    "size": 53080561,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17Tu_-l9nwnPCVfj9Av69ijQcBGPqNmaj/view?usp=drivesdk"
+  },
+  {
+    "id": "1IaEeh4AylFAHz1Zz-gGV8hXE3wPpep2H",
+    "name": "GBPDKK_22334.parquet",
+    "size": 72486877,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1IaEeh4AylFAHz1Zz-gGV8hXE3wPpep2H/view?usp=drivesdk"
+  },
+  {
+    "id": "1Rg-30UQaEq2nagirUGu6XvhibqEmz9vG",
+    "name": "GBPCHF_40.parquet",
+    "size": 57816878,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Rg-30UQaEq2nagirUGu6XvhibqEmz9vG/view?usp=drivesdk"
+  },
+  {
+    "id": "17N9WuIGLD69EwAbdKtRIr8yaeoKCjK0X",
+    "name": "GBPCAD_19.parquet",
+    "size": 64352084,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17N9WuIGLD69EwAbdKtRIr8yaeoKCjK0X/view?usp=drivesdk"
+  },
+  {
+    "id": "16YPuDvZ_zmhijE1XlJY1WLRxw52xJD8P",
+    "name": "GBPAUD_16.parquet",
+    "size": 68141258,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/16YPuDvZ_zmhijE1XlJY1WLRxw52xJD8P/view?usp=drivesdk"
+  },
+  {
+    "id": "1wz_DXi7PM4OK5VoFF9ZAO02RVfCn1_sk",
+    "name": "GALAXY_ENTERTAINMENT_21652.parquet",
+    "size": 4575506,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1wz_DXi7PM4OK5VoFF9ZAO02RVfCn1_sk/view?usp=drivesdk"
+  },
+  {
+    "id": "1aeU6dXO7Pr6wAzIPQqBk4nyCB7BS0ej_",
+    "name": "FRANKLIN_RESOURCES_21740.parquet",
+    "size": 7946498,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1aeU6dXO7Pr6wAzIPQqBk4nyCB7BS0ej_/view?usp=drivesdk"
+  },
+  {
+    "id": "10-JTJwtmXSiXZF6JGyaYwID4g49KgBtt",
+    "name": "FRANCE_40_21503.parquet",
+    "size": 25028967,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10-JTJwtmXSiXZF6JGyaYwID4g49KgBtt/view?usp=drivesdk"
+  },
+  {
+    "id": "1UeNnqJ1Mp5Aq4qLF2aJZrHh1MLDthcgL",
+    "name": "FORD_MOTOR_21739.parquet",
+    "size": 4081492,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1UeNnqJ1Mp5Aq4qLF2aJZrHh1MLDthcgL/view?usp=drivesdk"
+  },
+  {
+    "id": "1KqxBfGk9x8CSZ3nOkc77dsuTA17x4ozu",
+    "name": "FEDEX_21738.parquet",
+    "size": 11489506,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1KqxBfGk9x8CSZ3nOkc77dsuTA17x4ozu/view?usp=drivesdk"
+  },
+  {
+    "id": "1Zh76zWHfJv7eJ4tLvOw5ubJkefZMhwPW",
+    "name": "EXXON_21514.parquet",
+    "size": 9943480,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Zh76zWHfJv7eJ4tLvOw5ubJkefZMhwPW/view?usp=drivesdk"
+  },
+  {
+    "id": "1pxyp_m1oJOdMcSKS6qeA2iiDjbNKjKaP",
+    "name": "EUTELSAT_COMMUNICATIONS_22015.parquet",
+    "size": 7270071,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1pxyp_m1oJOdMcSKS6qeA2iiDjbNKjKaP/view?usp=drivesdk"
+  },
+  {
+    "id": "1zxvn41gwSqnZzpp3qAXSVum1kWUB76e_",
+    "name": "EURZAR_62.parquet",
+    "size": 64643450,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1zxvn41gwSqnZzpp3qAXSVum1kWUB76e_/view?usp=drivesdk"
+  },
+  {
+    "id": "1MLv1cSPgU4T3isBemlC93DM1ORBM7St1",
+    "name": "EURUSD_1.parquet",
+    "size": 55969468,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1MLv1cSPgU4T3isBemlC93DM1ORBM7St1/view?usp=drivesdk"
+  },
+  {
+    "id": "1wAb_HO4pIfuU6chHV9IMY4ZtQQleI6NA",
+    "name": "EURTRY_68.parquet",
+    "size": 57470127,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1wAb_HO4pIfuU6chHV9IMY4ZtQQleI6NA/view?usp=drivesdk"
+  },
+  {
+    "id": "1zM7m0PS8v-TejmtifXlPg00gSRctJJ8Y",
+    "name": "EURSGD_22333.parquet",
+    "size": 53705557,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1zM7m0PS8v-TejmtifXlPg00gSRctJJ8Y/view?usp=drivesdk"
+  },
+  {
+    "id": "1iZz_ucSnoRkExWcKqsvs4jClLFSYQpUk",
+    "name": "EURSEK_47.parquet",
+    "size": 47868389,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1iZz_ucSnoRkExWcKqsvs4jClLFSYQpUk/view?usp=drivesdk"
+  },
+  {
+    "id": "1DLsxRdxZ8fHNlEGO2-vLLWkFmxLvcpNV",
+    "name": "EURPLN_51.parquet",
+    "size": 35903816,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DLsxRdxZ8fHNlEGO2-vLLWkFmxLvcpNV/view?usp=drivesdk"
+  },
+  {
+    "id": "114YrOosFNPix_Gaki_eVgwjDfJ_7QfaO",
+    "name": "EUROPE_50_21577.parquet",
+    "size": 20430056,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/114YrOosFNPix_Gaki_eVgwjDfJ_7QfaO/view?usp=drivesdk"
+  },
+  {
+    "id": "1xvxiJiP_u16kclXb2lsx6QT4SiOAyzvL",
+    "name": "EURNZD_66.parquet",
+    "size": 38155298,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1xvxiJiP_u16kclXb2lsx6QT4SiOAyzvL/view?usp=drivesdk"
+  },
+  {
+    "id": "10Eh7e7XYS9v7PJ-CxOq6ysR2ZeFLNAQZ",
+    "name": "EURNOK_57.parquet",
+    "size": 50343139,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/10Eh7e7XYS9v7PJ-CxOq6ysR2ZeFLNAQZ/view?usp=drivesdk"
+  },
+  {
+    "id": "1Ib6Frq2KMuNgKUCncG2fKV8e1BNl2VxD",
+    "name": "EURMXN_53.parquet",
+    "size": 62228872,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Ib6Frq2KMuNgKUCncG2fKV8e1BNl2VxD/view?usp=drivesdk"
+  },
+  {
+    "id": "1Z5P9-vsynLd05FDMgi4cg0ToqmNJml-y",
+    "name": "EURJPY_3.parquet",
+    "size": 50633491,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Z5P9-vsynLd05FDMgi4cg0ToqmNJml-y/view?usp=drivesdk"
+  },
+  {
+    "id": "1aImTd8n_DDRdLjbQSBYeKZodXcaWhxAU",
+    "name": "EURHUF_55.parquet",
+    "size": 31918152,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1aImTd8n_DDRdLjbQSBYeKZodXcaWhxAU/view?usp=drivesdk"
+  },
+  {
+    "id": "1B1hb48-g8WjXY0Qe9JjUUoXA6yKkSErU",
+    "name": "EURHKD_58.parquet",
+    "size": 47224240,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1B1hb48-g8WjXY0Qe9JjUUoXA6yKkSErU/view?usp=drivesdk"
+  },
+  {
+    "id": "1p_YNZrKXXswcSCt9NrijhjmwqSpCWdGF",
+    "name": "EURGBP_9.parquet",
+    "size": 50762735,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1p_YNZrKXXswcSCt9NrijhjmwqSpCWdGF/view?usp=drivesdk"
+  },
+  {
+    "id": "1-P2KBWGM27DeVyLDHWzg1T15oIigbotm",
+    "name": "EURDKK_54.parquet",
+    "size": 10158183,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1-P2KBWGM27DeVyLDHWzg1T15oIigbotm/view?usp=drivesdk"
+  },
+  {
+    "id": "1BUesKGJf2lA2Fh0d6iCCobYPxxe2oYmh",
+    "name": "EURCZK_63.parquet",
+    "size": 40621723,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1BUesKGJf2lA2Fh0d6iCCobYPxxe2oYmh/view?usp=drivesdk"
+  },
+  {
+    "id": "17Xgz0nw46e92nzmdrUDQR3II6AdPvPdu",
+    "name": "EURCNH_22330.parquet",
+    "size": 83343203,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17Xgz0nw46e92nzmdrUDQR3II6AdPvPdu/view?usp=drivesdk"
+  },
+  {
+    "id": "1lKZQ2ZY3OXPWqbt8_zAxXXjBKhI9j9yZ",
+    "name": "EURCHF_10.parquet",
+    "size": 49757755,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1lKZQ2ZY3OXPWqbt8_zAxXXjBKhI9j9yZ/view?usp=drivesdk"
+  },
+  {
+    "id": "1PA8VCAAO3QX2UB-nDN-TfcStIgkpkhT9",
+    "name": "EURCAD_17.parquet",
+    "size": 59753668,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1PA8VCAAO3QX2UB-nDN-TfcStIgkpkhT9/view?usp=drivesdk"
+  },
+  {
+    "id": "17ndkWQtWFb8av52kb8qJ3DEFRyG-uz8V",
+    "name": "EURAUD_14.parquet",
+    "size": 37300040,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17ndkWQtWFb8av52kb8qJ3DEFRyG-uz8V/view?usp=drivesdk"
+  },
+  {
+    "id": "1d6tb2BR4eBp0XKzCreDA9WHamhCsxVmI",
+    "name": "ETHUSD_22397.parquet",
+    "size": 63540915,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1d6tb2BR4eBp0XKzCreDA9WHamhCsxVmI/view?usp=drivesdk"
+  },
+  {
+    "id": "1A-t8cUw0ByUGdO8Xuvz_wdRd24lLDcsL",
+    "name": "ETHEUR_22398.parquet",
+    "size": 63264168,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1A-t8cUw0ByUGdO8Xuvz_wdRd24lLDcsL/view?usp=drivesdk"
+  },
+  {
+    "id": "1sWvF7aIBOxv6KV25VgSG6k4BsxlLwLoB",
+    "name": "EDISON_21933.parquet",
+    "size": 9486179,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1sWvF7aIBOxv6KV25VgSG6k4BsxlLwLoB/view?usp=drivesdk"
+  },
+  {
+    "id": "1G2relAEZMWKGQIxXEB01AykNlOT38Yrj",
+    "name": "ECOLAB_21932.parquet",
+    "size": 10167522,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1G2relAEZMWKGQIxXEB01AykNlOT38Yrj/view?usp=drivesdk"
+  },
+  {
+    "id": "1vcz9cuOOsexqgLPJdKGUtLxrrPPTW4g1",
+    "name": "EAGLE_MATERIALS_21734.parquet",
+    "size": 9463871,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1vcz9cuOOsexqgLPJdKGUtLxrrPPTW4g1/view?usp=drivesdk"
+  },
+  {
+    "id": "18yHuVdaVMtNVK5wOwR4atoJAakZVD7ot",
+    "name": "DEVON_ENERGY_20412.parquet",
+    "size": 9393006,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/18yHuVdaVMtNVK5wOwR4atoJAakZVD7ot/view?usp=drivesdk"
+  },
+  {
+    "id": "1RnosOHiPZiq9n84dyzRONrteN9Qalp5a",
+    "name": "DELTA_AIR_LINES_21927.parquet",
+    "size": 9669902,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1RnosOHiPZiq9n84dyzRONrteN9Qalp5a/view?usp=drivesdk"
+  },
+  {
+    "id": "1M_MDFlwwd8VSouCsszc-Q9DNXcADSzaN",
+    "name": "CROWN_HOLDINGS_21926.parquet",
+    "size": 9043622,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1M_MDFlwwd8VSouCsszc-Q9DNXcADSzaN/view?usp=drivesdk"
+  },
+  {
+    "id": "1AMEVhG1N9vbH_dTDenGZHh7xiktKhUA_",
+    "name": "COTY_21925.parquet",
+    "size": 4031031,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1AMEVhG1N9vbH_dTDenGZHh7xiktKhUA_/view?usp=drivesdk"
+  },
+  {
+    "id": "1YO1-YkjW-dM_kmX870rUnlMvyJ5UY56a",
+    "name": "COLGATE-PALMOLIVE_21728.parquet",
+    "size": 9342799,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1YO1-YkjW-dM_kmX870rUnlMvyJ5UY56a/view?usp=drivesdk"
+  },
+  {
+    "id": "1c7Q6cc8bn3YNLYuuV5aisob5HiemgoGz",
+    "name": "COCA-COLA_21513.parquet",
+    "size": 7952139,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1c7Q6cc8bn3YNLYuuV5aisob5HiemgoGz/view?usp=drivesdk"
+  },
+  {
+    "id": "1wBUNu59LNU43IQ7SuTrCGmMPlhNQcZqu",
+    "name": "CLP_21603.parquet",
+    "size": 2788774,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1wBUNu59LNU43IQ7SuTrCGmMPlhNQcZqu/view?usp=drivesdk"
+  },
+  {
+    "id": "1IKvszKYrCAdpLPjIVtE1tfc8lWH7SA4S",
+    "name": "CK_HUTCHISON_21679.parquet",
+    "size": 3649911,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1IKvszKYrCAdpLPjIVtE1tfc8lWH7SA4S/view?usp=drivesdk"
+  },
+  {
+    "id": "1vNQBdVBcZxCfSmxfNx4QmULpP-FLdUuV",
+    "name": "CITIZENS_FINANCIAL_21727.parquet",
+    "size": 9127872,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1vNQBdVBcZxCfSmxfNx4QmULpP-FLdUuV/view?usp=drivesdk"
+  },
+  {
+    "id": "1XyFONWXLe1HnEfS2ho2QG7RpxhDVlk8I",
+    "name": "CITIGROUP_20598.parquet",
+    "size": 9824817,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1XyFONWXLe1HnEfS2ho2QG7RpxhDVlk8I/view?usp=drivesdk"
+  },
+  {
+    "id": "1ZSWHyaSQLPjlxio9wzAkHnHj9Wi28VvC",
+    "name": "CITIC_21647.parquet",
+    "size": 1316682,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ZSWHyaSQLPjlxio9wzAkHnHj9Wi28VvC/view?usp=drivesdk"
+  },
+  {
+    "id": "1SC5Uq9mJVP_HWR4gH_Vy-wX0fCjvxMoj",
+    "name": "CHRISTIAN_DIOR_20945.parquet",
+    "size": 6345743,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1SC5Uq9mJVP_HWR4gH_Vy-wX0fCjvxMoj/view?usp=drivesdk"
+  },
+  {
+    "id": "1TrsFb-Qz8Zsp1nzZHQlbUQDdgFoJq4Y4",
+    "name": "CHINA_RESOURCES_POWER_22237.parquet",
+    "size": 2885240,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1TrsFb-Qz8Zsp1nzZHQlbUQDdgFoJq4Y4/view?usp=drivesdk"
+  },
+  {
+    "id": "12ledJth6BrkHYmGzAhkN9dXylTmYM9s1",
+    "name": "CHINA_RESOURCES_BEER_22235.parquet",
+    "size": 3932054,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/12ledJth6BrkHYmGzAhkN9dXylTmYM9s1/view?usp=drivesdk"
+  },
+  {
+    "id": "1FeI2PiY7RFrIAGqddC0eZRa9yLzfK6o6",
+    "name": "CHINA_OVERSEAS_PROPERTY_HOLD_22234.parquet",
+    "size": 2438230,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1FeI2PiY7RFrIAGqddC0eZRa9yLzfK6o6/view?usp=drivesdk"
+  },
+  {
+    "id": "1Pwj5CKNerRDC4Qelop4N4d4_07exqpDC",
+    "name": "CHINA_OVERSEAS_LAND___INVEST_22233.parquet",
+    "size": 3370378,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Pwj5CKNerRDC4Qelop4N4d4_07exqpDC/view?usp=drivesdk"
+  },
+  {
+    "id": "19DJ24h3xi90kgdAaKCJi4-W1GvKjo9EZ",
+    "name": "CHINA_MERCHANTS_HLDGS_INTL_22232.parquet",
+    "size": 1937355,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/19DJ24h3xi90kgdAaKCJi4-W1GvKjo9EZ/view?usp=drivesdk"
+  },
+  {
+    "id": "1DGWa1RGdSYaGd2E5icb8VYnPEtn3b2D2",
+    "name": "CHFSGD_22326.parquet",
+    "size": 51772673,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1DGWa1RGdSYaGd2E5icb8VYnPEtn3b2D2/view?usp=drivesdk"
+  },
+  {
+    "id": "1E4Ncm6TNwuw6gX_FHziRX3qmrpNa8K_J",
+    "name": "CHFJPY_13.parquet",
+    "size": 49435512,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1E4Ncm6TNwuw6gX_FHziRX3qmrpNa8K_J/view?usp=drivesdk"
+  },
+  {
+    "id": "1zDxqY3koMYvIJ5gW-oUoxxuzs_VTmf6F",
+    "name": "CHEVRON_20451.parquet",
+    "size": 10399904,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1zDxqY3koMYvIJ5gW-oUoxxuzs_VTmf6F/view?usp=drivesdk"
+  },
+  {
+    "id": "1KI_k1Z7DHd4KI_HtD7s05_77nQBVUyhn",
+    "name": "CHEUNG_KONG_PROPERTY_22231.parquet",
+    "size": 3393349,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1KI_k1Z7DHd4KI_HtD7s05_77nQBVUyhn/view?usp=drivesdk"
+  },
+  {
+    "id": "1pAusM62FohYT9CIXVjawuSs-Lm-ASBoR",
+    "name": "CATERPILLAR_20418.parquet",
+    "size": 11612965,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1pAusM62FohYT9CIXVjawuSs-Lm-ASBoR/view?usp=drivesdk"
+  },
+  {
+    "id": "1lt_gl5RXq18ChZi6Gs6CcnLJPbSudPu4",
+    "name": "CARLISLE_21919.parquet",
+    "size": 9680344,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1lt_gl5RXq18ChZi6Gs6CcnLJPbSudPu4/view?usp=drivesdk"
+  },
+  {
+    "id": "1w6Ev2bWz0jtviEu-uY72fmC82QcbdcJ7",
+    "name": "CANCOM_22029.parquet",
+    "size": 5671028,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1w6Ev2bWz0jtviEu-uY72fmC82QcbdcJ7/view?usp=drivesdk"
+  },
+  {
+    "id": "1ODh36yhEhoItZ1TKN_7jzgNOd5eyvlnu",
+    "name": "CADMXN_22319.parquet",
+    "size": 92675950,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1ODh36yhEhoItZ1TKN_7jzgNOd5eyvlnu/view?usp=drivesdk"
+  },
+  {
+    "id": "1afvOA9M2n8ibZflEIWg8oCVboPZ_uNu3",
+    "name": "CADJPY_15.parquet",
+    "size": 48670144,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1afvOA9M2n8ibZflEIWg8oCVboPZ_uNu3/view?usp=drivesdk"
+  },
+  {
+    "id": "1Ua8tKyYA9oYahMI2ChKJH8Smp2lPsOYM",
+    "name": "CADCHF_27.parquet",
+    "size": 50306061,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Ua8tKyYA9oYahMI2ChKJH8Smp2lPsOYM/view?usp=drivesdk"
+  },
+  {
+    "id": "1mZaSSSgMGse6Rd0k2xiEaYmqyj_Xrwpg",
+    "name": "BTCUSD_22395.parquet",
+    "size": 96909094,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1mZaSSSgMGse6Rd0k2xiEaYmqyj_Xrwpg/view?usp=drivesdk"
+  },
+  {
+    "id": "1OQExT0vzPwGCgxJdzt6R91aOwm5eRmp_",
+    "name": "BTCEUR_22396.parquet",
+    "size": 99432473,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1OQExT0vzPwGCgxJdzt6R91aOwm5eRmp_/view?usp=drivesdk"
+  },
+  {
+    "id": "1nbPqvzCPA3Ri576CaTBpaEDwgzhPUNpz",
+    "name": "BOEING_21512.parquet",
+    "size": 11815289,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1nbPqvzCPA3Ri576CaTBpaEDwgzhPUNpz/view?usp=drivesdk"
+  },
+  {
+    "id": "199bddJ4WZob4eKna2R1g6p83DeEboDYk",
+    "name": "BEST_BUY_20102.parquet",
+    "size": 10162801,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/199bddJ4WZob4eKna2R1g6p83DeEboDYk/view?usp=drivesdk"
+  },
+  {
+    "id": "19716m50V0o1gXzJHlsMEV8fz855TgOC0",
+    "name": "BECHTLE_22025.parquet",
+    "size": 7875837,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/19716m50V0o1gXzJHlsMEV8fz855TgOC0/view?usp=drivesdk"
+  },
+  {
+    "id": "1vBBNnvnb68L-B2gCT403VyTXm9mHT32j",
+    "name": "BANK_OF_EAST_ASIA_21645.parquet",
+    "size": 1635987,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1vBBNnvnb68L-B2gCT403VyTXm9mHT32j/view?usp=drivesdk"
+  },
+  {
+    "id": "1C6caH3xzwIya-WNm2uyr3bNeNTdNGqaq",
+    "name": "BANK_OF_AMERICA_20488.parquet",
+    "size": 8012783,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1C6caH3xzwIya-WNm2uyr3bNeNTdNGqaq/view?usp=drivesdk"
+  },
+  {
+    "id": "1BuFSu4Ut_yD-9JAhpNd5fln_PTapQkqr",
+    "name": "BANCORP_21906.parquet",
+    "size": 7902844,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1BuFSu4Ut_yD-9JAhpNd5fln_PTapQkqr/view?usp=drivesdk"
+  },
+  {
+    "id": "1LIBgomGeAs3xKWb7pVCjRjiEcflnrtxy",
+    "name": "AUSTRALIA_200_21498.parquet",
+    "size": 24181582,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1LIBgomGeAs3xKWb7pVCjRjiEcflnrtxy/view?usp=drivesdk"
+  },
+  {
+    "id": "1X_ERa-hWtOZ1YFBIHsnhjh_UtD-JUB5M",
+    "name": "AUDZAR_22316.parquet",
+    "size": 67175450,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1X_ERa-hWtOZ1YFBIHsnhjh_UtD-JUB5M/view?usp=drivesdk"
+  },
+  {
+    "id": "1uFGncNjrUsgAkg_5ISlTb2pFS4VgvIAo",
+    "name": "AUDUSD_5.parquet",
+    "size": 53605441,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1uFGncNjrUsgAkg_5ISlTb2pFS4VgvIAo/view?usp=drivesdk"
+  },
+  {
+    "id": "1_8sgHuXLsbBKBFC1Rqhk1AgxQgemu2zH",
+    "name": "AUDSGD_22315.parquet",
+    "size": 53011073,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1_8sgHuXLsbBKBFC1Rqhk1AgxQgemu2zH/view?usp=drivesdk"
+  },
+  {
+    "id": "1URumFKV7MDGma2P-lncOgZjBohYKDYMo",
+    "name": "AUDNZD_67.parquet",
+    "size": 29850954,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1URumFKV7MDGma2P-lncOgZjBohYKDYMo/view?usp=drivesdk"
+  },
+  {
+    "id": "1slNjRIAqxQappg2iFF3DCKvhGK9BEDqd",
+    "name": "AUDJPY_11.parquet",
+    "size": 48947769,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1slNjRIAqxQappg2iFF3DCKvhGK9BEDqd/view?usp=drivesdk"
+  },
+  {
+    "id": "1wQ6_z6ectjD7L6Eq_Xv4ERlz6NtZAKP-",
+    "name": "AUDCHF_23.parquet",
+    "size": 51819198,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1wQ6_z6ectjD7L6Eq_Xv4ERlz6NtZAKP-/view?usp=drivesdk"
+  },
+  {
+    "id": "1bcwFnHfotDuwjEPsJPD5iDMGyqSdqGZz",
+    "name": "AUDCAD_18.parquet",
+    "size": 53622114,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1bcwFnHfotDuwjEPsJPD5iDMGyqSdqGZz/view?usp=drivesdk"
+  },
+  {
+    "id": "146JpNKIT9zaBFt3I_H0kAxx2jpcAoIHY",
+    "name": "APPLE_21508.parquet",
+    "size": 8193740,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/146JpNKIT9zaBFt3I_H0kAxx2jpcAoIHY/view?usp=drivesdk"
+  },
+  {
+    "id": "1z3iEcPx70Mc6SDq7AhGik-UJWCRpqgT8",
+    "name": "AMPHENOL_21905.parquet",
+    "size": 9790278,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1z3iEcPx70Mc6SDq7AhGik-UJWCRpqgT8/view?usp=drivesdk"
+  },
+  {
+    "id": "1hVLKUbZtoVN5tbgGqV81gJbX-_FLCcd8",
+    "name": "AMERICAN_TOWER_21904.parquet",
+    "size": 10980921,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1hVLKUbZtoVN5tbgGqV81gJbX-_FLCcd8/view?usp=drivesdk"
+  },
+  {
+    "id": "1nQdiqG2Z4ggznDM7RViJvUzNRZtjI3j9",
+    "name": "ALLY_FINANCIAL_21898.parquet",
+    "size": 8217849,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1nQdiqG2Z4ggznDM7RViJvUzNRZtjI3j9/view?usp=drivesdk"
+  },
+  {
+    "id": "1SRUXEsPaiggDNx62dEyS0eFR19scSMZ5",
+    "name": "ALLISON_TRANSMISSION_21897.parquet",
+    "size": 8407504,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1SRUXEsPaiggDNx62dEyS0eFR19scSMZ5/view?usp=drivesdk"
+  },
+  {
+    "id": "134m9NDIe7QfGPaC5-BH4BQvvWfLHesVB",
+    "name": "ALLEGHENY_TECHNOLOGIES_21894.parquet",
+    "size": 8996592,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/134m9NDIe7QfGPaC5-BH4BQvvWfLHesVB/view?usp=drivesdk"
+  },
+  {
+    "id": "1tE-j85Tu8Vf4ex0s5Q0kUPCHMnoetsW7",
+    "name": "ALIBABA_22307.parquet",
+    "size": 11320658,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1tE-j85Tu8Vf4ex0s5Q0kUPCHMnoetsW7/view?usp=drivesdk"
+  },
+  {
+    "id": "1cpmVRP0jZed5bRZVOTqNuqYJo2k1uOqK",
+    "name": "ALCOA_20476.parquet",
+    "size": 9588801,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1cpmVRP0jZed5bRZVOTqNuqYJo2k1uOqK/view?usp=drivesdk"
+  },
+  {
+    "id": "1CRtLPmokSX_wKWiGFGjoZvh6AD9opmod",
+    "name": "ALASKA_AIR_21893.parquet",
+    "size": 9791804,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1CRtLPmokSX_wKWiGFGjoZvh6AD9opmod/view?usp=drivesdk"
+  },
+  {
+    "id": "1zh4OXoBcxlFdMbykHHOVGgomLVd3IRBI",
+    "name": "AIG_21544.parquet",
+    "size": 9305878,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1zh4OXoBcxlFdMbykHHOVGgomLVd3IRBI/view?usp=drivesdk"
+  },
+  {
+    "id": "1t_E_UO1wzBf_dlkyK_iHSTfM6jHXCuKE",
+    "name": "AGCO_21886.parquet",
+    "size": 9425737,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1t_E_UO1wzBf_dlkyK_iHSTfM6jHXCuKE/view?usp=drivesdk"
+  },
+  {
+    "id": "1WHhb0dwlaj6OjLr-bQNLDPhC8kHt60D6",
+    "name": "AES_21883.parquet",
+    "size": 5435047,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1WHhb0dwlaj6OjLr-bQNLDPhC8kHt60D6/view?usp=drivesdk"
+  },
+  {
+    "id": "1NC30XjK_51zyV4w3qyPLLg1Hv9FKTM4w",
+    "name": "AECOM_21714.parquet",
+    "size": 8646550,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1NC30XjK_51zyV4w3qyPLLg1Hv9FKTM4w/view?usp=drivesdk"
+  },
+  {
+    "id": "1Lp3S4LyyT258gehW-wWQjkfs8wB1vzu_",
+    "name": "ACUITY_BRANDS_21880.parquet",
+    "size": 9690490,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1Lp3S4LyyT258gehW-wWQjkfs8wB1vzu_/view?usp=drivesdk"
+  },
+  {
+    "id": "17v7o3noAPjYf4NRUnGu3pgA5iGnRcJ-y",
+    "name": "ABERCROMBIE_21707.parquet",
+    "size": 9229290,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/17v7o3noAPjYf4NRUnGu3pgA5iGnRcJ-y/view?usp=drivesdk"
+  },
+  {
+    "id": "1cZoEcUCbzFHs6hSw-YJw7K6JUYu9Raaq",
+    "name": "ABBVIE_20143.parquet",
+    "size": 10413252,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1cZoEcUCbzFHs6hSw-YJw7K6JUYu9Raaq/view?usp=drivesdk"
+  },
+  {
+    "id": "1EfgTmFU73gbk4XtlEIN4UoOna-wQ1dIw",
+    "name": "ABBOTT_21706.parquet",
+    "size": 9719019,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1EfgTmFU73gbk4XtlEIN4UoOna-wQ1dIw/view?usp=drivesdk"
+  },
+  {
+    "id": "1S3AjTWTWzq76bUyHxlgTqNhZzVsOtgwf",
+    "name": "XAUUSD_41.parquet",
+    "size": 55406903,
+    "mimeType": "application/octet-stream",
+    "url": "https://drive.google.com/file/d/1S3AjTWTWzq76bUyHxlgTqNhZzVsOtgwf/view?usp=drivesdk"
+  }
+]

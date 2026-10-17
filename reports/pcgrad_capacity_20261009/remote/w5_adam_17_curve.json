@@ -1,0 +1,481 @@
+[
+  {
+    "epoch": 0,
+    "train_fixed": {
+      "normalized_mse": 2.842341423034668,
+      "hcl_mse": 6.158115386962891,
+      "close_mse": 5.49208927154541,
+      "hcl_mae": 1.5796352624893188,
+      "predicted_tv": 3.781304121017456,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3501163865518763
+    },
+    "validation": {
+      "normalized_mse": 3.0212244987487793,
+      "hcl_mse": 5.8690690994262695,
+      "close_mse": 5.219790458679199,
+      "hcl_mae": 1.5031723976135254,
+      "predicted_tv": 3.5960328578948975,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3520059467475673
+    }
+  },
+  {
+    "epoch": 1,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.808420181274414,
+    "train": {
+      "conflict_fraction": 0.4178187403993856,
+      "cancellation_ratio": 0.5582417536929611,
+      "plain_harm_fraction": 0.09139784946236558,
+      "projected_harm_fraction": 0.001152073732718894,
+      "correction_ratio": 0.4267319852085069,
+      "adam_harm_fraction": 0.0625,
+      "loss": 2.828536118637313,
+      "grad_norm": 0.15087382189826481,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.808692693710327,
+      "hcl_mse": 6.066091060638428,
+      "close_mse": 5.492101669311523,
+      "hcl_mae": 1.5629149675369263,
+      "predicted_tv": 3.7813732624053955,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35012278845241956
+    },
+    "validation": {
+      "normalized_mse": 2.984653949737549,
+      "hcl_mse": 5.78097677230835,
+      "close_mse": 5.219229698181152,
+      "hcl_mae": 1.4879711866378784,
+      "predicted_tv": 3.595762252807617,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35197945794623897
+    }
+  },
+  {
+    "epoch": 2,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.806083917617798,
+    "train": {
+      "conflict_fraction": 0.5337941628264214,
+      "cancellation_ratio": 0.4412712735029825,
+      "plain_harm_fraction": 0.21812596006144394,
+      "projected_harm_fraction": 0.03456221198156682,
+      "correction_ratio": 0.6530367583790696,
+      "adam_harm_fraction": 0.125,
+      "loss": 2.791921607359678,
+      "grad_norm": 0.16051507574690652,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.780226707458496,
+      "hcl_mse": 5.9841108322143555,
+      "close_mse": 5.492100715637207,
+      "hcl_mae": 1.5478047132492065,
+      "predicted_tv": 3.7812857627868652,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3501146867369045
+    },
+    "validation": {
+      "normalized_mse": 2.950446605682373,
+      "hcl_mse": 5.697911739349365,
+      "close_mse": 5.2192254066467285,
+      "hcl_mae": 1.4746785163879395,
+      "predicted_tv": 3.5957088470458984,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3519742302004262
+    }
+  },
+  {
+    "epoch": 3,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7946481704711914,
+    "train": {
+      "conflict_fraction": 0.5691244239631343,
+      "cancellation_ratio": 0.4111910596189548,
+      "plain_harm_fraction": 0.2457757296466974,
+      "projected_harm_fraction": 0.06682027649769585,
+      "correction_ratio": 0.714598411073317,
+      "adam_harm_fraction": 0.0625,
+      "loss": 2.7780067712339527,
+      "grad_norm": 0.20655171992042648,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.776293992996216,
+      "hcl_mse": 5.971045017242432,
+      "close_mse": 5.492604732513428,
+      "hcl_mae": 1.5454515218734741,
+      "predicted_tv": 3.7822439670562744,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3502034082482263
+    },
+    "validation": {
+      "normalized_mse": 2.9444987773895264,
+      "hcl_mse": 5.683385372161865,
+      "close_mse": 5.219163417816162,
+      "hcl_mae": 1.4728485345840454,
+      "predicted_tv": 3.5959761142730713,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3520003922676412
+    }
+  },
+  {
+    "epoch": 4,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7980990409851074,
+    "train": {
+      "conflict_fraction": 0.5606758832565292,
+      "cancellation_ratio": 0.4121382237558169,
+      "plain_harm_fraction": 0.23886328725038403,
+      "projected_harm_fraction": 0.06682027649769585,
+      "correction_ratio": 0.7131229833682082,
+      "adam_harm_fraction": 0.125,
+      "loss": 2.7760789677391045,
+      "grad_norm": 0.223705138890974,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7756400108337402,
+      "hcl_mse": 5.968709945678711,
+      "close_mse": 5.4933600425720215,
+      "hcl_mae": 1.545109510421753,
+      "predicted_tv": 3.784403085708618,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3504033241493287
+    },
+    "validation": {
+      "normalized_mse": 2.943646192550659,
+      "hcl_mse": 5.681182861328125,
+      "close_mse": 5.219568252563477,
+      "hcl_mae": 1.4725499153137207,
+      "predicted_tv": 3.5975708961486816,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.352156501159346
+    }
+  },
+  {
+    "epoch": 5,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.790907382965088,
+    "train": {
+      "conflict_fraction": 0.5614439324116749,
+      "cancellation_ratio": 0.41360192469237306,
+      "plain_harm_fraction": 0.23886328725038403,
+      "projected_harm_fraction": 0.06105990783410138,
+      "correction_ratio": 0.6951520018443993,
+      "adam_harm_fraction": 0.125,
+      "loss": 2.7755829943845343,
+      "grad_norm": 0.23007749512036274,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7751989364624023,
+      "hcl_mse": 5.967158317565918,
+      "close_mse": 5.494318962097168,
+      "hcl_mae": 1.5451408624649048,
+      "predicted_tv": 3.788573980331421,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3507895132807206
+    },
+    "validation": {
+      "normalized_mse": 2.9432549476623535,
+      "hcl_mse": 5.679961204528809,
+      "close_mse": 5.220223903656006,
+      "hcl_mae": 1.4725759029388428,
+      "predicted_tv": 3.600794792175293,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3524720796364924
+    }
+  },
+  {
+    "epoch": 6,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.797884941101074,
+    "train": {
+      "conflict_fraction": 0.5683563748079883,
+      "cancellation_ratio": 0.4159789519653787,
+      "plain_harm_fraction": 0.23655913978494625,
+      "projected_harm_fraction": 0.04953917050691244,
+      "correction_ratio": 0.6856108379480743,
+      "adam_harm_fraction": 0.1875,
+      "loss": 2.7752003167886414,
+      "grad_norm": 0.23543328494863577,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7747678756713867,
+      "hcl_mse": 5.965519905090332,
+      "close_mse": 5.495666027069092,
+      "hcl_mae": 1.5453318357467651,
+      "predicted_tv": 3.7963786125183105,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35151215539893904
+    },
+    "validation": {
+      "normalized_mse": 2.942777633666992,
+      "hcl_mse": 5.678309917449951,
+      "close_mse": 5.22134256362915,
+      "hcl_mae": 1.472652792930603,
+      "predicted_tv": 3.6072328090667725,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35310227972659636
+    }
+  },
+  {
+    "epoch": 7,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7991347312927246,
+    "train": {
+      "conflict_fraction": 0.5645161290322587,
+      "cancellation_ratio": 0.41732003894542785,
+      "plain_harm_fraction": 0.2238863287250384,
+      "projected_harm_fraction": 0.0576036866359447,
+      "correction_ratio": 0.6752200467392054,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.7747932025271074,
+      "grad_norm": 0.2382685277731188,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7745113372802734,
+      "hcl_mse": 5.964385509490967,
+      "close_mse": 5.496638774871826,
+      "hcl_mae": 1.5454227924346924,
+      "predicted_tv": 3.801748275756836,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3520093402404395
+    },
+    "validation": {
+      "normalized_mse": 2.9423649311065674,
+      "hcl_mse": 5.6768999099731445,
+      "close_mse": 5.222095966339111,
+      "hcl_mae": 1.4726312160491943,
+      "predicted_tv": 3.611764907836914,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35354591463800566
+    }
+  },
+  {
+    "epoch": 8,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7899646759033203,
+    "train": {
+      "conflict_fraction": 0.5652841781874045,
+      "cancellation_ratio": 0.4185761014636577,
+      "plain_harm_fraction": 0.21774193548387097,
+      "projected_harm_fraction": 0.0576036866359447,
+      "correction_ratio": 0.6864756411148748,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.7745193606211624,
+      "grad_norm": 0.24081550212362396,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7742509841918945,
+      "hcl_mse": 5.963330268859863,
+      "close_mse": 5.497628688812256,
+      "hcl_mae": 1.5455076694488525,
+      "predicted_tv": 3.807070016860962,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35250208790259785
+    },
+    "validation": {
+      "normalized_mse": 2.9420220851898193,
+      "hcl_mse": 5.675700664520264,
+      "close_mse": 5.222830295562744,
+      "hcl_mae": 1.4726531505584717,
+      "predicted_tv": 3.616492509841919,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35400868683319403
+    }
+  },
+  {
+    "epoch": 9,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7901594638824463,
+    "train": {
+      "conflict_fraction": 0.5691244239631342,
+      "cancellation_ratio": 0.4200386223786554,
+      "plain_harm_fraction": 0.21658986175115208,
+      "projected_harm_fraction": 0.052995391705069124,
+      "correction_ratio": 0.6726917060597346,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.7742600171041962,
+      "grad_norm": 0.24393365607695647,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7739663124084473,
+      "hcl_mse": 5.962189197540283,
+      "close_mse": 5.498644828796387,
+      "hcl_mae": 1.545538306236267,
+      "predicted_tv": 3.812525987625122,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35300726408201777
+    },
+    "validation": {
+      "normalized_mse": 2.9415297508239746,
+      "hcl_mse": 5.674177646636963,
+      "close_mse": 5.223631858825684,
+      "hcl_mae": 1.4725871086120605,
+      "predicted_tv": 3.621493339538574,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3544982045493711
+    }
+  },
+  {
+    "epoch": 10,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.792515754699707,
+    "train": {
+      "conflict_fraction": 0.5706605222734261,
+      "cancellation_ratio": 0.42102935877778,
+      "plain_harm_fraction": 0.2108294930875576,
+      "projected_harm_fraction": 0.04838709677419355,
+      "correction_ratio": 0.6805321524726174,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.7739978846507185,
+      "grad_norm": 0.2460215079688257,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7738595008850098,
+      "hcl_mse": 5.961728572845459,
+      "close_mse": 5.499054431915283,
+      "hcl_mae": 1.5455482006072998,
+      "predicted_tv": 3.814434289932251,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35318395653701157
+    },
+    "validation": {
+      "normalized_mse": 2.941354513168335,
+      "hcl_mse": 5.673591613769531,
+      "close_mse": 5.2238945960998535,
+      "hcl_mae": 1.4725674390792847,
+      "predicted_tv": 3.6233067512512207,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.3546757145254971
+    }
+  },
+  {
+    "epoch": 11,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7885165214538574,
+    "train": {
+      "conflict_fraction": 0.5721966205837179,
+      "cancellation_ratio": 0.4221212006192112,
+      "plain_harm_fraction": 0.21313364055299538,
+      "projected_harm_fraction": 0.04723502304147465,
+      "correction_ratio": 0.6715691668623868,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.7738788970570694,
+      "grad_norm": 0.24770934902097222,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7737417221069336,
+      "hcl_mse": 5.961240768432617,
+      "close_mse": 5.4994964599609375,
+      "hcl_mae": 1.5455758571624756,
+      "predicted_tv": 3.8164541721343994,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.35337098033495096
+    },
+    "validation": {
+      "normalized_mse": 2.9411284923553467,
+      "hcl_mse": 5.672924041748047,
+      "close_mse": 5.22423791885376,
+      "hcl_mae": 1.4725556373596191,
+      "predicted_tv": 3.6252450942993164,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35486545369272093
+    }
+  },
+  {
+    "epoch": 12,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "updates": 217,
+    "seconds": 3.7963147163391113,
+    "train": {
+      "conflict_fraction": 0.5737327188940097,
+      "cancellation_ratio": 0.42291079895904343,
+      "plain_harm_fraction": 0.21313364055299538,
+      "projected_harm_fraction": 0.04723502304147465,
+      "correction_ratio": 0.6703276950092218,
+      "adam_harm_fraction": 0.25,
+      "loss": 2.773761855040231,
+      "grad_norm": 0.24908923608366795,
+      "clipped": 0.0
+    },
+    "train_fixed": {
+      "normalized_mse": 2.7736313343048096,
+      "hcl_mse": 5.960806369781494,
+      "close_mse": 5.499887943267822,
+      "hcl_mae": 1.54560124874115,
+      "predicted_tv": 3.8182497024536133,
+      "actual_tv": 10.800134658813477,
+      "invalid": 0.0,
+      "tv_ratio": 0.3535372310694035
+    },
+    "validation": {
+      "normalized_mse": 2.941028594970703,
+      "hcl_mse": 5.672489166259766,
+      "close_mse": 5.224465847015381,
+      "hcl_mae": 1.472578763961792,
+      "predicted_tv": 3.6268839836120605,
+      "actual_tv": 10.215829849243164,
+      "invalid": 0.0,
+      "tv_ratio": 0.35502588014235154
+    }
+  }
+]

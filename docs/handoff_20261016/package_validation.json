@@ -1,0 +1,44 @@
+{
+  "publication_date": "2026-10-17",
+  "research_snapshot_date": "2026-10-16",
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "payload": {
+    "files": 1101,
+    "bytes": 62412769,
+    "all_sha256_match": true,
+    "largest_new_file_bytes": 4909390
+  },
+  "root_docs": {
+    "previous.md": {
+      "bytes": 20093,
+      "sha256": "1c0bcda5acf37362a8bd37e899521f37ef8069e24a1299e53e673eb7d9947120"
+    },
+    "handoff.md": {
+      "bytes": 78255,
+      "sha256": "12eb2df12216442197cb93c7d7e742b4abb6010f35c6fb16bdb2f7941a9ef39d"
+    }
+  },
+  "secret_pattern_scan_matches": 0,
+  "broken_root_doc_links": [],
+  "expected_gates": {
+    "real_pilot": {
+      "exit_code": 2,
+      "allowed": false,
+      "reasons": [
+        "meta gate has not passed"
+      ],
+      "stage": "real_pilot"
+    },
+    "exact_pilot": {
+      "exit_code": 2,
+      "allowed": false,
+      "reasons": [
+        "meta_gradient gate has not passed"
+      ],
+      "stage": "exact_pilot"
+    }
+  }
+}

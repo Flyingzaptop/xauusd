@@ -1,0 +1,11 @@
+{
+  "phase": "fresh_student",
+  "mode": "learned_teacher",
+  "step": 600,
+  "target_steps": 1024,
+  "examples": 153856,
+  "loss": -0.004029657691717148,
+  "entropy": 0.007068200036883354,
+  "seconds": 7086.3,
+  "allocated_GB": 62.63
+}

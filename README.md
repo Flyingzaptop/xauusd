@@ -1,3 +1,13 @@
+# Current research handoff — 17 October 2026
+
+Start with **[handoff.md](handoff.md)** for the complete technical state and next actions. **[previous.md](previous.md)** covers the research history. Code, protocols, compact results, audits and small v4 control checkpoints are included. Large datasets and weights are indexed in the [artifact registry](docs/handoff_20261016/artifact_registry.json); the full v2 teacher backup is on Google Drive.
+
+Latest implementation: [sequential_teacher_v4](experiments/sequential_teacher_v4/README_RU.md). **16 tests pass; teacher-transfer gates remain closed. No real v4 pilot or new GPU run has been launched.** The old v3 run was stopped by the user. Historical RUNNING/status files are snapshots, not active jobs.
+
+The section below is the original 9 October snapshot and remains historical.
+
+---
+
 # XAUUSD angular sequence research
 
 Progress snapshot: 2026-10-09. Source code, experiment protocols, metrics, plots, compact results are preserved in this repository. The **complete M1 parquet is included**; raw MBO/L2 datasets and MBO event caches are excluded.

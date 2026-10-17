@@ -1,0 +1,74 @@
+{
+  "train": {
+    "examples": 19396,
+    "stride_minutes": 1,
+    "first_origin": "2024-01-02T05:56",
+    "last_origin": "2024-01-31T21:00",
+    "max_abs_angle": 0.9693005916479462
+  },
+  "val": {
+    "examples": 305,
+    "stride_minutes": 15,
+    "first_origin": "2024-02-01T06:00",
+    "last_origin": "2024-02-07T21:00",
+    "max_abs_angle": 0.9736079205236108
+  },
+  "test": {
+    "examples": 642,
+    "stride_minutes": 15,
+    "first_origin": "2024-02-15T06:00",
+    "last_origin": "2024-02-29T21:00",
+    "max_abs_angle": 0.9611821201056765
+  },
+  "stage": 1,
+  "task": "Reconstruct eight rolling 15-minute candles from the last 120 visible minutes; last four candles describe the last 60 minutes.",
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "contexts": {
+    "M1": 360,
+    "M5": 576,
+    "H1": 336
+  },
+  "channels": [
+    "H",
+    "O",
+    "C",
+    "L"
+  ],
+  "lags": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    13,
+    21,
+    34,
+    55
+  ],
+  "s0": 9.709492007026199e-05,
+  "hurst": 0.5052469174546703,
+  "s15": 0.00038142836985658363,
+  "scale_fit": "Median absolute TRAIN close displacement; log-lag regression exponent, clipped to [0.1,0.9].",
+  "input": "Only angular log-price displacement vectors and observation fractions; learned relative-position/scale embeddings in model. No prices, anchors, volatility levels, future candles, or target values in forward input.",
+  "target": "Same angular per-channel displacements between consecutive reconstructed 15-minute OHLC candles.",
+  "aggregate": "Sum raw log-channel displacements before angle encoding; reconstruct path, max High/first Open/last Close/min Low.",
+  "availability": "Last 415 M1 minutes must be real consecutive candles; longer calendar histories forward-filled with observation fraction.",
+  "splits": {
+    "train": [
+      "2024-01-01",
+      "2024-02-01",
+      1
+    ],
+    "val": [
+      "2024-02-01",
+      "2024-02-08",
+      15
+    ],
+    "test": [
+      "2024-02-15",
+      "2024-03-01",
+      15
+    ]
+  },
+  "exposure": "Research-exposed raw data; stage one deterministic past reconstruction, not forecasting validation."
+}

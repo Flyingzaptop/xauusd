@@ -1,0 +1,13 @@
+{
+  "trials": 40,
+  "widths": 10,
+  "epochs_per_trial": 12,
+  "train_windows_per_epoch": 27716,
+  "test_windows": 690,
+  "independent_test_mse_recalculated": true,
+  "all_predicted_ohlc_valid": true,
+  "dataset_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "cuda_sessions_active": 0,
+  "selection": "validation only",
+  "test_reused_across_research_stages": true
+}

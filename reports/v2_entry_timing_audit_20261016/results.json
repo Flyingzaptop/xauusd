@@ -1,0 +1,178 @@
+{
+  "exact_original_execution_reproduced": true,
+  "period_start_UTC": "2025-01-06",
+  "calendar_days": 84,
+  "cost_per_trade": 0.25,
+  "actual": {
+    "profit": 231.66999914310873,
+    "trades": 720,
+    "profit_per_trade": 0.32176388769876213,
+    "LONG_signal_fraction": 0.1981529913781237,
+    "weekly_profit": [
+      38.58999845199287,
+      0.2700001262128353,
+      54.849998503923416,
+      16.310000639408827,
+      32.4700014218688,
+      -9.88000014424324,
+      35.47999985516071,
+      -71.04999857395887,
+      29.569999493658543,
+      50.69000017642975,
+      24.650000043213367,
+      29.71999914944172
+    ]
+  },
+  "always_long": {
+    "profit": 255.63000507839024,
+    "trades": 778
+  },
+  "controls": {
+    "constant_LONG_probability": {
+      "simulations": 2000,
+      "mean_profit": 208.72931504489668,
+      "median_profit": 208.304999621585,
+      "profit_95pct_range": [
+        146.05675223786383,
+        271.2012562265154
+      ],
+      "mean_trades": 720.728,
+      "trade_95pct_range": [
+        713.0,
+        729.0
+      ],
+      "fraction_random_at_least_actual": 0.23138430784607697,
+      "actual_minus_control_mean": 22.940684098212046,
+      "weekly_block_bootstrap_delta_95pct": [
+        -33.175733017331204,
+        74.27427194250522
+      ],
+      "weekly_actual_minus_control": [
+        7.340753276758827,
+        11.36773008483648,
+        2.010298637970351,
+        -0.5568342337328946,
+        -13.560328910810874,
+        1.2363293717280026,
+        7.567549946063196,
+        11.432826458672992,
+        2.4446842253347865,
+        -3.0924397987285643,
+        9.156900261262436,
+        -12.406785221142695
+      ],
+      "runtime_seconds": 4.030630350112915
+    },
+    "global_shuffle": {
+      "simulations": 2000,
+      "mean_profit": 208.51047020105833,
+      "median_profit": 208.6499996855855,
+      "profit_95pct_range": [
+        145.10399807291105,
+        271.50349884317257
+      ],
+      "mean_trades": 720.7495,
+      "trade_95pct_range": [
+        712.975,
+        729.0
+      ],
+      "fraction_random_at_least_actual": 0.2283858070964518,
+      "actual_minus_control_mean": 23.1595289420504,
+      "weekly_block_bootstrap_delta_95pct": [
+        -33.86510938925336,
+        75.62955545143139
+      ],
+      "weekly_actual_minus_control": [
+        7.54516821721662,
+        11.188460078204985,
+        1.5736436725212268,
+        -0.2616792294615857,
+        -13.514308919227684,
+        1.445889453499575,
+        7.581159899913705,
+        11.886676322286947,
+        2.234479264505209,
+        -2.6291997973090058,
+        8.71732024886366,
+        -12.608080268963242
+      ],
+      "runtime_seconds": 5.778808355331421
+    },
+    "within_day_shuffle": {
+      "simulations": 2000,
+      "mean_profit": 205.6473553042859,
+      "median_profit": 205.42000129073858,
+      "profit_95pct_range": [
+        146.27750174608082,
+        270.04525785017756
+      ],
+      "mean_trades": 719.787,
+      "trade_95pct_range": [
+        711.0,
+        728.0
+      ],
+      "fraction_random_at_least_actual": 0.20189905047476261,
+      "actual_minus_control_mean": 26.02264383882283,
+      "weekly_block_bootstrap_delta_95pct": [
+        -31.6411220875328,
+        78.25412111827094
+      ],
+      "weekly_actual_minus_control": [
+        7.063088341816329,
+        11.319455055885948,
+        2.1143786295419575,
+        -1.447799224091693,
+        -13.702823921447616,
+        1.0156693962309484,
+        8.169169842904433,
+        12.656206289812925,
+        3.2024792010355734,
+        -2.095304835930467,
+        9.344715343778024,
+        -11.616590280713512
+      ],
+      "runtime_seconds": 6.603055953979492
+    },
+    "within_day_circular_shift": {
+      "simulations": 2000,
+      "mean_profit": 203.91502521240153,
+      "median_profit": 203.77000225894153,
+      "profit_95pct_range": [
+        142.85475657484494,
+        266.26999887609855
+      ],
+      "mean_trades": 719.834,
+      "trade_95pct_range": [
+        712.0,
+        728.0
+      ],
+      "fraction_random_at_least_actual": 0.1904047976011994,
+      "actual_minus_control_mean": 27.754973930707195,
+      "weekly_block_bootstrap_delta_95pct": [
+        -26.324266830857248,
+        78.08378254365779
+      ],
+      "weekly_actual_minus_control": [
+        7.224633251960389,
+        10.195910054966808,
+        2.310818619322963,
+        -2.3983242348404614,
+        -12.393903901929033,
+        2.7014793540192805,
+        8.379764813243414,
+        13.853276356904768,
+        1.6291243362883074,
+        -3.1539098176946836,
+        9.190570269596764,
+        -9.784465171131304
+      ],
+      "runtime_seconds": 4.869028806686401
+    }
+  },
+  "limitations": [
+    "One already observed 84-day test and one trained student seed; exploratory posthoc analysis.",
+    "Randomizing sampled actions tests timing of realized policy, not conditional probabilities; no full per-minute policy probabilities were stored.",
+    "Fixed 120-minute/UTC-boundary exit, single position and fixed $0.25 cost; no variable spread/slippage.",
+    "Weekly blocks reflect serial dependence only approximately; four correlated controls are diagnostics, not independent discoveries."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "inner_train_rows": 2216424,
+  "outer_cycles_for_one_combined_pass": 271,
+  "per_student_examples_if_equal": 738808.0,
+  "combined_pass_is_not_one_pass_per_student": true
+}

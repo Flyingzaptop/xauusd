@@ -1,0 +1,278 @@
+{
+  "code_hashes": {
+    "environment.py": "2776018dfe2a6088128387510ac8c2f06201e200043dda9103fb26715f4158e0",
+    "learning.py": "8b366598115dc9052a314ca2956e1b2b155407d1f7a3c17bf98a41c83d6ba352",
+    "model.py": "f4c951c8d412c8bb7d5ac9e80265fd18ded3405fff2ba52a84c897feaab97dd6",
+    "synthetic.py": "ac0b81931cc4e3c6372570d26a95bea2402023983490b4a25c1cf6f0348f18d2",
+    "run_gates.py": "029110a848f086987dd6c42d235de4eb854567cfafede52dce7e05ee680cbca3"
+  },
+  "complete": true,
+  "passed": true,
+  "results": [
+    {
+      "task": "direction",
+      "seed": 11,
+      "updates": 250,
+      "mean_net": 16.512225200866986,
+      "net_standard_error": 0.07527330824728366,
+      "oracle_mean": 16.536654109806022,
+      "oracle_ratio": 0.9985227417362167,
+      "first_WAIT_fraction": 0.0234375,
+      "greedy_mean_net": 16.536654109806022,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.0002642423886610364,
+        "value": 0.0012288504124929507,
+        "entropy": 0.06926637391249339,
+        "gradient_norm": 0.2960771719614665,
+        "approx_kl": 0.00010037023239798752,
+        "update": 250,
+        "net_mean": 16.408661856918542,
+        "transitions": 98
+      }
+    },
+    {
+      "task": "direction",
+      "seed": 22,
+      "updates": 250,
+      "mean_net": 16.475639242426475,
+      "net_standard_error": 0.08769803130850284,
+      "oracle_mean": 16.55431839057236,
+      "oracle_ratio": 0.9952472130661271,
+      "first_WAIT_fraction": 0.03125,
+      "greedy_mean_net": 16.55431839057236,
+      "passed": true,
+      "final_loss": {
+        "policy": -1.3899967266972624e-05,
+        "value": 0.0010327563310662906,
+        "entropy": 0.07438706854979198,
+        "gradient_norm": 0.06615550567706426,
+        "approx_kl": -1.1726522359071604e-05,
+        "update": 250,
+        "net_mean": 16.549826837652063,
+        "transitions": 97
+      }
+    },
+    {
+      "task": "direction",
+      "seed": 33,
+      "updates": 250,
+      "mean_net": 16.4502022681838,
+      "net_standard_error": 0.07982737696780802,
+      "oracle_mean": 16.464826958506617,
+      "oracle_ratio": 0.9991117616747707,
+      "first_WAIT_fraction": 0.0,
+      "greedy_mean_net": 16.464826958506617,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.00010973184648066514,
+        "value": 0.0013589707280819614,
+        "entropy": 0.06791415562232335,
+        "gradient_norm": 0.16276807089646658,
+        "approx_kl": 4.679520785089153e-05,
+        "update": 250,
+        "net_mean": 16.757226531470558,
+        "transitions": 98
+      }
+    },
+    {
+      "task": "wait",
+      "seed": 11,
+      "updates": 250,
+      "mean_net": 9.871875,
+      "net_standard_error": 0.078125,
+      "oracle_mean": 9.95,
+      "oracle_ratio": 0.9921482412060302,
+      "first_WAIT_fraction": 1.0,
+      "greedy_mean_net": 9.95,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.00024200727542241415,
+        "value": 0.02144363522529602,
+        "entropy": 0.0424531859656175,
+        "gradient_norm": 0.4321561853090922,
+        "approx_kl": -0.00020545303899173936,
+        "update": 250,
+        "net_mean": 9.95,
+        "transitions": 32
+      }
+    },
+    {
+      "task": "wait",
+      "seed": 22,
+      "updates": 250,
+      "mean_net": 9.707421875,
+      "net_standard_error": 0.13910800297716575,
+      "oracle_mean": 9.95,
+      "oracle_ratio": 0.9756202889447236,
+      "first_WAIT_fraction": 0.9921875,
+      "greedy_mean_net": 9.95,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.0002994934717814128,
+        "value": 0.0025278030273814998,
+        "entropy": 0.05430164560675621,
+        "gradient_norm": 0.13003661731878915,
+        "approx_kl": -0.0001568008156027645,
+        "update": 250,
+        "net_mean": 9.95,
+        "transitions": 32
+      }
+    },
+    {
+      "task": "wait",
+      "seed": 33,
+      "updates": 250,
+      "mean_net": 9.65234375,
+      "net_standard_error": 0.14724844609251714,
+      "oracle_mean": 9.95,
+      "oracle_ratio": 0.9700847989949749,
+      "first_WAIT_fraction": 0.984375,
+      "greedy_mean_net": 9.95,
+      "passed": true,
+      "final_loss": {
+        "policy": 2.130152036746343e-05,
+        "value": 0.0034711682237684727,
+        "entropy": 0.06520510464906693,
+        "gradient_norm": 0.26497095823287964,
+        "approx_kl": 0.00011870785480520378,
+        "update": 250,
+        "net_mean": 9.95,
+        "transitions": 32
+      }
+    },
+    {
+      "task": "cross_market",
+      "seed": 11,
+      "updates": 250,
+      "mean_net": 16.51034904584278,
+      "net_standard_error": 0.07481937777416348,
+      "oracle_mean": 16.536654109806022,
+      "oracle_ratio": 0.998409287405507,
+      "first_WAIT_fraction": 0.015625,
+      "greedy_mean_net": 16.536654109806022,
+      "passed": true,
+      "final_loss": {
+        "policy": -7.592922385531627e-05,
+        "value": 0.0009432378186223408,
+        "entropy": 0.08488866190115611,
+        "gradient_norm": 0.23242502411206564,
+        "approx_kl": 1.5944143967328017e-05,
+        "update": 250,
+        "net_mean": 16.408661856918542,
+        "transitions": 98
+      }
+    },
+    {
+      "task": "cross_market",
+      "seed": 22,
+      "updates": 250,
+      "mean_net": 16.470175925042714,
+      "net_standard_error": 0.08806550778584511,
+      "oracle_mean": 16.55431839057236,
+      "oracle_ratio": 0.9949171893674846,
+      "first_WAIT_fraction": 0.0390625,
+      "greedy_mean_net": 16.55431839057236,
+      "passed": true,
+      "final_loss": {
+        "policy": -3.1318041681475486e-06,
+        "value": 0.0011424221253643434,
+        "entropy": 0.0808077057202657,
+        "gradient_norm": 0.06987803677717845,
+        "approx_kl": -2.640174594503719e-06,
+        "update": 250,
+        "net_mean": 16.549826837652063,
+        "transitions": 97
+      }
+    },
+    {
+      "task": "cross_market",
+      "seed": 33,
+      "updates": 250,
+      "mean_net": 16.432103527549348,
+      "net_standard_error": 0.08017136767271571,
+      "oracle_mean": 16.464826958506617,
+      "oracle_ratio": 0.9980125250608625,
+      "first_WAIT_fraction": 0.0,
+      "greedy_mean_net": 16.464826958506617,
+      "passed": true,
+      "final_loss": {
+        "policy": -5.033875809227576e-05,
+        "value": 0.0015540889386708538,
+        "entropy": 0.0814278374115626,
+        "gradient_norm": 0.13041818141937256,
+        "approx_kl": 2.5478248693625954e-05,
+        "update": 250,
+        "net_mean": 16.757226531470558,
+        "transitions": 98
+      }
+    },
+    {
+      "task": "null",
+      "seed": 11,
+      "updates": 250,
+      "mean_net": -0.052182687232517885,
+      "net_standard_error": 0.1977674594109036,
+      "oracle_mean": 6.5190884443095225,
+      "oracle_ratio": -0.008004598753076877,
+      "first_WAIT_fraction": 0.4453125,
+      "greedy_mean_net": 0.0,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.00010196135433441593,
+        "value": 0.008059239325424036,
+        "entropy": 1.050249417622884,
+        "gradient_norm": 0.18111268679300943,
+        "approx_kl": -2.7321584121331455e-05,
+        "update": 250,
+        "net_mean": 0.24505551847788523,
+        "transitions": 171
+      }
+    },
+    {
+      "task": "null",
+      "seed": 22,
+      "updates": 250,
+      "mean_net": -0.5560807834696326,
+      "net_standard_error": 0.19118360607613147,
+      "oracle_mean": 6.44890350514649,
+      "oracle_ratio": -0.08622873377247114,
+      "first_WAIT_fraction": 0.3984375,
+      "greedy_mean_net": 0.0,
+      "passed": true,
+      "final_loss": {
+        "policy": -0.00015158347378019243,
+        "value": 0.009153789219756922,
+        "entropy": 1.0868438084920247,
+        "gradient_norm": 0.23049607872962952,
+        "approx_kl": 3.202804186160554e-05,
+        "update": 250,
+        "net_mean": -1.7958794304663241,
+        "transitions": 166
+      }
+    },
+    {
+      "task": "null",
+      "seed": 33,
+      "updates": 250,
+      "mean_net": -0.39057349045575424,
+      "net_standard_error": 0.2139687182845974,
+      "oracle_mean": 6.528892192265852,
+      "oracle_ratio": -0.05982232191219652,
+      "first_WAIT_fraction": 0.375,
+      "greedy_mean_net": -0.5992460322303502,
+      "passed": true,
+      "final_loss": {
+        "policy": -5.718323636709025e-05,
+        "value": 0.0048860156287749605,
+        "entropy": 1.0666868686676025,
+        "gradient_norm": 0.26056836048762005,
+        "approx_kl": 9.477893001985649e-06,
+        "update": 250,
+        "net_mean": -0.9393170473525139,
+        "transitions": 158
+      }
+    }
+  ],
+  "elapsed": 261.8249349594116
+}

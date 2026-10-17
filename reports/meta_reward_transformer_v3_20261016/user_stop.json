@@ -1,0 +1,9 @@
+{
+  "epoch": 1792152036.157222,
+  "reason": "User requested immediate stop and redesign",
+  "session_terminated": true,
+  "usage_rate": 0,
+  "active_assignments": 0,
+  "balance": 64.44,
+  "retained": "Last verified extracted snapshot plus fresh_results_at_stop.json; final in-progress arm not completed"
+}

@@ -1,0 +1,53 @@
+{"verified_month": "2021-01", "rows_so_far": 27421}
+{"verified_month": "2021-02", "rows_so_far": 54780}
+{"verified_month": "2021-03", "rows_so_far": 86517}
+{"verified_month": "2021-04", "rows_so_far": 115369}
+{"verified_month": "2021-05", "rows_so_far": 144229}
+{"verified_month": "2021-06", "rows_so_far": 174581}
+{"verified_month": "2021-07", "rows_so_far": 204573}
+{"verified_month": "2021-08", "rows_so_far": 235033}
+{"verified_month": "2021-09", "rows_so_far": 265141}
+{"verified_month": "2021-10", "rows_so_far": 294092}
+{"verified_month": "2021-11", "rows_so_far": 324047}
+{"verified_month": "2021-12", "rows_so_far": 354340}
+{
+  "passed": true,
+  "year_rows": 354340,
+  "months_verified": 12,
+  "calendar_days_indexed": 365,
+  "technical_sample_rows_per_month": 64,
+  "sampled_power_phase_identities_valid": true,
+  "sampled_transform_max_error": 2.5949503220802687e-11,
+  "phase_identity_max_error": 0.0,
+  "future_and_prefix_checks": [
+    {
+      "timestamp": "2021-01-15T20:32:00",
+      "prefix_error": 2.1032064978498966e-12,
+      "future_mutation_error": 1.676218355176623e-12
+    },
+    {
+      "timestamp": "2021-06-16T00:00:00",
+      "prefix_error": 1.8189894035458565e-12,
+      "future_mutation_error": 2.737941617577302e-12
+    },
+    {
+      "timestamp": "2021-12-15T23:29:00",
+      "prefix_error": 5.236078080219771e-12,
+      "future_mutation_error": 3.2398567186362067e-12
+    }
+  ],
+  "previous_day_compatibility": {
+    "rows": 1380,
+    "maximum_coefficient_differences": {
+      "stft_128": 0.0,
+      "stft_512": 0.0,
+      "wavelet_returns": 1.517719948885615e-14,
+      "wavelet_logprice": 1.431280715225304e-12
+    },
+    "normalizers_not_compared": "annual normalization fixed before 2021; prior demo fixed before June16"
+  },
+  "loader_day_empty_day_block_checks": true,
+  "all_written_blocks_finite_checked_during_preparation": true,
+  "images_created": false,
+  "scientific_analysis_performed": false
+}

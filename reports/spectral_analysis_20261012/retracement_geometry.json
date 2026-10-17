@@ -1,0 +1,137 @@
+{
+  "status": "post-result descriptive decomposition; no new heldout trading claim or optimized threshold",
+  "rows": [
+    {
+      "split": 0,
+      "retracement_category": "none_or_further_extension",
+      "n": 517,
+      "anchor_return_rate": 0.35009671179883944,
+      "mean_fade_60bar_pnl_before_cost": 0.21880077369438566,
+      "pnl_day_ci95": [
+        -0.07154616796968223,
+        0.5159897667081741
+      ]
+    },
+    {
+      "split": 0,
+      "retracement_category": "0_to_25pct",
+      "n": 245,
+      "anchor_return_rate": 0.5387755102040817,
+      "mean_fade_60bar_pnl_before_cost": 0.30310204081635433,
+      "pnl_day_ci95": [
+        -0.1280214329769949,
+        0.7699226190476587
+      ]
+    },
+    {
+      "split": 0,
+      "retracement_category": "25_to_50pct",
+      "n": 180,
+      "anchor_return_rate": 0.6388888888888888,
+      "mean_fade_60bar_pnl_before_cost": -0.010777777777798292,
+      "pnl_day_ci95": [
+        -0.5374704467354481,
+        0.5337155066445692
+      ]
+    },
+    {
+      "split": 0,
+      "retracement_category": "over_50pct",
+      "n": 114,
+      "anchor_return_rate": 0.7894736842105263,
+      "mean_fade_60bar_pnl_before_cost": -0.12228070175440839,
+      "pnl_day_ci95": [
+        -0.7964634126333222,
+        0.4978398325359064
+      ]
+    },
+    {
+      "split": 1,
+      "retracement_category": "none_or_further_extension",
+      "n": 270,
+      "anchor_return_rate": 0.35555555555555557,
+      "mean_fade_60bar_pnl_before_cost": 0.3272222222222135,
+      "pnl_day_ci95": [
+        -0.15193359942387877,
+        0.8020888351302728
+      ]
+    },
+    {
+      "split": 1,
+      "retracement_category": "0_to_25pct",
+      "n": 122,
+      "anchor_return_rate": 0.5327868852459017,
+      "mean_fade_60bar_pnl_before_cost": -0.09147540983613148,
+      "pnl_day_ci95": [
+        -0.5013974700150811,
+        0.331175815217334
+      ]
+    },
+    {
+      "split": 1,
+      "retracement_category": "25_to_50pct",
+      "n": 94,
+      "anchor_return_rate": 0.7127659574468085,
+      "mean_fade_60bar_pnl_before_cost": 0.32351063829791193,
+      "pnl_day_ci95": [
+        -0.4359285854231779,
+        1.1603571318070423
+      ]
+    },
+    {
+      "split": 1,
+      "retracement_category": "over_50pct",
+      "n": 59,
+      "anchor_return_rate": 0.8305084745762712,
+      "mean_fade_60bar_pnl_before_cost": -0.12203389830520883,
+      "pnl_day_ci95": [
+        -0.6807547669492496,
+        0.4692547169810243
+      ]
+    },
+    {
+      "split": 2,
+      "retracement_category": "none_or_further_extension",
+      "n": 269,
+      "anchor_return_rate": 0.35315985130111527,
+      "mean_fade_60bar_pnl_before_cost": 0.36609665427508453,
+      "pnl_day_ci95": [
+        0.016054920609546764,
+        0.717555651340961
+      ]
+    },
+    {
+      "split": 2,
+      "retracement_category": "0_to_25pct",
+      "n": 111,
+      "anchor_return_rate": 0.4954954954954955,
+      "mean_fade_60bar_pnl_before_cost": -0.332432432432507,
+      "pnl_day_ci95": [
+        -0.9132262415983567,
+        0.1727899748393691
+      ]
+    },
+    {
+      "split": 2,
+      "retracement_category": "25_to_50pct",
+      "n": 97,
+      "anchor_return_rate": 0.6597938144329897,
+      "mean_fade_60bar_pnl_before_cost": 0.28515463917525624,
+      "pnl_day_ci95": [
+        -0.33636845238086993,
+        0.9122785825545342
+      ]
+    },
+    {
+      "split": 2,
+      "retracement_category": "over_50pct",
+      "n": 70,
+      "anchor_return_rate": 0.7857142857142857,
+      "mean_fade_60bar_pnl_before_cost": -0.3121428571427032,
+      "pnl_day_ci95": [
+        -0.8132517567564962,
+        0.1843754940712959
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{"phase": "tiny_fit", "initial": 2.0279011726379395, "final": 0.00896681658923626, "event_accuracy": 1.0, "seconds": 13.9}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 25600, "total": 234138, "loss": 1.7795929092168807, "seconds": 16.8}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 51200, "total": 234138, "loss": 1.8241898740828038, "seconds": 19.6}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 76800, "total": 234138, "loss": 1.7749408394594988, "seconds": 22.3}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 102400, "total": 234138, "loss": 1.7232131631672383, "seconds": 25.1}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 128000, "total": 234138, "loss": 1.7157302264273167, "seconds": 27.7}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 153600, "total": 234138, "loss": 1.7379240121816595, "seconds": 30.5}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 179200, "total": 234138, "loss": 1.7064883904904127, "seconds": 33.2}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 204800, "total": 234138, "loss": 1.755047793937847, "seconds": 36.0}
+{"phase": "selection", "model": "price", "epoch": 1, "seen": 230400, "total": 234138, "loss": 1.7282083940340414, "seconds": 38.6}
+{"phase": "selection", "model": "price", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 234138, "online_loss": 1.7307857801695306, "train_probe_loss": 1.658030942082405, "train_components": [1.0534620210528374, 0.24078758526593447, 1.936700478196144], "seconds": 25.19694471359253, "validation_loss": 1.5537927994333371, "validation_components": [0.9463132057271607, 0.23628794758803043, 1.9573424663053707]}, "best_epoch": 1, "seconds": 40.3}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 21760, "total": 234138, "loss": 1.799188285540132, "seconds": 42.6}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 47360, "total": 234138, "loss": 1.7995483785867692, "seconds": 45.4}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 72960, "total": 234138, "loss": 1.780152408543386, "seconds": 48.1}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 98560, "total": 234138, "loss": 1.7190126500733487, "seconds": 50.8}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 124160, "total": 234138, "loss": 1.7180035966573302, "seconds": 53.5}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 149760, "total": 234138, "loss": 1.7284225335997394, "seconds": 56.2}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 175360, "total": 234138, "loss": 1.700922542310109, "seconds": 59.0}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 200960, "total": 234138, "loss": 1.7544553767913467, "seconds": 61.7}
+{"phase": "selection", "model": "price", "epoch": 2, "seen": 226560, "total": 234138, "loss": 1.7145525346452233, "seconds": 64.4}
+{"phase": "selection", "model": "price", "epoch": 2, "epoch_complete": true, "metrics": {"epoch": 2, "examples": 234138, "online_loss": 1.7211687963344446, "train_probe_loss": 1.6471814066171646, "train_components": [1.0492107085883617, 0.23941292241215706, 1.9130570068955421], "seconds": 25.089142084121704, "validation_loss": 1.5507897913648785, "validation_components": [0.9452290407529227, 0.2361536197181433, 1.9499357884186546]}, "best_epoch": 2, "seconds": 66.5}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 17920, "total": 234138, "loss": 1.838282241352967, "seconds": 68.4}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 43520, "total": 234138, "loss": 1.8068668774822179, "seconds": 71.1}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 69120, "total": 234138, "loss": 1.7997920286876183, "seconds": 73.8}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 94720, "total": 234138, "loss": 1.7196811888266255, "seconds": 76.6}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 120320, "total": 234138, "loss": 1.7050365419146862, "seconds": 79.3}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 145920, "total": 234138, "loss": 1.7220847367325374, "seconds": 82.1}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 171520, "total": 234138, "loss": 1.6941590470942989, "seconds": 84.8}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 197120, "total": 234138, "loss": 1.7471818898502107, "seconds": 87.5}
+{"phase": "selection", "model": "price", "epoch": 3, "seen": 222720, "total": 234138, "loss": 1.7068669545581971, "seconds": 90.3}
+{"phase": "selection", "model": "price", "epoch": 3, "epoch_complete": true, "metrics": {"epoch": 3, "examples": 234138, "online_loss": 1.7134670041317785, "train_probe_loss": 1.6414571776986122, "train_components": [1.046930342912674, 0.2386098112910986, 1.900887705385685], "seconds": 25.060317754745483, "validation_loss": 1.546720980159676, "validation_components": [0.943649916235999, 0.23556897664614568, 1.9411463180028405]}, "best_epoch": 3, "seconds": 92.7}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 14080, "total": 234138, "loss": 1.868529470671307, "seconds": 94.2}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 39680, "total": 234138, "loss": 1.8139329854519137, "seconds": 97.0}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 65280, "total": 234138, "loss": 1.755535658901813, "seconds": 99.8}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 90880, "total": 234138, "loss": 1.714923661821325, "seconds": 102.5}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 116480, "total": 234138, "loss": 1.6973680792929051, "seconds": 105.3}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 142080, "total": 234138, "loss": 1.6776824041798308, "seconds": 108.0}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 167680, "total": 234138, "loss": 1.6905688013284261, "seconds": 110.7}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 193280, "total": 234138, "loss": 1.7484819677294485, "seconds": 113.5}
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 218880, "total": 234138, "loss": 1.7095235215380178, "seconds": 116.2}
+{"phase": "selection", "model": "price", "epoch": 4, "epoch_complete": true, "metrics": {"epoch": 4, "examples": 234138, "online_loss": 1.7078001510814993, "train_probe_loss": 1.6370597183704376, "train_components": [1.0454958975315094, 0.23810810782015324, 1.8900390416383743], "seconds": 25.17597270011902, "validation_loss": 1.5456746852749534, "validation_components": [0.9441325708347542, 0.23533582563971928, 1.9354967872445408]}, "best_epoch": 3, "seconds": 118.8}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 10240, "total": 234138, "loss": 1.8992925874888897, "seconds": 119.9}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 35840, "total": 234138, "loss": 1.7840788544288704, "seconds": 122.6}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 61440, "total": 234138, "loss": 1.7773320496082305, "seconds": 125.4}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 87040, "total": 234138, "loss": 1.7147330801714868, "seconds": 128.1}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 112640, "total": 234138, "loss": 1.6949655160646546, "seconds": 130.8}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 138240, "total": 234138, "loss": 1.6740402213815186, "seconds": 133.6}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 163840, "total": 234138, "loss": 1.6966195833403617, "seconds": 136.4}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 189440, "total": 234138, "loss": 1.756253894730597, "seconds": 139.1}
+{"phase": "selection", "model": "price", "epoch": 5, "seen": 215040, "total": 234138, "loss": 1.7091036302170584, "seconds": 141.9}
+{"phase": "selection", "model": "price", "epoch": 5, "epoch_complete": true, "metrics": {"epoch": 5, "examples": 234138, "online_loss": 1.7034204623375966, "train_probe_loss": 1.6320616751909256, "train_components": [1.0427435226738453, 0.2374518495053053, 1.8823689818382263], "seconds": 25.243826389312744, "validation_loss": 1.5427764360208267, "validation_components": [0.9426296261443511, 0.2348433733326724, 1.930900509332499]}, "best_epoch": 5, "seconds": 145.2}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 6400, "total": 234138, "loss": 1.9113615190982818, "seconds": 145.9}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 32000, "total": 234138, "loss": 1.7921781134605408, "seconds": 148.7}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 57600, "total": 234138, "loss": 1.7939993882841534, "seconds": 151.4}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 83200, "total": 234138, "loss": 1.7216294432603396, "seconds": 154.1}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 108800, "total": 234138, "loss": 1.6981996285389451, "seconds": 156.8}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 134400, "total": 234138, "loss": 1.6835611624377114, "seconds": 159.5}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 160000, "total": 234138, "loss": 1.6952827626228333, "seconds": 162.3}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 185600, "total": 234138, "loss": 1.6665636372566224, "seconds": 165.0}
+{"phase": "selection", "model": "price", "epoch": 6, "seen": 211200, "total": 234138, "loss": 1.7087057716557474, "seconds": 167.7}
+{"phase": "selection", "model": "price", "epoch": 6, "epoch_complete": true, "metrics": {"epoch": 6, "examples": 234138, "online_loss": 1.699009748781666, "train_probe_loss": 1.6262815371155739, "train_components": [1.0398928597569466, 0.2368013709783554, 1.8719520419836044], "seconds": 25.116854906082153, "validation_loss": 1.5407190860599478, "validation_components": [0.9415015416685226, 0.23449022012591703, 1.9278897276931892]}, "best_epoch": 6, "seconds": 171.4}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 2560, "total": 234138, "loss": 1.5873055338859559, "seconds": 171.7}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 28160, "total": 234138, "loss": 1.7662147998809814, "seconds": 174.5}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 53760, "total": 234138, "loss": 1.7977811856638817, "seconds": 177.3}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 79360, "total": 234138, "loss": 1.7360519425522896, "seconds": 180.1}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 104960, "total": 234138, "loss": 1.6867488657374208, "seconds": 182.8}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 130560, "total": 234138, "loss": 1.6779904711334144, "seconds": 185.6}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 156160, "total": 234138, "loss": 1.70043164811662, "seconds": 188.3}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 181760, "total": 234138, "loss": 1.6672170894246705, "seconds": 191.1}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 207360, "total": 234138, "loss": 1.7145757684921041, "seconds": 193.8}
+{"phase": "selection", "model": "price", "epoch": 7, "seen": 232960, "total": 234138, "loss": 1.6904199979216843, "seconds": 196.6}
+{"phase": "selection", "model": "price", "epoch": 7, "epoch_complete": true, "metrics": {"epoch": 7, "examples": 234138, "online_loss": 1.6951297548524753, "train_probe_loss": 1.6207979023456573, "train_components": [1.0368030294775963, 0.23616290651261806, 1.8636536672711372], "seconds": 25.361530303955078, "validation_loss": 1.539109272398799, "validation_components": [0.9405852535585354, 0.2342132702631456, 1.925669540029611]}, "best_epoch": 7, "seconds": 197.9}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 24320, "total": 234138, "loss": 1.7521978605734674, "seconds": 200.6}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 49920, "total": 234138, "loss": 1.7937546528302706, "seconds": 203.3}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 75520, "total": 234138, "loss": 1.7386390271580825, "seconds": 206.0}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 101120, "total": 234138, "loss": 1.6900560451647904, "seconds": 208.8}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 126720, "total": 234138, "loss": 1.6849642062729056, "seconds": 211.5}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 152320, "total": 234138, "loss": 1.700400007271967, "seconds": 214.2}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 177920, "total": 234138, "loss": 1.6725922516996055, "seconds": 216.9}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 203520, "total": 234138, "loss": 1.7195427976970403, "seconds": 219.7}
+{"phase": "selection", "model": "price", "epoch": 8, "seen": 229120, "total": 234138, "loss": 1.6905723150965222, "seconds": 222.4}
+{"phase": "selection", "model": "price", "epoch": 8, "epoch_complete": true, "metrics": {"epoch": 8, "examples": 234138, "online_loss": 1.691589486222306, "train_probe_loss": 1.6158645451068878, "train_components": [1.034240286797285, 0.23555340059101582, 1.8553902506828308], "seconds": 25.12844181060791, "validation_loss": 1.5388664442147673, "validation_components": [0.9410508829156746, 0.2340122026551008, 1.9232378173305464]}, "best_epoch": 7, "seconds": 224.0}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 25600, "total": 234138, "loss": 1.7769077438116074, "seconds": 230.5}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 51200, "total": 234138, "loss": 1.8213725720345975, "seconds": 237.0}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 76800, "total": 234138, "loss": 1.7710568595925966, "seconds": 243.4}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 102400, "total": 234138, "loss": 1.7207968650013208, "seconds": 250.0}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 128000, "total": 234138, "loss": 1.7155609737038613, "seconds": 256.4}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 153600, "total": 234138, "loss": 1.7368657562633356, "seconds": 263.0}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 179200, "total": 234138, "loss": 1.706007712185383, "seconds": 269.4}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 204800, "total": 234138, "loss": 1.7546785849891604, "seconds": 275.9}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 230400, "total": 234138, "loss": 1.7294284363339345, "seconds": 282.3}
+{"phase": "selection", "model": "raw", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 234138, "online_loss": 1.7318210534864762, "train_probe_loss": 1.6674094125628471, "train_components": [1.051604300737381, 0.24200483690947294, 1.9792107194662094], "seconds": 59.619877099990845, "validation_loss": 1.5576128036651467, "validation_components": [0.9434776912407008, 0.23691326887124387, 1.9827139236221532]}, "best_epoch": 1, "seconds": 288.4}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 21760, "total": 234138, "loss": 1.8072947398704642, "seconds": 294.0}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 47360, "total": 234138, "loss": 1.8058094231663524, "seconds": 300.5}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 72960, "total": 234138, "loss": 1.7931340714818553, "seconds": 307.0}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 98560, "total": 234138, "loss": 1.7312505908600695, "seconds": 313.5}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 124160, "total": 234138, "loss": 1.729683639278117, "seconds": 320.1}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 149760, "total": 234138, "loss": 1.7416998806417499, "seconds": 326.5}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 175360, "total": 234138, "loss": 1.7132920213424376, "seconds": 333.0}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 200960, "total": 234138, "loss": 1.7666387243065864, "seconds": 339.4}
+{"phase": "selection", "model": "raw", "epoch": 2, "seen": 226560, "total": 234138, "loss": 1.7271918212121489, "seconds": 345.9}
+{"phase": "selection", "model": "raw", "epoch": 2, "epoch_complete": true, "metrics": {"epoch": 2, "examples": 234138, "online_loss": 1.7340920566570601, "train_probe_loss": 1.6450076401233673, "train_components": [1.0350912362337112, 0.24050028156489134, 1.9586650803685188], "seconds": 59.75625467300415, "validation_loss": 1.5569603260350613, "validation_components": [0.9444445120709833, 0.23790109532884368, 1.9742610781857448]}, "best_epoch": 1, "seconds": 352.8}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 17920, "total": 234138, "loss": 1.8436448729463986, "seconds": 357.3}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 43520, "total": 234138, "loss": 1.8010925487560385, "seconds": 363.8}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 69120, "total": 234138, "loss": 1.7970612322290738, "seconds": 370.3}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 94720, "total": 234138, "loss": 1.719125149056718, "seconds": 376.8}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 120320, "total": 234138, "loss": 1.704525315920089, "seconds": 383.3}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 145920, "total": 234138, "loss": 1.7247485074296331, "seconds": 389.8}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 171520, "total": 234138, "loss": 1.696539063684976, "seconds": 396.3}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 197120, "total": 234138, "loss": 1.7491979520526024, "seconds": 402.7}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 222720, "total": 234138, "loss": 1.709512930783047, "seconds": 409.2}
+{"phase": "selection", "model": "raw", "epoch": 3, "epoch_complete": true, "metrics": {"epoch": 3, "examples": 234138, "online_loss": 1.7181020162370904, "train_probe_loss": 1.6211334690451622, "train_components": [1.0160106047987938, 0.23768633138388395, 1.9451187774538994], "seconds": 59.657469511032104, "validation_loss": 1.5921561415188659, "validation_components": [0.9482189243073468, 0.2428762401715559, 2.089996415309743]}, "best_epoch": 1, "seconds": 417.0}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 25600, "total": 234138, "loss": 1.7799579957127571, "seconds": 426.4}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 51200, "total": 234138, "loss": 1.82147804915905, "seconds": 435.7}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 76800, "total": 234138, "loss": 1.7716051947077116, "seconds": 445.0}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 102400, "total": 234138, "loss": 1.7211244818195701, "seconds": 454.3}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 128000, "total": 234138, "loss": 1.7157952231764793, "seconds": 463.6}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 153600, "total": 234138, "loss": 1.7358775409062703, "seconds": 472.9}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 179200, "total": 234138, "loss": 1.7052416153677872, "seconds": 482.1}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 204800, "total": 234138, "loss": 1.7538940106518566, "seconds": 491.4}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 230400, "total": 234138, "loss": 1.7267607237067488, "seconds": 500.7}
+{"phase": "selection", "model": "engineered", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 234138, "online_loss": 1.7293291094322092, "train_probe_loss": 1.6584611684083939, "train_components": [1.0465118326246738, 0.24028032924979925, 1.9672367200255394], "seconds": 85.58269143104553, "validation_loss": 1.5516796428606012, "validation_components": [0.9389212605252252, 0.23538812768447978, 1.9802572861679615]}, "best_epoch": 1, "seconds": 510.3}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 21760, "total": 234138, "loss": 1.8060003108838025, "seconds": 518.2}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 47360, "total": 234138, "loss": 1.80615872805183, "seconds": 527.5}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 72960, "total": 234138, "loss": 1.7844713492874513, "seconds": 536.8}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 98560, "total": 234138, "loss": 1.7249802155541134, "seconds": 546.1}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 124160, "total": 234138, "loss": 1.7264989319535875, "seconds": 555.4}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 149760, "total": 234138, "loss": 1.7366342496413452, "seconds": 564.7}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 175360, "total": 234138, "loss": 1.7093448447702575, "seconds": 574.0}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 200960, "total": 234138, "loss": 1.7620808255900244, "seconds": 583.3}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 226560, "total": 234138, "loss": 1.723626373556711, "seconds": 592.6}
+{"phase": "selection", "model": "engineered", "epoch": 2, "epoch_complete": true, "metrics": {"epoch": 2, "examples": 234138, "online_loss": 1.730188642894, "train_probe_loss": 1.6579969823360443, "train_components": [1.0465541742742062, 0.24114801734685898, 1.9634752124547958], "seconds": 85.69004154205322, "validation_loss": 1.5553223734872892, "validation_components": [0.9439468266054293, 0.23648927495776756, 1.9725236361056255]}, "best_epoch": 1, "seconds": 603.3}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 17920, "total": 234138, "loss": 1.8582752466201782, "seconds": 609.8}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 43520, "total": 234138, "loss": 1.8198720385046567, "seconds": 619.2}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 69120, "total": 234138, "loss": 1.8064846659700076, "seconds": 628.5}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 94720, "total": 234138, "loss": 1.727371862611255, "seconds": 637.8}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 120320, "total": 234138, "loss": 1.7138312462162464, "seconds": 647.2}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 145920, "total": 234138, "loss": 1.7296576362430003, "seconds": 656.4}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 171520, "total": 234138, "loss": 1.703631024285039, "seconds": 665.7}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 197120, "total": 234138, "loss": 1.7540145074779336, "seconds": 675.0}
+{"phase": "selection", "model": "engineered", "epoch": 3, "seen": 222720, "total": 234138, "loss": 1.7152443225870186, "seconds": 684.3}
+{"phase": "selection", "model": "engineered", "epoch": 3, "epoch_complete": true, "metrics": {"epoch": 3, "examples": 234138, "online_loss": 1.7228487481789387, "train_probe_loss": 1.655623733997345, "train_components": [1.0425253063440323, 0.24116894230246544, 1.9700558483600616], "seconds": 85.73925304412842, "validation_loss": 1.5651034305891913, "validation_components": [0.9450582097440986, 0.23829758667696327, 2.0035857043642866]}, "best_epoch": 1, "seconds": 696.5}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 25600, "total": 265021, "loss": 1.8042362083494663, "seconds": 699.2}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 51200, "total": 265021, "loss": 1.786385734602809, "seconds": 702.0}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 76800, "total": 265021, "loss": 1.8040082547565301, "seconds": 704.8}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 102400, "total": 265021, "loss": 1.7385273581743241, "seconds": 707.5}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 128000, "total": 265021, "loss": 1.7065009124279023, "seconds": 710.2}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 153600, "total": 265021, "loss": 1.6942712887376548, "seconds": 713.0}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 179200, "total": 265021, "loss": 1.7136706575112683, "seconds": 715.8}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 204800, "total": 265021, "loss": 1.6880231283046305, "seconds": 718.6}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 230400, "total": 265021, "loss": 1.7335856235441234, "seconds": 721.3}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 256000, "total": 265021, "loss": 1.7005467510595917, "seconds": 724.1}
+{"phase": "final", "model": "price", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 265021, "online_loss": 1.7072482817395778, "train_probe_loss": 1.6160897091031075, "train_components": [1.012578323483467, 0.23411614168435335, 1.9458133280277252], "seconds": 28.627980947494507}, "best_epoch": 1, "seconds": 725.2}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 16512, "total": 265021, "loss": 1.8646939657917319, "seconds": 726.9}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 42112, "total": 265021, "loss": 1.7948816530972629, "seconds": 729.7}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 67712, "total": 265021, "loss": 1.783226098365279, "seconds": 732.4}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 93312, "total": 265021, "loss": 1.7372066940299769, "seconds": 735.3}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 118912, "total": 265021, "loss": 1.6954324582934508, "seconds": 738.1}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 144512, "total": 265021, "loss": 1.693670581118843, "seconds": 740.8}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 170112, "total": 265021, "loss": 1.7144940898461483, "seconds": 743.5}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 195712, "total": 265021, "loss": 1.6890191635405651, "seconds": 746.3}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 221312, "total": 265021, "loss": 1.7338083792174048, "seconds": 749.0}
+{"phase": "final", "model": "price", "epoch": 2, "seen": 246912, "total": 265021, "loss": 1.70003748615212, "seconds": 751.8}
+{"phase": "final", "model": "price", "epoch": 2, "epoch_complete": true, "metrics": {"epoch": 2, "examples": 265021, "online_loss": 1.6983691408939148, "train_probe_loss": 1.6080351546406746, "train_components": [1.0117523185908794, 0.23300395254045725, 1.9191234409809113], "seconds": 28.629801750183105}, "best_epoch": 2, "seconds": 753.8}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 7424, "total": 265021, "loss": 1.9704025110294079, "seconds": 754.6}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 33024, "total": 265021, "loss": 1.775118858315224, "seconds": 757.4}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 58624, "total": 265021, "loss": 1.7978585374797795, "seconds": 760.2}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 84224, "total": 265021, "loss": 1.75677952487418, "seconds": 763.0}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 109824, "total": 265021, "loss": 1.702696438922193, "seconds": 765.8}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 135424, "total": 265021, "loss": 1.692650909009187, "seconds": 768.5}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 161024, "total": 265021, "loss": 1.7034006968780238, "seconds": 771.4}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 186624, "total": 265021, "loss": 1.6899358200519992, "seconds": 774.2}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 212224, "total": 265021, "loss": 1.7444785132518867, "seconds": 777.0}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 237824, "total": 265021, "loss": 1.700490079050236, "seconds": 779.8}
+{"phase": "final", "model": "price", "epoch": 3, "seen": 263424, "total": 265021, "loss": 1.688498785330093, "seconds": 782.6}
+{"phase": "final", "model": "price", "epoch": 3, "epoch_complete": true, "metrics": {"epoch": 3, "examples": 265021, "online_loss": 1.6915273818845182, "train_probe_loss": 1.6053464263677597, "train_components": [1.0121788792312145, 0.23260143212974072, 1.9074673727154732], "seconds": 29.015910863876343}, "best_epoch": 3, "seconds": 782.8}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 23936, "total": 265021, "loss": 1.7877618168445832, "seconds": 785.5}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 49536, "total": 265021, "loss": 1.7864870288883377, "seconds": 788.3}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 75136, "total": 265021, "loss": 1.7828535518309123, "seconds": 791.1}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 100736, "total": 265021, "loss": 1.7107524389763193, "seconds": 793.9}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 126336, "total": 265021, "loss": 1.687702439536681, "seconds": 796.6}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 151936, "total": 265021, "loss": 1.680198866362419, "seconds": 799.3}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 177536, "total": 265021, "loss": 1.6971712347815684, "seconds": 802.0}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 203136, "total": 265021, "loss": 1.6691322383654517, "seconds": 804.8}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 228736, "total": 265021, "loss": 1.7154434528691713, "seconds": 807.6}
+{"phase": "final", "model": "price", "epoch": 4, "seen": 254336, "total": 265021, "loss": 1.6825284245974705, "seconds": 810.3}
+{"phase": "final", "model": "price", "epoch": 4, "epoch_complete": true, "metrics": {"epoch": 4, "examples": 265021, "online_loss": 1.6868715559654344, "train_probe_loss": 1.6032860800623894, "train_components": [1.012353204190731, 0.23237767349928617, 1.8989760875701904], "seconds": 28.685508012771606}, "best_epoch": 4, "seconds": 811.5}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 14848, "total": 265021, "loss": 1.894819321303532, "seconds": 813.2}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 40448, "total": 265021, "loss": 1.7788075405774237, "seconds": 815.9}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 66048, "total": 265021, "loss": 1.7730688386300737, "seconds": 818.7}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 91648, "total": 265021, "loss": 1.7259337270642792, "seconds": 821.4}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 117248, "total": 265021, "loss": 1.680086142013427, "seconds": 824.2}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 142848, "total": 265021, "loss": 1.6836366599766157, "seconds": 827.0}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 168448, "total": 265021, "loss": 1.7040241506165827, "seconds": 829.8}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 194048, "total": 265021, "loss": 1.6767289624070272, "seconds": 832.5}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 219648, "total": 265021, "loss": 1.7206693970292182, "seconds": 835.3}
+{"phase": "final", "model": "price", "epoch": 5, "seen": 245248, "total": 265021, "loss": 1.6871446258775376, "seconds": 838.1}
+{"phase": "final", "model": "price", "epoch": 5, "epoch_complete": true, "metrics": {"epoch": 5, "examples": 265021, "online_loss": 1.6825790228407858, "train_probe_loss": 1.600969024002552, "train_components": [1.0116052515804768, 0.23209724482148886, 1.8932605609297752], "seconds": 28.77627968788147}, "best_epoch": 5, "seconds": 840.3}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 5760, "total": 265021, "loss": 1.634716150495741, "seconds": 840.9}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 31360, "total": 265021, "loss": 1.7376298636806256, "seconds": 843.6}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 56960, "total": 265021, "loss": 1.7892876709445138, "seconds": 846.3}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 82560, "total": 265021, "loss": 1.744303357647371, "seconds": 849.1}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 108160, "total": 265021, "loss": 1.6976460685744088, "seconds": 852.0}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 133760, "total": 265021, "loss": 1.6822340373217204, "seconds": 854.8}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 159360, "total": 265021, "loss": 1.659993588433687, "seconds": 857.6}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 184960, "total": 265021, "loss": 1.6824650613391277, "seconds": 860.4}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 210560, "total": 265021, "loss": 1.649455383945381, "seconds": 863.2}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 236160, "total": 265021, "loss": 1.6923244013938155, "seconds": 865.9}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 261760, "total": 265021, "loss": 1.6777882278912808, "seconds": 868.7}
+{"phase": "final", "model": "price", "epoch": 6, "epoch_complete": true, "metrics": {"epoch": 6, "examples": 265021, "online_loss": 1.678866016666905, "train_probe_loss": 1.5978268086910248, "train_components": [1.0104044266045094, 0.23181268386542797, 1.8860641866922379], "seconds": 28.77842688560486}, "best_epoch": 6, "seconds": 869.1}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 22272, "total": 265021, "loss": 1.8209563716389667, "seconds": 871.5}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 47872, "total": 265021, "loss": 1.7917143869846262, "seconds": 874.3}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 73472, "total": 265021, "loss": 1.773619806517292, "seconds": 877.1}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 99072, "total": 265021, "loss": 1.705203493224404, "seconds": 879.9}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 124672, "total": 265021, "loss": 1.681523792109083, "seconds": 882.6}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 150272, "total": 265021, "loss": 1.6726669058381394, "seconds": 885.4}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 175872, "total": 265021, "loss": 1.6902165192638943, "seconds": 888.2}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 201472, "total": 265021, "loss": 1.6589446431440047, "seconds": 890.9}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 227072, "total": 265021, "loss": 1.7072328307078952, "seconds": 893.7}
+{"phase": "final", "model": "price", "epoch": 7, "seen": 252672, "total": 265021, "loss": 1.6722012796677959, "seconds": 896.4}
+{"phase": "final", "model": "price", "epoch": 7, "epoch_complete": true, "metrics": {"epoch": 7, "examples": 265021, "online_loss": 1.6753051193487154, "train_probe_loss": 1.5944941863417625, "train_components": [1.009076502174139, 0.23134888522326946, 1.8789729699492455], "seconds": 28.69418215751648}, "best_epoch": 7, "seconds": 897.9}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 25600, "total": 265021, "loss": 1.800869408249855, "seconds": 904.4}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 51200, "total": 265021, "loss": 1.783820283561945, "seconds": 910.8}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 76800, "total": 265021, "loss": 1.802164995968342, "seconds": 917.3}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 102400, "total": 265021, "loss": 1.7408011453598737, "seconds": 923.8}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 128000, "total": 265021, "loss": 1.7104242049455642, "seconds": 930.2}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 153600, "total": 265021, "loss": 1.6989019235471885, "seconds": 936.7}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 179200, "total": 265021, "loss": 1.718256691034351, "seconds": 943.2}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 204800, "total": 265021, "loss": 1.6934051233902574, "seconds": 949.7}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 230400, "total": 265021, "loss": 1.7398703673978646, "seconds": 956.1}
+{"phase": "final", "model": "raw", "epoch": 1, "seen": 256000, "total": 265021, "loss": 1.7084380072802305, "seconds": 962.6}
+{"phase": "final", "model": "raw", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 265021, "online_loss": 1.7156544290196947, "train_probe_loss": 1.6231653094291687, "train_components": [1.00869757309556, 0.23570639453828335, 1.9864581599831581], "seconds": 67.38079786300659}, "best_epoch": 1, "seconds": 965.3}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 25600, "total": 265021, "loss": 1.8050317525863648, "seconds": 974.7}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 51200, "total": 265021, "loss": 1.786142236739397, "seconds": 983.9}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 76800, "total": 265021, "loss": 1.8040915340185166, "seconds": 993.2}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 102400, "total": 265021, "loss": 1.7384113254770637, "seconds": 1002.5}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 128000, "total": 265021, "loss": 1.7091476882994174, "seconds": 1011.7}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 153600, "total": 265021, "loss": 1.6961816796908775, "seconds": 1021.0}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 179200, "total": 265021, "loss": 1.713551165504115, "seconds": 1030.3}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 204800, "total": 265021, "loss": 1.6891213235445321, "seconds": 1039.6}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 230400, "total": 265021, "loss": 1.7352112097872627, "seconds": 1048.9}
+{"phase": "final", "model": "engineered", "epoch": 1, "seen": 256000, "total": 265021, "loss": 1.7020758424177767, "seconds": 1058.2}
+{"phase": "final", "model": "engineered", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 265021, "online_loss": 1.7088662042577532, "train_probe_loss": 1.6212138310074806, "train_components": [1.010298978537321, 0.23473862931132317, 1.974182277917862], "seconds": 96.68589544296265}, "best_epoch": 1, "seconds": 1062.1}
+{"phase": "test_evaluation", "selection_frozen": true, "seconds": 1062.1}
+{"phase": "complete", "seconds_total": 1109.4789502620697, "seconds": 1109.5}

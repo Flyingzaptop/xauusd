@@ -1,0 +1,8 @@
+{
+  "synthetic_period64_stft_peak": 64.0,
+  "synthetic_period64_cwt_peak": 67.88902133573609,
+  "future_mutation_trailing_stft_max_difference": 0.0,
+  "centered_cwt_at_last_visible_candle_changes_with_future": 8.169660378296749,
+  "delayed_cwt_future_mutation_max_difference": 7.613015913553325e-14,
+  "delayed_cwt_prefix_recompute_max_difference": 2.227996605890915e-14
+}

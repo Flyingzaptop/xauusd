@@ -1,0 +1,146 @@
+{
+  "verification": {
+    "status": "passed",
+    "trials": 4,
+    "epochs_per_trial": 12,
+    "train_windows_per_epoch": 27716,
+    "source_and_data_hashes": true,
+    "paired_initial_trunks": true,
+    "best_epochs_recomputed": true,
+    "calibration_policies_recomputed": true,
+    "test_labels_recomputed_from_close": true,
+    "test_metrics_recomputed": true
+  },
+  "selected_family": "static",
+  "test": {
+    "static": {
+      "per_direction": {
+        "0": {
+          "signals": 148,
+          "tp": 9,
+          "fp": 139,
+          "precision": 0.060810810810810814,
+          "recall": 0.5,
+          "actual": 18
+        },
+        "2": {
+          "signals": 37,
+          "tp": 0,
+          "fp": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "actual": 12
+        }
+      },
+      "signals": 185,
+      "tp": 9,
+      "fp": 176,
+      "precision": 0.04864864864864865,
+      "recall": 0.3,
+      "coverage": 0.26811594202898553,
+      "confusion": [
+        [
+          9,
+          7,
+          2
+        ],
+        [
+          130,
+          495,
+          35
+        ],
+        [
+          9,
+          3,
+          0
+        ]
+      ]
+    },
+    "hyper": {
+      "per_direction": {
+        "0": {
+          "signals": 89,
+          "tp": 8,
+          "fp": 81,
+          "precision": 0.0898876404494382,
+          "recall": 0.4444444444444444,
+          "actual": 18
+        },
+        "2": {
+          "signals": 46,
+          "tp": 1,
+          "fp": 45,
+          "precision": 0.021739130434782608,
+          "recall": 0.08333333333333333,
+          "actual": 12
+        }
+      },
+      "signals": 135,
+      "tp": 9,
+      "fp": 126,
+      "precision": 0.06666666666666667,
+      "recall": 0.3,
+      "coverage": 0.1956521739130435,
+      "confusion": [
+        [
+          8,
+          8,
+          2
+        ],
+        [
+          75,
+          542,
+          43
+        ],
+        [
+          6,
+          5,
+          1
+        ]
+      ]
+    },
+    "hyper_fixed": {
+      "per_direction": {
+        "0": {
+          "signals": 94,
+          "tp": 8,
+          "fp": 86,
+          "precision": 0.0851063829787234,
+          "recall": 0.4444444444444444,
+          "actual": 18
+        },
+        "2": {
+          "signals": 64,
+          "tp": 1,
+          "fp": 63,
+          "precision": 0.015625,
+          "recall": 0.08333333333333333,
+          "actual": 12
+        }
+      },
+      "signals": 158,
+      "tp": 9,
+      "fp": 149,
+      "precision": 0.056962025316455694,
+      "recall": 0.3,
+      "coverage": 0.2289855072463768,
+      "confusion": [
+        [
+          8,
+          7,
+          3
+        ],
+        [
+          80,
+          520,
+          60
+        ],
+        [
+          6,
+          5,
+          1
+        ]
+      ]
+    }
+  }
+}

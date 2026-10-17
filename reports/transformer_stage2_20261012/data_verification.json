@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "stage": 2,
+  "future_targets_recomputed": 90,
+  "stage1_vectors_unchanged": true,
+  "future_mutation_cases": 3,
+  "future_changes_inputs": false,
+  "future_changes_targets": true,
+  "unfinished_H1_excluded": true,
+  "past_proxy_from_vectors_only": true,
+  "normalization_train_only": true,
+  "no_stage3": true
+}

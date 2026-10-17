@@ -1,0 +1,1 @@
+{"passed": true, "one_minute_extra_entry_delay": true, "known_pnl": true, "no_position_overlap": true, "future_gaps_not_expost_filtered": true, "validation_does_not_use_post_boundary_exit_prices": true}

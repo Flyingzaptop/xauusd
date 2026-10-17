@@ -1,0 +1,11 @@
+{
+  "phase": "meta_training",
+  "cycle": 95,
+  "planned_cycles": 271,
+  "examples": 778240,
+  "external_gain": 0.0,
+  "teacher_gradient": 0.058399662375450134,
+  "best_dev": 1.7575000875319045,
+  "seconds": 6389.7,
+  "allocated_GB": 62.74
+}

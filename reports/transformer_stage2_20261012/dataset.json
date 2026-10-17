@@ -1,0 +1,59 @@
+{
+  "train": {
+    "examples": 16756,
+    "removed_without_full_future": 2640,
+    "first_origin": "2024-01-02T05:56",
+    "last_origin": "2024-01-31T19:00",
+    "period": [
+      "2024-01-01",
+      "2024-02-01"
+    ]
+  },
+  "val": {
+    "examples": 265,
+    "removed_without_full_future": 40,
+    "first_origin": "2024-02-01T06:00",
+    "last_origin": "2024-02-07T19:00",
+    "period": [
+      "2024-02-01",
+      "2024-02-08"
+    ]
+  },
+  "test": {
+    "examples": 554,
+    "removed_without_full_future": 88,
+    "first_origin": "2024-02-15T06:00",
+    "last_origin": "2024-02-29T19:00",
+    "period": [
+      "2024-02-15",
+      "2024-03-01"
+    ]
+  },
+  "stage": 2,
+  "task": "Predict future 60/120-minute High-Low range and total absolute Close variation; no direction.",
+  "horizons_minutes": [
+    60,
+    120
+  ],
+  "metrics": [
+    "range",
+    "total_abs_close_changes"
+  ],
+  "target": "Future range/current Close and future variation/current Close, normalized by fixed TRAIN medians. Relative magnitudes, not absolute price levels.",
+  "target_scale": [
+    [
+      0.0021825451053850507,
+      0.008420991731557205
+    ],
+    [
+      0.0030889836211536693,
+      0.01711711530886071
+    ]
+  ],
+  "vectors": "Exact unchanged arrays from stage1. No refitting of s0/H, no future tokens.",
+  "s0": 9.709492007026199e-05,
+  "hurst": 0.5052469174546703,
+  "stage1_dataset_sha256": "333e941a5754b2d6f5be06dfea505fac243cd45231d9f3280dbf4a71ad958398",
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "exposure": "Same research-exposed raw periods as stage1; stage2 targets are strictly future, stage1 targets were visible past."
+}

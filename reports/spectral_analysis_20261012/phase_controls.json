@@ -1,0 +1,255 @@
+{
+  "purpose": "diagnostic only; 19 magnitude-preserving random-sign paths, not formal multiple-testing adjusted inference; no strategy selected here",
+  "test_interval": "Oct-Dec2021",
+  "stft_convolution_max_error": 8.974241952641333e-13,
+  "results": {
+    "wavelet_returns_p64.95085": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9713261518491191,
+        "phase_advance_agreement_one_period": 0.24746945071325077,
+        "phase_sin_future60_corr": -0.0016474547014273147,
+        "energy_future_rv_corr": 0.3950171326318925
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9716712130980004,
+          "min": 0.9695937551824108,
+          "max": 0.9736335993659808
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.22406894054603474,
+          "min": 0.21019356803002914,
+          "max": 0.2758857934580068
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.004798966072267095,
+          "min": -0.01653128653597859,
+          "max": 0.015339544979241749
+        },
+        "energy_future_rv_corr": {
+          "median": 0.40254146341635166,
+          "min": 0.37740671666145,
+          "max": 0.4236251245704248
+        }
+      }
+    },
+    "wavelet_returns_p248.55939": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9897530199088043,
+        "phase_advance_agreement_one_period": 0.27741954444227973,
+        "phase_sin_future60_corr": -0.057463812741228165,
+        "energy_future_rv_corr": 0.3096741977620294
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9907760638853859,
+          "min": 0.9899122941114088,
+          "max": 0.9922650994490506
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.25294904977172583,
+          "min": 0.23087820543301565,
+          "max": 0.2990391735715733
+        },
+        "phase_sin_future60_corr": {
+          "median": -0.006230708297715005,
+          "min": -0.019864642964217295,
+          "max": 0.020597482660136262
+        },
+        "energy_future_rv_corr": {
+          "median": 0.26024817730574407,
+          "min": 0.22170894781653847,
+          "max": 0.30702914370356443
+        }
+      }
+    },
+    "wavelet_returns_p1050.62859": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9971714472982071,
+        "phase_advance_agreement_one_period": 0.27438613224434616,
+        "phase_sin_future60_corr": -0.00622862837652427,
+        "energy_future_rv_corr": 0.13920953712115236
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9973686134701689,
+          "min": 0.9962754601281707,
+          "max": 0.9983396827465735
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.22385005242362066,
+          "min": 0.0906561527438269,
+          "max": 0.4035248991500571
+        },
+        "phase_sin_future60_corr": {
+          "median": -0.012829300574289665,
+          "min": -0.05737576376483571,
+          "max": 0.03083187264837377
+        },
+        "energy_future_rv_corr": {
+          "median": 0.0771019846240744,
+          "min": -0.015884490237451244,
+          "max": 0.1356386261550696
+        }
+      }
+    },
+    "wavelet_returns_p8192.00000": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.999256815954826,
+        "phase_advance_agreement_one_period": 0.15235710050426324,
+        "phase_sin_future60_corr": -0.018280014139310182,
+        "energy_future_rv_corr": 0.03649123880134258
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9996930364313039,
+          "min": 0.9989155574771603,
+          "max": 0.9998928763205995
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.2316532371171442,
+          "min": -0.13861695213282546,
+          "max": 0.48050074271674753
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.0001980087744832808,
+          "min": -0.0463275511253405,
+          "max": 0.0350526602410922
+        },
+        "energy_future_rv_corr": {
+          "median": 0.04744063536619995,
+          "min": -0.026991688469064204,
+          "max": 0.16491745940243588
+        }
+      }
+    },
+    "stft_128_p32.00000": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9983267762543651,
+        "phase_advance_agreement_one_period": 0.5509320219299481,
+        "phase_sin_future60_corr": 0.00573130764424805,
+        "energy_future_rv_corr": 0.29622400391916587
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9981549649840181,
+          "min": 0.9979933734784531,
+          "max": 0.9983053548289869
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.5508511443696136,
+          "min": 0.5321725169674838,
+          "max": 0.5613602598301194
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.002015534039870357,
+          "min": -0.0042948726725509515,
+          "max": 0.008475946342668298
+        },
+        "energy_future_rv_corr": {
+          "median": 0.3068085438187659,
+          "min": 0.27404312500639855,
+          "max": 0.3293172806423291
+        }
+      }
+    },
+    "stft_512_p128.00000": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.999817884777483,
+        "phase_advance_agreement_one_period": 0.571504987328822,
+        "phase_sin_future60_corr": -0.0365298568072265,
+        "energy_future_rv_corr": 0.04853754117684699
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9998550665138397,
+          "min": 0.9997856394830928,
+          "max": 0.9998880887017358
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.5474369503300919,
+          "min": 0.5080191633796503,
+          "max": 0.5862882610507719
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.006608855549883109,
+          "min": -0.023491839595410367,
+          "max": 0.038953234180289245
+        },
+        "energy_future_rv_corr": {
+          "median": 0.08762915679530446,
+          "min": 0.026111593746191368,
+          "max": 0.12703574224752304
+        }
+      }
+    },
+    "stft_8192_p512.00000": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9999996967371976,
+        "phase_advance_agreement_one_period": 0.9458249360011793,
+        "phase_sin_future60_corr": 0.00868402372927755,
+        "energy_future_rv_corr": 0.10033074882149136
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.999999596634073,
+          "min": 0.9999956745769776,
+          "max": 0.9999998145860787
+        },
+        "phase_advance_agreement_one_period": {
+          "median": 0.9400891970643274,
+          "min": 0.8966510547315694,
+          "max": 0.9642980696000936
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.0023906647624135297,
+          "min": -0.04746003036796092,
+          "max": 0.054354054730127534
+        },
+        "energy_future_rv_corr": {
+          "median": 0.06734780171560381,
+          "min": -0.08197947060743838,
+          "max": 0.14439571747274224
+        }
+      }
+    },
+    "stft_8192_p8192.00000": {
+      "actual": {
+        "phase_advance_agreement_lag1": 0.9997883564934036,
+        "phase_advance_agreement_one_period": -0.11072702368931224,
+        "phase_sin_future60_corr": -0.028823187210792876,
+        "energy_future_rv_corr": -0.01488763872212319
+      },
+      "random_sign_controls": {
+        "n": 19,
+        "phase_advance_agreement_lag1": {
+          "median": 0.9998650041012596,
+          "min": 0.9994890830886042,
+          "max": 0.999969628836135
+        },
+        "phase_advance_agreement_one_period": {
+          "median": -0.07511871185452293,
+          "min": -0.3493150704708875,
+          "max": 0.2193866970043728
+        },
+        "phase_sin_future60_corr": {
+          "median": 0.006141601448335043,
+          "min": -0.05185480917572595,
+          "max": 0.05089471777114285
+        },
+        "energy_future_rv_corr": {
+          "median": 0.07413910621717552,
+          "min": -0.06036522050894488,
+          "max": 0.15120873169488358
+        }
+      }
+    }
+  }
+}

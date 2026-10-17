@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "passed": true,
+  "method": "exact expected-return differentiable meta-gradient in a small known SMDP",
+  "inner_steps": 3,
+  "outer_cycles": 80,
+  "results": {
+    "learned": [
+      2.604881525039673,
+      3.6436822414398193,
+      3.428260326385498
+    ],
+    "initial": [
+      -0.15892773866653442,
+      -0.3152610957622528,
+      -0.06060513108968735
+    ],
+    "constant": [
+      -0.1317543387413025,
+      -0.3077884316444397,
+      -0.19312983751296997
+    ],
+    "shuffled": [
+      0.0633009821176529,
+      0.6547587513923645,
+      -3.410982608795166
+    ],
+    "money": [
+      0.9969552159309387,
+      1.950307846069336,
+      2.865198850631714
+    ],
+    "money_scaled": [
+      0.07837741076946259,
+      -0.37940269708633423,
+      3.0500986576080322
+    ]
+  },
+  "student_seeds": [
+    201,
+    202,
+    203
+  ],
+  "selection_profit": 3.2914202213287354,
+  "elapsed": 4.777277708053589,
+  "limitations": [
+    "Exact action enumeration is feasible for this tiny fixed-exit simulator; not yet validated as scalable market training.",
+    "Three independent student initializations, simple synthetic directional signal; no claim about markets."
+  ]
+}

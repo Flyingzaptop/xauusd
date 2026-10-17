@@ -1,0 +1,13 @@
+{"phase": "selection", "model": "price", "epoch": 4, "seen": 218880, "total": 234138, "loss": 1.7095235215380178, "seconds": 116.2}
+{"phase": "selection", "model": "raw", "epoch": 1, "seen": 51200, "total": 234138, "loss": 1.8213725720345975, "seconds": 237.0}
+{"phase": "selection", "model": "raw", "epoch": 3, "seen": 17920, "total": 234138, "loss": 1.8436448729463986, "seconds": 357.3}
+{"phase": "selection", "model": "engineered", "epoch": 1, "seen": 153600, "total": 234138, "loss": 1.7358775409062703, "seconds": 472.9}
+{"phase": "selection", "model": "engineered", "epoch": 2, "seen": 226560, "total": 234138, "loss": 1.723626373556711, "seconds": 592.6}
+{"phase": "final", "model": "price", "epoch": 1, "seen": 256000, "total": 265021, "loss": 1.7005467510595917, "seconds": 724.1}
+{"phase": "final", "model": "price", "epoch": 6, "seen": 56960, "total": 265021, "loss": 1.7892876709445138, "seconds": 846.3}
+{"phase": "final", "model": "raw", "epoch": 1, "epoch_complete": true, "metrics": {"epoch": 1, "examples": 265021, "online_loss": 1.7156544290196947, "train_probe_loss": 1.6231653094291687, "train_components": [1.00869757309556, 0.23570639453828335, 1.9864581599831581], "seconds": 67.38079786300659}, "best_epoch": 1, "seconds": 965.3}
+{"phase": "complete", "seconds_total": 1109.4789502620697, "seconds": 1109.5}
+WORKER {'returncode': 0, 'seconds': 1116.7687706947327}
+[colab] Stopping session 'xauusd-spectral-transformer'...
+[colab] Session terminated.
+ 

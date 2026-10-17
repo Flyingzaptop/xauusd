@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "stage": 2,
+  "trials": 4,
+  "total_epochs": 87,
+  "train_examples_per_epoch": 16756,
+  "exact_pretrained_checkpoints": true,
+  "legacy_weights_verified_in_warmup": true,
+  "source_data_hashes": true,
+  "future_metrics_recomputed": true,
+  "baseline_future_targets_not_used": true,
+  "stage1_retention_recomputed": true,
+  "quantiles_positive_ordered": true,
+  "no_stage3": true
+}

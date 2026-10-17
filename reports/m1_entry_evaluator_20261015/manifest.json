@@ -1,0 +1,91 @@
+{
+  "source": "/workspace/xauusd/reports/intermarket_lightgbm_20261015/samples/XAUUSD_41.parquet",
+  "source_sha256": "5d31e200eed06abeecc215de6edef636e50fdf765263f3e44e47006093c0602b",
+  "rows": 3505124,
+  "range_utc": [
+    "2016-09-04 22:00:00+00:00",
+    "2026-09-04 13:08:00+00:00"
+  ],
+  "full_120_intraday_rows": 2837027,
+  "past_120_complete_rows": 3054839,
+  "full_future_and_past_rows": 2694006,
+  "point_files": [
+    {
+      "year": 2016,
+      "rows": 112478,
+      "bytes": 8175515,
+      "sha256": "75940a0ee43b1bd38275396b3309dcc3406e3515db45a1ef9248421a16ac4916"
+    },
+    {
+      "year": 2017,
+      "rows": 347174,
+      "bytes": 24521165,
+      "sha256": "73570a809dde53a1fde256283ff1b15e4712a51a5583cd5cc5a4e10dad86d985"
+    },
+    {
+      "year": 2018,
+      "rows": 347520,
+      "bytes": 24330337,
+      "sha256": "34a6304a664eaaa08c5a27f8526c96159c09d921bf8668bf06e750a3fec6f39d"
+    },
+    {
+      "year": 2019,
+      "rows": 349435,
+      "bytes": 25215361,
+      "sha256": "0ed4a29898e84c66f4edb83e768174170f8cd3ba5fe8b493e393ddee94706eb4"
+    },
+    {
+      "year": 2020,
+      "rows": 355483,
+      "bytes": 29009649,
+      "sha256": "d0274608e130afe059a3a659eaeca986bc80f8a86f54e967a8c4a3cde86ecb31"
+    },
+    {
+      "year": 2021,
+      "rows": 354340,
+      "bytes": 27962276,
+      "sha256": "ffd04205fd8182f6674554f18df3238f573d813c9f9e095fde11775a1abfab31"
+    },
+    {
+      "year": 2022,
+      "rows": 351421,
+      "bytes": 28083730,
+      "sha256": "3903823649fbb4666535dbafd3a5f6adf6e6a69c22b098037f52737e8fc8ff78"
+    },
+    {
+      "year": 2023,
+      "rows": 347923,
+      "bytes": 27368994,
+      "sha256": "a293abf40393be3c3171bdcde186d904455db6452749b20ce26609d5a4e8081a"
+    },
+    {
+      "year": 2024,
+      "rows": 350535,
+      "bytes": 29067553,
+      "sha256": "6fc76a2b0382e0ef0c05236e5c917ec034ecf85bf1d71717f20c35a36378ad61"
+    },
+    {
+      "year": 2025,
+      "rows": 349790,
+      "bytes": 31582749,
+      "sha256": "46c84fc6abbff777a2286074297a5adb765a83bd4e6a9aab3f7affb706a23c44"
+    },
+    {
+      "year": 2026,
+      "rows": 239025,
+      "bytes": 23997342,
+      "sha256": "10c1d32c116ac141eedb39aaa0e7399fdd96e69ad35fa8c2fec8c062091a0673"
+    }
+  ],
+  "seconds": 253.54198475000157,
+  "gpu_used": false,
+  "point_build_source_sha256": {
+    "run.py": "7f93dc810a176f4c72f99da7c09e8f2a78701821ae9d470298023f3c029150aa",
+    "core.py": "8368b69c3e8d558d6b90d201995aeadb0e1ead485ed17b1d94084645077fb857"
+  },
+  "auxiliary_code_snapshot_at_point_build": {
+    "analyze.py": "0d2ab420cad93c0f3b3d901554b270140eced19ddb16b3d06d37db39b2fdf1c6",
+    "checks.py": "b3cad5c11f9787b25ba91bdaf7dcfc73cff777523f848d89f708c6b0d922dd53"
+  },
+  "note": "Auxiliary snapshot records files present when point construction finished, not the later analysis version. Actual final postprocessing source is in artifact_manifest.json."
+}

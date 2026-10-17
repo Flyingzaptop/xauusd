@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "combined_examples": 786432,
+  "unique_train_rows": 2216424,
+  "combined_pass_fraction": 0.35482019685764093,
+  "student_counts": [
+    262144,
+    262144,
+    262144
+  ],
+  "cycles": 96,
+  "best_cycle": 24,
+  "best_dev": 1.7575000875319045,
+  "elapsed_seconds": 6468.22791761,
+  "ended_due_to_wall_budget": true
+}

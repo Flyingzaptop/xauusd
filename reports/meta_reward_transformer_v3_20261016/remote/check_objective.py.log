@@ -1,0 +1,2 @@
+{"passed": true, "checks": ["constant directional teacher preference yields zero expected reward", "both context-specific LONG and SHORT improvements can be rewarded", "entropy coefficient decreases smoothly without feedback", "better bull-only result cannot hide unchanged bear failure", "profit concentration penalized"]}
+

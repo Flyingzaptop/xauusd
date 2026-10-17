@@ -1,0 +1,58 @@
+{
+  "code_hashes": {
+    "environment.py": "2776018dfe2a6088128387510ac8c2f06201e200043dda9103fb26715f4158e0",
+    "learning.py": "8b366598115dc9052a314ca2956e1b2b155407d1f7a3c17bf98a41c83d6ba352",
+    "model.py": "f4c951c8d412c8bb7d5ac9e80265fd18ded3405fff2ba52a84c897feaab97dd6",
+    "synthetic.py": "ac0b81931cc4e3c6372570d26a95bea2402023983490b4a25c1cf6f0348f18d2",
+    "meta_gradient.py": "b9610c467733662485994f24fa9375eebfa02192ca92eaceed567597c5b2a9a0"
+  },
+  "complete": true,
+  "passed": true,
+  "method": "exact expected-return differentiable meta-gradient in a small known SMDP",
+  "task": "wait",
+  "inner_steps": 3,
+  "outer_cycles": 80,
+  "results": {
+    "learned": [
+      0.22187265753746033,
+      1.5263197422027588,
+      1.9966685771942139
+    ],
+    "initial": [
+      -0.08183027058839798,
+      -0.1895011067390442,
+      -0.03769230470061302
+    ],
+    "constant": [
+      -0.09520421922206879,
+      -0.16501574218273163,
+      -0.12321413308382034
+    ],
+    "shuffled": [
+      0.015595108270645142,
+      0.08746422082185745,
+      -1.367464542388916
+    ],
+    "money": [
+      0.5029914379119873,
+      1.119982123374939,
+      1.477237343788147
+    ],
+    "money_scaled": [
+      0.25192561745643616,
+      -0.16291385889053345,
+      0.21544599533081055
+    ]
+  },
+  "student_seeds": [
+    201,
+    202,
+    203
+  ],
+  "selection_profit": 0.8460263311862946,
+  "elapsed": 214.70834732055664,
+  "limitations": [
+    "Exact action enumeration is feasible for this tiny fixed-exit simulator; not yet validated as scalable market training.",
+    "Three independent student initializations, simple synthetic directional signal; no claim about markets."
+  ]
+}

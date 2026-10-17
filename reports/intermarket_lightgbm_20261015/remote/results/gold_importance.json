@@ -1,0 +1,546 @@
+[
+  {
+    "horizon": 15,
+    "features": [
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 488.1243019104004
+      },
+      {
+        "name": "clock_1",
+        "gain": 480.771203994751
+      },
+      {
+        "name": "XAUUSD__return_1440",
+        "gain": 476.23390197753906
+      },
+      {
+        "name": "XAUUSD__return_240",
+        "gain": 451.17530822753906
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 412.61249923706055
+      },
+      {
+        "name": "clock_0",
+        "gain": 405.4552993774414
+      },
+      {
+        "name": "clock_5",
+        "gain": 248.9146957397461
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 227.57319831848145
+      },
+      {
+        "name": "XAUUSD__return_15_lag60",
+        "gain": 221.5984992980957
+      },
+      {
+        "name": "XAUUSD__position_60_lag60",
+        "gain": 166.53129959106445
+      },
+      {
+        "name": "XAUUSD__position_60",
+        "gain": 154.91519927978516
+      },
+      {
+        "name": "XAUUSD__body",
+        "gain": 152.54729843139648
+      },
+      {
+        "name": "clock_4",
+        "gain": 127.15259742736816
+      },
+      {
+        "name": "clock_3",
+        "gain": 122.11800003051758
+      },
+      {
+        "name": "XAUUSD__vol_ratio",
+        "gain": 106.35090255737305
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag60",
+        "gain": 97.55879974365234
+      },
+      {
+        "name": "XAUUSD__position_15",
+        "gain": 92.14990043640137
+      },
+      {
+        "name": "clock_2",
+        "gain": 86.75839805603027
+      },
+      {
+        "name": "XAUUSD__return_60_lag60",
+        "gain": 86.32170104980469
+      },
+      {
+        "name": "XAUUSD__return_30",
+        "gain": 78.04879951477051
+      },
+      {
+        "name": "XAUUSD__range_15",
+        "gain": 76.01209831237793
+      },
+      {
+        "name": "XAUUSD__range_60",
+        "gain": 70.2361011505127
+      },
+      {
+        "name": "XAUUSD__return_5_lag15",
+        "gain": 68.67709922790527
+      },
+      {
+        "name": "XAUUSD__return_5",
+        "gain": 67.75749969482422
+      },
+      {
+        "name": "XAUUSD__return_60",
+        "gain": 61.022199630737305
+      },
+      {
+        "name": "XAUUSD__logvol_15",
+        "gain": 60.07019805908203
+      },
+      {
+        "name": "XAUUSD__position_240",
+        "gain": 55.3141975402832
+      },
+      {
+        "name": "XAUUSD__return_15_lag5",
+        "gain": 53.896501541137695
+      },
+      {
+        "name": "clock_6",
+        "gain": 50.4419002532959
+      },
+      {
+        "name": "XAUUSD__return_15",
+        "gain": 47.74980163574219
+      },
+      {
+        "name": "XAUUSD__return_1",
+        "gain": 45.37700080871582
+      },
+      {
+        "name": "XAUUSD__upper_wick",
+        "gain": 41.52869892120361
+      },
+      {
+        "name": "XAUUSD__return_60_lag15",
+        "gain": 32.70589828491211
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag15",
+        "gain": 31.93869972229004
+      },
+      {
+        "name": "clock_7",
+        "gain": 28.045400619506836
+      },
+      {
+        "name": "XAUUSD__acceleration_5",
+        "gain": 22.136999130249023
+      },
+      {
+        "name": "XAUUSD__acceleration_15",
+        "gain": 21.70050048828125
+      },
+      {
+        "name": "XAUUSD__return_5_lag5",
+        "gain": 20.203800201416016
+      },
+      {
+        "name": "XAUUSD__return_5_lag60",
+        "gain": 15.282600402832031
+      }
+    ]
+  },
+  {
+    "horizon": 30,
+    "features": [
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 1191.6733074188232
+      },
+      {
+        "name": "XAUUSD__return_1440",
+        "gain": 1061.6933975219727
+      },
+      {
+        "name": "clock_1",
+        "gain": 906.6602916717529
+      },
+      {
+        "name": "XAUUSD__return_240",
+        "gain": 869.2464027404785
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 795.3292007446289
+      },
+      {
+        "name": "clock_0",
+        "gain": 644.9530086517334
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 594.0932960510254
+      },
+      {
+        "name": "XAUUSD__position_240",
+        "gain": 385.27819442749023
+      },
+      {
+        "name": "XAUUSD__position_60_lag60",
+        "gain": 342.0349979400635
+      },
+      {
+        "name": "XAUUSD__return_60",
+        "gain": 324.19090270996094
+      },
+      {
+        "name": "clock_4",
+        "gain": 314.1675033569336
+      },
+      {
+        "name": "clock_6",
+        "gain": 309.2507038116455
+      },
+      {
+        "name": "clock_5",
+        "gain": 284.7935962677002
+      },
+      {
+        "name": "clock_3",
+        "gain": 258.25990104675293
+      },
+      {
+        "name": "XAUUSD__range_60",
+        "gain": 243.22090530395508
+      },
+      {
+        "name": "clock_2",
+        "gain": 243.0072021484375
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag60",
+        "gain": 189.4561004638672
+      },
+      {
+        "name": "XAUUSD__return_15_lag60",
+        "gain": 158.12439918518066
+      },
+      {
+        "name": "XAUUSD__position_60",
+        "gain": 153.73900032043457
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag15",
+        "gain": 153.69339752197266
+      },
+      {
+        "name": "XAUUSD__vol_ratio",
+        "gain": 139.16309928894043
+      },
+      {
+        "name": "XAUUSD__relative_tick_volume",
+        "gain": 91.4193000793457
+      },
+      {
+        "name": "XAUUSD__return_60_lag15",
+        "gain": 80.65970230102539
+      },
+      {
+        "name": "XAUUSD__return_60_lag60",
+        "gain": 78.61370086669922
+      },
+      {
+        "name": "XAUUSD__logvol_15",
+        "gain": 73.19409942626953
+      },
+      {
+        "name": "XAUUSD__range_15",
+        "gain": 57.82039833068848
+      },
+      {
+        "name": "XAUUSD__return_30",
+        "gain": 34.94490051269531
+      },
+      {
+        "name": "clock_7",
+        "gain": 31.970500946044922
+      },
+      {
+        "name": "XAUUSD__body",
+        "gain": 29.736000061035156
+      },
+      {
+        "name": "XAUUSD__return_15",
+        "gain": 27.995399475097656
+      },
+      {
+        "name": "XAUUSD__position_60_lag15",
+        "gain": 27.765100479125977
+      },
+      {
+        "name": "XAUUSD__upper_wick",
+        "gain": 24.09440040588379
+      },
+      {
+        "name": "XAUUSD__return_5_lag60",
+        "gain": 23.667699813842773
+      }
+    ]
+  },
+  {
+    "horizon": 60,
+    "features": [
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 1497.0434112548828
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 1291.9624061584473
+      },
+      {
+        "name": "XAUUSD__return_1440",
+        "gain": 1288.5353050231934
+      },
+      {
+        "name": "clock_1",
+        "gain": 1270.475513458252
+      },
+      {
+        "name": "XAUUSD__return_240",
+        "gain": 1172.894687652588
+      },
+      {
+        "name": "clock_2",
+        "gain": 1123.4953994750977
+      },
+      {
+        "name": "clock_6",
+        "gain": 888.0268936157227
+      },
+      {
+        "name": "clock_0",
+        "gain": 602.3807067871094
+      },
+      {
+        "name": "clock_4",
+        "gain": 585.9620018005371
+      },
+      {
+        "name": "XAUUSD__position_240",
+        "gain": 465.7721862792969
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 447.84060287475586
+      },
+      {
+        "name": "XAUUSD__return_60_lag60",
+        "gain": 378.3486976623535
+      },
+      {
+        "name": "clock_3",
+        "gain": 358.77419662475586
+      },
+      {
+        "name": "clock_7",
+        "gain": 253.9591941833496
+      },
+      {
+        "name": "XAUUSD__position_60_lag60",
+        "gain": 144.64550018310547
+      },
+      {
+        "name": "XAUUSD__return_60_lag5",
+        "gain": 120.58169937133789
+      },
+      {
+        "name": "XAUUSD__vol_ratio",
+        "gain": 112.08380126953125
+      },
+      {
+        "name": "clock_5",
+        "gain": 103.94999694824219
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag15",
+        "gain": 93.12789916992188
+      },
+      {
+        "name": "XAUUSD__position_60",
+        "gain": 76.64179992675781
+      },
+      {
+        "name": "XAUUSD__logvol_15",
+        "gain": 71.83159637451172
+      },
+      {
+        "name": "XAUUSD__return_5_lag60",
+        "gain": 67.2865982055664
+      },
+      {
+        "name": "XAUUSD__return_30",
+        "gain": 63.38779830932617
+      },
+      {
+        "name": "XAUUSD__return_15_lag60",
+        "gain": 63.34149932861328
+      },
+      {
+        "name": "XAUUSD__range_60",
+        "gain": 46.30189895629883
+      }
+    ]
+  },
+  {
+    "horizon": 120,
+    "features": [
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 9402.83769607544
+      },
+      {
+        "name": "XAUUSD__return_1440",
+        "gain": 8656.879196166992
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 6170.022495269775
+      },
+      {
+        "name": "clock_6",
+        "gain": 5264.918514251709
+      },
+      {
+        "name": "XAUUSD__return_240",
+        "gain": 4916.359577178955
+      },
+      {
+        "name": "XAUUSD__position_240",
+        "gain": 3416.8390884399414
+      },
+      {
+        "name": "clock_0",
+        "gain": 3236.8666954040527
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 3198.6993865966797
+      },
+      {
+        "name": "clock_4",
+        "gain": 3020.75244140625
+      },
+      {
+        "name": "clock_1",
+        "gain": 2907.612995147705
+      },
+      {
+        "name": "clock_2",
+        "gain": 2752.068878173828
+      },
+      {
+        "name": "clock_7",
+        "gain": 2435.970802307129
+      },
+      {
+        "name": "clock_3",
+        "gain": 2353.6101989746094
+      },
+      {
+        "name": "XAUUSD__return_60_lag60",
+        "gain": 1573.5080165863037
+      },
+      {
+        "name": "XAUUSD__position_60_lag60",
+        "gain": 1036.6317119598389
+      },
+      {
+        "name": "XAUUSD__vol_ratio",
+        "gain": 1006.5203971862793
+      },
+      {
+        "name": "XAUUSD__range_60",
+        "gain": 947.9944019317627
+      },
+      {
+        "name": "clock_5",
+        "gain": 822.4993133544922
+      },
+      {
+        "name": "XAUUSD__logvol_15",
+        "gain": 683.4047050476074
+      },
+      {
+        "name": "XAUUSD__return_60",
+        "gain": 605.0471954345703
+      },
+      {
+        "name": "XAUUSD__return_60_lag15",
+        "gain": 537.3948936462402
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag60",
+        "gain": 521.9319915771484
+      },
+      {
+        "name": "XAUUSD__logvol_15_lag15",
+        "gain": 510.45989990234375
+      },
+      {
+        "name": "XAUUSD__availability_60",
+        "gain": 419.53929901123047
+      },
+      {
+        "name": "XAUUSD__return_60_lag5",
+        "gain": 243.6980037689209
+      },
+      {
+        "name": "XAUUSD__return_15_lag60",
+        "gain": 188.83100128173828
+      },
+      {
+        "name": "XAUUSD__relative_tick_volume",
+        "gain": 169.5103988647461
+      },
+      {
+        "name": "XAUUSD__position_60_lag15",
+        "gain": 124.26449966430664
+      },
+      {
+        "name": "XAUUSD__return_30",
+        "gain": 79.24040222167969
+      },
+      {
+        "name": "XAUUSD__position_60",
+        "gain": 56.532901763916016
+      },
+      {
+        "name": "XAUUSD__body",
+        "gain": 51.699798583984375
+      },
+      {
+        "name": "XAUUSD__position_15",
+        "gain": 44.26300048828125
+      },
+      {
+        "name": "XAUUSD__return_5_lag5",
+        "gain": 41.88610076904297
+      },
+      {
+        "name": "XAUUSD__upper_wick",
+        "gain": 22.782100677490234
+      }
+    ]
+  }
+]

@@ -1,0 +1,4446 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "YUM__21822.parquet",
+      "rows": 839480,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "YUM!",
+        "symbol_id": "21822",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:46:53.253000+00:00"
+      }
+    },
+    {
+      "file": "XTIUSD_10092.parquet",
+      "rows": 3080667,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XTIUSD",
+        "symbol_id": "10092",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:46:20.330000+00:00"
+      }
+    },
+    {
+      "file": "XPDUSD_22346.parquet",
+      "rows": 2437471,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XPDUSD",
+        "symbol_id": "22346",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:44:31.992000+00:00"
+      }
+    },
+    {
+      "file": "XCEL_ENERGY_21820.parquet",
+      "rows": 834311,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XCEL ENERGY",
+        "symbol_id": "21820",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:43:07.055000+00:00"
+      }
+    },
+    {
+      "file": "XBRUSD_10091.parquet",
+      "rows": 2835216,
+      "first": "2016-09-05 00:02:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XBRUSD",
+        "symbol_id": "10091",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:42:33.790000+00:00"
+      }
+    },
+    {
+      "file": "XAUEUR_22312.parquet",
+      "rows": 3324533,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XAUEUR",
+        "symbol_id": "22312",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:40:58.485000+00:00"
+      }
+    },
+    {
+      "file": "XAGUSD_42.parquet",
+      "rows": 2770900,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XAGUSD",
+        "symbol_id": "42",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:39:01.959000+00:00"
+      }
+    },
+    {
+      "file": "XAGEUR_22311.parquet",
+      "rows": 2532025,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XAGEUR",
+        "symbol_id": "22311",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:37:34.011000+00:00"
+      }
+    },
+    {
+      "file": "WHARF_22247.parquet",
+      "rows": 209796,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "WHARF",
+        "symbol_id": "22247",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:36:10.337000+00:00"
+      }
+    },
+    {
+      "file": "WALT_DISNEY_21537.parquet",
+      "rows": 859487,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "WALT DISNEY",
+        "symbol_id": "21537",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:36:01.050000+00:00"
+      }
+    },
+    {
+      "file": "VISA_21547.parquet",
+      "rows": 869407,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "VISA",
+        "symbol_id": "21547",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:35:25.955000+00:00"
+      }
+    },
+    {
+      "file": "VERIZON_21536.parquet",
+      "rows": 775811,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "VERIZON",
+        "symbol_id": "21536",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:34:50.856000+00:00"
+      }
+    },
+    {
+      "file": "VENTAS_21991.parquet",
+      "rows": 845605,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "VENTAS",
+        "symbol_id": "21991",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:34:17.848000+00:00"
+      }
+    },
+    {
+      "file": "USDZAR_52.parquet",
+      "rows": 3486031,
+      "first": "2016-09-04 23:10:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDZAR",
+        "symbol_id": "52",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:33:40.944000+00:00"
+      }
+    },
+    {
+      "file": "USDTRY_49.parquet",
+      "rows": 3006487,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:07:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDTRY",
+        "symbol_id": "49",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:31:42.410000+00:00"
+      }
+    },
+    {
+      "file": "USDSGD_73.parquet",
+      "rows": 3584768,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDSGD",
+        "symbol_id": "73",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:29:56.861000+00:00"
+      }
+    },
+    {
+      "file": "USDSEK_29.parquet",
+      "rows": 3666967,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDSEK",
+        "symbol_id": "29",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:28:01.726000+00:00"
+      }
+    },
+    {
+      "file": "USDPLN_65.parquet",
+      "rows": 3626672,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDPLN",
+        "symbol_id": "65",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:26:01.369000+00:00"
+      }
+    },
+    {
+      "file": "USDNOK_22.parquet",
+      "rows": 3666995,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDNOK",
+        "symbol_id": "22",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:24:01.025000+00:00"
+      }
+    },
+    {
+      "file": "USDMXN_24.parquet",
+      "rows": 3573101,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDMXN",
+        "symbol_id": "24",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:21:59+00:00"
+      }
+    },
+    {
+      "file": "USDJPY_4.parquet",
+      "rows": 3686299,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDJPY",
+        "symbol_id": "4",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:19:59.061000+00:00"
+      }
+    },
+    {
+      "file": "USDHUF_60.parquet",
+      "rows": 3616784,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDHUF",
+        "symbol_id": "60",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:17:53.655000+00:00"
+      }
+    },
+    {
+      "file": "USDDKK_69.parquet",
+      "rows": 3655850,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDDKK",
+        "symbol_id": "69",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:15:49.412000+00:00"
+      }
+    },
+    {
+      "file": "USDCZK_72.parquet",
+      "rows": 3628123,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDCZK",
+        "symbol_id": "72",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:13:48.234000+00:00"
+      }
+    },
+    {
+      "file": "USDCNH_46.parquet",
+      "rows": 3425657,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDCNH",
+        "symbol_id": "46",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:11:44.217000+00:00"
+      }
+    },
+    {
+      "file": "USDCHF_6.parquet",
+      "rows": 3654518,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDCHF",
+        "symbol_id": "6",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:09:52.681000+00:00"
+      }
+    },
+    {
+      "file": "USDCAD_8.parquet",
+      "rows": 3670606,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "USDCAD",
+        "symbol_id": "8",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:07:57.856000+00:00"
+      }
+    },
+    {
+      "file": "US_TECH_100_21501.parquet",
+      "rows": 2235666,
+      "first": "2016-09-06 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "US TECH 100",
+        "symbol_id": "21501",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:05:58.356000+00:00"
+      }
+    },
+    {
+      "file": "US_500_21499.parquet",
+      "rows": 2185805,
+      "first": "2016-09-06 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "US 500",
+        "symbol_id": "21499",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:04:35.847000+00:00"
+      }
+    },
+    {
+      "file": "US_30_21500.parquet",
+      "rows": 2234716,
+      "first": "2016-09-06 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "US 30",
+        "symbol_id": "21500",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:03:15.162000+00:00"
+      }
+    },
+    {
+      "file": "UNION_PACIFIC_21549.parquet",
+      "rows": 865755,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "UNION PACIFIC",
+        "symbol_id": "21549",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:01:51.754000+00:00"
+      }
+    },
+    {
+      "file": "UK_100_21576.parquet",
+      "rows": 2248313,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "UK 100",
+        "symbol_id": "21576",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T23:01:14.541000+00:00"
+      }
+    },
+    {
+      "file": "TRAVELERS_COMPANIES_21539.parquet",
+      "rows": 852897,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TRAVELERS COMPANIES",
+        "symbol_id": "21539",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:59:47.566000+00:00"
+      }
+    },
+    {
+      "file": "TOTAL_21145.parquet",
+      "rows": 1151673,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TOTAL",
+        "symbol_id": "21145",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:59:13.343000+00:00"
+      }
+    },
+    {
+      "file": "TELEFONICA_21625.parquet",
+      "rows": 1122236,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TELEFONICA",
+        "symbol_id": "21625",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:58:28.344000+00:00"
+      }
+    },
+    {
+      "file": "TELEDYNE_TECHNOLOGIES_21808.parquet",
+      "rows": 695186,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TELEDYNE TECHNOLOGIES",
+        "symbol_id": "21808",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:57:46.944000+00:00"
+      }
+    },
+    {
+      "file": "TARGA_RESOURCES_21806.parquet",
+      "rows": 843724,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TARGA RESOURCES",
+        "symbol_id": "21806",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:57:18.762000+00:00"
+      }
+    },
+    {
+      "file": "TAG_IMMOBILIEN_22043.parquet",
+      "rows": 698244,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "TAG IMMOBILIEN",
+        "symbol_id": "22043",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:56:43.047000+00:00"
+      }
+    },
+    {
+      "file": "SWITZERLAND_20_21506.parquet",
+      "rows": 1809076,
+      "first": "2016-09-06 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SWITZERLAND 20",
+        "symbol_id": "21506",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:56:14.274000+00:00"
+      }
+    },
+    {
+      "file": "SWIRE_PACIFIC_22246.parquet",
+      "rows": 297116,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SWIRE PACIFIC",
+        "symbol_id": "22246",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:55:07.694000+00:00"
+      }
+    },
+    {
+      "file": "SUN_HUNG_KAI_22245.parquet",
+      "rows": 121536,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:52:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SUN HUNG KAI",
+        "symbol_id": "22245",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:54:55.335000+00:00"
+      }
+    },
+    {
+      "file": "SPAIN_35_21504.parquet",
+      "rows": 1499604,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SPAIN 35",
+        "symbol_id": "21504",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:54:49.028000+00:00"
+      }
+    },
+    {
+      "file": "SM_ENERGY_21792.parquet",
+      "rows": 829867,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SM ENERGY",
+        "symbol_id": "21792",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:53:50.617000+00:00"
+      }
+    },
+    {
+      "file": "SINO_LAND_CO_22244.parquet",
+      "rows": 165793,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SINO LAND CO",
+        "symbol_id": "22244",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:53:17.240000+00:00"
+      }
+    },
+    {
+      "file": "SGDJPY_56.parquet",
+      "rows": 3677002,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SGDJPY",
+        "symbol_id": "56",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:53:07.600000+00:00"
+      }
+    },
+    {
+      "file": "SEKJPY_22340.parquet",
+      "rows": 2018932,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "SEKJPY",
+        "symbol_id": "22340",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:51:01.709000+00:00"
+      }
+    },
+    {
+      "file": "ROYAL_CARIBBEAN_CRUISES_21979.parquet",
+      "rows": 856467,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ROYAL CARIBBEAN CRUISES",
+        "symbol_id": "21979",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:49:53.268000+00:00"
+      }
+    },
+    {
+      "file": "ROLLINS_21977.parquet",
+      "rows": 752322,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ROLLINS",
+        "symbol_id": "21977",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:49:19.387000+00:00"
+      }
+    },
+    {
+      "file": "ROCKWELL_AUTOMATION_21787.parquet",
+      "rows": 824650,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ROCKWELL AUTOMATION",
+        "symbol_id": "21787",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:48:49.670000+00:00"
+      }
+    },
+    {
+      "file": "RALPH_LAUREN_21976.parquet",
+      "rows": 821320,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "RALPH LAUREN",
+        "symbol_id": "21976",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:48:16.661000+00:00"
+      }
+    },
+    {
+      "file": "PHILIPS_66_21540.parquet",
+      "rows": 867221,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PHILIPS 66",
+        "symbol_id": "21540",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:47:42.814000+00:00"
+      }
+    },
+    {
+      "file": "PHILIP_MORRIS_21781.parquet",
+      "rows": 868035,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PHILIP MORRIS",
+        "symbol_id": "21781",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:47:09.193000+00:00"
+      }
+    },
+    {
+      "file": "PFIZER_21532.parquet",
+      "rows": 723090,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PFIZER",
+        "symbol_id": "21532",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:46:34.961000+00:00"
+      }
+    },
+    {
+      "file": "PAYCOM_21779.parquet",
+      "rows": 800245,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PAYCOM",
+        "symbol_id": "21779",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:46:04.655000+00:00"
+      }
+    },
+    {
+      "file": "PARKER_HANNIFIN_21971.parquet",
+      "rows": 830658,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PARKER HANNIFIN",
+        "symbol_id": "21971",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:45:29.872000+00:00"
+      }
+    },
+    {
+      "file": "PACKAGING_21775.parquet",
+      "rows": 796263,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "PACKAGING",
+        "symbol_id": "21775",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:44:54.164000+00:00"
+      }
+    },
+    {
+      "file": "ORACLE_21531.parquet",
+      "rows": 807892,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ORACLE",
+        "symbol_id": "21531",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:44:19.957000+00:00"
+      }
+    },
+    {
+      "file": "OCCIDENTAL_PETROLEUM_21773.parquet",
+      "rows": 865843,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "OCCIDENTAL PETROLEUM",
+        "symbol_id": "21773",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:43:46.069000+00:00"
+      }
+    },
+    {
+      "file": "NZDUSD_12.parquet",
+      "rows": 3663495,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDUSD",
+        "symbol_id": "12",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:43:09.108000+00:00"
+      }
+    },
+    {
+      "file": "NZDSGD_64.parquet",
+      "rows": 3412293,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDSGD",
+        "symbol_id": "64",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:41:27.101000+00:00"
+      }
+    },
+    {
+      "file": "NZDSEK_22339.parquet",
+      "rows": 1338054,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDSEK",
+        "symbol_id": "22339",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:39:47.778000+00:00"
+      }
+    },
+    {
+      "file": "NZDJPY_70.parquet",
+      "rows": 3479552,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDJPY",
+        "symbol_id": "70",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:39:07.838000+00:00"
+      }
+    },
+    {
+      "file": "NZDCHF_50.parquet",
+      "rows": 3218733,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDCHF",
+        "symbol_id": "50",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:37:11.789000+00:00"
+      }
+    },
+    {
+      "file": "NZDCAD_61.parquet",
+      "rows": 3431960,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NZDCAD",
+        "symbol_id": "61",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:35:53.588000+00:00"
+      }
+    },
+    {
+      "file": "NOKSEK_22338.parquet",
+      "rows": 3533136,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NOKSEK",
+        "symbol_id": "22338",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:34:25.117000+00:00"
+      }
+    },
+    {
+      "file": "NOKJPY_22337.parquet",
+      "rows": 3649481,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NOKJPY",
+        "symbol_id": "22337",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:32:44.514000+00:00"
+      }
+    },
+    {
+      "file": "NIPPON_YUSEN_22280.parquet",
+      "rows": 588692,
+      "first": "2016-09-05 00:00:00+00:00",
+      "last": "2026-09-04 05:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NIPPON YUSEN",
+        "symbol_id": "22280",
+        "timeframe": "M1",
+        "price_digits": "1",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:30:40.351000+00:00"
+      }
+    },
+    {
+      "file": "NIKE_21516.parquet",
+      "rows": 854156,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NIKE",
+        "symbol_id": "21516",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:30:14.921000+00:00"
+      }
+    },
+    {
+      "file": "NEW_YORK_TIMES_21769.parquet",
+      "rows": 653736,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NEW YORK TIMES",
+        "symbol_id": "21769",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:29:40.408000+00:00"
+      }
+    },
+    {
+      "file": "NEW_WORLD_DEV_21653.parquet",
+      "rows": 301385,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NEW WORLD DEV",
+        "symbol_id": "21653",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:29:16.061000+00:00"
+      }
+    },
+    {
+      "file": "NETHERLANDS_25_21505.parquet",
+      "rows": 1590519,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NETHERLANDS 25",
+        "symbol_id": "21505",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:29:02.309000+00:00"
+      }
+    },
+    {
+      "file": "NAT.GAS_22344.parquet",
+      "rows": 2310619,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "NAT.GAS",
+        "symbol_id": "22344",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:28:02.632000+00:00"
+      }
+    },
+    {
+      "file": "MTR_22243.parquet",
+      "rows": 242660,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:45:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MTR",
+        "symbol_id": "22243",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:26:56.827000+00:00"
+      }
+    },
+    {
+      "file": "MSCI_TAIWAN_21702.parquet",
+      "rows": 549700,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MSCI TAIWAN",
+        "symbol_id": "21702",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:26:47.259000+00:00"
+      }
+    },
+    {
+      "file": "MSCI_SOUTH_KOREA_21700.parquet",
+      "rows": 670174,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MSCI SOUTH KOREA",
+        "symbol_id": "21700",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:26:26.296000+00:00"
+      }
+    },
+    {
+      "file": "MSCI_MALAYSIA_21696.parquet",
+      "rows": 267196,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MSCI MALAYSIA",
+        "symbol_id": "21696",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:26:01.068000+00:00"
+      }
+    },
+    {
+      "file": "MSCI_BRAZIL_21687.parquet",
+      "rows": 694295,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MSCI BRAZIL",
+        "symbol_id": "21687",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:25:49.958000+00:00"
+      }
+    },
+    {
+      "file": "MOTOROLA_21767.parquet",
+      "rows": 803630,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MOTOROLA",
+        "symbol_id": "21767",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:25:22.373000+00:00"
+      }
+    },
+    {
+      "file": "MOSAIC_21766.parquet",
+      "rows": 807804,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MOSAIC",
+        "symbol_id": "21766",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:24:51.754000+00:00"
+      }
+    },
+    {
+      "file": "MOODYS_21765.parquet",
+      "rows": 826161,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MOODYS",
+        "symbol_id": "21765",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:24:21.157000+00:00"
+      }
+    },
+    {
+      "file": "MOHAWK_INDUSTRIES_21960.parquet",
+      "rows": 803178,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MOHAWK INDUSTRIES",
+        "symbol_id": "21960",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:23:49.957000+00:00"
+      }
+    },
+    {
+      "file": "MGM_21764.parquet",
+      "rows": 808290,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MGM",
+        "symbol_id": "21764",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:23:20.280000+00:00"
+      }
+    },
+    {
+      "file": "METLIFE_21763.parquet",
+      "rows": 852909,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "METLIFE",
+        "symbol_id": "21763",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:22:49.649000+00:00"
+      }
+    },
+    {
+      "file": "MEDIASET_21626.parquet",
+      "rows": 579955,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MEDIASET",
+        "symbol_id": "21626",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:22:19.038000+00:00"
+      }
+    },
+    {
+      "file": "MC_DONALDS_21509.parquet",
+      "rows": 857965,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MC DONALDS",
+        "symbol_id": "21509",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:21:58.092000+00:00"
+      }
+    },
+    {
+      "file": "MASTERCARD_21510.parquet",
+      "rows": 899508,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "MASTERCARD",
+        "symbol_id": "21510",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:21:24.455000+00:00"
+      }
+    },
+    {
+      "file": "LOUISIANA-PACIFIC_21958.parquet",
+      "rows": 761478,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LOUISIANA-PACIFIC",
+        "symbol_id": "21958",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:20:47.258000+00:00"
+      }
+    },
+    {
+      "file": "LOEWS_21957.parquet",
+      "rows": 790885,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LOEWS",
+        "symbol_id": "21957",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:20:19.089000+00:00"
+      }
+    },
+    {
+      "file": "LINK_REIT_22242.parquet",
+      "rows": 351916,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:54:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LINK REIT",
+        "symbol_id": "22242",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:19:50.837000+00:00"
+      }
+    },
+    {
+      "file": "LINDT_21565.parquet",
+      "rows": 346836,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:04:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LINDT",
+        "symbol_id": "21565",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:19:36.137000+00:00"
+      }
+    },
+    {
+      "file": "LENNOX_21955.parquet",
+      "rows": 764293,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LENNOX",
+        "symbol_id": "21955",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:19:22.390000+00:00"
+      }
+    },
+    {
+      "file": "LAGARDERE_22018.parquet",
+      "rows": 326081,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 12:58:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "LAGARDERE",
+        "symbol_id": "22018",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:18:52.640000+00:00"
+      }
+    },
+    {
+      "file": "KUNLUN_ENERGY_21649.parquet",
+      "rows": 252450,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "KUNLUN ENERGY",
+        "symbol_id": "21649",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:18:39.731000+00:00"
+      }
+    },
+    {
+      "file": "KIRBY_21756.parquet",
+      "rows": 684718,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "KIRBY",
+        "symbol_id": "21756",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:18:29.556000+00:00"
+      }
+    },
+    {
+      "file": "KINDER_MORGAN_21755.parquet",
+      "rows": 605695,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "KINDER MORGAN",
+        "symbol_id": "21755",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:18:02.259000+00:00"
+      }
+    },
+    {
+      "file": "KIMCO_REALTY_21954.parquet",
+      "rows": 643949,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "KIMCO REALTY",
+        "symbol_id": "21954",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:17:41.256000+00:00"
+      }
+    },
+    {
+      "file": "JAPAN_225_21507.parquet",
+      "rows": 961274,
+      "first": "2016-09-05 00:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "JAPAN 225",
+        "symbol_id": "21507",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:17:20.226000+00:00"
+      }
+    },
+    {
+      "file": "ITALY_40_21644.parquet",
+      "rows": 1106123,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ITALY 40",
+        "symbol_id": "21644",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:16:46.640000+00:00"
+      }
+    },
+    {
+      "file": "IRON_MOUNTAIN_21951.parquet",
+      "rows": 786480,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "IRON MOUNTAIN",
+        "symbol_id": "21951",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:16:01.346000+00:00"
+      }
+    },
+    {
+      "file": "INVESCO_21949.parquet",
+      "rows": 706966,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "INVESCO",
+        "symbol_id": "21949",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:15:28.053000+00:00"
+      }
+    },
+    {
+      "file": "INFINEON_21833.parquet",
+      "rows": 1109253,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "INFINEON",
+        "symbol_id": "21833",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:15:00.165000+00:00"
+      }
+    },
+    {
+      "file": "IBOXX_USD_HIGH_YIELD_22385.parquet",
+      "rows": 401741,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "IBOXX USD HIGH YIELD",
+        "symbol_id": "22385",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:14:18.751000+00:00"
+      }
+    },
+    {
+      "file": "IBM_21543.parquet",
+      "rows": 872650,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "IBM",
+        "symbol_id": "21543",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:14:02.553000+00:00"
+      }
+    },
+    {
+      "file": "HYATT_21747.parquet",
+      "rows": 771476,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HYATT",
+        "symbol_id": "21747",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:13:27.748000+00:00"
+      }
+    },
+    {
+      "file": "HP_21525.parquet",
+      "rows": 694592,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HP",
+        "symbol_id": "21525",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:12:58.680000+00:00"
+      }
+    },
+    {
+      "file": "HONG_KONG_50_21497.parquet",
+      "rows": 1356081,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HONG KONG 50",
+        "symbol_id": "21497",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:12:32.230000+00:00"
+      }
+    },
+    {
+      "file": "HONG_KONG___CHINA_GAS_22239.parquet",
+      "rows": 140397,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:48:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HONG KONG & CHINA GAS",
+        "symbol_id": "22239",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:11:38.536000+00:00"
+      }
+    },
+    {
+      "file": "HOME_DEPOT_21526.parquet",
+      "rows": 873317,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HOME DEPOT",
+        "symbol_id": "21526",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:11:32.006000+00:00"
+      }
+    },
+    {
+      "file": "HILTON_21746.parquet",
+      "rows": 833224,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HILTON",
+        "symbol_id": "21746",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:10:55.068000+00:00"
+      }
+    },
+    {
+      "file": "HANG_LUNG_PROPERTIES_22238.parquet",
+      "rows": 173472,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "HANG LUNG PROPERTIES",
+        "symbol_id": "22238",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:10:20.848000+00:00"
+      }
+    },
+    {
+      "file": "GRIFOLS_22055.parquet",
+      "rows": 910666,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:07:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GRIFOLS",
+        "symbol_id": "22055",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:10:12.430000+00:00"
+      }
+    },
+    {
+      "file": "GRACO_21941.parquet",
+      "rows": 771066,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GRACO",
+        "symbol_id": "21941",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:09:32.552000+00:00"
+      }
+    },
+    {
+      "file": "GOLDMAN_SACHS_21524.parquet",
+      "rows": 856152,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GOLDMAN SACHS",
+        "symbol_id": "21524",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:08:58.398000+00:00"
+      }
+    },
+    {
+      "file": "GLOBAL_PAYMENTS_20210.parquet",
+      "rows": 841444,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GLOBAL PAYMENTS",
+        "symbol_id": "20210",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:08:20.556000+00:00"
+      }
+    },
+    {
+      "file": "GERMANY_40_21502.parquet",
+      "rows": 2260006,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GERMANY 40",
+        "symbol_id": "21502",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:07:42.442000+00:00"
+      }
+    },
+    {
+      "file": "GENERAL_MOTORS_21522.parquet",
+      "rows": 807121,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GENERAL MOTORS",
+        "symbol_id": "21522",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:06:04.672000+00:00"
+      }
+    },
+    {
+      "file": "GENERAC_HOLDINGS_20589.parquet",
+      "rows": 780394,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GENERAC HOLDINGS",
+        "symbol_id": "20589",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:05:29.253000+00:00"
+      }
+    },
+    {
+      "file": "GBPZAR_48.parquet",
+      "rows": 3591743,
+      "first": "2016-09-04 22:38:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPZAR",
+        "symbol_id": "48",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:04:52.951000+00:00"
+      }
+    },
+    {
+      "file": "GBPUSD_2.parquet",
+      "rows": 3682466,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPUSD",
+        "symbol_id": "2",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T22:02:17.257000+00:00"
+      }
+    },
+    {
+      "file": "GBPTRY_22335.parquet",
+      "rows": 3616579,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPTRY",
+        "symbol_id": "22335",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:59:38.948000+00:00"
+      }
+    },
+    {
+      "file": "GBPSGD_74.parquet",
+      "rows": 3493654,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPSGD",
+        "symbol_id": "74",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:57:04.566000+00:00"
+      }
+    },
+    {
+      "file": "GBPSEK_10093.parquet",
+      "rows": 3656642,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPSEK",
+        "symbol_id": "10093",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:54:41.632000+00:00"
+      }
+    },
+    {
+      "file": "GBPNZD_25.parquet",
+      "rows": 3622715,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPNZD",
+        "symbol_id": "25",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:52:04.954000+00:00"
+      }
+    },
+    {
+      "file": "GBPNOK_59.parquet",
+      "rows": 3665583,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPNOK",
+        "symbol_id": "59",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:49:30.449000+00:00"
+      }
+    },
+    {
+      "file": "GBPJPY_7.parquet",
+      "rows": 3697568,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPJPY",
+        "symbol_id": "7",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:46:54.178000+00:00"
+      }
+    },
+    {
+      "file": "GBPDKK_22334.parquet",
+      "rows": 3463093,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPDKK",
+        "symbol_id": "22334",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:44:50.656000+00:00"
+      }
+    },
+    {
+      "file": "GBPCHF_40.parquet",
+      "rows": 3685675,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPCHF",
+        "symbol_id": "40",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:42:58.769000+00:00"
+      }
+    },
+    {
+      "file": "GBPCAD_19.parquet",
+      "rows": 3692857,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPCAD",
+        "symbol_id": "19",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:41:00.714000+00:00"
+      }
+    },
+    {
+      "file": "GBPAUD_16.parquet",
+      "rows": 3692289,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GBPAUD",
+        "symbol_id": "16",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:39:01.567000+00:00"
+      }
+    },
+    {
+      "file": "GALAXY_ENTERTAINMENT_21652.parquet",
+      "rows": 455294,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "GALAXY ENTERTAINMENT",
+        "symbol_id": "21652",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:37:04.038000+00:00"
+      }
+    },
+    {
+      "file": "FRANKLIN_RESOURCES_21740.parquet",
+      "rows": 760583,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "FRANKLIN RESOURCES",
+        "symbol_id": "21740",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:36:46.053000+00:00"
+      }
+    },
+    {
+      "file": "FRANCE_40_21503.parquet",
+      "rows": 1959057,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "FRANCE 40",
+        "symbol_id": "21503",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:36:16.708000+00:00"
+      }
+    },
+    {
+      "file": "FORD_MOTOR_21739.parquet",
+      "rows": 425137,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "FORD MOTOR",
+        "symbol_id": "21739",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:35:10.070000+00:00"
+      }
+    },
+    {
+      "file": "FEDEX_21738.parquet",
+      "rows": 857358,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "FEDEX",
+        "symbol_id": "21738",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:34:53.550000+00:00"
+      }
+    },
+    {
+      "file": "EXXON_21514.parquet",
+      "rows": 856097,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EXXON",
+        "symbol_id": "21514",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:34:18.757000+00:00"
+      }
+    },
+    {
+      "file": "EUTELSAT_COMMUNICATIONS_22015.parquet",
+      "rows": 686570,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:06:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EUTELSAT COMMUNICATIONS",
+        "symbol_id": "22015",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:33:45.144000+00:00"
+      }
+    },
+    {
+      "file": "EURZAR_62.parquet",
+      "rows": 3608969,
+      "first": "2016-09-04 23:09:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURZAR",
+        "symbol_id": "62",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:33:17.573000+00:00"
+      }
+    },
+    {
+      "file": "EURUSD_1.parquet",
+      "rows": 3680615,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURUSD",
+        "symbol_id": "1",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:31:21.164000+00:00"
+      }
+    },
+    {
+      "file": "EURTRY_68.parquet",
+      "rows": 3610448,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURTRY",
+        "symbol_id": "68",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:29:20.284000+00:00"
+      }
+    },
+    {
+      "file": "EURSGD_22333.parquet",
+      "rows": 3672284,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURSGD",
+        "symbol_id": "22333",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:27:24.286000+00:00"
+      }
+    },
+    {
+      "file": "EURSEK_47.parquet",
+      "rows": 3528630,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURSEK",
+        "symbol_id": "47",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:25:30.174000+00:00"
+      }
+    },
+    {
+      "file": "EURPLN_51.parquet",
+      "rows": 3147971,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURPLN",
+        "symbol_id": "51",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:23:36.434000+00:00"
+      }
+    },
+    {
+      "file": "EUROPE_50_21577.parquet",
+      "rows": 1794385,
+      "first": "2016-09-05 07:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EUROPE 50",
+        "symbol_id": "21577",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:21:59.553000+00:00"
+      }
+    },
+    {
+      "file": "EURNZD_66.parquet",
+      "rows": 3628226,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURNZD",
+        "symbol_id": "66",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:20:57.237000+00:00"
+      }
+    },
+    {
+      "file": "EURNOK_57.parquet",
+      "rows": 3528964,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURNOK",
+        "symbol_id": "57",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:19:08.607000+00:00"
+      }
+    },
+    {
+      "file": "EURMXN_53.parquet",
+      "rows": 3667048,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURMXN",
+        "symbol_id": "53",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:17:13.986000+00:00"
+      }
+    },
+    {
+      "file": "EURJPY_3.parquet",
+      "rows": 3700392,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURJPY",
+        "symbol_id": "3",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:15:10.800000+00:00"
+      }
+    },
+    {
+      "file": "EURHUF_55.parquet",
+      "rows": 2975822,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURHUF",
+        "symbol_id": "55",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:13:05.746000+00:00"
+      }
+    },
+    {
+      "file": "EURHKD_58.parquet",
+      "rows": 3520703,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURHKD",
+        "symbol_id": "58",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:11:27.882000+00:00"
+      }
+    },
+    {
+      "file": "EURGBP_9.parquet",
+      "rows": 3688906,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURGBP",
+        "symbol_id": "9",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:09:36.612000+00:00"
+      }
+    },
+    {
+      "file": "EURDKK_54.parquet",
+      "rows": 1312646,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURDKK",
+        "symbol_id": "54",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:07:43.628000+00:00"
+      }
+    },
+    {
+      "file": "EURCZK_63.parquet",
+      "rows": 2964095,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURCZK",
+        "symbol_id": "63",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:07:00.429000+00:00"
+      }
+    },
+    {
+      "file": "EURCNH_22330.parquet",
+      "rows": 3339427,
+      "first": "2016-09-04 22:01:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURCNH",
+        "symbol_id": "22330",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:05:23.231000+00:00"
+      }
+    },
+    {
+      "file": "EURCHF_10.parquet",
+      "rows": 3676016,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURCHF",
+        "symbol_id": "10",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:03:34.879000+00:00"
+      }
+    },
+    {
+      "file": "EURCAD_17.parquet",
+      "rows": 3694680,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURCAD",
+        "symbol_id": "17",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T21:01:45.724000+00:00"
+      }
+    },
+    {
+      "file": "EURAUD_14.parquet",
+      "rows": 3630047,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EURAUD",
+        "symbol_id": "14",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:59:39.853000+00:00"
+      }
+    },
+    {
+      "file": "ETHUSD_22397.parquet",
+      "rows": 2725369,
+      "first": "2021-06-05 08:46:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ETHUSD",
+        "symbol_id": "22397",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:57:41.825000+00:00"
+      }
+    },
+    {
+      "file": "ETHEUR_22398.parquet",
+      "rows": 2606130,
+      "first": "2021-06-05 08:46:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ETHEUR",
+        "symbol_id": "22398",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:55:58.330000+00:00"
+      }
+    },
+    {
+      "file": "EDISON_21933.parquet",
+      "rows": 854983,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EDISON",
+        "symbol_id": "21933",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:54:16.655000+00:00"
+      }
+    },
+    {
+      "file": "ECOLAB_21932.parquet",
+      "rows": 825633,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ECOLAB",
+        "symbol_id": "21932",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:53:42.167000+00:00"
+      }
+    },
+    {
+      "file": "EAGLE_MATERIALS_21734.parquet",
+      "rows": 755075,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "EAGLE MATERIALS",
+        "symbol_id": "21734",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:53:07.983000+00:00"
+      }
+    },
+    {
+      "file": "DEVON_ENERGY_20412.parquet",
+      "rows": 843379,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "DEVON ENERGY",
+        "symbol_id": "20412",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:52:36.211000+00:00"
+      }
+    },
+    {
+      "file": "DELTA_AIR_LINES_21927.parquet",
+      "rows": 860187,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "DELTA AIR LINES",
+        "symbol_id": "21927",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:52:00.755000+00:00"
+      }
+    },
+    {
+      "file": "CROWN_HOLDINGS_21926.parquet",
+      "rows": 791181,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CROWN HOLDINGS",
+        "symbol_id": "21926",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:51:26.596000+00:00"
+      }
+    },
+    {
+      "file": "COTY_21925.parquet",
+      "rows": 417927,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:56:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "COTY",
+        "symbol_id": "21925",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:50:55.352000+00:00"
+      }
+    },
+    {
+      "file": "COLGATE-PALMOLIVE_21728.parquet",
+      "rows": 851676,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "COLGATE-PALMOLIVE",
+        "symbol_id": "21728",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:50:37.969000+00:00"
+      }
+    },
+    {
+      "file": "COCA-COLA_21513.parquet",
+      "rows": 762448,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "COCA-COLA",
+        "symbol_id": "21513",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:50:02.858000+00:00"
+      }
+    },
+    {
+      "file": "CLP_21603.parquet",
+      "rows": 298126,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:58:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CLP",
+        "symbol_id": "21603",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:49:30.736000+00:00"
+      }
+    },
+    {
+      "file": "CK_HUTCHISON_21679.parquet",
+      "rows": 382175,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:56:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CK HUTCHISON",
+        "symbol_id": "21679",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:49:17.823000+00:00"
+      }
+    },
+    {
+      "file": "CITIZENS_FINANCIAL_21727.parquet",
+      "rows": 842973,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CITIZENS FINANCIAL",
+        "symbol_id": "21727",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:49:01.055000+00:00"
+      }
+    },
+    {
+      "file": "CITIGROUP_20598.parquet",
+      "rows": 865898,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CITIGROUP",
+        "symbol_id": "20598",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:48:28.042000+00:00"
+      }
+    },
+    {
+      "file": "CITIC_21647.parquet",
+      "rows": 167214,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CITIC",
+        "symbol_id": "21647",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:47:53.238000+00:00"
+      }
+    },
+    {
+      "file": "CHRISTIAN_DIOR_20945.parquet",
+      "rows": 652176,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHRISTIAN DIOR",
+        "symbol_id": "20945",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:47:46.044000+00:00"
+      }
+    },
+    {
+      "file": "CHINA_RESOURCES_POWER_22237.parquet",
+      "rows": 315819,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHINA RESOURCES POWER",
+        "symbol_id": "22237",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:47:18.426000+00:00"
+      }
+    },
+    {
+      "file": "CHINA_RESOURCES_BEER_22235.parquet",
+      "rows": 390659,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHINA RESOURCES BEER",
+        "symbol_id": "22235",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:47:05.230000+00:00"
+      }
+    },
+    {
+      "file": "CHINA_OVERSEAS_PROPERTY_HOLD_22234.parquet",
+      "rows": 267855,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:58:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHINA OVERSEAS PROPERTY HOLD",
+        "symbol_id": "22234",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:46:49.037000+00:00"
+      }
+    },
+    {
+      "file": "CHINA_OVERSEAS_LAND___INVEST_22233.parquet",
+      "rows": 359397,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:47:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHINA OVERSEAS LAND & INVEST",
+        "symbol_id": "22233",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:46:37.633000+00:00"
+      }
+    },
+    {
+      "file": "CHINA_MERCHANTS_HLDGS_INTL_22232.parquet",
+      "rows": 215689,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHINA MERCHANTS HLDGS INTL",
+        "symbol_id": "22232",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:46:22.330000+00:00"
+      }
+    },
+    {
+      "file": "CHFSGD_22326.parquet",
+      "rows": 3436672,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHFSGD",
+        "symbol_id": "22326",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:46:11.374000+00:00"
+      }
+    },
+    {
+      "file": "CHFJPY_13.parquet",
+      "rows": 3688408,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHFJPY",
+        "symbol_id": "13",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:44:08.984000+00:00"
+      }
+    },
+    {
+      "file": "CHEVRON_20451.parquet",
+      "rows": 856215,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHEVRON",
+        "symbol_id": "20451",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:41:56.285000+00:00"
+      }
+    },
+    {
+      "file": "CHEUNG_KONG_PROPERTY_22231.parquet",
+      "rows": 351926,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CHEUNG KONG PROPERTY",
+        "symbol_id": "22231",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:41:25.036000+00:00"
+      }
+    },
+    {
+      "file": "CATERPILLAR_20418.parquet",
+      "rows": 861510,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CATERPILLAR",
+        "symbol_id": "20418",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:41:10.051000+00:00"
+      }
+    },
+    {
+      "file": "CARLISLE_21919.parquet",
+      "rows": 737476,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CARLISLE",
+        "symbol_id": "21919",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:40:36.763000+00:00"
+      }
+    },
+    {
+      "file": "CANCOM_22029.parquet",
+      "rows": 542446,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:05:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CANCOM",
+        "symbol_id": "22029",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:40:07.999000+00:00"
+      }
+    },
+    {
+      "file": "CADMXN_22319.parquet",
+      "rows": 3584177,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CADMXN",
+        "symbol_id": "22319",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:39:44.296000+00:00"
+      }
+    },
+    {
+      "file": "CADJPY_15.parquet",
+      "rows": 3693162,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CADJPY",
+        "symbol_id": "15",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:37:48.420000+00:00"
+      }
+    },
+    {
+      "file": "CADCHF_27.parquet",
+      "rows": 3676607,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "CADCHF",
+        "symbol_id": "27",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:35:46.256000+00:00"
+      }
+    },
+    {
+      "file": "BTCUSD_22395.parquet",
+      "rows": 4345214,
+      "first": "2017-07-09 22:07:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BTCUSD",
+        "symbol_id": "22395",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:33:54.114000+00:00"
+      }
+    },
+    {
+      "file": "BTCEUR_22396.parquet",
+      "rows": 4263103,
+      "first": "2017-07-09 22:28:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BTCEUR",
+        "symbol_id": "22396",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:31:24.121000+00:00"
+      }
+    },
+    {
+      "file": "BOEING_21512.parquet",
+      "rows": 857437,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BOEING",
+        "symbol_id": "21512",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:28:57.789000+00:00"
+      }
+    },
+    {
+      "file": "BEST_BUY_20102.parquet",
+      "rows": 860261,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BEST BUY",
+        "symbol_id": "20102",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:28:25.363000+00:00"
+      }
+    },
+    {
+      "file": "BECHTLE_22025.parquet",
+      "rows": 756764,
+      "first": "2016-09-05 08:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BECHTLE",
+        "symbol_id": "22025",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:27:52.340000+00:00"
+      }
+    },
+    {
+      "file": "BANK_OF_EAST_ASIA_21645.parquet",
+      "rows": 173334,
+      "first": "2016-09-05 01:30:00+00:00",
+      "last": "2026-09-04 07:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BANK OF EAST ASIA",
+        "symbol_id": "21645",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:27:23.246000+00:00"
+      }
+    },
+    {
+      "file": "BANK_OF_AMERICA_20488.parquet",
+      "rows": 761402,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BANK OF AMERICA",
+        "symbol_id": "20488",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:27:16.111000+00:00"
+      }
+    },
+    {
+      "file": "BANCORP_21906.parquet",
+      "rows": 733297,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "BANCORP",
+        "symbol_id": "21906",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:26:46.948000+00:00"
+      }
+    },
+    {
+      "file": "AUSTRALIA_200_21498.parquet",
+      "rows": 2184403,
+      "first": "2016-09-05 00:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUSTRALIA 200",
+        "symbol_id": "21498",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:26:17.842000+00:00"
+      }
+    },
+    {
+      "file": "AUDZAR_22316.parquet",
+      "rows": 3593688,
+      "first": "2016-09-04 22:38:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDZAR",
+        "symbol_id": "22316",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:25:01.659000+00:00"
+      }
+    },
+    {
+      "file": "AUDUSD_5.parquet",
+      "rows": 3677356,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDUSD",
+        "symbol_id": "5",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:23:08.723000+00:00"
+      }
+    },
+    {
+      "file": "AUDSGD_22315.parquet",
+      "rows": 3656024,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDSGD",
+        "symbol_id": "22315",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:21:28.692000+00:00"
+      }
+    },
+    {
+      "file": "AUDNZD_67.parquet",
+      "rows": 3466005,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDNZD",
+        "symbol_id": "67",
+        "timeframe": "M1",
+        "price_digits": "4",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:19:40.539000+00:00"
+      }
+    },
+    {
+      "file": "AUDJPY_11.parquet",
+      "rows": 3696777,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDJPY",
+        "symbol_id": "11",
+        "timeframe": "M1",
+        "price_digits": "3",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:17:59.331000+00:00"
+      }
+    },
+    {
+      "file": "AUDCHF_23.parquet",
+      "rows": 3689064,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDCHF",
+        "symbol_id": "23",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:15:59.083000+00:00"
+      }
+    },
+    {
+      "file": "AUDCAD_18.parquet",
+      "rows": 3689512,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AUDCAD",
+        "symbol_id": "18",
+        "timeframe": "M1",
+        "price_digits": "5",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:14:08.720000+00:00"
+      }
+    },
+    {
+      "file": "APPLE_21508.parquet",
+      "rows": 631493,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "APPLE",
+        "symbol_id": "21508",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:12:04.071000+00:00"
+      }
+    },
+    {
+      "file": "AMPHENOL_21905.parquet",
+      "rows": 842112,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AMPHENOL",
+        "symbol_id": "21905",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:11:38.310000+00:00"
+      }
+    },
+    {
+      "file": "AMERICAN_TOWER_21904.parquet",
+      "rows": 856589,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AMERICAN TOWER",
+        "symbol_id": "21904",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:11:07.977000+00:00"
+      }
+    },
+    {
+      "file": "ALLY_FINANCIAL_21898.parquet",
+      "rows": 768370,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALLY FINANCIAL",
+        "symbol_id": "21898",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:10:35.012000+00:00"
+      }
+    },
+    {
+      "file": "ALLISON_TRANSMISSION_21897.parquet",
+      "rows": 761460,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALLISON TRANSMISSION",
+        "symbol_id": "21897",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:10:06.463000+00:00"
+      }
+    },
+    {
+      "file": "ALLEGHENY_TECHNOLOGIES_21894.parquet",
+      "rows": 812389,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALLEGHENY TECHNOLOGIES",
+        "symbol_id": "21894",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:09:38.557000+00:00"
+      }
+    },
+    {
+      "file": "ALIBABA_22307.parquet",
+      "rows": 873975,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALIBABA",
+        "symbol_id": "22307",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:09:09.462000+00:00"
+      }
+    },
+    {
+      "file": "ALCOA_20476.parquet",
+      "rows": 836978,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALCOA",
+        "symbol_id": "20476",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:08:32.267000+00:00"
+      }
+    },
+    {
+      "file": "ALASKA_AIR_21893.parquet",
+      "rows": 848184,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ALASKA AIR",
+        "symbol_id": "21893",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:07:55.133000+00:00"
+      }
+    },
+    {
+      "file": "AIG_21544.parquet",
+      "rows": 843631,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AIG",
+        "symbol_id": "21544",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:07:19.683000+00:00"
+      }
+    },
+    {
+      "file": "AGCO_21886.parquet",
+      "rows": 782945,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AGCO",
+        "symbol_id": "21886",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:06:47.940000+00:00"
+      }
+    },
+    {
+      "file": "AES_21883.parquet",
+      "rows": 540720,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AES",
+        "symbol_id": "21883",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:06:17.903000+00:00"
+      }
+    },
+    {
+      "file": "AECOM_21714.parquet",
+      "rows": 778958,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "AECOM",
+        "symbol_id": "21714",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:05:55.447000+00:00"
+      }
+    },
+    {
+      "file": "ACUITY_BRANDS_21880.parquet",
+      "rows": 738944,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ACUITY BRANDS",
+        "symbol_id": "21880",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:05:25.366000+00:00"
+      }
+    },
+    {
+      "file": "ABERCROMBIE_21707.parquet",
+      "rows": 799248,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ABERCROMBIE",
+        "symbol_id": "21707",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:04:55.657000+00:00"
+      }
+    },
+    {
+      "file": "ABBVIE_20143.parquet",
+      "rows": 865420,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ABBVIE",
+        "symbol_id": "20143",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:04:21.814000+00:00"
+      }
+    },
+    {
+      "file": "ABBOTT_21706.parquet",
+      "rows": 845492,
+      "first": "2016-09-06 13:30:00+00:00",
+      "last": "2026-09-03 19:59:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "ABBOTT",
+        "symbol_id": "21706",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:03:46.955000+00:00"
+      }
+    },
+    {
+      "file": "XAUUSD_41.parquet",
+      "rows": 3505124,
+      "first": "2016-09-04 22:00:00+00:00",
+      "last": "2026-09-04 13:08:00+00:00",
+      "metadata": {
+        "source": "cTrader Open API",
+        "broker": "Spotware",
+        "environment": "demo",
+        "symbol": "XAUUSD",
+        "symbol_id": "41",
+        "timeframe": "M1",
+        "price_digits": "2",
+        "timestamp_semantics": "UTC candle open time",
+        "volume_type": "tick volume",
+        "requested_start_inclusive_utc": "2016-09-04T22:00:00+00:00",
+        "requested_end_exclusive_utc": "2026-09-04T13:09:00+00:00",
+        "downloaded_at_utc": "2026-10-14T20:03:13.746000+00:00"
+      }
+    }
+  ],
+  "total_rows": 384509621
+}

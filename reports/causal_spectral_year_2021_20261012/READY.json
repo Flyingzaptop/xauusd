@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "year": 2021,
+  "rows": 354340,
+  "step": 1,
+  "max_period": 8192,
+  "hdf5_bytes": 22865252364,
+  "technical_verification_passed": true,
+  "images_created": false,
+  "scientific_analysis_performed": false,
+  "gpu_used": false
+}

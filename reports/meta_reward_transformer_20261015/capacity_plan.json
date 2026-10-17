@@ -1,0 +1,18 @@
+{
+  "instruments": 222,
+  "source_bytes": 5418566500,
+  "gold_rows": 3505124,
+  "features_per_instrument": 48,
+  "clock_features": 8,
+  "total_features": 10664,
+  "full_fp32_bytes": 149514569344,
+  "full_fp16_bytes": 74757284672,
+  "full_fp16_GiB": 69.62314683198929,
+  "feature_history_minutes": 1440,
+  "sequence_context_minutes": 120,
+  "teacher_future_minutes": 120,
+  "starting_colab_units": 138.87,
+  "GPU_allocated": false,
+  "training_started": false,
+  "note": "Capacity estimate, not measured accelerator VRAM. Model/optimizer/activations/workspace need extra memory."
+}

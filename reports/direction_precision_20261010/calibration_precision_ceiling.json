@@ -1,0 +1,146 @@
+{
+  "ce_adam": {
+    "0": {
+      "max_raw_precision": [
+        0.0547945205479452,
+        4,
+        73,
+        0.03723450005054474
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.03723450005054474,
+        "signals": 73,
+        "tp": 4,
+        "precision": 0.0547945205479452,
+        "lower_score": 0.024834908645276366,
+        "days": 3
+      }
+    },
+    "2": {
+      "max_raw_precision": [
+        0.11764705882352941,
+        2,
+        17,
+        0.039628736674785614
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.039628736674785614,
+        "signals": 17,
+        "tp": 2,
+        "precision": 0.11764705882352941,
+        "lower_score": 0.039727576269621354,
+        "days": 3
+      }
+    }
+  },
+  "ce_pcgrad": {
+    "0": {
+      "max_raw_precision": [
+        0.041666666666666664,
+        1,
+        24,
+        0.04686928540468216
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.021226810291409492,
+        "signals": 131,
+        "tp": 4,
+        "precision": 0.030534351145038167,
+        "lower_score": 0.01378059076659787,
+        "days": 3
+      }
+    },
+    "2": {
+      "max_raw_precision": [
+        0.0625,
+        2,
+        32,
+        0.038290008902549744
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.038290008902549744,
+        "signals": 32,
+        "tp": 2,
+        "precision": 0.0625,
+        "lower_score": 0.020902639558275746,
+        "days": 3
+      }
+    }
+  },
+  "fp9_adam": {
+    "0": {
+      "max_raw_precision": [
+        0.03571428571428571,
+        2,
+        56,
+        0.0034378529526293278
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.0026826770044863224,
+        "signals": 141,
+        "tp": 4,
+        "precision": 0.028368794326241134,
+        "lower_score": 0.01279842567053935,
+        "days": 3
+      }
+    },
+    "2": {
+      "max_raw_precision": [
+        0.06153846153846154,
+        4,
+        65,
+        0.003043175209313631
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.003043175209313631,
+        "signals": 65,
+        "tp": 4,
+        "precision": 0.06153846153846154,
+        "lower_score": 0.02792481352758337,
+        "days": 3
+      }
+    }
+  },
+  "fp9_pcgrad": {
+    "0": {
+      "max_raw_precision": [
+        0.025157232704402517,
+        4,
+        159,
+        0.0019395776325836778
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.001756213023327291,
+        "signals": 199,
+        "tp": 5,
+        "precision": 0.02512562814070352,
+        "lower_score": 0.012282701588572916,
+        "days": 3
+      }
+    },
+    "2": {
+      "max_raw_precision": [
+        0.05405405405405406,
+        2,
+        37,
+        0.0020477783400565386
+      ],
+      "selected": {
+        "enabled": true,
+        "threshold": 0.0020477783400565386,
+        "signals": 37,
+        "tp": 2,
+        "precision": 0.05405405405405406,
+        "lower_score": 0.018051747705089008,
+        "days": 3
+      }
+    }
+  }
+}

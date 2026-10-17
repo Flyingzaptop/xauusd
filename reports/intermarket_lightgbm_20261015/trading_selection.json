@@ -1,0 +1,316 @@
+{
+  "gold": {
+    "choices": [
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.5,
+        "threshold": 0.003264132421463728,
+        "validation_trades": 11997,
+        "validation_gross_mean": 0.0021163624239387956,
+        "validation_score": -0.6677062383785755
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.8,
+        "threshold": 0.00723321782425046,
+        "validation_trades": 5656,
+        "validation_gross_mean": -0.00918140028288665,
+        "validation_score": -0.5237641970044343
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.9,
+        "threshold": 0.010070362128317356,
+        "validation_trades": 3135,
+        "validation_gross_mean": -0.012098883572572662,
+        "validation_score": -0.3815923285920816
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.95,
+        "threshold": 0.013134289532899857,
+        "validation_trades": 1704,
+        "validation_gross_mean": 0.024559859154926988,
+        "validation_score": -0.23865914811722116
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.5,
+        "threshold": 0.0029999245889484882,
+        "validation_trades": 6729,
+        "validation_gross_mean": -0.013058403923314773,
+        "validation_score": -0.3517529283056523
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.8,
+        "threshold": 0.009269299916923046,
+        "validation_trades": 3234,
+        "validation_gross_mean": 0.04749226963512675,
+        "validation_score": -0.22826819518880012
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.9,
+        "threshold": 0.014590909704566002,
+        "validation_trades": 1867,
+        "validation_gross_mean": 0.03830744509909017,
+        "validation_score": -0.19729354002233634
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.95,
+        "threshold": 0.01928500272333622,
+        "validation_trades": 1010,
+        "validation_gross_mean": 0.07253465346534473,
+        "validation_score": -0.1222566362485524
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.5,
+        "threshold": 0.003641451708972454,
+        "validation_trades": 3747,
+        "validation_gross_mean": 0.004793167867629083,
+        "validation_score": -0.19204488574700254
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.8,
+        "threshold": 0.008923731744289398,
+        "validation_trades": 2004,
+        "validation_gross_mean": -0.012220558882229293,
+        "validation_score": -0.16159359705916354
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.9,
+        "threshold": 0.014700064435601234,
+        "validation_trades": 1145,
+        "validation_gross_mean": 0.030698689956338114,
+        "validation_score": -0.10334796610401231
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.95,
+        "threshold": 0.02045363187789917,
+        "validation_trades": 625,
+        "validation_gross_mean": 0.1355199999999968,
+        "validation_score": -0.04356930598238833
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.5,
+        "threshold": 0.01130511611700058,
+        "validation_trades": 2218,
+        "validation_gross_mean": 0.23017132551848102,
+        "validation_score": -0.0084696929728597
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.8,
+        "threshold": 0.02453574351966381,
+        "validation_trades": 1189,
+        "validation_gross_mean": 0.062489486963840664,
+        "validation_score": -0.08066089949182109
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.9,
+        "threshold": 0.04402651637792587,
+        "validation_trades": 633,
+        "validation_gross_mean": 0.18050552922591445,
+        "validation_score": -0.022365531756423217
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.95,
+        "threshold": 0.0836702436208725,
+        "validation_trades": 340,
+        "validation_gross_mean": 0.33617647058822514,
+        "validation_score": 0.02191414005994605
+      }
+    ],
+    "chosen": {
+      "horizon": 120,
+      "j": 3,
+      "quantile": 0.95,
+      "threshold": 0.0836702436208725,
+      "validation_trades": 340,
+      "validation_gross_mean": 0.33617647058822514,
+      "validation_score": 0.02191414005994605
+    }
+  },
+  "all": {
+    "choices": [
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.5,
+        "threshold": 0.004115536343306303,
+        "validation_trades": 11610,
+        "validation_gross_mean": -0.012976744186047419,
+        "validation_score": -0.6973629053232253
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.8,
+        "threshold": 0.008644483052194118,
+        "validation_trades": 5283,
+        "validation_gross_mean": 0.019738784781373395,
+        "validation_score": -0.4819108589071537
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.9,
+        "threshold": 0.01291714422404766,
+        "validation_trades": 2789,
+        "validation_gross_mean": 0.06831480817497301,
+        "validation_score": -0.2648697787572639
+      },
+      {
+        "horizon": 15,
+        "j": 0,
+        "quantile": 0.95,
+        "threshold": 0.017430724576115608,
+        "validation_trades": 1511,
+        "validation_gross_mean": 0.11027134348113614,
+        "validation_score": -0.16293590335814673
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.5,
+        "threshold": 0.0007826767978258431,
+        "validation_trades": 6219,
+        "validation_gross_mean": 0.06757195690625385,
+        "validation_score": -0.2601807370050109
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.8,
+        "threshold": 0.0015459198039025068,
+        "validation_trades": 3249,
+        "validation_gross_mean": 0.08887042166820736,
+        "validation_score": -0.16375778964669532
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.9,
+        "threshold": 0.004796244204044342,
+        "validation_trades": 1634,
+        "validation_gross_mean": 0.027160342717258052,
+        "validation_score": -0.19937370867736412
+      },
+      {
+        "horizon": 30,
+        "j": 1,
+        "quantile": 0.95,
+        "threshold": 0.007717331871390343,
+        "validation_trades": 727,
+        "validation_gross_mean": -0.008693259972495851,
+        "validation_score": -0.15089040339434637
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.5,
+        "threshold": 0.015378741547465324,
+        "validation_trades": 3921,
+        "validation_gross_mean": 0.055672022443249564,
+        "validation_score": -0.13814882885971314
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.8,
+        "threshold": 0.03562505915760994,
+        "validation_trades": 1951,
+        "validation_gross_mean": 0.17701178882623778,
+        "validation_score": -0.04217409356416768
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.9,
+        "threshold": 0.054041534662246704,
+        "validation_trades": 1034,
+        "validation_gross_mean": 0.16156673114120226,
+        "validation_score": -0.04278621886444217
+      },
+      {
+        "horizon": 60,
+        "j": 2,
+        "quantile": 0.95,
+        "threshold": 0.07701132446527481,
+        "validation_trades": 531,
+        "validation_gross_mean": 0.15527306967985113,
+        "validation_score": -0.037401089410425956
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.5,
+        "threshold": 0.007422169670462608,
+        "validation_trades": 2090,
+        "validation_gross_mean": 0.12442105263158242,
+        "validation_score": -0.046518702833304434
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.8,
+        "threshold": 0.011926298029720783,
+        "validation_trades": 1055,
+        "validation_gross_mean": 0.21485308056872174,
+        "validation_score": -0.012948713562538908
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.9,
+        "threshold": 0.019955860450863838,
+        "validation_trades": 623,
+        "validation_gross_mean": 0.17491171749599194,
+        "validation_score": -0.020985418835558402
+      },
+      {
+        "horizon": 120,
+        "j": 3,
+        "quantile": 0.95,
+        "threshold": 0.030780617147684097,
+        "validation_trades": 370,
+        "validation_gross_mean": 0.159540540540538,
+        "validation_score": -0.02089514161974187
+      }
+    ],
+    "chosen": {
+      "horizon": 120,
+      "j": 3,
+      "quantile": 0.8,
+      "threshold": 0.011926298029720783,
+      "validation_trades": 1055,
+      "validation_gross_mean": 0.21485308056872174,
+      "validation_score": -0.012948713562538908
+    }
+  }
+}

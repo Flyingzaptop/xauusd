@@ -1,0 +1,482 @@
+{
+  "selected_family": "ce_adam",
+  "rows": [
+    {
+      "family": "ce_adam",
+      "selected": true,
+      "epochs": [
+        9,
+        6
+      ],
+      "calibration": {
+        "per_direction": {
+          "0": {
+            "signals": 73,
+            "tp": 4,
+            "fp": 69,
+            "precision": 0.0547945205479452,
+            "recall": 0.5714285714285714,
+            "actual": 7
+          },
+          "2": {
+            "signals": 17,
+            "tp": 2,
+            "fp": 15,
+            "precision": 0.11764705882352941,
+            "recall": 0.2857142857142857,
+            "actual": 7
+          }
+        },
+        "signals": 90,
+        "tp": 6,
+        "fp": 84,
+        "precision": 0.06666666666666667,
+        "recall": 0.42857142857142855,
+        "coverage": 0.2102803738317757,
+        "confusion": [
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            67,
+            333,
+            14
+          ],
+          [
+            2,
+            3,
+            2
+          ]
+        ]
+      },
+      "test": {
+        "per_direction": {
+          "0": {
+            "signals": 109,
+            "tp": 9,
+            "fp": 100,
+            "precision": 0.08256880733944955,
+            "recall": 0.5,
+            "actual": 18
+          },
+          "2": {
+            "signals": 34,
+            "tp": 0,
+            "fp": 34,
+            "precision": 0.0,
+            "recall": 0.0,
+            "actual": 12
+          }
+        },
+        "signals": 143,
+        "tp": 9,
+        "fp": 134,
+        "precision": 0.06293706293706294,
+        "recall": 0.3,
+        "coverage": 0.2072463768115942,
+        "confusion": [
+          [
+            9,
+            7,
+            2
+          ],
+          [
+            93,
+            535,
+            32
+          ],
+          [
+            7,
+            5,
+            0
+          ]
+        ]
+      },
+      "policy": {
+        "rules": {
+          "0": {
+            "enabled": true,
+            "threshold": 0.03723450005054474,
+            "signals": 73,
+            "tp": 4,
+            "precision": 0.0547945205479452,
+            "lower_score": 0.024834908645276366,
+            "days": 3
+          },
+          "2": {
+            "enabled": true,
+            "threshold": 0.039628736674785614,
+            "signals": 17,
+            "tp": 2,
+            "precision": 0.11764705882352941,
+            "lower_score": 0.039727576269621354,
+            "days": 3
+          }
+        },
+        "selection_score": 0.03228124245744886,
+        "min_signals": 5,
+        "min_days": 2
+      }
+    },
+    {
+      "family": "ce_pcgrad",
+      "selected": false,
+      "epochs": [
+        5,
+        7
+      ],
+      "calibration": {
+        "per_direction": {
+          "0": {
+            "signals": 131,
+            "tp": 4,
+            "fp": 127,
+            "precision": 0.030534351145038167,
+            "recall": 0.5714285714285714,
+            "actual": 7
+          },
+          "2": {
+            "signals": 32,
+            "tp": 2,
+            "fp": 30,
+            "precision": 0.0625,
+            "recall": 0.2857142857142857,
+            "actual": 7
+          }
+        },
+        "signals": 163,
+        "tp": 6,
+        "fp": 157,
+        "precision": 0.03680981595092025,
+        "recall": 0.42857142857142855,
+        "coverage": 0.3808411214953271,
+        "confusion": [
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            124,
+            261,
+            29
+          ],
+          [
+            3,
+            2,
+            2
+          ]
+        ]
+      },
+      "test": {
+        "per_direction": {
+          "0": {
+            "signals": 171,
+            "tp": 10,
+            "fp": 161,
+            "precision": 0.05847953216374269,
+            "recall": 0.5555555555555556,
+            "actual": 18
+          },
+          "2": {
+            "signals": 61,
+            "tp": 2,
+            "fp": 59,
+            "precision": 0.03278688524590164,
+            "recall": 0.16666666666666666,
+            "actual": 12
+          }
+        },
+        "signals": 232,
+        "tp": 12,
+        "fp": 220,
+        "precision": 0.05172413793103448,
+        "recall": 0.4,
+        "coverage": 0.336231884057971,
+        "confusion": [
+          [
+            10,
+            4,
+            4
+          ],
+          [
+            155,
+            450,
+            55
+          ],
+          [
+            6,
+            4,
+            2
+          ]
+        ]
+      },
+      "policy": {
+        "rules": {
+          "0": {
+            "enabled": true,
+            "threshold": 0.021226810291409492,
+            "signals": 131,
+            "tp": 4,
+            "precision": 0.030534351145038167,
+            "lower_score": 0.01378059076659787,
+            "days": 3
+          },
+          "2": {
+            "enabled": true,
+            "threshold": 0.038290008902549744,
+            "signals": 32,
+            "tp": 2,
+            "precision": 0.0625,
+            "lower_score": 0.020902639558275746,
+            "days": 3
+          }
+        },
+        "selection_score": 0.017341615162436808,
+        "min_signals": 5,
+        "min_days": 2
+      }
+    },
+    {
+      "family": "fp9_adam",
+      "selected": false,
+      "epochs": [
+        6,
+        1
+      ],
+      "calibration": {
+        "per_direction": {
+          "0": {
+            "signals": 141,
+            "tp": 4,
+            "fp": 137,
+            "precision": 0.028368794326241134,
+            "recall": 0.5714285714285714,
+            "actual": 7
+          },
+          "2": {
+            "signals": 65,
+            "tp": 4,
+            "fp": 61,
+            "precision": 0.06153846153846154,
+            "recall": 0.5714285714285714,
+            "actual": 7
+          }
+        },
+        "signals": 206,
+        "tp": 8,
+        "fp": 198,
+        "precision": 0.038834951456310676,
+        "recall": 0.5714285714285714,
+        "coverage": 0.48130841121495327,
+        "confusion": [
+          [
+            4,
+            1,
+            2
+          ],
+          [
+            135,
+            220,
+            59
+          ],
+          [
+            2,
+            1,
+            4
+          ]
+        ]
+      },
+      "test": {
+        "per_direction": {
+          "0": {
+            "signals": 196,
+            "tp": 9,
+            "fp": 187,
+            "precision": 0.04591836734693878,
+            "recall": 0.5,
+            "actual": 18
+          },
+          "2": {
+            "signals": 119,
+            "tp": 0,
+            "fp": 119,
+            "precision": 0.0,
+            "recall": 0.0,
+            "actual": 12
+          }
+        },
+        "signals": 315,
+        "tp": 9,
+        "fp": 306,
+        "precision": 0.02857142857142857,
+        "recall": 0.3,
+        "coverage": 0.45652173913043476,
+        "confusion": [
+          [
+            9,
+            3,
+            6
+          ],
+          [
+            180,
+            367,
+            113
+          ],
+          [
+            7,
+            5,
+            0
+          ]
+        ]
+      },
+      "policy": {
+        "rules": {
+          "0": {
+            "enabled": true,
+            "threshold": 0.0026826770044863224,
+            "signals": 141,
+            "tp": 4,
+            "precision": 0.028368794326241134,
+            "lower_score": 0.01279842567053935,
+            "days": 3
+          },
+          "2": {
+            "enabled": true,
+            "threshold": 0.003043175209313631,
+            "signals": 65,
+            "tp": 4,
+            "precision": 0.06153846153846154,
+            "lower_score": 0.02792481352758337,
+            "days": 3
+          }
+        },
+        "selection_score": 0.02036161959906136,
+        "min_signals": 5,
+        "min_days": 2
+      }
+    },
+    {
+      "family": "fp9_pcgrad",
+      "selected": false,
+      "epochs": [
+        4,
+        4
+      ],
+      "calibration": {
+        "per_direction": {
+          "0": {
+            "signals": 199,
+            "tp": 5,
+            "fp": 194,
+            "precision": 0.02512562814070352,
+            "recall": 0.7142857142857143,
+            "actual": 7
+          },
+          "2": {
+            "signals": 37,
+            "tp": 2,
+            "fp": 35,
+            "precision": 0.05405405405405406,
+            "recall": 0.2857142857142857,
+            "actual": 7
+          }
+        },
+        "signals": 236,
+        "tp": 7,
+        "fp": 229,
+        "precision": 0.029661016949152543,
+        "recall": 0.5,
+        "coverage": 0.5514018691588785,
+        "confusion": [
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            189,
+            191,
+            34
+          ],
+          [
+            5,
+            0,
+            2
+          ]
+        ]
+      },
+      "test": {
+        "per_direction": {
+          "0": {
+            "signals": 292,
+            "tp": 13,
+            "fp": 279,
+            "precision": 0.04452054794520548,
+            "recall": 0.7222222222222222,
+            "actual": 18
+          },
+          "2": {
+            "signals": 59,
+            "tp": 1,
+            "fp": 58,
+            "precision": 0.01694915254237288,
+            "recall": 0.08333333333333333,
+            "actual": 12
+          }
+        },
+        "signals": 351,
+        "tp": 14,
+        "fp": 337,
+        "precision": 0.039886039886039885,
+        "recall": 0.4666666666666667,
+        "coverage": 0.508695652173913,
+        "confusion": [
+          [
+            13,
+            3,
+            2
+          ],
+          [
+            271,
+            333,
+            56
+          ],
+          [
+            8,
+            3,
+            1
+          ]
+        ]
+      },
+      "policy": {
+        "rules": {
+          "0": {
+            "enabled": true,
+            "threshold": 0.001756213023327291,
+            "signals": 199,
+            "tp": 5,
+            "precision": 0.02512562814070352,
+            "lower_score": 0.012282701588572916,
+            "days": 3
+          },
+          "2": {
+            "enabled": true,
+            "threshold": 0.0020477783400565386,
+            "signals": 37,
+            "tp": 2,
+            "precision": 0.05405405405405406,
+            "lower_score": 0.018051747705089008,
+            "days": 3
+          }
+        },
+        "selection_score": 0.015167224646830962,
+        "min_signals": 5,
+        "min_days": 2
+      }
+    }
+  ],
+  "seconds": 329.3543722629547
+}

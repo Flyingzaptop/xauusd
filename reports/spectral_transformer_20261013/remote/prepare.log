@@ -1,0 +1,6 @@
+{"prepared": "stft_128", "seconds": 28.93933868408203}
+{"prepared": "stft_512", "seconds": 61.06778407096863}
+{"prepared": "stft_8192", "seconds": 233.82745599746704}
+{"prepared": "wavelet_returns", "seconds": 267.2528052330017}
+{"prepared": "wavelet_logprice", "seconds": 300.7180769443512}
+PREPARED 319.90860056877136

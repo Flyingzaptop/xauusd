@@ -1,0 +1,4 @@
+/content/stage1-src/train.py:58: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  ideal=y.detach().clone().requires_grad_();loss=values(ideal,y)['total'];g=torch.autograd.grad(loss,ideal)[0];assert float(loss)==0 and float(g.norm())==0
+STAGE 1 COMPLETE

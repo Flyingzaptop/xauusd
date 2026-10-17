@@ -1,0 +1,9 @@
+{
+  "best_epochs": {
+    "price": 7,
+    "raw": 1,
+    "engineered": 1
+  },
+  "test_used": false,
+  "validation": "20-22ofEVERYJan-Sep month with256bar embargo"
+}

@@ -1,0 +1,61 @@
+{
+  "train": {
+    "examples": 26045,
+    "first_origin": "2024-01-01T23:02",
+    "last_origin": "2024-01-31T19:00",
+    "stride_minutes": 1,
+    "period": [
+      "2024-01-01",
+      "2024-02-01"
+    ]
+  },
+  "val": {
+    "examples": 397,
+    "first_origin": "2024-02-01T00:00",
+    "last_origin": "2024-02-07T19:00",
+    "stride_minutes": 15,
+    "period": [
+      "2024-02-01",
+      "2024-02-08"
+    ]
+  },
+  "test": {
+    "examples": 856,
+    "first_origin": "2024-02-15T00:00",
+    "last_origin": "2024-02-29T19:00",
+    "stride_minutes": 15,
+    "period": [
+      "2024-02-15",
+      "2024-03-01"
+    ]
+  },
+  "source_sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410",
+  "scale_floor_dollars": 1.4528331813931117,
+  "contexts": {
+    "M1": 360,
+    "M5": 576,
+    "H1": 336
+  },
+  "feature_columns": [
+    "O",
+    "H",
+    "L",
+    "C",
+    "observed_fraction",
+    "time_sin",
+    "time_cos",
+    "log_scale"
+  ],
+  "targets": [
+    "mean_Close",
+    "min_Low",
+    "max_High"
+  ],
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "timestamp_convention": "Source timestamp treated as candle start; forecast origin is end of the last visible M1 bar.",
+  "missing": "Forward-filled OHLC, observed fraction marks missing minutes; future horizon must have all 120 observed minutes."
+}

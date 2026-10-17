@@ -1,0 +1,1178 @@
+[
+  {
+    "horizon": 15,
+    "features": [
+      {
+        "name": "XAUUSD__position_60",
+        "gain": 178.24120330810547
+      },
+      {
+        "name": "EURHKD__logvol_240",
+        "gain": 176.55440139770508
+      },
+      {
+        "name": "APPLE__return_5_lag5",
+        "gain": 159.31029510498047
+      },
+      {
+        "name": "HONG_KONG_50__position_60_lag15",
+        "gain": 142.9302978515625
+      },
+      {
+        "name": "clock_5",
+        "gain": 126.17449951171875
+      },
+      {
+        "name": "IRON_MOUNTAIN__return_60_lag5",
+        "gain": 125.59529876708984
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 122.15749740600586
+      },
+      {
+        "name": "AUDUSD__return_60_lag60",
+        "gain": 120.23559951782227
+      },
+      {
+        "name": "SWIRE_PACIFIC__relative_tick_volume",
+        "gain": 101.56990051269531
+      },
+      {
+        "name": "NAT.GAS__range_60",
+        "gain": 95.89859771728516
+      },
+      {
+        "name": "NZDCHF__logvol_240",
+        "gain": 83.80760192871094
+      },
+      {
+        "name": "SUN_HUNG_KAI__position_240",
+        "gain": 82.61090087890625
+      },
+      {
+        "name": "LOUISIANA-PACIFIC__logvol_15_lag60",
+        "gain": 80.595703125
+      },
+      {
+        "name": "AGCO__return_240",
+        "gain": 79.70800018310547
+      },
+      {
+        "name": "GBPDKK__logvol_15_lag15",
+        "gain": 79.12650299072266
+      },
+      {
+        "name": "OCCIDENTAL_PETROLEUM__log_quote_age",
+        "gain": 78.95950317382812
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__relative_tick_volume",
+        "gain": 77.73699951171875
+      },
+      {
+        "name": "ITALY_40__logvol_15_lag60",
+        "gain": 76.55870056152344
+      },
+      {
+        "name": "ALLY_FINANCIAL__range_60",
+        "gain": 75.79119873046875
+      },
+      {
+        "name": "ALCOA__range_15",
+        "gain": 74.85040283203125
+      },
+      {
+        "name": "GBPSEK__logvol_60",
+        "gain": 71.9176025390625
+      },
+      {
+        "name": "CARLISLE__return_15_lag60",
+        "gain": 69.71600341796875
+      },
+      {
+        "name": "TOTAL__return_60_lag15",
+        "gain": 69.07430267333984
+      },
+      {
+        "name": "GRIFOLS__position_60",
+        "gain": 68.79290008544922
+      },
+      {
+        "name": "AUSTRALIA_200__return_1440",
+        "gain": 68.56649780273438
+      },
+      {
+        "name": "ITALY_40__acceleration_5",
+        "gain": 68.0261001586914
+      },
+      {
+        "name": "LENNOX__range_240",
+        "gain": 67.8833999633789
+      },
+      {
+        "name": "VENTAS__upper_wick",
+        "gain": 67.16010284423828
+      },
+      {
+        "name": "CITIZENS_FINANCIAL__vol_ratio",
+        "gain": 66.3550033569336
+      },
+      {
+        "name": "HONG_KONG_50__range_240",
+        "gain": 65.96649932861328
+      },
+      {
+        "name": "EURUSD__return_240",
+        "gain": 64.98139953613281
+      },
+      {
+        "name": "EURTRY__logvol_60",
+        "gain": 64.8843994140625
+      },
+      {
+        "name": "EUTELSAT_COMMUNICATIONS__position_240",
+        "gain": 64.64399719238281
+      },
+      {
+        "name": "HONG_KONG_50__logvol_60",
+        "gain": 64.4885025024414
+      },
+      {
+        "name": "COCA-COLA__return_60_lag5",
+        "gain": 64.10209655761719
+      },
+      {
+        "name": "KIMCO_REALTY__position_60_lag60",
+        "gain": 63.98699951171875
+      },
+      {
+        "name": "XAGUSD__position_60",
+        "gain": 63.861698150634766
+      },
+      {
+        "name": "MSCI_BRAZIL__logvol_60",
+        "gain": 63.77180099487305
+      },
+      {
+        "name": "AUSTRALIA_200__logvol_240",
+        "gain": 63.28609848022461
+      },
+      {
+        "name": "XAUEUR__lower_wick",
+        "gain": 63.11000061035156
+      },
+      {
+        "name": "GBPNOK__logvol_240",
+        "gain": 63.07749938964844
+      },
+      {
+        "name": "PARKER_HANNIFIN__logvol_240",
+        "gain": 63.01100158691406
+      },
+      {
+        "name": "CARLISLE__return_60",
+        "gain": 62.912601470947266
+      },
+      {
+        "name": "SWIRE_PACIFIC__position_60_lag60",
+        "gain": 62.668800354003906
+      },
+      {
+        "name": "SPAIN_35__logvol_240",
+        "gain": 62.24980163574219
+      },
+      {
+        "name": "TELEDYNE_TECHNOLOGIES__return_1440",
+        "gain": 62.12839889526367
+      },
+      {
+        "name": "USDSGD__return_1440",
+        "gain": 61.82109832763672
+      },
+      {
+        "name": "TRAVELERS_COMPANIES__return_240",
+        "gain": 61.5192985534668
+      },
+      {
+        "name": "USDCNH__position_240",
+        "gain": 61.2234001159668
+      },
+      {
+        "name": "ABERCROMBIE__range_240",
+        "gain": 61.035400390625
+      },
+      {
+        "name": "HONG_KONG_50__position_60_lag60",
+        "gain": 60.724098205566406
+      },
+      {
+        "name": "IBM__range_15",
+        "gain": 60.71480178833008
+      },
+      {
+        "name": "GOLDMAN_SACHS__logvol_15",
+        "gain": 60.61410140991211
+      },
+      {
+        "name": "TOTAL__range_240",
+        "gain": 60.575599670410156
+      },
+      {
+        "name": "CADJPY__logvol_60",
+        "gain": 60.56779861450195
+      },
+      {
+        "name": "CITIGROUP__return_5_lag60",
+        "gain": 60.47090148925781
+      },
+      {
+        "name": "RALPH_LAUREN__return_60_lag15",
+        "gain": 60.09189987182617
+      },
+      {
+        "name": "EAGLE_MATERIALS__vol_ratio",
+        "gain": 59.93000030517578
+      },
+      {
+        "name": "LINDT__position_60",
+        "gain": 59.51359939575195
+      },
+      {
+        "name": "NIPPON_YUSEN__log_quote_age",
+        "gain": 59.2864990234375
+      },
+      {
+        "name": "XAUUSD__return_60_lag15",
+        "gain": 59.12699890136719
+      },
+      {
+        "name": "EDISON__return_1",
+        "gain": 58.85179901123047
+      },
+      {
+        "name": "HOME_DEPOT__return_60_lag15",
+        "gain": 58.64889907836914
+      },
+      {
+        "name": "ROLLINS__return_5_lag15",
+        "gain": 58.48310089111328
+      },
+      {
+        "name": "EURHKD__position_60",
+        "gain": 58.29800033569336
+      },
+      {
+        "name": "CATERPILLAR__return_5_lag5",
+        "gain": 58.04059982299805
+      },
+      {
+        "name": "DEVON_ENERGY__return_1440",
+        "gain": 57.850101470947266
+      },
+      {
+        "name": "MOODYS__position_60_lag15",
+        "gain": 57.842201232910156
+      },
+      {
+        "name": "XAUEUR__return_15",
+        "gain": 57.73310089111328
+      },
+      {
+        "name": "VERIZON__range_60",
+        "gain": 57.71689987182617
+      },
+      {
+        "name": "HONG_KONG_50__acceleration_15",
+        "gain": 57.41120147705078
+      },
+      {
+        "name": "ROYAL_CARIBBEAN_CRUISES__upper_wick",
+        "gain": 57.36109924316406
+      },
+      {
+        "name": "NEW_YORK_TIMES__log_previous_gap",
+        "gain": 57.04750061035156
+      },
+      {
+        "name": "IBOXX_USD_HIGH_YIELD__position_240",
+        "gain": 57.0359001159668
+      },
+      {
+        "name": "HONG_KONG_50__return_5",
+        "gain": 57.00469970703125
+      },
+      {
+        "name": "VISA__relative_tick_volume",
+        "gain": 56.99789810180664
+      },
+      {
+        "name": "YUM___return_15_lag5",
+        "gain": 56.90810012817383
+      },
+      {
+        "name": "XAUEUR__position_60_lag60",
+        "gain": 56.802398681640625
+      },
+      {
+        "name": "MOSAIC__position_15",
+        "gain": 56.70869827270508
+      },
+      {
+        "name": "TARGA_RESOURCES__return_5",
+        "gain": 56.279300689697266
+      },
+      {
+        "name": "KIMCO_REALTY__return_240",
+        "gain": 56.250999450683594
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__logvol_60",
+        "gain": 56.249698638916016
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 56.13570022583008
+      },
+      {
+        "name": "HYATT__logvol_15",
+        "gain": 56.02239990234375
+      },
+      {
+        "name": "AUSTRALIA_200__return_60",
+        "gain": 55.933101654052734
+      },
+      {
+        "name": "MTR__position_60_lag60",
+        "gain": 55.68360137939453
+      },
+      {
+        "name": "CHEVRON__logvol_15_lag60",
+        "gain": 55.634300231933594
+      },
+      {
+        "name": "WALT_DISNEY__return_60_lag15",
+        "gain": 55.630401611328125
+      },
+      {
+        "name": "VENTAS__acceleration_15",
+        "gain": 55.5010986328125
+      },
+      {
+        "name": "MTR__logvol_240",
+        "gain": 55.430599212646484
+      },
+      {
+        "name": "GBPNOK__logvol_15_lag60",
+        "gain": 54.55670166015625
+      },
+      {
+        "name": "EURMXN__logvol_15_lag60",
+        "gain": 54.522499084472656
+      },
+      {
+        "name": "MOODYS__range_60",
+        "gain": 54.441200256347656
+      },
+      {
+        "name": "VENTAS__return_15_lag60",
+        "gain": 54.207801818847656
+      },
+      {
+        "name": "XPDUSD__logvol_60",
+        "gain": 53.816200256347656
+      },
+      {
+        "name": "PFIZER__return_30",
+        "gain": 53.69029998779297
+      },
+      {
+        "name": "PHILIPS_66__return_15_lag60",
+        "gain": 53.627498626708984
+      },
+      {
+        "name": "EURSEK__range_60",
+        "gain": 53.61709976196289
+      },
+      {
+        "name": "SPAIN_35__return_60_lag60",
+        "gain": 53.43790054321289
+      },
+      {
+        "name": "TELEDYNE_TECHNOLOGIES__return_30",
+        "gain": 53.17100143432617
+      }
+    ]
+  },
+  {
+    "horizon": 30,
+    "features": [
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 158.05299377441406
+      },
+      {
+        "name": "ALCOA__range_15",
+        "gain": 146.50100708007812
+      },
+      {
+        "name": "VISA__relative_tick_volume",
+        "gain": 139.71600341796875
+      },
+      {
+        "name": "IRON_MOUNTAIN__return_60_lag5",
+        "gain": 133.6230010986328
+      },
+      {
+        "name": "APPLE__return_5_lag5",
+        "gain": 133.55599975585938
+      },
+      {
+        "name": "XAUEUR__logvol_15_lag60",
+        "gain": 121.10099792480469
+      },
+      {
+        "name": "USDJPY__logvol_240",
+        "gain": 117.8030014038086
+      },
+      {
+        "name": "HONG_KONG_50__position_60_lag15",
+        "gain": 109.93199920654297
+      },
+      {
+        "name": "ABBVIE__logvol_15_lag60",
+        "gain": 107.927001953125
+      },
+      {
+        "name": "AIG__body",
+        "gain": 107.36399841308594
+      },
+      {
+        "name": "ITALY_40__acceleration_5",
+        "gain": 107.17900085449219
+      },
+      {
+        "name": "CITIGROUP__return_240",
+        "gain": 107.08100128173828
+      },
+      {
+        "name": "ABERCROMBIE__range_240",
+        "gain": 103.47799682617188
+      },
+      {
+        "name": "LINDT__relative_tick_volume",
+        "gain": 101.98600006103516
+      },
+      {
+        "name": "GBPNOK__logvol_240",
+        "gain": 99.17559814453125
+      },
+      {
+        "name": "NZDUSD__logvol_60",
+        "gain": 97.98090362548828
+      },
+      {
+        "name": "RALPH_LAUREN__return_15_lag15",
+        "gain": 94.16699981689453
+      },
+      {
+        "name": "USDZAR__range_240",
+        "gain": 94.06690216064453
+      },
+      {
+        "name": "USDSGD__return_240",
+        "gain": 90.56549835205078
+      },
+      {
+        "name": "ACUITY_BRANDS__return_15_lag5",
+        "gain": 86.28240203857422
+      },
+      {
+        "name": "PHILIPS_66__position_60_lag60",
+        "gain": 83.07980346679688
+      },
+      {
+        "name": "CITIGROUP__position_60_lag60",
+        "gain": 82.32160186767578
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__return_30",
+        "gain": 78.693603515625
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 75.79029846191406
+      },
+      {
+        "name": "KIRBY__return_5",
+        "gain": 74.80130004882812
+      },
+      {
+        "name": "XAUUSD__position_240",
+        "gain": 68.65850067138672
+      },
+      {
+        "name": "HP__relative_tick_volume",
+        "gain": 65.24169921875
+      },
+      {
+        "name": "CLP__position_60",
+        "gain": 56.24259948730469
+      },
+      {
+        "name": "XAUUSD__return_60",
+        "gain": 49.47570037841797
+      },
+      {
+        "name": "ABBOTT__return_60_lag5",
+        "gain": 45.481201171875
+      }
+    ]
+  },
+  {
+    "horizon": 60,
+    "features": [
+      {
+        "name": "clock_3",
+        "gain": 3033.1019744873047
+      },
+      {
+        "name": "MSCI_BRAZIL__logvol_15_lag15",
+        "gain": 1829.7779693603516
+      },
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 1824.417984008789
+      },
+      {
+        "name": "clock_1",
+        "gain": 1616.7060241699219
+      },
+      {
+        "name": "COLGATE-PALMOLIVE__return_1",
+        "gain": 1373.2330017089844
+      },
+      {
+        "name": "BANK_OF_EAST_ASIA__logvol_15",
+        "gain": 1329.343002319336
+      },
+      {
+        "name": "USDCNH__logvol_240",
+        "gain": 1086.431983947754
+      },
+      {
+        "name": "AGCO__lower_wick",
+        "gain": 1076.6510009765625
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__relative_tick_volume",
+        "gain": 1028.1579895019531
+      },
+      {
+        "name": "XCEL_ENERGY__return_5_lag5",
+        "gain": 1028.1000061035156
+      },
+      {
+        "name": "BOEING__upper_wick",
+        "gain": 1017.8499908447266
+      },
+      {
+        "name": "IRON_MOUNTAIN__return_60_lag5",
+        "gain": 981.6159973144531
+      },
+      {
+        "name": "USDJPY__logvol_240",
+        "gain": 929.4174880981445
+      },
+      {
+        "name": "TELEDYNE_TECHNOLOGIES__return_1440",
+        "gain": 905.4580078125
+      },
+      {
+        "name": "AUSTRALIA_200__logvol_240",
+        "gain": 841.0729827880859
+      },
+      {
+        "name": "XCEL_ENERGY__return_60_lag15",
+        "gain": 832.418701171875
+      },
+      {
+        "name": "PACKAGING__relative_tick_volume",
+        "gain": 823.5139770507812
+      },
+      {
+        "name": "AUDCHF__return_1440",
+        "gain": 819.4589996337891
+      },
+      {
+        "name": "PAYCOM__acceleration_5",
+        "gain": 739.5389862060547
+      },
+      {
+        "name": "clock_5",
+        "gain": 690.3964042663574
+      },
+      {
+        "name": "MASTERCARD__log_quote_age",
+        "gain": 686.2739868164062
+      },
+      {
+        "name": "ACUITY_BRANDS__return_15_lag15",
+        "gain": 671.9080200195312
+      },
+      {
+        "name": "US_30__range_60",
+        "gain": 639.880989074707
+      },
+      {
+        "name": "EURSGD__return_1440",
+        "gain": 638.7289886474609
+      },
+      {
+        "name": "IRON_MOUNTAIN__logvol_15_lag60",
+        "gain": 615.5899963378906
+      },
+      {
+        "name": "HONG_KONG_50__logvol_240",
+        "gain": 602.3778991699219
+      },
+      {
+        "name": "CITIGROUP__return_5_lag60",
+        "gain": 600.9710083007812
+      },
+      {
+        "name": "XAUUSD__logvol_60",
+        "gain": 597.4350128173828
+      },
+      {
+        "name": "ABBVIE__vol_ratio",
+        "gain": 596.3280029296875
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__return_1440",
+        "gain": 596.2340087890625
+      },
+      {
+        "name": "SPAIN_35__logvol_240",
+        "gain": 592.0740051269531
+      },
+      {
+        "name": "IRON_MOUNTAIN__return_5",
+        "gain": 588.4499969482422
+      },
+      {
+        "name": "CITIGROUP__range_60",
+        "gain": 568.8200073242188
+      },
+      {
+        "name": "TOTAL__return_1440",
+        "gain": 560.583984375
+      },
+      {
+        "name": "SWIRE_PACIFIC__return_1",
+        "gain": 551.2360076904297
+      },
+      {
+        "name": "INVESCO__logvol_15",
+        "gain": 541.2560119628906
+      },
+      {
+        "name": "NZDCAD__return_1440",
+        "gain": 530.1869964599609
+      },
+      {
+        "name": "VERIZON__return_30",
+        "gain": 530.0590057373047
+      },
+      {
+        "name": "USDTRY__return_1440",
+        "gain": 527.9860229492188
+      },
+      {
+        "name": "ROLLINS__position_240",
+        "gain": 515.0279998779297
+      },
+      {
+        "name": "ABERCROMBIE__range_15",
+        "gain": 497.8070068359375
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__return_15",
+        "gain": 495.28399658203125
+      },
+      {
+        "name": "OCCIDENTAL_PETROLEUM__return_15_lag60",
+        "gain": 481.72900390625
+      },
+      {
+        "name": "FORD_MOTOR__relative_tick_volume",
+        "gain": 478.00401306152344
+      },
+      {
+        "name": "CARLISLE__log_quote_age",
+        "gain": 475.947998046875
+      },
+      {
+        "name": "MOSAIC__return_5_lag60",
+        "gain": 474.5580139160156
+      },
+      {
+        "name": "SPAIN_35__return_1440",
+        "gain": 470.27500915527344
+      },
+      {
+        "name": "USDCHF__return_1440",
+        "gain": 462.2310028076172
+      },
+      {
+        "name": "GBPNOK__logvol_240",
+        "gain": 462.1845016479492
+      },
+      {
+        "name": "NIPPON_YUSEN__availability_60",
+        "gain": 438.2469940185547
+      },
+      {
+        "name": "DEVON_ENERGY__return_15_lag15",
+        "gain": 434.62599182128906
+      },
+      {
+        "name": "ALASKA_AIR__lower_wick",
+        "gain": 434.5850067138672
+      },
+      {
+        "name": "MOTOROLA__return_30",
+        "gain": 424.4989929199219
+      },
+      {
+        "name": "ROLLINS__return_1440",
+        "gain": 417.5589904785156
+      },
+      {
+        "name": "MSCI_BRAZIL__position_60_lag15",
+        "gain": 416.73199462890625
+      },
+      {
+        "name": "KIMCO_REALTY__return_60",
+        "gain": 413.8919982910156
+      },
+      {
+        "name": "TELEDYNE_TECHNOLOGIES__logvol_15_lag60",
+        "gain": 407.68299865722656
+      },
+      {
+        "name": "PHILIPS_66__position_60_lag60",
+        "gain": 405.2590026855469
+      },
+      {
+        "name": "GOLDMAN_SACHS__acceleration_15",
+        "gain": 402.07501220703125
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__upper_wick",
+        "gain": 398.718994140625
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__return_5",
+        "gain": 396.8050079345703
+      },
+      {
+        "name": "KIRBY__return_5_lag60",
+        "gain": 395.5069885253906
+      },
+      {
+        "name": "ABBVIE__return_5_lag15",
+        "gain": 395.13800048828125
+      },
+      {
+        "name": "YUM___position_15",
+        "gain": 394.66400146484375
+      },
+      {
+        "name": "BTCEUR__log_quote_age",
+        "gain": 392.35101318359375
+      },
+      {
+        "name": "HOME_DEPOT__return_5_lag5",
+        "gain": 390.4289855957031
+      },
+      {
+        "name": "EURGBP__logvol_60",
+        "gain": 387.33099365234375
+      },
+      {
+        "name": "ABBOTT__position_60_lag15",
+        "gain": 386.7090148925781
+      },
+      {
+        "name": "ALASKA_AIR__return_15_lag60",
+        "gain": 385.6189880371094
+      },
+      {
+        "name": "KIRBY__position_60",
+        "gain": 383.40399169921875
+      },
+      {
+        "name": "AECOM__return_60_lag5",
+        "gain": 377.3179931640625
+      },
+      {
+        "name": "GBPDKK__logvol_60",
+        "gain": 377.0719909667969
+      },
+      {
+        "name": "EURTRY__logvol_15_lag60",
+        "gain": 376.25201416015625
+      },
+      {
+        "name": "USDCZK__availability_60",
+        "gain": 375.75599670410156
+      },
+      {
+        "name": "TELEDYNE_TECHNOLOGIES__return_60",
+        "gain": 375.64300537109375
+      },
+      {
+        "name": "EAGLE_MATERIALS__return_240",
+        "gain": 375.4909973144531
+      },
+      {
+        "name": "ACUITY_BRANDS__range_60",
+        "gain": 374.59300231933594
+      },
+      {
+        "name": "ABBOTT__logvol_15_lag15",
+        "gain": 371.59100341796875
+      },
+      {
+        "name": "XAUUSD__range_240",
+        "gain": 365.5480041503906
+      },
+      {
+        "name": "AMERICAN_TOWER__acceleration_5",
+        "gain": 363.6759948730469
+      },
+      {
+        "name": "NETHERLANDS_25__return_240",
+        "gain": 362.8839874267578
+      },
+      {
+        "name": "BANCORP__body",
+        "gain": 362.3580017089844
+      },
+      {
+        "name": "EURSEK__logvol_240",
+        "gain": 360.79200744628906
+      },
+      {
+        "name": "BANCORP__log_previous_gap",
+        "gain": 354.4429931640625
+      },
+      {
+        "name": "GOLDMAN_SACHS__return_60_lag15",
+        "gain": 351.27699279785156
+      },
+      {
+        "name": "CHINA_OVERSEAS_PROPERTY_HOLD__position_15",
+        "gain": 350.1549987792969
+      },
+      {
+        "name": "AECOM__acceleration_15",
+        "gain": 346.6289978027344
+      },
+      {
+        "name": "INVESCO__return_5_lag60",
+        "gain": 346.54901123046875
+      },
+      {
+        "name": "EURUSD__logvol_240",
+        "gain": 344.7749938964844
+      },
+      {
+        "name": "GENERAC_HOLDINGS__return_15",
+        "gain": 339.5530090332031
+      },
+      {
+        "name": "EDISON__return_15",
+        "gain": 339.17999267578125
+      },
+      {
+        "name": "TRAVELERS_COMPANIES__return_240",
+        "gain": 339.052001953125
+      },
+      {
+        "name": "ROLLINS__return_1",
+        "gain": 336.6820068359375
+      },
+      {
+        "name": "GBPSEK__return_1440",
+        "gain": 336.03399658203125
+      },
+      {
+        "name": "VISA__relative_tick_volume",
+        "gain": 334.5889892578125
+      },
+      {
+        "name": "US_500__return_1440",
+        "gain": 333.4070129394531
+      },
+      {
+        "name": "AIG__body",
+        "gain": 331.5459899902344
+      },
+      {
+        "name": "NIPPON_YUSEN__position_60",
+        "gain": 324.2050018310547
+      },
+      {
+        "name": "ALIBABA__return_5_lag15",
+        "gain": 322.9810028076172
+      },
+      {
+        "name": "XAGEUR__logvol_240",
+        "gain": 320.3083038330078
+      }
+    ]
+  },
+  {
+    "horizon": 120,
+    "features": [
+      {
+        "name": "TELEFONICA__logvol_15_lag60",
+        "gain": 895.3519897460938
+      },
+      {
+        "name": "VISA__relative_tick_volume",
+        "gain": 825.510009765625
+      },
+      {
+        "name": "GBPCHF__return_1440",
+        "gain": 813.0700073242188
+      },
+      {
+        "name": "MSCI_BRAZIL__logvol_15_lag15",
+        "gain": 674.6790161132812
+      },
+      {
+        "name": "USDCNH__logvol_240",
+        "gain": 674.1690063476562
+      },
+      {
+        "name": "clock_3",
+        "gain": 637.8279876708984
+      },
+      {
+        "name": "INVESCO__body",
+        "gain": 629.6110229492188
+      },
+      {
+        "name": "IRON_MOUNTAIN__return_60_lag5",
+        "gain": 620.22802734375
+      },
+      {
+        "name": "AIG__return_240",
+        "gain": 577.2369995117188
+      },
+      {
+        "name": "TELEFONICA__return_30",
+        "gain": 576.1190185546875
+      },
+      {
+        "name": "EXXON__return_1",
+        "gain": 570.4089965820312
+      },
+      {
+        "name": "ORACLE__acceleration_5",
+        "gain": 561.1329956054688
+      },
+      {
+        "name": "PHILIP_MORRIS__acceleration_5",
+        "gain": 558.3870239257812
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__upper_wick",
+        "gain": 546.5599975585938
+      },
+      {
+        "name": "KIRBY__return_5",
+        "gain": 532.4769897460938
+      },
+      {
+        "name": "XAUUSD__logvol_240",
+        "gain": 532.1669921875
+      },
+      {
+        "name": "AIG__range_240",
+        "gain": 524.7160034179688
+      },
+      {
+        "name": "INFINEON__return_1440",
+        "gain": 515.4080200195312
+      },
+      {
+        "name": "LOEWS__position_60_lag15",
+        "gain": 515.2750244140625
+      },
+      {
+        "name": "ALLY_FINANCIAL__range_240",
+        "gain": 508.3380126953125
+      },
+      {
+        "name": "HYATT__return_30",
+        "gain": 507.77398681640625
+      },
+      {
+        "name": "YUM___return_5_lag60",
+        "gain": 507.2380065917969
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__return_240",
+        "gain": 495.9679870605469
+      },
+      {
+        "name": "CADMXN__return_1440",
+        "gain": 494.5150146484375
+      },
+      {
+        "name": "EAGLE_MATERIALS__logvol_15_lag60",
+        "gain": 489.7460021972656
+      },
+      {
+        "name": "ABBVIE__acceleration_5",
+        "gain": 488.6719970703125
+      },
+      {
+        "name": "ECOLAB__relative_tick_volume",
+        "gain": 487.4049987792969
+      },
+      {
+        "name": "TOTAL__range_240",
+        "gain": 486.1669921875
+      },
+      {
+        "name": "CROWN_HOLDINGS__position_60_lag60",
+        "gain": 485.7279968261719
+      },
+      {
+        "name": "HP__return_15_lag15",
+        "gain": 484.7309875488281
+      },
+      {
+        "name": "MSCI_SOUTH_KOREA__vol_ratio",
+        "gain": 482.47698974609375
+      },
+      {
+        "name": "CITIZENS_FINANCIAL__position_60_lag60",
+        "gain": 472.8710021972656
+      },
+      {
+        "name": "COLGATE-PALMOLIVE__return_5",
+        "gain": 471.3919982910156
+      },
+      {
+        "name": "CHEVRON__body",
+        "gain": 466.1709899902344
+      },
+      {
+        "name": "CADMXN__logvol_240",
+        "gain": 464.0350036621094
+      },
+      {
+        "name": "APPLE__return_60_lag15",
+        "gain": 462.42498779296875
+      },
+      {
+        "name": "ALLISON_TRANSMISSION__return_15",
+        "gain": 453.822998046875
+      },
+      {
+        "name": "AMPHENOL__vol_ratio",
+        "gain": 453.3240051269531
+      },
+      {
+        "name": "EUTELSAT_COMMUNICATIONS__position_240",
+        "gain": 448.2139892578125
+      },
+      {
+        "name": "FEDEX__lower_wick",
+        "gain": 445.1709899902344
+      },
+      {
+        "name": "LOUISIANA-PACIFIC__logvol_15_lag15",
+        "gain": 442.05999755859375
+      },
+      {
+        "name": "EDISON__return_5",
+        "gain": 439.28900146484375
+      },
+      {
+        "name": "HOME_DEPOT__return_15_lag15",
+        "gain": 437.656005859375
+      },
+      {
+        "name": "MOODYS__range_15",
+        "gain": 433.718994140625
+      },
+      {
+        "name": "USDDKK__return_1440",
+        "gain": 426.35101318359375
+      },
+      {
+        "name": "XCEL_ENERGY__logvol_15_lag15",
+        "gain": 425.96099853515625
+      },
+      {
+        "name": "clock_1",
+        "gain": 423.5920104980469
+      },
+      {
+        "name": "USDJPY__logvol_240",
+        "gain": 420.6499938964844
+      },
+      {
+        "name": "EURSEK__return_240",
+        "gain": 412.2340087890625
+      },
+      {
+        "name": "SPAIN_35__vol_ratio",
+        "gain": 410.77301025390625
+      },
+      {
+        "name": "MASTERCARD__position_240",
+        "gain": 407.2950134277344
+      },
+      {
+        "name": "YUM___range_60",
+        "gain": 405.0039978027344
+      },
+      {
+        "name": "YUM___body",
+        "gain": 404.989990234375
+      },
+      {
+        "name": "HOME_DEPOT__return_5_lag15",
+        "gain": 399.9429931640625
+      },
+      {
+        "name": "USDSEK__return_240",
+        "gain": 368.27801513671875
+      },
+      {
+        "name": "BANK_OF_AMERICA__return_1440",
+        "gain": 274.5950012207031
+      },
+      {
+        "name": "EAGLE_MATERIALS__position_60_lag15",
+        "gain": 232.39999389648438
+      },
+      {
+        "name": "ALLEGHENY_TECHNOLOGIES__return_240",
+        "gain": 190.90499877929688
+      },
+      {
+        "name": "CK_HUTCHISON__range_15",
+        "gain": 138.12399291992188
+      }
+    ]
+  }
+]

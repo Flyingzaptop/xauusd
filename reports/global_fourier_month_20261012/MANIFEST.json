@@ -1,0 +1,56 @@
+{
+  "files": {
+    "experiments/global_fourier/run.py": {
+      "bytes": 21938,
+      "sha256": "95c9324572659aa3a37261a38b5826bc0b548b3834e17c9866ae18d4290a2971"
+    },
+    "docs/research_constraints_20261012.md": {
+      "bytes": 3201,
+      "sha256": "f676ae7c3ce7a9fde44b1a9fbf7127d136160086d4997796601e506f27477884"
+    },
+    "reports/pcgrad_mse_month_20261009/dataset.npz": {
+      "bytes": 44877957,
+      "sha256": "74534bc17ccda0a0b849997ca5bee5d1f4bb35b5a31f6075c24517f751636410"
+    },
+    "reports/global_fourier_month_20261012/REPORT.md": {
+      "bytes": 8280,
+      "sha256": "b660d771a2bfa394af35134c612afb378c03024f88c7aee6fd1bcb48c5eb9d73"
+    },
+    "reports/global_fourier_month_20261012/boundary.png": {
+      "bytes": 581877,
+      "sha256": "890c411b93df1483f73e8ba575236c8c3aaccc276e9c6f4afe827bcc9dd468cb"
+    },
+    "reports/global_fourier_month_20261012/checks.json": {
+      "bytes": 729,
+      "sha256": "5c8fdde59dcc4fc4b9995f32cf802b1a8b3548a0ed2aea87faff9cb38389c11d"
+    },
+    "reports/global_fourier_month_20261012/errors.png": {
+      "bytes": 68832,
+      "sha256": "df89fee610441d10f3f9cb93130c0c170e08f125de875aaea9874b8b5d55ad09"
+    },
+    "reports/global_fourier_month_20261012/forecast_week.png": {
+      "bytes": 661117,
+      "sha256": "85f924d1edf7f4de94cf4abe1a2b6c55c8df1f1a5143d41b2ac6f3634124d2fa"
+    },
+    "reports/global_fourier_month_20261012/harmonics.csv": {
+      "bytes": 197914,
+      "sha256": "e6c3c498a0a1d2833313eedc9c29ad244241a5c7f8c3b1d99302f98c63aa5768"
+    },
+    "reports/global_fourier_month_20261012/month_and_forecast.png": {
+      "bytes": 734693,
+      "sha256": "884e54933c7707f3ade7a72e89a760d1ca4cdb5cf4efc2a0c5b46971ff72c819"
+    },
+    "reports/global_fourier_month_20261012/predictions.npz": {
+      "bytes": 1305476,
+      "sha256": "fb0ac04d41ab7121bbbab3f68f9f15f272f70af7428faf6917ed47de3e35182f"
+    },
+    "reports/global_fourier_month_20261012/reconstruction_detail.png": {
+      "bytes": 549884,
+      "sha256": "dd457c71f2f6b02b76dd0dc7bc3bbc86e3649ccbbd049ff8e8842d2edbfdd0ca"
+    },
+    "reports/global_fourier_month_20261012/summary.json": {
+      "bytes": 7972,
+      "sha256": "54607c2a8ed5ef5151dacb8546519dfcae666292b32fda8a659aad3b23f5959a"
+    }
+  }
+}

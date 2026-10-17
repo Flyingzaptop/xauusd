@@ -1,0 +1,9 @@
+{
+  "examples": 32,
+  "steps": 160,
+  "initial_loss": 2.0279011726379395,
+  "final_loss": 0.00896681658923626,
+  "loss_ratio": 0.004421722670820306,
+  "event_accuracy": 1.0,
+  "dropout_disabled_for_capacity_check": true
+}

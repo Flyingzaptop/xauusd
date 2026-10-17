@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "raw_source_checks": 200,
+  "label_max_error_usd": 0.0,
+  "future_entry_next_open": true,
+  "calendar_gap_filter_verified": true,
+  "price_ohlc_column_order_verified": "H,O,C,L",
+  "spectral_preparation_causality_checks": "../causal_spectral_year_2021_20261012/verification.json",
+  "screening_all_components": 2356,
+  "derived_rows": 354340,
+  "discovery_validation_test_purged": true,
+  "test_used_for_selection": false,
+  "neighbouring_trades_do_not_overlap": true,
+  "scientific_scope": "retrospective single year; OHLC prices, no bid/ask or executable spread"
+}

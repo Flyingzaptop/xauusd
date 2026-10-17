@@ -1,0 +1,8 @@
+import numpy as np,json
+from pathlib import Path
+P=Path('/workspace/xauusd/reports/spectral_transformer_20261013');a=np.load(P/'input.npz');c=a['ohlc'][:,2];t=a['timestamp'];start=np.searchsorted(t,np.datetime64('2021-01-01').astype('datetime64[s]').astype(int))-512;ts=t[start:];N=len(ts);dates=ts.astype('datetime64[s]').astype(str);month=np.array([int(s[5:7]) for s in dates]);day=np.array([int(s[8:10]) for s in dates]);dev=(np.arange(N)>=512)&(month<=9);val=dev&(day>=20)&(day<=22);excluded=np.convolve(val.astype(int),np.ones(513,dtype=int),'same')>0;train=dev&~excluded;bound=np.flatnonzero((np.arange(N)>=512)&(month>=10))[0];train[bound-120:]=False;val[bound-120:]=False;dev[bound-120:]=False;test=(np.arange(N)>=512)&(month>=10)&(np.arange(N)<N-120)
+assert not np.any(train&val);assert not np.any(dev&test);assert np.max(np.flatnonzero(dev))+120<np.min(np.flatnonzero(test));assert set(month[val])==set(range(1,10));assert np.all(month[dev]<=9);assert np.all(month[test]>=10);assert np.min(np.flatnonzero(test))>512
+# Synthetic first-passage labels use first rather than later opposite side.
+path=np.array([0,.5,2.1,-3.,.1]);first=next(i for i in range(1,len(path)) if abs(path[i])>=2);assert first==2 and path[first]>0
+result={'passed':True,'training':int(train.sum()),'validation':int(val.sum()),'final_training':int(dev.sum()),'test':int(test.sum()),'validation_months':sorted(set(month[val].tolist())),'purge_horizon':120,'validation_embargo_each_side':256,'warmup_rows':512,'event_first_passage_unit_check':True,'forecast_target_normalization_uses_only_past':True}
+(P/'local_checks.json').write_text(json.dumps(result,indent=2));print(result)

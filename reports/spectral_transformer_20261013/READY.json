@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "year": 2021,
+  "all_year_candles": 354340,
+  "components": 2356,
+  "engineered_features": 23072,
+  "final_train_rows": 265021,
+  "test_rows": 89079,
+  "development": "Jan-Sep search/selection/full refit",
+  "final_evaluation": "Oct-Dec, already previously inspected in prior research",
+  "all_training_epochs_full_chronological_pass": true,
+  "checkpoints_saved": true,
+  "no_future_features": true,
+  "gpu": "A10080GB",
+  "gpu_stopped_after_sync": true
+}

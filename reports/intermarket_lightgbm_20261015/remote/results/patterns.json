@@ -1,0 +1,733 @@
+{
+  "selection": "top5different symbol combinations by abs leaf contribution*sqrt training count, >=2000 training rows, >=2symbols, 60min final model; no test-label selection",
+  "rules_are_not_standalone_trading_policies": true,
+  "rules": [
+    {
+      "tree": 0,
+      "leaf": 4,
+      "leaf_value": 0.00815252461704681,
+      "train_count": 115417,
+      "symbols": [
+        "EAGLE_MATERIALS",
+        "IRON_MOUNTAIN",
+        "METLIFE",
+        "MSCI_SOUTH_KOREA",
+        "PHILIPS_66",
+        "USDMXN"
+      ],
+      "path": [
+        {
+          "feature": 4787,
+          "name": "IRON_MOUNTAIN__return_60_lag5",
+          "threshold": 2.132486701011658,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 5700,
+          "name": "MSCI_SOUTH_KOREA__return_1440",
+          "threshold": 0.5447609424591066,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 6617,
+          "name": "PHILIPS_66__return_15_lag5",
+          "threshold": 1.7097736001014712,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 7731,
+          "name": "USDMXN__logvol_240",
+          "threshold": 1.1548244357109072,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 5383,
+          "name": "METLIFE__return_5",
+          "threshold": 2.531119346618653,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 2345,
+          "name": "EAGLE_MATERIALS__return_240",
+          "threshold": 0.36172319948673254,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        }
+      ],
+      "selection_score": 2.769663512569911,
+      "validation": {
+        "rows": 16211,
+        "mean_future_normalized_change": 0.11222188919782639,
+        "up_rate": 0.5363641971500833,
+        "mean_residual_vs_gold_only": 0.10915825515985489
+      },
+      "test": {
+        "rows": 42546,
+        "mean_future_normalized_change": 0.03745035082101822,
+        "up_rate": 0.5211065670098246,
+        "mean_residual_vs_gold_only": 0.032943982630968094
+      }
+    },
+    {
+      "tree": 0,
+      "leaf": 24,
+      "leaf_value": 0.006061622595074411,
+      "train_count": 79338,
+      "symbols": [
+        "HYATT",
+        "IRON_MOUNTAIN",
+        "MSCI_SOUTH_KOREA",
+        "SM_ENERGY",
+        "VENTAS",
+        "XAUUSD"
+      ],
+      "path": [
+        {
+          "feature": 4787,
+          "name": "IRON_MOUNTAIN__return_60_lag5",
+          "threshold": 2.132486701011658,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 5700,
+          "name": "MSCI_SOUTH_KOREA__return_1440",
+          "threshold": 0.5447609424591066,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 8128,
+          "name": "VENTAS__range_240",
+          "threshold": 0.872803419828415,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 6967,
+          "name": "SM_ENERGY__return_5_lag60",
+          "threshold": 0.4491141885519028,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 4568,
+          "name": "HYATT__return_240",
+          "threshold": -0.39312817156314844,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 8432,
+          "name": "XAUUSD__logvol_60",
+          "threshold": 0.5867091417312623,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": false
+        }
+      ],
+      "selection_score": 1.7073773557922642,
+      "validation": {
+        "rows": 8538,
+        "mean_future_normalized_change": 0.024012036621570587,
+        "up_rate": 0.5199109861794331,
+        "mean_residual_vs_gold_only": 0.021894410252571106
+      },
+      "test": {
+        "rows": 16168,
+        "mean_future_normalized_change": 0.05335361883044243,
+        "up_rate": 0.528698664027709,
+        "mean_residual_vs_gold_only": 0.04914490506052971
+      }
+    },
+    {
+      "tree": 1,
+      "leaf": 22,
+      "leaf_value": 0.010432533294193542,
+      "train_count": 16996,
+      "symbols": [
+        "ABBOTT",
+        "AMERICAN_TOWER",
+        "FRANCE_40",
+        "INVESCO",
+        "MSCI_BRAZIL",
+        "USDCNH"
+      ],
+      "path": [
+        {
+          "feature": 5648,
+          "name": "MSCI_BRAZIL__logvol_15_lag15",
+          "threshold": 1.4453811645507815,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 7536,
+          "name": "USDCNH__logvol_240",
+          "threshold": 0.4305096417665482,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 4726,
+          "name": "INVESCO__logvol_15",
+          "threshold": 1.6006453037261965,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 32,
+          "name": "ABBOTT__logvol_15_lag15",
+          "threshold": 1.1146085858345034,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 548,
+          "name": "AMERICAN_TOWER__return_15",
+          "threshold": -2.4684928655624385,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 3480,
+          "name": "FRANCE_40__logvol_240",
+          "threshold": 0.8724986612796785,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        }
+      ],
+      "selection_score": 1.3600758857071273,
+      "validation": {
+        "rows": 8151,
+        "mean_future_normalized_change": 0.24806568026542664,
+        "up_rate": 0.5752668384247331,
+        "mean_residual_vs_gold_only": 0.24448037147521973
+      },
+      "test": {
+        "rows": 12227,
+        "mean_future_normalized_change": 0.07510986924171448,
+        "up_rate": 0.5303835773288623,
+        "mean_residual_vs_gold_only": 0.0697406679391861
+      }
+    },
+    {
+      "tree": 4,
+      "leaf": 13,
+      "leaf_value": 0.0257232381666718,
+      "train_count": 2161,
+      "symbols": [
+        "BOEING",
+        "COLGATE-PALMOLIVE",
+        "IRON_MOUNTAIN",
+        "MSCI_BRAZIL",
+        "PFIZER",
+        "XAUUSD"
+      ],
+      "path": [
+        {
+          "feature": 4787,
+          "name": "IRON_MOUNTAIN__return_60_lag5",
+          "threshold": 2.132486701011658,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 2145,
+          "name": "COLGATE-PALMOLIVE__return_1",
+          "threshold": 1.7483206391334536,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 5624,
+          "name": "MSCI_BRAZIL__logvol_60",
+          "threshold": 1.527501940727234,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 8433,
+          "name": "XAUUSD__logvol_240",
+          "threshold": 0.5606121420860292,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 6565,
+          "name": "PFIZER__position_240",
+          "threshold": 0.7243877947330476,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 1199,
+          "name": "BOEING__return_60_lag5",
+          "threshold": -0.9683899283409118,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": false
+        }
+      ],
+      "selection_score": 1.195784782318755,
+      "validation": {
+        "rows": 794,
+        "mean_future_normalized_change": 0.4558481276035309,
+        "up_rate": 0.6360201511335013,
+        "mean_residual_vs_gold_only": 0.4370673596858978
+      },
+      "test": {
+        "rows": 873,
+        "mean_future_normalized_change": 0.14921586215496063,
+        "up_rate": 0.5040091638029782,
+        "mean_residual_vs_gold_only": 0.13559263944625854
+      }
+    },
+    {
+      "tree": 5,
+      "leaf": 24,
+      "leaf_value": 0.007998730837689946,
+      "train_count": 21853,
+      "symbols": [
+        "AGCO",
+        "ALASKA_AIR",
+        "ALLISON_TRANSMISSION",
+        "ALLY_FINANCIAL",
+        "LAGARDERE",
+        "PARKER_HANNIFIN"
+      ],
+      "path": [
+        {
+          "feature": 488,
+          "name": "ALLISON_TRANSMISSION__relative_tick_volume",
+          "threshold": 1.1105536818504336,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 5063,
+          "name": "LAGARDERE__logvol_15_lag15",
+          "threshold": 1.8558787107467654,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": true
+        },
+        {
+          "feature": 6502,
+          "name": "PARKER_HANNIFIN__return_15_lag60",
+          "threshold": -1.8979710936546323,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 253,
+          "name": "AGCO__lower_wick",
+          "threshold": 0.12361538037657739,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 515,
+          "name": "ALLY_FINANCIAL__logvol_60",
+          "threshold": 1.8872996568679812,
+          "default_left": false,
+          "decision_type": "<=",
+          "left": false
+        },
+        {
+          "feature": 343,
+          "name": "ALASKA_AIR__return_60_lag60",
+          "threshold": -1.1208133697509763,
+          "default_left": true,
+          "decision_type": "<=",
+          "left": false
+        }
+      ],
+      "selection_score": 1.1824332011309713,
+      "validation": {
+        "rows": 7173,
+        "mean_future_normalized_change": 0.2115531712770462,
+        "up_rate": 0.5806496584413774,
+        "mean_residual_vs_gold_only": 0.20868757367134094
+      },
+      "test": {
+        "rows": 14685,
+        "mean_future_normalized_change": 0.07924836128950119,
+        "up_rate": 0.5172625127681307,
+        "mean_residual_vs_gold_only": 0.07502850145101547
+      }
+    }
+  ],
+  "group_gain_importance": [
+    {
+      "horizon": 15,
+      "top_instruments": [
+        {
+          "symbol": "HONG_KONG_50",
+          "gain_share": 0.04294516172206007
+        },
+        {
+          "symbol": "XAUUSD",
+          "gain_share": 0.03970625244606101
+        },
+        {
+          "symbol": "EURHKD",
+          "gain_share": 0.02021901496354615
+        },
+        {
+          "symbol": "AGCO",
+          "gain_share": 0.019602636169753877
+        },
+        {
+          "symbol": "CARLISLE",
+          "gain_share": 0.019539858028030873
+        },
+        {
+          "symbol": "NIPPON_YUSEN",
+          "gain_share": 0.017762901041214894
+        },
+        {
+          "symbol": "AUSTRALIA_200",
+          "gain_share": 0.01616692785981608
+        },
+        {
+          "symbol": "ALLISON_TRANSMISSION",
+          "gain_share": 0.015821524924124433
+        },
+        {
+          "symbol": "XAUEUR",
+          "gain_share": 0.015293933551023405
+        },
+        {
+          "symbol": "VENTAS",
+          "gain_share": 0.015227083043786914
+        },
+        {
+          "symbol": "KIMCO_REALTY",
+          "gain_share": 0.014748271055956276
+        },
+        {
+          "symbol": "clock",
+          "gain_share": 0.014721324147670212
+        },
+        {
+          "symbol": "IRON_MOUNTAIN",
+          "gain_share": 0.014495985713479691
+        },
+        {
+          "symbol": "LENNOX",
+          "gain_share": 0.014412734410970775
+        },
+        {
+          "symbol": "GBPNOK",
+          "gain_share": 0.014279945409322868
+        },
+        {
+          "symbol": "SWIRE_PACIFIC",
+          "gain_share": 0.014139709561867032
+        },
+        {
+          "symbol": "SPAIN_35",
+          "gain_share": 0.013892279858432135
+        },
+        {
+          "symbol": "APPLE",
+          "gain_share": 0.013715411112683033
+        },
+        {
+          "symbol": "USDCNH",
+          "gain_share": 0.013296890496279582
+        },
+        {
+          "symbol": "ABBOTT",
+          "gain_share": 0.01281164745510337
+        }
+      ]
+    },
+    {
+      "horizon": 30,
+      "top_instruments": [
+        {
+          "symbol": "XAUUSD",
+          "gain_share": 0.11982927982537354
+        },
+        {
+          "symbol": "CITIGROUP",
+          "gain_share": 0.06448133180491485
+        },
+        {
+          "symbol": "ALCOA",
+          "gain_share": 0.049875661106054445
+        },
+        {
+          "symbol": "VISA",
+          "gain_share": 0.0475657347103285
+        },
+        {
+          "symbol": "IRON_MOUNTAIN",
+          "gain_share": 0.04549139730572968
+        },
+        {
+          "symbol": "APPLE",
+          "gain_share": 0.04546858697607787
+        },
+        {
+          "symbol": "XAUEUR",
+          "gain_share": 0.041228333186822896
+        },
+        {
+          "symbol": "USDJPY",
+          "gain_share": 0.04010554393036245
+        },
+        {
+          "symbol": "HONG_KONG_50",
+          "gain_share": 0.03742589383115699
+        },
+        {
+          "symbol": "ABBVIE",
+          "gain_share": 0.03674330082020667
+        },
+        {
+          "symbol": "AIG",
+          "gain_share": 0.036551628596758076
+        },
+        {
+          "symbol": "ITALY_40",
+          "gain_share": 0.03648864694412803
+        },
+        {
+          "symbol": "ABERCROMBIE",
+          "gain_share": 0.03522865545091087
+        },
+        {
+          "symbol": "LINDT",
+          "gain_share": 0.03472071133153281
+        },
+        {
+          "symbol": "GBPNOK",
+          "gain_share": 0.033763921638730654
+        },
+        {
+          "symbol": "NZDUSD",
+          "gain_share": 0.03335719283771649
+        },
+        {
+          "symbol": "RALPH_LAUREN",
+          "gain_share": 0.032058765081895424
+        },
+        {
+          "symbol": "USDZAR",
+          "gain_share": 0.032024687249393516
+        },
+        {
+          "symbol": "USDSGD",
+          "gain_share": 0.030832648824310104
+        },
+        {
+          "symbol": "ACUITY_BRANDS",
+          "gain_share": 0.029374486423427895
+        }
+      ]
+    },
+    {
+      "horizon": 60,
+      "top_instruments": [
+        {
+          "symbol": "clock",
+          "gain_share": 0.04152593524767618
+        },
+        {
+          "symbol": "MSCI_BRAZIL",
+          "gain_share": 0.024844882204275286
+        },
+        {
+          "symbol": "XCEL_ENERGY",
+          "gain_share": 0.022839468826160458
+        },
+        {
+          "symbol": "XAUUSD",
+          "gain_share": 0.02262333258239621
+        },
+        {
+          "symbol": "IRON_MOUNTAIN",
+          "gain_share": 0.02131592478416888
+        },
+        {
+          "symbol": "TELEDYNE_TECHNOLOGIES",
+          "gain_share": 0.017485271910957924
+        },
+        {
+          "symbol": "PHILIPS_66",
+          "gain_share": 0.015358465191112477
+        },
+        {
+          "symbol": "ALLISON_TRANSMISSION",
+          "gain_share": 0.014911460094630569
+        },
+        {
+          "symbol": "ROLLINS",
+          "gain_share": 0.014893283725276549
+        },
+        {
+          "symbol": "BANCORP",
+          "gain_share": 0.014091669579091413
+        },
+        {
+          "symbol": "SPAIN_35",
+          "gain_share": 0.012516195540419134
+        },
+        {
+          "symbol": "COLGATE-PALMOLIVE",
+          "gain_share": 0.012269709966347067
+        },
+        {
+          "symbol": "INVESCO",
+          "gain_share": 0.012036699313201142
+        },
+        {
+          "symbol": "KIRBY",
+          "gain_share": 0.011765278077329088
+        },
+        {
+          "symbol": "PACKAGING",
+          "gain_share": 0.011612089575314573
+        },
+        {
+          "symbol": "APPLE",
+          "gain_share": 0.011459902525700245
+        },
+        {
+          "symbol": "ACUITY_BRANDS",
+          "gain_share": 0.011133641062192166
+        },
+        {
+          "symbol": "BOEING",
+          "gain_share": 0.010936338081748289
+        },
+        {
+          "symbol": "AGCO",
+          "gain_share": 0.010925272914296165
+        },
+        {
+          "symbol": "TOTAL",
+          "gain_share": 0.010843456646428383
+        }
+      ]
+    },
+    {
+      "horizon": 120,
+      "top_instruments": [
+        {
+          "symbol": "MSCI_SOUTH_KOREA",
+          "gain_share": 0.05271300033162873
+        },
+        {
+          "symbol": "TELEFONICA",
+          "gain_share": 0.05086255655056269
+        },
+        {
+          "symbol": "YUM",
+          "gain_share": 0.04553116333184888
+        },
+        {
+          "symbol": "AIG",
+          "gain_share": 0.03808987510552222
+        },
+        {
+          "symbol": "clock",
+          "gain_share": 0.03668881981107359
+        },
+        {
+          "symbol": "CADMXN",
+          "gain_share": 0.03313303778180677
+        },
+        {
+          "symbol": "HOME_DEPOT",
+          "gain_share": 0.02895227035680474
+        },
+        {
+          "symbol": "VISA",
+          "gain_share": 0.028534404903597696
+        },
+        {
+          "symbol": "GBPCHF",
+          "gain_share": 0.028104406402712636
+        },
+        {
+          "symbol": "EAGLE_MATERIALS",
+          "gain_share": 0.024961546205722333
+        },
+        {
+          "symbol": "MSCI_BRAZIL",
+          "gain_share": 0.02332081258615277
+        },
+        {
+          "symbol": "USDCNH",
+          "gain_share": 0.023303183696151464
+        },
+        {
+          "symbol": "INVESCO",
+          "gain_share": 0.021763001838950507
+        },
+        {
+          "symbol": "IRON_MOUNTAIN",
+          "gain_share": 0.021438671191656312
+        },
+        {
+          "symbol": "EXXON",
+          "gain_share": 0.01971663708081219
+        },
+        {
+          "symbol": "ORACLE",
+          "gain_share": 0.01939600478729639
+        },
+        {
+          "symbol": "PHILIP_MORRIS",
+          "gain_share": 0.01930108810932145
+        },
+        {
+          "symbol": "KIRBY",
+          "gain_share": 0.018405487332101112
+        },
+        {
+          "symbol": "XAUUSD",
+          "gain_share": 0.018394772021866956
+        },
+        {
+          "symbol": "INFINEON",
+          "gain_share": 0.017815484924252337
+        }
+      ]
+    }
+  ]
+}

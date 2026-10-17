@@ -1,0 +1,2 @@
+import torch,os,subprocess,json,psutil,shutil
+print(json.dumps({'torch':torch.__version__,'gpu':torch.cuda.get_device_name(0),'vram_GB':torch.cuda.get_device_properties(0).total_memory/1e9,'CPU':os.cpu_count(),'RAM_GB':psutil.virtual_memory().total/1e9,'disk_free_GB':shutil.disk_usage('/content').free/1e9}));print(subprocess.check_output(['nvidia-smi','--query-gpu=name,memory.total','--format=csv,noheader'],text=True))

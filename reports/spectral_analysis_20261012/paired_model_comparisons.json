@@ -1,0 +1,242 @@
+{
+  "price_plus_stft": {
+    "15": {
+      "return": {
+        "mse_improvement": -0.0011256804485680978,
+        "day_cluster_ci95": [
+          -0.0019053237593585695,
+          -0.0003932699608111231
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.0002627762176900537,
+        "day_cluster_ci95": [
+          -0.0007587040855311802,
+          0.00019995054282168754
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.0011823474596221186,
+        "day_cluster_ci95": [
+          -0.0026504862516812822,
+          0.00023539216471833694
+        ],
+        "positive_months": 1
+      }
+    },
+    "60": {
+      "return": {
+        "mse_improvement": -0.004124818659850687,
+        "day_cluster_ci95": [
+          -0.007181302597990527,
+          -0.0012569216307320868
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.0019625775455596613,
+        "day_cluster_ci95": [
+          -0.003821909669953846,
+          -0.0003088597455006822
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.0025073196659774408,
+        "day_cluster_ci95": [
+          -0.005065446863258628,
+          3.041328947432348e-05
+        ],
+        "positive_months": 1
+      }
+    },
+    "120": {
+      "return": {
+        "mse_improvement": -0.007705070662994508,
+        "day_cluster_ci95": [
+          -0.01369378326612233,
+          -0.002247885666976857
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.0027675966062419245,
+        "day_cluster_ci95": [
+          -0.0060092869156153,
+          0.00030148444833276005
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.0035301694106553883,
+        "day_cluster_ci95": [
+          -0.007730157614615218,
+          0.00070879864987133
+        ],
+        "positive_months": 1
+      }
+    }
+  },
+  "price_plus_wavelets": {
+    "15": {
+      "return": {
+        "mse_improvement": -0.0012464051980840573,
+        "day_cluster_ci95": [
+          -0.0025264348081893095,
+          -7.210984164150512e-05
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -1.9630447606840197e-05,
+        "day_cluster_ci95": [
+          -0.0010193752037276178,
+          0.0009887375483204359
+        ],
+        "positive_months": 1
+      },
+      "log_rv": {
+        "mse_improvement": -0.001939679093272395,
+        "day_cluster_ci95": [
+          -0.003325476229715159,
+          -0.0005769695014089989
+        ],
+        "positive_months": 0
+      }
+    },
+    "60": {
+      "return": {
+        "mse_improvement": -0.00580099299344986,
+        "day_cluster_ci95": [
+          -0.010303749129291984,
+          -0.0011305047763482425
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.0031291935453256156,
+        "day_cluster_ci95": [
+          -0.005722876271222243,
+          -0.0005539484378772042
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.002336993149055484,
+        "day_cluster_ci95": [
+          -0.005024995363513003,
+          0.00044265557752952087
+        ],
+        "positive_months": 1
+      }
+    },
+    "120": {
+      "return": {
+        "mse_improvement": -0.012898626196681988,
+        "day_cluster_ci95": [
+          -0.022015060481250834,
+          -0.0037879052920260013
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.007622119396808832,
+        "day_cluster_ci95": [
+          -0.012255542757075062,
+          -0.002999888501134304
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.0030954186429487923,
+        "day_cluster_ci95": [
+          -0.007255129177421973,
+          0.0019899525858757894
+        ],
+        "positive_months": 2
+      }
+    }
+  },
+  "price_plus_all": {
+    "15": {
+      "return": {
+        "mse_improvement": -0.0021005622013601675,
+        "day_cluster_ci95": [
+          -0.0036169914595201077,
+          -0.0007033114181917643
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.00011370029286958527,
+        "day_cluster_ci95": [
+          -0.0011678928170393153,
+          0.0008957158833027391
+        ],
+        "positive_months": 1
+      },
+      "log_rv": {
+        "mse_improvement": -0.006513934167410431,
+        "day_cluster_ci95": [
+          -0.009175647908445673,
+          -0.004038580307836584
+        ],
+        "positive_months": 0
+      }
+    },
+    "60": {
+      "return": {
+        "mse_improvement": -0.008807001258811927,
+        "day_cluster_ci95": [
+          -0.015109741305173806,
+          -0.0030211797688737886
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.004701314961428374,
+        "day_cluster_ci95": [
+          -0.00788744127134498,
+          -0.0015139250300102473
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.006143269539688715,
+        "day_cluster_ci95": [
+          -0.010174860746216229,
+          -0.0021160580274109247
+        ],
+        "positive_months": 0
+      }
+    },
+    "120": {
+      "return": {
+        "mse_improvement": -0.018689831462057705,
+        "day_cluster_ci95": [
+          -0.0315992508031316,
+          -0.007458894184923373
+        ],
+        "positive_months": 0
+      },
+      "sign": {
+        "mse_improvement": -0.009772623586963201,
+        "day_cluster_ci95": [
+          -0.01535072625165356,
+          -0.004284893860429088
+        ],
+        "positive_months": 0
+      },
+      "log_rv": {
+        "mse_improvement": -0.00919107073472697,
+        "day_cluster_ci95": [
+          -0.015783098045888316,
+          -0.0030608257375900113
+        ],
+        "positive_months": 0
+      }
+    }
+  }
+}

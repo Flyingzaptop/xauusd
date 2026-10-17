@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "all_rows_read": 354340,
+  "all_components_read": 2356,
+  "screened_feature_target_horizon_combinations": 42408,
+  "all_features_finite": true,
+  "single_position_checks_passed": true,
+  "report_links_valid": true,
+  "no_images": true,
+  "gpu_used": false,
+  "candidate_status": "post-hoc, requires new-year test"
+}

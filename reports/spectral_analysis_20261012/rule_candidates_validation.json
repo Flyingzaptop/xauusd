@@ -1,0 +1,4022 @@
+[
+  {
+    "feature": "stft_8192.energy.p21.00513",
+    "index": 208,
+    "horizon": 120,
+    "lo": 0.23522572219371796,
+    "hi": 1.2237036705017093,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.20396905222037404,
+    "validation": {
+      "trades": 209,
+      "active_days": 34,
+      "mean_gross_usd_per_oz": 0.306937799043092,
+      "median_gross": 0.0,
+      "win_rate_gross": 0.49760765550239233,
+      "gross_total": 64.15000000000623,
+      "profit_factor_gross": 1.2834482149169626,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.306937799043092,
+          "total_net": 64.15000000000623,
+          "win_rate": 0.49760765550239233
+        },
+        "0.1": {
+          "mean_net": 0.20693779904309198,
+          "total_net": 43.25000000000624,
+          "win_rate": 0.48325358851674644
+        },
+        "0.25": {
+          "mean_net": 0.056937799043091986,
+          "total_net": 11.90000000000623,
+          "win_rate": 0.4784688995215311
+        },
+        "0.5": {
+          "mean_net": -0.19306220095690801,
+          "total_net": -40.34999999999377,
+          "win_rate": 0.4784688995215311
+        },
+        "1": {
+          "mean_net": -0.6930622009569081,
+          "total_net": -144.84999999999377,
+          "win_rate": 0.3923444976076555
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        57,
+        64,
+        88,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.8101754385965482,
+        "8": 0.3793749999999356,
+        "9": -0.07170454545446474
+      },
+      "max_drawdown_gross_one_oz": 33.249999999995225
+    }
+  },
+  {
+    "feature": "stft_8192.entropy.band32_64",
+    "index": 287,
+    "horizon": 120,
+    "lo": 0.88298499584198,
+    "hi": 0.9084708333015442,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.20764782337813054,
+    "validation": {
+      "trades": 322,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": 0.2238198757763352,
+      "median_gross": 0.17999999999915417,
+      "win_rate_gross": 0.5248447204968945,
+      "gross_total": 72.06999999997993,
+      "profit_factor_gross": 1.179743615323168,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.2238198757763352,
+          "total_net": 72.06999999997993,
+          "win_rate": 0.5248447204968945
+        },
+        "0.1": {
+          "mean_net": 0.12381987577633519,
+          "total_net": 39.86999999997994,
+          "win_rate": 0.515527950310559
+        },
+        "0.25": {
+          "mean_net": -0.026180124223664808,
+          "total_net": -8.430000000020073,
+          "win_rate": 0.4968944099378882
+        },
+        "0.5": {
+          "mean_net": -0.2761801242236648,
+          "total_net": -88.93000000002007,
+          "win_rate": 0.4720496894409938
+        },
+        "1": {
+          "mean_net": -0.7761801242236648,
+          "total_net": -249.93000000002007,
+          "win_rate": 0.4161490683229814
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        103,
+        110,
+        109,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.2826213592232073,
+        "8": 0.17254545454533277,
+        "9": 0.22000000000002728
+      },
+      "max_drawdown_gross_one_oz": 47.34000000000765
+    }
+  },
+  {
+    "feature": "stft_8192.energy.p21.00513",
+    "index": 208,
+    "horizon": 60,
+    "lo": 0.23257278800010683,
+    "hi": 1.223763990402222,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.13252950905951705,
+    "validation": {
+      "trades": 419,
+      "active_days": 34,
+      "mean_gross_usd_per_oz": 0.12403341288784722,
+      "median_gross": 0.12000000000057298,
+      "win_rate_gross": 0.5393794749403341,
+      "gross_total": 51.970000000007985,
+      "profit_factor_gross": 1.145248742314167,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.12403341288784722,
+          "total_net": 51.970000000007985,
+          "win_rate": 0.5393794749403341
+        },
+        "0.1": {
+          "mean_net": 0.024033412887847216,
+          "total_net": 10.070000000008001,
+          "win_rate": 0.5107398568019093
+        },
+        "0.25": {
+          "mean_net": -0.12596658711215278,
+          "total_net": -52.779999999992015,
+          "win_rate": 0.4701670644391408
+        },
+        "0.5": {
+          "mean_net": -0.3759665871121528,
+          "total_net": -157.52999999999201,
+          "win_rate": 0.42720763723150357
+        },
+        "1": {
+          "mean_net": -0.8759665871121528,
+          "total_net": -367.029999999992,
+          "win_rate": 0.3221957040572792
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        112,
+        130,
+        177,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.34169642857141624,
+        "8": 0.1403076923076854,
+        "9": -0.02564971751406628
+      },
+      "max_drawdown_gross_one_oz": 35.580000000004475
+    }
+  },
+  {
+    "feature": "stft_8192.entropy.band32_64",
+    "index": 287,
+    "horizon": 60,
+    "lo": 0.8829848051071167,
+    "hi": 0.9084487795829773,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.13249581086197668,
+    "validation": {
+      "trades": 643,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": 0.08248833592530107,
+      "median_gross": 0.11999999999966349,
+      "win_rate_gross": 0.5178849144634525,
+      "gross_total": 53.039999999968586,
+      "profit_factor_gross": 1.0893049568964968,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.08248833592530107,
+          "total_net": 53.039999999968586,
+          "win_rate": 0.5178849144634525
+        },
+        "0.1": {
+          "mean_net": -0.017511664074698938,
+          "total_net": -11.260000000031376,
+          "win_rate": 0.5007776049766719
+        },
+        "0.25": {
+          "mean_net": -0.16751166407469892,
+          "total_net": -107.71000000003141,
+          "win_rate": 0.4681181959564541
+        },
+        "0.5": {
+          "mean_net": -0.4175116640746989,
+          "total_net": -268.4600000000314,
+          "win_rate": 0.416796267496112
+        },
+        "1": {
+          "mean_net": -0.917511664074699,
+          "total_net": -589.9600000000314,
+          "win_rate": 0.30793157076205285
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        203,
+        220,
+        220,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.13206896551716832,
+        "8": 0.029454545454514532,
+        "9": 0.08977272727268283
+      },
+      "max_drawdown_gross_one_oz": 46.60000000001378
+    }
+  },
+  {
+    "feature": "base.momentum_240",
+    "index": 6,
+    "horizon": 60,
+    "lo": -0.7566031098365783,
+    "hi": 0.8259748697280895,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.12376854303727203,
+    "validation": {
+      "trades": 938,
+      "active_days": 78,
+      "mean_gross_usd_per_oz": 0.0461620469083,
+      "median_gross": 0.06499999999937245,
+      "win_rate_gross": 0.509594882729211,
+      "gross_total": 43.2999999999854,
+      "profit_factor_gross": 1.0498359901018415,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.0461620469083,
+          "total_net": 43.2999999999854,
+          "win_rate": 0.509594882729211
+        },
+        "0.1": {
+          "mean_net": -0.0538379530917,
+          "total_net": -50.50000000001457,
+          "win_rate": 0.48933901918976547
+        },
+        "0.25": {
+          "mean_net": -0.2038379530917,
+          "total_net": -191.2000000000146,
+          "win_rate": 0.4541577825159915
+        },
+        "0.5": {
+          "mean_net": -0.4538379530917,
+          "total_net": -425.7000000000146,
+          "win_rate": 0.39232409381663114
+        },
+        "1": {
+          "mean_net": -0.9538379530917,
+          "total_net": -894.7000000000146,
+          "win_rate": 0.29850746268656714
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        311,
+        303,
+        324,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.20437299035375095,
+        "8": 0.07287128712866986,
+        "9": -0.1306790123457349
+      },
+      "max_drawdown_gross_one_oz": 83.04000000002247
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p948.09571",
+    "index": 448,
+    "horizon": 15,
+    "lo": -0.8275247812271118,
+    "hi": 0.8114352226257324,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06190985873260705,
+    "validation": {
+      "trades": 2477,
+      "active_days": 77,
+      "mean_gross_usd_per_oz": 0.044303593056118015,
+      "median_gross": 0.030000000000427463,
+      "win_rate_gross": 0.5106984255147355,
+      "gross_total": 109.74000000000433,
+      "profit_factor_gross": 1.0919557566616425,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.044303593056118015,
+          "total_net": 109.74000000000433,
+          "win_rate": 0.5106984255147355
+        },
+        "0.1": {
+          "mean_net": -0.05569640694388199,
+          "total_net": -137.95999999999572,
+          "win_rate": 0.46871215179652803
+        },
+        "0.25": {
+          "mean_net": -0.20569640694388197,
+          "total_net": -509.50999999999567,
+          "win_rate": 0.4041178845377473
+        },
+        "0.5": {
+          "mean_net": -0.45569640694388197,
+          "total_net": -1128.7599999999957,
+          "win_rate": 0.3039967702866371
+        },
+        "1": {
+          "mean_net": -0.955696406943882,
+          "total_net": -2367.2599999999957,
+          "win_rate": 0.1723859507468712
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        835,
+        839,
+        803,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.11080239520959934,
+        "8": 0.023551847437405442,
+        "9": -0.003163138231624258
+      },
+      "max_drawdown_gross_one_oz": 75.77000000000271
+    }
+  },
+  {
+    "feature": "stft_8192.entropy.band32_64",
+    "index": 287,
+    "horizon": 15,
+    "lo": 0.8829801678657532,
+    "hi": 0.9084259271621704,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.06088862609221024,
+    "validation": {
+      "trades": 2504,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": 0.03806709265175898,
+      "median_gross": 0.03999999999894044,
+      "win_rate_gross": 0.5155750798722045,
+      "gross_total": 95.32000000000448,
+      "profit_factor_gross": 1.0850122630992258,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.03806709265175898,
+          "total_net": 95.32000000000448,
+          "win_rate": 0.5155750798722045
+        },
+        "0.1": {
+          "mean_net": -0.06193290734824103,
+          "total_net": -155.07999999999552,
+          "win_rate": 0.46565495207667734
+        },
+        "0.25": {
+          "mean_net": -0.21193290734824102,
+          "total_net": -530.6799999999955,
+          "win_rate": 0.3973642172523962
+        },
+        "0.5": {
+          "mean_net": -0.461932907348241,
+          "total_net": -1156.6799999999955,
+          "win_rate": 0.305111821086262
+        },
+        "1": {
+          "mean_net": -0.961932907348241,
+          "total_net": -2408.6799999999957,
+          "win_rate": 0.1665335463258786
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        803,
+        856,
+        845,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.03864259028642927,
+        "8": 0.029778037383167488,
+        "9": 0.045917159763325936
+      },
+      "max_drawdown_gross_one_oz": 37.77999999999429
+    }
+  },
+  {
+    "feature": "stft_512.entropy.band16_32",
+    "index": 186,
+    "horizon": 60,
+    "lo": 0.8368597388267517,
+    "hi": 0.9099955081939697,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.16193635247670513,
+    "validation": {
+      "trades": 750,
+      "active_days": 71,
+      "mean_gross_usd_per_oz": 0.02565333333332516,
+      "median_gross": 0.0,
+      "win_rate_gross": 0.49733333333333335,
+      "gross_total": 19.23999999999387,
+      "profit_factor_gross": 1.0261072514111942,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.02565333333332516,
+          "total_net": 19.23999999999387,
+          "win_rate": 0.49733333333333335
+        },
+        "0.1": {
+          "mean_net": -0.07434666666667485,
+          "total_net": -55.76000000000611,
+          "win_rate": 0.48133333333333334
+        },
+        "0.25": {
+          "mean_net": -0.22434666666667485,
+          "total_net": -168.26000000000613,
+          "win_rate": 0.4573333333333333
+        },
+        "0.5": {
+          "mean_net": -0.47434666666667485,
+          "total_net": -355.76000000000613,
+          "win_rate": 0.4066666666666667
+        },
+        "1": {
+          "mean_net": -0.9743466666666748,
+          "total_net": -730.7600000000061,
+          "win_rate": 0.3
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        256,
+        241,
+        253,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.08058593749994802,
+        "8": -0.018879668049795174,
+        "9": 0.012490118577105979
+      },
+      "max_drawdown_gross_one_oz": 106.79999999999109
+    }
+  },
+  {
+    "feature": "stft_8192.cos.p1638.40000",
+    "index": 244,
+    "horizon": 60,
+    "lo": -0.8051090836524963,
+    "hi": 0.8121878266334541,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.14934961921096768,
+    "validation": {
+      "trades": 636,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": 0.025345911949713248,
+      "median_gross": 0.005000000000222826,
+      "win_rate_gross": 0.5,
+      "gross_total": 16.120000000017626,
+      "profit_factor_gross": 1.0253248079430943,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.025345911949713248,
+          "total_net": 16.120000000017626,
+          "win_rate": 0.5
+        },
+        "0.1": {
+          "mean_net": -0.07465408805028675,
+          "total_net": -47.47999999998236,
+          "win_rate": 0.4779874213836478
+        },
+        "0.25": {
+          "mean_net": -0.22465408805028675,
+          "total_net": -142.87999999998237,
+          "win_rate": 0.44339622641509435
+        },
+        "0.5": {
+          "mean_net": -0.47465408805028675,
+          "total_net": -301.8799999999824,
+          "win_rate": 0.40408805031446543
+        },
+        "1": {
+          "mean_net": -0.9746540880502867,
+          "total_net": -619.8799999999824,
+          "win_rate": 0.32075471698113206
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        214,
+        209,
+        213,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.13845794392529898,
+        "8": 0.10770334928231075,
+        "9": -0.16910798122065399
+      },
+      "max_drawdown_gross_one_oz": 108.4299999999937
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p628.72978",
+    "index": 444,
+    "horizon": 60,
+    "lo": -0.8312254190444945,
+    "hi": 0.8314200997352603,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.12442160271382516,
+    "validation": {
+      "trades": 764,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": 0.025287958115173936,
+      "median_gross": 0.029999999999631655,
+      "win_rate_gross": 0.5052356020942408,
+      "gross_total": 19.319999999992888,
+      "profit_factor_gross": 1.024265869526982,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.025287958115173936,
+          "total_net": 19.319999999992888,
+          "win_rate": 0.5052356020942408
+        },
+        "0.1": {
+          "mean_net": -0.07471204188482607,
+          "total_net": -57.08000000000709,
+          "win_rate": 0.48429319371727747
+        },
+        "0.25": {
+          "mean_net": -0.22471204188482607,
+          "total_net": -171.6800000000071,
+          "win_rate": 0.4607329842931937
+        },
+        "0.5": {
+          "mean_net": -0.4747120418848261,
+          "total_net": -362.6800000000071,
+          "win_rate": 0.40575916230366493
+        },
+        "1": {
+          "mean_net": -0.9747120418848261,
+          "total_net": -744.6800000000071,
+          "win_rate": 0.3206806282722513
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        256,
+        249,
+        259,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.13015625000004682,
+        "8": 0.10433734939759591,
+        "9": -0.15436293436301343
+      },
+      "max_drawdown_gross_one_oz": 71.37000000001535
+    }
+  },
+  {
+    "feature": "stft_8192.energy.p21.00513",
+    "index": 208,
+    "horizon": 15,
+    "lo": 0.23106950521469116,
+    "hi": 1.2237900495529175,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.06129439922864127,
+    "validation": {
+      "trades": 1634,
+      "active_days": 34,
+      "mean_gross_usd_per_oz": 0.024908200734395824,
+      "median_gross": 0.030000000000768523,
+      "win_rate_gross": 0.5097919216646267,
+      "gross_total": 40.700000000002774,
+      "profit_factor_gross": 1.0559227249618752,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.024908200734395824,
+          "total_net": 40.700000000002774,
+          "win_rate": 0.5097919216646267
+        },
+        "0.1": {
+          "mean_net": -0.07509179926560418,
+          "total_net": -122.6999999999972,
+          "win_rate": 0.4638922888616891
+        },
+        "0.25": {
+          "mean_net": -0.2250917992656042,
+          "total_net": -367.7999999999972,
+          "win_rate": 0.3929008567931457
+        },
+        "0.5": {
+          "mean_net": -0.4750917992656042,
+          "total_net": -776.2999999999972,
+          "win_rate": 0.295593635250918
+        },
+        "1": {
+          "mean_net": -0.9750917992656042,
+          "total_net": -1593.2999999999972,
+          "win_rate": 0.15605875152998777
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        431,
+        510,
+        693,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.0666589327145766,
+        "8": 0.049196078431397804,
+        "9": -0.018932178932168274
+      },
+      "max_drawdown_gross_one_oz": 39.81000000000654
+    }
+  },
+  {
+    "feature": "base.position_15",
+    "index": 15,
+    "horizon": 15,
+    "lo": 0.08759123831987381,
+    "hi": 0.9277108311653137,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06341946207118321,
+    "validation": {
+      "trades": 4861,
+      "active_days": 79,
+      "mean_gross_usd_per_oz": 0.003398477679479289,
+      "median_gross": 0.0399999999992815,
+      "win_rate_gross": 0.5157375025714873,
+      "gross_total": 16.519999999948823,
+      "profit_factor_gross": 1.0070221674353144,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.003398477679479289,
+          "total_net": 16.519999999948823,
+          "win_rate": 0.5157375025714873
+        },
+        "0.1": {
+          "mean_net": -0.09660152232052072,
+          "total_net": -469.5800000000512,
+          "win_rate": 0.47006788726599463
+        },
+        "0.25": {
+          "mean_net": -0.2466015223205207,
+          "total_net": -1198.7300000000512,
+          "win_rate": 0.39642048961119114
+        },
+        "0.5": {
+          "mean_net": -0.49660152232052074,
+          "total_net": -2413.9800000000514,
+          "win_rate": 0.2991154083521909
+        },
+        "1": {
+          "mean_net": -0.9966015223205207,
+          "total_net": -4844.4800000000505,
+          "win_rate": 0.16807241308372764
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1608,
+        1632,
+        1621,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.015603233830835539,
+        "8": -0.03276960784313253,
+        "9": 0.02770512029608733
+      },
+      "max_drawdown_gross_one_oz": 114.58000000001266
+    }
+  },
+  {
+    "feature": "stft_8192.cos.p1638.40000",
+    "index": 244,
+    "horizon": 120,
+    "lo": -0.8050105094909668,
+    "hi": 0.8140553832054139,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.2503823157753342,
+    "validation": {
+      "trades": 326,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": 0.0019018404907951189,
+      "median_gross": -0.21499999999969077,
+      "win_rate_gross": 0.450920245398773,
+      "gross_total": 0.6199999999992087,
+      "profit_factor_gross": 1.0013287897297396,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": 0.0019018404907951189,
+          "total_net": 0.6199999999992087,
+          "win_rate": 0.450920245398773
+        },
+        "0.1": {
+          "mean_net": -0.09809815950920489,
+          "total_net": -31.98000000000077,
+          "win_rate": 0.4386503067484663
+        },
+        "0.25": {
+          "mean_net": -0.24809815950920489,
+          "total_net": -80.88000000000079,
+          "win_rate": 0.4386503067484663
+        },
+        "0.5": {
+          "mean_net": -0.4980981595092049,
+          "total_net": -162.3800000000008,
+          "win_rate": 0.4110429447852761
+        },
+        "1": {
+          "mean_net": -0.9980981595092049,
+          "total_net": -325.3800000000008,
+          "win_rate": 0.34355828220858897
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        109,
+        108,
+        109,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.0698165137614628,
+        "8": 0.2551851851851699,
+        "9": -0.3169724770642072
+      },
+      "max_drawdown_gross_one_oz": 102.5499999999954
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.band512_1024",
+    "index": 848,
+    "horizon": 15,
+    "lo": -0.7797498106956482,
+    "hi": 0.7734420895576477,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.07606163603756505,
+    "validation": {
+      "trades": 2134,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -4.217432049379213e-05,
+      "median_gross": 0.0,
+      "win_rate_gross": 0.49625117150890347,
+      "gross_total": -0.0899999999337524,
+      "profit_factor_gross": 0.9999087877897926,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -4.217432049379213e-05,
+          "total_net": -0.0899999999337524,
+          "win_rate": 0.49625117150890347
+        },
+        "0.1": {
+          "mean_net": -0.1000421743204938,
+          "total_net": -213.48999999993373,
+          "win_rate": 0.4536082474226804
+        },
+        "0.25": {
+          "mean_net": -0.2500421743204938,
+          "total_net": -533.5899999999338,
+          "win_rate": 0.37910028116213684
+        },
+        "0.5": {
+          "mean_net": -0.5000421743204938,
+          "total_net": -1067.0899999999338,
+          "win_rate": 0.28256794751640113
+        },
+        "1": {
+          "mean_net": -1.0000421743204937,
+          "total_net": -2134.0899999999338,
+          "win_rate": 0.1513589503280225
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        718,
+        713,
+        703,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.026086350974868635,
+        "8": 0.03239831697056791,
+        "9": -0.006344238975807949
+      },
+      "max_drawdown_gross_one_oz": 62.41999999998711
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p855.56920",
+    "index": 447,
+    "horizon": 60,
+    "lo": -0.823384928703308,
+    "hi": 0.8241827726364136,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.17166192246153067,
+    "validation": {
+      "trades": 729,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.00015089163241196386,
+      "median_gross": -0.09999999999990905,
+      "win_rate_gross": 0.4732510288065844,
+      "gross_total": -0.11000000002832167,
+      "profit_factor_gross": 0.9998506834624763,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.00015089163241196386,
+          "total_net": -0.11000000002832167,
+          "win_rate": 0.4732510288065844
+        },
+        "0.1": {
+          "mean_net": -0.10015089163241198,
+          "total_net": -73.0100000000283,
+          "win_rate": 0.45816186556927296
+        },
+        "0.25": {
+          "mean_net": -0.25015089163241194,
+          "total_net": -182.36000000002832,
+          "win_rate": 0.41975308641975306
+        },
+        "0.5": {
+          "mean_net": -0.500150891632412,
+          "total_net": -364.6100000000283,
+          "win_rate": 0.3662551440329218
+        },
+        "1": {
+          "mean_net": -1.000150891632412,
+          "total_net": -729.1100000000283,
+          "win_rate": 0.2716049382716049
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        244,
+        239,
+        246,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.15094262295076252,
+        "8": 0.03899581589951283,
+        "9": -0.18804878048779652
+      },
+      "max_drawdown_gross_one_oz": 115.41000000000349
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p855.56920",
+    "index": 795,
+    "horizon": 15,
+    "lo": -0.8734102249145508,
+    "hi": 0.8705348968505859,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.05988704795413371,
+    "validation": {
+      "trades": 2213,
+      "active_days": 78,
+      "mean_gross_usd_per_oz": -0.0037370085856087815,
+      "median_gross": 0.0,
+      "win_rate_gross": 0.49932218707636694,
+      "gross_total": -8.269999999952233,
+      "profit_factor_gross": 0.9921986283925097,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.0037370085856087815,
+          "total_net": -8.269999999952233,
+          "win_rate": 0.49932218707636694
+        },
+        "0.1": {
+          "mean_net": -0.10373700858560879,
+          "total_net": -229.56999999995224,
+          "win_rate": 0.4527790329868956
+        },
+        "0.25": {
+          "mean_net": -0.25373700858560877,
+          "total_net": -561.5199999999522,
+          "win_rate": 0.38770899231812017
+        },
+        "0.5": {
+          "mean_net": -0.5037370085856088,
+          "total_net": -1114.7699999999522,
+          "win_rate": 0.2851333032083145
+        },
+        "1": {
+          "mean_net": -1.0037370085856088,
+          "total_net": -2221.2699999999522,
+          "win_rate": 0.15137821961138725
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        777,
+        713,
+        723,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.007271557271584896,
+        "8": -0.002762973352024132,
+        "9": -0.01652835408019432
+      },
+      "max_drawdown_gross_one_oz": 104.1499999999935
+    }
+  },
+  {
+    "feature": "stft_8192.cos.p1638.40000",
+    "index": 244,
+    "horizon": 15,
+    "lo": -0.8032870888710022,
+    "hi": 0.8126664757728577,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06409991225670819,
+    "validation": {
+      "trades": 2329,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": -0.006174323744090368,
+      "median_gross": -0.020000000000209184,
+      "win_rate_gross": 0.48647488192357236,
+      "gross_total": -14.379999999986467,
+      "profit_factor_gross": 0.9876237197693549,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.006174323744090368,
+          "total_net": -14.379999999986467,
+          "win_rate": 0.48647488192357236
+        },
+        "0.1": {
+          "mean_net": -0.10617432374409037,
+          "total_net": -247.27999999998642,
+          "win_rate": 0.44783168741949336
+        },
+        "0.25": {
+          "mean_net": -0.2561743237440904,
+          "total_net": -596.6299999999865,
+          "win_rate": 0.3769858308286818
+        },
+        "0.5": {
+          "mean_net": -0.5061743237440903,
+          "total_net": -1178.8799999999865,
+          "win_rate": 0.29325890940317734
+        },
+        "1": {
+          "mean_net": -1.0061743237440903,
+          "total_net": -2343.3799999999865,
+          "win_rate": 0.17088879347359381
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        788,
+        764,
+        777,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.027005076142119538,
+        "8": 0.008324607329859764,
+        "9": -0.05407979407978059
+      },
+      "max_drawdown_gross_one_oz": 119.85999999997148
+    }
+  },
+  {
+    "feature": "wavelet_returns.sin.p628.72978",
+    "index": 519,
+    "horizon": 15,
+    "lo": -0.7975481152534485,
+    "hi": 0.7768023610115051,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06679127601540759,
+    "validation": {
+      "trades": 2627,
+      "active_days": 79,
+      "mean_gross_usd_per_oz": -0.0063837076513036705,
+      "median_gross": -0.019999999999754436,
+      "win_rate_gross": 0.4876284735439665,
+      "gross_total": -16.769999999974743,
+      "profit_factor_gross": 0.9866202857849712,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.0063837076513036705,
+          "total_net": -16.769999999974743,
+          "win_rate": 0.4876284735439665
+        },
+        "0.1": {
+          "mean_net": -0.10638370765130367,
+          "total_net": -279.46999999997473,
+          "win_rate": 0.4389036924248192
+        },
+        "0.25": {
+          "mean_net": -0.2563837076513037,
+          "total_net": -673.5199999999747,
+          "win_rate": 0.36848115721355157
+        },
+        "0.5": {
+          "mean_net": -0.5063837076513037,
+          "total_net": -1330.2699999999747,
+          "win_rate": 0.28169014084507044
+        },
+        "1": {
+          "mean_net": -1.0063837076513036,
+          "total_net": -2643.769999999975,
+          "win_rate": 0.15607156452226875
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        881,
+        893,
+        853,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.0015323496026946521,
+        "8": -0.008297872340383356,
+        "9": -0.012555685814755444
+      },
+      "max_drawdown_gross_one_oz": 68.83999999995217
+    }
+  },
+  {
+    "feature": "base.momentum_30",
+    "index": 3,
+    "horizon": 15,
+    "lo": -0.7471614480018616,
+    "hi": 0.7588497400283813,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.07199736822691202,
+    "validation": {
+      "trades": 3847,
+      "active_days": 79,
+      "mean_gross_usd_per_oz": -0.006615544580194557,
+      "median_gross": 0.02000000000111868,
+      "win_rate_gross": 0.5087080842214713,
+      "gross_total": -25.45000000000846,
+      "profit_factor_gross": 0.9865890288243618,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.006615544580194557,
+          "total_net": -25.45000000000846,
+          "win_rate": 0.5087080842214713
+        },
+        "0.1": {
+          "mean_net": -0.10661554458019457,
+          "total_net": -410.1500000000084,
+          "win_rate": 0.465817520145568
+        },
+        "0.25": {
+          "mean_net": -0.25661554458019453,
+          "total_net": -987.2000000000085,
+          "win_rate": 0.3982323888744476
+        },
+        "0.5": {
+          "mean_net": -0.5066155445801945,
+          "total_net": -1948.9500000000085,
+          "win_rate": 0.30465297634520405
+        },
+        "1": {
+          "mean_net": -1.0066155445801945,
+          "total_net": -3872.4500000000085,
+          "win_rate": 0.17208214192877566
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1262,
+        1284,
+        1301,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.027218700475415924,
+        "8": 0.028785046728967742,
+        "9": -0.021568024596485887
+      },
+      "max_drawdown_gross_one_oz": 116.73999999995385
+    }
+  },
+  {
+    "feature": "stft_512.entropy.band16_32",
+    "index": 186,
+    "horizon": 15,
+    "lo": 0.8367783427238464,
+    "hi": 0.9097580313682556,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.07599585346525554,
+    "validation": {
+      "trades": 2524,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": -0.00763866877972851,
+      "median_gross": -0.009999999999195097,
+      "win_rate_gross": 0.49445324881141045,
+      "gross_total": -19.28000000003476,
+      "profit_factor_gross": 0.9830954301546361,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.00763866877972851,
+          "total_net": -19.28000000003476,
+          "win_rate": 0.49445324881141045
+        },
+        "0.1": {
+          "mean_net": -0.10763866877972851,
+          "total_net": -271.68000000003474,
+          "win_rate": 0.446513470681458
+        },
+        "0.25": {
+          "mean_net": -0.2576386687797285,
+          "total_net": -650.2800000000348,
+          "win_rate": 0.37916006339144215
+        },
+        "0.5": {
+          "mean_net": -0.5076386687797285,
+          "total_net": -1281.2800000000348,
+          "win_rate": 0.28090332805071316
+        },
+        "1": {
+          "mean_net": -1.0076386687797285,
+          "total_net": -2543.2800000000348,
+          "win_rate": 0.15095087163232965
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        880,
+        816,
+        828,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.002977272727233588,
+        "8": -0.02781862745100859,
+        "9": 0.0009661835749066327
+      },
+      "max_drawdown_gross_one_oz": 87.80000000001064
+    }
+  },
+  {
+    "feature": "base.position_60",
+    "index": 17,
+    "horizon": 15,
+    "lo": 0.16701902449131012,
+    "hi": 0.8620689511299133,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06339121756144353,
+    "validation": {
+      "trades": 3966,
+      "active_days": 79,
+      "mean_gross_usd_per_oz": -0.010078164397365792,
+      "median_gross": 0.029999999999290594,
+      "win_rate_gross": 0.5083207261724659,
+      "gross_total": -39.969999999952734,
+      "profit_factor_gross": 0.9794108102261087,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.010078164397365792,
+          "total_net": -39.969999999952734,
+          "win_rate": 0.5083207261724659
+        },
+        "0.1": {
+          "mean_net": -0.1100781643973658,
+          "total_net": -436.56999999995264,
+          "win_rate": 0.4682299546142209
+        },
+        "0.25": {
+          "mean_net": -0.2600781643973658,
+          "total_net": -1031.4699999999527,
+          "win_rate": 0.39813414019162885
+        },
+        "0.5": {
+          "mean_net": -0.5100781643973658,
+          "total_net": -2022.9699999999527,
+          "win_rate": 0.3023197175995966
+        },
+        "1": {
+          "mean_net": -1.0100781643973658,
+          "total_net": -4005.969999999953,
+          "win_rate": 0.17170953101361575
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1293,
+        1323,
+        1350,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.005931941221937751,
+        "8": -0.014739229024942107,
+        "9": -0.009481481481473195
+      },
+      "max_drawdown_gross_one_oz": 82.04999999997722
+    }
+  },
+  {
+    "feature": "stft_8192.energy.p819.20000",
+    "index": 219,
+    "horizon": 15,
+    "lo": 0.17395277321338654,
+    "hi": 0.9294192790985107,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.06951610970927492,
+    "validation": {
+      "trades": 2162,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": -0.010883441258090033,
+      "median_gross": 0.02499999999974989,
+      "win_rate_gross": 0.5115633672525439,
+      "gross_total": -23.52999999999065,
+      "profit_factor_gross": 0.9768576346201219,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.010883441258090033,
+          "total_net": -23.52999999999065,
+          "win_rate": 0.5115633672525439
+        },
+        "0.1": {
+          "mean_net": -0.11088344125809003,
+          "total_net": -239.72999999999064,
+          "win_rate": 0.4597594819611471
+        },
+        "0.25": {
+          "mean_net": -0.26088344125809004,
+          "total_net": -564.0299999999907,
+          "win_rate": 0.391304347826087
+        },
+        "0.5": {
+          "mean_net": -0.51088344125809,
+          "total_net": -1104.5299999999907,
+          "win_rate": 0.29417206290471787
+        },
+        "1": {
+          "mean_net": -1.01088344125809,
+          "total_net": -2185.5299999999907,
+          "win_rate": 0.15309898242368178
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        731,
+        529,
+        902,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.012270861833130567,
+        "8": 0.061493383742908525,
+        "9": -0.07209534368071807
+      },
+      "max_drawdown_gross_one_oz": 87.18000000001257
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p1584.29978",
+    "index": 453,
+    "horizon": 15,
+    "lo": -0.8387056589126587,
+    "hi": 0.8080933690071106,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.06399894643855251,
+    "validation": {
+      "trades": 2404,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": -0.01580698835275299,
+      "median_gross": -0.010000000000218279,
+      "win_rate_gross": 0.490432612312812,
+      "gross_total": -38.00000000001819,
+      "profit_factor_gross": 0.9688205128204975,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.01580698835275299,
+          "total_net": -38.00000000001819,
+          "win_rate": 0.490432612312812
+        },
+        "0.1": {
+          "mean_net": -0.115806988352753,
+          "total_net": -278.40000000001817,
+          "win_rate": 0.4509151414309484
+        },
+        "0.25": {
+          "mean_net": -0.265806988352753,
+          "total_net": -639.0000000000182,
+          "win_rate": 0.3826955074875208
+        },
+        "0.5": {
+          "mean_net": -0.515806988352753,
+          "total_net": -1240.0000000000182,
+          "win_rate": 0.2945091514143095
+        },
+        "1": {
+          "mean_net": -1.015806988352753,
+          "total_net": -2442.000000000018,
+          "win_rate": 0.1701331114808652
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        791,
+        789,
+        824,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.02187104930468044,
+        "8": 0.025817490494256093,
+        "9": -0.09183252427183068
+      },
+      "max_drawdown_gross_one_oz": 99.70000000000323
+    }
+  },
+  {
+    "feature": "base.momentum_240",
+    "index": 6,
+    "horizon": 15,
+    "lo": -0.7544904351234436,
+    "hi": 0.8297072052955627,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.09277590725902947,
+    "validation": {
+      "trades": 2901,
+      "active_days": 78,
+      "mean_gross_usd_per_oz": -0.019638055842814715,
+      "median_gross": 0.019999999998617568,
+      "win_rate_gross": 0.5056876938986556,
+      "gross_total": -56.970000000005484,
+      "profit_factor_gross": 0.9572008113590222,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.019638055842814715,
+          "total_net": -56.970000000005484,
+          "win_rate": 0.5056876938986556
+        },
+        "0.1": {
+          "mean_net": -0.11963805584281473,
+          "total_net": -347.07000000000545,
+          "win_rate": 0.452947259565667
+        },
+        "0.25": {
+          "mean_net": -0.2696380558428147,
+          "total_net": -782.2200000000055,
+          "win_rate": 0.38124784557049296
+        },
+        "0.5": {
+          "mean_net": -0.5196380558428148,
+          "total_net": -1507.4700000000055,
+          "win_rate": 0.28162702516373667
+        },
+        "1": {
+          "mean_net": -1.0196380558428146,
+          "total_net": -2957.9700000000057,
+          "win_rate": 0.14960358497069975
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        954,
+        914,
+        1033,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.04489517819709065,
+        "8": -0.043894967177247245,
+        "9": -0.057773475314642775
+      },
+      "max_drawdown_gross_one_oz": 121.79000000003566
+    }
+  },
+  {
+    "feature": "wavelet_logprice.cos.p567.37082",
+    "index": 716,
+    "horizon": 120,
+    "lo": -0.7385213494300842,
+    "hi": 0.7291383504867553,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.20267010726100826,
+    "validation": {
+      "trades": 420,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.019976190476144698,
+      "median_gross": 0.005000000000336513,
+      "win_rate_gross": 0.5,
+      "gross_total": -8.389999999980773,
+      "profit_factor_gross": 0.9866450185441943,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.019976190476144698,
+          "total_net": -8.389999999980773,
+          "win_rate": 0.5
+        },
+        "0.1": {
+          "mean_net": -0.1199761904761447,
+          "total_net": -50.38999999998075,
+          "win_rate": 0.48333333333333334
+        },
+        "0.25": {
+          "mean_net": -0.2699761904761447,
+          "total_net": -113.38999999998077,
+          "win_rate": 0.44761904761904764
+        },
+        "0.5": {
+          "mean_net": -0.5199761904761447,
+          "total_net": -218.38999999998077,
+          "win_rate": 0.4261904761904762
+        },
+        "1": {
+          "mean_net": -1.0199761904761446,
+          "total_net": -428.3899999999808,
+          "win_rate": 0.35714285714285715
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        142,
+        136,
+        142,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.39873239436621083,
+        "8": -0.17323529411757144,
+        "9": -0.29190140845065493
+      },
+      "max_drawdown_gross_one_oz": 99.5099999999818
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p855.56920",
+    "index": 447,
+    "horizon": 15,
+    "lo": -0.8274710774421692,
+    "hi": 0.8251619935035706,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.07998055684487165,
+    "validation": {
+      "trades": 2454,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.02031784841075327,
+      "median_gross": 0.009999999999877218,
+      "win_rate_gross": 0.5024449877750611,
+      "gross_total": -49.85999999998853,
+      "profit_factor_gross": 0.9602173444718478,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.02031784841075327,
+          "total_net": -49.85999999998853,
+          "win_rate": 0.5024449877750611
+        },
+        "0.1": {
+          "mean_net": -0.12031784841075327,
+          "total_net": -295.2599999999885,
+          "win_rate": 0.4572127139364303
+        },
+        "0.25": {
+          "mean_net": -0.2703178484107533,
+          "total_net": -663.3599999999885,
+          "win_rate": 0.3859005704971475
+        },
+        "0.5": {
+          "mean_net": -0.5203178484107532,
+          "total_net": -1276.8599999999885,
+          "win_rate": 0.2864710676446618
+        },
+        "1": {
+          "mean_net": -1.0203178484107533,
+          "total_net": -2503.8599999999888,
+          "win_rate": 0.16299918500407498
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        815,
+        817,
+        822,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.051398773006117796,
+        "8": -0.012374541003660994,
+        "9": -0.09931873479316727
+      },
+      "max_drawdown_gross_one_oz": 142.00999999998294
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p628.72978",
+    "index": 444,
+    "horizon": 120,
+    "lo": -0.8317277193069458,
+    "hi": 0.8336341619491577,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.18056179343470485,
+    "validation": {
+      "trades": 439,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.024031890660570918,
+      "median_gross": 0.050000000001091394,
+      "win_rate_gross": 0.5056947608200456,
+      "gross_total": -10.549999999990632,
+      "profit_factor_gross": 0.9843243885768763,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.024031890660570918,
+          "total_net": -10.549999999990632,
+          "win_rate": 0.5056947608200456
+        },
+        "0.1": {
+          "mean_net": -0.12403189066057092,
+          "total_net": -54.44999999999065,
+          "win_rate": 0.49658314350797267
+        },
+        "0.25": {
+          "mean_net": -0.27403189066057093,
+          "total_net": -120.29999999999063,
+          "win_rate": 0.46924829157175396
+        },
+        "0.5": {
+          "mean_net": -0.5240318906605709,
+          "total_net": -230.04999999999063,
+          "win_rate": 0.4396355353075171
+        },
+        "1": {
+          "mean_net": -1.024031890660571,
+          "total_net": -449.54999999999063,
+          "win_rate": 0.37585421412300685
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        148,
+        146,
+        145,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.0909459459459677,
+        "8": 0.28171232876711,
+        "9": -0.44924137931028907
+      },
+      "max_drawdown_gross_one_oz": 105.60999999999581
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p772.07254",
+    "index": 794,
+    "horizon": 15,
+    "lo": -0.8777897953987122,
+    "hi": 0.86830735206604,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.08088026250593477,
+    "validation": {
+      "trades": 2144,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.024701492537315253,
+      "median_gross": 0.0,
+      "win_rate_gross": 0.4986007462686567,
+      "gross_total": -52.9600000000039,
+      "profit_factor_gross": 0.9475851148060136,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.024701492537315253,
+          "total_net": -52.9600000000039,
+          "win_rate": 0.4986007462686567
+        },
+        "0.1": {
+          "mean_net": -0.12470149253731526,
+          "total_net": -267.3600000000039,
+          "win_rate": 0.44449626865671643
+        },
+        "0.25": {
+          "mean_net": -0.27470149253731524,
+          "total_net": -588.9600000000039,
+          "win_rate": 0.38152985074626866
+        },
+        "0.5": {
+          "mean_net": -0.5247014925373152,
+          "total_net": -1124.960000000004,
+          "win_rate": 0.2691231343283582
+        },
+        "1": {
+          "mean_net": -1.0247014925373152,
+          "total_net": -2196.9600000000037,
+          "win_rate": 0.14365671641791045
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        752,
+        684,
+        708,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.026688829787210676,
+        "8": 0.01087719298242464,
+        "9": -0.05696327683615809
+      },
+      "max_drawdown_gross_one_oz": 85.58000000000607
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p4423.92469",
+    "index": 661,
+    "horizon": 15,
+    "lo": 0.21074630320072174,
+    "hi": 1.1969401836395264,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.06300396208026987,
+    "validation": {
+      "trades": 1905,
+      "active_days": 43,
+      "mean_gross_usd_per_oz": -0.02785301837269861,
+      "median_gross": 0.009999999999308784,
+      "win_rate_gross": 0.5002624671916011,
+      "gross_total": -53.05999999999085,
+      "profit_factor_gross": 0.9450257982966994,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.02785301837269861,
+          "total_net": -53.05999999999085,
+          "win_rate": 0.5002624671916011
+        },
+        "0.1": {
+          "mean_net": -0.1278530183726986,
+          "total_net": -243.5599999999908,
+          "win_rate": 0.4519685039370079
+        },
+        "0.25": {
+          "mean_net": -0.2778530183726986,
+          "total_net": -529.3099999999909,
+          "win_rate": 0.3858267716535433
+        },
+        "0.5": {
+          "mean_net": -0.5278530183726986,
+          "total_net": -1005.5599999999909,
+          "win_rate": 0.30341207349081367
+        },
+        "1": {
+          "mean_net": -1.0278530183726986,
+          "total_net": -1958.0599999999909,
+          "win_rate": 0.1679790026246719
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        712,
+        630,
+        563,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.05089887640447779,
+        "8": -0.002079365079352722,
+        "9": -0.027548845470711278
+      },
+      "max_drawdown_gross_one_oz": 83.45999999998753
+    }
+  },
+  {
+    "feature": "wavelet_returns.sin.p628.72978",
+    "index": 519,
+    "horizon": 60,
+    "lo": -0.7954285621643067,
+    "hi": 0.7724537014961245,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.12404540492057878,
+    "validation": {
+      "trades": 830,
+      "active_days": 78,
+      "mean_gross_usd_per_oz": -0.0362891566264974,
+      "median_gross": -0.12999999999976808,
+      "win_rate_gross": 0.4746987951807229,
+      "gross_total": -30.119999999992842,
+      "profit_factor_gross": 0.9624612086693263,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.0362891566264974,
+          "total_net": -30.119999999992842,
+          "win_rate": 0.4746987951807229
+        },
+        "0.1": {
+          "mean_net": -0.1362891566264974,
+          "total_net": -113.11999999999281,
+          "win_rate": 0.45903614457831327
+        },
+        "0.25": {
+          "mean_net": -0.2862891566264974,
+          "total_net": -237.61999999999284,
+          "win_rate": 0.42530120481927713
+        },
+        "0.5": {
+          "mean_net": -0.5362891566264973,
+          "total_net": -445.11999999999284,
+          "win_rate": 0.3783132530120482
+        },
+        "1": {
+          "mean_net": -1.0362891566264973,
+          "total_net": -860.1199999999928,
+          "win_rate": 0.2855421686746988
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        288,
+        277,
+        265,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.06708333333334496,
+        "8": -0.12368231046932882,
+        "9": -0.05728301886789474
+      },
+      "max_drawdown_gross_one_oz": 105.87999999999715
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p772.07254",
+    "index": 446,
+    "horizon": 60,
+    "lo": -0.8208994626998901,
+    "hi": 0.8210513830184938,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.17564211647354244,
+    "validation": {
+      "trades": 754,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.040689655172425336,
+      "median_gross": -0.10499999999944976,
+      "win_rate_gross": 0.4761273209549072,
+      "gross_total": -30.680000000008704,
+      "profit_factor_gross": 0.9630405975183601,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.040689655172425336,
+          "total_net": -30.680000000008704,
+          "win_rate": 0.4761273209549072
+        },
+        "0.1": {
+          "mean_net": -0.14068965517242535,
+          "total_net": -106.08000000000868,
+          "win_rate": 0.4588859416445623
+        },
+        "0.25": {
+          "mean_net": -0.29068965517242534,
+          "total_net": -219.1800000000087,
+          "win_rate": 0.4323607427055703
+        },
+        "0.5": {
+          "mean_net": -0.5406896551724253,
+          "total_net": -407.6800000000087,
+          "win_rate": 0.3819628647214854
+        },
+        "1": {
+          "mean_net": -1.0406896551724254,
+          "total_net": -784.6800000000087,
+          "win_rate": 0.3050397877984085
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        254,
+        250,
+        250,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.03153543307095473,
+        "8": 0.1399600000000546,
+        "9": -0.23063999999999943
+      },
+      "max_drawdown_gross_one_oz": 110.739999999995
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p696.72448",
+    "index": 445,
+    "horizon": 15,
+    "lo": -0.827741801738739,
+    "hi": 0.830589234828949,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.061337582809314485,
+    "validation": {
+      "trades": 2512,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.04767117834396932,
+      "median_gross": 0.009999999999536158,
+      "win_rate_gross": 0.5023885350318471,
+      "gross_total": -119.75000000005093,
+      "profit_factor_gross": 0.9101549311625087,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.04767117834396932,
+          "total_net": -119.75000000005093,
+          "win_rate": 0.5023885350318471
+        },
+        "0.1": {
+          "mean_net": -0.1476711783439693,
+          "total_net": -370.95000000005086,
+          "win_rate": 0.45979299363057324
+        },
+        "0.25": {
+          "mean_net": -0.29767117834396933,
+          "total_net": -747.7500000000509,
+          "win_rate": 0.3960987261146497
+        },
+        "0.5": {
+          "mean_net": -0.5476711783439693,
+          "total_net": -1375.750000000051,
+          "win_rate": 0.3057324840764331
+        },
+        "1": {
+          "mean_net": -1.0476711783439694,
+          "total_net": -2631.750000000051,
+          "win_rate": 0.16560509554140126
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        832,
+        863,
+        817,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.014495192307659995,
+        "8": -0.01336037079955254,
+        "9": -0.14722154222767467
+      },
+      "max_drawdown_gross_one_oz": 150.64000000002284
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p4423.92469",
+    "index": 661,
+    "horizon": 60,
+    "lo": 0.21185798645019532,
+    "hi": 1.1971801280975343,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.13221840154339187,
+    "validation": {
+      "trades": 492,
+      "active_days": 42,
+      "mean_gross_usd_per_oz": -0.049126016260123466,
+      "median_gross": -0.0649999999998272,
+      "win_rate_gross": 0.4878048780487805,
+      "gross_total": -24.169999999980746,
+      "profit_factor_gross": 0.9518525896414737,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.049126016260123466,
+          "total_net": -24.169999999980746,
+          "win_rate": 0.4878048780487805
+        },
+        "0.1": {
+          "mean_net": -0.14912601626012348,
+          "total_net": -73.36999999998072,
+          "win_rate": 0.4695121951219512
+        },
+        "0.25": {
+          "mean_net": -0.2991260162601235,
+          "total_net": -147.16999999998075,
+          "win_rate": 0.4369918699186992
+        },
+        "0.5": {
+          "mean_net": -0.5491260162601235,
+          "total_net": -270.16999999998075,
+          "win_rate": 0.3780487804878049
+        },
+        "1": {
+          "mean_net": -1.0491260162601235,
+          "total_net": -516.1699999999807,
+          "win_rate": 0.29471544715447157
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        187,
+        160,
+        145,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.1936898395721343,
+        "8": 0.01999999999997897,
+        "9": 0.0610344827587016
+      },
+      "max_drawdown_gross_one_oz": 79.67999999999006
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p1429.68488",
+    "index": 452,
+    "horizon": 60,
+    "lo": -0.8342414259910582,
+    "hi": 0.8177154183387758,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.115584015814821,
+    "validation": {
+      "trades": 691,
+      "active_days": 72,
+      "mean_gross_usd_per_oz": -0.05192474674385064,
+      "median_gross": -0.09999999999899956,
+      "win_rate_gross": 0.48625180897250364,
+      "gross_total": -35.88000000000079,
+      "profit_factor_gross": 0.951380137403958,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.05192474674385064,
+          "total_net": -35.88000000000079,
+          "win_rate": 0.48625180897250364
+        },
+        "0.1": {
+          "mean_net": -0.15192474674385065,
+          "total_net": -104.98000000000074,
+          "win_rate": 0.46599131693198265
+        },
+        "0.25": {
+          "mean_net": -0.3019247467438506,
+          "total_net": -208.6300000000008,
+          "win_rate": 0.44138929088277856
+        },
+        "0.5": {
+          "mean_net": -0.5519247467438506,
+          "total_net": -381.3800000000008,
+          "win_rate": 0.3878437047756874
+        },
+        "1": {
+          "mean_net": -1.0519247467438506,
+          "total_net": -726.8800000000008,
+          "win_rate": 0.2981186685962373
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        229,
+        233,
+        229,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.18951965065504706,
+        "8": -0.04304721030044273,
+        "9": -0.3024017467249057
+      },
+      "max_drawdown_gross_one_oz": 114.82000000000244
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p2647.41816",
+    "index": 656,
+    "horizon": 15,
+    "lo": 0.27112194895744324,
+    "hi": 1.5809675455093384,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.06960052607041549,
+    "validation": {
+      "trades": 2323,
+      "active_days": 50,
+      "mean_gross_usd_per_oz": -0.053366336633667,
+      "median_gross": -0.010000000000445652,
+      "win_rate_gross": 0.49246663796814466,
+      "gross_total": -123.97000000000844,
+      "profit_factor_gross": 0.8994639482924953,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.053366336633667,
+          "total_net": -123.97000000000844,
+          "win_rate": 0.49246663796814466
+        },
+        "0.1": {
+          "mean_net": -0.153366336633667,
+          "total_net": -356.2700000000084,
+          "win_rate": 0.44468359879466207
+        },
+        "0.25": {
+          "mean_net": -0.303366336633667,
+          "total_net": -704.7200000000084,
+          "win_rate": 0.3835557468790357
+        },
+        "0.5": {
+          "mean_net": -0.553366336633667,
+          "total_net": -1285.4700000000084,
+          "win_rate": 0.2892811020232458
+        },
+        "1": {
+          "mean_net": -1.053366336633667,
+          "total_net": -2446.9700000000084,
+          "win_rate": 0.15411106328024107
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        804,
+        855,
+        664,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.010808457711436632,
+        "8": -0.042795321637435046,
+        "9": -0.11850903614458798
+      },
+      "max_drawdown_gross_one_oz": 134.39000000001442
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p772.07254",
+    "index": 446,
+    "horizon": 15,
+    "lo": -0.8237541317939758,
+    "hi": 0.8210747241973877,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.08905076433139297,
+    "validation": {
+      "trades": 2530,
+      "active_days": 77,
+      "mean_gross_usd_per_oz": -0.056442687747029444,
+      "median_gross": -0.02000000000100499,
+      "win_rate_gross": 0.4889328063241107,
+      "gross_total": -142.7999999999845,
+      "profit_factor_gross": 0.8927533401927219,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.056442687747029444,
+          "total_net": -142.7999999999845,
+          "win_rate": 0.4889328063241107
+        },
+        "0.1": {
+          "mean_net": -0.15644268774702946,
+          "total_net": -395.7999999999845,
+          "win_rate": 0.4450592885375494
+        },
+        "0.25": {
+          "mean_net": -0.30644268774702943,
+          "total_net": -775.2999999999845,
+          "win_rate": 0.3822134387351779
+        },
+        "0.5": {
+          "mean_net": -0.5564426877470294,
+          "total_net": -1407.7999999999845,
+          "win_rate": 0.29051383399209485
+        },
+        "1": {
+          "mean_net": -1.0564426877470294,
+          "total_net": -2672.7999999999847,
+          "win_rate": 0.16205533596837945
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        860,
+        843,
+        827,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.03740697674418111,
+        "8": -0.030960854092520917,
+        "9": -0.102212817412326
+      },
+      "max_drawdown_gross_one_oz": 160.32999999999106
+    }
+  },
+  {
+    "feature": "stft_8192.energy.p819.20000",
+    "index": 219,
+    "horizon": 60,
+    "lo": 0.1740525543689728,
+    "hi": 0.9308421969413763,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.14024967416503925,
+    "validation": {
+      "trades": 555,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": -0.07479279279282473,
+      "median_gross": 0.09000000000037289,
+      "win_rate_gross": 0.5207207207207207,
+      "gross_total": -41.510000000017726,
+      "profit_factor_gross": 0.9218326303103025,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.07479279279282473,
+          "total_net": -41.510000000017726,
+          "win_rate": 0.5207207207207207
+        },
+        "0.1": {
+          "mean_net": -0.17479279279282472,
+          "total_net": -97.01000000001771,
+          "win_rate": 0.4954954954954955
+        },
+        "0.25": {
+          "mean_net": -0.32479279279282475,
+          "total_net": -180.26000000001773,
+          "win_rate": 0.45585585585585586
+        },
+        "0.5": {
+          "mean_net": -0.5747927927928247,
+          "total_net": -319.0100000000177,
+          "win_rate": 0.3891891891891892
+        },
+        "1": {
+          "mean_net": -1.0747927927928247,
+          "total_net": -596.5100000000177,
+          "win_rate": 0.2810810810810811
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        188,
+        135,
+        232,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.04388297872337523,
+        "8": 0.08799999999997554,
+        "9": -0.26568965517245247
+      },
+      "max_drawdown_gross_one_oz": 84.08000000001516
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p855.56920",
+    "index": 447,
+    "horizon": 120,
+    "lo": -0.8212290287017823,
+    "hi": 0.8204816460609439,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.2313351847074047,
+    "validation": {
+      "trades": 423,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.1041134751772952,
+      "median_gross": -0.20999999999958163,
+      "win_rate_gross": 0.46099290780141844,
+      "gross_total": -44.03999999999587,
+      "profit_factor_gross": 0.9347526556735912,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.1041134751772952,
+          "total_net": -44.03999999999587,
+          "win_rate": 0.46099290780141844
+        },
+        "0.1": {
+          "mean_net": -0.20411347517729522,
+          "total_net": -86.33999999999588,
+          "win_rate": 0.44680851063829785
+        },
+        "0.25": {
+          "mean_net": -0.3541134751772952,
+          "total_net": -149.78999999999587,
+          "win_rate": 0.4326241134751773
+        },
+        "0.5": {
+          "mean_net": -0.6041134751772952,
+          "total_net": -255.53999999999587,
+          "win_rate": 0.40189125295508277
+        },
+        "1": {
+          "mean_net": -1.1041134751772952,
+          "total_net": -467.03999999999587,
+          "win_rate": 0.3380614657210402
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        147,
+        141,
+        135,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.005374149659862151,
+        "8": 0.13787234042550972,
+        "9": -0.4643703703703186
+      },
+      "max_drawdown_gross_one_oz": 149.22999999999547
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p3992.18528",
+    "index": 660,
+    "horizon": 60,
+    "lo": 0.23632061183452607,
+    "hi": 1.2815019845962528,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12734659335573206,
+    "validation": {
+      "trades": 542,
+      "active_days": 49,
+      "mean_gross_usd_per_oz": -0.11156826568263045,
+      "median_gross": -0.0649999999998272,
+      "win_rate_gross": 0.48523985239852396,
+      "gross_total": -60.4699999999857,
+      "profit_factor_gross": 0.8935237357374528,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.11156826568263045,
+          "total_net": -60.4699999999857,
+          "win_rate": 0.48523985239852396
+        },
+        "0.1": {
+          "mean_net": -0.21156826568263046,
+          "total_net": -114.66999999998569,
+          "win_rate": 0.46309963099630996
+        },
+        "0.25": {
+          "mean_net": -0.36156826568263045,
+          "total_net": -195.9699999999857,
+          "win_rate": 0.4317343173431734
+        },
+        "0.5": {
+          "mean_net": -0.6115682656826305,
+          "total_net": -331.4699999999857,
+          "win_rate": 0.3763837638376384
+        },
+        "1": {
+          "mean_net": -1.1115682656826305,
+          "total_net": -602.4699999999857,
+          "win_rate": 0.2952029520295203
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        196,
+        186,
+        160,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.22132653061223154,
+        "8": -0.09833333333330992,
+        "9": 0.007500000000045759
+      },
+      "max_drawdown_gross_one_oz": 95.1599999999878
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.band512_1024",
+    "index": 574,
+    "horizon": 120,
+    "lo": -0.6412360548973084,
+    "hi": 0.6404985427856446,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.19076849358976997,
+    "validation": {
+      "trades": 462,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.1122294372294395,
+      "median_gross": -0.044999999999845386,
+      "win_rate_gross": 0.49134199134199136,
+      "gross_total": -51.850000000001046,
+      "profit_factor_gross": 0.9318972877126138,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.1122294372294395,
+          "total_net": -51.850000000001046,
+          "win_rate": 0.49134199134199136
+        },
+        "0.1": {
+          "mean_net": -0.2122294372294395,
+          "total_net": -98.05000000000106,
+          "win_rate": 0.48268398268398266
+        },
+        "0.25": {
+          "mean_net": -0.3622294372294395,
+          "total_net": -167.35000000000105,
+          "win_rate": 0.4523809523809524
+        },
+        "0.5": {
+          "mean_net": -0.6122294372294395,
+          "total_net": -282.85000000000105,
+          "win_rate": 0.41125541125541126
+        },
+        "1": {
+          "mean_net": -1.1122294372294395,
+          "total_net": -513.850000000001,
+          "win_rate": 0.3593073593073593
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        159,
+        148,
+        155,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.1197484276729057,
+        "8": 0.19128378378371735,
+        "9": -0.3943225806451562
+      },
+      "max_drawdown_gross_one_oz": 126.40000000000737
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p4423.92469",
+    "index": 661,
+    "horizon": 120,
+    "lo": 0.2127447605133057,
+    "hi": 1.1969442129135133,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.1915290121930874,
+    "validation": {
+      "trades": 247,
+      "active_days": 42,
+      "mean_gross_usd_per_oz": -0.11607287449401212,
+      "median_gross": -0.04000000000064574,
+      "win_rate_gross": 0.4898785425101215,
+      "gross_total": -28.67000000002099,
+      "profit_factor_gross": 0.9215273025865081,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.11607287449401212,
+          "total_net": -28.67000000002099,
+          "win_rate": 0.4898785425101215
+        },
+        "0.1": {
+          "mean_net": -0.21607287449401213,
+          "total_net": -53.370000000021015,
+          "win_rate": 0.4777327935222672
+        },
+        "0.25": {
+          "mean_net": -0.3660728744940121,
+          "total_net": -90.42000000002099,
+          "win_rate": 0.46153846153846156
+        },
+        "0.5": {
+          "mean_net": -0.6160728744940122,
+          "total_net": -152.170000000021,
+          "win_rate": 0.4251012145748988
+        },
+        "1": {
+          "mean_net": -1.116072874494012,
+          "total_net": -275.670000000021,
+          "win_rate": 0.3562753036437247
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        95,
+        82,
+        70,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.5220000000000518,
+        "8": 0.1729268292681881,
+        "9": 0.09628571428560723
+      },
+      "max_drawdown_gross_one_oz": 64.23000000001821
+    }
+  },
+  {
+    "feature": "stft_8192.energy.p819.20000",
+    "index": 219,
+    "horizon": 120,
+    "lo": 0.1739845633506775,
+    "hi": 0.933189606666565,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.21458970157162843,
+    "validation": {
+      "trades": 275,
+      "active_days": 45,
+      "mean_gross_usd_per_oz": -0.1432363636364128,
+      "median_gross": 0.04999999999881766,
+      "win_rate_gross": 0.5163636363636364,
+      "gross_total": -39.390000000013515,
+      "profit_factor_gross": 0.8950383713493598,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.1432363636364128,
+          "total_net": -39.390000000013515,
+          "win_rate": 0.5163636363636364
+        },
+        "0.1": {
+          "mean_net": -0.2432363636364128,
+          "total_net": -66.8900000000135,
+          "win_rate": 0.48
+        },
+        "0.25": {
+          "mean_net": -0.3932363636364128,
+          "total_net": -108.14000000001352,
+          "win_rate": 0.4618181818181818
+        },
+        "0.5": {
+          "mean_net": -0.6432363636364128,
+          "total_net": -176.89000000001352,
+          "win_rate": 0.4290909090909091
+        },
+        "1": {
+          "mean_net": -1.143236363636413,
+          "total_net": -314.3900000000135,
+          "win_rate": 0.36
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        94,
+        66,
+        115,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.1440425531914672,
+        "8": 0.2343939393938778,
+        "9": -0.5947826086957162
+      },
+      "max_drawdown_gross_one_oz": 82.81000000000972
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p628.72978",
+    "index": 792,
+    "horizon": 60,
+    "lo": -0.8715896368026733,
+    "hi": 0.869324040412903,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12056206350820615,
+    "validation": {
+      "trades": 667,
+      "active_days": 77,
+      "mean_gross_usd_per_oz": -0.15073463268365198,
+      "median_gross": -0.08999999999900865,
+      "win_rate_gross": 0.4767616191904048,
+      "gross_total": -100.53999999999587,
+      "profit_factor_gross": 0.8579381676369194,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.15073463268365198,
+          "total_net": -100.53999999999587,
+          "win_rate": 0.4767616191904048
+        },
+        "0.1": {
+          "mean_net": -0.250734632683652,
+          "total_net": -167.23999999999583,
+          "win_rate": 0.4572713643178411
+        },
+        "0.25": {
+          "mean_net": -0.40073463268365195,
+          "total_net": -267.28999999999587,
+          "win_rate": 0.4302848575712144
+        },
+        "0.5": {
+          "mean_net": -0.650734632683652,
+          "total_net": -434.03999999999587,
+          "win_rate": 0.37631184407796103
+        },
+        "1": {
+          "mean_net": -1.150734632683652,
+          "total_net": -767.5399999999959,
+          "win_rate": 0.28335832083958024
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        222,
+        218,
+        227,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.00545045045048851,
+        "8": -0.20766055045868215,
+        "9": -0.23814977973565954
+      },
+      "max_drawdown_gross_one_oz": 107.8399999999906
+    }
+  },
+  {
+    "feature": "stft_512.entropy.band16_32",
+    "index": 186,
+    "horizon": 120,
+    "lo": 0.836657190322876,
+    "hi": 0.9102794885635376,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.20927333108767637,
+    "validation": {
+      "trades": 417,
+      "active_days": 71,
+      "mean_gross_usd_per_oz": -0.16434052757798392,
+      "median_gross": -0.07999999999901775,
+      "win_rate_gross": 0.47721822541966424,
+      "gross_total": -68.5300000000193,
+      "profit_factor_gross": 0.8885582333235479,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.16434052757798392,
+          "total_net": -68.5300000000193,
+          "win_rate": 0.47721822541966424
+        },
+        "0.1": {
+          "mean_net": -0.26434052757798393,
+          "total_net": -110.23000000001926,
+          "win_rate": 0.4676258992805755
+        },
+        "0.25": {
+          "mean_net": -0.4143405275779839,
+          "total_net": -172.7800000000193,
+          "win_rate": 0.44364508393285373
+        },
+        "0.5": {
+          "mean_net": -0.6643405275779839,
+          "total_net": -277.0300000000193,
+          "win_rate": 0.4316546762589928
+        },
+        "1": {
+          "mean_net": -1.164340527577984,
+          "total_net": -485.5300000000193,
+          "win_rate": 0.3405275779376499
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        141,
+        135,
+        141,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.32475177304959835,
+        "8": -0.27400000000009606,
+        "9": -0.5484397163120546
+      },
+      "max_drawdown_gross_one_oz": 201.9600000000098
+    }
+  },
+  {
+    "feature": "stft_512.energy.p17.06667",
+    "index": 117,
+    "horizon": 60,
+    "lo": 0.18997135758399966,
+    "hi": 1.2302773475646978,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12001159361923235,
+    "validation": {
+      "trades": 720,
+      "active_days": 74,
+      "mean_gross_usd_per_oz": -0.16931944444445624,
+      "median_gross": -0.13999999999975898,
+      "win_rate_gross": 0.4652777777777778,
+      "gross_total": -121.9100000000085,
+      "profit_factor_gross": 0.8319734266890798,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.16931944444445624,
+          "total_net": -121.9100000000085,
+          "win_rate": 0.4652777777777778
+        },
+        "0.1": {
+          "mean_net": -0.2693194444444562,
+          "total_net": -193.91000000000847,
+          "win_rate": 0.44583333333333336
+        },
+        "0.25": {
+          "mean_net": -0.41931944444445624,
+          "total_net": -301.9100000000085,
+          "win_rate": 0.41805555555555557
+        },
+        "0.5": {
+          "mean_net": -0.6693194444444562,
+          "total_net": -481.9100000000085,
+          "win_rate": 0.3611111111111111
+        },
+        "1": {
+          "mean_net": -1.1693194444444561,
+          "total_net": -841.9100000000085,
+          "win_rate": 0.2638888888888889
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        244,
+        236,
+        240,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.14086065573771006,
+        "8": -0.11381355932207779,
+        "9": -0.2528333333333203
+      },
+      "max_drawdown_gross_one_oz": 124.85000000000605
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p2647.41816",
+    "index": 656,
+    "horizon": 60,
+    "lo": 0.2711567044258118,
+    "hi": 1.5856149911880497,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12858788327222004,
+    "validation": {
+      "trades": 603,
+      "active_days": 50,
+      "mean_gross_usd_per_oz": -0.18815920398004488,
+      "median_gross": -0.10000000000127329,
+      "win_rate_gross": 0.4759535655058043,
+      "gross_total": -113.45999999996707,
+      "profit_factor_gross": 0.8299817184643966,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.18815920398004488,
+          "total_net": -113.45999999996707,
+          "win_rate": 0.4759535655058043
+        },
+        "0.1": {
+          "mean_net": -0.2881592039800449,
+          "total_net": -173.75999999996702,
+          "win_rate": 0.4593698175787728
+        },
+        "0.25": {
+          "mean_net": -0.4381592039800449,
+          "total_net": -264.20999999996707,
+          "win_rate": 0.42786069651741293
+        },
+        "0.5": {
+          "mean_net": -0.6881592039800448,
+          "total_net": -414.95999999996707,
+          "win_rate": 0.36318407960199006
+        },
+        "1": {
+          "mean_net": -1.1881592039800448,
+          "total_net": -716.4599999999671,
+          "win_rate": 0.28192371475953565
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        209,
+        222,
+        172,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.17291866028703504,
+        "8": -0.14324324324322052,
+        "9": -0.2646511627905918
+      },
+      "max_drawdown_gross_one_oz": 113.5899999999674
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p772.07254",
+    "index": 446,
+    "horizon": 120,
+    "lo": -0.8145286440849304,
+    "hi": 0.8180449962615968,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.24262421244874552,
+    "validation": {
+      "trades": 442,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.19131221719457517,
+      "median_gross": -0.1499999999997499,
+      "win_rate_gross": 0.4841628959276018,
+      "gross_total": -84.56000000000222,
+      "profit_factor_gross": 0.8874678945477269,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.19131221719457517,
+          "total_net": -84.56000000000222,
+          "win_rate": 0.4841628959276018
+        },
+        "0.1": {
+          "mean_net": -0.2913122171945752,
+          "total_net": -128.76000000000224,
+          "win_rate": 0.4660633484162896
+        },
+        "0.25": {
+          "mean_net": -0.44131221719457514,
+          "total_net": -195.06000000000222,
+          "win_rate": 0.4457013574660634
+        },
+        "0.5": {
+          "mean_net": -0.6913122171945751,
+          "total_net": -305.5600000000022,
+          "win_rate": 0.4117647058823529
+        },
+        "1": {
+          "mean_net": -1.1913122171945751,
+          "total_net": -526.5600000000022,
+          "win_rate": 0.34615384615384615
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        152,
+        145,
+        145,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.12210526315790485,
+        "8": -0.06731034482756262,
+        "9": -0.38786206896554554
+      },
+      "max_drawdown_gross_one_oz": 127.32000000000335
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p772.07254",
+    "index": 794,
+    "horizon": 60,
+    "lo": -0.8757441520690917,
+    "hi": 0.8618910908699038,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.16585154091864954,
+    "validation": {
+      "trades": 639,
+      "active_days": 77,
+      "mean_gross_usd_per_oz": -0.20297339593109692,
+      "median_gross": -0.11000000000103682,
+      "win_rate_gross": 0.4694835680751174,
+      "gross_total": -129.69999999997094,
+      "profit_factor_gross": 0.8083005705164593,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.20297339593109692,
+          "total_net": -129.69999999997094,
+          "win_rate": 0.4694835680751174
+        },
+        "0.1": {
+          "mean_net": -0.30297339593109696,
+          "total_net": -193.59999999997092,
+          "win_rate": 0.4507042253521127
+        },
+        "0.25": {
+          "mean_net": -0.4529733959310969,
+          "total_net": -289.44999999997094,
+          "win_rate": 0.4194053208137715
+        },
+        "0.5": {
+          "mean_net": -0.7029733959310969,
+          "total_net": -449.19999999997094,
+          "win_rate": 0.37245696400625977
+        },
+        "1": {
+          "mean_net": -1.2029733959310969,
+          "total_net": -768.6999999999709,
+          "win_rate": 0.2597809076682316
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        223,
+        205,
+        211,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.29363228699546584,
+        "8": -0.05502439024387569,
+        "9": -0.2509004739335903
+      },
+      "max_drawdown_gross_one_oz": 129.97999999996932
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p696.72448",
+    "index": 445,
+    "horizon": 60,
+    "lo": -0.8281437635421752,
+    "hi": 0.8329876661300663,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.1465824564119067,
+    "validation": {
+      "trades": 759,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.20436100131750734,
+      "median_gross": -0.040000000000190994,
+      "win_rate_gross": 0.4901185770750988,
+      "gross_total": -155.10999999998808,
+      "profit_factor_gross": 0.8267856345200465,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.20436100131750734,
+          "total_net": -155.10999999998808,
+          "win_rate": 0.4901185770750988
+        },
+        "0.1": {
+          "mean_net": -0.3043610013175073,
+          "total_net": -231.00999999998803,
+          "win_rate": 0.4795783926218709
+        },
+        "0.25": {
+          "mean_net": -0.45436100131750734,
+          "total_net": -344.8599999999881,
+          "win_rate": 0.4426877470355731
+        },
+        "0.5": {
+          "mean_net": -0.7043610013175073,
+          "total_net": -534.6099999999881,
+          "win_rate": 0.38998682476943347
+        },
+        "1": {
+          "mean_net": -1.2043610013175075,
+          "total_net": -914.1099999999881,
+          "win_rate": 0.30171277997364954
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        247,
+        263,
+        249,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": 0.013238866396729762,
+        "8": -0.2121292775665078,
+        "9": -0.412008032128469
+      },
+      "max_drawdown_gross_one_oz": 175.28999999997654
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.band512_1024",
+    "index": 848,
+    "horizon": 60,
+    "lo": -0.7757799506187438,
+    "hi": 0.7682287335395813,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12912282029780153,
+    "validation": {
+      "trades": 600,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.2173499999999774,
+      "median_gross": -0.16999999999950433,
+      "win_rate_gross": 0.4633333333333333,
+      "gross_total": -130.40999999998644,
+      "profit_factor_gross": 0.798498122653337,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.2173499999999774,
+          "total_net": -130.40999999998644,
+          "win_rate": 0.4633333333333333
+        },
+        "0.1": {
+          "mean_net": -0.3173499999999774,
+          "total_net": -190.40999999998638,
+          "win_rate": 0.43666666666666665
+        },
+        "0.25": {
+          "mean_net": -0.4673499999999774,
+          "total_net": -280.40999999998644,
+          "win_rate": 0.405
+        },
+        "0.5": {
+          "mean_net": -0.7173499999999774,
+          "total_net": -430.40999999998644,
+          "win_rate": 0.34833333333333333
+        },
+        "1": {
+          "mean_net": -1.2173499999999775,
+          "total_net": -730.4099999999864,
+          "win_rate": 0.25333333333333335
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        200,
+        201,
+        199,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.2550999999999851,
+        "8": -0.15507462686563805,
+        "9": -0.24231155778892544
+      },
+      "max_drawdown_gross_one_oz": 131.77999999998474
+    }
+  },
+  {
+    "feature": "wavelet_returns.sin.band256_512",
+    "index": 571,
+    "horizon": 120,
+    "lo": -0.624828326702118,
+    "hi": 0.6266370058059697,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.18061954596133303,
+    "validation": {
+      "trades": 526,
+      "active_days": 76,
+      "mean_gross_usd_per_oz": -0.2195247148288464,
+      "median_gross": -0.004999999999881766,
+      "win_rate_gross": 0.49619771863117873,
+      "gross_total": -115.4699999999732,
+      "profit_factor_gross": 0.8653081221057336,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.2195247148288464,
+          "total_net": -115.4699999999732,
+          "win_rate": 0.49619771863117873
+        },
+        "0.1": {
+          "mean_net": -0.31952471482884637,
+          "total_net": -168.06999999997322,
+          "win_rate": 0.47338403041825095
+        },
+        "0.25": {
+          "mean_net": -0.4695247148288464,
+          "total_net": -246.9699999999732,
+          "win_rate": 0.4543726235741445
+        },
+        "0.5": {
+          "mean_net": -0.7195247148288464,
+          "total_net": -378.4699999999732,
+          "win_rate": 0.42585551330798477
+        },
+        "1": {
+          "mean_net": -1.2195247148288464,
+          "total_net": -641.4699999999732,
+          "win_rate": 0.34600760456273766
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        169,
+        177,
+        180,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.07923076923065546,
+        "8": -0.1273446327683177,
+        "9": -0.44188888888888994
+      },
+      "max_drawdown_gross_one_oz": 145.91999999997302
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p772.07254",
+    "index": 794,
+    "horizon": 120,
+    "lo": -0.870731770992279,
+    "hi": 0.8566662549972535,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.2487771712947604,
+    "validation": {
+      "trades": 364,
+      "active_days": 77,
+      "mean_gross_usd_per_oz": -0.2266758241758354,
+      "median_gross": -0.1600000000006503,
+      "win_rate_gross": 0.4642857142857143,
+      "gross_total": -82.51000000000408,
+      "profit_factor_gross": 0.8559255443608156,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.2266758241758354,
+          "total_net": -82.51000000000408,
+          "win_rate": 0.4642857142857143
+        },
+        "0.1": {
+          "mean_net": -0.3266758241758354,
+          "total_net": -118.91000000000409,
+          "win_rate": 0.45879120879120877
+        },
+        "0.25": {
+          "mean_net": -0.4766758241758354,
+          "total_net": -173.51000000000408,
+          "win_rate": 0.43956043956043955
+        },
+        "0.5": {
+          "mean_net": -0.7266758241758354,
+          "total_net": -264.5100000000041,
+          "win_rate": 0.4258241758241758
+        },
+        "1": {
+          "mean_net": -1.2266758241758353,
+          "total_net": -446.5100000000041,
+          "win_rate": 0.34615384615384615
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        129,
+        119,
+        116,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.17837209302324517,
+        "8": -0.20235294117646807,
+        "9": -0.30534482758625653
+      },
+      "max_drawdown_gross_one_oz": 109.96000000000731
+    }
+  },
+  {
+    "feature": "wavelet_returns.sin.p375.63599",
+    "index": 514,
+    "horizon": 120,
+    "lo": -0.7962343692779541,
+    "hi": 0.7916608691215515,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.17375046668123012,
+    "validation": {
+      "trades": 561,
+      "active_days": 79,
+      "mean_gross_usd_per_oz": -0.23654188948305388,
+      "median_gross": -0.15000000000009095,
+      "win_rate_gross": 0.46702317290552586,
+      "gross_total": -132.69999999999322,
+      "profit_factor_gross": 0.8440071472234036,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.23654188948305388,
+          "total_net": -132.69999999999322,
+          "win_rate": 0.46702317290552586
+        },
+        "0.1": {
+          "mean_net": -0.33654188948305386,
+          "total_net": -188.7999999999932,
+          "win_rate": 0.44563279857397503
+        },
+        "0.25": {
+          "mean_net": -0.4865418894830539,
+          "total_net": -272.9499999999932,
+          "win_rate": 0.41889483065953653
+        },
+        "0.5": {
+          "mean_net": -0.7365418894830539,
+          "total_net": -413.1999999999932,
+          "win_rate": 0.39215686274509803
+        },
+        "1": {
+          "mean_net": -1.2365418894830538,
+          "total_net": -693.6999999999932,
+          "win_rate": 0.3065953654188948
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        191,
+        189,
+        181,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.36151832460731054,
+        "8": -0.08391534391533256,
+        "9": -0.26403314917126547
+      },
+      "max_drawdown_gross_one_oz": 153.69999999999436
+    }
+  },
+  {
+    "feature": "wavelet_logprice.cos.p7392.52679",
+    "index": 741,
+    "horizon": 120,
+    "lo": -0.7467724084854126,
+    "hi": 0.7026526927948,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.19107277442666915,
+    "validation": {
+      "trades": 294,
+      "active_days": 49,
+      "mean_gross_usd_per_oz": -0.2706802721088518,
+      "median_gross": -0.2949999999997317,
+      "win_rate_gross": 0.4523809523809524,
+      "gross_total": -79.58000000000243,
+      "profit_factor_gross": 0.8308356184767063,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.2706802721088518,
+          "total_net": -79.58000000000243,
+          "win_rate": 0.4523809523809524
+        },
+        "0.1": {
+          "mean_net": -0.3706802721088518,
+          "total_net": -108.98000000000243,
+          "win_rate": 0.4421768707482993
+        },
+        "0.25": {
+          "mean_net": -0.5206802721088518,
+          "total_net": -153.08000000000243,
+          "win_rate": 0.42517006802721086
+        },
+        "0.5": {
+          "mean_net": -0.7706802721088518,
+          "total_net": -226.58000000000243,
+          "win_rate": 0.41496598639455784
+        },
+        "1": {
+          "mean_net": -1.270680272108852,
+          "total_net": -373.5800000000024,
+          "win_rate": 0.3435374149659864
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        75,
+        116,
+        103,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.013866666666766225,
+        "8": -0.7437931034482717,
+        "9": 0.0751456310680054
+      },
+      "max_drawdown_gross_one_oz": 151.88999999999692
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p3992.18528",
+    "index": 660,
+    "horizon": 120,
+    "lo": 0.2400986254215242,
+    "hi": 1.280377769470215,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.2037171703541948,
+    "validation": {
+      "trades": 277,
+      "active_days": 49,
+      "mean_gross_usd_per_oz": -0.27364620938632,
+      "median_gross": -0.12000000000011823,
+      "win_rate_gross": 0.47653429602888087,
+      "gross_total": -75.80000000001064,
+      "profit_factor_gross": 0.8271616198467511,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.27364620938632,
+          "total_net": -75.80000000001064,
+          "win_rate": 0.47653429602888087
+        },
+        "0.1": {
+          "mean_net": -0.37364620938632,
+          "total_net": -103.50000000001063,
+          "win_rate": 0.4657039711191336
+        },
+        "0.25": {
+          "mean_net": -0.52364620938632,
+          "total_net": -145.05000000001064,
+          "win_rate": 0.45126353790613716
+        },
+        "0.5": {
+          "mean_net": -0.77364620938632,
+          "total_net": -214.30000000001064,
+          "win_rate": 0.4151624548736462
+        },
+        "1": {
+          "mean_net": -1.2736462093863201,
+          "total_net": -352.80000000001064,
+          "win_rate": 0.34296028880866425
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        96,
+        81,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.5341999999999871,
+        "8": -0.15437500000001592,
+        "9": -0.09333333333346179
+      },
+      "max_drawdown_gross_one_oz": 103.94000000001006
+    }
+  },
+  {
+    "feature": "wavelet_returns.cos.p696.72448",
+    "index": 445,
+    "horizon": 120,
+    "lo": -0.8240495681762695,
+    "hi": 0.8331072568893436,
+    "side_high": -1,
+    "discovery_normalized_spread": 0.23223467133140527,
+    "validation": {
+      "trades": 447,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.28463087248324287,
+      "median_gross": -0.20000000000095497,
+      "win_rate_gross": 0.47874720357941836,
+      "gross_total": -127.23000000000957,
+      "profit_factor_gross": 0.8335949148552062,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.28463087248324287,
+          "total_net": -127.23000000000957,
+          "win_rate": 0.47874720357941836
+        },
+        "0.1": {
+          "mean_net": -0.3846308724832429,
+          "total_net": -171.93000000000956,
+          "win_rate": 0.4563758389261745
+        },
+        "0.25": {
+          "mean_net": -0.5346308724832429,
+          "total_net": -238.98000000000957,
+          "win_rate": 0.436241610738255
+        },
+        "0.5": {
+          "mean_net": -0.7846308724832429,
+          "total_net": -350.73000000000957,
+          "win_rate": 0.40939597315436244
+        },
+        "1": {
+          "mean_net": -1.284630872483243,
+          "total_net": -574.2300000000096,
+          "win_rate": 0.3422818791946309
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        148,
+        152,
+        147,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.12891891891897989,
+        "8": -0.12059210526315144,
+        "9": -0.6110204081632757
+      },
+      "max_drawdown_gross_one_oz": 145.50000000001137
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p2647.41816",
+    "index": 656,
+    "horizon": 120,
+    "lo": 0.27093525528907775,
+    "hi": 1.591613292694092,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.17640898755359707,
+    "validation": {
+      "trades": 306,
+      "active_days": 50,
+      "mean_gross_usd_per_oz": -0.3619607843137463,
+      "median_gross": -0.40000000000077307,
+      "win_rate_gross": 0.4738562091503268,
+      "gross_total": -110.76000000000636,
+      "profit_factor_gross": 0.7846099994165896,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.3619607843137463,
+          "total_net": -110.76000000000636,
+          "win_rate": 0.4738562091503268
+        },
+        "0.1": {
+          "mean_net": -0.4619607843137463,
+          "total_net": -141.36000000000632,
+          "win_rate": 0.45751633986928103
+        },
+        "0.25": {
+          "mean_net": -0.6119607843137462,
+          "total_net": -187.26000000000636,
+          "win_rate": 0.43790849673202614
+        },
+        "0.5": {
+          "mean_net": -0.8619607843137462,
+          "total_net": -263.76000000000636,
+          "win_rate": 0.4117647058823529
+        },
+        "1": {
+          "mean_net": -1.3619607843137462,
+          "total_net": -416.76000000000636,
+          "win_rate": 0.3300653594771242
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        107,
+        114,
+        85,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.28635514018683184,
+        "8": -0.16254385964916246,
+        "9": -0.7245882352942451
+      },
+      "max_drawdown_gross_one_oz": 127.95000000002005
+    }
+  },
+  {
+    "feature": "wavelet_logprice.energy.p3250.99735",
+    "index": 658,
+    "horizon": 120,
+    "lo": 0.22555792033672337,
+    "hi": 1.3377285718917853,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.17765142259925032,
+    "validation": {
+      "trades": 323,
+      "active_days": 52,
+      "mean_gross_usd_per_oz": -0.40959752321984016,
+      "median_gross": -0.04000000000064574,
+      "win_rate_gross": 0.48297213622291024,
+      "gross_total": -132.30000000000837,
+      "profit_factor_gross": 0.761148221700657,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.40959752321984016,
+          "total_net": -132.30000000000837,
+          "win_rate": 0.48297213622291024
+        },
+        "0.1": {
+          "mean_net": -0.5095975232198402,
+          "total_net": -164.60000000000835,
+          "win_rate": 0.4674922600619195
+        },
+        "0.25": {
+          "mean_net": -0.6595975232198401,
+          "total_net": -213.05000000000837,
+          "win_rate": 0.44272445820433437
+        },
+        "0.5": {
+          "mean_net": -0.9095975232198401,
+          "total_net": -293.80000000000837,
+          "win_rate": 0.4179566563467492
+        },
+        "1": {
+          "mean_net": -1.40959752321984,
+          "total_net": -455.30000000000837,
+          "win_rate": 0.3498452012383901
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        110,
+        107,
+        106,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.5132727272727152,
+        "8": 0.06327102803741064,
+        "9": -0.7793396226416286
+      },
+      "max_drawdown_gross_one_oz": 139.52000000001
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p696.72448",
+    "index": 793,
+    "horizon": 60,
+    "lo": -0.8781512141227722,
+    "hi": 0.8651532411575319,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.12910599725364363,
+    "validation": {
+      "trades": 632,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.4196518987341675,
+      "median_gross": -0.3499999999994543,
+      "win_rate_gross": 0.43354430379746833,
+      "gross_total": -265.2199999999939,
+      "profit_factor_gross": 0.6524348692142498,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.4196518987341675,
+          "total_net": -265.2199999999939,
+          "win_rate": 0.43354430379746833
+        },
+        "0.1": {
+          "mean_net": -0.5196518987341675,
+          "total_net": -328.4199999999939,
+          "win_rate": 0.4098101265822785
+        },
+        "0.25": {
+          "mean_net": -0.6696518987341675,
+          "total_net": -423.2199999999939,
+          "win_rate": 0.3939873417721519
+        },
+        "0.5": {
+          "mean_net": -0.9196518987341675,
+          "total_net": -581.2199999999939,
+          "win_rate": 0.34335443037974683
+        },
+        "1": {
+          "mean_net": -1.4196518987341675,
+          "total_net": -897.2199999999939,
+          "win_rate": 0.25
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        217,
+        201,
+        214,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.308110599078284,
+        "8": -0.5415422885571953,
+        "9": -0.4182710280374299
+      },
+      "max_drawdown_gross_one_oz": 270.3199999999965
+    }
+  },
+  {
+    "feature": "wavelet_logprice.sin.p696.72448",
+    "index": 793,
+    "horizon": 120,
+    "lo": -0.8748290419578552,
+    "hi": 0.8574147820472718,
+    "side_high": 1,
+    "discovery_normalized_spread": 0.198971357168997,
+    "validation": {
+      "trades": 367,
+      "active_days": 75,
+      "mean_gross_usd_per_oz": -0.6652316076294349,
+      "median_gross": -0.25,
+      "win_rate_gross": 0.4604904632152589,
+      "gross_total": -244.1400000000026,
+      "profit_factor_gross": 0.6340278818767773,
+      "mean_gross_day_cluster_ci95": null,
+      "mean_gross_day_cluster_ci99": null,
+      "cost_scenarios": {
+        "0": {
+          "mean_net": -0.6652316076294349,
+          "total_net": -244.1400000000026,
+          "win_rate": 0.4604904632152589
+        },
+        "0.1": {
+          "mean_net": -0.7652316076294349,
+          "total_net": -280.8400000000026,
+          "win_rate": 0.45231607629427795
+        },
+        "0.25": {
+          "mean_net": -0.9152316076294349,
+          "total_net": -335.8900000000026,
+          "win_rate": 0.4332425068119891
+        },
+        "0.5": {
+          "mean_net": -1.165231607629435,
+          "total_net": -427.6400000000026,
+          "win_rate": 0.38419618528610355
+        },
+        "1": {
+          "mean_net": -1.665231607629435,
+          "total_net": -611.1400000000026,
+          "win_rate": 0.29427792915531337
+        }
+      },
+      "monthly_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        132,
+        117,
+        118,
+        0,
+        0,
+        0
+      ],
+      "monthly_mean_gross": {
+        "7": -0.41522727272735155,
+        "8": -0.7846153846153064,
+        "9": -0.8265254237288249
+      },
+      "max_drawdown_gross_one_oz": 259.550000000002
+    }
+  }
+]

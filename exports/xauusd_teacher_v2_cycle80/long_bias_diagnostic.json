@@ -1,0 +1,9 @@
+{
+  "executed_long": 720,
+  "executed_short": 0,
+  "always_long_same_executor": {
+    "net_total": 255.62999999999874,
+    "trades": 778,
+    "note": "post-hoc diagnostic, no fitting or checkpoint selection"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "selection",
+  "model": "raw",
+  "epoch": 3,
+  "seen": 17920,
+  "total": 234138,
+  "loss": 1.8436448729463986,
+  "seconds": 357.3
+}

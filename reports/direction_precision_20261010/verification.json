@@ -1,0 +1,23 @@
+{
+  "fits": 8,
+  "epochs_per_fit": 12,
+  "train_windows_per_epoch": 27716,
+  "parameters": 605315,
+  "gpu_active_sessions": 0,
+  "independent_precision_recalculation": true,
+  "threshold_fixtures": 100,
+  "test_selection_used": false,
+  "checkpoint_and_threshold_validation_separated": true,
+  "selected_family": "ce_adam",
+  "gpu_worker_seconds": 329.3543722629547,
+  "checks": {
+    "ties_handled": true,
+    "abstention_precision_is_undefined": true,
+    "validation_support_checked": true,
+    "wrong_short_gradient_ce": 0.7869860421615984,
+    "wrong_short_gradient_fp9": 7.02556109926943,
+    "group_gradient_error": 0.0,
+    "explicit_reference_max_error": 6.661338147750939e-16,
+    "exactly_opposing_gradients_remain_unsolved": true
+  }
+}

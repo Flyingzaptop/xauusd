@@ -1,0 +1,426 @@
+{
+  "files": [
+    {
+      "file": "experiments/spectral_transformer/PROTOCOL.md",
+      "bytes": 3258,
+      "sha256": "25bc57eb2dc1398374c065ae70ae4492a7df544e96cfd5b261459329c6971c04"
+    },
+    {
+      "file": "experiments/spectral_transformer/README.md",
+      "bytes": 3689,
+      "sha256": "1551ffb1d665a084a1caf298e5b2b508acc6aab4a03d20d53c027ec9e778f974"
+    },
+    {
+      "file": "experiments/spectral_transformer/core.py",
+      "bytes": 1455,
+      "sha256": "416a2117463b7892dcdaaf7f03a9c6035cad0dd80d026392ce21bb672e3ecd40"
+    },
+    {
+      "file": "experiments/spectral_transformer/diagnostics.py",
+      "bytes": 1543,
+      "sha256": "c940d0e014142db21e51dd4b6aeebd76e0f63b7cf7b45fcb3e6d53f586768e8f"
+    },
+    {
+      "file": "experiments/spectral_transformer/evaluate.py",
+      "bytes": 8173,
+      "sha256": "3554a1b1a4516221393b0f5a0e4125cdaa5b1ab91a4d8b00ce674e707e475413"
+    },
+    {
+      "file": "experiments/spectral_transformer/finalize.py",
+      "bytes": 2370,
+      "sha256": "fe20fe9033bae717d86af6db58448310a02e6583e38980d67d3b470d941496c6"
+    },
+    {
+      "file": "experiments/spectral_transformer/inspect_cloud.py",
+      "bytes": 252,
+      "sha256": "b179008597a32e192983bf6350ac42aa3f616e83c59030a234ea4589e9640b82"
+    },
+    {
+      "file": "experiments/spectral_transformer/launch_prepare.py",
+      "bytes": 467,
+      "sha256": "59a727b51a4d432b1c79ca50dc14532fe1ccd11c6fa564df77bdf3ed82707e08"
+    },
+    {
+      "file": "experiments/spectral_transformer/launch_training.py",
+      "bytes": 374,
+      "sha256": "d005a8f175c44d583907f8821e3cf1a57d9f928b2181d34787cd57c34271d8bc"
+    },
+    {
+      "file": "experiments/spectral_transformer/local_checks.py",
+      "bytes": 1658,
+      "sha256": "8db2ef43c010171d65143fce69892fb9928b4488f812816f5cbdd32d5395b482"
+    },
+    {
+      "file": "experiments/spectral_transformer/model.py",
+      "bytes": 4359,
+      "sha256": "f25e5cd666880d0daca94603c359a29655ccf62d140fb671777b905a8b7d612e"
+    },
+    {
+      "file": "experiments/spectral_transformer/monitor.py",
+      "bytes": 825,
+      "sha256": "03d6c0af80d846b98b455de0b48f689add14be6a5ac1ac5f6ae95a7b9a872edb"
+    },
+    {
+      "file": "experiments/spectral_transformer/prepare_remote.py",
+      "bytes": 7484,
+      "sha256": "a33a3df66153ba7f6598dca27a3f41dd1471501dfcb3f2218f86336efd7fe92c"
+    },
+    {
+      "file": "experiments/spectral_transformer/report.py",
+      "bytes": 17901,
+      "sha256": "74a3e1b24b77a7450d77879b6c3705d43c769d9dd4b51a36877f46446675bd03"
+    },
+    {
+      "file": "experiments/spectral_transformer/status_cloud.py",
+      "bytes": 459,
+      "sha256": "5110753a759e3cf4d81f9465e1c8c9b6244645736dd2901f74c15c6e42a0b448"
+    },
+    {
+      "file": "experiments/spectral_transformer/supervise.py",
+      "bytes": 1369,
+      "sha256": "adbfe15ce910285f149a30ce6fc3e61d15e0795ef49c85327c38161f6dde6a33"
+    },
+    {
+      "file": "experiments/spectral_transformer/sync.py",
+      "bytes": 1450,
+      "sha256": "96b7eebb59e1f8b5d0d3788ac9a14398d77874184ac664a11bbbf3f281201941"
+    },
+    {
+      "file": "experiments/spectral_transformer/train.py",
+      "bytes": 7851,
+      "sha256": "c49a62af3ac01bc751bd05e80c66cdb034678ae5c14483b13823614f34c153fe"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/READY.json",
+      "bytes": 480,
+      "sha256": "cb1a11d98984191432b072403bf8ee8a2b6768ac30a8af792b4bc73cbfe31495"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/REPORT_RU.md",
+      "bytes": 17035,
+      "sha256": "867dcd20e4fb9b24c19bd4da68301ebc8aa6d5f9bc3af2be49028d4a9a08ca0c"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/comparisons.json",
+      "bytes": 997,
+      "sha256": "3bdba8fc63c24d789952ae71816e7328e4351ceaa0e3372d3e258919c2fe1130"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/diagnostics.json",
+      "bytes": 2184,
+      "sha256": "1e7c7ec09042f8f188d35bbc6f22f074ac10605f1ffccf0988639d8df833926f"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/engineered_trades.npz",
+      "bytes": 562,
+      "sha256": "3726e396f345cc4c2970f9cbb827434306991e578d655e99e6a564f3165ec5ba"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/evaluation_checks.json",
+      "bytes": 323,
+      "sha256": "061cb9782878739a4803d1a9e9256ba56e8331cf1c1130b02281c1e23176b47a"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/forecast_examples.csv",
+      "bytes": 10875,
+      "sha256": "1a4ebd3066649ea9548113dc4058c4f26187918e4dde4e8355a031446c6689d5"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/golden.npz",
+      "bytes": 1735194,
+      "sha256": "27a93c49d76b787baa11d06780d42833d6a0b89a7734cc6e06d5b12c577429e3"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/input.npz",
+      "bytes": 5552615,
+      "sha256": "dc750b127acf985448224e29741c8f68eeebe3ba07cf782343a4a20d4600b181"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/live_status.json",
+      "bytes": 144,
+      "sha256": "05205ef0aaf6447c0cdcd0ec8c78af8fd416e2cd180ebfe39dd39d3a25529f80"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/local_checks.json",
+      "bytes": 385,
+      "sha256": "b33ef28adfa639b0407a29e2729ba467c628a7961ebb450785390ba2c1eee73d"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/metrics.json",
+      "bytes": 16413,
+      "sha256": "c0dd4e49ae6a7e94da656083541338598adbce7fc576ebc276acf9917ef797d4"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/prepare.log",
+      "bytes": 110,
+      "sha256": "b6b2fdd3e9a7a48e8546b4dee29d6cdbff4d28a59371de6fa3953ad2a5ae17d5"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/prepared.json",
+      "bytes": 81093,
+      "sha256": "2c3f8a42ca0324eb2cf77e3d57918bd9b49ad2a9f8d19d501690b489d0d4bf11"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/price_trades.npz",
+      "bytes": 5111,
+      "sha256": "03d91bff8c45e11a6b4763cd64c2cf8a4b8dacebb29909478079b1fe7f31817e"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/raw_trades.npz",
+      "bytes": 2279,
+      "sha256": "5dd810f79a263276c0655f9f22f878e8d41a0ec776020c7a5f95a1d7cfc27ec5"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/reference.npz",
+      "bytes": 20142,
+      "sha256": "630a6982b5c8905c087c563c43beadba930dcde908b69c043fe56df156034274"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/causality_checks.json",
+      "bytes": 151,
+      "sha256": "fbbba37725dc33002efd472ac8ebd9e95b7016a06cfab6eaf3da4b0e48d38702"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/complete.json",
+      "bytes": 125,
+      "sha256": "311a65f5d22761173ca6bedc2508600436625b7bd533f2ecd3993145e72eca7d"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/constant.npz",
+      "bytes": 948,
+      "sha256": "78b194ce431a5445127db4eb700a8923d0addeafc273212ff112d856ae2eef85"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_final.pt",
+      "bytes": 7038367,
+      "sha256": "10107f6d6a9a9bb5c9f255077928e97004032e8023c3ea2a489df97a98901414"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_final_curve.json",
+      "bytes": 276,
+      "sha256": "a4f2067fb41e1abdf1a50e4f14752463ea7cdd95d2bb6cec5ef828b61e5493c5"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_final_last.pt",
+      "bytes": 21054899,
+      "sha256": "304ad867691e9001f5fa9c12922b21304a087504f2ef958440c825423ed39cc7"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_final_summary.json",
+      "bytes": 93,
+      "sha256": "09eaf0e46c9d798a6f15e8ef27da7aae1422c67ef45ef7b5afd9123ebc55a665"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_selection.npz",
+      "bytes": 954355,
+      "sha256": "ade805d09cdb4d1fda7da113339e3be52e504e1c8f218f530244f39a4d25a25a"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_selection_best.pt",
+      "bytes": 7039198,
+      "sha256": "9b146603aaf583c48a64efcbb97b3040c20149c85eac0380f262e2763fa611c2"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_selection_curve.json",
+      "bytes": 1302,
+      "sha256": "7aa20bdd83461dd35bd147f3a2a2b2c4de30b3397df64c9005c98127a5cd6f24"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_selection_last.pt",
+      "bytes": 21056107,
+      "sha256": "2b707f35e9b8c9d7cda8c9f0ecfab76454dad713b45cb2e80187f5684eefb9fb"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_selection_summary.json",
+      "bytes": 94,
+      "sha256": "5435e31e23e9009790af436ad54ad068a83d649406c53eea08da3cfc5418140f"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_test.npz",
+      "bytes": 1761155,
+      "sha256": "65a2e677aa1260c6cd43dc89eb45b1dc7fe6fcc97929d54e6b7c8ac7e718cc01"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/engineered_test_loss.json",
+      "bytes": 98,
+      "sha256": "075bebb40bfa9c2daea52b1a6805dc77a2b90f3cd278114bda2cdbdc475488d7"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/evaluation_data.npz",
+      "bytes": 11601117,
+      "sha256": "d2493769652f2c7ee49a902fb203b89fee0b7138d9953743496fa452a1c88f28"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/prepare.log",
+      "bytes": 320,
+      "sha256": "3163ce2afd8f9c37ae91849b9bc0f87b45a2d49757e08c9bba416fff12c2578b"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/prepared.json",
+      "bytes": 81093,
+      "sha256": "2c3f8a42ca0324eb2cf77e3d57918bd9b49ad2a9f8d19d501690b489d0d4bf11"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_final.pt",
+      "bytes": 1135474,
+      "sha256": "d9fb76edf0504cf5e385fb1d6a016701832224c7f5a3066002812d555cf454b4"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_final_curve.json",
+      "bytes": 1933,
+      "sha256": "b6963ffd1df46548257cd9ca39c6177fcf38bdb484af3f0c3fe1f7f35718a20d"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_final_last.pt",
+      "bytes": 3343845,
+      "sha256": "9779ecd07349149c4a65e5f3830168a49a85db4d62e99fcb855191d259d4688c"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_final_summary.json",
+      "bytes": 91,
+      "sha256": "a7aee0d84d803ab933ddf20e6f05459631935c76041e8118dac91f22be103928"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_selection.npz",
+      "bytes": 1964276,
+      "sha256": "b61206b348b1b0ee7f0de35062865ebd3d9420d8a0faef324c71a0b7710a9242"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_selection_best.pt",
+      "bytes": 1136023,
+      "sha256": "6be25c7667d381f580910529a53a8c19de29dee1969c95912aa695c79901cf25"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_selection_curve.json",
+      "bytes": 3468,
+      "sha256": "1b048ed2b6dfb530bfa5fd1341743bc55f514db35ec0bded35554ccb91539f8c"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_selection_last.pt",
+      "bytes": 3344701,
+      "sha256": "139561243c421760282a16602faeca85fc5fbdb509e11bfe8dd5de2bd75e8378"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_selection_summary.json",
+      "bytes": 93,
+      "sha256": "0dc8629f5c90eaa45d58a81b09080ecc8dd140eabec34ef9a595cf956fecd1ee"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_test.npz",
+      "bytes": 6675504,
+      "sha256": "5d7c3025bc351f5c0003812f22c4b623e0bbec540c055b4b1473405be5e9d507"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/price_test_loss.json",
+      "bytes": 99,
+      "sha256": "ad5d4986cbeb54aff372157afdb97ff4a08e0d815a5a0aa83e4deed019222f32"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_final.pt",
+      "bytes": 6568110,
+      "sha256": "a711bf95e64ad3e454ef6ad279430282ecf7596206bce80af5c611b6a9191eb7"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_final_curve.json",
+      "bytes": 276,
+      "sha256": "ab30d64ed0361b18ac06255dc4f358eedae65d99c4fcb3fd05135f496b1bf329"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_final_last.pt",
+      "bytes": 19643841,
+      "sha256": "0184406114c2bcf9437a5eede7055a56c9a0cf7d5fa262cd4b56594f13eca9a6"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_final_summary.json",
+      "bytes": 93,
+      "sha256": "cd1f3c365521b4fbd9a9e5b1a53a8097d3462490ecb4451a49c329c352bf927d"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_selection.npz",
+      "bytes": 1314080,
+      "sha256": "97c687be45a8a04a68117aac0661a7baa5feab6ea34756d131617059789d6239"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_selection_best.pt",
+      "bytes": 6568749,
+      "sha256": "c4a6310fabc77f14347adee388c8fa03377e9e9070f85e022c738b36459eef1a"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_selection_curve.json",
+      "bytes": 1306,
+      "sha256": "21224740173b7d899970b4026d769d585858a0419e5ec793b1a4ef35404a836c"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_selection_last.pt",
+      "bytes": 19644857,
+      "sha256": "a1d40b07586c022b760bb2aa6cfc10c7eeac9190a066d6f3e8544de17fde9ed3"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_selection_summary.json",
+      "bytes": 93,
+      "sha256": "cd4e2bfc1ff1cb1321739059eee64fd178a7696d77116b18cddf699e1ca452b6"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_test.npz",
+      "bytes": 4726249,
+      "sha256": "2b0cd313f48ba03399fc258d921ae34d6b3ba3a8d00adf92908ffe6d68be1af5"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/raw_test_loss.json",
+      "bytes": 99,
+      "sha256": "dd543c9e01b60707e5d1d4b22dac5d93f3c9b8732e755250db99666821e926a8"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/run.json",
+      "bytes": 85742,
+      "sha256": "90e370e4329bd8c8e4c1cb3df9741f8c345fd6e731d736d1d3bbf33569813217"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/selection_frozen.json",
+      "bytes": 162,
+      "sha256": "c5e23f71f085bb0800368c1c4ba2d8ee62c7770cc62c47dd49b274da89f81c4f"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/status.json",
+      "bytes": 85,
+      "sha256": "d938a0c42f28ade3009d7229b318f4eafecf369fa8d87ed433e2c9d165dd3d54"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/tiny_fit.json",
+      "bytes": 221,
+      "sha256": "e2b5730ef9ac3e4bf2a6d74ab082dc7676334404f4d756d1b0a0488e1cb60e75"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/training.log",
+      "bytes": 38423,
+      "sha256": "eb35fffe0aa761d9de795bf0839cb22aef862fa5d68914e26b78e308aa59d43b"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/remote/worker_result.json",
+      "bytes": 48,
+      "sha256": "01607b6f6d85aefce7d50449c22576396922a8aaa9f70f910e25452872333b07"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/sync.log",
+      "bytes": 1477,
+      "sha256": "24f6f25f48938daad8950cb89867358f81f6794f83e6b4159c5a6c5a1f9e11c7"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/tiny_fit.json",
+      "bytes": 221,
+      "sha256": "e2b5730ef9ac3e4bf2a6d74ab082dc7676334404f4d756d1b0a0488e1cb60e75"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/trading.json",
+      "bytes": 4129,
+      "sha256": "4c0e82caeceb6ca3f65b01dccf6531d78d52bc8123fd567bf38ea0f82b764c60"
+    },
+    {
+      "file": "reports/spectral_transformer_20261013/trading_selection.json",
+      "bytes": 12655,
+      "sha256": "ba05599df54ea280ca63cf0775c8ef4754879b50468e4a04184d4c9aad13ceb6"
+    }
+  ],
+  "excluded_transient_gpu_feature_matrix": "reproducible_from_included_input_reference_code",
+  "original_HDF5_preserved_separately": true
+}

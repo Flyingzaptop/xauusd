@@ -1,0 +1,83 @@
+{
+  "v2_calibration": {
+    "mean_LONG_SHORT": [
+      0.4828832447528839,
+      0.42128220200538635
+    ],
+    "std_of_conditional_means": [
+      0.002435215748846531,
+      0.0019374587573111057
+    ],
+    "rows": 4096
+  },
+  "v2_constant_reward": [
+    0.0,
+    -0.03423351049423218,
+    -0.1574355959892273
+  ],
+  "v2_final_alpha": 0.24614585611577144,
+  "assumed_advantage_scale": 0.1,
+  "constant_reward_entropy_optimum": [
+    0.7996488612103334,
+    0.1990171893990837,
+    0.0013339493905829062
+  ],
+  "actual_test_mean_policy": [
+    0.8038555841869696,
+    0.19566735781190983,
+    0.0004770611594337461
+  ],
+  "interpretation": "Analytical diagnostic under constant scores, active 0.1 advantage-scale floor and final alpha. Not a fitted or rerun control; training is nonstationary.",
+  "v3_best_calibration": {
+    "mean_LONG_SHORT": [
+      0.49888357520103455,
+      0.42334920167922974
+    ],
+    "std_of_conditional_means": [
+      0.0023839136119931936,
+      0.001698212930932641
+    ],
+    "rows": 4096
+  },
+  "v3_final_calibration": {
+    "mean_LONG_SHORT": [
+      0.49724918603897095,
+      0.4238172769546509
+    ],
+    "std_of_conditional_means": [
+      0.00223721144720912,
+      0.001696122926659882
+    ],
+    "rows": 4096
+  },
+  "train_rows": 2216424,
+  "student_training_coverage": 0.11827339895254699,
+  "fresh_student_coverage": 0.08870504921441023,
+  "counterexample": {
+    "WAIT_then_enter": 20,
+    "enter_now_blocks_next": 1,
+    "explanation": "A positive immediate entry reward can favor entering now although waiting one minute permits the better fixed-duration trade. Pointwise bandit does not value that transition."
+  },
+  "risk_objective_counterexample": [
+    {
+      "profits": [
+        10,
+        -10,
+        10,
+        -10
+      ],
+      "utility": -5.0,
+      "max_closed_drawdown": 10.0
+    },
+    {
+      "profits": [
+        10,
+        10,
+        -10,
+        -10
+      ],
+      "utility": -5.0,
+      "max_closed_drawdown": 20.0
+    }
+  ]
+}

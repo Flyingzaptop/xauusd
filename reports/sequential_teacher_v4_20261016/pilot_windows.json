@@ -1,0 +1,59 @@
+{
+  "windows": [
+    {
+      "date": "2022-02-28",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "train"
+    },
+    {
+      "date": "2022-03-01",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "train"
+    },
+    {
+      "date": "2022-03-02",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "train"
+    },
+    {
+      "date": "2022-03-03",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "train"
+    },
+    {
+      "date": "2022-03-04",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "train"
+    },
+    {
+      "date": "2022-03-07",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "dev"
+    },
+    {
+      "date": "2022-03-08",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "dev"
+    },
+    {
+      "date": "2022-03-10",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "test"
+    },
+    {
+      "date": "2022-03-11",
+      "open": "08:00",
+      "close": "18:00",
+      "split": "test"
+    }
+  ],
+  "meaning": "Predeclared UTC strategy windows for data/execution diagnostics; not a broker calendar or final test protocol."
+}

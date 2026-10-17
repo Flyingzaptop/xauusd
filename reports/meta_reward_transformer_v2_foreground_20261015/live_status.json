@@ -1,0 +1,36 @@
+{
+  "checked_epoch": 1792109325.0338798,
+  "supervisor_status.json": {
+    "phase": "complete",
+    "updated_epoch": 1792109306.2977033,
+    "returncode": 0,
+    "complete": true
+  },
+  "prepare_status.json": {
+    "phase": "complete",
+    "rows": 3505124,
+    "bytes": 74701202688,
+    "seconds": 1039.4,
+    "available_RAM_GB": 161.3
+  },
+  "training_status.json": {
+    "phase": "complete",
+    "seconds": 11149.2,
+    "allocated_GB": 62.45
+  },
+  "archive_ready.json": {
+    "created_epoch": 1792109306.2975624,
+    "returncode": 0,
+    "complete": true
+  },
+  "kernel_status": {
+    "kernels": [
+      {
+        "name": "python3",
+        "execution_state": "idle",
+        "last_activity": "2026-10-16T00:08:26.316756Z",
+        "connections": 1
+      }
+    ]
+  }
+}

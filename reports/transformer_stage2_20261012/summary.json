@@ -1,0 +1,595 @@
+{
+  "selected_family": "static",
+  "selected_baseline": "train_distribution",
+  "metrics": {
+    "static": {
+      "validation_pinball": 0.13200587059435603,
+      "pinball_normalized": 0.09575082332514467,
+      "median_mae_normalized": 0.27615246176719666,
+      "mae_dollars": [
+        [
+          1.3135768403697867,
+          4.155295150598315
+        ],
+        [
+          1.9465287017886432,
+          8.686806274047118
+        ]
+      ],
+      "coverage80": [
+        [
+          0.7833935018050542,
+          0.644404332129964
+        ],
+        [
+          0.796028880866426,
+          0.5992779783393501
+        ]
+      ],
+      "interval_width_dollars": [
+        [
+          5.03018817338354,
+          12.179865942521396
+        ],
+        [
+          8.249254899138068,
+          27.28947410432792
+        ]
+      ],
+      "actual_mean_dollars": [
+        [
+          3.6598194945848523,
+          14.156353790613316
+        ],
+        [
+          5.284729241877309,
+          28.294043321298794
+        ]
+      ],
+      "median_bias_dollars": [
+        [
+          0.08404215513396764,
+          0.6345866733306814
+        ],
+        [
+          0.15550072372393794,
+          2.156085817914398
+        ]
+      ],
+      "horizon_violation_fraction": 0.0,
+      "rank_correlations": [
+        [
+          0.27124141174461375,
+          0.39850927808083747
+        ],
+        [
+          0.19421830367945858,
+          0.3586853355075263
+        ]
+      ],
+      "quantile_cdf": [
+        [
+          [
+            0.17509025270758122,
+            0.6552346570397112,
+            0.9584837545126353
+          ],
+          [
+            0.2996389891696751,
+            0.7021660649819494,
+            0.944043321299639
+          ]
+        ],
+        [
+          [
+            0.15342960288808663,
+            0.7075812274368231,
+            0.9494584837545126
+          ],
+          [
+            0.34657039711191334,
+            0.7274368231046932,
+            0.9458483754512635
+          ]
+        ]
+      ]
+    },
+    "hyper": {
+      "validation_pinball": 0.132082922163437,
+      "pinball_normalized": 0.10503022345780393,
+      "median_mae_normalized": 0.3001079559326172,
+      "mae_dollars": [
+        [
+          1.4157840260030023,
+          4.485914954938123
+        ],
+        [
+          2.129004183483086,
+          9.516654218701008
+        ]
+      ],
+      "coverage80": [
+        [
+          0.7725631768953068,
+          0.6588447653429603
+        ],
+        [
+          0.7653429602888087,
+          0.5830324909747292
+        ]
+      ],
+      "interval_width_dollars": [
+        [
+          5.805091682730579,
+          14.107885036397757
+        ],
+        [
+          9.059105909835642,
+          30.402209035613193
+        ]
+      ],
+      "actual_mean_dollars": [
+        [
+          3.6598194945848523,
+          14.156353790613316
+        ],
+        [
+          5.284729241877309,
+          28.294043321298794
+        ]
+      ],
+      "median_bias_dollars": [
+        [
+          0.23509954676200961,
+          1.0108506864828193
+        ],
+        [
+          0.3979517557422251,
+          3.158127067211121
+        ]
+      ],
+      "horizon_violation_fraction": 0.0,
+      "rank_correlations": [
+        [
+          0.30331444711823485,
+          0.4270869883673561
+        ],
+        [
+          0.1747830234182072,
+          0.3602493280824527
+        ]
+      ],
+      "quantile_cdf": [
+        [
+          [
+            0.1931407942238267,
+            0.6913357400722022,
+            0.9657039711191335
+          ],
+          [
+            0.29783393501805056,
+            0.7328519855595668,
+            0.9566787003610109
+          ]
+        ],
+        [
+          [
+            0.18050541516245489,
+            0.720216606498195,
+            0.9458483754512635
+          ],
+          [
+            0.3700361010830325,
+            0.740072202166065,
+            0.9530685920577617
+          ]
+        ]
+      ]
+    },
+    "hyper_fixed": {
+      "validation_pinball": 0.1369260631989008,
+      "pinball_normalized": 0.10324151736250423,
+      "median_mae_normalized": 0.2947162985801697,
+      "mae_dollars": [
+        [
+          1.3779173759244099,
+          4.557872108481891
+        ],
+        [
+          2.0360938782947535,
+          9.445584095101529
+        ]
+      ],
+      "coverage80": [
+        [
+          0.7581227436823105,
+          0.644404332129964
+        ],
+        [
+          0.779783393501805,
+          0.5776173285198556
+        ]
+      ],
+      "interval_width_dollars": [
+        [
+          6.010353601115613,
+          15.032074808736533
+        ],
+        [
+          9.202587338101011,
+          31.2895508596355
+        ]
+      ],
+      "actual_mean_dollars": [
+        [
+          3.6598194945848523,
+          14.156353790613316
+        ],
+        [
+          5.284729241877309,
+          28.294043321298794
+        ]
+      ],
+      "median_bias_dollars": [
+        [
+          0.2224803888231786,
+          0.9905880150472752
+        ],
+        [
+          0.33000672841577394,
+          2.9641434051754354
+        ]
+      ],
+      "horizon_violation_fraction": 0.0,
+      "rank_correlations": [
+        [
+          0.29108899595530596,
+          0.40609266868006527
+        ],
+        [
+          0.16516938591351618,
+          0.356451200549359
+        ]
+      ],
+      "quantile_cdf": [
+        [
+          [
+            0.20938628158844766,
+            0.6949458483754513,
+            0.9675090252707581
+          ],
+          [
+            0.315884476534296,
+            0.7328519855595668,
+            0.9602888086642599
+          ]
+        ],
+        [
+          [
+            0.17148014440433212,
+            0.7148014440433214,
+            0.9512635379061372
+          ],
+          [
+            0.37364620938628157,
+            0.7436823104693141,
+            0.9512635379061372
+          ]
+        ]
+      ]
+    },
+    "train_distribution": {
+      "validation_pinball": 0.15677956840902002,
+      "pinball_normalized": 0.12903997697581668,
+      "median_mae_normalized": 0.3680494725704193,
+      "mae_dollars": [
+        [
+          1.7385916700269433,
+          6.0849718631318765
+        ],
+        [
+          2.398319279886579,
+          11.668500450294172
+        ]
+      ],
+      "coverage80": [
+        [
+          0.6425992779783394,
+          0.48194945848375453
+        ],
+        [
+          0.6696750902527075,
+          0.4981949458483754
+        ]
+      ],
+      "interval_width_dollars": [
+        [
+          7.234369158658249,
+          19.94214700959738
+        ],
+        [
+          10.733188254780735,
+          38.37536654336903
+        ]
+      ],
+      "actual_mean_dollars": [
+        [
+          3.6598194945848523,
+          14.156353790613316
+        ],
+        [
+          5.284729241877309,
+          28.294043321298794
+        ]
+      ],
+      "median_bias_dollars": [
+        [
+          0.7586342589704561,
+          2.891524135312746
+        ],
+        [
+          0.9687640934989032,
+          6.358703237192903
+        ]
+      ],
+      "horizon_violation_fraction": 0.0,
+      "rank_correlations": [
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ]
+      ],
+      "quantile_cdf": [
+        [
+          [
+            0.33393501805054154,
+            0.7851985559566786,
+            0.9765342960288809
+          ],
+          [
+            0.4855595667870036,
+            0.7833935018050542,
+            0.9675090252707581
+          ]
+        ],
+        [
+          [
+            0.30685920577617326,
+            0.7671480144404332,
+            0.9765342960288809
+          ],
+          [
+            0.47653429602888087,
+            0.7851985559566786,
+            0.9747292418772563
+          ]
+        ]
+      ]
+    },
+    "past_activity": {
+      "validation_pinball": 0.174436997684574,
+      "pinball_normalized": 0.1066544894384563,
+      "median_mae_normalized": 0.3092464506626129,
+      "mae_dollars": [
+        [
+          1.581317284141171,
+          3.559371986372181
+        ],
+        [
+          2.5137503130930723,
+          9.284898468113528
+        ]
+      ],
+      "coverage80": [
+        [
+          0.8465703971119134,
+          0.8339350180505415
+        ],
+        [
+          0.8700361010830325,
+          0.8249097472924187
+        ]
+      ],
+      "interval_width_dollars": [
+        [
+          5.683531354552331,
+          11.78070453850647
+        ],
+        [
+          10.08685787346035,
+          29.501463623945124
+        ]
+      ],
+      "actual_mean_dollars": [
+        [
+          3.6598194945848523,
+          14.156353790613316
+        ],
+        [
+          5.284729241877309,
+          28.294043321298794
+        ]
+      ],
+      "median_bias_dollars": [
+        [
+          -0.07821469723638017,
+          -0.28190497300043643
+        ],
+        [
+          0.02605180275249027,
+          -0.3237450080395481
+        ]
+      ],
+      "horizon_violation_fraction": 0.0351985559566787,
+      "rank_correlations": [
+        [
+          0.37109922295602465,
+          0.6664777649381955
+        ],
+        [
+          0.2859837197632628,
+          0.45983947994687274
+        ]
+      ],
+      "quantile_cdf": [
+        [
+          [
+            0.09205776173285199,
+            0.4711191335740072,
+            0.9386281588447654
+          ],
+          [
+            0.09927797833935018,
+            0.5144404332129964,
+            0.9332129963898917
+          ]
+        ],
+        [
+          [
+            0.05054151624548736,
+            0.5108303249097473,
+            0.9205776173285198
+          ],
+          [
+            0.0776173285198556,
+            0.5126353790613718,
+            0.9025270758122743
+          ]
+        ]
+      ]
+    }
+  },
+  "comparisons": {
+    "static_minus_train_distribution": {
+      "mean_difference": -0.033289153650672,
+      "interval95": [
+        -0.04189793635584296,
+        -0.024998301957811258
+      ],
+      "days": 11
+    },
+    "static_minus_past_activity": {
+      "mean_difference": -0.010903666113311637,
+      "interval95": [
+        -0.021670340907511302,
+        -0.0005038978372373735
+      ],
+      "days": 11
+    },
+    "static_minus_hyper": {
+      "mean_difference": -0.009279400132659252,
+      "interval95": [
+        -0.015626285008981177,
+        -0.0046263787027058636
+      ],
+      "days": 11
+    }
+  },
+  "context_alignment": {
+    "actual_pinball": 0.09575082332514467,
+    "within_day_shuffled_mean": 0.10858370474514413,
+    "relative_advantage": 0.1181842289330558,
+    "permutations": 2000,
+    "seed": 789,
+    "note": "Exploratory descriptive ablation after inspecting forecasts; dependent windows are not exchangeable, no formal permutation p-value claimed."
+  },
+  "trials": {
+    "static_17": {
+      "transfer": {
+        "checkpoint_sha256": "9f45222c3f9fe2cf9d05dbdde78ed4acacbaad1af02bfec9c89a57882a515ae2",
+        "stage1_epoch": 20,
+        "all_legacy_weights_exact": true,
+        "legacy_state_sha256": "e8dfed5d6475846c1efaefc9765a996870a9c069e4a3d188ffeb9acf833481e0"
+      },
+      "initial_validation_pinball": 0.15686580268841868,
+      "stage1_before": {
+        "path_mae_dollars": 1.0682622304825524,
+        "close_mae_dollars": 1.126462945064796,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "epochs": 22,
+      "best_epoch": 18,
+      "best_validation_pinball": 0.1332842542596583,
+      "stage1_after": {
+        "path_mae_dollars": 2.6900288109525357,
+        "close_mae_dollars": 3.2994759540377028,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "stop": "plateau"
+    },
+    "hyper_17": {
+      "transfer": {
+        "checkpoint_sha256": "f753a2c74c656eab2a789e5dd21a50079e2a00c92ba60b89d9dd535966ff6912",
+        "stage1_epoch": 28,
+        "all_legacy_weights_exact": true,
+        "legacy_state_sha256": "422dd59613563a0ebd16089e9319a23cb44e445cb3e6b864b8b957f3a3550a23"
+      },
+      "initial_validation_pinball": 0.15678443599422023,
+      "stage1_before": {
+        "path_mae_dollars": 1.0562246941781668,
+        "close_mae_dollars": 1.072302956758347,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "epochs": 15,
+      "best_epoch": 10,
+      "best_validation_pinball": 0.13937664580232692,
+      "stage1_after": {
+        "path_mae_dollars": 3.2932118204643124,
+        "close_mae_dollars": 3.4896979835668485,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "stop": "plateau"
+    },
+    "static_29": {
+      "transfer": {
+        "checkpoint_sha256": "e072c7bccc414b99ad5d1a36acdb858000f7749c941727f992de2aa83dfbb69c",
+        "stage1_epoch": 9,
+        "all_legacy_weights_exact": true,
+        "legacy_state_sha256": "77c9adb22e55b249c204ad945564209224e43465daf04159bcb6d435604868fe"
+      },
+      "initial_validation_pinball": 0.15683269483863183,
+      "stage1_before": {
+        "path_mae_dollars": 1.2597940062988173,
+        "close_mae_dollars": 1.3541842544630167,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "epochs": 28,
+      "best_epoch": 24,
+      "best_validation_pinball": 0.13748434897301332,
+      "stage1_after": {
+        "path_mae_dollars": 2.2889883959228157,
+        "close_mae_dollars": 2.342566791290878,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "stop": "plateau"
+    },
+    "hyper_29": {
+      "transfer": {
+        "checkpoint_sha256": "782cc065838a4b6ea1b96535ba3c4f36ce97412da5d9ebb773de12b91b27822b",
+        "stage1_epoch": 15,
+        "all_legacy_weights_exact": true,
+        "legacy_state_sha256": "78bcbda8ddf693eea7333255b2e8e61274febdee3dadc9df4831f4bd1dcafbf7"
+      },
+      "initial_validation_pinball": 0.1567946987332038,
+      "stage1_before": {
+        "path_mae_dollars": 1.1933350624728007,
+        "close_mae_dollars": 1.2181870246797353,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "epochs": 22,
+      "best_epoch": 17,
+      "best_validation_pinball": 0.13191262292412093,
+      "stage1_after": {
+        "path_mae_dollars": 4.419710877969327,
+        "close_mae_dollars": 4.648637216347058,
+        "note": "Same frozen stage1 readout applied to changed encoder/head features; diagnostic, not stage1 retraining."
+      },
+      "stop": "plateau"
+    }
+  },
+  "seconds": 96.52424693107605
+}

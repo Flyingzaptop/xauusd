@@ -1,0 +1,13 @@
+{
+  "previous_stft_exact_differences": {
+    "128": 0.0,
+    "512": 0.0
+  },
+  "previous_48_scales_preserved_exactly": true,
+  "previous_kernel_samples_identical": true,
+  "wavelet_scale_count": 75,
+  "largest_kernel_length": 65537,
+  "new_stft_frequency_count": 2048,
+  "images_created": false,
+  "scientific_analysis_performed": false
+}

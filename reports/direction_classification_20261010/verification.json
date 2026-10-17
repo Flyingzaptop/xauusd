@@ -1,0 +1,14 @@
+{
+  "completed_trials": 4,
+  "epochs_per_trial": 12,
+  "train_windows_per_epoch": 27716,
+  "test_windows": 690,
+  "gpu_sessions_active": 0,
+  "independent_metric_recalculation": "passed",
+  "past_scale_direct_max_error": 2.722079289405044e-15,
+  "checks": {
+    "explicit_reference_max_error": 6.661338147750939e-16,
+    "exactly_opposing_gradients_remain_unsolved": true,
+    "future_price_perturbation_max_feature_error": 0.0
+  }
+}

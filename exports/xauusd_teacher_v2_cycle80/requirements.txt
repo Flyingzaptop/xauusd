@@ -1,0 +1,6 @@
+torch>=2.6,<3
+numpy>=1.26
+pandas>=2.2
+pyarrow>=16
+requests>=2.31
+psutil>=5.9

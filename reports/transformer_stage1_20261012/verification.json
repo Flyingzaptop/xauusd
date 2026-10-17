@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "stage": 1,
+  "later_stages_disabled": true,
+  "trials": 4,
+  "total_epochs": 86,
+  "train_examples_per_epoch": 19396,
+  "source_data_hashes": true,
+  "paired_initial_encoder": true,
+  "best_epochs_recomputed": true,
+  "ensemble_validation_test_metrics_recomputed": true,
+  "analytic_oracle_from_inputs_only": true,
+  "absolute_prices_excluded_from_model_input": true
+}

@@ -1,0 +1,464 @@
+{
+  "selected_family": "static_curriculum",
+  "metrics": {
+    "static_curriculum": {
+      "validation_pinball": 0.2905516598334496,
+      "pinball_normalized": 0.25912827877932204,
+      "pinball_dollars": 0.49328910061119247,
+      "mean_price_mae_dollars": 1.4529210329055786,
+      "first60_mean_price_mae_dollars": 0.9850924611091614,
+      "last_block_mean_price_mae_dollars": 2.1783721446990967,
+      "mean_price_mae_by_block": [
+        0.48488447070121765,
+        0.8804731965065002,
+        1.1622556447982788,
+        1.4127577543258667,
+        1.6359643936157227,
+        1.8412978649139404,
+        2.0273659229278564,
+        2.1783721446990967
+      ],
+      "mean_price_80pct_coverage": 0.811623831775701,
+      "all_targets_80pct_coverage": 0.8139602803738317,
+      "mean_price_interval_width_dollars": 5.019633769989014,
+      "extrema_mae_dollars": 1.4770821332931519
+    },
+    "static_direct": {
+      "validation_pinball": 0.29571702344086614,
+      "pinball_normalized": 0.2617268016977808,
+      "pinball_dollars": 0.4979019404931426,
+      "mean_price_mae_dollars": 1.461336612701416,
+      "first60_mean_price_mae_dollars": 0.9909717440605164,
+      "last_block_mean_price_mae_dollars": 2.1887705326080322,
+      "mean_price_mae_by_block": [
+        0.4863034188747406,
+        0.8802143931388855,
+        1.1704946756362915,
+        1.4268739223480225,
+        1.6472115516662598,
+        1.8521300554275513,
+        2.038696527481079,
+        2.188769817352295
+      ],
+      "mean_price_80pct_coverage": 0.829001168224299,
+      "all_targets_80pct_coverage": 0.8298286604361371,
+      "mean_price_interval_width_dollars": 5.1761884689331055,
+      "extrema_mae_dollars": 1.4814832210540771
+    },
+    "hyper_curriculum": {
+      "validation_pinball": 0.29757109655828856,
+      "pinball_normalized": 0.26327489180679087,
+      "pinball_dollars": 0.502086202905123,
+      "mean_price_mae_dollars": 1.486777901649475,
+      "first60_mean_price_mae_dollars": 0.989734411239624,
+      "last_block_mean_price_mae_dollars": 2.2727575302124023,
+      "mean_price_mae_by_block": [
+        0.4868622422218323,
+        0.880043089389801,
+        1.1663624048233032,
+        1.4256700277328491,
+        1.6664953231811523,
+        1.8938349485397339,
+        2.102198600769043,
+        2.272756814956665
+      ],
+      "mean_price_80pct_coverage": 0.8313376168224299,
+      "all_targets_80pct_coverage": 0.8348909657320872,
+      "mean_price_interval_width_dollars": 5.272843837738037,
+      "extrema_mae_dollars": 1.5093557834625244
+    },
+    "hyper_curriculum_fixed": {
+      "validation_pinball": 0.29826521694323305,
+      "pinball_normalized": 0.2580848580282929,
+      "pinball_dollars": 0.4896403826226813,
+      "mean_price_mae_dollars": 1.4503188133239746,
+      "first60_mean_price_mae_dollars": 0.9851244688034058,
+      "last_block_mean_price_mae_dollars": 2.1771345138549805,
+      "mean_price_mae_by_block": [
+        0.4843325614929199,
+        0.8805789947509766,
+        1.1625795364379883,
+        1.4130070209503174,
+        1.6353294849395752,
+        1.831007957458496,
+        2.0185799598693848,
+        2.177135944366455
+      ],
+      "mean_price_80pct_coverage": 0.8326518691588785,
+      "all_targets_80pct_coverage": 0.8348422897196262,
+      "mean_price_interval_width_dollars": 4.9423651695251465,
+      "extrema_mae_dollars": 1.4674632549285889
+    },
+    "hyper_direct": {
+      "validation_pinball": 0.29436793257706184,
+      "pinball_normalized": 0.2591897160400296,
+      "pinball_dollars": 0.4920437617722827,
+      "mean_price_mae_dollars": 1.439556360244751,
+      "first60_mean_price_mae_dollars": 0.9835360646247864,
+      "last_block_mean_price_mae_dollars": 2.141732692718506,
+      "mean_price_mae_by_block": [
+        0.48572656512260437,
+        0.8781542181968689,
+        1.1610136032104492,
+        1.4092475175857544,
+        1.6215215921401978,
+        1.8165740966796875,
+        2.0024783611297607,
+        2.141732692718506
+      ],
+      "mean_price_80pct_coverage": 0.7910338785046729,
+      "all_targets_80pct_coverage": 0.7953173676012462,
+      "mean_price_interval_width_dollars": 4.81682014465332,
+      "extrema_mae_dollars": 1.4637643098831177
+    },
+    "hyper_direct_fixed": {
+      "validation_pinball": 0.29435127562329577,
+      "pinball_normalized": 0.25912634391775674,
+      "pinball_dollars": 0.49186595288021157,
+      "mean_price_mae_dollars": 1.4394601583480835,
+      "first60_mean_price_mae_dollars": 0.9834935665130615,
+      "last_block_mean_price_mae_dollars": 2.1414785385131836,
+      "mean_price_mae_by_block": [
+        0.48565006256103516,
+        0.8781506419181824,
+        1.1610150337219238,
+        1.4091602563858032,
+        1.6213935613632202,
+        1.8163856267929077,
+        2.002448797225952,
+        2.1414785385131836
+      ],
+      "mean_price_80pct_coverage": 0.791179906542056,
+      "all_targets_80pct_coverage": 0.7951713395638629,
+      "mean_price_interval_width_dollars": 4.811332702636719,
+      "extrema_mae_dollars": 1.463598370552063
+    },
+    "train_template": {
+      "validation_pinball": 0.30794642252840043,
+      "pinball_normalized": 0.2641288724369756,
+      "pinball_dollars": 0.5051246195812896,
+      "mean_price_mae_dollars": 1.463161587715149,
+      "first60_mean_price_mae_dollars": 0.9892243146896362,
+      "last_block_mean_price_mae_dollars": 2.213069200515747,
+      "mean_price_mae_by_block": [
+        0.4848718047142029,
+        0.8825749754905701,
+        1.1679065227508545,
+        1.4215437173843384,
+        1.6466166973114014,
+        1.8435372114181519,
+        2.0451745986938477,
+        2.2130680084228516
+      ],
+      "mean_price_80pct_coverage": 0.8370327102803738,
+      "all_targets_80pct_coverage": 0.8374221183800623,
+      "mean_price_interval_width_dollars": 5.144656658172607,
+      "extrema_mae_dollars": 1.4904305934906006
+    },
+    "persistence": {
+      "mean_price_mae_dollars": 1.4598650932312012,
+      "first60_mean_price_mae_dollars": 0.9874839186668396,
+      "last_block_mean_price_mae_dollars": 2.206160306930542,
+      "mean_price_mae_by_block": [
+        0.48474442958831787,
+        0.8809095621109009,
+        1.1660910844802856,
+        1.4181915521621704,
+        1.6446436643600464,
+        1.8402552604675293,
+        2.0379269123077393,
+        2.206160306930542
+      ]
+    }
+  },
+  "comparisons": {
+    "static_curriculum_vs_template": {
+      "mean_difference": -0.010240651667118073,
+      "interval95": [
+        -0.043203732012269805,
+        0.025479497317420774
+      ],
+      "days": 13,
+      "method": "paired bootstrap of whole calendar days, 10000 resamples; descriptive with few days"
+    },
+    "static_curriculum_vs_persistence": {
+      "mean_difference": -0.006944079417735338,
+      "interval95": [
+        -0.04051322138059269,
+        0.028346469962530395
+      ],
+      "days": 13,
+      "method": "paired bootstrap of whole calendar days, 10000 resamples; descriptive with few days"
+    },
+    "static_curriculum_minus_direct": {
+      "mean_difference": -0.008415627293288708,
+      "interval95": [
+        -0.031105294887753945,
+        0.013443186315610088
+      ],
+      "days": 13,
+      "method": "paired bootstrap of whole calendar days, 10000 resamples; descriptive with few days"
+    },
+    "hyper_curriculum_minus_direct": {
+      "mean_difference": 0.04722164571285248,
+      "interval95": [
+        -0.005010860408283663,
+        0.10247956139602968
+      ],
+      "days": 13,
+      "method": "paired bootstrap of whole calendar days, 10000 resamples; descriptive with few days"
+    }
+  },
+  "probabilistic_comparison": {
+    "mean_difference": -0.005000593657653554,
+    "interval95": [
+      -0.012914595693045153,
+      0.0016614588260176475
+    ],
+    "days": 13,
+    "method": "paired bootstrap of whole calendar days, 10000 resamples; descriptive with few days"
+  },
+  "trials": {
+    "static_curriculum_17": {
+      "epochs": 18,
+      "stages": [
+        {
+          "stage": 1,
+          "epochs": 3,
+          "best_global_epoch": 3,
+          "best_stage_epoch": 3,
+          "best_validation": 0.10771567121110576,
+          "stop": "cap"
+        },
+        {
+          "stage": 2,
+          "epochs": 4,
+          "best_global_epoch": 7,
+          "best_stage_epoch": 4,
+          "best_validation": 0.6446838502769806,
+          "stop": "cap"
+        },
+        {
+          "stage": 3,
+          "epochs": 4,
+          "best_global_epoch": 11,
+          "best_stage_epoch": 4,
+          "best_validation": 0.28793958216079835,
+          "stop": "cap"
+        },
+        {
+          "stage": 4,
+          "epochs": 7,
+          "best_global_epoch": 16,
+          "best_stage_epoch": 5,
+          "best_validation": 0.29250122719357535,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "6e875dbc1a8439ddff7e9bcdbab524062b0f51353fb5d7d37ed2ca0564044b3e",
+      "best_validation": 0.29250122719357535,
+      "generated_weights": null,
+      "epoch_cap": 20
+    },
+    "static_direct_17": {
+      "epochs": 7,
+      "stages": [
+        {
+          "stage": 4,
+          "epochs": 7,
+          "best_global_epoch": 7,
+          "best_stage_epoch": 7,
+          "best_validation": 0.2992890003496213,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "6e875dbc1a8439ddff7e9bcdbab524062b0f51353fb5d7d37ed2ca0564044b3e",
+      "best_validation": 0.2992890003496213,
+      "generated_weights": null,
+      "epoch_cap": 18
+    },
+    "hyper_curriculum_17": {
+      "epochs": 19,
+      "stages": [
+        {
+          "stage": 1,
+          "epochs": 3,
+          "best_global_epoch": 3,
+          "best_stage_epoch": 3,
+          "best_validation": 0.12914325709757338,
+          "stop": "cap"
+        },
+        {
+          "stage": 2,
+          "epochs": 4,
+          "best_global_epoch": 7,
+          "best_stage_epoch": 4,
+          "best_validation": 0.6624062690386544,
+          "stop": "cap"
+        },
+        {
+          "stage": 3,
+          "epochs": 4,
+          "best_global_epoch": 10,
+          "best_stage_epoch": 3,
+          "best_validation": 0.29515376345486727,
+          "stop": "cap"
+        },
+        {
+          "stage": 4,
+          "epochs": 8,
+          "best_global_epoch": 16,
+          "best_stage_epoch": 5,
+          "best_validation": 0.29963945171394635,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "6e875dbc1a8439ddff7e9bcdbab524062b0f51353fb5d7d37ed2ca0564044b3e",
+      "best_validation": 0.29963945171394635,
+      "generated_weights": {
+        "relative_variation": 0.2913963198661804
+      },
+      "epoch_cap": 20
+    },
+    "hyper_direct_17": {
+      "epochs": 6,
+      "stages": [
+        {
+          "stage": 4,
+          "epochs": 6,
+          "best_global_epoch": 6,
+          "best_stage_epoch": 6,
+          "best_validation": 0.29622602271343057,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "6e875dbc1a8439ddff7e9bcdbab524062b0f51353fb5d7d37ed2ca0564044b3e",
+      "best_validation": 0.29622602271343057,
+      "generated_weights": {
+        "relative_variation": 0.006117961835116148
+      },
+      "epoch_cap": 19
+    },
+    "static_curriculum_29": {
+      "epochs": 17,
+      "stages": [
+        {
+          "stage": 1,
+          "epochs": 3,
+          "best_global_epoch": 3,
+          "best_stage_epoch": 3,
+          "best_validation": 0.11222744881356093,
+          "stop": "cap"
+        },
+        {
+          "stage": 2,
+          "epochs": 4,
+          "best_global_epoch": 7,
+          "best_stage_epoch": 4,
+          "best_validation": 0.6399936272155128,
+          "stop": "cap"
+        },
+        {
+          "stage": 3,
+          "epochs": 4,
+          "best_global_epoch": 11,
+          "best_stage_epoch": 4,
+          "best_validation": 0.28547824547633116,
+          "stop": "cap"
+        },
+        {
+          "stage": 4,
+          "epochs": 6,
+          "best_global_epoch": 16,
+          "best_stage_epoch": 5,
+          "best_validation": 0.2897380225229023,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "61c8b4c2faa91626d2402e6b394a1f9e0d07acc64780e3e13ffa9fb3394120a1",
+      "best_validation": 0.2897380225229023,
+      "generated_weights": null,
+      "epoch_cap": 20
+    },
+    "static_direct_29": {
+      "epochs": 9,
+      "stages": [
+        {
+          "stage": 4,
+          "epochs": 9,
+          "best_global_epoch": 6,
+          "best_stage_epoch": 6,
+          "best_validation": 0.294990719228007,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "61c8b4c2faa91626d2402e6b394a1f9e0d07acc64780e3e13ffa9fb3394120a1",
+      "best_validation": 0.294990719228007,
+      "generated_weights": null,
+      "epoch_cap": 17
+    },
+    "hyper_curriculum_29": {
+      "epochs": 17,
+      "stages": [
+        {
+          "stage": 1,
+          "epochs": 3,
+          "best_global_epoch": 3,
+          "best_stage_epoch": 3,
+          "best_validation": 0.10701556280442989,
+          "stop": "cap"
+        },
+        {
+          "stage": 2,
+          "epochs": 4,
+          "best_global_epoch": 7,
+          "best_stage_epoch": 4,
+          "best_validation": 0.6123931318596568,
+          "stop": "cap"
+        },
+        {
+          "stage": 3,
+          "epochs": 4,
+          "best_global_epoch": 10,
+          "best_stage_epoch": 3,
+          "best_validation": 0.2899092385916025,
+          "stop": "cap"
+        },
+        {
+          "stage": 4,
+          "epochs": 6,
+          "best_global_epoch": 15,
+          "best_stage_epoch": 4,
+          "best_validation": 0.29760157761705913,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "61c8b4c2faa91626d2402e6b394a1f9e0d07acc64780e3e13ffa9fb3394120a1",
+      "best_validation": 0.29760157761705913,
+      "generated_weights": {
+        "relative_variation": 0.3254697918891907
+      },
+      "epoch_cap": 20
+    },
+    "hyper_direct_29": {
+      "epochs": 8,
+      "stages": [
+        {
+          "stage": 4,
+          "epochs": 8,
+          "best_global_epoch": 6,
+          "best_stage_epoch": 6,
+          "best_validation": 0.29523155093193054,
+          "stop": "plateau"
+        }
+      ],
+      "initial_trunk_sha256": "61c8b4c2faa91626d2402e6b394a1f9e0d07acc64780e3e13ffa9fb3394120a1",
+      "best_validation": 0.29523155093193054,
+      "generated_weights": {
+        "relative_variation": 0.00985665898770094
+      },
+      "epoch_cap": 17
+    }
+  },
+  "seconds": 274.24772000312805
+}

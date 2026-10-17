@@ -1,0 +1,8 @@
+{
+  "rows": 1024,
+  "stft_8192_compute_seconds": 0.09368623199407011,
+  "compression_write_seconds": 1.3043961099974695,
+  "stored_bytes": 57235745,
+  "estimated_8192_dataset_gib": 18.445383723974373,
+  "gpu_used": false
+}

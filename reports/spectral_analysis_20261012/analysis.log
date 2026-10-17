@@ -1,0 +1,6 @@
+component screen complete
+{"model": "price_only", "seconds": 1.6}
+{"model": "price_plus_stft", "seconds": 4.7}
+{"model": "price_plus_wavelets", "seconds": 10.3}
+{"model": "price_plus_all", "seconds": 19.1}
+COMPLETE 39.736061811447144

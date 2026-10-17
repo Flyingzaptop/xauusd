@@ -1,0 +1,17 @@
+{
+  "prepare_status.json": {
+    "phase": "complete",
+    "rows": 3505124,
+    "bytes": 74701202688,
+    "seconds": 1259.2,
+    "available_RAM_GB": 167.9
+  },
+  "training_status.json": {
+    "phase": "final_evaluation",
+    "mode": "learned_teacher",
+    "split": "test",
+    "rows": 588515,
+    "seconds": 7775.0,
+    "allocated_GB": 62.63
+  }
+}

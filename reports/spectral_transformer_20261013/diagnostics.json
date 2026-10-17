@@ -1,0 +1,86 @@
+{
+  "price": {
+    "nonoverlap_event_auc": 0.7017903037849401,
+    "event_auc_ci95_week": [
+      0.6623430650459654,
+      0.7401465216342272
+    ],
+    "nonoverlap_direction_auc_given_event": 0.5235971690618907,
+    "direction_auc_ci95_week": [
+      0.48783275569636453,
+      0.5671904543572975
+    ],
+    "predicted_mean_std_normalized_by_horizon": [
+      0.10052437335252762,
+      0.13452762365341187,
+      0.16446568071842194,
+      0.1496042162179947
+    ],
+    "actual_movement_std_normalized_by_horizon": [
+      0.9625086188316345,
+      0.9791968464851379,
+      1.0051881074905396,
+      1.0427508354187012
+    ],
+    "event_probability_range": [
+      0.06384801864624023,
+      0.9840165376663208
+    ]
+  },
+  "raw": {
+    "nonoverlap_event_auc": 0.5708977858659388,
+    "event_auc_ci95_week": [
+      0.5141836288464355,
+      0.6278251353505284
+    ],
+    "nonoverlap_direction_auc_given_event": 0.5186141402469849,
+    "direction_auc_ci95_week": [
+      0.4728545127842583,
+      0.5615286813911166
+    ],
+    "predicted_mean_std_normalized_by_horizon": [
+      0.034420713782310486,
+      0.04789861664175987,
+      0.07039336115121841,
+      0.07052221149206161
+    ],
+    "actual_movement_std_normalized_by_horizon": [
+      0.9625086188316345,
+      0.9791968464851379,
+      1.0051881074905396,
+      1.0427508354187012
+    ],
+    "event_probability_range": [
+      0.4315163493156433,
+      0.7007678747177124
+    ]
+  },
+  "engineered": {
+    "nonoverlap_event_auc": 0.5778099707868397,
+    "event_auc_ci95_week": [
+      0.5250938050269222,
+      0.633972945299904
+    ],
+    "nonoverlap_direction_auc_given_event": 0.5090813894706434,
+    "direction_auc_ci95_week": [
+      0.46571608782818263,
+      0.5509174770552099
+    ],
+    "predicted_mean_std_normalized_by_horizon": [
+      0.0004926801193505526,
+      0.0007158403168432415,
+      0.0009473045938648283,
+      0.0021983240731060505
+    ],
+    "actual_movement_std_normalized_by_horizon": [
+      0.9625086188316345,
+      0.9791968464851379,
+      1.0051881074905396,
+      1.0427508354187012
+    ],
+    "event_probability_range": [
+      0.5920496582984924,
+      0.6944229602813721
+    ]
+  }
+}

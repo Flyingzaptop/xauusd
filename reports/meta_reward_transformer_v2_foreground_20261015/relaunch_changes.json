@@ -1,0 +1,10 @@
+{
+  "science_unchanged": true,
+  "train_sha256": "3aa8712e314942e9a80c41258d4348d169a2543ccce92c49950b6a7ca59b9d1e",
+  "changes": [
+    "foreground blocking kernel execution",
+    "preparation8workers instead4",
+    "progress streamed from actual work",
+    "fresh local monitoring paths"
+  ]
+}

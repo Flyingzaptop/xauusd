@@ -1,0 +1,54 @@
+{
+  "complete_before_test": true,
+  "train_rows": 501159,
+  "validation_rows": 68367,
+  "final_train_rows": 569526,
+  "test_rows": 114874,
+  "features": 8666,
+  "horizons_minutes": [
+    15,
+    30,
+    60,
+    120
+  ],
+  "cuts": {
+    "train_end": 1704067200,
+    "validation_end": 1735689600
+  },
+  "purge_seconds": 7200,
+  "params": {
+    "objective": "regression",
+    "metric": "l2",
+    "learning_rate": 0.04,
+    "max_bin": 63,
+    "bin_construct_sample_cnt": 100000,
+    "feature_pre_filter": false,
+    "min_data_in_leaf": 300,
+    "lambda_l2": 10.0,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "num_threads": 8,
+    "verbosity": -1,
+    "seed": 177,
+    "feature_fraction_seed": 177,
+    "bagging_seed": 177,
+    "data_random_seed": 177,
+    "force_col_wise": true
+  },
+  "configs": [
+    {
+      "num_leaves": 31,
+      "max_depth": 6
+    },
+    {
+      "num_leaves": 63,
+      "max_depth": 8
+    }
+  ],
+  "source_sha256": {
+    "features.py": "e49cff205f7aa4ca43df7d0c1b8f93affd5859adacca7d5544bb43d0e41d3ed5",
+    "prepare.py": "31822bd3f3290080b8b8adce3a37b86a0c1cc9980c4b59b497025ba68a6a905a",
+    "train.py": "e9c37064b0015cccebb8ef0b7f19b986541f658ac3d19ba56c93ea25e0e9c907"
+  }
+}

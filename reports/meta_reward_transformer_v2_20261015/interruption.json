@@ -1,0 +1,43 @@
+{
+  "no_active_assignments": true,
+  "balance": 118.44,
+  "units_used": 2.1,
+  "last_observed": {
+    "checked_epoch": 1792090014.1606126,
+    "supervisor_status.json": {
+      "phase": "prepare",
+      "elapsed_seconds": 1220.171881534,
+      "worker_pid": 2958,
+      "updated_epoch": 1792090007.9119253
+    },
+    "prepare_status.json": {
+      "phase": "complete",
+      "rows": 3505124,
+      "bytes": 74701202688,
+      "seconds": 1217.9,
+      "available_RAM_GB": 173.0
+    },
+    "training_status.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/training_status.json\n"
+    },
+    "archive_ready.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/archive_ready.json\n"
+    }
+  },
+  "first_missing": {
+    "checked_epoch": 1792090062.7238643,
+    "supervisor_status.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/supervisor_status.json\n"
+    },
+    "prepare_status.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/prepare_status.json\n"
+    },
+    "training_status.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/training_status.json\n"
+    },
+    "archive_ready.json": {
+      "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/archive_ready.json\n"
+    }
+  },
+  "cause": "unconfirmed; approximately 20 minutes after kernel execution returned; foreground job supervision required before retry"
+}

@@ -1,0 +1,50 @@
+{
+  "created_epoch": 1792171514.069984,
+  "source_hashes": {
+    "meta.py": "192690cf7c097de63c64264ab8946ca46e3c00d02de292d10daf1c7b7eca9d10",
+    "environment.py": "2776018dfe2a6088128387510ac8c2f06201e200043dda9103fb26715f4158e0",
+    "check_market_execution.py": "711762eae2f096a63c966ee55dbd12488077435c7db649da1c1104e4f30f388d",
+    "model.py": "f4c951c8d412c8bb7d5ac9e80265fd18ded3405fff2ba52a84c897feaab97dd6",
+    "learning.py": "8b366598115dc9052a314ca2956e1b2b155407d1f7a3c17bf98a41c83d6ba352",
+    "meta_gradient.py": "b9610c467733662485994f24fa9375eebfa02192ca92eaceed567597c5b2a9a0",
+    "run_validation.py": "e86cce4327b8be48996c620f98129ddc3aa860d11d931d5d88acf6f9f77d5676",
+    "test_learning.py": "9b4342fe766d1127710cddb01d930af32d5427ae2a7c03b1ba872d14efddc707",
+    "test_environment.py": "78cb19f8704abc6c6f9a229a1071bc25e613078584c641357dcafef3101223b9",
+    "synthetic.py": "ac0b81931cc4e3c6372570d26a95bea2402023983490b4a25c1cf6f0348f18d2",
+    "diagnose_legacy.py": "7591b329c2bdd0ce767fa8f89b6c069a4140244eb8f6212348c3b77f12d45d43",
+    "provenance.py": "c8cbbe6a832419dc1aa342e81e259caf576f9413c5e511ee4f7cacc2d7ba03ad",
+    "run_gates.py": "029110a848f086987dd6c42d235de4eb854567cfafede52dce7e05ee680cbca3",
+    "test_meta_gradient.py": "56742737213a4fba48a3e9bbe0fb257166998314b4593b4a7169aca8806ea241",
+    "finalize_report.py": "7805514421db75818c710cd01cf9341ea5f2174d958a1cc8489696da855ddc18",
+    "gates.py": "3e826542be6e7f772c0eb13770390c1e20bf1bdffefde13fc759c7c82143ec84",
+    "real_data.py": "8a7b0466c26536ddc0eae427e0078104093237dc43e9f90a9385fcc7697002de",
+    "pilot.py": "f7d00a6a3d65d7c2472974c21ebbcffc690f50b34cf6b939340186f77f580396",
+    "diagnostics.py": "7dd4d278c9577bd87a77864a5cdd3f5705c6fab2f984a76c55a354bcb26c5632",
+    "reward_audit.py": "42e4ace2136fa61a6721ca5eed32ca6e62ef019b18c285aadde4cee051a50762"
+  },
+  "untouched_test_protocol": null,
+  "mechanics": {
+    "passed": true,
+    "file": "mechanics.json",
+    "sha256": "ed52cfe00b3e137d51e0068b703ec7d47dce1cde02671d598d44b9fc8dd3a712"
+  },
+  "synthetic": {
+    "passed": true,
+    "file": "synthetic_gates.json",
+    "sha256": "74a6d48260d106d8c249ef696aaa92728408390b63def311040c5593fd431040"
+  },
+  "meta": {
+    "passed": false,
+    "file": "meta_gate.json",
+    "sha256": "0737353d796d181dbefb52f299fe7f374468155f28ff55036eaa403a5a083234"
+  },
+  "meta_gradient": {
+    "passed": false,
+    "file": "meta_gradient_suite.json",
+    "sha256": "304c56341268585ddd70b17fe91ff2e9946cb03a9ca777a1ea89b02a7054913a"
+  },
+  "real_pilot": {
+    "passed": false,
+    "reason": "Meta-teacher transfer gate failed; no market training or new GPU allocation"
+  }
+}

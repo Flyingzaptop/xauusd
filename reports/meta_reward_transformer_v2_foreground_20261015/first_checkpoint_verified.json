@@ -1,0 +1,10 @@
+{
+  "verified_epoch": 1792098410.2243106,
+  "zip_crc_ok": true,
+  "torch_load_ok": true,
+  "cycle": 2,
+  "examples": 16384,
+  "students": 3,
+  "bytes": 243630001,
+  "contains_rng_and_optimizer": true
+}

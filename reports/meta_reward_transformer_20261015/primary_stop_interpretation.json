@@ -1,0 +1,6 @@
+{
+  "reason": "early_stopping_no_new_development_best",
+  "cycles": 96,
+  "best_cycle": 24,
+  "note": "primary_complete.ended_due_to_wall_budget conflates any incomplete pass with wall timeout. Elapsed6468sec is below14400sec budget; actual loop stopped on patience condition."
+}

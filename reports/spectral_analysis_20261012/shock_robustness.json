@@ -1,0 +1,279 @@
+{
+  "monthly": [
+    {
+      "month": 1,
+      "energy_group": 0,
+      "n": 46,
+      "return_rate": 0.391304347826087,
+      "mean_continuation": 0.246739130434924
+    },
+    {
+      "month": 1,
+      "energy_group": 1,
+      "n": 53,
+      "return_rate": 0.5660377358490566,
+      "mean_continuation": 0.2716981132075489
+    },
+    {
+      "month": 1,
+      "energy_group": 2,
+      "n": 75,
+      "return_rate": 0.52,
+      "mean_continuation": -0.4591999999999189
+    },
+    {
+      "month": 2,
+      "energy_group": 0,
+      "n": 48,
+      "return_rate": 0.4375,
+      "mean_continuation": 0.6914583333332635
+    },
+    {
+      "month": 2,
+      "energy_group": 1,
+      "n": 51,
+      "return_rate": 0.5098039215686274,
+      "mean_continuation": -0.8031372549021086
+    },
+    {
+      "month": 2,
+      "energy_group": 2,
+      "n": 71,
+      "return_rate": 0.4647887323943662,
+      "mean_continuation": -0.6288732394366082
+    },
+    {
+      "month": 3,
+      "energy_group": 0,
+      "n": 56,
+      "return_rate": 0.48214285714285715,
+      "mean_continuation": -0.2244642857144145
+    },
+    {
+      "month": 3,
+      "energy_group": 1,
+      "n": 70,
+      "return_rate": 0.5571428571428572,
+      "mean_continuation": -0.24228571428572454
+    },
+    {
+      "month": 3,
+      "energy_group": 2,
+      "n": 59,
+      "return_rate": 0.5423728813559322,
+      "mean_continuation": -0.024067796610201555
+    },
+    {
+      "month": 4,
+      "energy_group": 0,
+      "n": 80,
+      "return_rate": 0.4625,
+      "mean_continuation": 0.10474999999992747
+    },
+    {
+      "month": 4,
+      "energy_group": 1,
+      "n": 57,
+      "return_rate": 0.543859649122807,
+      "mean_continuation": -0.032982456140380714
+    },
+    {
+      "month": 4,
+      "energy_group": 2,
+      "n": 47,
+      "return_rate": 0.5531914893617021,
+      "mean_continuation": -0.6861702127657882
+    },
+    {
+      "month": 5,
+      "energy_group": 0,
+      "n": 61,
+      "return_rate": 0.5245901639344263,
+      "mean_continuation": -0.3081967213114784
+    },
+    {
+      "month": 5,
+      "energy_group": 1,
+      "n": 64,
+      "return_rate": 0.5,
+      "mean_continuation": -0.16609374999994841
+    },
+    {
+      "month": 5,
+      "energy_group": 2,
+      "n": 43,
+      "return_rate": 0.4883720930232558,
+      "mean_continuation": -0.36697674418606174
+    },
+    {
+      "month": 6,
+      "energy_group": 0,
+      "n": 61,
+      "return_rate": 0.36065573770491804,
+      "mean_continuation": 0.4662295081968154
+    },
+    {
+      "month": 6,
+      "energy_group": 1,
+      "n": 57,
+      "return_rate": 0.43859649122807015,
+      "mean_continuation": -0.5482456140350558
+    },
+    {
+      "month": 6,
+      "energy_group": 2,
+      "n": 57,
+      "return_rate": 0.47368421052631576,
+      "mean_continuation": -0.09947368421054753
+    },
+    {
+      "month": 7,
+      "energy_group": 0,
+      "n": 84,
+      "return_rate": 0.5595238095238095,
+      "mean_continuation": -0.7091666666666091
+    },
+    {
+      "month": 7,
+      "energy_group": 1,
+      "n": 47,
+      "return_rate": 0.5106382978723404,
+      "mean_continuation": -0.08531914893610713
+    },
+    {
+      "month": 7,
+      "energy_group": 2,
+      "n": 50,
+      "return_rate": 0.42,
+      "mean_continuation": 0.18939999999995963
+    },
+    {
+      "month": 8,
+      "energy_group": 0,
+      "n": 80,
+      "return_rate": 0.5625,
+      "mean_continuation": -0.5812500000000995
+    },
+    {
+      "month": 8,
+      "energy_group": 1,
+      "n": 58,
+      "return_rate": 0.6206896551724138,
+      "mean_continuation": -0.3041379310344022
+    },
+    {
+      "month": 8,
+      "energy_group": 2,
+      "n": 39,
+      "return_rate": 0.6153846153846154,
+      "mean_continuation": -0.0010256410254710201
+    },
+    {
+      "month": 9,
+      "energy_group": 0,
+      "n": 79,
+      "return_rate": 0.4936708860759494,
+      "mean_continuation": -0.25316455696199364
+    },
+    {
+      "month": 9,
+      "energy_group": 1,
+      "n": 62,
+      "return_rate": 0.3870967741935484,
+      "mean_continuation": 0.4370967741935139
+    },
+    {
+      "month": 9,
+      "energy_group": 2,
+      "n": 46,
+      "return_rate": 0.3695652173913043,
+      "mean_continuation": 0.2345652173914024
+    },
+    {
+      "month": 10,
+      "energy_group": 0,
+      "n": 89,
+      "return_rate": 0.4157303370786517,
+      "mean_continuation": 0.5777528089887777
+    },
+    {
+      "month": 10,
+      "energy_group": 1,
+      "n": 61,
+      "return_rate": 0.5245901639344263,
+      "mean_continuation": -0.39557377049187215
+    },
+    {
+      "month": 10,
+      "energy_group": 2,
+      "n": 37,
+      "return_rate": 0.5675675675675675,
+      "mean_continuation": -1.3397297297295006
+    },
+    {
+      "month": 11,
+      "energy_group": 0,
+      "n": 68,
+      "return_rate": 0.4852941176470588,
+      "mean_continuation": -0.055882352941159084
+    },
+    {
+      "month": 11,
+      "energy_group": 1,
+      "n": 53,
+      "return_rate": 0.5471698113207547,
+      "mean_continuation": -0.408301886792489
+    },
+    {
+      "month": 11,
+      "energy_group": 2,
+      "n": 50,
+      "return_rate": 0.46,
+      "mean_continuation": -0.3621999999999525
+    },
+    {
+      "month": 12,
+      "energy_group": 0,
+      "n": 84,
+      "return_rate": 0.4880952380952381,
+      "mean_continuation": -0.03785714285723565
+    },
+    {
+      "month": 12,
+      "energy_group": 1,
+      "n": 59,
+      "return_rate": 0.576271186440678,
+      "mean_continuation": -0.17576271186444348
+    },
+    {
+      "month": 12,
+      "energy_group": 2,
+      "n": 46,
+      "return_rate": 0.41304347826086957,
+      "mean_continuation": 0.26065217391310297
+    }
+  ],
+  "return_rate_difference": {
+    "0": {
+      "high_minus_low": 0.05965909090909094,
+      "ci95_day_cluster": [
+        -0.02402593763715941,
+        0.13872859729254264
+      ]
+    },
+    "1": {
+      "high_minus_low": -0.07983539094650205,
+      "ci95_day_cluster": [
+        -0.18301875069478107,
+        0.025806692572935223
+      ]
+    },
+    "2": {
+      "high_minus_low": 0.01310329766324525,
+      "ci95_day_cluster": [
+        -0.10103170289855073,
+        0.13214096272004228
+      ]
+    }
+  }
+}

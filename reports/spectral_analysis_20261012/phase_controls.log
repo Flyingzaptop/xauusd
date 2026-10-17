@@ -1,0 +1,8 @@
+wavelet_returns 64.95085426668929
+wavelet_returns 248.55939219451238
+wavelet_returns 1050.6285923400071
+wavelet_returns 8192.0
+stft_128 32.0
+stft_512 128.0
+stft_8192 512.0
+stft_8192 8192.0

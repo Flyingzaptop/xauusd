@@ -1,0 +1,163 @@
+{
+  "price": {
+    "selected_from_development_validation": {
+      "horizon": 60,
+      "column": 2,
+      "threshold": 0.201171875,
+      "quantile": 0.8,
+      "val_trades": 219,
+      "val_mean_gross": 0.3241095890410607,
+      "val_daily_score_cost025": 0.11881416579409967
+    },
+    "test_trades": 685,
+    "test_gross_mean": 0.13741605839417434,
+    "test_gross_ci95_week": [
+      -0.028494610740654756,
+      0.31004640794636795
+    ],
+    "test_win_rate_before_cost": 0.5635036496350365,
+    "cost_scenarios": {
+      "0": {
+        "mean_net": 0.13741605839417434,
+        "total_net": 94.13000000000943,
+        "win_rate": 0.5635036496350365
+      },
+      "0.1": {
+        "mean_net": 0.037416058394174334,
+        "total_net": 25.630000000009453,
+        "win_rate": 0.5489051094890511
+      },
+      "0.25": {
+        "mean_net": -0.11258394160582566,
+        "total_net": -77.11999999999057,
+        "win_rate": 0.5124087591240876
+      },
+      "0.5": {
+        "mean_net": -0.36258394160582563,
+        "total_net": -248.36999999999057,
+        "win_rate": 0.45255474452554745
+      },
+      "1": {
+        "mean_net": -0.8625839416058256,
+        "total_net": -590.8699999999906,
+        "win_rate": 0.36496350364963503
+      }
+    },
+    "net025_ci95_week": [
+      -0.2828569410651367,
+      0.07111058783659004
+    ],
+    "monthly_gross_mean": {
+      "10": 0.3621212121212627,
+      "11": -0.03950226244346575,
+      "12": 0.08244635193134624
+    },
+    "no_future_gap_filter": true
+  },
+  "raw": {
+    "selected_from_development_validation": {
+      "horizon": 120,
+      "column": 3,
+      "threshold": 0.12353515625,
+      "quantile": 0.8,
+      "val_trades": 133,
+      "val_mean_gross": 0.017894736842114633,
+      "val_daily_score_cost025": -0.12442082523817924
+    },
+    "test_trades": 214,
+    "test_gross_mean": -0.13238317757011225,
+    "test_gross_ci95_week": [
+      -0.6471245955768169,
+      0.44419698509482497
+    ],
+    "test_win_rate_before_cost": 0.5046728971962616,
+    "cost_scenarios": {
+      "0": {
+        "mean_net": -0.13238317757011225,
+        "total_net": -28.33000000000402,
+        "win_rate": 0.5046728971962616
+      },
+      "0.1": {
+        "mean_net": -0.23238317757011226,
+        "total_net": -49.730000000004054,
+        "win_rate": 0.49065420560747663
+      },
+      "0.25": {
+        "mean_net": -0.38238317757011225,
+        "total_net": -81.83000000000402,
+        "win_rate": 0.48598130841121495
+      },
+      "0.5": {
+        "mean_net": -0.6323831775701123,
+        "total_net": -135.33000000000402,
+        "win_rate": 0.43457943925233644
+      },
+      "1": {
+        "mean_net": -1.1323831775701123,
+        "total_net": -242.33000000000402,
+        "win_rate": 0.37850467289719625
+      }
+    },
+    "net025_ci95_week": [
+      -0.9505726772031388,
+      0.21179425391817527
+    ],
+    "monthly_gross_mean": {
+      "10": 0.2016666666666873,
+      "11": -0.31786516853941227,
+      "12": -0.3355319148935731
+    },
+    "no_future_gap_filter": true
+  },
+  "engineered": {
+    "selected_from_development_validation": {
+      "horizon": 60,
+      "column": 2,
+      "threshold": 0.0419921875,
+      "quantile": 0.95,
+      "val_trades": 103,
+      "val_mean_gross": 0.004951456310734711,
+      "val_daily_score_cost025": -0.20252878389549778
+    },
+    "test_trades": 0,
+    "test_gross_mean": null,
+    "test_gross_ci95_week": [
+      null,
+      null
+    ],
+    "test_win_rate_before_cost": null,
+    "cost_scenarios": {
+      "0": {
+        "mean_net": null,
+        "total_net": 0.0,
+        "win_rate": null
+      },
+      "0.1": {
+        "mean_net": null,
+        "total_net": 0.0,
+        "win_rate": null
+      },
+      "0.25": {
+        "mean_net": null,
+        "total_net": 0.0,
+        "win_rate": null
+      },
+      "0.5": {
+        "mean_net": null,
+        "total_net": 0.0,
+        "win_rate": null
+      },
+      "1": {
+        "mean_net": null,
+        "total_net": 0.0,
+        "win_rate": null
+      }
+    },
+    "net025_ci95_week": [
+      null,
+      null
+    ],
+    "monthly_gross_mean": {},
+    "no_future_gap_filter": true
+  }
+}

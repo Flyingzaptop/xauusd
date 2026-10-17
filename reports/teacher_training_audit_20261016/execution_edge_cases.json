@@ -1,0 +1,13 @@
+{
+  "all_test_candidates": {
+    "rows": 79913,
+    "zero_duration": 60,
+    "over120": 6493,
+    "max_minutes": 3121.0
+  },
+  "actual_trades": {
+    "zero_duration": 9,
+    "over120": 47,
+    "max_minutes": 3119.0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "seed": 177,
+  "batch": 256,
+  "inner_steps": 32,
+  "students": 3,
+  "student_lr": 0.0001,
+  "teacher_lr": 3e-05,
+  "teacher_accumulation": 4,
+  "advantage_clip": 3.0,
+  "calibration_rows": 4096,
+  "entropy_start": 0.1,
+  "entropy_end": 0.03,
+  "entropy_schedule_steps": 1500,
+  "warmup_updates": 50,
+  "dropout": 0.25,
+  "patch": 10,
+  "depth_temporal": 6,
+  "depth_market": 6,
+  "hidden": 192,
+  "cost_per_ounce": 0.25,
+  "concentration_coefficient": 1.0,
+  "primary_wall_seconds": 10800,
+  "max_cycles": 96,
+  "min_cycles": 48,
+  "patience_cycles": 48,
+  "meta_calendar_days": 14,
+  "development_starts": [
+    "2024-03-04",
+    "2024-06-03",
+    "2024-09-02",
+    "2024-12-02"
+  ],
+  "development_calendar_days": 28,
+  "test_start": "2025-04-07",
+  "test_calendar_days": 84,
+  "evaluation_batch": 256,
+  "fresh_max_steps": 768,
+  "fresh_seeds": [
+    888,
+    889
+  ]
+}

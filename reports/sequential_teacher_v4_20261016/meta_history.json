@@ -1,0 +1,223 @@
+[
+  {
+    "cycle": 1,
+    "student_seed": 11,
+    "external_gain": 0.1225460804627092,
+    "after_net": -0.5441942568355458,
+    "policy_loss": -0.035567134618759155,
+    "teacher_grad_norm": 0.08276791125535965
+  },
+  {
+    "cycle": 2,
+    "student_seed": 12,
+    "external_gain": 0.33603229547764035,
+    "after_net": -0.541446878185085,
+    "policy_loss": -0.10732024163007736,
+    "teacher_grad_norm": 0.2173178344964981
+  },
+  {
+    "cycle": 3,
+    "student_seed": 13,
+    "external_gain": 0.1837346379741937,
+    "after_net": -0.18775796556769497,
+    "policy_loss": -0.04901956394314766,
+    "teacher_grad_norm": 0.08836796879768372
+  },
+  {
+    "cycle": 4,
+    "student_seed": 11,
+    "external_gain": 0.03448487213864626,
+    "after_net": -0.6322554651596087,
+    "policy_loss": 0.007076808251440525,
+    "teacher_grad_norm": 0.01932520791888237,
+    "selection_pupil_scores": [
+      -0.26224349929905133,
+      -0.36437205772615366
+    ],
+    "selected": true
+  },
+  {
+    "cycle": 5,
+    "student_seed": 12,
+    "external_gain": 0.2886023559979023,
+    "after_net": -0.588876817664823,
+    "policy_loss": -0.07732704281806946,
+    "teacher_grad_norm": 0.1751147210597992
+  },
+  {
+    "cycle": 6,
+    "student_seed": 13,
+    "external_gain": 0.22463392921862851,
+    "after_net": -0.14685867432326016,
+    "policy_loss": -0.051514144986867905,
+    "teacher_grad_norm": 0.09863536059856415
+  },
+  {
+    "cycle": 7,
+    "student_seed": 11,
+    "external_gain": -0.06592625797786988,
+    "after_net": -0.7326665952761249,
+    "policy_loss": 0.047798339277505875,
+    "teacher_grad_norm": 0.14372821152210236
+  },
+  {
+    "cycle": 8,
+    "student_seed": 12,
+    "external_gain": 0.2886023559979023,
+    "after_net": -0.588876817664823,
+    "policy_loss": -0.07115084677934647,
+    "teacher_grad_norm": 0.16799794137477875,
+    "selection_pupil_scores": [
+      -0.1151552960103478,
+      -0.4042223009040865
+    ],
+    "selected": true
+  },
+  {
+    "cycle": 9,
+    "student_seed": 13,
+    "external_gain": 0.2252835503421024,
+    "after_net": -0.14620905319978628,
+    "policy_loss": -0.045115239918231964,
+    "teacher_grad_norm": 0.08115504682064056
+  },
+  {
+    "cycle": 10,
+    "student_seed": 11,
+    "external_gain": -0.10535224704353208,
+    "after_net": -0.7720925843417871,
+    "policy_loss": 0.0652470514178276,
+    "teacher_grad_norm": 0.18208354711532593
+  },
+  {
+    "cycle": 11,
+    "student_seed": 12,
+    "external_gain": 0.2886023559979023,
+    "after_net": -0.588876817664823,
+    "policy_loss": -0.06780517101287842,
+    "teacher_grad_norm": 0.14347262680530548
+  },
+  {
+    "cycle": 12,
+    "student_seed": 13,
+    "external_gain": 0.04537770146901904,
+    "after_net": -0.32611490207286964,
+    "policy_loss": 0.02350771613419056,
+    "teacher_grad_norm": 0.042805470526218414,
+    "selection_pupil_scores": [
+      -0.1484010956600027,
+      -0.3546034318093348
+    ],
+    "selected": true
+  },
+  {
+    "cycle": 13,
+    "student_seed": 11,
+    "external_gain": -0.10535224704353208,
+    "after_net": -0.7720925843417871,
+    "policy_loss": 0.06289684772491455,
+    "teacher_grad_norm": 0.17414599657058716
+  },
+  {
+    "cycle": 14,
+    "student_seed": 12,
+    "external_gain": 0.18746420724372392,
+    "after_net": -0.6900149664190014,
+    "policy_loss": -0.035479623824357986,
+    "teacher_grad_norm": 0.07063983380794525
+  },
+  {
+    "cycle": 15,
+    "student_seed": 13,
+    "external_gain": 0.09099046281928996,
+    "after_net": -0.2805021407225987,
+    "policy_loss": 0.0007292353548109531,
+    "teacher_grad_norm": 0.0012773830676451325
+  },
+  {
+    "cycle": 16,
+    "student_seed": 11,
+    "external_gain": -0.06020218100713659,
+    "after_net": -0.7269425183053916,
+    "policy_loss": 0.047207579016685486,
+    "teacher_grad_norm": 0.12926678359508514,
+    "selection_pupil_scores": [
+      -0.05417131312115264,
+      -0.3347524125917136
+    ],
+    "selected": true
+  },
+  {
+    "cycle": 17,
+    "student_seed": 12,
+    "external_gain": 0.22758463178810617,
+    "after_net": -0.6498945418746191,
+    "policy_loss": -0.0510534830391407,
+    "teacher_grad_norm": 0.09453956037759781
+  },
+  {
+    "cycle": 18,
+    "student_seed": 13,
+    "external_gain": -0.07963084554274213,
+    "after_net": -0.4511234490846308,
+    "policy_loss": 0.0631992518901825,
+    "teacher_grad_norm": 0.10736759752035141
+  },
+  {
+    "cycle": 19,
+    "student_seed": 11,
+    "external_gain": -0.06020218100713659,
+    "after_net": -0.7269425183053916,
+    "policy_loss": 0.041977085173130035,
+    "teacher_grad_norm": 0.11846395581960678
+  },
+  {
+    "cycle": 20,
+    "student_seed": 12,
+    "external_gain": 0.22758463178810617,
+    "after_net": -0.6498945418746191,
+    "policy_loss": -0.05877702683210373,
+    "teacher_grad_norm": 0.09213657677173615,
+    "selection_pupil_scores": [
+      -0.10332867407801877,
+      -0.3347524125917136
+    ]
+  },
+  {
+    "cycle": 21,
+    "student_seed": 13,
+    "external_gain": 0.09099046281928996,
+    "after_net": -0.2805021407225987,
+    "policy_loss": -0.0048517026007175446,
+    "teacher_grad_norm": 0.007667051162570715
+  },
+  {
+    "cycle": 22,
+    "student_seed": 11,
+    "external_gain": -0.06020218100713659,
+    "after_net": -0.7269425183053916,
+    "policy_loss": 0.04403754323720932,
+    "teacher_grad_norm": 0.12342065572738647
+  },
+  {
+    "cycle": 23,
+    "student_seed": 12,
+    "external_gain": 0.22758463178810617,
+    "after_net": -0.6498945418746191,
+    "policy_loss": -0.05772870033979416,
+    "teacher_grad_norm": 0.09013035893440247
+  },
+  {
+    "cycle": 24,
+    "student_seed": 13,
+    "external_gain": -0.07963084554274213,
+    "after_net": -0.4511234490846308,
+    "policy_loss": 0.061454951763153076,
+    "teacher_grad_norm": 0.10151054710149765,
+    "selection_pupil_scores": [
+      -0.14767317236998062,
+      -0.2004462546264207
+    ],
+    "selected": true
+  }
+]

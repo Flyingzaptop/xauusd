@@ -1,0 +1,161 @@
+{
+  "winner_selected_by_validation_only": "hgb_price_only",
+  "strategies": {
+    "price_only": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -0.5250038961037288,
+        0.7811920964587774
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -0.7543470991134721,
+        0.5335638851200414
+      ],
+      "always_long_same_entries_mean": 0.05009615384605363,
+      "momentum60_same_entries_mean": -0.07740384615401406,
+      "fade60_same_entries_mean": 0.07740384615401406,
+      "increment_vs_always_long_mean": 0.08750000000025929,
+      "increment_vs_always_long_ci95_week": [
+        -0.8505563519932011,
+        0.9750211708396356
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -0.9598148761517941,
+        1.3506268660289877
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.21068294902909215,
+        0.41021711531676297
+      ]
+    },
+    "price_plus_stft": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -1.6733369718073074,
+        0.1351254736044974
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -1.875630737704896,
+        -0.07743441154955837
+      ],
+      "always_long_same_entries_mean": 0.22434426229503449,
+      "momentum60_same_entries_mean": 0.5671311475410046,
+      "fade60_same_entries_mean": -0.5671311475410046,
+      "increment_vs_always_long_mean": -0.9685245901638065,
+      "increment_vs_always_long_ci95_week": [
+        -2.27852972937778,
+        0.33833018867948667
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -3.046219865730799,
+        0.31736950000040537
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.5816687956203503,
+        0.18306744868039926
+      ]
+    },
+    "price_plus_wavelets": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -2.0712811296534674,
+        -0.24491661764701228
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -2.344896313364203,
+        -0.4955734394125258
+      ],
+      "always_long_same_entries_mean": 0.9337662337662349,
+      "momentum60_same_entries_mean": 0.9033766233765637,
+      "fade60_same_entries_mean": -0.9033766233765637,
+      "increment_vs_always_long_mean": -2.0057142857143395,
+      "increment_vs_always_long_ci95_week": [
+        -3.982619869582001,
+        -0.2685713530654869
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -3.8001058823529767,
+        -0.4937195292796856
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.7479280952384095,
+        0.3558330654420291
+      ]
+    },
+    "price_plus_all": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -1.2001395833332287,
+        0.05354695741931974
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -1.4290065476188991,
+        -0.19864853412714037
+      ],
+      "always_long_same_entries_mean": -0.17697247706441802,
+      "momentum60_same_entries_mean": 0.3733027522934888,
+      "fade60_same_entries_mean": -0.3733027522934888,
+      "increment_vs_always_long_mean": -0.3596330275226087,
+      "increment_vs_always_long_ci95_week": [
+        -1.2645993048655384,
+        0.6078010204086068
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -2.16405678524361,
+        0.1931164049587968
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.7267813406625386,
+        0.279812280701761
+      ]
+    },
+    "hgb_price_only": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -0.3218434304455715,
+        0.16906479509401307
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -0.590155486503105,
+        -0.07409733956395619
+      ],
+      "always_long_same_entries_mean": -0.19108949416342286,
+      "momentum60_same_entries_mean": -0.03739299610903308,
+      "fade60_same_entries_mean": 0.03739299610903308,
+      "increment_vs_always_long_mean": 0.13424124513621685,
+      "increment_vs_always_long_ci95_week": [
+        -0.13294763436317672,
+        0.40502477693890504
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -0.3370857547169555,
+        0.2466641163868227
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.4447106490873226,
+        0.21028585991297663
+      ]
+    },
+    "hgb_price_plus_spectral_dynamics": {
+      "gross_mean_ci95_7calendar_day_blocks": [
+        -0.4262332953394662,
+        0.14032096851829878
+      ],
+      "cost025_mean_ci95_7calendar_day_blocks": [
+        -0.6895759740261269,
+        -0.10837984990090535
+      ],
+      "always_long_same_entries_mean": 0.13890476190483264,
+      "momentum60_same_entries_mean": -0.024238095238086187,
+      "fade60_same_entries_mean": 0.024238095238086187,
+      "increment_vs_always_long_mean": -0.2778095238096653,
+      "increment_vs_always_long_ci95_week": [
+        -0.8705286537232667,
+        0.30441496765725873
+      ],
+      "increment_vs_momentum_ci95_week": [
+        -0.5469392712552194,
+        0.32152690058448136
+      ],
+      "increment_vs_fade_ci95_week": [
+        -0.8206208545522131,
+        0.3665054242749555
+      ]
+    }
+  }
+}

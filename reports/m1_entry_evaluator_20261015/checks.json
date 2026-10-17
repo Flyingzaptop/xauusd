@@ -1,0 +1,1 @@
+{"passed": true, "checks": ["known path", "side symmetry", "translation invariance", "scale equivariance", "past-only normalization", "gap truncation", "UTC-day truncation", "dataset tail", "OHLC adverse excursion"]}

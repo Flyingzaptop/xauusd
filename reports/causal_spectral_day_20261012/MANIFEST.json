@@ -1,0 +1,60 @@
+{
+  "files": {
+    "experiments/local_spectral/causal_day.py": {
+      "bytes": 18232,
+      "sha256": "9315c8509c54afba3826a46a27b8afb250a542b3683c7108c4b73c15f72c0258"
+    },
+    "experiments/local_spectral/causal_review.py": {
+      "bytes": 7635,
+      "sha256": "2239c614cab5e9e686def7178ec23a2de683eb76b48374196c307f970857fc4e"
+    },
+    "experiments/local_spectral/causal_README.md": {
+      "bytes": 1166,
+      "sha256": "44fe040669edbfc1e1315783489118e2fd6ab3c3d3d29d715f918791a68203d2"
+    },
+    "experiments/local_spectral/requirements.txt": {
+      "bytes": 65,
+      "sha256": "f0bbe511474564a9ca9ddb16ab3880755fa8830a8f65ad6d8132b830d9c207a1"
+    },
+    "reports/causal_spectral_day_20261012/REPORT.md": {
+      "bytes": 7806,
+      "sha256": "d8e9daf94fb6bbea1265ddbf8620352f3f8ebcb8f36e39e2ce6959a89ecdf584"
+    },
+    "reports/causal_spectral_day_20261012/checks.json": {
+      "bytes": 2028,
+      "sha256": "c7f1ec2d7a224dea6590e893bb6e27ed4a34a5a996e3d0ed071f2e2af0084be6"
+    },
+    "reports/causal_spectral_day_20261012/day_overview.png": {
+      "bytes": 804047,
+      "sha256": "c5d013cec14435a240268eff1b3e3741794509756a61c19612fe92e3ce3890d0"
+    },
+    "reports/causal_spectral_day_20261012/day_phase.png": {
+      "bytes": 447797,
+      "sha256": "024869be9b075808ec8bbaeb9ae3aede9a215d044089d05c881cf5c5003db9d3"
+    },
+    "reports/causal_spectral_day_20261012/features.npz": {
+      "bytes": 5490110,
+      "sha256": "8a935d62b59d88fbd46c39177e7ddcbeba541563eaa531ae635d33a7d147314d"
+    },
+    "reports/causal_spectral_day_20261012/review.html": {
+      "bytes": 1563569,
+      "sha256": "078f9917d1f942cfaeb95cf21c59b4a401d778f35e90d2617658ce9276329c97"
+    },
+    "reports/causal_spectral_day_20261012/shock_detail.png": {
+      "bytes": 529170,
+      "sha256": "06cb86669deeb24ae7a19edb8bce34808d7a6fc313deb66ac34a609f3c6f5796"
+    },
+    "reports/causal_spectral_day_20261012/summary.json": {
+      "bytes": 2724,
+      "sha256": "e09a28c2782bbd51f757334d45f749056e6e477e52f32abda230f75be2c8d448"
+    },
+    "reports/global_fourier_month_20261012/predictions.npz": {
+      "bytes": 1305476,
+      "sha256": "fb0ac04d41ab7121bbbab3f68f9f15f272f70af7428faf6917ed47de3e35182f"
+    },
+    "docs/research_constraints_20261012.md": {
+      "bytes": 4461,
+      "sha256": "b15c3d5b11b2cb3121766ce3c82549ce3a42a53f29280a956bd0cb966a6dd8c1"
+    }
+  }
+}

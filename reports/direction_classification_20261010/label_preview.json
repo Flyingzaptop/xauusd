@@ -1,0 +1,50 @@
+{
+  "train": {
+    "examples": 27716,
+    "terminal_SHORT_NONE_LONG": [
+      950,
+      25947,
+      819
+    ],
+    "terminal_majority_accuracy": 0.9361740510896234,
+    "first_touch_SHORT_NONE_LONG_excluding_ambiguous": [
+      1807,
+      24178,
+      1717
+    ],
+    "first_touch_ambiguous": 14,
+    "terminal_vs_first_touch_disagreements_unambiguous": 1803
+  },
+  "val": {
+    "examples": 693,
+    "terminal_SHORT_NONE_LONG": [
+      21,
+      656,
+      16
+    ],
+    "terminal_majority_accuracy": 0.9466089466089466,
+    "first_touch_SHORT_NONE_LONG_excluding_ambiguous": [
+      42,
+      612,
+      39
+    ],
+    "first_touch_ambiguous": 0,
+    "terminal_vs_first_touch_disagreements_unambiguous": 44
+  },
+  "test": {
+    "examples": 690,
+    "terminal_SHORT_NONE_LONG": [
+      18,
+      660,
+      12
+    ],
+    "terminal_majority_accuracy": 0.9565217391304348,
+    "first_touch_SHORT_NONE_LONG_excluding_ambiguous": [
+      32,
+      635,
+      22
+    ],
+    "first_touch_ambiguous": 1,
+    "terminal_vs_first_touch_disagreements_unambiguous": 25
+  }
+}

@@ -1,0 +1,21 @@
+test_elapsed_discount (test_environment.Mechanics.test_elapsed_discount) ... ok
+test_end_no_zero_duration (test_environment.Mechanics.test_end_no_zero_duration) ... ok
+test_entry_blocks_and_cost (test_environment.Mechanics.test_entry_blocks_and_cost) ... ok
+test_gae_terminal_and_wait (test_environment.Mechanics.test_gae_terminal_and_wait) ... ok
+test_intratrade_drawdown (test_environment.Mechanics.test_intratrade_drawdown) ... ok
+test_long_short_cost_symmetry (test_environment.Mechanics.test_long_short_cost_symmetry) ... ok
+test_missing_current_quote (test_environment.Mechanics.test_missing_current_quote) ... ok
+test_missing_exit_not_hidden_in_mask (test_environment.Mechanics.test_missing_exit_not_hidden_in_mask) ... ok
+test_no_overnight (test_environment.Mechanics.test_no_overnight) ... ok
+test_wait_opportunity (test_environment.Mechanics.test_wait_opportunity) ... ok
+test_actor_update_finite_and_real (test_learning.Learning.test_actor_update_finite_and_real) ... ok
+test_causal_real_panel_window (test_learning.Learning.test_causal_real_panel_window) ... ok
+test_rewards_discounted_at_execution (test_learning.Learning.test_rewards_discounted_at_execution) ... ok
+test_teacher_rng_does_not_change_actor_actions (test_learning.Learning.test_teacher_rng_does_not_change_actor_actions) ... ok
+test_expected_return_matches_one_hot_oracle (test_meta_gradient.MetaGradient.test_expected_return_matches_one_hot_oracle) ... ok
+test_meta_gradient_finite_difference (test_meta_gradient.MetaGradient.test_meta_gradient_finite_difference) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.120s
+
+OK

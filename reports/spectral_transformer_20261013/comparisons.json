@@ -1,0 +1,38 @@
+{
+  "raw_vs_price": {
+    "mean_mse_improvement": 0.009938857518136501,
+    "mse_improvement_ci95_week": [
+      0.0005672605683499581,
+      0.02019651072016991
+    ],
+    "event_nll_improvement": -0.020538335666060448,
+    "event_nll_improvement_ci95_week": [
+      -0.046542964545598926,
+      0.008312951952993282
+    ]
+  },
+  "engineered_vs_raw": {
+    "mean_mse_improvement": -0.00014905420539435,
+    "mse_improvement_ci95_week": [
+      -0.004972424546803098,
+      0.004704773313021639
+    ],
+    "event_nll_improvement": 0.0025302350986748934,
+    "event_nll_improvement_ci95_week": [
+      -0.011578734898078124,
+      0.017277424791687757
+    ]
+  },
+  "engineered_vs_price": {
+    "mean_mse_improvement": 0.009789803996682167,
+    "mse_improvement_ci95_week": [
+      -0.0017693572572148053,
+      0.020527298153157802
+    ],
+    "event_nll_improvement": -0.018008099868893623,
+    "event_nll_improvement_ci95_week": [
+      -0.05041968889487032,
+      0.014694711601111533
+    ]
+  }
+}

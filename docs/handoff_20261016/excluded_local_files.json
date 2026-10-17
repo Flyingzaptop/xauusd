@@ -1,0 +1,3185 @@
+{
+  "note": "Inventory of omitted local artifacts, not a promise that files remain reachable. Sizes only; no expensive hashing of multi-GB files. See handoff.md.",
+  "files": [
+    {
+      "path": "experiments/meta_reward_transformer_v3/teacher_v2_cycle80.pt",
+      "bytes": 67257477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "exports/XAUUSD_teacher_v2_best_cycle80_complete.zip",
+      "bytes": 67744620,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "exports/xauusd_teacher_v2_cycle80/best_teacher.pt",
+      "bytes": 67257477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "exports/xauusd_teacher_v2_cycle80/inference_fixture.npz",
+      "bytes": 4832112,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_day_20261012/features.npz",
+      "bytes": 5490110,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-01.h5",
+      "bytes": 1769538130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-02.h5",
+      "bytes": 1765500699,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-03.h5",
+      "bytes": 2048113104,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-04.h5",
+      "bytes": 1862306156,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-05.h5",
+      "bytes": 1862020543,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-06.h5",
+      "bytes": 1958814928,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-07.h5",
+      "bytes": 1935567931,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-08.h5",
+      "bytes": 1965020538,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-09.h5",
+      "bytes": 1942430040,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-10.h5",
+      "bytes": 1868227274,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-11.h5",
+      "bytes": 1932848401,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/causal_spectral_year_2021_20261012/months/2021-12.h5",
+      "bytes": 1954864620,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_17_best.pt",
+      "bytes": 2438629,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_17_cases.npz",
+      "bytes": 14513,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_17_last.pt",
+      "bytes": 7324149,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_17_last_cases.npz",
+      "bytes": 14374,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_29_best.pt",
+      "bytes": 2438629,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_29_cases.npz",
+      "bytes": 14459,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_29_last.pt",
+      "bytes": 7324149,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/adam_29_last_cases.npz",
+      "bytes": 14274,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_17_best.pt",
+      "bytes": 2438741,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_17_cases.npz",
+      "bytes": 14194,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_17_last.pt",
+      "bytes": 7324561,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_17_last_cases.npz",
+      "bytes": 14406,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_29_best.pt",
+      "bytes": 2438741,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_29_cases.npz",
+      "bytes": 13582,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_29_last.pt",
+      "bytes": 7324561,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_classification_20261010/remote/pcgrad_29_last_cases.npz",
+      "bytes": 14330,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_17_best.pt",
+      "bytes": 2438797,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_17_last.pt",
+      "bytes": 7324767,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_17_validation.npz",
+      "bytes": 9912,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_29_best.pt",
+      "bytes": 2438797,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_29_last.pt",
+      "bytes": 7324767,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_29_validation.npz",
+      "bytes": 9734,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_calibration.npz",
+      "bytes": 6203,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_adam_test.npz",
+      "bytes": 11625,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_17_best.pt",
+      "bytes": 2438909,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_17_last.pt",
+      "bytes": 7325179,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_17_validation.npz",
+      "bytes": 9557,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_29_best.pt",
+      "bytes": 2438909,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_29_last.pt",
+      "bytes": 7325179,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_29_validation.npz",
+      "bytes": 9904,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_calibration.npz",
+      "bytes": 6203,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/ce_pcgrad_test.npz",
+      "bytes": 11653,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_17_best.pt",
+      "bytes": 2438853,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_17_last.pt",
+      "bytes": 7324973,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_17_validation.npz",
+      "bytes": 8786,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_29_best.pt",
+      "bytes": 2438853,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_29_last.pt",
+      "bytes": 7324973,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_29_validation.npz",
+      "bytes": 6239,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_calibration.npz",
+      "bytes": 5955,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_adam_test.npz",
+      "bytes": 11196,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_17_best.pt",
+      "bytes": 2438965,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_17_last.pt",
+      "bytes": 7325385,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_17_validation.npz",
+      "bytes": 8141,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_29_best.pt",
+      "bytes": 2438965,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_29_last.pt",
+      "bytes": 7325385,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_29_validation.npz",
+      "bytes": 8419,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_calibration.npz",
+      "bytes": 6005,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/direction_precision_20261010/remote/fp9_pcgrad_test.npz",
+      "bytes": 11311,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/global_fourier_month_20261012/predictions.npz",
+      "bytes": 1305476,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_17_best.pt",
+      "bytes": 2561001,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_17_fixed_validation.npz",
+      "bytes": 11007,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_17_last.pt",
+      "bytes": 7691715,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_17_validation.npz",
+      "bytes": 9809,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_29_best.pt",
+      "bytes": 2561001,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_29_fixed_validation.npz",
+      "bytes": 10987,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_29_last.pt",
+      "bytes": 7691715,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_29_validation.npz",
+      "bytes": 9845,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_calibration.npz",
+      "bytes": 6200,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_fixed_calibration.npz",
+      "bytes": 6182,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_fixed_test.npz",
+      "bytes": 11588,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/hyper_test.npz",
+      "bytes": 11581,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_17_best.pt",
+      "bytes": 2560469,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_17_last.pt",
+      "bytes": 7689425,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_17_validation.npz",
+      "bytes": 9855,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_29_best.pt",
+      "bytes": 2560469,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_29_last.pt",
+      "bytes": 7689425,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_29_validation.npz",
+      "bytes": 9917,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_calibration.npz",
+      "bytes": 6231,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/hypernetwork_20261010/remote/static_test.npz",
+      "bytes": 11680,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/all_trades.npz",
+      "bytes": 39206,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/gold_trades.npz",
+      "bytes": 2861,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/all_test.npz",
+      "bytes": 828468,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/all_validation.npz",
+      "bytes": 491632,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/evaluation_data.npz",
+      "bytes": 67402124,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/gold_test.npz",
+      "bytes": 1001374,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/gold_validation.npz",
+      "bytes": 669773,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/results/all_test.npz",
+      "bytes": 828468,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/results/all_validation.npz",
+      "bytes": 491632,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/results/evaluation_data.npz",
+      "bytes": 67402124,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/results/gold_test.npz",
+      "bytes": 1001374,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/remote/results/gold_validation.npz",
+      "bytes": 669773,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/samples/APPLE_21508.parquet",
+      "bytes": 8193740,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/samples/EURUSD_1.parquet",
+      "bytes": 55969468,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/intermarket_lightgbm_20261015/samples/XAUUSD_41.parquet",
+      "bytes": 55406903,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/local_spectral_20261012/coefficients.npz",
+      "bytes": 14250107,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/analysis_inputs.parquet",
+      "bytes": 96940465,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2016.parquet",
+      "bytes": 8175515,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2017.parquet",
+      "bytes": 24521165,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2018.parquet",
+      "bytes": 24330337,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2019.parquet",
+      "bytes": 25215361,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2020.parquet",
+      "bytes": 29009649,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2021.parquet",
+      "bytes": 27962276,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2022.parquet",
+      "bytes": 28083730,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2023.parquet",
+      "bytes": 27368994,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2024.parquet",
+      "bytes": 29067553,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2025.parquet",
+      "bytes": 31582749,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/m1_entry_evaluator_20261015/points/2026.parquet",
+      "bytes": 23997342,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/best_teacher.pt",
+      "bytes": 67256261,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/initial_teacher.pt",
+      "bytes": 22411875,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/latest_teacher.pt",
+      "bytes": 67257409,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/resume_state.pt",
+      "bytes": 288351949,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/student_0.pt",
+      "bytes": 67038859,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/student_1.pt",
+      "bytes": 67038859,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_20261015/remote/results/student_2.pt",
+      "bytes": 67038859,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_20261015/latest-snapshot.tar.gz",
+      "bytes": 60045,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/best_student.pt",
+      "bytes": 67041145,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/best_teacher.pt",
+      "bytes": 67257477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_001.npz",
+      "bytes": 53795,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_008.npz",
+      "bytes": 42901,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_016.npz",
+      "bytes": 42133,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_024.npz",
+      "bytes": 42062,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_032.npz",
+      "bytes": 43495,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_040.npz",
+      "bytes": 52884,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_048.npz",
+      "bytes": 51922,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_056.npz",
+      "bytes": 51147,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_064.npz",
+      "bytes": 51646,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_072.npz",
+      "bytes": 51290,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_080.npz",
+      "bytes": 48324,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_088.npz",
+      "bytes": 41408,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/dev_cycle_096.npz",
+      "bytes": 45092,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/direct_money_dev.npz",
+      "bytes": 53853,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/fresh_direct_money.pt",
+      "bytes": 67044949,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/fresh_learned_teacher.pt",
+      "bytes": 67046851,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/fresh_untrained_teacher.pt",
+      "bytes": 67048183,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/initial_teacher.pt",
+      "bytes": 22412259,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/learned_teacher_dev.npz",
+      "bytes": 48691,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/resume_state.pt",
+      "bytes": 288445069,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v2_foreground_20261015/remote/results/untrained_teacher_dev.npz",
+      "bytes": 47848,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/best_student.pt",
+      "bytes": 67041273,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/best_teacher.pt",
+      "bytes": 67260296,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/calibration_anchor_indices.npy",
+      "bytes": 32896,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_001_window1.npz",
+      "bytes": 53945,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_001_window2.npz",
+      "bytes": 56970,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_001_window3.npz",
+      "bytes": 57044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_001_window4.npz",
+      "bytes": 52080,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_008_window1.npz",
+      "bytes": 54024,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_008_window2.npz",
+      "bytes": 56967,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_008_window3.npz",
+      "bytes": 57049,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_008_window4.npz",
+      "bytes": 52075,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_016_window1.npz",
+      "bytes": 53952,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_016_window2.npz",
+      "bytes": 56937,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_016_window3.npz",
+      "bytes": 56996,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_016_window4.npz",
+      "bytes": 52035,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_024_window1.npz",
+      "bytes": 53978,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_024_window2.npz",
+      "bytes": 56966,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_024_window3.npz",
+      "bytes": 57051,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_024_window4.npz",
+      "bytes": 52069,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_032_window1.npz",
+      "bytes": 53949,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_032_window2.npz",
+      "bytes": 56845,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_032_window3.npz",
+      "bytes": 56966,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_032_window4.npz",
+      "bytes": 52015,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_040_window1.npz",
+      "bytes": 53806,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_040_window2.npz",
+      "bytes": 56873,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_040_window3.npz",
+      "bytes": 56836,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_040_window4.npz",
+      "bytes": 51914,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_048_window1.npz",
+      "bytes": 53872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_048_window2.npz",
+      "bytes": 56906,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_048_window3.npz",
+      "bytes": 56953,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_048_window4.npz",
+      "bytes": 52026,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_056_window1.npz",
+      "bytes": 53821,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_056_window2.npz",
+      "bytes": 56890,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_056_window3.npz",
+      "bytes": 56788,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_056_window4.npz",
+      "bytes": 51893,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_064_window1.npz",
+      "bytes": 53905,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_064_window2.npz",
+      "bytes": 56988,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_064_window3.npz",
+      "bytes": 56901,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_064_window4.npz",
+      "bytes": 52029,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_072_window1.npz",
+      "bytes": 53721,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_072_window2.npz",
+      "bytes": 56777,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_072_window3.npz",
+      "bytes": 56773,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_072_window4.npz",
+      "bytes": 51881,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_080_window1.npz",
+      "bytes": 53896,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_080_window2.npz",
+      "bytes": 56936,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_080_window3.npz",
+      "bytes": 56849,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_080_window4.npz",
+      "bytes": 52007,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_088_window1.npz",
+      "bytes": 53722,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_088_window2.npz",
+      "bytes": 56738,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_088_window3.npz",
+      "bytes": 56704,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_088_window4.npz",
+      "bytes": 51786,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_096_window1.npz",
+      "bytes": 53907,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_096_window2.npz",
+      "bytes": 56924,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_096_window3.npz",
+      "bytes": 56960,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/dev_cycle_096_window4.npz",
+      "bytes": 52030,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/direct_money_seed888_dev_window1.npz",
+      "bytes": 49793,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/direct_money_seed888_dev_window2.npz",
+      "bytes": 52407,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/direct_money_seed888_dev_window3.npz",
+      "bytes": 52415,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/direct_money_seed888_dev_window4.npz",
+      "bytes": 47908,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/direct_money_seed888_test.npz",
+      "bytes": 152333,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/fresh_direct_money_seed888.pt",
+      "bytes": 22342558,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/fresh_learned_teacher_seed888.pt",
+      "bytes": 22343047,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/fresh_previous_teacher_seed888.pt",
+      "bytes": 22343210,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/initial_teacher.pt",
+      "bytes": 22412387,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/learned_teacher_seed888_dev_window1.npz",
+      "bytes": 53728,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/learned_teacher_seed888_dev_window2.npz",
+      "bytes": 56740,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/learned_teacher_seed888_dev_window3.npz",
+      "bytes": 56758,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/learned_teacher_seed888_dev_window4.npz",
+      "bytes": 51872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/learned_teacher_seed888_test.npz",
+      "bytes": 165488,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/previous_teacher_seed888_dev_window1.npz",
+      "bytes": 53783,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/previous_teacher_seed888_dev_window2.npz",
+      "bytes": 56784,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/previous_teacher_seed888_dev_window3.npz",
+      "bytes": 56779,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/previous_teacher_seed888_dev_window4.npz",
+      "bytes": 51900,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/previous_teacher_seed888_test.npz",
+      "bytes": 165464,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/meta_reward_transformer_v3_20261016/remote/results/resume_state.pt",
+      "bytes": 310971081,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/dataset.npz",
+      "bytes": 5374477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/baseline_test.npz",
+      "bytes": 71222,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/baseline_val.npz",
+      "bytes": 35565,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_best.pt",
+      "bytes": 2412251,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_fixed_validation.npz",
+      "bytes": 82396,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_stage1.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_stage2.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_stage3.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_stage4.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_test.npz",
+      "bytes": 181089,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_17_validation.npz",
+      "bytes": 120472,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_best.pt",
+      "bytes": 2412251,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_fixed_validation.npz",
+      "bytes": 79434,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_stage1.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_stage2.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_stage3.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_stage4.pt",
+      "bytes": 2412603,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_test.npz",
+      "bytes": 180214,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_29_validation.npz",
+      "bytes": 116175,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_fixed_17_test.npz",
+      "bytes": 171551,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_fixed_29_test.npz",
+      "bytes": 168530,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_fixed_test.npz",
+      "bytes": 269856,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_test.npz",
+      "bytes": 272823,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_curriculum_validation.npz",
+      "bytes": 129098,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_17_best.pt",
+      "bytes": 2411291,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_17_fixed_validation.npz",
+      "bytes": 85517,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_17_stage4.pt",
+      "bytes": 2411899,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_17_test.npz",
+      "bytes": 183802,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_17_validation.npz",
+      "bytes": 119023,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_29_best.pt",
+      "bytes": 2411291,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_29_fixed_validation.npz",
+      "bytes": 89153,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_29_stage4.pt",
+      "bytes": 2411899,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_29_test.npz",
+      "bytes": 190777,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_29_validation.npz",
+      "bytes": 122800,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_fixed_17_test.npz",
+      "bytes": 183903,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_fixed_29_test.npz",
+      "bytes": 190442,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_fixed_test.npz",
+      "bytes": 272647,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_test.npz",
+      "bytes": 272735,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/hyper_direct_validation.npz",
+      "bytes": 128903,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_best.pt",
+      "bytes": 2411211,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_stage1.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_stage2.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_stage3.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_stage4.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_test.npz",
+      "bytes": 180687,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_17_validation.npz",
+      "bytes": 119054,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_best.pt",
+      "bytes": 2411211,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_stage1.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_stage2.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_stage3.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_stage4.pt",
+      "bytes": 2411555,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_test.npz",
+      "bytes": 181119,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_29_validation.npz",
+      "bytes": 118385,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_test.npz",
+      "bytes": 272680,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_curriculum_validation.npz",
+      "bytes": 128676,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_17_best.pt",
+      "bytes": 2410267,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_17_stage4.pt",
+      "bytes": 2410867,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_17_test.npz",
+      "bytes": 191100,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_17_validation.npz",
+      "bytes": 123615,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_29_best.pt",
+      "bytes": 2410267,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_29_stage4.pt",
+      "bytes": 2410867,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_29_test.npz",
+      "bytes": 185181,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_29_validation.npz",
+      "bytes": 120314,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_test.npz",
+      "bytes": 273279,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/multiscale_curriculum_20261010/remote/static_direct_validation.npz",
+      "bytes": 129189,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/bridge_cases.npz",
+      "bytes": 213348,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_17_best.pt",
+      "bytes": 52363,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_17_cases.npz",
+      "bytes": 233850,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_17_last.pt",
+      "bytes": 163209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_17_last_cases.npz",
+      "bytes": 233850,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_29_best.pt",
+      "bytes": 52363,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_29_cases.npz",
+      "bytes": 234145,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_29_last.pt",
+      "bytes": 163209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_adam_29_last_cases.npz",
+      "bytes": 234145,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_17_best.pt",
+      "bytes": 52477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_17_cases.npz",
+      "bytes": 234044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_17_last.pt",
+      "bytes": 166445,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_17_last_cases.npz",
+      "bytes": 234044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_29_best.pt",
+      "bytes": 52477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_29_cases.npz",
+      "bytes": 234227,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_29_last.pt",
+      "bytes": 166445,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w13_pcgrad_29_last_cases.npz",
+      "bytes": 234227,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_17_best.pt",
+      "bytes": 93323,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_17_cases.npz",
+      "bytes": 234124,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_17_last.pt",
+      "bytes": 286089,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_17_last_cases.npz",
+      "bytes": 234094,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_29_best.pt",
+      "bytes": 93323,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_29_cases.npz",
+      "bytes": 234119,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_29_last.pt",
+      "bytes": 286089,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_adam_29_last_cases.npz",
+      "bytes": 234140,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_17_best.pt",
+      "bytes": 93437,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_17_cases.npz",
+      "bytes": 234036,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_17_last.pt",
+      "bytes": 286509,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_17_last_cases.npz",
+      "bytes": 234116,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_29_best.pt",
+      "bytes": 93437,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_29_cases.npz",
+      "bytes": 234094,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_29_last.pt",
+      "bytes": 286509,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w20_pcgrad_29_last_cases.npz",
+      "bytes": 234085,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_17_best.pt",
+      "bytes": 20498,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_17_cases.npz",
+      "bytes": 233813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_17_last.pt",
+      "bytes": 67575,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_17_last_cases.npz",
+      "bytes": 233813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_29_best.pt",
+      "bytes": 20498,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_29_cases.npz",
+      "bytes": 232872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_29_last.pt",
+      "bytes": 67575,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_adam_29_last_cases.npz",
+      "bytes": 232872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_17_best.pt",
+      "bytes": 20612,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_17_cases.npz",
+      "bytes": 233373,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_17_last.pt",
+      "bytes": 67995,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_17_last_cases.npz",
+      "bytes": 233373,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_29_best.pt",
+      "bytes": 20612,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_29_cases.npz",
+      "bytes": 232876,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_29_last.pt",
+      "bytes": 67995,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w2_pcgrad_29_last_cases.npz",
+      "bytes": 232876,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_17_best.pt",
+      "bytes": 174155,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_17_cases.npz",
+      "bytes": 233972,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_17_last.pt",
+      "bytes": 528585,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_17_last_cases.npz",
+      "bytes": 234100,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_29_best.pt",
+      "bytes": 174155,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_29_cases.npz",
+      "bytes": 233929,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_29_last.pt",
+      "bytes": 528585,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_adam_29_last_cases.npz",
+      "bytes": 234017,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_17_best.pt",
+      "bytes": 174269,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_17_cases.npz",
+      "bytes": 233965,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_17_last.pt",
+      "bytes": 529005,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_17_last_cases.npz",
+      "bytes": 234075,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_29_best.pt",
+      "bytes": 174269,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_29_cases.npz",
+      "bytes": 233962,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_29_last.pt",
+      "bytes": 529005,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w30_pcgrad_29_last_cases.npz",
+      "bytes": 233960,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_17_best.pt",
+      "bytes": 21970,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_17_cases.npz",
+      "bytes": 233033,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_17_last.pt",
+      "bytes": 71991,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_17_last_cases.npz",
+      "bytes": 233033,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_29_best.pt",
+      "bytes": 21970,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_29_cases.npz",
+      "bytes": 233141,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_29_last.pt",
+      "bytes": 71991,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_adam_29_last_cases.npz",
+      "bytes": 233141,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_17_best.pt",
+      "bytes": 22084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_17_cases.npz",
+      "bytes": 232884,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_17_last.pt",
+      "bytes": 72411,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_17_last_cases.npz",
+      "bytes": 232884,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_29_best.pt",
+      "bytes": 22084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_29_cases.npz",
+      "bytes": 233176,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_29_last.pt",
+      "bytes": 72411,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w3_pcgrad_29_last_cases.npz",
+      "bytes": 233262,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_17_best.pt",
+      "bytes": 334219,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_17_cases.npz",
+      "bytes": 234084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_17_last.pt",
+      "bytes": 1008777,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_17_last_cases.npz",
+      "bytes": 234130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_29_best.pt",
+      "bytes": 334219,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_29_cases.npz",
+      "bytes": 234085,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_29_last.pt",
+      "bytes": 1008777,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_adam_29_last_cases.npz",
+      "bytes": 234036,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_17_best.pt",
+      "bytes": 334333,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_17_cases.npz",
+      "bytes": 234113,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_17_last.pt",
+      "bytes": 1009197,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_17_last_cases.npz",
+      "bytes": 234112,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_29_best.pt",
+      "bytes": 334333,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_29_cases.npz",
+      "bytes": 234125,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_29_last.pt",
+      "bytes": 1009197,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w44_pcgrad_29_last_cases.npz",
+      "bytes": 234084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_17_best.pt",
+      "bytes": 25682,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_17_cases.npz",
+      "bytes": 233407,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_17_last.pt",
+      "bytes": 83127,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_17_last_cases.npz",
+      "bytes": 233407,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_29_best.pt",
+      "bytes": 25682,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_29_cases.npz",
+      "bytes": 232959,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_29_last.pt",
+      "bytes": 83127,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_adam_29_last_cases.npz",
+      "bytes": 233438,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_17_best.pt",
+      "bytes": 25796,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_17_cases.npz",
+      "bytes": 233608,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_17_last.pt",
+      "bytes": 83547,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_17_last_cases.npz",
+      "bytes": 233608,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_29_best.pt",
+      "bytes": 25796,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_29_cases.npz",
+      "bytes": 233405,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_29_last.pt",
+      "bytes": 83547,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w5_pcgrad_29_last_cases.npz",
+      "bytes": 233456,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_17_best.pt",
+      "bytes": 645067,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_17_cases.npz",
+      "bytes": 234042,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_17_last.pt",
+      "bytes": 1941321,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_17_last_cases.npz",
+      "bytes": 234119,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_29_best.pt",
+      "bytes": 645067,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_29_cases.npz",
+      "bytes": 234077,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_29_last.pt",
+      "bytes": 1941321,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_adam_29_last_cases.npz",
+      "bytes": 234146,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_17_best.pt",
+      "bytes": 645181,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_17_cases.npz",
+      "bytes": 234091,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_17_last.pt",
+      "bytes": 1941741,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_17_last_cases.npz",
+      "bytes": 234084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_29_best.pt",
+      "bytes": 645181,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_29_cases.npz",
+      "bytes": 234139,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_29_last.pt",
+      "bytes": 1941741,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w63_pcgrad_29_last_cases.npz",
+      "bytes": 234079,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_17_best.pt",
+      "bytes": 34130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_17_cases.npz",
+      "bytes": 233161,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_17_last.pt",
+      "bytes": 108471,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_17_last_cases.npz",
+      "bytes": 233495,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_29_best.pt",
+      "bytes": 34130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_29_cases.npz",
+      "bytes": 233256,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_29_last.pt",
+      "bytes": 108471,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_adam_29_last_cases.npz",
+      "bytes": 233318,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_17_best.pt",
+      "bytes": 34244,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_17_cases.npz",
+      "bytes": 233535,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_17_last.pt",
+      "bytes": 108891,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_17_last_cases.npz",
+      "bytes": 233535,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_29_best.pt",
+      "bytes": 34244,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_29_cases.npz",
+      "bytes": 233668,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_29_last.pt",
+      "bytes": 108891,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w8_pcgrad_29_last_cases.npz",
+      "bytes": 233668,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_17_best.pt",
+      "bytes": 1261387,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_17_cases.npz",
+      "bytes": 234038,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_17_last.pt",
+      "bytes": 3790345,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_17_last_cases.npz",
+      "bytes": 234078,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_29_best.pt",
+      "bytes": 1261387,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_29_cases.npz",
+      "bytes": 234012,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_29_last.pt",
+      "bytes": 3790345,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_adam_29_last_cases.npz",
+      "bytes": 234040,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_17_best.pt",
+      "bytes": 1261501,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_17_cases.npz",
+      "bytes": 234040,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_17_last.pt",
+      "bytes": 3790765,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_17_last_cases.npz",
+      "bytes": 234032,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_29_best.pt",
+      "bytes": 1261501,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_29_cases.npz",
+      "bytes": 234096,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_29_last.pt",
+      "bytes": 3790765,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_20261009/remote/w90_pcgrad_29_last_cases.npz",
+      "bytes": 234044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/bridge_cases.npz",
+      "bytes": 213348,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_17_best.pt",
+      "bytes": 52363,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_17_cases.npz",
+      "bytes": 233850,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_17_last.pt",
+      "bytes": 163209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_17_last_cases.npz",
+      "bytes": 233850,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_29_best.pt",
+      "bytes": 52363,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_29_cases.npz",
+      "bytes": 234145,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_29_last.pt",
+      "bytes": 163209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_adam_29_last_cases.npz",
+      "bytes": 234145,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_17_best.pt",
+      "bytes": 52477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_17_cases.npz",
+      "bytes": 234044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_17_last.pt",
+      "bytes": 166445,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_17_last_cases.npz",
+      "bytes": 234044,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_29_best.pt",
+      "bytes": 52477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_29_cases.npz",
+      "bytes": 234227,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_29_last.pt",
+      "bytes": 166445,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w13_pcgrad_29_last_cases.npz",
+      "bytes": 234227,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_17_best.pt",
+      "bytes": 20498,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_17_cases.npz",
+      "bytes": 233813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_17_last.pt",
+      "bytes": 67575,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_17_last_cases.npz",
+      "bytes": 233813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_29_best.pt",
+      "bytes": 20498,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_29_cases.npz",
+      "bytes": 232872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_29_last.pt",
+      "bytes": 67575,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_adam_29_last_cases.npz",
+      "bytes": 232872,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_17_best.pt",
+      "bytes": 20612,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_17_cases.npz",
+      "bytes": 233373,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_17_last.pt",
+      "bytes": 67995,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_17_last_cases.npz",
+      "bytes": 233373,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_29_best.pt",
+      "bytes": 20612,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_29_cases.npz",
+      "bytes": 232876,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_29_last.pt",
+      "bytes": 67995,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w2_pcgrad_29_last_cases.npz",
+      "bytes": 232876,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_17_best.pt",
+      "bytes": 21970,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_17_cases.npz",
+      "bytes": 233033,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_17_last.pt",
+      "bytes": 71991,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_17_last_cases.npz",
+      "bytes": 233033,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_29_best.pt",
+      "bytes": 21970,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_29_cases.npz",
+      "bytes": 233141,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_29_last.pt",
+      "bytes": 71991,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_adam_29_last_cases.npz",
+      "bytes": 233141,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_17_best.pt",
+      "bytes": 22084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_17_cases.npz",
+      "bytes": 232884,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_17_last.pt",
+      "bytes": 72411,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_17_last_cases.npz",
+      "bytes": 232884,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_29_best.pt",
+      "bytes": 22084,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_29_cases.npz",
+      "bytes": 233176,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_29_last.pt",
+      "bytes": 72411,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w3_pcgrad_29_last_cases.npz",
+      "bytes": 233262,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_17_best.pt",
+      "bytes": 25682,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_17_cases.npz",
+      "bytes": 233407,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_17_last.pt",
+      "bytes": 83127,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_17_last_cases.npz",
+      "bytes": 233407,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_29_best.pt",
+      "bytes": 25682,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_29_cases.npz",
+      "bytes": 232959,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_29_last.pt",
+      "bytes": 83127,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_adam_29_last_cases.npz",
+      "bytes": 233438,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_17_best.pt",
+      "bytes": 25796,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_17_cases.npz",
+      "bytes": 233608,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_17_last.pt",
+      "bytes": 83547,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_17_last_cases.npz",
+      "bytes": 233608,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_29_best.pt",
+      "bytes": 25796,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_29_cases.npz",
+      "bytes": 233405,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_29_last.pt",
+      "bytes": 83547,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w5_pcgrad_29_last_cases.npz",
+      "bytes": 233456,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_17_best.pt",
+      "bytes": 34130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_17_cases.npz",
+      "bytes": 233161,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_17_last.pt",
+      "bytes": 108471,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_17_last_cases.npz",
+      "bytes": 233495,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_29_best.pt",
+      "bytes": 34130,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_29_cases.npz",
+      "bytes": 233256,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_29_last.pt",
+      "bytes": 108471,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_adam_29_last_cases.npz",
+      "bytes": 233318,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_17_best.pt",
+      "bytes": 34244,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_17_cases.npz",
+      "bytes": 233535,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_17_last.pt",
+      "bytes": 108891,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_17_last_cases.npz",
+      "bytes": 233535,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_29_best.pt",
+      "bytes": 34244,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_29_cases.npz",
+      "bytes": 233668,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_29_last.pt",
+      "bytes": 108891,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_capacity_smaller_20261009/remote/w8_pcgrad_29_last_cases.npz",
+      "bytes": 233668,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/pcgrad_mse_month_20261009/dataset.npz",
+      "bytes": 44877957,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/base.npy",
+      "bytes": 45355648,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/candidate_fade_signals.npz",
+      "bytes": 3534,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/full_component_moments.npz",
+      "bytes": 1918796,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/hgb_price_only_direction.joblib",
+      "bytes": 43614,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/hgb_price_only_log_rv.joblib",
+      "bytes": 104951,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/hgb_price_plus_spectral_dynamics_direction.joblib",
+      "bytes": 1082177,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/hgb_price_plus_spectral_dynamics_log_rv.joblib",
+      "bytes": 1133150,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/market.npz",
+      "bytes": 28442398,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/nonlinear_predictions.npz",
+      "bytes": 5596361,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/predictions.npz",
+      "bytes": 47378964,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/shock_events.npz",
+      "bytes": 98412,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/spectral.npy",
+      "bytes": 1182078368,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_hgb_price_only.npz",
+      "bytes": 3434,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_hgb_price_plus_spectral_dynamics.npz",
+      "bytes": 2992,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_price_only.npz",
+      "bytes": 3177,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_price_plus_all.npz",
+      "bytes": 2161,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_price_plus_stft.npz",
+      "bytes": 2278,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_analysis_20261012/trades_price_plus_wavelets.npz",
+      "bytes": 1788,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/engineered_trades.npz",
+      "bytes": 562,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/golden.npz",
+      "bytes": 1735194,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/input.npz",
+      "bytes": 5552615,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/price_trades.npz",
+      "bytes": 5111,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/raw_trades.npz",
+      "bytes": 2279,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/reference.npz",
+      "bytes": 20142,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/constant.npz",
+      "bytes": 948,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_final.pt",
+      "bytes": 7038367,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_final_last.pt",
+      "bytes": 21054899,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_selection.npz",
+      "bytes": 954355,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_selection_best.pt",
+      "bytes": 7039198,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_selection_last.pt",
+      "bytes": 21056107,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/engineered_test.npz",
+      "bytes": 1761155,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/evaluation_data.npz",
+      "bytes": 11601117,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_final.pt",
+      "bytes": 1135474,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_final_last.pt",
+      "bytes": 3343845,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_selection.npz",
+      "bytes": 1964276,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_selection_best.pt",
+      "bytes": 1136023,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_selection_last.pt",
+      "bytes": 3344701,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/price_test.npz",
+      "bytes": 6675504,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_final.pt",
+      "bytes": 6568110,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_final_last.pt",
+      "bytes": 19643841,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_selection.npz",
+      "bytes": 1314080,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_selection_best.pt",
+      "bytes": 6568749,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_selection_last.pt",
+      "bytes": 19644857,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/spectral_transformer_20261013/remote/raw_test.npz",
+      "bytes": 4726249,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/dataset.npz",
+      "bytes": 13317162,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_17_best.pt",
+      "bytes": 1678806,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_17_fixed_validation.npz",
+      "bytes": 24473,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_17_last.pt",
+      "bytes": 5050939,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_17_test.npz",
+      "bytes": 42901,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_17_validation.npz",
+      "bytes": 21428,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_29_best.pt",
+      "bytes": 1678806,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_29_fixed_validation.npz",
+      "bytes": 24112,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_29_last.pt",
+      "bytes": 5050939,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_29_test.npz",
+      "bytes": 42526,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_29_validation.npz",
+      "bytes": 21124,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_fixed_17_test.npz",
+      "bytes": 42715,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_fixed_29_test.npz",
+      "bytes": 42232,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_fixed_test.npz",
+      "bytes": 74813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_fixed_validation.npz",
+      "bytes": 35813,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_test.npz",
+      "bytes": 74899,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/hyper_validation.npz",
+      "bytes": 35923,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_17_best.pt",
+      "bytes": 1677585,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_17_last.pt",
+      "bytes": 5046791,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_17_test.npz",
+      "bytes": 42724,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_17_validation.npz",
+      "bytes": 21318,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_29_best.pt",
+      "bytes": 1677585,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_29_last.pt",
+      "bytes": 5046791,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_29_test.npz",
+      "bytes": 39477,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_29_validation.npz",
+      "bytes": 20719,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_test.npz",
+      "bytes": 75250,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage1_20261012/remote/static_validation.npz",
+      "bytes": 36133,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/dataset.npz",
+      "bytes": 14190127,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_best.pt",
+      "bytes": 1683234,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_fixed_validation.npz",
+      "bytes": 13452,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_last.pt",
+      "bytes": 5061347,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_past_after.npz",
+      "bytes": 20066,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_past_before.npz",
+      "bytes": 18772,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_test.npz",
+      "bytes": 19140,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_17_validation.npz",
+      "bytes": 10396,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_best.pt",
+      "bytes": 1683234,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_fixed_validation.npz",
+      "bytes": 13545,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_last.pt",
+      "bytes": 5061347,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_past_after.npz",
+      "bytes": 19876,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_past_before.npz",
+      "bytes": 18391,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_test.npz",
+      "bytes": 19187,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_29_validation.npz",
+      "bytes": 10514,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_fixed_17_test.npz",
+      "bytes": 18903,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_fixed_29_test.npz",
+      "bytes": 19078,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_fixed_test.npz",
+      "bytes": 23068,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_fixed_validation.npz",
+      "bytes": 11288,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_test.npz",
+      "bytes": 23196,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/hyper_validation.npz",
+      "bytes": 11359,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/past_activity_test.npz",
+      "bytes": 20865,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_best.pt",
+      "bytes": 1682081,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_last.pt",
+      "bytes": 5057209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_past_after.npz",
+      "bytes": 19793,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_past_before.npz",
+      "bytes": 18613,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_test.npz",
+      "bytes": 19357,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_17_validation.npz",
+      "bytes": 10317,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_best.pt",
+      "bytes": 1682081,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_last.pt",
+      "bytes": 5057209,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_past_after.npz",
+      "bytes": 19430,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_past_before.npz",
+      "bytes": 18156,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_test.npz",
+      "bytes": 16607,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_29_validation.npz",
+      "bytes": 10011,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_test.npz",
+      "bytes": 23054,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/static_validation.npz",
+      "bytes": 11339,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    },
+    {
+      "path": "reports/transformer_stage2_20261012/remote/train_distribution_test.npz",
+      "bytes": 383,
+      "reason": "Large/raw data, array dump, checkpoint or archive; see handoff.md for recovery."
+    }
+  ]
+}

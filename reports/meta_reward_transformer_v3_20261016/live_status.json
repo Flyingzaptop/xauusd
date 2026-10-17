@@ -1,0 +1,37 @@
+{
+  "checked_epoch": 1792151956.933009,
+  "supervisor_status.json": {
+    "phase": "training",
+    "elapsed_seconds": 16141.749700816998,
+    "worker_pid": 6288,
+    "updated_epoch": 1792151949.4388518
+  },
+  "prepare_status.json": {
+    "phase": "complete",
+    "rows": 3505124,
+    "bytes": 74701202688,
+    "seconds": 1023.8,
+    "available_RAM_GB": 164.5
+  },
+  "training_status.json": {
+    "phase": "evaluation",
+    "label": "learned_teacher_seed889_test",
+    "done": 65536,
+    "total": 81022,
+    "seconds": 15098.4,
+    "allocated_GB": 63.85
+  },
+  "archive_ready.json": {
+    "monitor_error": "[colab] Download failed: File or directory not found: /content/meta_reward/archive_ready.json\n"
+  },
+  "kernel_status": {
+    "kernels": [
+      {
+        "name": "python3",
+        "execution_state": "busy",
+        "last_activity": "2026-10-16T07:30:07.627306Z",
+        "connections": 1
+      }
+    ]
+  }
+}

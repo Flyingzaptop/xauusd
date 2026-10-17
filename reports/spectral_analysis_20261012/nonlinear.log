@@ -1,0 +1,5 @@
+{"model": "price_only", "target": "direction", "iterations": 31, "seconds": 3.3}
+{"model": "price_only", "target": "log_rv", "iterations": 230, "seconds": 10.1}
+{"model": "price_plus_spectral_dynamics", "target": "direction", "iterations": 1, "seconds": 44.8}
+{"model": "price_plus_spectral_dynamics", "target": "log_rv", "iterations": 162, "seconds": 161.0}
+COMPLETE 161.2796835899353

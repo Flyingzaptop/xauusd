@@ -1,0 +1,1418 @@
+[
+  {
+    "epoch": 1,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "train_cost": 0.28049770637170324,
+    "online_cost": 0.2830046532023201,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.033762238919734955,
+          "signals": 15,
+          "tp": 5,
+          "precision": 0.3333333333333333,
+          "lower_score": 0.17277471554901871,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.02431994490325451,
+          "signals": 41,
+          "tp": 2,
+          "precision": 0.04878048780487805,
+          "lower_score": 0.01627590651786741,
+          "days": 2
+        }
+      },
+      "selection_score": 0.09452531103344305,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 15,
+          "tp": 5,
+          "fp": 10,
+          "precision": 0.3333333333333333,
+          "recall": 0.35714285714285715,
+          "actual": 14
+        },
+        "2": {
+          "signals": 41,
+          "tp": 2,
+          "fp": 39,
+          "precision": 0.04878048780487805,
+          "recall": 0.2222222222222222,
+          "actual": 9
+        }
+      },
+      "signals": 56,
+      "tp": 7,
+      "fp": 49,
+      "precision": 0.125,
+      "recall": 0.30434782608695654,
+      "coverage": 0.21132075471698114,
+      "confusion": [
+        [
+          5,
+          8,
+          1
+        ],
+        [
+          9,
+          195,
+          38
+        ],
+        [
+          1,
+          6,
+          2
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 1181,
+          "tp": 97,
+          "fp": 1084,
+          "precision": 0.0821337849280271,
+          "recall": 0.10210526315789474,
+          "actual": 950
+        },
+        "2": {
+          "signals": 3341,
+          "tp": 123,
+          "fp": 3218,
+          "precision": 0.036815324753067945,
+          "recall": 0.15018315018315018,
+          "actual": 819
+        }
+      },
+      "signals": 4522,
+      "tp": 220,
+      "fp": 4302,
+      "precision": 0.048651039363113664,
+      "recall": 0.1243640474844545,
+      "coverage": 0.163154856400635,
+      "confusion": [
+        [
+          97,
+          722,
+          131
+        ],
+        [
+          1002,
+          21858,
+          3087
+        ],
+        [
+          82,
+          614,
+          123
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 2,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "train_cost": 0.2784827215913433,
+    "online_cost": 0.28067698681678394,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.04203224182128906,
+          "signals": 5,
+          "tp": 3,
+          "precision": 0.6,
+          "lower_score": 0.2724831718661928,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.023938549682497978,
+          "signals": 129,
+          "tp": 6,
+          "precision": 0.046511627906976744,
+          "lower_score": 0.024239353557164316,
+          "days": 3
+        }
+      },
+      "selection_score": 0.14836126271167857,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 3,
+          "fp": 2,
+          "precision": 0.6,
+          "recall": 0.21428571428571427,
+          "actual": 14
+        },
+        "2": {
+          "signals": 129,
+          "tp": 6,
+          "fp": 123,
+          "precision": 0.046511627906976744,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 134,
+      "tp": 9,
+      "fp": 125,
+      "precision": 0.06716417910447761,
+      "recall": 0.391304347826087,
+      "coverage": 0.5056603773584906,
+      "confusion": [
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          2,
+          124,
+          116
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 228,
+          "tp": 18,
+          "fp": 210,
+          "precision": 0.07894736842105263,
+          "recall": 0.018947368421052633,
+          "actual": 950
+        },
+        "2": {
+          "signals": 12290,
+          "tp": 431,
+          "fp": 11859,
+          "precision": 0.035069161920260376,
+          "recall": 0.5262515262515263,
+          "actual": 819
+        }
+      },
+      "signals": 12518,
+      "tp": 449,
+      "fp": 12069,
+      "precision": 0.035868349576609684,
+      "recall": 0.25381571509327305,
+      "coverage": 0.4516524751046327,
+      "confusion": [
+        [
+          18,
+          593,
+          339
+        ],
+        [
+          189,
+          14238,
+          11520
+        ],
+        [
+          21,
+          367,
+          431
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 3,
+    "lr": 0.0002,
+    "examples_seen": 27716,
+    "train_cost": 0.2773119173863351,
+    "online_cost": 0.27977461509136675,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.03681595250964165,
+          "signals": 28,
+          "tp": 6,
+          "precision": 0.21428571428571427,
+          "lower_score": 0.11508606633744235,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.025956053286790848,
+          "signals": 136,
+          "tp": 6,
+          "precision": 0.04411764705882353,
+          "lower_score": 0.02298242159890725,
+          "days": 3
+        }
+      },
+      "selection_score": 0.0690342439681748,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 28,
+          "tp": 6,
+          "fp": 22,
+          "precision": 0.21428571428571427,
+          "recall": 0.42857142857142855,
+          "actual": 14
+        },
+        "2": {
+          "signals": 136,
+          "tp": 6,
+          "fp": 130,
+          "precision": 0.04411764705882353,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 164,
+      "tp": 12,
+      "fp": 152,
+      "precision": 0.07317073170731707,
+      "recall": 0.5217391304347826,
+      "coverage": 0.6188679245283019,
+      "confusion": [
+        [
+          6,
+          0,
+          8
+        ],
+        [
+          21,
+          99,
+          122
+        ],
+        [
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5128,
+          "tp": 276,
+          "fp": 4852,
+          "precision": 0.05382215288611544,
+          "recall": 0.2905263157894737,
+          "actual": 950
+        },
+        "2": {
+          "signals": 12732,
+          "tp": 458,
+          "fp": 12274,
+          "precision": 0.03597235312598178,
+          "recall": 0.5592185592185592,
+          "actual": 819
+        }
+      },
+      "signals": 17860,
+      "tp": 734,
+      "fp": 17126,
+      "precision": 0.04109742441209407,
+      "recall": 0.41492368569813454,
+      "coverage": 0.6443931303218358,
+      "confusion": [
+        [
+          276,
+          318,
+          356
+        ],
+        [
+          4697,
+          9332,
+          11918
+        ],
+        [
+          155,
+          206,
+          458
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 4,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "train_cost": 0.2744527378197889,
+    "online_cost": 0.2769199115764374,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.050908077508211136,
+          "signals": 7,
+          "tp": 4,
+          "precision": 0.5714285714285714,
+          "lower_score": 0.28947709101359287,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.02645374834537506,
+          "signals": 117,
+          "tp": 6,
+          "precision": 0.05128205128205128,
+          "lower_score": 0.026747087111624452,
+          "days": 3
+        }
+      },
+      "selection_score": 0.15811208906260865,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 7,
+          "tp": 4,
+          "fp": 3,
+          "precision": 0.5714285714285714,
+          "recall": 0.2857142857142857,
+          "actual": 14
+        },
+        "2": {
+          "signals": 117,
+          "tp": 6,
+          "fp": 111,
+          "precision": 0.05128205128205128,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 124,
+      "tp": 10,
+      "fp": 114,
+      "precision": 0.08064516129032258,
+      "recall": 0.43478260869565216,
+      "coverage": 0.4679245283018868,
+      "confusion": [
+        [
+          4,
+          3,
+          7
+        ],
+        [
+          3,
+          135,
+          104
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 622,
+          "tp": 63,
+          "fp": 559,
+          "precision": 0.10128617363344052,
+          "recall": 0.06631578947368422,
+          "actual": 950
+        },
+        "2": {
+          "signals": 11524,
+          "tp": 421,
+          "fp": 11103,
+          "precision": 0.03653245400902464,
+          "recall": 0.514041514041514,
+          "actual": 819
+        }
+      },
+      "signals": 12146,
+      "tp": 484,
+      "fp": 11662,
+      "precision": 0.03984850979746419,
+      "recall": 0.2736009044657999,
+      "coverage": 0.4382306249097994,
+      "confusion": [
+        [
+          63,
+          575,
+          312
+        ],
+        [
+          500,
+          14656,
+          10791
+        ],
+        [
+          59,
+          339,
+          421
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 5,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "train_cost": 0.27317938793959734,
+    "online_cost": 0.2754007276539542,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.05374619737267494,
+          "signals": 7,
+          "tp": 4,
+          "precision": 0.5714285714285714,
+          "lower_score": 0.28947709101359287,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.027826610952615738,
+          "signals": 106,
+          "tp": 6,
+          "precision": 0.05660377358490566,
+          "lower_score": 0.029549490979397002,
+          "days": 3
+        }
+      },
+      "selection_score": 0.15951329099649494,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 7,
+          "tp": 4,
+          "fp": 3,
+          "precision": 0.5714285714285714,
+          "recall": 0.2857142857142857,
+          "actual": 14
+        },
+        "2": {
+          "signals": 106,
+          "tp": 6,
+          "fp": 100,
+          "precision": 0.05660377358490566,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 113,
+      "tp": 10,
+      "fp": 103,
+      "precision": 0.08849557522123894,
+      "recall": 0.43478260869565216,
+      "coverage": 0.42641509433962266,
+      "confusion": [
+        [
+          4,
+          3,
+          7
+        ],
+        [
+          3,
+          146,
+          93
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 575,
+          "tp": 62,
+          "fp": 513,
+          "precision": 0.10782608695652174,
+          "recall": 0.06526315789473684,
+          "actual": 950
+        },
+        "2": {
+          "signals": 10692,
+          "tp": 409,
+          "fp": 10283,
+          "precision": 0.038252899364010474,
+          "recall": 0.4993894993894994,
+          "actual": 819
+        }
+      },
+      "signals": 11267,
+      "tp": 471,
+      "fp": 10796,
+      "precision": 0.04180349693796041,
+      "recall": 0.2662521198417185,
+      "coverage": 0.4065160917881368,
+      "confusion": [
+        [
+          62,
+          600,
+          288
+        ],
+        [
+          460,
+          15492,
+          9995
+        ],
+        [
+          53,
+          357,
+          409
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 6,
+    "lr": 0.0001,
+    "examples_seen": 27716,
+    "train_cost": 0.2709125847609326,
+    "online_cost": 0.27350925792722086,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.0593135729432106,
+          "signals": 6,
+          "tp": 4,
+          "precision": 0.6666666666666666,
+          "lower_score": 0.34701476700031814,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.029660740867257118,
+          "signals": 102,
+          "tp": 6,
+          "precision": 0.058823529411764705,
+          "lower_score": 0.030719931036133276,
+          "days": 3
+        }
+      },
+      "selection_score": 0.18886734901822572,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 6,
+          "tp": 4,
+          "fp": 2,
+          "precision": 0.6666666666666666,
+          "recall": 0.2857142857142857,
+          "actual": 14
+        },
+        "2": {
+          "signals": 102,
+          "tp": 6,
+          "fp": 96,
+          "precision": 0.058823529411764705,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 108,
+      "tp": 10,
+      "fp": 98,
+      "precision": 0.09259259259259259,
+      "recall": 0.43478260869565216,
+      "coverage": 0.4075471698113208,
+      "confusion": [
+        [
+          4,
+          3,
+          7
+        ],
+        [
+          2,
+          151,
+          89
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 399,
+          "tp": 40,
+          "fp": 359,
+          "precision": 0.10025062656641603,
+          "recall": 0.042105263157894736,
+          "actual": 950
+        },
+        "2": {
+          "signals": 10183,
+          "tp": 438,
+          "fp": 9745,
+          "precision": 0.0430128645782186,
+          "recall": 0.5347985347985348,
+          "actual": 819
+        }
+      },
+      "signals": 10582,
+      "tp": 478,
+      "fp": 10104,
+      "precision": 0.04517104517104517,
+      "recall": 0.27020915771622384,
+      "coverage": 0.3818011257035647,
+      "confusion": [
+        [
+          40,
+          624,
+          286
+        ],
+        [
+          307,
+          16181,
+          9459
+        ],
+        [
+          52,
+          329,
+          438
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 7,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.26516839578427315,
+    "online_cost": 0.26777093907150723,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.06603038311004639,
+          "signals": 5,
+          "tp": 3,
+          "precision": 0.6,
+          "lower_score": 0.2724831718661928,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.0428117960691452,
+          "signals": 5,
+          "tp": 1,
+          "precision": 0.2,
+          "lower_score": 0.04596245388060396,
+          "days": 2
+        }
+      },
+      "selection_score": 0.15922281287339837,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 3,
+          "fp": 2,
+          "precision": 0.6,
+          "recall": 0.21428571428571427,
+          "actual": 14
+        },
+        "2": {
+          "signals": 5,
+          "tp": 1,
+          "fp": 4,
+          "precision": 0.2,
+          "recall": 0.1111111111111111,
+          "actual": 9
+        }
+      },
+      "signals": 10,
+      "tp": 4,
+      "fp": 6,
+      "precision": 0.4,
+      "recall": 0.17391304347826086,
+      "coverage": 0.03773584905660377,
+      "confusion": [
+        [
+          3,
+          10,
+          1
+        ],
+        [
+          2,
+          237,
+          3
+        ],
+        [
+          0,
+          8,
+          1
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 426,
+          "tp": 41,
+          "fp": 385,
+          "precision": 0.09624413145539906,
+          "recall": 0.0431578947368421,
+          "actual": 950
+        },
+        "2": {
+          "signals": 872,
+          "tp": 90,
+          "fp": 782,
+          "precision": 0.10321100917431193,
+          "recall": 0.10989010989010989,
+          "actual": 819
+        }
+      },
+      "signals": 1298,
+      "tp": 131,
+      "fp": 1167,
+      "precision": 0.10092449922958398,
+      "recall": 0.07405313736574336,
+      "coverage": 0.04683215471207967,
+      "confusion": [
+        [
+          41,
+          870,
+          39
+        ],
+        [
+          332,
+          24872,
+          743
+        ],
+        [
+          53,
+          676,
+          90
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 8,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.25999434095110996,
+    "online_cost": 0.2619370044273445,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.0584028996527195,
+          "signals": 5,
+          "tp": 2,
+          "precision": 0.4,
+          "lower_score": 0.14270647201921308,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.03549475595355034,
+          "signals": 63,
+          "tp": 6,
+          "precision": 0.09523809523809523,
+          "lower_score": 0.05005106690399828,
+          "days": 3
+        }
+      },
+      "selection_score": 0.09637876946160567,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 2,
+          "fp": 3,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "actual": 14
+        },
+        "2": {
+          "signals": 63,
+          "tp": 6,
+          "fp": 57,
+          "precision": 0.09523809523809523,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 68,
+      "tp": 8,
+      "fp": 60,
+      "precision": 0.11764705882352941,
+      "recall": 0.34782608695652173,
+      "coverage": 0.25660377358490566,
+      "confusion": [
+        [
+          2,
+          6,
+          6
+        ],
+        [
+          3,
+          188,
+          51
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 562,
+          "tp": 106,
+          "fp": 456,
+          "precision": 0.18861209964412812,
+          "recall": 0.11157894736842106,
+          "actual": 950
+        },
+        "2": {
+          "signals": 5898,
+          "tp": 406,
+          "fp": 5492,
+          "precision": 0.0688368938623262,
+          "recall": 0.49572649572649574,
+          "actual": 819
+        }
+      },
+      "signals": 6460,
+      "tp": 512,
+      "fp": 5948,
+      "precision": 0.07925696594427245,
+      "recall": 0.28942905596382135,
+      "coverage": 0.23307836628662146,
+      "confusion": [
+        [
+          106,
+          619,
+          225
+        ],
+        [
+          400,
+          20280,
+          5267
+        ],
+        [
+          56,
+          357,
+          406
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 9,
+    "lr": 5e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.24801051176236055,
+    "online_cost": 0.2545516683351367,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.07342510670423508,
+          "signals": 5,
+          "tp": 2,
+          "precision": 0.4,
+          "lower_score": 0.14270647201921308,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.04366371035575867,
+          "signals": 63,
+          "tp": 5,
+          "precision": 0.07936507936507936,
+          "lower_score": 0.03916478015379254,
+          "days": 3
+        }
+      },
+      "selection_score": 0.09093562608650281,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 2,
+          "fp": 3,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "actual": 14
+        },
+        "2": {
+          "signals": 63,
+          "tp": 5,
+          "fp": 58,
+          "precision": 0.07936507936507936,
+          "recall": 0.5555555555555556,
+          "actual": 9
+        }
+      },
+      "signals": 68,
+      "tp": 7,
+      "fp": 61,
+      "precision": 0.10294117647058823,
+      "recall": 0.30434782608695654,
+      "coverage": 0.25660377358490566,
+      "confusion": [
+        [
+          2,
+          4,
+          8
+        ],
+        [
+          3,
+          189,
+          50
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 473,
+          "tp": 121,
+          "fp": 352,
+          "precision": 0.2558139534883721,
+          "recall": 0.12736842105263158,
+          "actual": 950
+        },
+        "2": {
+          "signals": 5692,
+          "tp": 487,
+          "fp": 5205,
+          "precision": 0.08555867884750527,
+          "recall": 0.5946275946275946,
+          "actual": 819
+        }
+      },
+      "signals": 6165,
+      "tp": 608,
+      "fp": 5557,
+      "precision": 0.0986212489862125,
+      "recall": 0.3436970039570379,
+      "coverage": 0.2224346947611488,
+      "confusion": [
+        [
+          121,
+          607,
+          222
+        ],
+        [
+          312,
+          20652,
+          4983
+        ],
+        [
+          40,
+          292,
+          487
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 10,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.22901139972976903,
+    "online_cost": 0.23799976621020458,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.10587511211633682,
+          "signals": 5,
+          "tp": 2,
+          "precision": 0.4,
+          "lower_score": 0.14270647201921308,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.03743281960487366,
+          "signals": 42,
+          "tp": 6,
+          "precision": 0.14285714285714285,
+          "lower_score": 0.07571485389887414,
+          "days": 3
+        }
+      },
+      "selection_score": 0.10921066295904361,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 2,
+          "fp": 3,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "actual": 14
+        },
+        "2": {
+          "signals": 42,
+          "tp": 6,
+          "fp": 36,
+          "precision": 0.14285714285714285,
+          "recall": 0.6666666666666666,
+          "actual": 9
+        }
+      },
+      "signals": 47,
+      "tp": 8,
+      "fp": 39,
+      "precision": 0.1702127659574468,
+      "recall": 0.34782608695652173,
+      "coverage": 0.17735849056603772,
+      "confusion": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          3,
+          208,
+          31
+        ],
+        [
+          0,
+          3,
+          6
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 503,
+          "tp": 141,
+          "fp": 362,
+          "precision": 0.2803180914512923,
+          "recall": 0.14842105263157895,
+          "actual": 950
+        },
+        "2": {
+          "signals": 4574,
+          "tp": 516,
+          "fp": 4058,
+          "precision": 0.11281154350677744,
+          "recall": 0.63003663003663,
+          "actual": 819
+        }
+      },
+      "signals": 5077,
+      "tp": 657,
+      "fp": 4420,
+      "precision": 0.12940713019499706,
+      "recall": 0.3713962690785755,
+      "coverage": 0.18317939096550728,
+      "confusion": [
+        [
+          141,
+          605,
+          204
+        ],
+        [
+          324,
+          21769,
+          3854
+        ],
+        [
+          38,
+          265,
+          516
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 11,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.21695867942549102,
+    "online_cost": 0.2284672441565039,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.12745322287082672,
+          "signals": 5,
+          "tp": 2,
+          "precision": 0.4,
+          "lower_score": 0.14270647201921308,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.038372911512851715,
+          "signals": 39,
+          "tp": 5,
+          "precision": 0.1282051282051282,
+          "lower_score": 0.06382328081106835,
+          "days": 2
+        }
+      },
+      "selection_score": 0.1032648764151407,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 2,
+          "fp": 3,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "actual": 14
+        },
+        "2": {
+          "signals": 39,
+          "tp": 5,
+          "fp": 34,
+          "precision": 0.1282051282051282,
+          "recall": 0.5555555555555556,
+          "actual": 9
+        }
+      },
+      "signals": 44,
+      "tp": 7,
+      "fp": 37,
+      "precision": 0.1590909090909091,
+      "recall": 0.30434782608695654,
+      "coverage": 0.1660377358490566,
+      "confusion": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          3,
+          210,
+          29
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 451,
+          "tp": 154,
+          "fp": 297,
+          "precision": 0.34146341463414637,
+          "recall": 0.16210526315789472,
+          "actual": 950
+        },
+        "2": {
+          "signals": 4296,
+          "tp": 568,
+          "fp": 3728,
+          "precision": 0.13221601489757914,
+          "recall": 0.6935286935286935,
+          "actual": 819
+        }
+      },
+      "signals": 4747,
+      "tp": 722,
+      "fp": 4025,
+      "precision": 0.15209606066989678,
+      "recall": 0.40814019219898245,
+      "coverage": 0.1712729109539616,
+      "confusion": [
+        [
+          154,
+          606,
+          190
+        ],
+        [
+          267,
+          22142,
+          3538
+        ],
+        [
+          30,
+          221,
+          568
+        ]
+      ]
+    }
+  },
+  {
+    "epoch": 12,
+    "lr": 2e-05,
+    "examples_seen": 27716,
+    "train_cost": 0.20800423081913177,
+    "online_cost": 0.21864261263654847,
+    "selection_policy": {
+      "rules": {
+        "0": {
+          "enabled": true,
+          "threshold": 0.15751150250434875,
+          "signals": 5,
+          "tp": 2,
+          "precision": 0.4,
+          "lower_score": 0.14270647201921308,
+          "days": 2
+        },
+        "2": {
+          "enabled": true,
+          "threshold": 0.0401383712887764,
+          "signals": 35,
+          "tp": 5,
+          "precision": 0.14285714285714285,
+          "lower_score": 0.07130870042140164,
+          "days": 2
+        }
+      },
+      "selection_score": 0.10700758622030736,
+      "min_signals": 5,
+      "min_days": 2
+    },
+    "selection_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 5,
+          "tp": 2,
+          "fp": 3,
+          "precision": 0.4,
+          "recall": 0.14285714285714285,
+          "actual": 14
+        },
+        "2": {
+          "signals": 35,
+          "tp": 5,
+          "fp": 30,
+          "precision": 0.14285714285714285,
+          "recall": 0.5555555555555556,
+          "actual": 9
+        }
+      },
+      "signals": 40,
+      "tp": 7,
+      "fp": 33,
+      "precision": 0.175,
+      "recall": 0.30434782608695654,
+      "coverage": 0.1509433962264151,
+      "confusion": [
+        [
+          2,
+          7,
+          5
+        ],
+        [
+          3,
+          214,
+          25
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ]
+    },
+    "train_policy_metrics": {
+      "per_direction": {
+        "0": {
+          "signals": 306,
+          "tp": 131,
+          "fp": 175,
+          "precision": 0.42810457516339867,
+          "recall": 0.13789473684210526,
+          "actual": 950
+        },
+        "2": {
+          "signals": 3938,
+          "tp": 585,
+          "fp": 3353,
+          "precision": 0.14855256475368206,
+          "recall": 0.7142857142857143,
+          "actual": 819
+        }
+      },
+      "signals": 4244,
+      "tp": 716,
+      "fp": 3528,
+      "precision": 0.16870876531573986,
+      "recall": 0.40474844544940647,
+      "coverage": 0.15312454899696926,
+      "confusion": [
+        [
+          131,
+          659,
+          160
+        ],
+        [
+          158,
+          22596,
+          3193
+        ],
+        [
+          17,
+          217,
+          585
+        ]
+      ]
+    }
+  }
+]

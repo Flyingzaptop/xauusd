@@ -1,0 +1,7 @@
+{
+  "stage": "calculation_complete",
+  "elapsed_seconds": 576.14,
+  "total_candles": 354340,
+  "completed_candles": 354340,
+  "total_hdf5_bytes": 22865252364
+}

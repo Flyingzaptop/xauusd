@@ -1,0 +1,184 @@
+{"phase": "download", "files": 222, "rows": 3505124, "feature_count": 48, "bytes": 74701202688, "seconds": 4.2, "available_RAM_GB": 176.2}
+{"phase": "download", "done": 1, "total": 222, "seconds": 5.4, "available_RAM_GB": 176.2}
+{"phase": "download", "done": 11, "total": 222, "seconds": 6.9, "available_RAM_GB": 176.1}
+{"phase": "download", "done": 21, "total": 222, "seconds": 9.7, "available_RAM_GB": 176.1}
+{"phase": "download", "done": 31, "total": 222, "seconds": 11.8, "available_RAM_GB": 176.1}
+{"phase": "download", "done": 41, "total": 222, "seconds": 14.6, "available_RAM_GB": 176.1}
+{"phase": "download", "done": 51, "total": 222, "seconds": 17.1, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 61, "total": 222, "seconds": 18.7, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 71, "total": 222, "seconds": 22.7, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 81, "total": 222, "seconds": 25.3, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 91, "total": 222, "seconds": 27.5, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 101, "total": 222, "seconds": 31.0, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 111, "total": 222, "seconds": 33.1, "available_RAM_GB": 176.0}
+{"phase": "download", "done": 121, "total": 222, "seconds": 35.4, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 131, "total": 222, "seconds": 37.4, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 141, "total": 222, "seconds": 38.8, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 151, "total": 222, "seconds": 40.9, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 161, "total": 222, "seconds": 43.3, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 171, "total": 222, "seconds": 45.5, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 181, "total": 222, "seconds": 47.2, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 191, "total": 222, "seconds": 50.4, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 201, "total": 222, "seconds": 53.6, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 211, "total": 222, "seconds": 55.6, "available_RAM_GB": 175.9}
+{"phase": "download", "done": 221, "total": 222, "seconds": 58.3, "available_RAM_GB": 175.9}
+{"phase": "features", "done": 1, "total": 222, "symbol": "ACUITY_BRANDS_21880.parquet", "seconds": 81.2, "available_RAM_GB": 171.6}
+{"phase": "features", "done": 2, "total": 222, "symbol": "ABBVIE_20143.parquet", "seconds": 81.2, "available_RAM_GB": 171.6}
+{"phase": "features", "done": 3, "total": 222, "symbol": "ABERCROMBIE_21707.parquet", "seconds": 81.2, "available_RAM_GB": 171.6}
+{"phase": "features", "done": 4, "total": 222, "symbol": "ABBOTT_21706.parquet", "seconds": 81.2, "available_RAM_GB": 171.6}
+{"phase": "features", "done": 5, "total": 222, "symbol": "AGCO_21886.parquet", "seconds": 102.4, "available_RAM_GB": 169.5}
+{"phase": "features", "done": 6, "total": 222, "symbol": "AES_21883.parquet", "seconds": 102.4, "available_RAM_GB": 169.5}
+{"phase": "features", "done": 7, "total": 222, "symbol": "AIG_21544.parquet", "seconds": 102.4, "available_RAM_GB": 169.5}
+{"phase": "features", "done": 8, "total": 222, "symbol": "AECOM_21714.parquet", "seconds": 102.4, "available_RAM_GB": 169.5}
+{"phase": "features", "done": 9, "total": 222, "symbol": "ALIBABA_22307.parquet", "seconds": 123.5, "available_RAM_GB": 167.7}
+{"phase": "features", "done": 10, "total": 222, "symbol": "ALLEGHENY_TECHNOLOGIES_21894.parquet", "seconds": 123.5, "available_RAM_GB": 167.7}
+{"phase": "features", "done": 11, "total": 222, "symbol": "ALCOA_20476.parquet", "seconds": 123.5, "available_RAM_GB": 167.7}
+{"phase": "features", "done": 12, "total": 222, "symbol": "ALASKA_AIR_21893.parquet", "seconds": 123.5, "available_RAM_GB": 167.7}
+{"phase": "features", "done": 13, "total": 222, "symbol": "ALLY_FINANCIAL_21898.parquet", "seconds": 144.4, "available_RAM_GB": 165.9}
+{"phase": "features", "done": 14, "total": 222, "symbol": "AMPHENOL_21905.parquet", "seconds": 144.4, "available_RAM_GB": 165.9}
+{"phase": "features", "done": 15, "total": 222, "symbol": "AMERICAN_TOWER_21904.parquet", "seconds": 144.4, "available_RAM_GB": 165.9}
+{"phase": "features", "done": 16, "total": 222, "symbol": "ALLISON_TRANSMISSION_21897.parquet", "seconds": 144.4, "available_RAM_GB": 165.9}
+{"phase": "features", "done": 17, "total": 222, "symbol": "APPLE_21508.parquet", "seconds": 162.2, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 18, "total": 222, "symbol": "AUDJPY_11.parquet", "seconds": 168.2, "available_RAM_GB": 163.0}
+{"phase": "features", "done": 19, "total": 222, "symbol": "AUDCHF_23.parquet", "seconds": 168.2, "available_RAM_GB": 163.0}
+{"phase": "features", "done": 20, "total": 222, "symbol": "AUDCAD_18.parquet", "seconds": 168.2, "available_RAM_GB": 163.0}
+{"phase": "features", "done": 21, "total": 222, "symbol": "AUDNZD_67.parquet", "seconds": 186.1, "available_RAM_GB": 156.7}
+{"phase": "features", "done": 22, "total": 222, "symbol": "AUDUSD_5.parquet", "seconds": 191.3, "available_RAM_GB": 161.9}
+{"phase": "features", "done": 23, "total": 222, "symbol": "AUDZAR_22316.parquet", "seconds": 191.3, "available_RAM_GB": 161.9}
+{"phase": "features", "done": 24, "total": 222, "symbol": "AUDSGD_22315.parquet", "seconds": 191.3, "available_RAM_GB": 161.9}
+{"phase": "features", "done": 25, "total": 222, "symbol": "BANK_OF_AMERICA_20488.parquet", "seconds": 209.0, "available_RAM_GB": 159.8}
+{"phase": "features", "done": 26, "total": 222, "symbol": "BANK_OF_EAST_ASIA_21645.parquet", "seconds": 209.0, "available_RAM_GB": 159.8}
+{"phase": "features", "done": 27, "total": 222, "symbol": "AUSTRALIA_200_21498.parquet", "seconds": 209.0, "available_RAM_GB": 159.8}
+{"phase": "features", "done": 28, "total": 222, "symbol": "BANCORP_21906.parquet", "seconds": 210.7, "available_RAM_GB": 161.6}
+{"phase": "features", "done": 29, "total": 222, "symbol": "BOEING_21512.parquet", "seconds": 228.6, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 30, "total": 222, "symbol": "BEST_BUY_20102.parquet", "seconds": 228.6, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 31, "total": 222, "symbol": "BECHTLE_22025.parquet", "seconds": 228.6, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 32, "total": 222, "symbol": "BTCEUR_22396.parquet", "seconds": 232.8, "available_RAM_GB": 160.3}
+{"phase": "features", "done": 33, "total": 222, "symbol": "CADCHF_27.parquet", "seconds": 252.2, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 34, "total": 222, "symbol": "CADJPY_15.parquet", "seconds": 252.2, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 35, "total": 222, "symbol": "BTCUSD_22395.parquet", "seconds": 252.2, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 36, "total": 222, "symbol": "CADMXN_22319.parquet", "seconds": 255.3, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 37, "total": 222, "symbol": "CATERPILLAR_20418.parquet", "seconds": 271.6, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 38, "total": 222, "symbol": "CARLISLE_21919.parquet", "seconds": 271.6, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 39, "total": 222, "symbol": "CANCOM_22029.parquet", "seconds": 271.6, "available_RAM_GB": 159.9}
+{"phase": "features", "done": 40, "total": 222, "symbol": "CHEUNG_KONG_PROPERTY_22231.parquet", "seconds": 273.8, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 41, "total": 222, "symbol": "CHEVRON_20451.parquet", "seconds": 290.6, "available_RAM_GB": 157.9}
+{"phase": "features", "done": 42, "total": 222, "symbol": "CHINA_MERCHANTS_HLDGS_INTL_22232.parquet", "seconds": 290.6, "available_RAM_GB": 157.9}
+{"phase": "features", "done": 43, "total": 222, "symbol": "CHFJPY_13.parquet", "seconds": 294.6, "available_RAM_GB": 161.3}
+{"phase": "features", "done": 44, "total": 222, "symbol": "CHFSGD_22326.parquet", "seconds": 294.6, "available_RAM_GB": 161.3}
+{"phase": "features", "done": 45, "total": 222, "symbol": "CHINA_OVERSEAS_LAND___INVEST_22233.parquet", "seconds": 309.6, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 46, "total": 222, "symbol": "CHINA_OVERSEAS_PROPERTY_HOLD_22234.parquet", "seconds": 309.6, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 47, "total": 222, "symbol": "CHINA_RESOURCES_BEER_22235.parquet", "seconds": 313.2, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 48, "total": 222, "symbol": "CHINA_RESOURCES_POWER_22237.parquet", "seconds": 313.2, "available_RAM_GB": 161.2}
+{"phase": "features", "done": 49, "total": 222, "symbol": "CITIC_21647.parquet", "seconds": 327.2, "available_RAM_GB": 156.3}
+{"phase": "features", "done": 50, "total": 222, "symbol": "CHRISTIAN_DIOR_20945.parquet", "seconds": 329.1, "available_RAM_GB": 156.9}
+{"phase": "features", "done": 51, "total": 222, "symbol": "CITIGROUP_20598.parquet", "seconds": 332.1, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 52, "total": 222, "symbol": "CITIZENS_FINANCIAL_21727.parquet", "seconds": 332.1, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 53, "total": 222, "symbol": "CLP_21603.parquet", "seconds": 347.8, "available_RAM_GB": 157.7}
+{"phase": "features", "done": 54, "total": 222, "symbol": "CK_HUTCHISON_21679.parquet", "seconds": 347.8, "available_RAM_GB": 157.6}
+{"phase": "features", "done": 55, "total": 222, "symbol": "COCA-COLA_21513.parquet", "seconds": 351.4, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 56, "total": 222, "symbol": "COLGATE-PALMOLIVE_21728.parquet", "seconds": 351.4, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 57, "total": 222, "symbol": "COTY_21925.parquet", "seconds": 367.0, "available_RAM_GB": 157.7}
+{"phase": "features", "done": 58, "total": 222, "symbol": "CROWN_HOLDINGS_21926.parquet", "seconds": 367.0, "available_RAM_GB": 157.7}
+{"phase": "features", "done": 59, "total": 222, "symbol": "DELTA_AIR_LINES_21927.parquet", "seconds": 370.8, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 60, "total": 222, "symbol": "DEVON_ENERGY_20412.parquet", "seconds": 370.8, "available_RAM_GB": 161.0}
+{"phase": "features", "done": 61, "total": 222, "symbol": "EAGLE_MATERIALS_21734.parquet", "seconds": 386.8, "available_RAM_GB": 157.2}
+{"phase": "features", "done": 62, "total": 222, "symbol": "ECOLAB_21932.parquet", "seconds": 386.8, "available_RAM_GB": 157.2}
+{"phase": "features", "done": 63, "total": 222, "symbol": "EDISON_21933.parquet", "seconds": 390.3, "available_RAM_GB": 160.7}
+{"phase": "features", "done": 64, "total": 222, "symbol": "ETHEUR_22398.parquet", "seconds": 390.3, "available_RAM_GB": 160.7}
+{"phase": "features", "done": 65, "total": 222, "symbol": "ETHUSD_22397.parquet", "seconds": 407.1, "available_RAM_GB": 157.4}
+{"phase": "features", "done": 66, "total": 222, "symbol": "EURAUD_14.parquet", "seconds": 409.8, "available_RAM_GB": 157.2}
+{"phase": "features", "done": 67, "total": 222, "symbol": "EURCAD_17.parquet", "seconds": 413.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 68, "total": 222, "symbol": "EURCHF_10.parquet", "seconds": 413.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 69, "total": 222, "symbol": "EURCNH_22330.parquet", "seconds": 429.3, "available_RAM_GB": 156.3}
+{"phase": "features", "done": 70, "total": 222, "symbol": "EURDKK_54.parquet", "seconds": 432.4, "available_RAM_GB": 158.8}
+{"phase": "features", "done": 71, "total": 222, "symbol": "EURCZK_63.parquet", "seconds": 432.4, "available_RAM_GB": 158.8}
+{"phase": "features", "done": 72, "total": 222, "symbol": "EURGBP_9.parquet", "seconds": 435.1, "available_RAM_GB": 160.1}
+{"phase": "features", "done": 73, "total": 222, "symbol": "EURHUF_55.parquet", "seconds": 453.4, "available_RAM_GB": 157.4}
+{"phase": "features", "done": 74, "total": 222, "symbol": "EURHKD_58.parquet", "seconds": 453.4, "available_RAM_GB": 157.4}
+{"phase": "features", "done": 75, "total": 222, "symbol": "EURJPY_3.parquet", "seconds": 455.1, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 76, "total": 222, "symbol": "EURMXN_53.parquet", "seconds": 457.7, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 77, "total": 222, "symbol": "EUROPE_50_21577.parquet", "seconds": 477.2, "available_RAM_GB": 159.1}
+{"phase": "features", "done": 78, "total": 222, "symbol": "EURNZD_66.parquet", "seconds": 477.2, "available_RAM_GB": 159.1}
+{"phase": "features", "done": 79, "total": 222, "symbol": "EURNOK_57.parquet", "seconds": 477.2, "available_RAM_GB": 159.1}
+{"phase": "features", "done": 80, "total": 222, "symbol": "EURPLN_51.parquet", "seconds": 479.8, "available_RAM_GB": 159.8}
+{"phase": "features", "done": 81, "total": 222, "symbol": "EURTRY_68.parquet", "seconds": 500.2, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 82, "total": 222, "symbol": "EURSEK_47.parquet", "seconds": 500.2, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 83, "total": 222, "symbol": "EURSGD_22333.parquet", "seconds": 500.2, "available_RAM_GB": 158.5}
+{"phase": "features", "done": 84, "total": 222, "symbol": "EURUSD_1.parquet", "seconds": 501.9, "available_RAM_GB": 160.1}
+{"phase": "features", "done": 85, "total": 222, "symbol": "EUTELSAT_COMMUNICATIONS_22015.parquet", "seconds": 520.2, "available_RAM_GB": 159.0}
+{"phase": "features", "done": 86, "total": 222, "symbol": "EXXON_21514.parquet", "seconds": 520.2, "available_RAM_GB": 159.0}
+{"phase": "features", "done": 87, "total": 222, "symbol": "FEDEX_21738.parquet", "seconds": 520.2, "available_RAM_GB": 159.0}
+{"phase": "features", "done": 88, "total": 222, "symbol": "EURZAR_62.parquet", "seconds": 522.8, "available_RAM_GB": 160.2}
+{"phase": "features", "done": 89, "total": 222, "symbol": "FRANKLIN_RESOURCES_21740.parquet", "seconds": 538.0, "available_RAM_GB": 157.1}
+{"phase": "features", "done": 90, "total": 222, "symbol": "FORD_MOTOR_21739.parquet", "seconds": 538.0, "available_RAM_GB": 157.1}
+{"phase": "features", "done": 91, "total": 222, "symbol": "GALAXY_ENTERTAINMENT_21652.parquet", "seconds": 542.2, "available_RAM_GB": 160.2}
+{"phase": "features", "done": 92, "total": 222, "symbol": "FRANCE_40_21503.parquet", "seconds": 542.2, "available_RAM_GB": 160.2}
+{"phase": "features", "done": 93, "total": 222, "symbol": "GBPCAD_19.parquet", "seconds": 561.2, "available_RAM_GB": 156.4}
+{"phase": "features", "done": 94, "total": 222, "symbol": "GBPAUD_16.parquet", "seconds": 561.2, "available_RAM_GB": 156.4}
+{"phase": "features", "done": 95, "total": 222, "symbol": "GBPCHF_40.parquet", "seconds": 564.2, "available_RAM_GB": 160.0}
+{"phase": "features", "done": 96, "total": 222, "symbol": "GBPDKK_22334.parquet", "seconds": 564.2, "available_RAM_GB": 160.0}
+{"phase": "features", "done": 97, "total": 222, "symbol": "GBPNOK_59.parquet", "seconds": 587.1, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 98, "total": 222, "symbol": "GBPNZD_25.parquet", "seconds": 587.1, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 99, "total": 222, "symbol": "GBPSEK_10093.parquet", "seconds": 587.1, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 100, "total": 222, "symbol": "GBPJPY_7.parquet", "seconds": 587.1, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 101, "total": 222, "symbol": "GBPZAR_48.parquet", "seconds": 610.5, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 102, "total": 222, "symbol": "GBPTRY_22335.parquet", "seconds": 610.5, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 103, "total": 222, "symbol": "GBPUSD_2.parquet", "seconds": 610.5, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 104, "total": 222, "symbol": "GBPSGD_74.parquet", "seconds": 610.5, "available_RAM_GB": 160.8}
+{"phase": "features", "done": 105, "total": 222, "symbol": "GENERAL_MOTORS_21522.parquet", "seconds": 629.1, "available_RAM_GB": 158.8}
+{"phase": "features", "done": 106, "total": 222, "symbol": "GLOBAL_PAYMENTS_20210.parquet", "seconds": 629.1, "available_RAM_GB": 158.8}
+{"phase": "features", "done": 107, "total": 222, "symbol": "GENERAC_HOLDINGS_20589.parquet", "seconds": 629.1, "available_RAM_GB": 158.8}
+{"phase": "features", "done": 108, "total": 222, "symbol": "GERMANY_40_21502.parquet", "seconds": 630.7, "available_RAM_GB": 160.1}
+{"phase": "features", "done": 109, "total": 222, "symbol": "GRIFOLS_22055.parquet", "seconds": 649.8, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 110, "total": 222, "symbol": "HANG_LUNG_PROPERTIES_22238.parquet", "seconds": 649.8, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 111, "total": 222, "symbol": "GRACO_21941.parquet", "seconds": 649.8, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 112, "total": 222, "symbol": "GOLDMAN_SACHS_21524.parquet", "seconds": 649.8, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 113, "total": 222, "symbol": "HOME_DEPOT_21526.parquet", "seconds": 666.4, "available_RAM_GB": 156.9}
+{"phase": "features", "done": 114, "total": 222, "symbol": "HONG_KONG___CHINA_GAS_22239.parquet", "seconds": 666.4, "available_RAM_GB": 156.9}
+{"phase": "features", "done": 115, "total": 222, "symbol": "HONG_KONG_50_21497.parquet", "seconds": 669.2, "available_RAM_GB": 160.2}
+{"phase": "features", "done": 116, "total": 222, "symbol": "HILTON_21746.parquet", "seconds": 669.2, "available_RAM_GB": 160.2}
+{"phase": "features", "done": 117, "total": 222, "symbol": "HYATT_21747.parquet", "seconds": 688.2, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 118, "total": 222, "symbol": "IBOXX_USD_HIGH_YIELD_22385.parquet", "seconds": 688.2, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 119, "total": 222, "symbol": "IBM_21543.parquet", "seconds": 688.2, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 120, "total": 222, "symbol": "HP_21525.parquet", "seconds": 688.2, "available_RAM_GB": 160.6}
+{"phase": "features", "done": 121, "total": 222, "symbol": "ITALY_40_21644.parquet", "seconds": 708.0, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 122, "total": 222, "symbol": "INFINEON_21833.parquet", "seconds": 708.0, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 123, "total": 222, "symbol": "IRON_MOUNTAIN_21951.parquet", "seconds": 708.0, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 124, "total": 222, "symbol": "INVESCO_21949.parquet", "seconds": 708.0, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 125, "total": 222, "symbol": "JAPAN_225_21507.parquet", "seconds": 727.3, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 126, "total": 222, "symbol": "KINDER_MORGAN_21755.parquet", "seconds": 727.3, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 127, "total": 222, "symbol": "KIRBY_21756.parquet", "seconds": 727.3, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 128, "total": 222, "symbol": "KIMCO_REALTY_21954.parquet", "seconds": 727.3, "available_RAM_GB": 160.5}
+{"phase": "features", "done": 129, "total": 222, "symbol": "LENNOX_21955.parquet", "seconds": 746.4, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 130, "total": 222, "symbol": "LINDT_21565.parquet", "seconds": 746.4, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 131, "total": 222, "symbol": "LAGARDERE_22018.parquet", "seconds": 746.4, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 132, "total": 222, "symbol": "KUNLUN_ENERGY_21649.parquet", "seconds": 746.4, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 133, "total": 222, "symbol": "MASTERCARD_21510.parquet", "seconds": 766.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 134, "total": 222, "symbol": "LOEWS_21957.parquet", "seconds": 766.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 135, "total": 222, "symbol": "LOUISIANA-PACIFIC_21958.parquet", "seconds": 766.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 136, "total": 222, "symbol": "LINK_REIT_22242.parquet", "seconds": 766.1, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 137, "total": 222, "symbol": "MC_DONALDS_21509.parquet", "seconds": 785.6, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 138, "total": 222, "symbol": "METLIFE_21763.parquet", "seconds": 785.6, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 139, "total": 222, "symbol": "MGM_21764.parquet", "seconds": 785.6, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 140, "total": 222, "symbol": "MEDIASET_21626.parquet", "seconds": 785.6, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 141, "total": 222, "symbol": "MOTOROLA_21767.parquet", "seconds": 805.2, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 142, "total": 222, "symbol": "MOSAIC_21766.parquet", "seconds": 805.2, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 143, "total": 222, "symbol": "MOODYS_21765.parquet", "seconds": 805.2, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 144, "total": 222, "symbol": "MOHAWK_INDUSTRIES_21960.parquet", "seconds": 805.2, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 145, "total": 222, "symbol": "MSCI_MALAYSIA_21696.parquet", "seconds": 824.7, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 146, "total": 222, "symbol": "MSCI_SOUTH_KOREA_21700.parquet", "seconds": 824.7, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 147, "total": 222, "symbol": "MSCI_TAIWAN_21702.parquet", "seconds": 824.7, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 148, "total": 222, "symbol": "MSCI_BRAZIL_21687.parquet", "seconds": 824.7, "available_RAM_GB": 160.4}
+{"phase": "features", "done": 149, "total": 222, "symbol": "NEW_WORLD_DEV_21653.parquet", "seconds": 841.7, "available_RAM_GB": 156.1}
+{"phase": "features", "done": 150, "total": 222, "symbol": "MTR_22243.parquet", "seconds": 841.7, "available_RAM_GB": 156.1}
+{"phase": "features", "done": 151, "total": 222, "symbol": "NETHERLANDS_25_21505.parquet", "seconds": 843.4, "available_RAM_GB": 157.7}
+{"phase": "features", "done": 152, "total": 222, "symbol": "NAT.GAS_22344.parquet", "seconds": 845.2, "available_RAM_GB": 159.7}
+{"phase": "features", "done": 153, "total": 222, "symbol": "NEW_YORK_TIMES_21769.parquet", "seconds": 862.6, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 154, "total": 222, "symbol": "NIPPON_YUSEN_22280.parquet", "seconds": 862.6, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 155, "total": 222, "symbol": "NIKE_21516.parquet", "seconds": 862.6, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 156, "total": 222, "symbol": "NOKJPY_22337.parquet", "seconds": 867.5, "available_RAM_GB": 158.6}
+{"phase": "features", "done": 157, "total": 222, "symbol": "NZDCHF_50.parquet", "seconds": 885.8, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 158, "total": 222, "symbol": "NZDCAD_61.parquet", "seconds": 885.8, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 159, "total": 222, "symbol": "NOKSEK_22338.parquet", "seconds": 885.8, "available_RAM_GB": 159.2}
+{"phase": "features", "done": 160, "total": 222, "symbol": "NZDJPY_70.parquet", "seconds": 889.7, "available_RAM_GB": 158.9}

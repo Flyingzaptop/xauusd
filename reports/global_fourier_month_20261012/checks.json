@@ -1,0 +1,13 @@
+{
+  "synthetic_three_harmonic_max_error_usd": 2.2737367544323206e-13,
+  "candle_clock_10_direct_cosine_max_error_usd": 6.821210263296962e-13,
+  "candle_clock_50_direct_cosine_max_error_usd": 4.547473508864641e-13,
+  "candle_clock_100_direct_cosine_max_error_usd": 6.821210263296962e-13,
+  "candle_clock_500_direct_cosine_max_error_usd": 2.2737367544323206e-12,
+  "candle_clock_1000_direct_cosine_max_error_usd": 2.5011104298755527e-12,
+  "candle_clock_future_mutation_forecast_unchanged": true,
+  "candle_clock_continuation_equals_first_period": true,
+  "candle_clock_affine_normalization_max_difference_usd": 4.547473508864641e-13,
+  "candle_clock_training_grid_mse_nonincreasing": true,
+  "full_fft_train_max_error_usd": 0.0
+}

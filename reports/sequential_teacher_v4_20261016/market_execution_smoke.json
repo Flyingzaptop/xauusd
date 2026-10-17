@@ -1,0 +1,249 @@
+{
+  "complete": true,
+  "not_a_profitability_test": true,
+  "results": [
+    {
+      "date": "2022-02-28",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-01",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-02",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-03",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-04",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-07",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-08",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-10",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    },
+    {
+      "date": "2022-03-11",
+      "missing_quotes": 0,
+      "policies": {
+        "always_long": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "always_short": {
+          "scorable": true,
+          "trades": 5,
+          "minimum_duration": 120,
+          "maximum_duration": 120,
+          "all_exits_within_window": true
+        },
+        "wait": {
+          "scorable": true,
+          "trades": 0,
+          "minimum_duration": null,
+          "maximum_duration": null,
+          "all_exits_within_window": true
+        }
+      }
+    }
+  ]
+}

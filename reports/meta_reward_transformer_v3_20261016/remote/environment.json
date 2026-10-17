@@ -1,0 +1,8 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "vram_bytes": 85094825984,
+  "RAM_bytes": 179370467328,
+  "CPU": 12,
+  "torch": "2.11.0+cu130",
+  "execution_mode": "foreground kernel waits for full supervisor job"
+}

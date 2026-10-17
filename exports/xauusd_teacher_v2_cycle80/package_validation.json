@@ -1,0 +1,12 @@
+{
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "fixture_type": "synthetic for reproducible inference only",
+  "checkpoint_cycle": 80,
+  "outputs": [
+    [
+      0.48250648379325867,
+      0.41966164112091064
+    ]
+  ]
+}

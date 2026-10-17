@@ -1,0 +1,30 @@
+{
+  "best_teacher.pt": {
+    "bytes": 67256261,
+    "zip_crc_ok": true
+  },
+  "initial_teacher.pt": {
+    "bytes": 22411875,
+    "zip_crc_ok": true
+  },
+  "latest_teacher.pt": {
+    "bytes": 67257409,
+    "zip_crc_ok": true
+  },
+  "resume_state.pt": {
+    "bytes": 288351949,
+    "zip_crc_ok": true
+  },
+  "student_0.pt": {
+    "bytes": 67038859,
+    "zip_crc_ok": true
+  },
+  "student_1.pt": {
+    "bytes": 67038859,
+    "zip_crc_ok": true
+  },
+  "student_2.pt": {
+    "bytes": 67038859,
+    "zip_crc_ok": true
+  }
+}

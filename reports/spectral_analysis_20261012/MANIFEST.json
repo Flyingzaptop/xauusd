@@ -1,0 +1,344 @@
+{
+  "files": [
+    {
+      "file": "experiments/spectral_analysis/README.md",
+      "bytes": 2693,
+      "sha256": "fb43be639b186f1546d2f65bce3b7480d07473c208572b982b209a10f30fbff6"
+    },
+    {
+      "file": "experiments/spectral_analysis/analyze.py",
+      "bytes": 14947,
+      "sha256": "e0e4c316c17aab82b62cfe666c5a8f257bb870d04eeaf5c2dbc5a27c7ad1b648"
+    },
+    {
+      "file": "experiments/spectral_analysis/candidate_fade.py",
+      "bytes": 1781,
+      "sha256": "ac64c44d1bcc3733df9c7e47d7f8b2881bb86baf9aff54b1cdbf4d5834769a5c"
+    },
+    {
+      "file": "experiments/spectral_analysis/descriptive_followup.py",
+      "bytes": 4525,
+      "sha256": "49872b5e16c71444f4b7d95eb0dbb2723c72d020542259ca76c8317a72430757"
+    },
+    {
+      "file": "experiments/spectral_analysis/events_only.py",
+      "bytes": 561,
+      "sha256": "8e5cfcfebacd7dd6e930db55f3d9956227a838139048c59f404b0713e31dd086"
+    },
+    {
+      "file": "experiments/spectral_analysis/extract.py",
+      "bytes": 5852,
+      "sha256": "a2288801f089d33a07a10b22de36356113cfc999871f6423087be9ffdb619e6c"
+    },
+    {
+      "file": "experiments/spectral_analysis/finalize.py",
+      "bytes": 1313,
+      "sha256": "249d618205d0fe0f4b36ff4bf98d49ccda7956e9557d08b6bceaf8b51d358ed3"
+    },
+    {
+      "file": "experiments/spectral_analysis/nonlinear.py",
+      "bytes": 4012,
+      "sha256": "adbb665c02cdfb6aa06d78e8780045d25d04f22a90ee786a7c9ca46f387f3fe8"
+    },
+    {
+      "file": "experiments/spectral_analysis/phase_controls.py",
+      "bytes": 2637,
+      "sha256": "23ac77814e3a82ee4c6535aee59806fe56b3881f8dd74534231f81310f027164"
+    },
+    {
+      "file": "experiments/spectral_analysis/requirements.txt",
+      "bytes": 60,
+      "sha256": "d2ce15c256012389bc50111dc6de19fd5eee9ecff64b30106c5a560735ed7fd0"
+    },
+    {
+      "file": "experiments/spectral_analysis/robustness.py",
+      "bytes": 6705,
+      "sha256": "10c33cedc5a9e08925e94453a01d1195d5f1baac52d63447958c1c3c334a1449"
+    },
+    {
+      "file": "experiments/spectral_analysis/write_report.py",
+      "bytes": 27396,
+      "sha256": "33bdad71ace0d0a3215121df3464c21030b728d3c786458bf536c5bda8721e99"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/PROTOCOL.md",
+      "bytes": 3944,
+      "sha256": "ee993230c7e3a8cc9c58da4aaecf77b6fe4dda95981944624681ab3c404c6fa1"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/READY.json",
+      "bytes": 336,
+      "sha256": "48260401c03a1927ff5dc0e64aabc819f2127fbd168e737d253b549e74d02395"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/REPORT_RU.md",
+      "bytes": 24036,
+      "sha256": "0d5b3a88c49572c2ded063be89bc2fd7f07d2a0cdbeb0bd8eeeced759b1f1fba"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/activity_prediction.json",
+      "bytes": 3149,
+      "sha256": "00dcfabc44bc4a29748d9b315f2adcd0cf9c8ff4c94a0c26fc90be6051c988a3"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/all_component_correlations.csv",
+      "bytes": 4909390,
+      "sha256": "d0349bef3a8405c2703fd69c4e0fd8f9b8a0375739afd07950ddb91e3a012b92"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/analysis.log",
+      "bytes": 234,
+      "sha256": "c1dbb3be80d4cb78cc20b24dd8c228276daed394119aaba76ee07cbbc839bafd"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/analysis_checks.json",
+      "bytes": 588,
+      "sha256": "b3789e72885e85258f2d7bcd70d81b25eb49c320f0d6754fcfb68754093ed4b0"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/analysis_complete.json",
+      "bytes": 124,
+      "sha256": "1d684434d1f18539da50d64116c7fe41ef96fcb44520baa4809a445b970d6bb9"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/candidate_fade.json",
+      "bytes": 6300,
+      "sha256": "b7e52ce66d226573d6f74f112d4d2778c5109bc1aa4b0d069cc9b731080fc5fd"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/candidate_fade_signals.npz",
+      "bytes": 3534,
+      "sha256": "bdecc7e92cf19cca2fa27255dc71ac5253d761eda3679e6799af520526dbe2e5"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/clock_activity.json",
+      "bytes": 13989,
+      "sha256": "5df711e9df20f499782cf53b6733df42f1fabf3b9c920d4b198e4017a9e742ec"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/component_discovery_leaders.json",
+      "bytes": 21075,
+      "sha256": "dd02dd4b1c47f87286369b8f1b8f22f3bd9fbd28049c823b4d244234da7c2804"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/counts.json",
+      "bytes": 347,
+      "sha256": "d4a8848945c8540a6efbe4e6bcb262ddfedcea40d639d9226d71d348254e72ed"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/dependencies.log",
+      "bytes": 1638,
+      "sha256": "ed668ac3523bc9f3acdbaa7278b044f11062467ff4b5fec99f1e976a2772dde7"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/descriptive_followup.log",
+      "bytes": 9,
+      "sha256": "a4bccf5c13ef5ff8311e59b34d492bc7072a55298723601a6a9c127053aee8fc"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/energy_activity.json",
+      "bytes": 31900,
+      "sha256": "3d943a47fc080a419b78c9a3a57fefe06b7ace7e3b950651e87a6a2b4f4a9cfa"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/extraction.log",
+      "bytes": 860,
+      "sha256": "4e48c23e58f7e5520dd0081dd1822e575577b01d357c98f409552ee77fb94b51"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/features.json",
+      "bytes": 90472,
+      "sha256": "97c1ff350b0c45f94ecc055d7558cb9ad760e2ce63eddb1c6f8e6db0769b1c3d"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/full_component_moments.npz",
+      "bytes": 1918796,
+      "sha256": "c3a2f8979fd27e6389bed949d70a31712fb262d6be1b3539e107856bd7969add"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/gap_inclusive_trading.json",
+      "bytes": 11308,
+      "sha256": "97ab095ba630de95d4bc62d03aad0979932a5cc3b1e5becb779d5d0e2c98b841"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/hgb_price_only_direction.joblib",
+      "bytes": 43614,
+      "sha256": "d5211ee9b24ca9edf26514829b97e1c1f30ad04abb1e9d217cfb8134cfdb8843"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/hgb_price_only_log_rv.joblib",
+      "bytes": 104951,
+      "sha256": "9b84ea7e7a402a8586f3c24bbd3178b22acf60a9773339349a41b3a1162821fd"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/hgb_price_plus_spectral_dynamics_direction.joblib",
+      "bytes": 1082177,
+      "sha256": "6a942bf3df6b7ab708f0986a8ed420d983775b57e8883a1732bd6c28134c653a"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/hgb_price_plus_spectral_dynamics_log_rv.joblib",
+      "bytes": 1133150,
+      "sha256": "cd7f2d21c80c0d1dc1617e60baac6cbc47a2ea18f6d4c417574b085a0f6c5f26"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/market.npz",
+      "bytes": 28442398,
+      "sha256": "650a273034f6210e8ca78b54637d94ceac4f73d30889d5911407245ca5594fb1"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/models.json",
+      "bytes": 18092,
+      "sha256": "b1e9604d2f505f017981c598ebc2c7f3a74ed30a18939e791dcd8b0782f90fcb"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonlinear.log",
+      "bytes": 386,
+      "sha256": "2bb76885e2f291608c5fb6d6ee59917206b71d4f78b4231ebcde86d5ebc7ad0b"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonlinear_models.json",
+      "bytes": 2954,
+      "sha256": "1d55db7d0294d1fd10790da44e718c389265847463422cd8956a14d55a09d9f4"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonlinear_paired_comparison.json",
+      "bytes": 589,
+      "sha256": "2e9393a95bf3b76472ebdaf3d18cac81635624e41b10dafc6a68ca82a94f67a3"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonlinear_predictions.npz",
+      "bytes": 5596361,
+      "sha256": "8b8c9239748d86e5408c260e58626aacb44d7e17678d15b3ecae15bf4c1b75fc"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonlinear_trading.json",
+      "bytes": 7006,
+      "sha256": "18c34917562a7ab4d2300a84d9369257c2e92ef9d4d92deaf31d40dde60d6fff"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/nonoverlap_direction.json",
+      "bytes": 5236,
+      "sha256": "ef98362952a1d474c933281653dca3fe8f61382537de673e6d2fdb34fe025c70"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/paired_model_comparisons.json",
+      "bytes": 5985,
+      "sha256": "ebbd7158cfda8e51b9734f81eee779a901fb61210b5578684b9d0f4c2837d669"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/phase_controls.json",
+      "bytes": 8482,
+      "sha256": "1bfadf8203c65d462ff70f1af8fdef10e561ff99fdca77fae92f02d58166a58e"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/phase_controls.log",
+      "bytes": 189,
+      "sha256": "b02ebced6cdee778eac90481f0ffe05c0f05add67ea46750271db0daf9fd6998"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/predictions.npz",
+      "bytes": 47378964,
+      "sha256": "95d3e9ab35d7a2033e0fac9dd4faaeb978f79a80b3eb4bfa27cdc157a8afc31d"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/retracement_geometry.json",
+      "bytes": 3644,
+      "sha256": "b7760b84f8818100712a28796d03b9c41a98e6242d908fa4312564035150dccb"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/robustness.log",
+      "bytes": 9,
+      "sha256": "a4bccf5c13ef5ff8311e59b34d492bc7072a55298723601a6a9c127053aee8fc"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/rule_candidates_validation.json",
+      "bytes": 107694,
+      "sha256": "5ce02cea391b1eb58cb3ea9615ba46b5baf625db36495f672951f6a5530282b3"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/selected_rules.json",
+      "bytes": 17284,
+      "sha256": "a6192e33a8c4ca55bdd6ddf0af4c47e8b931d756a46bd0da3bc37c8bf04c0704"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/shock_events.csv",
+      "bytes": 334492,
+      "sha256": "682d428da38a2cbeaf9dc548ac7cba1c87b59404b7aed5f73166233c29185f70"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/shock_events.npz",
+      "bytes": 98412,
+      "sha256": "79630d39cf625a7f17d6203d973fdc3af8830cf7ca6b55a3dee3ed75ddec08b1"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/shock_reactions.json",
+      "bytes": 5037,
+      "sha256": "db7ce7b4b50029f967ac066b6e2e866281587d156dcee93f2cb1608e9d4d161a"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/shock_robustness.json",
+      "bytes": 6179,
+      "sha256": "92e0aa756df8737e688cf7aae08d6ac2530b121103374f185b3fff9434d7f716"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_hgb_price_only.npz",
+      "bytes": 3434,
+      "sha256": "95e5f14035cac63c9f09f6b52dcd2285557d33b2b07777f056d46408300797c8"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_hgb_price_plus_spectral_dynamics.npz",
+      "bytes": 2992,
+      "sha256": "a27fd57d6acb90b95db162a6c8cbc61f8fdad2091b2c2da73ed49616bb3ba2c6"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_price_only.npz",
+      "bytes": 3177,
+      "sha256": "158ed363cccbc13954813c6a5e34cabad5f20c9d6a1e1f6f10d041db379153f9"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_price_plus_all.npz",
+      "bytes": 2161,
+      "sha256": "39255538f09dc8eacbe93d12ee98110911701bb3ba605944330518605d98928e"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_price_plus_stft.npz",
+      "bytes": 2278,
+      "sha256": "b2ca3e9a4fbb03c99b2222983053cdfaf747ea1cf1e55b774f2a4f26f0bb13ed"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trades_price_plus_wavelets.npz",
+      "bytes": 1788,
+      "sha256": "8d24cf23d2cf7e9cd56cfc38472d80ee9b73b8286e303c2cdf5212044dffaafc"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trading.json",
+      "bytes": 14710,
+      "sha256": "d58587b9630af0dec6b9c2e4447fada8eee40ae92531023f53ef4cc9bc133697"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trading_candidates_validation.json",
+      "bytes": 25168,
+      "sha256": "30a66af08da32ad36177d5618c9b72675a29dce1ff80a3c7d8c5242444c3db1d"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/trading_robustness.json",
+      "bytes": 5011,
+      "sha256": "9315f2413fbfa8ff1b5e4c8dede604f4d4cb9eb721a60d6e2fabbb0ac3c30a43"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/versions.json",
+      "bytes": 154,
+      "sha256": "bfaca892a24832310542c187876cc62d531f2aca4982182e9d0b1863d6010869"
+    },
+    {
+      "file": "reports/spectral_analysis_20261012/volatility_decay.json",
+      "bytes": 5268,
+      "sha256": "0a0541963e0a2346cba16c31951d024eb4e8f7db5faff5061fb987d6507d31b0"
+    }
+  ],
+  "excluded_large_derived_files": [
+    "base.npy",
+    "spectral.npy"
+  ],
+  "original_HDF5_in_separate_dataset": true
+}

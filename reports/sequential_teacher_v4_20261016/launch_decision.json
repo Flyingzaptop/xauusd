@@ -1,0 +1,7 @@
+{
+  "allowed": false,
+  "reasons": [
+    "meta gate has not passed"
+  ],
+  "stage": "real_pilot"
+}
