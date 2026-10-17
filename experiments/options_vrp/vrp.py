@@ -1,6 +1,7 @@
-"""Short daily-option strategies on Deribit history (see PROTOCOL.md). usage: vrp.py DERIBIT_DIR OUT.json"""
+"""Short option strategies on Deribit history (see PROTOCOL.md). usage: vrp.py DERIBIT_DIR OUT.json [TENOR_DAYS=1]
+TENOR 1 = daily options; 7 = weeklies entered the Friday a week before expiry; 28 = monthlies entered 4 weeks before."""
 import sys,glob,json,numpy as np,pandas as pd
-D,OUT=sys.argv[1:3];FIT_END='2024-01-01';VAL_END='2025-01-01'
+D,OUT=sys.argv[1:3];TEN=int(sys.argv[3]) if len(sys.argv)>3 else 1;FIT_END='2024-01-01';VAL_END='2025-01-01'
 KS=[0.0,0.5,1.0,1.5];MS=[None,0.0,0.1,0.2];WING=1.0
 def har_sigma(sym):
     """Forecast sigma of log return over the next 24 h (08:00->08:00 UTC) from Binance 1m; log-HAR fitted on 2021-2023 only."""
@@ -16,7 +17,7 @@ def load(cur):
     fs=sorted(glob.glob(f'{D}/{cur}_opt_*.parquet'));t=pd.concat([pd.read_parquet(f) for f in fs],ignore_index=True)
     p=t.instrument_name.str.split('-',expand=True);t['exp']=pd.to_datetime(p[1],format='%d%b%y');t['K']=p[2].astype(float);t['cp']=p[3]
     t['ts']=pd.to_datetime(t.timestamp,unit='ms');t['day']=t.ts.dt.floor('D')
-    t=t[t.exp==t.day+pd.Timedelta(days=1)].copy()                   # daily options: expire next day 08:00
+    t=t[t.exp==t.day+pd.Timedelta(days=TEN)].copy()                 # options expiring exactly TEN days after entry (08:00)
     dl=pd.read_parquet(f'{D}/{cur}_delivery.parquet');dl=pd.Series(dl.delivery_price.values,index=pd.to_datetime(dl.date))
     return t,dl
 def fills(t):
@@ -30,8 +31,8 @@ def leg(px,S0,K,cp,ST,sign):
 def run(cur):
     t,dl=load(cur);sig,_=har_sigma(cur);F=fills(t);rows=[]
     for day,fd in F.groupby(level='day'):
-        if day+pd.Timedelta(days=1) not in dl.index or day not in sig.index:continue
-        ST=dl[day+pd.Timedelta(days=1)];sh=sig[day];fd=fd.droplevel('day')
+        if day+pd.Timedelta(days=TEN) not in dl.index or day not in sig.index:continue
+        ST=dl[day+pd.Timedelta(days=TEN)];sh=sig[day]*np.sqrt(TEN);fd=fd.droplevel('day')
         S0=np.nanmean(fd[('S0','sell')].values) if ('S0','sell') in fd else np.nan
         if not np.isfinite(S0):continue
         def pick(cp,target,side):
@@ -45,7 +46,7 @@ def run(cur):
         for k in KS:
             ce=pick('C',S0*np.exp(k*sh),'sell');pu=pick('P',S0*np.exp(-k*sh),'sell')
             if ce is None or pu is None:continue
-            short=leg(ce[1],S0,ce[0],'C',ST,-1)+leg(pu[1],S0,pu[0],'P',ST,-1);iv=(ce[2]+pu[2])/2/100/np.sqrt(365)
+            short=leg(ce[1],S0,ce[0],'C',ST,-1)+leg(pu[1],S0,pu[0],'P',ST,-1);iv=(ce[2]+pu[2])/2/100*np.sqrt(TEN/365)
             wc=pick('C',S0*np.exp((k+WING)*sh),'buy');wp=pick('P',S0*np.exp(-(k+WING)*sh),'buy')
             wing=leg(wc[1],S0,wc[0],'C',ST,1)+leg(wp[1],S0,wp[0],'P',ST,1) if (wc and wp and wc[0]>ce[0] and wp[0]<pu[0]) else np.nan
             rows.append(dict(day=day,k=k,short=short,wing=wing,iv=iv,sig=sh,ret=np.log(ST/S0)))
@@ -53,11 +54,11 @@ def run(cur):
 def st(x):
     x=np.asarray(x,float);x=x[np.isfinite(x)];n=len(x)
     if n<5:return {'n':n}
-    eq=np.cumsum(x);return {'n':n,'mean_bp':float(x.mean()),'t':float(x.mean()/x.std()*np.sqrt(n)),'sharpe':float(x.mean()/x.std()*np.sqrt(365)),
+    eq=np.cumsum(x);return {'n':n,'mean_bp':float(x.mean()),'t':float(x.mean()/x.std()*np.sqrt(n)),'sharpe':float(x.mean()/x.std()*np.sqrt(365/TEN)),
         'worst_bp':float(x.min()),'maxdd_bp':float((np.maximum.accumulate(eq)-eq).max()),'win':float((x>0).mean())}
 out={}
 for cur in ('BTC','ETH'):
-    R=run(cur);R.to_parquet(f'{D}/{cur}_vrp_rows.parquet');res={}
+    R=run(cur);R.to_parquet(f'{D}/{cur}_vrp_rows_T{TEN}.parquet');res={}
     for per,(a,b) in {'fit':('2000','2024-01-01'),'val':('2024-01-01','2025-01-01'),'test':('2025-01-01','2100')}.items():
         r=R[(R.day>=a)&(R.day<b)]
         for k in KS:
