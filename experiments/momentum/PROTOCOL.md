@@ -26,3 +26,8 @@ Universe each month = top 20 USDT perps by trailing-30-day quote volume at the m
 ever listed (delisted included), using Binance daily klines. Same SMA rules (20/50/100 ensemble and SMA50 alone), per-asset vol
 target, equal-risk basket, 10 bp costs, funding ignored (caveat). A coin that stops trading is closed at its last price.
 Periods 2021-2023 / 2024-2026-09. Pass = test Sharpe > 0.5 for the SMA50 rule.
+
+## Amendment M6 (declared before running): controls for the candidate spec
+(a) same construction with signal = +1 always (vol-targeted long-only) and with signal = sign of a circularly shifted SMA signal
+(shift by 180..2000 days, 50 shifts) -> distribution of Sharpe under "same exposure profile, no timing";
+(b) stationary block bootstrap (30-day blocks, 5000 resamples) of the candidate's daily returns -> 90% CI of Sharpe.
