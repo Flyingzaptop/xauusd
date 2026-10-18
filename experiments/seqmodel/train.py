@@ -7,7 +7,7 @@ p.add_argument('--train',nargs='+',required=True);p.add_argument('--val',nargs='
 p.add_argument('--backend',default='attn');p.add_argument('--d',type=int,default=256);p.add_argument('--depth',type=int,default=8);p.add_argument('--heads',type=int,default=8)
 p.add_argument('--Lf',type=int,default=3600);p.add_argument('--Lc',type=int,default=1440);p.add_argument('--K',type=int,default=32);p.add_argument('--batch',type=int,default=8)
 p.add_argument('--pre_steps',type=int,default=2000);p.add_argument('--ft_steps',type=int,default=4000);p.add_argument('--lr',type=float,default=3e-4);p.add_argument('--eval_every',type=int,default=500)
-p.add_argument('--device',default='cuda');p.add_argument('--out',default='/content/seq_out');p.add_argument('--eval_stride',type=int,default=60);p.add_argument('--val_stride',type=int,default=300);p.add_argument('--eval_batch',type=int,default=64)
+p.add_argument('--device',default='cuda');p.add_argument('--out',default='/content/seq_out');p.add_argument('--eval_stride',type=int,default=60);p.add_argument('--val_stride',type=int,default=300);p.add_argument('--eval_batch',type=int,default=64);p.add_argument('--ckpt_every',type=int,default=1000)
 a=p.parse_args();dev=torch.device(a.device);os.makedirs(a.out,exist_ok=True);torch.manual_seed(1)
 def pairs(lst):
     b=[f for f in lst if 'BTCUSDT' in os.path.basename(f)];e=[f for f in lst if 'ETHUSDT' in os.path.basename(f)];return b,e
@@ -40,9 +40,16 @@ def scaled(b):
 PRED={}
 opt=torch.optim.AdamW(m.parameters(),lr=a.lr,weight_decay=0.05);rng=np.random.default_rng(1);log=[];t0=time.time()
 def lr_at(st,tot):return a.lr*min(1,st/200)*0.5*(1+math.cos(math.pi*min(st,tot)/tot))
+CK=a.out+'/ckpt.pt';start=('pretrain',1,-1e9)            # resumable: full state saved every ckpt_every steps and after each eval
+if os.path.exists(CK):
+    c=torch.load(CK,weights_only=False);m.load_state_dict(c['model']);opt.load_state_dict(c['opt']);rng.bit_generator.state=c['rng'];log=c['log'];start=(c['phase'],c['step']+1,c['best'])
+    print('RESUME',start[:2],flush=True)
+def save_ck(phase,st,best):
+    torch.save({'model':m.state_dict(),'opt':opt.state_dict(),'rng':rng.bit_generator.state,'log':log,'phase':phase,'step':st,'best':best},CK+'.tmp');os.replace(CK+'.tmp',CK)
 for phase,steps in (('pretrain',a.pre_steps),('finetune',a.ft_steps)):
-    best=-1e9
-    for st in range(1,steps+1):
+    if phase=='pretrain' and start[0]=='finetune':continue
+    best=start[2] if phase==start[0] else -1e9;s0=start[1] if phase==start[0] else 1
+    for st in range(s0,steps+1):
         for g_ in opt.param_groups:g_['lr']=lr_at(st,steps)*(1 if phase=='pretrain' else 0.5)
         b=TR.batch(anchors(TR,a.batch,rng),a.Lf,a.Lc,a.K)
         with torch.autocast(**amp):
@@ -56,7 +63,9 @@ for phase,steps in (('pretrain',a.pre_steps),('finetune',a.ft_steps)):
             r=evaluate(VA,a.val_stride);score=float(np.mean([v['ic'] for v in r.values()]));log.append({'step':st,'val':r,'score':score})
             print('VAL',st,json.dumps({k:round(v['ic'],4) for k,v in r.items()}),flush=True)
             if score>best:best=score;torch.save(m.state_dict(),a.out+'/best.pt')
-    if phase=='pretrain':torch.save(m.state_dict(),a.out+'/pretrained.pt')
+            save_ck(phase,st,best)
+        elif st%a.ckpt_every==0:save_ck(phase,st,best)
+    if phase=='pretrain':torch.save(m.state_dict(),a.out+'/pretrained.pt');save_ck('finetune',0,-1e9)
 m.load_state_dict(torch.load(a.out+'/best.pt'));final={'val':evaluate(VA,a.eval_stride)};th={k:v['thr'] for k,v in final['val'].items()}
 for nm,f_ in zip(a.test_names,TE):final[nm]=evaluate(f_,a.eval_stride,th)
 np.savez(a.out+'/preds.npz',**{f'{n}_{k}':x for n,M_ in zip(['val']+a.test_names,[VA]+TE) for k,x in zip('PY',PRED[id(M_)])})   # raw predictions for offline analysis

@@ -2,7 +2,7 @@
 Used because chunked upload through the CLI is slower than the VM rebuilding the files (GPU idles during upload)."""
 import os,subprocess,sys,numpy as np
 from multiprocessing import Pool
-DD='/content/data';RAW='/content/raw';os.makedirs(RAW,exist_ok=True);B='https://data.binance.vision/data/futures/um'
+DD=os.environ.get('DATA_DIR','/content/data');RAW='/content/raw';OUT=os.environ.get('OUT_DIR','/content/outB');os.makedirs(DD,exist_ok=True);os.makedirs(RAW,exist_ok=True);B='https://data.binance.vision/data/futures/um'
 MONTHS=['2025-07','2025-08','2025-09','2025-10','2025-11','2025-12','2026-01','2026-02','2026-03','2026-04','2026-05','2026-06','2026-07','2026-08','2026-09']
 def ok(f):
     try:np.load(f)['s_cnt'][:1];return True
@@ -25,5 +25,5 @@ if __name__=='__main__':
     if not bad:
         f=lambda ms:' '.join(f'{DD}/{s}-{m}.npz' for s in ('BTCUSDT','ETHUSDT') for m in ms)
         cmd=(f"cd /content/seq && python -W ignore train.py --train {f(MONTHS[:9])} --val {f(MONTHS[9:12])} --test {f(MONTHS[12:])} --final {f(['final'])} "
-             "--d 384 --depth 12 --heads 8 --batch 8 --pre_steps 15000 --ft_steps 15000 --eval_every 2500 --val_stride 600 --eval_stride 120 --eval_batch 64 --out /content/outB > /content/outB/train.log 2>&1")
-        os.makedirs('/content/outB',exist_ok=True);print('TRAIN START',flush=True);subprocess.run(cmd,shell=True);print('TRAIN END',flush=True)
+             f"--d 384 --depth 12 --heads 8 --batch 8 --pre_steps 15000 --ft_steps 15000 --eval_every 2500 --val_stride 600 --eval_stride 120 --eval_batch 64 --out {OUT} 2>&1 | tee -a {OUT}/train.log")
+        os.makedirs(OUT,exist_ok=True);print('TRAIN START',flush=True);subprocess.run(cmd,shell=True);print('TRAIN END',flush=True)
