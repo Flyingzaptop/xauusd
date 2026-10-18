@@ -1,0 +1,146 @@
+{
+ "direction/money_div10/seen201-203": [
+  0.997,
+  1.95,
+  2.865
+ ],
+ "direction/money_div10/fresh301-305": [
+  1.231,
+  0.7,
+  0.346,
+  2.336,
+  2.16
+ ],
+ "direction/money_div7/seen201-203": [
+  1.433,
+  2.823,
+  3.404
+ ],
+ "direction/money_div7/fresh301-305": [
+  1.433,
+  0.74,
+  0.344,
+  3.097,
+  2.91
+ ],
+ "direction/money_div5/seen201-203": [
+  2.322,
+  3.544,
+  3.635
+ ],
+ "direction/money_div5/fresh301-305": [
+  1.767,
+  0.767,
+  0.335,
+  3.623,
+  3.451
+ ],
+ "direction/money_div3/seen201-203": [
+  3.616,
+  3.831,
+  1.699
+ ],
+ "direction/money_div3/fresh301-305": [
+  2.841,
+  0.754,
+  0.293,
+  0.244,
+  3.786
+ ],
+ "direction/money_div2/seen201-203": [
+  3.624,
+  3.741,
+  -0.348
+ ],
+ "direction/money_div2/fresh301-305": [
+  3.594,
+  0.65,
+  0.21,
+  0.342,
+  -0.416
+ ],
+ "direction/money_div1/seen201-203": [
+  0.078,
+  -0.379,
+  3.05
+ ],
+ "direction/money_div1/fresh301-305": [
+  4.0,
+  0.582,
+  0.14,
+  -0.546,
+  0.199
+ ],
+ "cross_market/money_div10/seen201-203": [
+  0.207,
+  0.222,
+  0.172
+ ],
+ "cross_market/money_div10/fresh301-305": [
+  0.404,
+  0.391,
+  0.233,
+  0.067,
+  -0.246
+ ],
+ "cross_market/money_div7/seen201-203": [
+  0.312,
+  0.283,
+  0.289
+ ],
+ "cross_market/money_div7/fresh301-305": [
+  0.465,
+  0.471,
+  0.263,
+  0.201,
+  -0.283
+ ],
+ "cross_market/money_div5/seen201-203": [
+  0.495,
+  0.344,
+  0.521
+ ],
+ "cross_market/money_div5/fresh301-305": [
+  0.502,
+  0.518,
+  0.278,
+  0.304,
+  -0.327
+ ],
+ "cross_market/money_div3/seen201-203": [
+  1.282,
+  0.581,
+  0.834
+ ],
+ "cross_market/money_div3/fresh301-305": [
+  0.534,
+  0.553,
+  0.318,
+  0.329,
+  -0.391
+ ],
+ "cross_market/money_div2/seen201-203": [
+  0.848,
+  1.108,
+  0.311
+ ],
+ "cross_market/money_div2/fresh301-305": [
+  0.534,
+  0.565,
+  0.381,
+  0.295,
+  -0.433
+ ],
+ "cross_market/money_div1/seen201-203": [
+  1.04,
+  0.674,
+  -0.564
+ ],
+ "cross_market/money_div1/fresh301-305": [
+  0.513,
+  0.575,
+  0.172,
+  0.256,
+  -0.457
+ ]
+}

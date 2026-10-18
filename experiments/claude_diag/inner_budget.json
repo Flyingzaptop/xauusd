@@ -1,0 +1,82 @@
+{
+ "direction/steps3/money_div10": [
+  1.355,
+  4.068
+ ],
+ "direction/steps3/money_div1": [
+  0.875,
+  4.068
+ ],
+ "direction/steps10/money_div10": [
+  2.703,
+  4.068
+ ],
+ "direction/steps10/money_div1": [
+  0.994,
+  4.068
+ ],
+ "direction/steps30/money_div10": [
+  3.942,
+  4.068
+ ],
+ "direction/steps30/money_div1": [
+  0.69,
+  4.068
+ ],
+ "direction/steps100/money_div10": [
+  4.031,
+  4.068
+ ],
+ "direction/steps100/money_div1": [
+  1.334,
+  4.068
+ ],
+ "direction/steps300/money_div10": [
+  4.054,
+  4.068
+ ],
+ "direction/steps300/money_div1": [
+  1.663,
+  4.068
+ ],
+ "cross_market/steps3/money_div10": [
+  0.17,
+  4.068
+ ],
+ "cross_market/steps3/money_div1": [
+  0.212,
+  4.068
+ ],
+ "cross_market/steps10/money_div10": [
+  0.331,
+  4.068
+ ],
+ "cross_market/steps10/money_div1": [
+  0.223,
+  4.068
+ ],
+ "cross_market/steps30/money_div10": [
+  1.682,
+  4.068
+ ],
+ "cross_market/steps30/money_div1": [
+  0.204,
+  4.068
+ ],
+ "cross_market/steps100/money_div10": [
+  1.757,
+  4.068
+ ],
+ "cross_market/steps100/money_div1": [
+  0.203,
+  4.068
+ ],
+ "cross_market/steps300/money_div10": [
+  1.767,
+  4.068
+ ],
+ "cross_market/steps300/money_div1": [
+  0.204,
+  4.068
+ ]
+}

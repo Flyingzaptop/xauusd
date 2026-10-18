@@ -1,0 +1,12 @@
+{
+ "candidate_sharpe": 1.0705934952467049,
+ "longonly_voltarget_sharpe": 0.21266925684244845,
+ "shifted_signal_sharpe_mean": -0.11240167990709703,
+ "shifted_p95": 0.5210648729408107,
+ "share_shifted_ge_candidate": 0.0,
+ "bootstrap_sharpe_ci90": [
+  0.5513419037527538,
+  1.5781829771035703
+ ],
+ "bootstrap_P_sharpe_le_0": 0.0006
+}
